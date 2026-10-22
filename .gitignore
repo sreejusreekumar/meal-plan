@@ -1,9 +1,21 @@
+# Python / uv
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 .ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# OS / editors
 .DS_Store
+.idea/
+.vscode/
+
+# Secrets and local state (repo is public)
 .env
-# Microsoft token cache must never be committed (repo is public)
+.env.*
+!.env.example
 ms_token_cache.json
+*.token.json
