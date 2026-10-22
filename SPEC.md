@@ -1,7 +1,7 @@
 # Family Meal Planner — Specification
 
-Status: v0.3 (2026-10-23). Decisions from the first review are folded in; phase 0 is
-implemented (see section 15). Remaining questions are in section 17.
+Status: v0.4 (2026-10-23). Phases 0 to 2 are implemented (section 15). All open
+questions were settled in review 3 (section 16); section 17 is empty.
 
 ## 1. Goal
 
@@ -77,6 +77,8 @@ main and favours dinner-makes-tomorrow's-lunch pairings (section 7).
   measured, not free; prefer olive/rice-bran/mustard oil; nuts and seeds as
   snacks.
 - One "treat" slot per week (e.g. Sunday appam), tagged so the validator counts it.
+- Signature dishes: each pack tags the cuisine's best-known dishes; a week must
+  carry at least three, so trying a country's food is guaranteed, not incidental.
 
 ### 3.3 Per-day numeric targets (per adult reference portion, defaults)
 
@@ -264,6 +266,7 @@ weeklyRules:
   eggMainsMax: 5         # meals whose main protein is egg
   treatsMax: 1
   vegDinnersMin: 2
+  signatureDishesMin: 3   # recipes tagged signature (phase 5)
 pantryStaples: [salt, turmeric, black pepper, mustard seeds, curry leaves, coconut oil,
                 olive oil, cumin, coriander powder, chilli powder, garam masala]
 todo:
@@ -468,12 +471,12 @@ git add -A && git commit -m "Plan 2026-W45 (Thai)" && git push
 | Phase | Deliverable | Done when |
 |---|---|---|
 | 0 ✅ | uv project, models, validator, Kerala pack migrated from the 28 hardcoded days (108 recipes), generator, build, CI | `index.html` is regenerated from data and looks like today |
-| 1 | Ingredient catalogue, quantities + nutrition + steps for all Kerala recipes, shopping list (md + json), in-page list with tick boxes | A week's list prints grouped by aisle |
-| 2 | Recipe panel in the page, recipe CLI | Every meal opens a recipe |
+| 1 ✅ | Ingredient catalogue, quantities + nutrition + steps for all Kerala recipes, shopping list (md + json), in-page list with tick boxes | A week's list prints grouped by aisle |
+| 2 ✅ | Recipe panel in the page, recipe CLI | Every meal opens a recipe |
 | 3 | Microsoft To Do push into the "Weekly Basket" list | `--todo` fills the list on the phone |
 | 4 | Saturday automation (Actions cron, manual dispatch, rotation) and local To Do job | A week appears on the tablet with no manual step |
-| 5 | More cuisine packs via `add-cuisine` + Claude authoring: North Indian, Sri Lankan, Thai, Mediterranean, Middle Eastern, Mexican, Japanese, Italian, Chinese, Vietnamese, Korean | Each pack passes `validate` and produces a valid week |
-| 6 | Nice-to-haves: per-person kid lunchbox slot, mixed-by-meal weeks, nutrition summary chart, print view | — |
+| 5 | Five cuisine packs via `add-cuisine` + agent authoring: North Indian, Sri Lankan, Thai, Mediterranean, Middle Eastern (Mexican, Japanese, Italian, Chinese, Vietnamese, Korean on request). Signature dishes tagged and badged; `signatureDishesMin` rule | Each pack passes `validate`, produces a valid week, and you have skimmed it |
+| 6 | Kids' lunchbox slot, mixed-by-meal weeks, leftover-driven lunches, nutrition summary chart, print view | — |
 
 ## 16. Decisions log
 
@@ -490,17 +493,19 @@ git add -A && git commit -m "Plan 2026-W45 (Thai)" && git push
 | 9 | Python 3.12 + uv, not Node (section 4.1) | Review 1 |
 | 10 | To Do push goes to one new dedicated list, "Weekly Basket" | Review 2 |
 | 11 | Ingredient names come from one catalogue (`config/ingredients.yaml`); recipes reference it | Phase 1 |
+| 12 | Nutrition values are estimates, corrected as recipes are cooked; no up-front review | Review 3 |
+| 13 | Energy targets stand as set in `household.yaml` | Review 3 |
+| 14 | To Do: one task per item in aisle order; pantry staples as one task with checklist sub-items | Review 3 |
+| 15 | To Do push runs on the Mac (n8n or launchd) on Saturday mornings, not in GitHub Actions; separate token cache under `~/.config/meal-plan/` | Review 3 |
+| 16 | shopping-assistant syncs "Weekly Basket" too, so the basket gets price-compared | Review 3 |
+| 17 | Automation: GitHub Actions, Saturday 06:00 Australia/Melbourne, for the week starting Monday | Review 3 |
+| 18 | Lunches stay separate dishes (no doubled dinners); kids' lunchbox slot is a later phase | Review 3 |
+| 19 | Phase 5 authors five packs: North Indian, Sri Lankan, Thai, Mediterranean, Middle Eastern; the rest on request. Agents write from their own knowledge (no fetching); gates are schema check, pack validation, a generated week, and a skim | Review 3 |
+| 20 | Every pack carries the cuisine's signature dishes, tagged `signature` with the traditional dish recorded; weekly rule `signatureDishesMin: 3`; iconic dishes that cannot be adapted are the week's single treat; the page badges them with one sentence | Review 3 |
 
 ## 17. Open questions
 
-1. **Energy targets.** The per-person defaults in 3.1 ignore sex and activity
-   level. Adjust the numbers in `household.yaml` or tell me and I will.
-2. **To Do push automation.** Option (a) local Mac job via n8n/launchd, or
-   (b) token in GitHub secrets? Default is (a) unless you say otherwise.
-3. **Token cache.** Share shopping-assistant's cache file (one login for both
-   tools) or keep a separate one under `~/.config/meal-plan/`? Default: separate.
-4. **First rotation.** Proposed order for `rotation.yaml`: Kerala, North Indian,
-   Sri Lankan, Thai, Mediterranean, Middle Eastern, then repeat. Confirm or reorder.
+None. Everything raised so far is settled in the decisions log (section 16).
 
 ## 18. Non-goals
 

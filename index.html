@@ -153,6 +153,30 @@ footer { color: var(--muted); font-size: 0.75em; text-align: center; }
 .aisle.pantry { background: var(--turmeric-soft); border-color: var(--turmeric); }
 .empty { color: var(--muted); }
 
+/* Recipe panel */
+.meal[data-slot] { cursor: pointer; }
+.meal[data-slot]:hover, .meal[data-slot]:focus-visible { border-color: var(--leaf); }
+.open-recipe { margin-top: auto; align-self: flex-start; background: none; border: 0; padding: 4px 0 0; color: var(--leaf); font-weight: 700; font-size: 0.85em; cursor: pointer; }
+.overlay { position: fixed; inset: 0; background: rgba(14, 22, 17, 0.55); display: grid; place-items: center; padding: 16px; z-index: 10; }
+.panel {
+  background: var(--surface); color: var(--ink); border-radius: 14px; border: 2px solid var(--line);
+  width: min(100%, 860px); max-height: calc(100vh - 32px); overflow: auto; padding: 20px 22px 26px;
+  display: grid; gap: 14px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.panel-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.panel h2 { font-family: var(--display); font-weight: 800; font-size: 1.4em; margin: 0; line-height: 1.15; text-wrap: balance; }
+.panel .meta { color: var(--muted); font-size: 0.85em; margin-top: 4px; }
+.close { background: var(--bg); border: 2px solid var(--line); border-radius: 999px; width: 44px; height: 44px; font-size: 1.3em; cursor: pointer; flex: none; }
+.panel h3 { font-family: var(--display); font-weight: 600; font-size: 0.85em; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 6px 0 4px; }
+.panel .recipe + .recipe { border-top: 1px solid var(--line); padding-top: 14px; }
+.ings { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 4px 20px; }
+.ings li { display: flex; justify-content: space-between; gap: 10px; padding: 4px 0; border-bottom: 1px dashed var(--line); }
+.ings .q { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ings li.staple { color: var(--muted); }
+.panel ol { margin: 0; padding-left: 1.4em; display: grid; gap: 8px; }
+.panel ol li::marker { color: var(--leaf); font-weight: 700; }
+.panel .kid { margin: 0; }
+
 @media (max-width: 760px) {
   .days { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 16px; }
   .clock { text-align: left; justify-items: start; }
@@ -201,6 +225,10 @@ footer { color: var(--muted); font-size: 0.75em; text-align: center; }
     <div class="shop-head" id="shopHead"></div>
     <div class="aisles" id="aisles"></div>
   </section>
+
+  <div class="overlay" id="recipeOverlay" hidden>
+    <div class="panel" role="dialog" aria-modal="true" aria-labelledby="recipeTitle" id="recipePanel"></div>
+  </div>
 
   <footer id="footer"></footer>
 </div>
@@ -305,6 +333,57 @@ function renderShopping(week) {
   $("aisles").innerHTML = html;
 }
 
+/* ---------- recipe panel ---------- */
+let openSlot = null;
+function roundUp(q, unit) {
+  const count = { pc: 1, bunch: 1, sprig: 1 };
+  if (unit in count) return Math.ceil(q - 1e-9);
+  if (unit === "tsp" || unit === "tbsp") return Math.ceil(q * 2 - 1e-9) / 2;
+  const step = q < 100 ? 10 : q < 1000 ? 50 : 100;
+  return Math.ceil(q / step - 1e-9) * step;
+}
+function fmtAmount(q, unit) {
+  if (unit === "g" && q >= 1000) return (q / 1000) + " kg";
+  if (unit === "ml" && q >= 1000) return (q / 1000) + " L";
+  const plural = { pc: "pcs", bunch: "bunches", sprig: "sprigs" };
+  if (unit in plural) return q + " " + (q === 1 ? unit : plural[unit]);
+  return q + " " + unit;
+}
+function renderRecipe(week, day, slot) {
+  const pack = packOf(day);
+  const recipes = (day.meals[slot] || []).map(id => week.recipes[id]).filter(Boolean);
+  const servings = DATA.household.servings;
+  const label = (pack.slotLabels || {})[slot] || DEFAULT_LABELS[slot];
+  const body = recipes.map((r, i) => {
+    const mins = (r.prepMinutes || 0) + (r.cookMinutes || 0);
+    const meta = [r.protein !== "none" ? r.protein : null, r.spice, mins ? mins + " min" : null,
+      "~" + (r.nutrition.kcal || 0) + " kcal per adult", r.packable ? "packs well" : null].filter(Boolean).join(" · ");
+    const n = r.nutrition || {};
+    const nutri = ["carbs", "fibre", "protein", "satFat"].filter(k => n[k] != null).map(k => `${k === "satFat" ? "sat fat" : k} ${n[k]} g`).join(" · ");
+    const ings = (r.ingredients || []).map(x => {
+      const unit = x.unit || "pc";
+      return `<li class="${x.staple ? "staple" : ""}"><span>${esc(x.item)}</span><span class="q">${esc(fmtAmount(roundUp(x.qty * servings, unit), unit))}</span></li>`;
+    }).join("");
+    const steps = (r.steps || []).map(st => `<li>${esc(st)}</li>`).join("");
+    const byTarget = new Map();
+    for (const sw of (r.swaps || [])) { if (!byTarget.has(sw.for)) byTarget.set(sw.for, []); byTarget.get(sw.for).push(sw.use + (sw.note ? " (" + sw.note + ")" : "")); }
+    const swaps = [...byTarget].map(([t, uses]) => "Instead of " + t + ": " + uses.join(" or ")).concat(r.swapNote ? [r.swapNote] : []);
+    return `<section class="recipe">
+      ${i === 0 ? `<h2 id="recipeTitle">${esc(r.name)}</h2>` : `<h2>${esc(r.name)}</h2>`}
+      <div class="meta">${esc(meta)}${nutri ? "<br>" + esc(nutri) : ""}</div>
+      ${r.kidNote ? `<p class="kid">Kid: ${esc(r.kidNote)}</p>` : ""}
+      ${ings ? `<h3>Ingredients for the household · ${servings} servings</h3><ul class="ings">${ings}</ul>` : ""}
+      ${steps ? `<h3>Method</h3><ol>${steps}</ol>` : ""}
+      ${swaps.length ? `<div class="swap"><b>Swap</b>${esc(swaps.join(" · "))}</div>` : ""}
+    </section>`;
+  }).join("");
+  $("recipePanel").innerHTML = `<div class="panel-top"><div><div class="meta">${esc(label)} · ${esc(fmtDay(day.date))} · ${esc(pack.name)}</div></div>
+    <button type="button" class="close" id="recipeClose" aria-label="Close">×</button></div>${body}`;
+  $("recipeOverlay").hidden = false;
+  $("recipeClose").focus();
+}
+function closeRecipe() { openSlot = null; $("recipeOverlay").hidden = true; }
+
 function render() {
   const isShopping = view === "shopping";
   for (const id of ["days", "dayHead", "meals", "rules"]) $(id).hidden = isShopping;
@@ -369,7 +448,7 @@ function render() {
     }
     const swap = swapLines.length ? `<div class="swap"><b>Swap</b>${esc(swapLines.join(" · "))}</div>` : "";
     const label = (pack.slotLabels || {})[slot] || DEFAULT_LABELS[slot];
-    return `<article class="meal${slot === nowKey ? " now" : ""}${past ? " past" : ""}">
+    return `<article class="meal${slot === nowKey ? " now" : ""}${past ? " past" : ""}" data-slot="${slot}" tabindex="0" role="button" aria-haspopup="dialog">
       <div class="meal-top">
         <span class="meal-label">${esc(label)}${slot === nowKey ? '<span class="now-pill">Now</span>' : ""}${past ? '<span class="done-pill">Earlier</span>' : ""}</span>
         <span class="meal-kcal">~${cal} kcal</span>
@@ -378,6 +457,7 @@ function render() {
       <ul>${items}</ul>
       ${kid.length ? `<p class="kid">Kid: ${esc(kid[0])}</p>` : ""}
       ${swap}
+      ${recipes.some(r => (r.ingredients || []).length || (r.steps || []).length) ? '<span class="open-recipe">Recipe ▸</span>' : ""}
     </article>`;
   }).join("");
 
@@ -427,7 +507,14 @@ document.addEventListener("click", (e) => {
   }
   const d = e.target.closest("[data-day]");
   if (d) { sel = { wi: sel.wi, di: Number(d.dataset.day) }; render(); return; }
-  if (e.target.closest("#backToday") && todayLoc) { sel = { ...todayLoc }; render(); }
+  if (e.target.closest("#backToday") && todayLoc) { sel = { ...todayLoc }; render(); return; }
+  if (e.target.closest("#recipeClose") || (e.target === $("recipeOverlay"))) { closeRecipe(); return; }
+  const card = e.target.closest(".meal[data-slot]");
+  if (card && sel) { openSlot = card.dataset.slot; renderRecipe(weeks[sel.wi], weeks[sel.wi].days[sel.di], openSlot); }
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && openSlot) { closeRecipe(); return; }
+  if ((e.key === "Enter" || e.key === " ") && e.target.matches(".meal[data-slot]")) { e.preventDefault(); e.target.click(); }
 });
 
 /* Every minute: refresh the clock, roll over at midnight, and drift back
@@ -440,6 +527,7 @@ setInterval(() => {
   todayLoc = t;
   if ((changed || idle) && todayLoc) sel = { ...todayLoc };
   if (idle && view === "shopping") view = "menu";
+  if (idle && openSlot) closeRecipe();
   render();
 }, 60 * 1000);
 
@@ -458,6 +546,8 @@ document.addEventListener("visibilitychange", () => { if (document.visibilitySta
 
 updateClock();
 render();
+const m = location.hash.match(/^#recipe-(breakfast|lunch|snack|dinner)$/);
+if (m && sel) { openSlot = m[1]; renderRecipe(weeks[sel.wi], weeks[sel.wi].days[sel.di], openSlot); }
 </script>
 </body>
 </html>
