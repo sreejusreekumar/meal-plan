@@ -13,7 +13,22 @@ effort: weekday
 family: nuts
 nutrition:
   kcal: 130
+  carbs: 3
+  fibre: 2
+  protein: 4
+  satFat: 1
+  sugar: 0
 components:
 - Kattan Chaya (black tea, unsweetened)
 - 12-15 roasted peanuts or almonds
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: almonds, qty: 8, unit: g }
+steps:
+  - Boil a cup of water, add the tea leaves, simmer 2 minutes, strain and serve unsweetened.
+  - Dry-roast the peanuts and almonds in a pan for 3 to 4 minutes until fragrant.
+  - Serve the nuts warm with the tea.

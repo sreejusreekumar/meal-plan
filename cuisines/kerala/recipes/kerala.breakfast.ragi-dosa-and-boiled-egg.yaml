@@ -9,10 +9,37 @@ spice: medium
 packable: false
 effort: weekday
 family: dosa
+prepMinutes: 10
+cookMinutes: 15
 nutrition:
   kcal: 370
+  carbs: 44
+  fibre: 8
+  protein: 13
+  satFat: 3.5
+  sugar: 0
 components:
 - 2 thin ragi dosas
 - 1 tbsp coriander chammanthi
 - 1 hard-boiled egg
+ingredients:
+  - { item: ragi flour, qty: 50, unit: g }
+  - { item: rice flour, qty: 10, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 30, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch  }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: tamarind, qty: 2, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - Whisk the ragi flour, rice flour and yoghurt with water, cumin, chopped onion, chilli and salt into a thin batter; rest 10 minutes.
+  - Grind the coconut, coriander, shallots, ginger and tamarind with salt into a thick chammanthi.
+  - Pour the batter thinly onto a hot tawa, drizzle a little oil and cook until crisp; make 2 dosas.
+  - Hard-boil the egg (10 minutes), peel and halve. Serve with the dosas and 1 tablespoon of chammanthi.
 source: Kerala 28-day plan (index.html, Oct 2026)

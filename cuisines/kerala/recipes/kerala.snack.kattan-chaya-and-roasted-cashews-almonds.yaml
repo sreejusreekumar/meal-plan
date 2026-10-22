@@ -13,7 +13,22 @@ effort: weekday
 family: nuts
 nutrition:
   kcal: 120
+  carbs: 4
+  fibre: 1.5
+  protein: 3
+  satFat: 1.1
+  sugar: 0
 components:
 - Kattan Chaya
 - 10-12 roasted cashews/almonds
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: cashews, qty: 8, unit: g }
+  - { item: almonds, qty: 8, unit: g }
+steps:
+  - Boil a cup of water, add the tea leaves, simmer 2 minutes, strain and serve unsweetened.
+  - Dry-roast the cashews and almonds in a pan for 2 to 3 minutes until lightly golden.
+  - Serve the nuts warm with the tea.

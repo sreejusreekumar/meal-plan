@@ -8,11 +8,46 @@ protein: chicken
 spice: medium
 packable: false
 effort: weekday
+prepMinutes: 20
+cookMinutes: 25
 family: grilled-chicken
 nutrition:
   kcal: 490
+  carbs: 34
+  fibre: 10
+  protein: 42
+  satFat: 6
+  sugar: 0
 components:
 - 180g Kerala spiced pan-grilled chicken thigh/breast
 - 1.5 cups French beans thoran
 - 1 small chapati
+ingredients:
+- { item: chicken breast, qty: 180, unit: g }
+- { item: low-fat yoghurt (curd), qty: 30, unit: g }
+- { item: kashmiri chilli powder, qty: 1, unit: tsp }
+- { item: garam masala, qty: 0.5, unit: tsp }
+- { item: coriander powder, qty: 0.5, unit: tsp }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: lime, qty: 0.25, unit: pc   }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: french beans, qty: 150, unit: g }
+- { item: grated coconut, qty: 15, unit: g }
+- { item: shallots (small onions), qty: 20, unit: g }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: cumin seeds, qty: 0.25, unit: tsp }
+- { item: mustard seeds, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 1, unit: sprig }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: whole-wheat atta, qty: 30, unit: g }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Marinate the chicken in yoghurt, kashmiri chilli, garam masala, coriander, ginger, garlic, lime juice and salt for 15 minutes.
+- Knead the atta, roll one small chapati and cook on the tawa.
+- Pop the mustard seeds in coconut oil, add shallots, curry leaves and the chopped beans with turmeric and salt; cover and cook 8 minutes.
+- Stir in the coconut crushed with cumin and green chilli and cook until dry.
+- Pan-grill the chicken in the oil on medium heat 6 minutes a side until charred and cooked through.
+- Rest, slice and serve with the beans thoran and chapati.
 source: Kerala 28-day plan (index.html, Oct 2026)

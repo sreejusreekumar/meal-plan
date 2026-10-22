@@ -1,6 +1,6 @@
 id: kerala
 name: Kerala
-version: 1
+version: 2
 description: Multi-fish, no deep frying, fibre first. Migrated from the original 28-day plan.
 slots:
   breakfast: { compose: [main] }

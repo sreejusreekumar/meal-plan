@@ -9,10 +9,39 @@ spice: medium
 packable: false
 effort: weekday
 family: puttu
+prepMinutes: 10
+cookMinutes: 30
 nutrition:
   kcal: 380
+  carbs: 45
+  fibre: 10
+  protein: 18
+  satFat: 5
+  sugar: 0
 components:
 - 1 cup whole-wheat puttu
 - 3/4 cup Kadala curry
 - 1 hard-boiled egg
+ingredients:
+  - { item: whole-wheat atta, qty: 50, unit: g }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: black chickpeas (kadala), qty: 35, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g  }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: garlic, qty: 4, unit: g  }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: coconut oil, qty: 1, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - Soak the kadala overnight; pressure-cook with salt and turmeric for 5-6 whistles until soft.
+  - Heat coconut oil, pop mustard seeds and curry leaves, then saute shallots, ginger and garlic until golden.
+  - Add coriander, chilli and garam masala powders, the cooked kadala with its stock and the coconut; simmer to a thick gravy.
+  - "Dry-roast the atta lightly, then steam the puttu: sprinkle water into the salted flour until it clumps, layer in the puttu kutti with coconut and steam 5-7 minutes."
+  - Hard-boil the egg (10 minutes), peel and halve. Serve with the whole-wheat puttu and 3/4 cup of kadala curry.
 source: Kerala 28-day plan (index.html, Oct 2026)

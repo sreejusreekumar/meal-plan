@@ -10,9 +10,31 @@ kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
 family: omelette
+prepMinutes: 10
+cookMinutes: 8
 nutrition:
   kcal: 350
+  carbs: 20
+  fibre: 5
+  protein: 18
+  satFat: 3.5
+  sugar: 0
 components:
 - 2 eggs scrambled with finely chopped Cheera & green chillies
 - 1 slice 100% wholemeal bread toasted
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: amaranth leaves (cheera), qty: 0.5, unit: bunch }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+steps:
+  - Wash the cheera well and chop the leaves and tender stems finely; slice the shallots and chilli.
+  - Saute the shallots and chilli in the oil, add the cheera with turmeric and salt and wilt for 2-3 minutes.
+  - Pour in the whisked eggs and scramble on low heat; finish with pepper.
+  - Toast the wholemeal bread dry and serve alongside.
 source: Kerala 28-day plan (index.html, Oct 2026)

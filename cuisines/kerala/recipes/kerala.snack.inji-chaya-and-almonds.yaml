@@ -13,7 +13,22 @@ effort: weekday
 family: nuts
 nutrition:
   kcal: 120
+  carbs: 3
+  fibre: 2
+  protein: 3
+  satFat: 0.7
+  sugar: 0
 components:
 - Inji Chaya
 - 12 almonds
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: almonds, qty: 15, unit: g }
+steps:
+  - Crush the ginger, boil it in a cup of water for 2 minutes, add the tea leaves, simmer a minute and strain.
+  - Dry-roast the almonds in a pan for 2 to 3 minutes until fragrant.
+  - Serve the warm almonds alongside the drink.

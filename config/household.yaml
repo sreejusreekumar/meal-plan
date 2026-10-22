@@ -17,8 +17,8 @@ targetsPerReferenceDay:
   carbs: [null, 170]
   fibre: [25, null]
   protein: [70, null]
-  satFat: [null, 15]
-  sugar: [null, 0]
+  satFat: [null, 18]   # ~10% of energy; coconut-based cuisines sit near this
+  sugar: [null, 5]     # ADDED sugar only (e.g. the teaspoon in appam batter)
   refinedCarbDishes: [null, 1]
 weeklyRules:
   fishLunchesMin: 3
@@ -41,9 +41,4 @@ pantryStaples:
   - chilli powder
   - garam masala
 todo:
-  mode: lists-by-aisle
-  lists:
-    produce: Vegetables & Fruits
-    fish: Meat & Fish
-    meat: Meat & Fish
-    default: Groceries
+  listName: Weekly Basket   # Microsoft To Do list the shopping list is pushed to (created if missing)

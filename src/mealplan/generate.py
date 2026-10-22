@@ -15,7 +15,17 @@ from datetime import date, datetime
 from zoneinfo import ZoneInfo
 
 from mealplan import __version__
-from mealplan.models import DOWS, RED_MEAT, SLOTS, DayPlan, Household, LoadedPack, Plan, Recipe
+from mealplan.models import (
+    DOWS,
+    RED_MEAT,
+    SLOTS,
+    Catalogue,
+    DayPlan,
+    Household,
+    LoadedPack,
+    Plan,
+    Recipe,
+)
 from mealplan.validate import DayMeals, check_day, check_week, day_totals, week_checks
 from mealplan.weeks import dow_short, is_weekend, week_dates, week_start
 
@@ -131,13 +141,18 @@ def _score(
         shared = sum(len(mine & _non_staple_items(x, staples)) for x in state.chosen)
         score += min(1.0, 0.2 * shared)
     if slot == SLOTS[-1] and role == "main":
-        lo, hi = state.household.targets_per_reference_day.get("kcal", (None, None))
-        if lo is not None and hi is not None:
-            projected = sum(x.nutrition.kcal for x in today) + r.nutrition.kcal
-            mid = (lo + hi) / 2
-            score -= abs(projected - mid) / 50
-            if projected < lo or projected > hi:
-                score -= 5
+        # Last slot of the day: steer every tracked metric into its window, not just kcal.
+        totals = day_totals([*today, r])
+        for metric, (lo, hi) in state.household.targets_per_reference_day.items():
+            value = totals.get(metric)
+            if value is None:
+                continue
+            if lo is not None and value < lo:
+                score -= 5 + (lo - value) / max(lo, 1) * 10
+            if hi is not None and value > hi:
+                score -= 5 + (value - hi) / max(hi, 1) * 10
+            if metric == "kcal" and lo is not None and hi is not None:
+                score -= abs(value - (lo + hi) / 2) / 50
     return score
 
 
@@ -207,6 +222,13 @@ def _build_week(
     return state.days, problems, totals_out
 
 
+def _resolved(r: Recipe, catalogue: Catalogue | None) -> Recipe:
+    """Snapshot copy with aisle/staple/packSize filled in, so the plan is self-contained."""
+    if catalogue is None or not r.ingredients:
+        return r
+    return r.model_copy(update={"ingredients": [catalogue.resolve(i) for i in r.ingredients]})
+
+
 def history_counter(previous: Sequence[Plan]) -> Counter[str]:
     c: Counter[str] = Counter()
     for plan in previous:
@@ -223,6 +245,7 @@ def generate(
     salt: int = 0,
     history: Sequence[Plan] = (),
     now: datetime | None = None,
+    catalogue: Catalogue | None = None,
 ) -> Plan:
     if not packs:
         raise GenerationError("no cuisine packs given")
@@ -253,7 +276,7 @@ def generate(
         ids = {slot: [r.id for r in rs] for slot, rs in meals.items()}
         for rs in meals.values():
             for r in rs:
-                snapshot[r.id] = r
+                snapshot[r.id] = _resolved(r, catalogue)
         day_plans.append(
             DayPlan(
                 date=day.isoformat(),

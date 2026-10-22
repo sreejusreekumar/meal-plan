@@ -9,9 +9,37 @@ spice: medium
 packable: false
 effort: weekday
 family: upma
+prepMinutes: 10
+cookMinutes: 15
 nutrition:
   kcal: 380
+  carbs: 36
+  fibre: 8
+  protein: 17
+  satFat: 3
+  sugar: 0
 components:
 - 1 bowl steel-cut or rolled oats upma cooked with carrots, beans, and mustard seeds
 - 1 boiled egg
+ingredients:
+  - { item: rolled oats, qty: 45, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 30, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: ginger, qty: 3, unit: g   }
+  - { item: urad dal, qty: 5, unit: g }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - Dry-roast the oats for 2-3 minutes until fragrant and set aside.
+  - Heat the oil, pop mustard seeds, urad dal and peanuts, then add curry leaves, chopped ginger, chilli and onion; saute until soft.
+  - Add the diced carrot and beans with turmeric and salt and a splash of water; cook 4 minutes.
+  - Stir in the oats with about 3/4 cup hot water; cover and cook 3-4 minutes until fluffy.
+  - Hard-boil the egg (10 minutes), peel and halve. Serve with the upma.
 source: Kerala 28-day plan (index.html, Oct 2026)

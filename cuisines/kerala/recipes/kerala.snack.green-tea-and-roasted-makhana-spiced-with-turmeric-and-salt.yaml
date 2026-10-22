@@ -13,7 +13,24 @@ effort: weekday
 family: makhana
 nutrition:
   kcal: 110
+  carbs: 15
+  fibre: 3
+  protein: 2
+  satFat: 2
+  sugar: 0
 components:
 - Green tea
 - 1 cup roasted makhana (foxnuts) spiced with turmeric & salt
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 8
+ingredients:
+  - { item: green tea bags, qty: 1, unit: pc }
+  - { item: makhana (foxnuts), qty: 20, unit: g }
+  - { item: coconut oil, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - Steep the green tea bag in a cup of just-boiled water for 3 minutes, then remove the bag.
+  - Heat the coconut oil in a pan, add the makhana and roast on low heat for 6 to 8 minutes, stirring, until crisp.
+  - Sprinkle with turmeric and salt, toss well and serve with the green tea.

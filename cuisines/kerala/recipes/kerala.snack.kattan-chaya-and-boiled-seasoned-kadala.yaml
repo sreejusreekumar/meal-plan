@@ -10,10 +10,29 @@ tags:
 spice: mild
 packable: false
 effort: weekday
-family: dal
+family: chickpeas
 nutrition:
-  kcal: 120
+  kcal: 150
+  carbs: 17
+  fibre: 5
+  protein: 6
+  satFat: 2
+  sugar: 0
 components:
 - Kattan Chaya
 - 1/2 cup boiled seasoned Kadala
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 3
+cookMinutes: 7
+ingredients:
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: black chickpeas (kadala), qty: 30, unit: g }
+  - { item: coconut oil, qty: 0.5, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - Boil a cup of water, add the tea leaves, simmer 2 minutes, strain and serve unsweetened.
+  - Heat the coconut oil, pop the mustard seeds and add the curry leaves.
+  - Toss in the pre-boiled kadala with salt and heat through for 3 to 4 minutes.
+  - Serve warm with the tea.

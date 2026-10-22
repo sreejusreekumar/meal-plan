@@ -9,10 +9,35 @@ spice: medium
 packable: false
 effort: weekday
 family: dosa
+prepMinutes: 15
+cookMinutes: 15
 nutrition:
   kcal: 370
+  carbs: 36
+  fibre: 9
+  protein: 21
+  satFat: 3.5
+  sugar: 0
 components:
 - 2 whole green gram pesarattu
 - Fresh coconut-coriander chammandi (1 tbsp)
 - 1 hard-boiled egg
+ingredients:
+  - { item: green gram (cherupayar), qty: 50, unit: g }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch  }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: tamarind, qty: 2, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - Grind the overnight-soaked whole green gram with ginger, green chilli, cumin and salt to a smooth batter.
+  - Grind the coconut, coriander, shallots and tamarind with a pinch of salt into a thick chammanthi.
+  - Spread the batter thinly into 2 pesarattus on a hot tawa, top with chopped onion, drizzle oil and cook both sides until crisp.
+  - Hard-boil the egg (10 minutes), peel and halve. Serve with the pesarattus and 1 tablespoon of chammanthi.
 source: Kerala 28-day plan (index.html, Oct 2026)

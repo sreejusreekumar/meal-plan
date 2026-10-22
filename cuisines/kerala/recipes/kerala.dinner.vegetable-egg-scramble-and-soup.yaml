@@ -8,11 +8,41 @@ protein: egg
 spice: medium
 packable: false
 effort: weekday
+prepMinutes: 10
+cookMinutes: 20
 family: omelette
 nutrition:
   kcal: 470
+  carbs: 34
+  fibre: 8
+  protein: 26
+  satFat: 3
+  sugar: 0
 components:
 - 3 eggs (1 whole + 2 whites) scrambled with beans, carrots, and onions
 - 1 chapati
 - Clear vegetable broth
+ingredients:
+- { item: eggs, qty: 3, unit: pc }
+- { item: french beans, qty: 50, unit: g }
+- { item: carrot, qty: 0.5, unit: pc  }
+- { item: onion, qty: 0.5, unit: pc  }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: black pepper, qty: 0.5, unit: tsp }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: whole-wheat atta, qty: 35, unit: g }
+- { item: cabbage, qty: 50, unit: g }
+- { item: ginger, qty: 3, unit: g  }
+- { item: garlic, qty: 4, unit: g   }
+- { item: curry leaves, qty: 1, unit: sprig }
+- { item: coriander leaves, qty: 0.15, unit: bunch  }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Simmer the cabbage, half the carrot, ginger, garlic and curry leaves in 400 ml water with salt and pepper for 10 minutes for a clear broth.
+- Knead the atta, roll one chapati and cook on the tawa.
+- Separate two eggs and beat the whites with one whole egg, turmeric, pepper and salt.
+- Saute the onion, green chilli, chopped beans and remaining carrot in the oil for 4 minutes.
+- Pour in the eggs and scramble on low heat until just set.
+- Serve the scramble with the chapati and the broth topped with coriander leaves.
 source: Kerala 28-day plan (index.html, Oct 2026)

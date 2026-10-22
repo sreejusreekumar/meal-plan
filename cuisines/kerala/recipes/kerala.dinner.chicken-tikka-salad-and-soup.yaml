@@ -9,11 +9,50 @@ spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 20
+cookMinutes: 25
 family: grilled-chicken
 nutrition:
   kcal: 490
+  carbs: 30
+  fibre: 9
+  protein: 40
+  satFat: 3
+  sugar: 0
 components:
 - 150g spiced chicken breast strips
 - Large green salad with cucumber, radish, lime
 - 1 bowl hot pepper rasam
+ingredients:
+- { item: chicken breast, qty: 150, unit: g }
+- { item: low-fat yoghurt (curd), qty: 30, unit: g }
+- { item: kashmiri chilli powder, qty: 1, unit: tsp }
+- { item: garam masala, qty: 0.5, unit: tsp }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: lime, qty: 0.25, unit: pc   }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: cucumber, qty: 0.5, unit: pc  }
+- { item: radish, qty: 0.5, unit: pc  }
+- { item: tomato, qty: 0.5, unit: pc  }
+- { item: salad leaves (mixed), qty: 50, unit: g }
+- { item: tamarind, qty: 10, unit: g }
+- { item: black pepper, qty: 1, unit: tsp }
+- { item: cumin seeds, qty: 0.5, unit: tsp }
+- { item: toor dal, qty: 20, unit: g }
+- { item: curry leaves, qty: 1, unit: sprig }
+- { item: mustard seeds, qty: 0.5, unit: tsp }
+- { item: dried red chillies, qty: 1, unit: pc }
+- { item: asafoetida, qty: 0.25, unit: tsp }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Marinate the chicken strips in yoghurt, kashmiri chilli, garam masala, turmeric, ginger, garlic, half the lime and salt.
+- Cook the toor dal soft; soak the tamarind in warm water and squeeze out the pulp.
+- Boil the tamarind water with crushed pepper, cumin and salt, add the mashed dal and simmer 5 minutes.
+- Temper mustard seeds, dried chilli, asafoetida and curry leaves in coconut oil and pour into the rasam.
+- Pan-grill the chicken strips in a little oil on high heat until charred at the edges.
+- Toss the salad leaves with cucumber, radish, tomato and the remaining lime juice.
+- Serve the chicken over the salad with a bowl of hot rasam.
 source: Kerala 28-day plan (index.html, Oct 2026)

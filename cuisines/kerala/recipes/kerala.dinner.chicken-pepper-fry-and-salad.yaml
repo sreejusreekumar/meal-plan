@@ -9,11 +9,41 @@ spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 15
+cookMinutes: 25
 family: chicken-roast
 nutrition:
   kcal: 490
+  carbs: 34
+  fibre: 9
+  protein: 38
+  satFat: 5
+  sugar: 0
 components:
 - 150g boneless pepper chicken cooked dry
 - Large green salad with cucumber and radish
 - 1 chapati
+ingredients:
+- { item: whole-wheat atta, qty: 35, unit: g }
+- { item: chicken thigh (boneless), qty: 150, unit: g }
+- { item: black pepper, qty: 1.5, unit: tsp }
+- { item: shallots (small onions), qty: 20, unit: g  }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: cucumber, qty: 0.5, unit: pc  }
+- { item: radish, qty: 0.5, unit: pc  }
+- { item: tomato, qty: 0.5, unit: pc  }
+- { item: lime, qty: 0.25, unit: pc   }
+- { item: salad leaves (mixed), qty: 50, unit: g }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Cut the chicken into strips and marinate with crushed pepper, turmeric and salt.
+- Knead the atta, roll one chapati and cook on a hot tawa.
+- Heat the coconut oil, fry the shallots, ginger, garlic and curry leaves until golden.
+- Add the chicken and cook on high heat, stirring, until dry and dark.
+- Toss the salad leaves with sliced cucumber, radish, tomato, lime juice and a pinch of salt.
+- Serve the pepper chicken with the salad and chapati.
 source: Kerala 28-day plan (index.html, Oct 2026)

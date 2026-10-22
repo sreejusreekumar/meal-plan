@@ -13,7 +13,25 @@ effort: weekday
 family: nuts
 nutrition:
   kcal: 100
+  carbs: 8
+  fibre: 1.3
+  protein: 7
+  satFat: 1.7
+  sugar: 0
 components:
 - 1 glass Sambharam
 - 10 walnut halves
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 0
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: walnuts, qty: 20, unit: g }
+steps:
+  - Whisk the yoghurt with 150 ml cold water, crushed ginger, slit green chilli, curry leaves and salt to make sambharam.
+  - Break the walnut halves into a small bowl; toast briefly in a dry pan if you prefer them warm.
+  - Serve the walnuts with the chilled sambharam.

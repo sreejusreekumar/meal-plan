@@ -9,11 +9,41 @@ spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 15
+cookMinutes: 35
 family: chicken-roast
 nutrition:
   kcal: 490
+  carbs: 46
+  fibre: 9
+  protein: 36
+  satFat: 5
+  sugar: 0
 components:
 - 2 dry whole-wheat chapatis
 - 1 portion Pepper chicken curry
 - Side of sliced cucumbers and tomatoes
+ingredients:
+- { item: whole-wheat atta, qty: 70, unit: g }
+- { item: chicken (bone-in curry cut), qty: 180, unit: g }
+- { item: black pepper, qty: 1.5, unit: tsp }
+- { item: onion, qty: 0.5, unit: pc  }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: cucumber, qty: 0.5, unit: pc  }
+- { item: tomato, qty: 0.5, unit: pc  }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: coriander powder, qty: 1, unit: tsp }
+- { item: garam masala, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Knead the atta with water and rest; marinate the chicken with turmeric, half the pepper and salt.
+- Heat the coconut oil and fry the sliced onion, ginger, garlic, green chilli and curry leaves until golden.
+- Add coriander powder, then the chicken; sear, add a splash of water, cover and cook 20 minutes.
+- Finish with the rest of the crushed pepper and garam masala and cook until the gravy is thick.
+- Roll two chapatis and cook dry on a hot tawa.
+- Slice the cucumber and tomato and serve with the chapatis and pepper chicken.
 source: Kerala 28-day plan (index.html, Oct 2026)

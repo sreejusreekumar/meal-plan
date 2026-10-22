@@ -10,10 +10,25 @@ tags:
 spice: mild
 packable: false
 effort: weekday
-family: sprouts
+family: cherupayar
 nutrition:
-  kcal: 120
+  kcal: 150
+  carbs: 17
+  fibre: 5
+  protein: 7
+  satFat: 0.1
+  sugar: 0
 components:
 - Hot Kattan Chaya
 - 1/2 cup boiled sprouted green gram
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 6
+ingredients:
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: green gram (cherupayar), qty: 30, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - Boil a cup of water, add the tea leaves, simmer 2 minutes, strain and serve unsweetened.
+  - Steam or simmer the pre-sprouted green gram for 4 to 5 minutes until just tender.
+  - Drain, season with salt and serve warm with the tea.

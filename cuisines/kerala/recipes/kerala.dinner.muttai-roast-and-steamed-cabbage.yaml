@@ -9,11 +9,41 @@ spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 10
+cookMinutes: 25
 family: egg-roast
 nutrition:
   kcal: 490
+  carbs: 34
+  fibre: 9
+  protein: 25
+  satFat: 4
+  sugar: 0
 components:
 - 2 hard-boiled eggs in onion-tomato masala
 - 1 large bowl steamed cabbage with black pepper
 - 1 chapati
+ingredients:
+- { item: eggs, qty: 2, unit: pc }
+- { item: onion, qty: 0.5, unit: pc  }
+- { item: ginger, qty: 3, unit: g  }
+- { item: garlic, qty: 4, unit: g   }
+- { item: chilli powder, qty: 0.5, unit: tsp }
+- { item: coriander powder, qty: 1, unit: tsp }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: garam masala, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: whole-wheat atta, qty: 35, unit: g }
+- { item: black pepper, qty: 0.5, unit: tsp }
+- { item: salt, qty: 0.5, unit: tsp }
+- { item: tomato, qty: 0.5, unit: pc  }
+- { item: cabbage, qty: 150, unit: g }
+steps:
+- Hard-boil the eggs, peel and halve.
+- Fry the sliced onion, ginger, garlic and curry leaves in the oil until golden.
+- Add the spice powders and chopped tomato and cook to a thick masala.
+- Add the eggs, coat well, finish with garam masala and cook 2 minutes.
+- Steam the shredded cabbage 5 minutes and toss with black pepper and salt.
+- Roll one chapati, cook on the tawa and serve with the egg roast and cabbage.
 source: Kerala 28-day plan (index.html, Oct 2026)

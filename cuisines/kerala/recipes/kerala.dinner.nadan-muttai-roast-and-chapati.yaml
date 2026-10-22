@@ -8,11 +8,41 @@ protein: egg
 spice: medium
 packable: false
 effort: weekday
+prepMinutes: 10
+cookMinutes: 30
 family: egg-roast
 nutrition:
   kcal: 500
+  carbs: 50
+  fibre: 11
+  protein: 27
+  satFat: 4
+  sugar: 0
 components:
 - 2 whole-wheat chapatis
 - Muttai roast (2 eggs in onion-tomato-garlic masala)
 - Large bowl of steamed French beans
+ingredients:
+- { item: whole-wheat atta, qty: 70, unit: g }
+- { item: eggs, qty: 2, unit: pc }
+- { item: onion, qty: 0.5, unit: pc  }
+- { item: tomato, qty: 0.5, unit: pc  }
+- { item: garlic, qty: 4, unit: g   }
+- { item: ginger, qty: 3, unit: g  }
+- { item: chilli powder, qty: 0.5, unit: tsp }
+- { item: coriander powder, qty: 1, unit: tsp }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: garam masala, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: french beans, qty: 150, unit: g }
+- { item: black pepper, qty: 0.5, unit: tsp }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Hard-boil the eggs, peel and halve.
+- Fry the sliced onion with garlic, ginger and curry leaves in the oil until golden.
+- Add the spice powders and chopped tomato and cook to a thick masala.
+- Add the eggs, coat well, finish with garam masala and cook 2 minutes.
+- Steam the French beans 6 minutes and season with pepper and salt.
+- Roll two chapatis, cook dry on the tawa and serve with the muttai roast and beans.
 source: Kerala 28-day plan (index.html, Oct 2026)

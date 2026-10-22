@@ -10,9 +10,30 @@ kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
 family: omelette
+prepMinutes: 5
+cookMinutes: 8
 nutrition:
   kcal: 350
+  carbs: 20
+  fibre: 4
+  protein: 17
+  satFat: 5
+  sugar: 0
 components:
 - 2 eggs scrambled with curry leaves, onions, and crushed pepper
 - 1 slice wholemeal bread
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: black pepper, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: coconut oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+steps:
+  - Slice the onion, green chilli and curry leaves.
+  - Heat coconut oil, saute the onion with curry leaves and chilli until soft.
+  - Add the whisked eggs with salt and crushed pepper; scramble on low heat into soft curds.
+  - Toast the wholemeal bread dry and serve with the scramble.
 source: Kerala 28-day plan (index.html, Oct 2026)

@@ -9,10 +9,41 @@ spice: medium
 packable: false
 effort: weekday
 family: dosa
+prepMinutes: 15
+cookMinutes: 15
 nutrition:
   kcal: 390
+  carbs: 42
+  fibre: 9
+  protein: 19
+  satFat: 4
+  sugar: 0
 components:
 - 2 medium mixed-dal adais
 - 1 tbsp fresh coconut-coriander chutney
 - 1 soft-boiled egg
+ingredients:
+  - { item: toor dal, qty: 20, unit: g }
+  - { item: chana dal, qty: 15, unit: g }
+  - { item: urad dal, qty: 10, unit: g }
+  - { item: matta rice, qty: 15, unit: g }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: asafoetida, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch  }
+  - { item: mint leaves, qty: 0.25, unit: bunch }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - Soak the dals and rice together for 3 hours (or overnight); grind coarsely with dried red chilli, asafoetida and salt.
+  - Stir chopped onion and curry leaves into the batter.
+  - Grind the coconut, coriander, mint, green chilli, shallots and ginger with a splash of water into a chutney.
+  - Spread the batter into 2 medium adais on a hot tawa, drizzle a little oil and cook both sides until crisp.
+  - Soft-boil the egg (6 minutes) and serve with the adais and a tablespoon of chutney.
 source: Kerala 28-day plan (index.html, Oct 2026)

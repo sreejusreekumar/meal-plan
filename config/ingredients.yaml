@@ -1,0 +1,121 @@
+# Canonical ingredient catalogue. Every recipe ingredient must use one of these exact `item`
+# names and the item's `unit`, so the shopping list merges cleanly across recipes and cuisines.
+#
+# aisle: produce | fish | meat | dairy | grains | pantry | spices | frozen | other
+# unit:  g | ml | pc | tsp | tbsp | sprig | bunch
+# staple: true = assumed in the pantry; listed under "Check pantry", not under "Buy".
+# packSize: round the week's total up to a multiple of this when buying (optional).
+
+aisleOrder: [produce, fish, meat, dairy, grains, pantry, spices, frozen, other]
+
+items:
+  # ---------------------------------------------------------------- produce
+  - { item: shallots (small onions), unit: g, aisle: produce, packSize: 50 }
+  - { item: onion, unit: pc, aisle: produce }
+  - { item: tomato, unit: pc, aisle: produce }
+  - { item: green chilli, unit: pc, aisle: produce }
+  - { item: ginger, unit: g, aisle: produce, packSize: 25 }
+  - { item: garlic, unit: g, aisle: produce, packSize: 50 }   # 1 clove ~ 4 g
+  - { item: curry leaves, unit: sprig, aisle: produce, staple: true }
+  - { item: coriander leaves, unit: bunch, aisle: produce }
+  - { item: mint leaves, unit: bunch, aisle: produce }
+  - { item: lemon, unit: pc, aisle: produce }
+  - { item: lime, unit: pc, aisle: produce }
+  - { item: cucumber, unit: pc, aisle: produce }
+  - { item: radish, unit: pc, aisle: produce }
+  - { item: carrot, unit: pc, aisle: produce }
+  - { item: capsicum, unit: pc, aisle: produce }
+  - { item: french beans, unit: g, aisle: produce, packSize: 50 }
+  - { item: cabbage, unit: g, aisle: produce, packSize: 100 }
+  - { item: cauliflower, unit: g, aisle: produce, packSize: 100 }
+  - { item: mushrooms, unit: g, aisle: produce, packSize: 50 }
+  - { item: salad leaves (mixed), unit: g, aisle: produce, packSize: 50 }
+  - { item: amaranth leaves (cheera), unit: bunch, aisle: produce }
+  - { item: spinach, unit: bunch, aisle: produce }
+  - { item: drumstick leaves (murungayila), unit: bunch, aisle: produce }
+  - { item: drumstick (moringa pods), unit: pc, aisle: produce }
+  - { item: snake gourd (padavalanga), unit: g, aisle: produce, packSize: 100 }
+  - { item: bitter gourd (pavakka), unit: g, aisle: produce, packSize: 100 }
+  - { item: ivy gourd (kovakka), unit: g, aisle: produce, packSize: 100 }
+  - { item: brinjal (eggplant), unit: g, aisle: produce, packSize: 100 }
+  - { item: ash gourd, unit: g, aisle: produce, packSize: 100 }
+  - { item: grated coconut, unit: g, aisle: produce, packSize: 50 }
+  - { item: banana leaf, unit: pc, aisle: produce }
+
+  # ---------------------------------------------------------------- fish
+  - { item: sardines (mathi), unit: pc, aisle: fish }
+  - { item: mackerel (ayala), unit: pc, aisle: fish }
+  - { item: anchovies (netholi), unit: g, aisle: fish, packSize: 50 }
+  - { item: seer fish (neymeen) steak, unit: g, aisle: fish, packSize: 50 }
+  - { item: pearl spot (karimeen), unit: pc, aisle: fish }
+  - { item: pomfret (avoli), unit: pc, aisle: fish }
+  - { item: tuna (choora), unit: g, aisle: fish, packSize: 50 }
+  - { item: grouper (kalava) fillet, unit: g, aisle: fish, packSize: 50 }
+  - { item: pink perch (kilimeen), unit: pc, aisle: fish }
+  - { item: prawns (chemmeen), unit: g, aisle: fish, packSize: 50 }
+  - { item: firm white fish fillet, unit: g, aisle: fish, packSize: 50 }
+
+  # ---------------------------------------------------------------- meat
+  - { item: chicken breast, unit: g, aisle: meat, packSize: 50 }
+  - { item: chicken thigh (boneless), unit: g, aisle: meat, packSize: 50 }
+  - { item: chicken (bone-in curry cut), unit: g, aisle: meat, packSize: 50 }
+
+  # ---------------------------------------------------------------- dairy
+  - { item: eggs, unit: pc, aisle: dairy, packSize: 12 }
+  - { item: paneer, unit: g, aisle: dairy, packSize: 50 }
+  - { item: low-fat yoghurt (curd), unit: g, aisle: dairy, packSize: 100 }
+  - { item: light cheese slices, unit: pc, aisle: dairy }
+
+  # ---------------------------------------------------------------- grains, legumes, nuts
+  - { item: matta rice, unit: g, aisle: grains, packSize: 100 }
+  - { item: whole-wheat atta, unit: g, aisle: grains, packSize: 100 }
+  - { item: wholemeal bread, unit: pc, aisle: grains, packSize: 16 }   # 1 pc = 1 slice
+  - { item: rolled oats, unit: g, aisle: grains, packSize: 100 }
+  - { item: ragi flour, unit: g, aisle: grains, packSize: 100 }
+  - { item: rice flour, unit: g, aisle: grains, packSize: 100 }
+  - { item: semolina (rava), unit: g, aisle: grains, packSize: 100 }
+  - { item: quinoa, unit: g, aisle: grains, packSize: 100 }
+  - { item: green gram (cherupayar), unit: g, aisle: grains, packSize: 100 }
+  - { item: black chickpeas (kadala), unit: g, aisle: grains, packSize: 100 }
+  - { item: white chickpeas (chana), unit: g, aisle: grains, packSize: 100 }
+  - { item: yellow moong dal, unit: g, aisle: grains, packSize: 100 }
+  - { item: toor dal, unit: g, aisle: grains, packSize: 100 }
+  - { item: chana dal, unit: g, aisle: grains, packSize: 100 }
+  - { item: urad dal, unit: g, aisle: grains, packSize: 100 }
+  - { item: edamame (frozen), unit: g, aisle: frozen, packSize: 100 }
+  - { item: makhana (foxnuts), unit: g, aisle: grains, packSize: 50 }
+  - { item: peanuts, unit: g, aisle: grains, packSize: 50 }
+  - { item: almonds, unit: g, aisle: grains, packSize: 50 }
+  - { item: walnuts, unit: g, aisle: grains, packSize: 50 }
+  - { item: cashews, unit: g, aisle: grains, packSize: 50 }
+  - { item: pumpkin seeds, unit: g, aisle: grains, packSize: 50 }
+
+  # ---------------------------------------------------------------- pantry
+  - { item: coconut oil, unit: tsp, aisle: pantry, staple: true }
+  - { item: rice bran oil, unit: tsp, aisle: pantry, staple: true }
+  - { item: coconut milk (canned), unit: ml, aisle: pantry, packSize: 400 }
+  - { item: kudampuli (Malabar tamarind), unit: pc, aisle: pantry, staple: true }
+  - { item: tamarind, unit: g, aisle: pantry, staple: true }
+  - { item: black tea leaves, unit: tsp, aisle: pantry, staple: true }
+  - { item: coffee powder, unit: tsp, aisle: pantry, staple: true }
+  - { item: green tea bags, unit: pc, aisle: pantry, staple: true }
+  - { item: salt, unit: tsp, aisle: pantry, staple: true }
+  - { item: yeast (instant), unit: tsp, aisle: pantry, staple: true }
+  - { item: sugar, unit: tsp, aisle: pantry, staple: true }   # appam batter only
+
+  # ---------------------------------------------------------------- spices (all staples)
+  - { item: turmeric powder, unit: tsp, aisle: spices, staple: true }
+  - { item: chilli powder, unit: tsp, aisle: spices, staple: true }
+  - { item: kashmiri chilli powder, unit: tsp, aisle: spices, staple: true }
+  - { item: coriander powder, unit: tsp, aisle: spices, staple: true }
+  - { item: black pepper, unit: tsp, aisle: spices, staple: true }
+  - { item: cumin seeds, unit: tsp, aisle: spices, staple: true }
+  - { item: mustard seeds, unit: tsp, aisle: spices, staple: true }
+  - { item: fenugreek seeds, unit: tsp, aisle: spices, staple: true }
+  - { item: garam masala, unit: tsp, aisle: spices, staple: true }
+  - { item: dry ginger powder (chukku), unit: tsp, aisle: spices, staple: true }
+  - { item: asafoetida, unit: tsp, aisle: spices, staple: true }
+  - { item: cardamom pods, unit: pc, aisle: spices, staple: true }
+  - { item: cloves, unit: pc, aisle: spices, staple: true }
+  - { item: cinnamon stick, unit: pc, aisle: spices, staple: true }
+  - { item: dried red chillies, unit: pc, aisle: spices, staple: true }

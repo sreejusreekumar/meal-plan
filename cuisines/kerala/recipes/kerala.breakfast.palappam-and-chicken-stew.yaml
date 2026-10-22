@@ -11,9 +11,42 @@ effort: weekend
 treat: true
 refinedCarb: true
 family: appam
+prepMinutes: 15
+cookMinutes: 25
 nutrition:
   kcal: 380
+  carbs: 46
+  fibre: 4
+  protein: 22
+  satFat: 6
+  sugar: 2
 components:
 - 2 thin Palappams strictly
 - 1 bowl chicken stew made with thin coconut milk and vegetables
+ingredients:
+  - { item: sugar, qty: 1, unit: tsp }
+  - { item: rice flour, qty: 45, unit: g }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: yeast (instant), qty: 0.25, unit: tsp }
+  - { item: chicken breast, qty: 80, unit: g }
+  - { item: coconut milk (canned), qty: 40, unit: ml }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 30, unit: g }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: cardamom pods, qty: 2, unit: pc }
+  - { item: cloves, qty: 2, unit: pc }
+  - { item: cinnamon stick, qty: 1, unit: pc }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: coconut oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - The night before, blend the rice flour with coconut, yeast, a teaspoon of sugar, salt and water to a thin batter and leave to ferment.
+  - Heat coconut oil with cardamom, cloves and cinnamon; soften the sliced onion, ginger, green chilli and curry leaves.
+  - Add the diced chicken, carrot and beans with salt, pepper and a cup of water; simmer 12-15 minutes until cooked.
+  - Dilute the coconut milk with equal water, stir in and heat through gently without boiling.
+  - Swirl ladles of batter in a hot appachatti to make 2 thin palappams; cover and cook until set.
+  - Serve 2 appams with a bowl of stew, taking more stew than appam.
 source: Kerala 28-day plan (index.html, Oct 2026)

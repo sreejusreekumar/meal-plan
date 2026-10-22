@@ -12,6 +12,11 @@ effort: weekday
 family: avoli
 nutrition:
   kcal: 530
+  carbs: 58
+  fibre: 10
+  protein: 35
+  satFat: 4
+  sugar: 0
 components:
 - 1 cup Kovakka mezhukkupuratti
 - 'Primary: 1 portion Avoli (Pomfret) cooked with Kudampuli and green chillies'
@@ -22,4 +27,31 @@ swaps:
   use: Ayala (Mackerel) Peera Pattichathu
 - for: Avoli
   use: Choora (Tuna) Mulakittathu
+prepMinutes: 20
+cookMinutes: 35
+ingredients:
+  - { item: matta rice, qty: 60, unit: g }
+  - { item: pomfret (avoli), qty: 1, unit: pc }
+  - { item: kudampuli (Malabar tamarind), qty: 1, unit: pc }
+  - { item: shallots (small onions), qty: 20, unit: g  }
+  - { item: ginger, qty: 3, unit: g   }
+  - { item: garlic, qty: 4, unit: g   }
+  - { item: chilli powder, qty: 1, unit: tsp }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coconut oil, qty: 2, unit: tsp }
+  - { item: curry leaves, qty: 3, unit: sprig }
+  - { item: salt, qty: 1.25, unit: tsp }
+  - { item: ivy gourd (kovakka), qty: 100, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc   }
+  - { item: mustard seeds, qty: 0.5, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+steps:
+  - Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.
+  - Clean the pomfret; soak the kudampuli in warm water and grind the chilli powders, turmeric and a little water to a paste.
+  - Heat coconut oil in a clay pot, splutter fenugreek seeds, sauté shallots, ginger, garlic and curry leaves, add the chilli paste, the kudampuli with its water and salt, then slide in the fish and simmer 12-15 min until the gravy thickens.
+  - Dice the vegetable finely for the kovakka mezhukkupuratti; splutter mustard seeds in coconut oil, add shallots, garlic and green chilli, then the vegetable with turmeric and salt, and stir-fry uncovered until tender and lightly browned.
+  - Whisk the yoghurt with water, crushed ginger, green chilli, curry leaves and salt to make the sambharam; chill until serving.
+  - Plate 1 level cup rice with the kovakka mezhukkupuratti, the pomfret, and the sambharam alongside.
 source: Kerala 28-day plan (index.html, Oct 2026)

@@ -130,6 +130,29 @@ button:focus-visible { outline: 3px solid var(--turmeric); outline-offset: 2px; 
 
 footer { color: var(--muted); font-size: 0.75em; text-align: center; }
 
+/* View tabs + shopping list */
+.tabs { display: flex; gap: 8px; }
+.tab { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 8px 18px; cursor: pointer; font-weight: 700; font-size: 0.9em; }
+.tab[aria-pressed="true"] { border-color: var(--leaf); background: var(--leaf); color: var(--on-leaf); }
+.shop-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; }
+.shop-head h2 { font-family: var(--display); font-weight: 800; font-size: 1.4em; margin: 0; }
+.shop-head .meta { color: var(--muted); font-size: 0.9em; }
+.shop-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn { background: var(--leaf); color: var(--on-leaf); border: 0; border-radius: 8px; padding: 10px 18px; font-weight: 700; cursor: pointer; }
+.btn.secondary { background: var(--surface); color: var(--ink); border: 2px solid var(--line); }
+.aisles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 14px; align-items: start; }
+.aisle { background: var(--surface); border: 2px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.aisle h3 { font-family: var(--display); font-weight: 600; font-size: 1em; margin: 0 0 8px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.aisle ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.aisle label { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: baseline; padding: 6px 4px; border-radius: 8px; cursor: pointer; }
+.aisle label:hover { background: var(--bg); }
+.aisle input { width: 1.2em; height: 1.2em; accent-color: var(--leaf); align-self: center; }
+.aisle .q { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.aisle .uses { grid-column: 2 / 4; color: var(--muted); font-size: 0.72em; margin-top: -4px; }
+.aisle label.done { opacity: 0.5; text-decoration: line-through; }
+.aisle.pantry { background: var(--turmeric-soft); border-color: var(--turmeric); }
+.empty { color: var(--muted); }
+
 @media (max-width: 760px) {
   .days { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 16px; }
   .clock { text-align: left; justify-items: start; }
@@ -154,6 +177,11 @@ footer { color: var(--muted); font-size: 0.75em; text-align: center; }
 
   <div class="notice" id="notice" hidden></div>
 
+  <div class="tabs" role="tablist" aria-label="View">
+    <button type="button" class="tab" data-view="menu" aria-pressed="true">Menu</button>
+    <button type="button" class="tab" data-view="shopping" aria-pressed="false">Shopping</button>
+  </div>
+
   <nav class="nav" aria-label="Choose a day">
     <div class="weeks" id="weeks"></div>
     <div class="days" id="days"></div>
@@ -167,6 +195,11 @@ footer { color: var(--muted); font-size: 0.75em; text-align: center; }
   <section class="rules" id="rules" hidden>
     <h2>Every day</h2>
     <ol id="rulesList"></ol>
+  </section>
+
+  <section id="shopView" hidden>
+    <div class="shop-head" id="shopHead"></div>
+    <div class="aisles" id="aisles"></div>
   </section>
 
   <footer id="footer"></footer>
@@ -211,6 +244,9 @@ function currentMealKey() {
 let todayLoc = locate(todayISO());
 let sel = todayLoc ? { ...todayLoc } : (weeks.length ? { wi: weeks.length - 1, di: 0 } : null);
 let lastTouch = Date.now();
+let view = location.hash === "#shopping" ? "shopping" : "menu";
+function store(k, v) { try { if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) {} }
+function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 
 /* ---------- render ---------- */
 const $ = (id) => document.getElementById(id);
@@ -222,7 +258,58 @@ function weekLabel(w) {
 }
 function packOf(day) { return (DATA.packs || {})[day.cuisine] || { name: day.cuisine, slotLabels: {}, rules: [] }; }
 
+function qty(line) {
+  if (line.unit === "g" && line.qty >= 1000) return (line.qty / 1000) + " kg";
+  if (line.unit === "ml" && line.qty >= 1000) return (line.qty / 1000) + " L";
+  const count = { pc: "", bunch: " bunch", sprig: " sprig" };
+  if (line.unit in count) return line.qty + (line.qty === 1 ? count[line.unit] : (count[line.unit] ? count[line.unit] + "es" : ""));
+  return line.qty + " " + line.unit;
+}
+function shopKey(week, line) { return "shop:" + week + ":" + line.item; }
+function plainList(week, list) {
+  const out = ["Shopping list " + week];
+  let aisle = null;
+  for (const l of list.buy) {
+    if (l.aisle !== aisle) { aisle = l.aisle; out.push("", aisle.toUpperCase()); }
+    out.push("- " + l.item + " — " + qty(l));
+  }
+  if (list.pantry.length) { out.push("", "CHECK PANTRY"); for (const l of list.pantry) out.push("- " + l.item + " — about " + qty(l)); }
+  return out.join("\n");
+}
+function renderShopping(week) {
+  const list = (DATA.shopping || {})[week.week];
+  const total = list ? list.buy.length : 0;
+  const done = list ? list.buy.filter(l => load(shopKey(week.week, l)) === "1").length : 0;
+  $("shopHead").innerHTML = `
+    <div><h2>Shopping · ${esc(weekLabel(week).toLowerCase())}</h2>
+      <div class="meta">${esc(fmtRange(week))} · ${list ? `${total} items to buy, ${done} ticked · ${list.servings} servings per meal` : "no list"}</div></div>
+    <div class="shop-actions">
+      <button type="button" class="btn secondary" id="shopClear">Untick all</button>
+      <button type="button" class="btn" id="shopCopy">Copy list</button>
+    </div>`;
+  if (!list || !total) {
+    $("aisles").innerHTML = '<p class="empty">No shopping list for this week yet. Regenerate the plan after the recipes have ingredient quantities.</p>';
+    return;
+  }
+  const groups = new Map();
+  for (const l of list.buy) { if (!groups.has(l.aisle)) groups.set(l.aisle, []); groups.get(l.aisle).push(l); }
+  const block = (title, lines, cls) => `<div class="aisle ${cls || ""}"><h3>${esc(title)}</h3><ul>` + lines.map(l => {
+    const k = shopKey(week.week, l), on = load(k) === "1";
+    return `<li><label class="${on ? "done" : ""}"><input type="checkbox" data-key="${esc(k)}" ${on ? "checked" : ""}>
+      <span>${esc(l.item)}</span><span class="q">${esc(qty(l))}</span>
+      <span class="uses">${esc(l.recipes.slice(0, 3).join(", "))}${l.recipes.length > 3 ? " +" + (l.recipes.length - 3) : ""}</span></label></li>`;
+  }).join("") + "</ul></div>";
+  let html = "";
+  for (const [aisle, lines] of groups) html += block(aisle, lines);
+  if (list.pantry.length) html += block("Check pantry", list.pantry, "pantry");
+  $("aisles").innerHTML = html;
+}
+
 function render() {
+  const isShopping = view === "shopping";
+  for (const id of ["days", "dayHead", "meals", "rules"]) $(id).hidden = isShopping;
+  $("shopView").hidden = !isShopping;
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-pressed", String(t.dataset.view === view)));
   if (!sel) {
     $("notice").hidden = false;
     $("notice").textContent = "No plan has been generated yet. Run `mealplan plan` and `mealplan build`.";
@@ -294,8 +381,10 @@ function render() {
     </article>`;
   }).join("");
 
+  if (isShopping) renderShopping(week);
+
   const rules = pack.rules || [];
-  $("rules").hidden = rules.length === 0;
+  $("rules").hidden = isShopping || rules.length === 0;
   $("rulesList").innerHTML = rules.map(r => `<li><span><strong>${esc(r.title)}</strong>${esc(r.text)}</span></li>`).join("");
 
   $("footer").textContent = "Plan " + week.week + " · " + DATA.household.servings + " servings per meal · version " + DATA.version;
@@ -308,8 +397,28 @@ function updateClock() {
 }
 
 /* ---------- events ---------- */
+document.addEventListener("change", (e) => {
+  const cb = e.target.closest("input[data-key]");
+  if (!cb) return;
+  lastTouch = Date.now();
+  store(cb.dataset.key, cb.checked ? "1" : null);
+  cb.closest("label").classList.toggle("done", cb.checked);
+  renderShopping(weeks[sel.wi]);
+});
 document.addEventListener("click", (e) => {
   lastTouch = Date.now();
+  const tab = e.target.closest("[data-view]");
+  if (tab) { view = tab.dataset.view; history.replaceState(null, "", view === "shopping" ? "#shopping" : location.pathname); render(); return; }
+  if (e.target.closest("#shopCopy")) {
+    const week = weeks[sel.wi], list = (DATA.shopping || {})[week.week];
+    if (list && navigator.clipboard) navigator.clipboard.writeText(plainList(week.week, list)).then(() => { $("shopCopy").textContent = "Copied"; setTimeout(() => { $("shopCopy").textContent = "Copy list"; }, 1500); });
+    return;
+  }
+  if (e.target.closest("#shopClear")) {
+    const week = weeks[sel.wi], list = (DATA.shopping || {})[week.week];
+    if (list) for (const l of list.buy.concat(list.pantry)) store(shopKey(week.week, l), null);
+    renderShopping(weeks[sel.wi]); return;
+  }
   const w = e.target.closest("[data-week]");
   if (w) {
     const wi = Number(w.dataset.week);
@@ -330,6 +439,7 @@ setInterval(() => {
   const changed = JSON.stringify(t) !== JSON.stringify(todayLoc);
   todayLoc = t;
   if ((changed || idle) && todayLoc) sel = { ...todayLoc };
+  if (idle && view === "shopping") view = "menu";
   render();
 }, 60 * 1000);
 

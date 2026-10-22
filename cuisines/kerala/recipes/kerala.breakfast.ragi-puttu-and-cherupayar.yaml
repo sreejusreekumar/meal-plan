@@ -9,10 +9,39 @@ spice: medium
 packable: false
 effort: weekday
 family: puttu
+prepMinutes: 10
+cookMinutes: 25
 nutrition:
   kcal: 370
+  carbs: 44
+  fibre: 10
+  protein: 17
+  satFat: 5
+  sugar: 0
 components:
 - 1 cup Ragi puttu
 - 3/4 cup Cherupayaru curry
 - 1 boiled egg
+ingredients:
+  - { item: ragi flour, qty: 45, unit: g }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: green gram (cherupayar), qty: 35, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: garlic, qty: 4, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: coconut oil, qty: 1, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - Soak the green gram overnight (or 4 hours).
+  - Pressure-cook the soaked green gram with turmeric and salt for 3 whistles until just tender.
+  - Temper coconut oil with mustard seeds, dried red chilli and curry leaves; saute shallots, garlic and green chilli.
+  - Stir in the cooked green gram with a little stock and the coconut; simmer 5 minutes to a loose curry.
+  - "Steam the puttu: sprinkle water into the salted flour until it clumps, layer in the puttu kutti with coconut and steam 5-7 minutes."
+  - Hard-boil the egg (10 minutes), peel and halve. Serve with the ragi puttu and 3/4 cup of curry.
 source: Kerala 28-day plan (index.html, Oct 2026)

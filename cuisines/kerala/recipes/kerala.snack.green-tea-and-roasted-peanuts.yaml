@@ -13,7 +13,22 @@ effort: weekday
 family: nuts
 nutrition:
   kcal: 120
+  carbs: 3
+  fibre: 2
+  protein: 5
+  satFat: 1.4
+  sugar: 0
 components:
 - Green tea
 - Fistful of roasted peanuts
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 6
+ingredients:
+  - { item: green tea bags, qty: 1, unit: pc }
+  - { item: peanuts, qty: 20, unit: g }
+  - { item: salt, qty: 0.125, unit: tsp }
+steps:
+  - Steep the green tea bag in a cup of just-boiled water for 3 minutes, then remove the bag.
+  - Dry-roast the peanuts in a pan over medium heat for 4 to 5 minutes, stirring, until they crackle.
+  - Sprinkle with a little salt, rub off the skins if you like, and serve with the drink.

@@ -10,10 +10,34 @@ kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
 family: omelette
+prepMinutes: 10
+cookMinutes: 25
 nutrition:
   kcal: 360
+  carbs: 26
+  fibre: 7
+  protein: 22
+  satFat: 5
+  sugar: 0
 components:
 - 2 eggs whisked with shallots, curry leaves, and green chillies
 - 1 small cup boiled Cherupayaru (green gram)
 - Black coffee or plain warm water
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: shallots (small onions), qty: 20, unit: g  }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: black pepper, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: coconut oil, qty: 1, unit: tsp }
+  - { item: green gram (cherupayar), qty: 40, unit: g }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: coffee powder, qty: 1, unit: tsp }
+steps:
+  - Pressure-cook the soaked green gram with turmeric and salt for 3 whistles until tender; drain and keep warm.
+  - Slice the shallots, green chilli and curry leaves finely.
+  - Whisk the eggs with the shallots, chilli, curry leaves, crushed pepper and salt.
+  - Heat coconut oil in a pan, pour in the eggs and cook until set, flipping once.
+  - Serve the omelette with a small cup of the boiled green gram and black coffee or warm water.
 source: Kerala 28-day plan (index.html, Oct 2026)

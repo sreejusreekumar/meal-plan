@@ -10,10 +10,25 @@ tags:
 spice: mild
 packable: false
 effort: weekday
-family: kadala
+family: chickpeas
 nutrition:
-  kcal: 110
+  kcal: 150
+  carbs: 18
+  fibre: 5
+  protein: 6
+  satFat: 0.2
+  sugar: 0
 components:
 - Kattan Kappi
 - 1/2 cup boiled chana
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: white chickpeas (chana), qty: 30, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - Boil a cup of water, stir in the coffee powder, let it steep a minute and strain into a cup; no sugar.
+  - Reheat the pre-boiled chickpeas in a pan with a splash of water for 3 to 4 minutes.
+  - Season with salt and serve warm with the drink.

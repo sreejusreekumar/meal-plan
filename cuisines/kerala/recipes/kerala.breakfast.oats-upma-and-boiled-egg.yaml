@@ -9,10 +9,39 @@ spice: medium
 packable: false
 effort: weekday
 family: upma
+prepMinutes: 10
+cookMinutes: 15
 nutrition:
   kcal: 370
+  carbs: 36
+  fibre: 8
+  protein: 15
+  satFat: 2.5
+  sugar: 0
 components:
 - 1 bowl savoury vegetable oats upma
 - 1 hard-boiled egg
 - Ginger tea (no sugar)
+ingredients:
+  - { item: rolled oats, qty: 45, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 30, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: ginger, qty: 3, unit: g   }
+  - { item: urad dal, qty: 5, unit: g }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - Dry-roast the oats for 2-3 minutes until fragrant and set aside.
+  - Heat the oil, pop mustard seeds and urad dal, add curry leaves, chopped ginger (keep a few slices for the tea), chilli and onion; saute until soft.
+  - Add the diced carrot and beans with turmeric and salt, splash of water, and cook 4 minutes.
+  - Stir in the oats with about 3/4 cup hot water; cover and cook 3-4 minutes until fluffy.
+  - Hard-boil the egg (10 minutes), peel and halve.
+  - Brew black tea with the reserved ginger slices, no sugar, and serve with the upma and egg.
 source: Kerala 28-day plan (index.html, Oct 2026)

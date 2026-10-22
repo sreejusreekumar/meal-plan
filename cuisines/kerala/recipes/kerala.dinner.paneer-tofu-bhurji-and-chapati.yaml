@@ -8,11 +8,40 @@ protein: dairy
 spice: medium
 packable: false
 effort: weekday
-family: omelette
+prepMinutes: 10
+cookMinutes: 20
+family: paneer
 nutrition:
   kcal: 500
+  carbs: 48
+  fibre: 9
+  protein: 28
+  satFat: 6
+  sugar: 0
 components:
 - 100g crumbled paneer or tofu sautéed with shallots and curry leaves
 - 2 whole-wheat phulkas
 - Cucumber salad
+ingredients:
+- { item: paneer, qty: 100, unit: g }
+- { item: shallots (small onions), qty: 20, unit: g  }
+- { item: tomato, qty: 0.5, unit: pc  }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: ginger, qty: 3, unit: g  }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: black pepper, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: whole-wheat atta, qty: 70, unit: g }
+- { item: cucumber, qty: 0.5, unit: pc  }
+- { item: lime, qty: 0.25, unit: pc   }
+- { item: coriander leaves, qty: 0.15, unit: bunch  }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Knead the atta, roll two phulkas and puff them on the tawa.
+- Crumble the paneer (or firm tofu) with your fingers.
+- Heat the oil and fry the shallots, ginger, green chilli and curry leaves until soft.
+- Add the chopped tomato and turmeric and cook 2 minutes.
+- Stir in the crumbled paneer with pepper and salt and cook 3 minutes; finish with coriander leaves.
+- Slice the cucumber, dress with lime and salt, and serve with the bhurji and phulkas.
 source: Kerala 28-day plan (index.html, Oct 2026)

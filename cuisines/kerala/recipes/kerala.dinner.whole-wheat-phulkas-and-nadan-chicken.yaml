@@ -5,14 +5,46 @@ slot:
 role: main
 cuisine: kerala
 protein: chicken
+family: chicken-curry
 spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 15
+cookMinutes: 35
 nutrition:
   kcal: 500
+  carbs: 46
+  fibre: 9
+  protein: 36
+  satFat: 5
+  sugar: 0
 components:
 - 2 oil-free whole-wheat chapatis
 - 1 bowl Nadan chicken curry (black pepper base)
 - 1 cucumber sliced with lemon
+ingredients:
+- { item: whole-wheat atta, qty: 70, unit: g }
+- { item: chicken (bone-in curry cut), qty: 180, unit: g }
+- { item: black pepper, qty: 1.5, unit: tsp }
+- { item: onion, qty: 0.5, unit: pc  }
+- { item: tomato, qty: 0.5, unit: pc  }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: coriander powder, qty: 1.5, unit: tsp }
+- { item: garam masala, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: cucumber, qty: 0.5, unit: pc  }
+- { item: lemon, qty: 0.5, unit: pc  }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Marinate the chicken with turmeric, half the crushed pepper and salt.
+- Heat the coconut oil and fry the onion, ginger, garlic, green chilli and curry leaves until golden.
+- Add coriander powder and the chopped tomato and cook to a masala, then add the chicken and 150 ml water.
+- Cover and simmer 20 minutes; finish with the rest of the pepper and garam masala.
+- Roll two chapatis and cook them dry on the tawa without oil.
+- Slice the cucumber, squeeze over the lemon and serve with the curry and chapatis.
 source: Kerala 28-day plan (index.html, Oct 2026)

@@ -10,10 +10,28 @@ tags:
 spice: mild
 packable: false
 effort: weekday
-family: kadala
+family: chickpeas
 nutrition:
-  kcal: 110
+  kcal: 150
+  carbs: 18
+  fibre: 5
+  protein: 6
+  satFat: 0.2
+  sugar: 0
 components:
 - Spiced Inji chaya (no sugar)
 - 1/2 cup boiled white chana
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: cardamom pods, qty: 1, unit: pc }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: white chickpeas (chana), qty: 30, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - Crush the ginger and cardamom, boil them with the pepper in a cup of water for 2 minutes, add the tea leaves, simmer a minute and strain.
+  - Reheat the pre-boiled chickpeas in a pan with a splash of water for 3 to 4 minutes.
+  - Season with salt and serve warm with the drink.

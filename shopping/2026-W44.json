@@ -1,0 +1,1124 @@
+{
+  "week": "2026-W44",
+  "servings": 4.59,
+  "buy": [
+    {
+      "item": "amaranth leaves (cheera)",
+      "qty": 7.0,
+      "exact": 6.88,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Karimeen Pollichathu & Cheera",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "ash gourd",
+      "qty": 300.0,
+      "exact": 229.5,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fish Tikka & Sambar Soup"
+      ]
+    },
+    {
+      "item": "banana leaf",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Karimeen Pollichathu & Cheera"
+      ]
+    },
+    {
+      "item": "bitter gourd (pavakka)",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chemmeen Ularthiyathu & Pavakka"
+      ]
+    },
+    {
+      "item": "brinjal (eggplant)",
+      "qty": 300.0,
+      "exact": 229.5,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fish Tikka & Sambar Soup"
+      ]
+    },
+    {
+      "item": "cabbage",
+      "qty": 1000.0,
+      "exact": 918.0,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Muttai Roast & Steamed Cabbage",
+        "Cherupayar Puzhukku (No Rice Dinner)"
+      ]
+    },
+    {
+      "item": "capsicum",
+      "qty": 2.0,
+      "exact": 1.15,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Egg Bhurji & Multigrain Toast"
+      ]
+    },
+    {
+      "item": "carrot",
+      "qty": 10.0,
+      "exact": 9.18,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Egg Bhurji & Multigrain Toast",
+        "Nadan Kozhi Stew & French Beans",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Cherupayar Puzhukku (No Rice Dinner)"
+      ]
+    },
+    {
+      "item": "coriander leaves",
+      "qty": 5.0,
+      "exact": 4.13,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken Pepper Roast & Murungayila",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Pesarattu & Boiled Egg",
+        "Mathi Roast & Padavalanga Thoran",
+        "Karimeen Pollichathu & Cheera",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "drumstick (moringa pods)",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fish Tikka & Sambar Soup"
+      ]
+    },
+    {
+      "item": "drumstick leaves (murungayila)",
+      "qty": 2.0,
+      "exact": 1.84,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken Pepper Roast & Murungayila"
+      ]
+    },
+    {
+      "item": "french beans",
+      "qty": 2500.0,
+      "exact": 2478.6,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Muttai Roast & French Beans",
+        "Egg Bhurji & Multigrain Toast",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Egg & Vegetable Omelette",
+        "Nadan Kozhi Stew & French Beans",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Cherupayar Puzhukku (No Rice Dinner)"
+      ]
+    },
+    {
+      "item": "garlic",
+      "qty": 300.0,
+      "exact": 275.4,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Muttai Roast & French Beans",
+        "Chicken Pepper Roast & Murungayila",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Nadan Kozhi Stew & French Beans",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Muttai Roast & Steamed Cabbage",
+        "Karimeen Pollichathu & Cheera",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "ginger",
+      "qty": 250.0,
+      "exact": 234.09,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Spiced Sambharam with crushed curry leaves & Roasted almonds",
+        "Muttai Roast & French Beans",
+        "Chicken Pepper Roast & Murungayila",
+        "Spiced Inji chaya & Boiled white chana",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Sambharam & Walnut halves",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Nadan Kozhi Stew & French Beans",
+        "Fish Tikka & Sambar Soup",
+        "Pesarattu & Boiled Egg",
+        "Muttai Roast & Steamed Cabbage",
+        "Karimeen Pollichathu & Cheera",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "grated coconut",
+      "qty": 800.0,
+      "exact": 757.35,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Chicken Pepper Roast & Murungayila",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Pesarattu & Boiled Egg",
+        "Mathi Roast & Padavalanga Thoran",
+        "Karimeen Pollichathu & Cheera",
+        "Kattan Chaya & Kadala sundal",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "green chilli",
+      "qty": 44.0,
+      "exact": 43.61,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Spiced Sambharam with crushed curry leaves & Roasted almonds",
+        "Egg Bhurji & Multigrain Toast",
+        "Chicken Pepper Roast & Murungayila",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Sambharam & Walnut halves",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Egg & Vegetable Omelette",
+        "Nadan Kozhi Stew & French Beans",
+        "Pesarattu & Boiled Egg",
+        "Mathi Roast & Padavalanga Thoran",
+        "Karimeen Pollichathu & Cheera",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "ivy gourd (kovakka)",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "lime",
+      "qty": 6.0,
+      "exact": 5.74,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Karimeen Pollichathu & Cheera"
+      ]
+    },
+    {
+      "item": "mint leaves",
+      "qty": 2.0,
+      "exact": 1.15,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Pesarattu (Moong Dosa) & Chutney"
+      ]
+    },
+    {
+      "item": "onion",
+      "qty": 17.0,
+      "exact": 16.06,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Muttai Roast & French Beans",
+        "Egg Bhurji & Multigrain Toast",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Egg & Vegetable Omelette",
+        "Nadan Kozhi Stew & French Beans",
+        "Pesarattu & Boiled Egg",
+        "Muttai Roast & Steamed Cabbage",
+        "Idli Swap: Oats-Rava Idli & Sambar"
+      ]
+    },
+    {
+      "item": "shallots (small onions)",
+      "qty": 1500.0,
+      "exact": 1468.8,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Muttai Roast & French Beans",
+        "Chicken Pepper Roast & Murungayila",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Nadan Kozhi Stew & French Beans",
+        "Fish Tikka & Sambar Soup",
+        "Pesarattu & Boiled Egg",
+        "Mathi Roast & Padavalanga Thoran",
+        "Karimeen Pollichathu & Cheera",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "snake gourd (padavalanga)",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Mathi Roast & Padavalanga Thoran"
+      ]
+    },
+    {
+      "item": "tomato",
+      "qty": 19.0,
+      "exact": 18.36,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken Pepper Roast & Murungayila",
+        "Egg & Vegetable Omelette",
+        "Mathi Roast & Padavalanga Thoran",
+        "Muttai Roast & Steamed Cabbage",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "grouper (kalava) fillet",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "mackerel (ayala)",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Ayala Tawa Sear & Cheera Thoran"
+      ]
+    },
+    {
+      "item": "pearl spot (karimeen)",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Karimeen Pollichathu & Cheera"
+      ]
+    },
+    {
+      "item": "prawns (chemmeen)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Chemmeen Ularthiyathu & Pavakka"
+      ]
+    },
+    {
+      "item": "sardines (mathi)",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "pc",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Mathi Roast & Padavalanga Thoran"
+      ]
+    },
+    {
+      "item": "seer fish (neymeen) steak",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Fish Tikka & Sambar Soup"
+      ]
+    },
+    {
+      "item": "chicken (bone-in curry cut)",
+      "qty": 1700.0,
+      "exact": 1652.4,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Chicken Pepper Roast & Murungayila",
+        "Nadan Kozhi Stew & French Beans"
+      ]
+    },
+    {
+      "item": "chicken breast",
+      "qty": 850.0,
+      "exact": 826.2,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Tandoori/Pan-Grilled Chicken & Beans"
+      ]
+    },
+    {
+      "item": "eggs",
+      "qty": 84.0,
+      "exact": 82.62,
+      "unit": "pc",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Muttai Roast & French Beans",
+        "Egg Bhurji & Multigrain Toast",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Egg & Vegetable Omelette",
+        "Pesarattu & Boiled Egg",
+        "Muttai Roast & Steamed Cabbage",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "low-fat yoghurt (curd)",
+      "qty": 2700.0,
+      "exact": 2616.3,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Spiced Sambharam with crushed curry leaves & Roasted almonds",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Sambharam & Walnut halves",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Nadan Kozhi Stew & French Beans",
+        "Idli Swap: Oats-Rava Idli & Sambar"
+      ]
+    },
+    {
+      "item": "almonds",
+      "qty": 100.0,
+      "exact": 91.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Spiced Sambharam with crushed curry leaves & Roasted almonds",
+        "Kattan Chaya & Roasted peanuts or almonds"
+      ]
+    },
+    {
+      "item": "black chickpeas (kadala)",
+      "qty": 200.0,
+      "exact": 137.7,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Kattan Chaya & Kadala sundal"
+      ]
+    },
+    {
+      "item": "green gram (cherupayar)",
+      "qty": 1400.0,
+      "exact": 1308.15,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Hot Kattan Chaya & Boiled sprouted green gram",
+        "Pesarattu & Boiled Egg",
+        "Cherupayar Puzhukku (No Rice Dinner)"
+      ]
+    },
+    {
+      "item": "makhana (foxnuts)",
+      "qty": 100.0,
+      "exact": 91.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Green tea & Roasted makhana spiced with turmeric & salt"
+      ]
+    },
+    {
+      "item": "matta rice",
+      "qty": 2000.0,
+      "exact": 1927.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Chicken Pepper Roast & Murungayila",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Nadan Kozhi Stew & French Beans",
+        "Mathi Roast & Padavalanga Thoran",
+        "Karimeen Pollichathu & Cheera",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "peanuts",
+      "qty": 50.0,
+      "exact": 45.9,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Kattan Chaya & Roasted peanuts or almonds"
+      ]
+    },
+    {
+      "item": "rice flour",
+      "qty": 300.0,
+      "exact": 206.55,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Lace Appam & Egg Roast"
+      ]
+    },
+    {
+      "item": "rolled oats",
+      "qty": 400.0,
+      "exact": 367.2,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Idli Swap: Oats-Rava Idli & Sambar"
+      ]
+    },
+    {
+      "item": "semolina (rava)",
+      "qty": 100.0,
+      "exact": 91.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Idli Swap: Oats-Rava Idli & Sambar"
+      ]
+    },
+    {
+      "item": "toor dal",
+      "qty": 500.0,
+      "exact": 436.05,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Fish Tikka & Sambar Soup",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "walnuts",
+      "qty": 100.0,
+      "exact": 91.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Sambharam & Walnut halves"
+      ]
+    },
+    {
+      "item": "white chickpeas (chana)",
+      "qty": 200.0,
+      "exact": 137.7,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Spiced Inji chaya & Boiled white chana"
+      ]
+    },
+    {
+      "item": "whole-wheat atta",
+      "qty": 1000.0,
+      "exact": 940.95,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Muttai Roast & French Beans",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Fish Tikka & Sambar Soup",
+        "Muttai Roast & Steamed Cabbage",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "wholemeal bread",
+      "qty": 16.0,
+      "exact": 13.77,
+      "unit": "pc",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Egg Bhurji & Multigrain Toast",
+        "Egg & Vegetable Omelette"
+      ]
+    },
+    {
+      "item": "coconut milk (canned)",
+      "qty": 400.0,
+      "exact": 367.2,
+      "unit": "ml",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Nadan Kozhi Stew & French Beans"
+      ]
+    }
+  ],
+  "pantry": [
+    {
+      "item": "curry leaves",
+      "qty": 184.0,
+      "exact": 183.6,
+      "unit": "sprig",
+      "aisle": "produce",
+      "staple": true,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Spiced Sambharam with crushed curry leaves & Roasted almonds",
+        "Muttai Roast & French Beans",
+        "Chicken Pepper Roast & Murungayila",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Sambharam & Walnut halves",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Nadan Kozhi Stew & French Beans",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Muttai Roast & Steamed Cabbage",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Kattan Chaya & Kadala sundal",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "black tea leaves",
+      "qty": 18.5,
+      "exact": 18.36,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Spiced Inji chaya & Boiled white chana",
+        "Hot Kattan Chaya & Boiled sprouted green gram",
+        "Kattan Chaya & Kadala sundal",
+        "Kattan Chaya & Roasted peanuts or almonds"
+      ]
+    },
+    {
+      "item": "coconut oil",
+      "qty": 126.5,
+      "exact": 126.22,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Chicken Pepper Roast & Murungayila",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Nadan Kozhi Stew & French Beans",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Green tea & Roasted makhana spiced with turmeric & salt",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Kattan Chaya & Kadala sundal",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "green tea bags",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Green tea & Roasted makhana spiced with turmeric & salt"
+      ]
+    },
+    {
+      "item": "kudampuli (Malabar tamarind)",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "rice bran oil",
+      "qty": 37.0,
+      "exact": 36.72,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Muttai Roast & French Beans",
+        "Egg Bhurji & Multigrain Toast",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Egg & Vegetable Omelette",
+        "Fish Tikka & Sambar Soup",
+        "Pesarattu & Boiled Egg",
+        "Muttai Roast & Steamed Cabbage"
+      ]
+    },
+    {
+      "item": "salt",
+      "qty": 81.5,
+      "exact": 81.47,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Spiced Sambharam with crushed curry leaves & Roasted almonds",
+        "Muttai Roast & French Beans",
+        "Egg Bhurji & Multigrain Toast",
+        "Chicken Pepper Roast & Murungayila",
+        "Spiced Inji chaya & Boiled white chana",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Sambharam & Walnut halves",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Egg & Vegetable Omelette",
+        "Nadan Kozhi Stew & French Beans",
+        "Hot Kattan Chaya & Boiled sprouted green gram",
+        "Fish Tikka & Sambar Soup",
+        "Pesarattu & Boiled Egg",
+        "Mathi Roast & Padavalanga Thoran",
+        "Green tea & Roasted makhana spiced with turmeric & salt",
+        "Muttai Roast & Steamed Cabbage",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Kattan Chaya & Kadala sundal",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "sugar",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Lace Appam & Egg Roast"
+      ]
+    },
+    {
+      "item": "tamarind",
+      "qty": 300.0,
+      "exact": 270.81,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Chicken Pepper Roast & Murungayila",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Fish Tikka & Sambar Soup",
+        "Pesarattu & Boiled Egg",
+        "Mathi Roast & Padavalanga Thoran",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "yeast (instant)",
+      "qty": 1.5,
+      "exact": 1.15,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Lace Appam & Egg Roast"
+      ]
+    },
+    {
+      "item": "asafoetida",
+      "qty": 4.5,
+      "exact": 4.13,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Chicken Pepper Roast & Murungayila",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "black pepper",
+      "qty": 45.5,
+      "exact": 45.33,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Muttai Roast & French Beans",
+        "Egg Bhurji & Multigrain Toast",
+        "Chicken Pepper Roast & Murungayila",
+        "Spiced Inji chaya & Boiled white chana",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Egg & Vegetable Omelette",
+        "Nadan Kozhi Stew & French Beans",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Muttai Roast & Steamed Cabbage",
+        "Karimeen Pollichathu & Cheera",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "cardamom pods",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Spiced Inji chaya & Boiled white chana",
+        "Nadan Kozhi Stew & French Beans"
+      ]
+    },
+    {
+      "item": "chilli powder",
+      "qty": 28.0,
+      "exact": 27.54,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Muttai Roast & French Beans",
+        "Chicken Pepper Roast & Murungayila",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Muttai Roast & Steamed Cabbage",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "cinnamon stick",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Nadan Kozhi Stew & French Beans"
+      ]
+    },
+    {
+      "item": "cloves",
+      "qty": 10.0,
+      "exact": 9.18,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Nadan Kozhi Stew & French Beans"
+      ]
+    },
+    {
+      "item": "coriander powder",
+      "qty": 28.0,
+      "exact": 27.54,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Muttai Roast & French Beans",
+        "Chicken Pepper Roast & Murungayila",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Fish Tikka & Sambar Soup",
+        "Muttai Roast & Steamed Cabbage",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Lace Appam & Egg Roast"
+      ]
+    },
+    {
+      "item": "cumin seeds",
+      "qty": 24.5,
+      "exact": 24.1,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Spiced Sambharam with crushed curry leaves & Roasted almonds",
+        "Chicken Pepper Roast & Murungayila",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Pesarattu (Moong Dosa) & Chutney",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Pesarattu & Boiled Egg",
+        "Mathi Roast & Padavalanga Thoran",
+        "Karimeen Pollichathu & Cheera",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "dried red chillies",
+      "qty": 42.0,
+      "exact": 41.31,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Chicken Pepper Roast & Murungayila",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Karimeen Pollichathu & Cheera",
+        "Kattan Chaya & Kadala sundal",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "fenugreek seeds",
+      "qty": 3.0,
+      "exact": 2.75,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Fish Tikka & Sambar Soup",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "garam masala",
+      "qty": 10.5,
+      "exact": 10.33,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Muttai Roast & French Beans",
+        "Chicken Pepper Roast & Murungayila",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Muttai Roast & Steamed Cabbage",
+        "Lace Appam & Egg Roast"
+      ]
+    },
+    {
+      "item": "kashmiri chilli powder",
+      "qty": 16.5,
+      "exact": 16.06,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Fish Tikka & Sambar Soup",
+        "Karimeen Pollichathu & Cheera",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka"
+      ]
+    },
+    {
+      "item": "mustard seeds",
+      "qty": 36.0,
+      "exact": 35.57,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Chicken Pepper Roast & Murungayila",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Nadan Kozhi Stew & French Beans",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Kattan Chaya & Kadala sundal",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    },
+    {
+      "item": "turmeric powder",
+      "qty": 46.0,
+      "exact": 45.9,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Oats Puttu & Cherupayar",
+        "Ayala Tawa Sear & Cheera Thoran",
+        "Muttai Roast & French Beans",
+        "Egg Bhurji & Multigrain Toast",
+        "Chicken Pepper Roast & Murungayila",
+        "Cherupayar Porridge & Boiled Eggs",
+        "Chemmeen Ularthiyathu & Pavakka",
+        "Tandoori/Pan-Grilled Chicken & Beans",
+        "Nadan Kozhi Stew & French Beans",
+        "Fish Tikka & Sambar Soup",
+        "Mathi Roast & Padavalanga Thoran",
+        "Green tea & Roasted makhana spiced with turmeric & salt",
+        "Muttai Roast & Steamed Cabbage",
+        "Idli Swap: Oats-Rava Idli & Sambar",
+        "Karimeen Pollichathu & Cheera",
+        "Cherupayar Puzhukku (No Rice Dinner)",
+        "Lace Appam & Egg Roast",
+        "Kalava (Grouper) Curry & Kovakka",
+        "Cheera Parippu & Egg Phulka"
+      ]
+    }
+  ]
+}

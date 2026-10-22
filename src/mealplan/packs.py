@@ -7,7 +7,7 @@ from pathlib import Path
 from pydantic import ValidationError
 
 from mealplan.config import load_yaml
-from mealplan.models import SLOTS, LoadedPack, Pack, Recipe
+from mealplan.models import SLOTS, Catalogue, LoadedPack, Pack, Recipe
 
 
 class PackError(ValueError):
@@ -57,7 +57,7 @@ def load_packs(cuisines_dir: Path, ids: list[str]) -> list[LoadedPack]:
     return [load_pack(cuisines_dir, i) for i in ids]
 
 
-def check_pack(lp: LoadedPack) -> list[str]:
+def check_pack(lp: LoadedPack, catalogue: Catalogue | None = None) -> list[str]:
     """Problems that make a pack unusable for a full week. Empty list means fine."""
     out: list[str] = []
     for slot in SLOTS:
@@ -75,6 +75,9 @@ def check_pack(lp: LoadedPack) -> list[str]:
         out.append(
             f"lunch: {len(packable)} packable mains, need {lp.pack.minimum_packable_lunches}"
         )
+    if catalogue is not None:
+        for r in lp.recipes.values():
+            out += catalogue.problems(r)
     return out
 
 

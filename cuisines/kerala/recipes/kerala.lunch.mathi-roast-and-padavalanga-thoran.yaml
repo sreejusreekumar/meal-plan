@@ -12,6 +12,11 @@ effort: weekday
 family: mathi
 nutrition:
   kcal: 540
+  carbs: 58
+  fibre: 10
+  protein: 34
+  satFat: 5
+  sugar: 0
 components:
 - 1 cup Padavalanga (snake gourd) thoran
 - 'Primary: 3 fresh sardines (Mathi) pan-seared with turmeric, pepper, Kudampuli'
@@ -22,4 +27,35 @@ swaps:
   use: Kilimeen (Pink Perch) Tawa Roast
 - for: Mathi
   use: Karimeen Pollichathu
+prepMinutes: 15
+cookMinutes: 30
+ingredients:
+  - { item: matta rice, qty: 60, unit: g }
+  - { item: sardines (mathi), qty: 3, unit: pc }
+  - { item: turmeric powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 1, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc  }
+  - { item: coconut oil, qty: 2.5, unit: tsp }
+  - { item: curry leaves, qty: 3, unit: sprig }
+  - { item: salt, qty: 1.5, unit: tsp }
+  - { item: snake gourd (padavalanga), qty: 100, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: mustard seeds, qty: 0.75, unit: tsp }
+  - { item: grated coconut, qty: 15, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc  }
+  - { item: tamarind, qty: 10, unit: g }
+  - { item: garlic, qty: 4, unit: g   }
+  - { item: cumin seeds, qty: 1, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch  }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: asafoetida, qty: 0.1, unit: tsp }
+steps:
+  - Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.
+  - Marinate the sardines with turmeric, chilli powder, crushed pepper, lime juice and salt for 15 min.
+  - Heat 1 tsp coconut oil on a tawa and sear the fish 4-5 min per side with curry leaves until the skin is crisp and the flesh flakes.
+  - Dice the vegetable finely for the padavalanga thoran; splutter mustard seeds and curry leaves in coconut oil, add shallots and green chilli, then the vegetable with turmeric and salt, cover and cook until just tender, and finish with grated coconut.
+  - For the rasam, simmer tamarind water with crushed tomato, garlic, pepper, cumin, turmeric and salt (extra cumin) for 10 min, temper with mustard seeds, dried chilli and asafoetida, and add coriander leaves.
+  - Plate 1 level cup rice with the padavalanga thoran, the sardines, and the rasam alongside.
 source: Kerala 28-day plan (index.html, Oct 2026)

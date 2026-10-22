@@ -10,10 +10,28 @@ tags:
 spice: mild
 packable: false
 effort: weekday
-family: kadala
+family: chickpeas
 nutrition:
-  kcal: 120
+  kcal: 190
+  carbs: 23
+  fibre: 5
+  protein: 10
+  satFat: 0.7
+  sugar: 0
 components:
 - 1 glass cold Sambharam
 - 1/2 cup boiled chana
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: white chickpeas (chana), qty: 30, unit: g }
+steps:
+  - Whisk the yoghurt with 150 ml cold water, crushed ginger, slit green chilli, curry leaves and salt to make sambharam.
+  - Reheat the pre-boiled chickpeas in a pan with a splash of water for 3 to 4 minutes.
+  - Season with salt and serve warm with the drink.

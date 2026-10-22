@@ -10,9 +10,31 @@ kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
 family: omelette
+prepMinutes: 10
+cookMinutes: 10
 nutrition:
   kcal: 350
+  carbs: 22
+  fibre: 5
+  protein: 18
+  satFat: 3.5
+  sugar: 0
 components:
 - 2 eggs whisked with diced beans, tomatoes, onions, green chillies
 - 1 slice wholemeal bread
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: french beans, qty: 30, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+steps:
+  - Finely dice the beans, tomato, onion and green chilli.
+  - Whisk the eggs with the vegetables, salt and pepper.
+  - Heat the oil in a non-stick pan, pour in the mix and cook on medium until set, then flip and finish for a minute.
+  - Toast the wholemeal bread dry and serve alongside the omelette.
 source: Kerala 28-day plan (index.html, Oct 2026)

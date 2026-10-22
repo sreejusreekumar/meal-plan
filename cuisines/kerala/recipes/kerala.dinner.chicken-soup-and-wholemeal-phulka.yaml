@@ -8,11 +8,40 @@ protein: chicken
 spice: medium
 packable: false
 effort: weekday
+prepMinutes: 15
+cookMinutes: 35
 family: soup
 nutrition:
   kcal: 500
+  carbs: 36
+  fibre: 9
+  protein: 34
+  satFat: 4
+  sugar: 0
 components:
 - 1 large bowl shredded chicken & vegetable soup
 - 1 whole-wheat chapati
 - Cucumber slices
+ingredients:
+- { item: chicken (bone-in curry cut), qty: 150, unit: g }
+- { item: carrot, qty: 0.5, unit: pc  }
+- { item: french beans, qty: 50, unit: g }
+- { item: cabbage, qty: 50, unit: g }
+- { item: onion, qty: 0.5, unit: pc  }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: black pepper, qty: 1, unit: tsp }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: coriander leaves, qty: 0.15, unit: bunch  }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: whole-wheat atta, qty: 35, unit: g }
+- { item: cucumber, qty: 0.5, unit: pc  }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Heat the oil and soften the onion, ginger and garlic.
+- Add the chicken, turmeric, pepper, salt and 600 ml water; simmer 25 minutes.
+- Lift out the chicken, shred the meat and return it to the pot with the diced carrot, beans and cabbage.
+- Simmer 8 minutes more and finish with chopped coriander.
+- Knead the atta, roll one phulka and puff it on the tawa.
+- Serve the soup with the phulka and cucumber slices.
 source: Kerala 28-day plan (index.html, Oct 2026)

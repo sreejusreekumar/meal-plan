@@ -9,10 +9,37 @@ spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 10
+cookMinutes: 30
 family: boiled-eggs
 nutrition:
   kcal: 480
+  carbs: 40
+  fibre: 11
+  protein: 30
+  satFat: 5
+  sugar: 0
 components:
 - 1 large bowl savoury Cherupayar soup/puzhukku with crushed cumin
 - 2 hard-boiled eggs with pepper
+ingredients:
+- { item: green gram (cherupayar), qty: 60, unit: g }
+- { item: grated coconut, qty: 15, unit: g }
+- { item: eggs, qty: 2, unit: pc }
+- { item: shallots (small onions), qty: 20, unit: g }
+- { item: garlic, qty: 4, unit: g   }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: cumin seeds, qty: 0.5, unit: tsp }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 1, unit: sprig }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: black pepper, qty: 0.5, unit: tsp }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Soak the green gram for 30 minutes if you have time, then pressure-cook with turmeric and 400 ml water until very soft.
+- Hard-boil the eggs for 10 minutes, cool, peel and halve.
+- Crush the cumin, garlic and green chilli together and stir into the hot gram.
+- Mash lightly so it becomes a thick soupy porridge; add salt and the grated coconut.
+- Heat the coconut oil and fry the shallots and curry leaves until golden; pour over the porridge.
+- Serve a large bowl of porridge with the eggs sprinkled with black pepper.
 source: Kerala 28-day plan (index.html, Oct 2026)

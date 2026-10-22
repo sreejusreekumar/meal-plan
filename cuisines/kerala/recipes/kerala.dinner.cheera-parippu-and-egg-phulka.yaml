@@ -8,11 +8,44 @@ protein: legume
 spice: medium
 packable: false
 effort: weekday
+prepMinutes: 15
+cookMinutes: 25
 family: dal
 nutrition:
   kcal: 490
+  carbs: 48
+  fibre: 11
+  protein: 29
+  satFat: 4
+  sugar: 0
 components:
 - 2 whole-wheat phulkas
 - 1 bowl Cheera Parippu (spinach dal)
 - 1 single-egg omelette
+ingredients:
+- { item: whole-wheat atta, qty: 70, unit: g }
+- { item: toor dal, qty: 40, unit: g }
+- { item: amaranth leaves (cheera), qty: 0.5, unit: bunch  }
+- { item: eggs, qty: 1, unit: pc }
+- { item: shallots (small onions), qty: 20, unit: g }
+- { item: garlic, qty: 4, unit: g   }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: cumin seeds, qty: 0.5, unit: tsp }
+- { item: grated coconut, qty: 10, unit: g }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: mustard seeds, qty: 0.5, unit: tsp }
+- { item: dried red chillies, qty: 1, unit: pc }
+- { item: curry leaves, qty: 1, unit: sprig }
+- { item: black pepper, qty: 0.25, unit: tsp }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Knead the atta with warm water and a pinch of salt; rest while the dal cooks.
+- Pressure-cook the toor dal with turmeric and 300 ml water for 3 whistles.
+- Add the chopped cheera, garlic and green chilli to the dal and simmer 5 minutes.
+- Grind the coconut with cumin, stir into the dal and bring back to a boil.
+- Heat the coconut oil, pop the mustard seeds with the dried chilli, shallots and curry leaves, and pour over the dal.
+- Roll two thin phulkas and cook on a hot tawa, puffing them over the flame.
+- Beat the egg with pepper and salt and cook a thin single-egg omelette.
+- Serve the phulkas with a bowl of cheera parippu and the omelette.
 source: Kerala 28-day plan (index.html, Oct 2026)

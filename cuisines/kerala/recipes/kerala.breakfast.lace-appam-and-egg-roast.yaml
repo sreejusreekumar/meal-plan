@@ -11,9 +11,42 @@ effort: weekend
 treat: true
 refinedCarb: true
 family: egg-roast
+prepMinutes: 15
+cookMinutes: 20
 nutrition:
   kcal: 370
+  carbs: 46
+  fibre: 3
+  protein: 12
+  satFat: 6
+  sugar: 2
 components:
 - Strictly 2 Palappams
 - 1 egg roast with thick shallot-tomato gravy (do not drink plain coconut milk)
+ingredients:
+  - { item: sugar, qty: 1, unit: tsp }
+  - { item: rice flour, qty: 45, unit: g }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: yeast (instant), qty: 0.25, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: shallots (small onions), qty: 20, unit: g  }
+  - { item: tomato, qty: 0.5, unit: pc  }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: garlic, qty: 4, unit: g   }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: coconut oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - The night before, blend the rice flour with coconut, yeast, a teaspoon of sugar, salt and water to a thin batter and leave to ferment.
+  - Hard-boil the egg, peel and halve.
+  - Heat coconut oil, pop mustard seeds and curry leaves, then saute sliced shallots, ginger, garlic and chilli until deep golden.
+  - Add the spice powders and tomato and cook down to a thick gravy; fold in the egg and simmer 2 minutes.
+  - Swirl ladles of batter in a hot appachatti to make 2 lace appams with thin crisp edges; cover and cook until the centre is set.
+  - Serve strictly 2 appams with the egg roast; no extra coconut milk on the side.
 source: Kerala 28-day plan (index.html, Oct 2026)

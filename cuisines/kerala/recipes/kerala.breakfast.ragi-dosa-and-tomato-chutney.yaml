@@ -10,10 +10,37 @@ kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
 family: dosa
+prepMinutes: 10
+cookMinutes: 15
 nutrition:
   kcal: 370
+  carbs: 45
+  fibre: 8
+  protein: 13
+  satFat: 2.5
+  sugar: 0
 components:
 - 2 thin ragi-flour dosas
 - 2 tbsp spicy tomato-onion chammanthi
 - 1 boiled egg
+ingredients:
+  - { item: ragi flour, qty: 50, unit: g }
+  - { item: rice flour, qty: 10, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 30, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: tomato, qty: 0.5, unit: pc  }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: dried red chillies, qty: 2, unit: pc }
+  - { item: garlic, qty: 4, unit: g  }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: tamarind, qty: 2, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - Whisk the ragi flour, rice flour and yoghurt with water, cumin and salt into a thin batter; rest 10 minutes.
+  - Saute the onion, garlic, dried red chillies and tomato in a little of the oil until soft; grind with tamarind and salt, then temper with mustard seeds and curry leaves.
+  - Pour the batter thinly onto a hot tawa, drizzle oil and cook until crisp; make 2 dosas.
+  - Hard-boil the egg (10 minutes), peel and halve. Serve with the dosas and 2 tablespoons of chutney.
 source: Kerala 28-day plan (index.html, Oct 2026)

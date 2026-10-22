@@ -9,7 +9,7 @@ from pathlib import Path
 
 import yaml
 
-from mealplan.models import Household
+from mealplan.models import Catalogue, Household
 
 
 @dataclass(frozen=True)
@@ -39,6 +39,10 @@ class Paths:
     @property
     def rotation_file(self) -> Path:
         return self.config_dir / "rotation.yaml"
+
+    @property
+    def catalogue_file(self) -> Path:
+        return self.config_dir / "ingredients.yaml"
 
     @property
     def manifest_file(self) -> Path:
@@ -79,6 +83,12 @@ def load_yaml(path: Path) -> dict:
 
 def load_household(p: Paths) -> Household:
     return Household.model_validate(load_yaml(p.household_file))
+
+
+def load_catalogue(p: Paths) -> Catalogue | None:
+    if not p.catalogue_file.exists():
+        return None
+    return Catalogue.model_validate(load_yaml(p.catalogue_file))
 
 
 def load_rotation(p: Paths) -> list[str]:

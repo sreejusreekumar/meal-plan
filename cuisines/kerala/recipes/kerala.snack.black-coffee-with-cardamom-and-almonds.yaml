@@ -13,7 +13,22 @@ effort: weekday
 family: nuts
 nutrition:
   kcal: 130
+  carbs: 3
+  fibre: 2
+  protein: 3
+  satFat: 0.7
+  sugar: 0
 components:
 - Black coffee with cardamom
 - 12-14 almonds
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: cardamom pods, qty: 1, unit: pc }
+  - { item: almonds, qty: 15, unit: g }
+steps:
+  - Boil a cup of water with a crushed cardamom pod, stir in the coffee powder, steep a minute and strain; no sugar.
+  - Dry-roast the almonds in a pan for 2 to 3 minutes until fragrant.
+  - Serve the warm almonds alongside the drink.

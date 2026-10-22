@@ -10,9 +10,33 @@ kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
 family: omelette
+prepMinutes: 10
+cookMinutes: 10
 nutrition:
   kcal: 350
+  carbs: 36
+  fibre: 7
+  protein: 21
+  satFat: 3.5
+  sugar: 0
 components:
 - 2 eggs scrambled with French beans, carrots & pepper
 - 1-2 slices 100% wholemeal bread toasted dry
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: french beans, qty: 30, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.25, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 2, unit: pc }
+steps:
+  - Finely chop the beans, carrot, capsicum, onion and green chilli.
+  - Saute the vegetables in the oil for 3-4 minutes with turmeric and salt until just tender.
+  - Pour in the whisked eggs and scramble on low heat, breaking into soft curds; finish with pepper.
+  - Toast the wholemeal bread dry and serve with the bhurji on top.
 source: Kerala 28-day plan (index.html, Oct 2026)

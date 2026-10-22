@@ -11,6 +11,11 @@ effort: weekday
 family: netholi
 nutrition:
   kcal: 540
+  carbs: 58
+  fibre: 10
+  protein: 32
+  satFat: 4
+  sugar: 0
 components:
 - 1 cup Cabbage thoran
 - 'Primary: 1 cup Netholi (anchovies) shallow-roasted with shallots and curry leaves'
@@ -21,4 +26,35 @@ swaps:
   use: Mathi (Sardines) Tawa Roast
 - for: Netholi
   use: Chemmeen (Prawns) Ularthu
+prepMinutes: 15
+cookMinutes: 30
+ingredients:
+  - { item: matta rice, qty: 60, unit: g }
+  - { item: anchovies (netholi), qty: 120, unit: g }
+  - { item: turmeric powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 1, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc  }
+  - { item: coconut oil, qty: 2.5, unit: tsp }
+  - { item: curry leaves, qty: 3, unit: sprig }
+  - { item: salt, qty: 1.5, unit: tsp }
+  - { item: shallots (small onions), qty: 20, unit: g  }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: mustard seeds, qty: 0.75, unit: tsp }
+  - { item: grated coconut, qty: 15, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc  }
+  - { item: tamarind, qty: 10, unit: g }
+  - { item: garlic, qty: 4, unit: g   }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch  }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: asafoetida, qty: 0.1, unit: tsp }
+steps:
+  - Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.
+  - Clean the anchovies and marinate with turmeric, chilli powder, crushed pepper, lime juice and salt for 15 min.
+  - Spread them on a hot tawa with 1 tsp coconut oil, scatter sliced shallots and curry leaves, and roast 4-5 min per side until crisp.
+  - Dice the vegetable finely for the cabbage thoran; splutter mustard seeds and curry leaves in coconut oil, add shallots and green chilli, then the vegetable with turmeric and salt, cover and cook until just tender, and finish with grated coconut.
+  - For the rasam, simmer tamarind water with crushed tomato, garlic, pepper, cumin, turmeric and salt (extra tomato) for 10 min, temper with mustard seeds, dried chilli and asafoetida, and add coriander leaves.
+  - Plate 1 level cup rice with the cabbage thoran, the anchovies, and the rasam alongside.
 source: Kerala 28-day plan (index.html, Oct 2026)

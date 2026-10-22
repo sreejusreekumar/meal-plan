@@ -13,7 +13,26 @@ effort: weekday
 family: nuts
 nutrition:
   kcal: 100
+  carbs: 7.5
+  fibre: 1.5
+  protein: 6.5
+  satFat: 1.1
+  sugar: 0
 components:
 - 1 glass spiced Sambharam with crushed curry leaves
 - 10 roasted almonds
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: almonds, qty: 12, unit: g }
+steps:
+  - Crush the curry leaves, ginger and green chilli with the cumin, then whisk into the yoghurt with 150 ml cold water and salt.
+  - Dry-roast the almonds in a pan for 2 to 3 minutes until fragrant and let them cool.
+  - Serve the almonds alongside the drink.

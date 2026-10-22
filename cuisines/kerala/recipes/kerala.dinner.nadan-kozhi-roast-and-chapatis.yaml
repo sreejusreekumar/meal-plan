@@ -8,11 +8,41 @@ protein: chicken
 spice: medium
 packable: false
 effort: weekday
+prepMinutes: 15
+cookMinutes: 40
 family: chicken-roast
 nutrition:
   kcal: 490
+  carbs: 44
+  fibre: 8
+  protein: 36
+  satFat: 5
+  sugar: 0
 components:
 - 2 whole-wheat phulkas
 - 1 bowl chicken roast with curry leaves
 - Sliced cucumbers
+ingredients:
+- { item: whole-wheat atta, qty: 70, unit: g }
+- { item: chicken (bone-in curry cut), qty: 180, unit: g }
+- { item: shallots (small onions), qty: 20, unit: g  }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: kashmiri chilli powder, qty: 1, unit: tsp }
+- { item: coriander powder, qty: 1, unit: tsp }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: garam masala, qty: 0.5, unit: tsp }
+- { item: black pepper, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: cucumber, qty: 0.5, unit: pc  }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Marinate the chicken with turmeric, kashmiri chilli, pepper and salt for 15 minutes.
+- Heat the coconut oil and fry the shallots, ginger, garlic, green chilli and curry leaves until deep golden.
+- Add the coriander powder and the chicken; sear, then cover and cook on low 25 minutes, stirring now and then.
+- Uncover, add garam masala and roast until the masala clings to the pieces.
+- Roll two phulkas and puff on the tawa.
+- Serve with sliced cucumber.
 source: Kerala 28-day plan (index.html, Oct 2026)

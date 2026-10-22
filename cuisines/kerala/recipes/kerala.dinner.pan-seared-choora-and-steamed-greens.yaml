@@ -9,9 +9,16 @@ spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 10
+cookMinutes: 20
 family: choora
 nutrition:
   kcal: 500
+  carbs: 30
+  fibre: 8
+  protein: 42
+  satFat: 3
+  sugar: 0
 components:
 - 150g Choora steak spiced with black pepper and lime
 - 1 cup steamed Cheera leaves
@@ -21,4 +28,23 @@ swaps:
   use: Neymeen (Seer fish) steak
 - for: Choora
   use: Kalava (Grouper) fillet
+ingredients:
+- { item: tuna (choora), qty: 150, unit: g }
+- { item: black pepper, qty: 1, unit: tsp }
+- { item: lime, qty: 0.25, unit: pc   }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: chilli powder, qty: 0.5, unit: tsp }
+- { item: garlic, qty: 4, unit: g   }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: amaranth leaves (cheera), qty: 0.5, unit: bunch  }
+- { item: shallots (small onions), qty: 20, unit: g }
+- { item: curry leaves, qty: 1, unit: sprig }
+- { item: whole-wheat atta, qty: 35, unit: g }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Rub the tuna steak with crushed pepper, turmeric, chilli powder, garlic, lime juice and salt; rest 10 minutes.
+- Knead the atta, roll one chapati and cook on the tawa.
+- Wilt the washed cheera with the shallots, curry leaves and a pinch of salt in a covered pan for 4 minutes.
+- Heat the oil in a hot pan and sear the tuna 3 minutes a side.
+- Serve the fish with the greens, a squeeze of lime and the chapati.
 source: Kerala 28-day plan (index.html, Oct 2026)

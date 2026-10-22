@@ -9,9 +9,32 @@ spice: medium
 packable: false
 effort: weekday
 family: sprouts
+prepMinutes: 10
+cookMinutes: 10
 nutrition:
   kcal: 360
+  carbs: 28
+  fibre: 8
+  protein: 22
+  satFat: 3.2
+  sugar: 0
 components:
 - 1 bowl steamed sprouted moong tossed with chopped onions, tomato, lemon
 - 2 poached or soft-boiled eggs
+ingredients:
+  - { item: green gram (cherupayar), qty: 40, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: coriander leaves, qty: 0.15, unit: bunch  }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: eggs, qty: 2, unit: pc }
+steps:
+  - Use green gram soaked and sprouted over the previous 1-2 days.
+  - Steam the sprouts for 5 minutes until just tender but still crunchy.
+  - Toss the sprouts with chopped onion, tomato, cucumber, chilli, coriander, lemon juice, salt and pepper.
+  - Poach or soft-boil the eggs (3-6 minutes) and serve on top of the salad.
 source: Kerala 28-day plan (index.html, Oct 2026)

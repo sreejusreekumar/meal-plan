@@ -5,11 +5,11 @@
     "kerala"
   ],
   "packVersions": {
-    "kerala": 1
+    "kerala": 2
   },
-  "seed": "kerala:2026-W44:kerala=1:0",
+  "seed": "kerala:2026-W44:kerala=2:0",
   "salt": 0,
-  "generatedAt": "2026-10-23T09:58:37+11:00",
+  "generatedAt": "2026-10-23T10:25:10+11:00",
   "generator": "0.1.0",
   "days": [
     {
@@ -18,20 +18,25 @@
       "cuisine": "kerala",
       "meals": {
         "breakfast": [
-          "kerala.breakfast.oats-puttu-and-kadala"
+          "kerala.breakfast.oats-puttu-and-cherupayar"
         ],
         "lunch": [
-          "kerala.lunch.ayala-pollichathu-and-pavakka"
+          "kerala.lunch.ayala-tawa-sear-and-cheera-thoran"
         ],
         "snack": [
-          "kerala.snack.cold-sambharam-and-boiled-chana"
+          "kerala.snack.spiced-sambharam-with-crushed-curry-leaves-and-roasted-almon"
         ],
         "dinner": [
-          "kerala.dinner.paneer-tofu-bhurji-and-chapati"
+          "kerala.dinner.muttai-roast-and-french-beans"
         ]
       },
       "totals": {
-        "kcal": 1550.0,
+        "kcal": 1490.0,
+        "carbs": 142.5,
+        "fibre": 31.5,
+        "protein": 85.5,
+        "satFat": 15.1,
+        "sugar": 0.0,
         "refinedCarbDishes": 0.0
       }
     },
@@ -41,20 +46,25 @@
       "cuisine": "kerala",
       "meals": {
         "breakfast": [
-          "kerala.breakfast.ragi-dosa-and-tomato-chutney"
+          "kerala.breakfast.egg-bhurji-and-multigrain-toast"
         ],
         "lunch": [
-          "kerala.lunch.nadan-kozhi-roast-and-padavalanga"
+          "kerala.lunch.chicken-pepper-roast-and-murungayila"
         ],
         "snack": [
-          "kerala.snack.chilled-sambharam-and-walnut-halves"
+          "kerala.snack.spiced-inji-chaya-and-boiled-white-chana"
         ],
         "dinner": [
-          "kerala.dinner.cheera-parippu-and-egg-phulka"
+          "kerala.dinner.cherupayar-porridge-and-boiled-eggs"
         ]
       },
       "totals": {
-        "kcal": 1530.0,
+        "kcal": 1520.0,
+        "carbs": 153.0,
+        "fibre": 34.0,
+        "protein": 95.0,
+        "satFat": 12.7,
+        "sugar": 0.0,
         "refinedCarbDishes": 0.0
       }
     },
@@ -64,20 +74,25 @@
       "cuisine": "kerala",
       "meals": {
         "breakfast": [
-          "kerala.breakfast.ragi-puttu-and-cherupayar"
+          "kerala.breakfast.pesarattu-and-chutney"
         ],
         "lunch": [
-          "kerala.lunch.choora-mulakittathu-and-cabbage-thoran"
+          "kerala.lunch.chemmeen-ularthiyathu-and-pavakka"
         ],
         "snack": [
-          "kerala.snack.kattan-kappi-and-roasted-makhana"
+          "kerala.snack.sambharam-and-walnut-halves"
         ],
         "dinner": [
-          "kerala.dinner.chicken-soup-and-wholemeal-phulka"
+          "kerala.dinner.tandoori-pan-grilled-chicken-and-beans"
         ]
       },
       "totals": {
-        "kcal": 1510.0,
+        "kcal": 1500.0,
+        "carbs": 136.0,
+        "fibre": 30.3,
+        "protein": 106.0,
+        "satFat": 15.2,
+        "sugar": 0.0,
         "refinedCarbDishes": 0.0
       }
     },
@@ -93,14 +108,19 @@
           "kerala.lunch.nadan-kozhi-stew-and-french-beans"
         ],
         "snack": [
-          "kerala.snack.kattan-chaya-with-cardamom-and-boiled-tempered-green-gram-sp"
+          "kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram"
         ],
         "dinner": [
-          "kerala.dinner.muttai-roast-and-french-beans"
+          "kerala.dinner.fish-tikka-and-sambar-soup"
         ]
       },
       "totals": {
-        "kcal": 1480.0,
+        "kcal": 1510.0,
+        "carbs": 139.0,
+        "fibre": 30.0,
+        "protein": 102.0,
+        "satFat": 12.6,
+        "sugar": 0.0,
         "refinedCarbDishes": 0.0
       }
     },
@@ -110,20 +130,25 @@
       "cuisine": "kerala",
       "meals": {
         "breakfast": [
-          "kerala.breakfast.pesarattu-and-mint-chutney"
+          "kerala.breakfast.pesarattu-and-boiled-egg"
         ],
         "lunch": [
-          "kerala.lunch.karimeen-pollichathu-and-kovakka"
+          "kerala.lunch.mathi-roast-and-padavalanga-thoran"
         ],
         "snack": [
-          "kerala.snack.green-tea-and-roasted-peanuts"
+          "kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt"
         ],
         "dinner": [
-          "kerala.dinner.yellow-dal-spinach-and-boiled-eggs"
+          "kerala.dinner.muttai-roast-and-steamed-cabbage"
         ]
       },
       "totals": {
         "kcal": 1510.0,
+        "carbs": 143.0,
+        "fibre": 31.0,
+        "protein": 82.0,
+        "satFat": 14.5,
+        "sugar": 0.0,
         "refinedCarbDishes": 0.0
       }
     },
@@ -133,21 +158,26 @@
       "cuisine": "kerala",
       "meals": {
         "breakfast": [
-          "kerala.breakfast.lace-appam-and-egg-roast"
+          "kerala.breakfast.idli-swap-oats-rava-idli-and-sambar"
         ],
         "lunch": [
-          "kerala.lunch.mathi-fry-and-pavakka-mezhukkupuratti"
+          "kerala.lunch.karimeen-pollichathu-and-cheera"
         ],
         "snack": [
-          "kerala.snack.kattan-chaya-and-boiled-spiced-kadala-sundal"
+          "kerala.snack.kattan-chaya-and-kadala-sundal"
         ],
         "dinner": [
-          "kerala.dinner.muttai-roast-and-steamed-cabbage"
+          "kerala.dinner.cherupayar-puzhukku"
         ]
       },
       "totals": {
-        "kcal": 1520.0,
-        "refinedCarbDishes": 1.0
+        "kcal": 1555.0,
+        "carbs": 159.0,
+        "fibre": 37.0,
+        "protein": 88.0,
+        "satFat": 16.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
       }
     },
     {
@@ -156,21 +186,26 @@
       "cuisine": "kerala",
       "meals": {
         "breakfast": [
-          "kerala.breakfast.sprouted-moong-salad-and-poached-eggs"
+          "kerala.breakfast.lace-appam-and-egg-roast"
         ],
         "lunch": [
-          "kerala.lunch.kalava-tawa-roast-and-murungayila"
+          "kerala.lunch.kalava-curry-and-kovakka"
         ],
         "snack": [
-          "kerala.snack.kattan-chaya-and-boiled-green-gram"
+          "kerala.snack.kattan-chaya-and-roasted-peanuts-or-almonds"
         ],
         "dinner": [
-          "kerala.dinner.paneer-and-vegetable-stir-fry"
+          "kerala.dinner.cheera-parippu-and-egg-phulka"
         ]
       },
       "totals": {
         "kcal": 1500.0,
-        "refinedCarbDishes": 0.0
+        "carbs": 155.0,
+        "fibre": 26.0,
+        "protein": 80.0,
+        "satFat": 14.0,
+        "sugar": 2.0,
+        "refinedCarbDishes": 1.0
       }
     }
   ],
@@ -181,7 +216,7 @@
     "legumeDishes": 10,
     "eggMains": 5,
     "treats": 1,
-    "vegDinners": 6
+    "vegDinners": 5
   },
   "recipes": {
     "kerala.breakfast.egg-and-vegetable-omelette": {
@@ -198,19 +233,398 @@
       "spice": "medium",
       "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
       "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "omelette",
       "nutrition": {
-        "kcal": 350
+        "kcal": 350,
+        "carbs": 22.0,
+        "fibre": 5.0,
+        "protein": 18.0,
+        "satFat": 3.5,
+        "sugar": 0.0
       },
       "components": [
         "2 eggs whisked with diced beans, tomatoes, onions, green chillies",
         "1 slice wholemeal bread"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "french beans",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        }
+      ],
+      "steps": [
+        "Finely dice the beans, tomato, onion and green chilli.",
+        "Whisk the eggs with the vegetables, salt and pepper.",
+        "Heat the oil in a non-stick pan, pour in the mix and cook on medium until set, then flip and finish for a minute.",
+        "Toast the wholemeal bread dry and serve alongside the omelette."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.breakfast.egg-bhurji-and-multigrain-toast": {
+      "id": "kerala.breakfast.egg-bhurji-and-multigrain-toast",
+      "name": "Egg Bhurji & Multigrain Toast",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "omelette",
+      "nutrition": {
+        "kcal": 350,
+        "carbs": 36.0,
+        "fibre": 7.0,
+        "protein": 21.0,
+        "satFat": 3.5,
+        "sugar": 0.0
+      },
+      "components": [
+        "2 eggs scrambled with French beans, carrots & pepper",
+        "1-2 slices 100% wholemeal bread toasted dry"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "french beans",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        }
+      ],
+      "steps": [
+        "Finely chop the beans, carrot, capsicum, onion and green chilli.",
+        "Saute the vegetables in the oil for 3-4 minutes with turmeric and salt until just tender.",
+        "Pour in the whisked eggs and scramble on low heat, breaking into soft curds; finish with pepper.",
+        "Toast the wholemeal bread dry and serve with the bhurji on top."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.breakfast.idli-swap-oats-rava-idli-and-sambar": {
+      "id": "kerala.breakfast.idli-swap-oats-rava-idli-and-sambar",
+      "name": "Idli Swap: Oats-Rava Idli & Sambar",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "idli",
+      "nutrition": {
+        "kcal": 370,
+        "carbs": 42.0,
+        "fibre": 8.0,
+        "protein": 19.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "2-3 Oats-Ragi steamed idlis",
+        "1 bowl vegetable sambar",
+        "1 boiled egg"
+      ],
+      "ingredients": [
+        {
+          "item": "rolled oats",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "semolina (rava)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "toor dal",
+          "qty": 25.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "french beans",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tamarind",
+          "qty": 5.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "asafoetida",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        }
+      ],
+      "steps": [
+        "Pressure-cook the toor dal with turmeric until soft and mash.",
+        "Dry-roast the oats and rava, grind the oats coarsely and mix both with yoghurt, grated carrot, salt and enough water to a thick batter; rest 10 minutes.",
+        "Simmer the diced onion, tomato, beans and half the carrot in tamarind water with coriander and chilli powders, then add the dal and cook 5 minutes.",
+        "Temper coconut oil with mustard seeds, curry leaves and asafoetida and pour over the sambar.",
+        "Steam the batter in greased idli plates for 10-12 minutes; makes 2-3 idlis.",
+        "Hard-boil the egg (10 minutes), peel and halve. Serve with the idlis and a bowl of sambar."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
@@ -227,25 +641,172 @@
       "tags": [],
       "spice": "medium",
       "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
       "effort": "weekend",
       "treat": true,
       "refinedCarb": true,
       "family": "egg-roast",
       "nutrition": {
-        "kcal": 370
+        "kcal": 370,
+        "carbs": 46.0,
+        "fibre": 3.0,
+        "protein": 12.0,
+        "satFat": 6.0,
+        "sugar": 2.0
       },
       "components": [
         "Strictly 2 Palappams",
         "1 egg roast with thick shallot-tomato gravy (do not drink plain coconut milk)"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "sugar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice flour",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "grated coconut",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "yeast (instant)",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "kashmiri chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garam masala",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "The night before, blend the rice flour with coconut, yeast, a teaspoon of sugar, salt and water to a thin batter and leave to ferment.",
+        "Hard-boil the egg, peel and halve.",
+        "Heat coconut oil, pop mustard seeds and curry leaves, then saute sliced shallots, ginger, garlic and chilli until deep golden.",
+        "Add the spice powders and tomato and cook down to a thick gravy; fold in the egg and simmer 2 minutes.",
+        "Swirl ladles of batter in a hot appachatti to make 2 lace appams with thin crisp edges; cover and cook until the centre is set.",
+        "Serve strictly 2 appams with the egg roast; no extra coconut milk on the side."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.breakfast.oats-puttu-and-kadala": {
-      "id": "kerala.breakfast.oats-puttu-and-kadala",
-      "name": "Oats Puttu & Kadala",
+    "kerala.breakfast.oats-puttu-and-cherupayar": {
+      "id": "kerala.breakfast.oats-puttu-and-cherupayar",
+      "name": "Oats Puttu & Cherupayar",
       "slot": [
         "breakfast"
       ],
@@ -256,26 +817,145 @@
       "tags": [],
       "spice": "medium",
       "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "puttu",
       "nutrition": {
-        "kcal": 380
+        "kcal": 370,
+        "carbs": 44.0,
+        "fibre": 10.0,
+        "protein": 20.0,
+        "satFat": 5.0,
+        "sugar": 0.0
       },
       "components": [
-        "1 cup rolled oats puttu",
-        "3/4 cup Kadala curry",
+        "1 cup coarse rolled-oats puttu",
+        "3/4 cup Cherupayar curry",
         "1 hard-boiled egg"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "rolled oats",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "grated coconut",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green gram (cherupayar)",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        }
+      ],
+      "steps": [
+        "Soak the green gram overnight (or 4 hours).",
+        "Pressure-cook the soaked green gram with turmeric and salt for 3 whistles until just tender.",
+        "Temper coconut oil with mustard seeds, dried red chilli and curry leaves; saute shallots, garlic and green chilli.",
+        "Stir in the cooked green gram with a little stock and the coconut; simmer 5 minutes to a loose curry.",
+        "Pulse the oats coarsely, moisten with salted water and steam in the puttu kutti with a layer of coconut for 5-7 minutes.",
+        "Hard-boil the egg (10 minutes), peel and halve. Serve with the oats puttu and 3/4 cup of curry."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.breakfast.pesarattu-and-mint-chutney": {
-      "id": "kerala.breakfast.pesarattu-and-mint-chutney",
-      "name": "Pesarattu & Mint Chutney",
+    "kerala.breakfast.pesarattu-and-boiled-egg": {
+      "id": "kerala.breakfast.pesarattu-and-boiled-egg",
+      "name": "Pesarattu & Boiled Egg",
       "slot": [
         "breakfast"
       ],
@@ -286,110 +966,261 @@
       "tags": [],
       "spice": "medium",
       "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "dosa",
       "nutrition": {
-        "kcal": 360
+        "kcal": 370,
+        "carbs": 36.0,
+        "fibre": 9.0,
+        "protein": 21.0,
+        "satFat": 3.5,
+        "sugar": 0.0
       },
       "components": [
-        "2 whole moong pesarattus",
-        "Mint-coriander dip",
-        "1 boiled egg"
+        "2 whole green gram pesarattu",
+        "Fresh coconut-coriander chammandi (1 tbsp)",
+        "1 hard-boiled egg"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "green gram (cherupayar)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "grated coconut",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tamarind",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        }
+      ],
+      "steps": [
+        "Grind the overnight-soaked whole green gram with ginger, green chilli, cumin and salt to a smooth batter.",
+        "Grind the coconut, coriander, shallots and tamarind with a pinch of salt into a thick chammanthi.",
+        "Spread the batter thinly into 2 pesarattus on a hot tawa, top with chopped onion, drizzle oil and cook both sides until crisp.",
+        "Hard-boil the egg (10 minutes), peel and halve. Serve with the pesarattus and 1 tablespoon of chammanthi."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.breakfast.ragi-dosa-and-tomato-chutney": {
-      "id": "kerala.breakfast.ragi-dosa-and-tomato-chutney",
-      "name": "Ragi Dosa & Tomato Chutney",
+    "kerala.breakfast.pesarattu-and-chutney": {
+      "id": "kerala.breakfast.pesarattu-and-chutney",
+      "name": "Pesarattu (Moong Dosa) & Chutney",
       "slot": [
         "breakfast"
       ],
       "role": "main",
       "cuisine": "kerala",
-      "protein": "egg",
+      "protein": "legume",
       "lean": false,
       "tags": [],
       "spice": "medium",
-      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
       "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "dosa",
       "nutrition": {
-        "kcal": 370
+        "kcal": 370,
+        "carbs": 36.0,
+        "fibre": 9.0,
+        "protein": 21.0,
+        "satFat": 4.5,
+        "sugar": 0.0
       },
       "components": [
-        "2 thin ragi-flour dosas",
-        "2 tbsp spicy tomato-onion chammanthi",
+        "2 medium whole moong dosas",
+        "2 tbsp coriander-mint-coconut chammandi",
         "1 boiled egg"
       ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.breakfast.ragi-puttu-and-cherupayar": {
-      "id": "kerala.breakfast.ragi-puttu-and-cherupayar",
-      "name": "Ragi Puttu & Cherupayar",
-      "slot": [
-        "breakfast"
+      "ingredients": [
+        {
+          "item": "green gram (cherupayar)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "grated coconut",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tamarind",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        }
       ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "legume",
-      "lean": false,
-      "tags": [],
-      "spice": "medium",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "puttu",
-      "nutrition": {
-        "kcal": 370
-      },
-      "components": [
-        "1 cup Ragi puttu",
-        "3/4 cup Cherupayaru curry",
-        "1 boiled egg"
+      "steps": [
+        "Grind the overnight-soaked whole green gram with ginger, green chilli, cumin and salt to a smooth batter.",
+        "Grind the coconut, coriander, mint, shallots and tamarind into a thick chammanthi.",
+        "Spread the batter thinly into 2 dosas on a hot tawa, scatter chopped onion, drizzle oil and cook both sides.",
+        "Hard-boil the egg (10 minutes), peel and halve. Serve with the dosas and 2 tablespoons of chammanthi."
       ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.breakfast.sprouted-moong-salad-and-poached-eggs": {
-      "id": "kerala.breakfast.sprouted-moong-salad-and-poached-eggs",
-      "name": "Sprouted Moong Salad & Poached Eggs",
-      "slot": [
-        "breakfast"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "legume",
-      "lean": false,
-      "tags": [],
-      "spice": "medium",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "sprouts",
-      "nutrition": {
-        "kcal": 360
-      },
-      "components": [
-        "1 bowl steamed sprouted moong tossed with chopped onions, tomato, lemon",
-        "2 poached or soft-boiled eggs"
-      ],
-      "ingredients": [],
-      "steps": [],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
@@ -406,51 +1237,689 @@
       "tags": [],
       "spice": "medium",
       "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "dal",
       "nutrition": {
-        "kcal": 490
+        "kcal": 490,
+        "carbs": 48.0,
+        "fibre": 11.0,
+        "protein": 29.0,
+        "satFat": 4.0,
+        "sugar": 0.0
       },
       "components": [
         "2 whole-wheat phulkas",
         "1 bowl Cheera Parippu (spinach dal)",
         "1 single-egg omelette"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "whole-wheat atta",
+          "qty": 70.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "toor dal",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "amaranth leaves (cheera)",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "grated coconut",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "coconut oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Knead the atta with warm water and a pinch of salt; rest while the dal cooks.",
+        "Pressure-cook the toor dal with turmeric and 300 ml water for 3 whistles.",
+        "Add the chopped cheera, garlic and green chilli to the dal and simmer 5 minutes.",
+        "Grind the coconut with cumin, stir into the dal and bring back to a boil.",
+        "Heat the coconut oil, pop the mustard seeds with the dried chilli, shallots and curry leaves, and pour over the dal.",
+        "Roll two thin phulkas and cook on a hot tawa, puffing them over the flame.",
+        "Beat the egg with pepper and salt and cook a thin single-egg omelette.",
+        "Serve the phulkas with a bowl of cheera parippu and the omelette."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.dinner.chicken-soup-and-wholemeal-phulka": {
-      "id": "kerala.dinner.chicken-soup-and-wholemeal-phulka",
-      "name": "Chicken Soup & Wholemeal Phulka",
+    "kerala.dinner.cherupayar-porridge-and-boiled-eggs": {
+      "id": "kerala.dinner.cherupayar-porridge-and-boiled-eggs",
+      "name": "Cherupayar Porridge & Boiled Eggs",
       "slot": [
         "dinner"
       ],
       "role": "main",
       "cuisine": "kerala",
-      "protein": "chicken",
+      "protein": "legume",
       "lean": false,
       "tags": [],
       "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
       "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 30,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
-      "family": "soup",
+      "family": "boiled-eggs",
       "nutrition": {
-        "kcal": 500
+        "kcal": 480,
+        "carbs": 40.0,
+        "fibre": 11.0,
+        "protein": 30.0,
+        "satFat": 5.0,
+        "sugar": 0.0
       },
       "components": [
-        "1 large bowl shredded chicken & vegetable soup",
-        "1 whole-wheat chapati",
-        "Cucumber slices"
+        "1 large bowl savoury Cherupayar soup/puzhukku with crushed cumin",
+        "2 hard-boiled eggs with pepper"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "green gram (cherupayar)",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "grated coconut",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the green gram for 30 minutes if you have time, then pressure-cook with turmeric and 400 ml water until very soft.",
+        "Hard-boil the eggs for 10 minutes, cool, peel and halve.",
+        "Crush the cumin, garlic and green chilli together and stir into the hot gram.",
+        "Mash lightly so it becomes a thick soupy porridge; add salt and the grated coconut.",
+        "Heat the coconut oil and fry the shallots and curry leaves until golden; pour over the porridge.",
+        "Serve a large bowl of porridge with the eggs sprinkled with black pepper."
+      ],
       "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.cherupayar-puzhukku": {
+      "id": "kerala.dinner.cherupayar-puzhukku",
+      "name": "Cherupayar Puzhukku (No Rice Dinner)",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "no-rice"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "cherupayar",
+      "nutrition": {
+        "kcal": 460,
+        "carbs": 40.0,
+        "fibre": 12.0,
+        "protein": 29.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "1.5 cups Cherupayar puzhukku with 1 tbsp fresh coconut",
+        "2 boiled egg whites",
+        "Clear vegetable soup"
+      ],
+      "ingredients": [
+        {
+          "item": "green gram (cherupayar)",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "grated coconut",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "french beans",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cabbage",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Pressure-cook the green gram with turmeric and salt until soft but still whole.",
+        "Hard-boil the eggs, peel and keep only the whites.",
+        "Crush the coconut with cumin, garlic and green chilli; stir into the gram and cook until dry.",
+        "Temper mustard seeds, shallots and curry leaves in the coconut oil and fold into the puzhukku.",
+        "Simmer the carrot, beans and cabbage with ginger and pepper in water for 10 minutes for a clear soup.",
+        "Serve the puzhukku with the egg whites and a bowl of soup."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.fish-tikka-and-sambar-soup": {
+      "id": "kerala.dinner.fish-tikka-and-sambar-soup",
+      "name": "Fish Tikka & Sambar Soup",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "no-rice"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 20,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "fish-fillet",
+      "nutrition": {
+        "kcal": 490,
+        "carbs": 40.0,
+        "fibre": 10.0,
+        "protein": 40.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "150g grilled fish fillet cubes (Neymeen or Hamour) marinated in spices",
+        "1 large bowl clear drumstick vegetable sambar (no rice)",
+        "1 chapati"
+      ],
+      "ingredients": [
+        {
+          "item": "seer fish (neymeen) steak",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "kashmiri chilli powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lime",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "whole-wheat atta",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "toor dal",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "drumstick (moringa pods)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "ash gourd",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "brinjal (eggplant)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tamarind",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "coriander powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "fenugreek seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "asafoetida",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Marinate the fish cubes in kashmiri chilli, turmeric, ginger, garlic, pepper, lime juice and salt.",
+        "Pressure-cook the toor dal soft; soak the tamarind and squeeze out the pulp.",
+        "Simmer the drumstick, ash gourd and brinjal in the tamarind water with coriander, chilli powder and turmeric until tender.",
+        "Add the mashed dal, thin with water to a soupy consistency and simmer 5 minutes.",
+        "Temper mustard, fenugreek, dried chilli, asafoetida, shallots and curry leaves in coconut oil and pour over the sambar.",
+        "Knead the atta, roll one chapati and cook on the tawa.",
+        "Pan-grill the fish cubes in the oil for 3 minutes a side and serve with the sambar soup and chapati."
+      ],
+      "swaps": [],
+      "swapNote": "Fish fillet can be Neymeen, Kalava, or Basa.",
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
     "kerala.dinner.muttai-roast-and-french-beans": {
@@ -466,20 +1935,146 @@
       "tags": [],
       "spice": "medium",
       "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "egg-roast",
       "nutrition": {
-        "kcal": 490
+        "kcal": 490,
+        "carbs": 34.0,
+        "fibre": 10.0,
+        "protein": 25.0,
+        "satFat": 4.0,
+        "sugar": 0.0
       },
       "components": [
         "2 hard-boiled eggs in onion masala",
         "1 large bowl sautéed French beans",
         "1 whole-wheat chapati"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 2.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "whole-wheat atta",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "french beans",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        }
+      ],
+      "steps": [
+        "Hard-boil the eggs, peel and halve.",
+        "Fry the sliced onion, ginger, garlic and curry leaves in the oil until golden brown.",
+        "Add chilli, coriander and turmeric powders with a splash of water and cook to a thick onion masala.",
+        "Add the eggs, coat in the masala, finish with garam masala and cook 2 minutes.",
+        "Saute the chopped French beans with shallots, pepper and salt until just tender.",
+        "Roll one chapati, cook on the tawa and serve with the egg roast and beans."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
@@ -497,116 +2092,344 @@
       "spice": "medium",
       "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
       "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "egg-roast",
       "nutrition": {
-        "kcal": 490
+        "kcal": 490,
+        "carbs": 34.0,
+        "fibre": 9.0,
+        "protein": 25.0,
+        "satFat": 4.0,
+        "sugar": 0.0
       },
       "components": [
         "2 hard-boiled eggs in onion-tomato masala",
         "1 large bowl steamed cabbage with black pepper",
         "1 chapati"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 2.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "whole-wheat atta",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cabbage",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Hard-boil the eggs, peel and halve.",
+        "Fry the sliced onion, ginger, garlic and curry leaves in the oil until golden.",
+        "Add the spice powders and chopped tomato and cook to a thick masala.",
+        "Add the eggs, coat well, finish with garam masala and cook 2 minutes.",
+        "Steam the shredded cabbage 5 minutes and toss with black pepper and salt.",
+        "Roll one chapati, cook on the tawa and serve with the egg roast and cabbage."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.dinner.paneer-and-vegetable-stir-fry": {
-      "id": "kerala.dinner.paneer-and-vegetable-stir-fry",
-      "name": "Paneer & Vegetable Stir Fry",
+    "kerala.dinner.tandoori-pan-grilled-chicken-and-beans": {
+      "id": "kerala.dinner.tandoori-pan-grilled-chicken-and-beans",
+      "name": "Tandoori/Pan-Grilled Chicken & Beans",
       "slot": [
         "dinner"
       ],
       "role": "main",
       "cuisine": "kerala",
-      "protein": "dairy",
+      "protein": "chicken",
       "lean": false,
       "tags": [],
       "spice": "medium",
       "packable": false,
+      "prepMinutes": 20,
+      "cookMinutes": 25,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
-      "family": "paneer",
+      "family": "grilled-chicken",
       "nutrition": {
-        "kcal": 500
+        "kcal": 490,
+        "carbs": 34.0,
+        "fibre": 10.0,
+        "protein": 42.0,
+        "satFat": 6.0,
+        "sugar": 0.0
       },
       "components": [
-        "100g paneer cubes stir-fried with capsicum, French beans, and shallots",
-        "1 chapati"
+        "180g Kerala spiced pan-grilled chicken thigh/breast",
+        "1.5 cups French beans thoran",
+        "1 small chapati"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "chicken breast",
+          "qty": 180.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "kashmiri chilli powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lime",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "french beans",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "grated coconut",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "whole-wheat atta",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Marinate the chicken in yoghurt, kashmiri chilli, garam masala, coriander, ginger, garlic, lime juice and salt for 15 minutes.",
+        "Knead the atta, roll one small chapati and cook on the tawa.",
+        "Pop the mustard seeds in coconut oil, add shallots, curry leaves and the chopped beans with turmeric and salt; cover and cook 8 minutes.",
+        "Stir in the coconut crushed with cumin and green chilli and cook until dry.",
+        "Pan-grill the chicken in the oil on medium heat 6 minutes a side until charred and cooked through.",
+        "Rest, slice and serve with the beans thoran and chapati."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.dinner.paneer-tofu-bhurji-and-chapati": {
-      "id": "kerala.dinner.paneer-tofu-bhurji-and-chapati",
-      "name": "Paneer/Tofu Bhurji & Chapati",
-      "slot": [
-        "dinner"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "dairy",
-      "lean": false,
-      "tags": [],
-      "spice": "medium",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "omelette",
-      "nutrition": {
-        "kcal": 500
-      },
-      "components": [
-        "100g crumbled paneer or tofu sautéed with shallots and curry leaves",
-        "2 whole-wheat phulkas",
-        "Cucumber salad"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.dinner.yellow-dal-spinach-and-boiled-eggs": {
-      "id": "kerala.dinner.yellow-dal-spinach-and-boiled-eggs",
-      "name": "Yellow Dal Spinach & Boiled Eggs",
-      "slot": [
-        "dinner"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "legume",
-      "lean": false,
-      "tags": [],
-      "spice": "medium",
-      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "boiled-eggs",
-      "nutrition": {
-        "kcal": 490
-      },
-      "components": [
-        "1 large bowl Cheera Parippu",
-        "2 hard-boiled eggs with black pepper",
-        "1 whole-wheat chapati"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.lunch.ayala-pollichathu-and-pavakka": {
-      "id": "kerala.lunch.ayala-pollichathu-and-pavakka",
-      "name": "Ayala Pollichathu & Pavakka",
+    "kerala.lunch.ayala-tawa-sear-and-cheera-thoran": {
+      "id": "kerala.lunch.ayala-tawa-sear-and-cheera-thoran",
+      "name": "Ayala Tawa Sear & Cheera Thoran",
       "slot": [
         "lunch"
       ],
@@ -614,82 +2437,171 @@
       "cuisine": "kerala",
       "protein": "fish",
       "lean": false,
-      "tags": [
-        "banana-leaf"
-      ],
+      "tags": [],
       "spice": "medium",
       "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "ayala",
       "nutrition": {
-        "kcal": 550
+        "kcal": 530,
+        "carbs": 57.0,
+        "fibre": 10.0,
+        "protein": 34.0,
+        "satFat": 5.0,
+        "sugar": 0.0
       },
       "components": [
-        "1 cup air-fried or pan-sautéed Pavakka chips",
-        "Primary: 1 whole Ayala wrapped in banana leaf and pan-roasted",
-        "1 level cup Matta rice",
-        "Fresh Sambharam"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [
-        {
-          "for": "Ayala",
-          "use": "Karimeen Pollichathu"
-        },
-        {
-          "for": "Ayala",
-          "use": "Black Avoli (Pomfret) Pollichathu"
-        }
-      ],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.lunch.choora-mulakittathu-and-cabbage-thoran": {
-      "id": "kerala.lunch.choora-mulakittathu-and-cabbage-thoran",
-      "name": "Choora Mulakittathu & Cabbage Thoran",
-      "slot": [
-        "lunch"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "fish",
-      "lean": false,
-      "tags": [],
-      "spice": "medium",
-      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
-      "packable": true,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "choora",
-      "nutrition": {
-        "kcal": 530
-      },
-      "components": [
-        "1 cup Cabbage-carrot thoran",
-        "Primary: 1 cup Choora (Tuna) cooked in fiery Kudampuli red curry",
+        "1 cup Cheera thoran",
+        "Primary: 1 medium Ayala shallow pan-seared",
         "1 level cup Matta rice",
         "Sambharam"
       ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [
+      "ingredients": [
         {
-          "for": "Choora",
-          "use": "Mathi (Sardines) Peera Pattichathu"
+          "item": "matta rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
         },
         {
-          "for": "Choora",
-          "use": "Netholi (Anchovy) Curry"
+          "item": "mackerel (ayala)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "lime",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "coconut oil",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 3.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 1.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "amaranth leaves (cheera)",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "grated coconut",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        }
+      ],
+      "steps": [
+        "Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.",
+        "Marinate the mackerel with turmeric, chilli powder, crushed pepper, lime juice and salt for 15 min.",
+        "Heat 1 tsp coconut oil on a tawa and sear the fish 4-5 min per side with curry leaves until the skin is crisp and the flesh flakes.",
+        "Strip and wash the leaves for the cheera thoran; splutter mustard seeds and curry leaves in coconut oil, add shallots and green chilli, then the vegetable with turmeric and salt, cover and cook until just tender, and finish with grated coconut.",
+        "Whisk the yoghurt with water, crushed ginger, green chilli, curry leaves and salt to make the sambharam; chill until serving.",
+        "Plate 1 level cup rice with the cheera thoran, the mackerel, and the sambharam alongside."
+      ],
+      "swaps": [
+        {
+          "for": "Ayala",
+          "use": "Mathi (Sardines) Roast"
+        },
+        {
+          "for": "Ayala",
+          "use": "Kilimeen Roast"
         }
       ],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.lunch.kalava-tawa-roast-and-murungayila": {
-      "id": "kerala.lunch.kalava-tawa-roast-and-murungayila",
-      "name": "Kalava (Grouper) Tawa Roast & Murungayila",
+    "kerala.lunch.chemmeen-ularthiyathu-and-pavakka": {
+      "id": "kerala.lunch.chemmeen-ularthiyathu-and-pavakka",
+      "name": "Chemmeen Ularthiyathu & Pavakka",
       "slot": [
         "lunch"
       ],
@@ -701,119 +2613,177 @@
       "spice": "medium",
       "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
       "packable": true,
+      "prepMinutes": 20,
+      "cookMinutes": 30,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
-      "family": "kalava",
+      "family": "chemmeen",
       "nutrition": {
-        "kcal": 530
-      },
-      "components": [
-        "1 cup Murungayila thoran",
-        "Primary: 150g Kalava fillet pan-seared with turmeric, pepper, and lime",
-        "1 level cup Matta rice",
-        "Tomato Rasam"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [
-        {
-          "for": "Kalava",
-          "use": "Karimeen Tawa Roast"
-        },
-        {
-          "for": "Kalava",
-          "use": "Choora (Tuna) Steak"
-        }
-      ],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.lunch.karimeen-pollichathu-and-kovakka": {
-      "id": "kerala.lunch.karimeen-pollichathu-and-kovakka",
-      "name": "Karimeen Pollichathu & Kovakka",
-      "slot": [
-        "lunch"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "fish",
-      "lean": false,
-      "tags": [
-        "banana-leaf"
-      ],
-      "spice": "medium",
-      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
-      "packable": true,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "karimeen",
-      "nutrition": {
-        "kcal": 540
-      },
-      "components": [
-        "1 cup Kovakka mezhukkupuratti",
-        "Primary: 1 whole Karimeen roasted in banana leaf with spicy shallot masala",
-        "1 level cup Matta rice",
-        "Garlic Rasam"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [
-        {
-          "for": "Karimeen",
-          "use": "Neymeen (Seer Fish) Pollichathu"
-        },
-        {
-          "for": "Karimeen",
-          "use": "Avoli (Pomfret) Pollichathu"
-        }
-      ],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.lunch.mathi-fry-and-pavakka-mezhukkupuratti": {
-      "id": "kerala.lunch.mathi-fry-and-pavakka-mezhukkupuratti",
-      "name": "Mathi Fry & Pavakka Mezhukkupuratti",
-      "slot": [
-        "lunch"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "fish",
-      "lean": false,
-      "tags": [],
-      "spice": "medium",
-      "packable": true,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "mathi",
-      "nutrition": {
-        "kcal": 540
+        "kcal": 540,
+        "carbs": 58.0,
+        "fibre": 10.0,
+        "protein": 36.0,
+        "satFat": 3.0,
+        "sugar": 0.0
       },
       "components": [
         "1 cup Pavakka mezhukkupuratti",
-        "Primary: 3 shallow pan-seared Mathi (1 tsp coconut oil)",
+        "Primary: 150g Chemmeen (Prawns) sautéed with shallots, curry leaves, and cracked pepper",
         "1 level cup Matta rice",
-        "Sambharam"
+        "Moru kachiyathu"
       ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [
+      "ingredients": [
         {
-          "for": "Mathi",
-          "use": "Choora (Tuna) Mulakittathu"
+          "item": "matta rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
         },
         {
-          "for": "Mathi",
-          "use": "Chemmeen Roast"
+          "item": "prawns (chemmeen)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "black pepper",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 3.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 4.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 1.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bitter gourd (pavakka)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "fenugreek seeds",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.",
+        "Marinate the prawns with turmeric, chilli powder and salt.",
+        "Sauté shallots, ginger, garlic and curry leaves in coconut oil, add the prawns and crushed black pepper, and toss 5-6 min until dry and coated.",
+        "Dice the vegetable finely for the pavakka mezhukkupuratti; splutter mustard seeds in coconut oil, add shallots, garlic and green chilli, then the vegetable with turmeric and salt, and stir-fry uncovered until tender and lightly browned.",
+        "For the moru kachiyathu, whisk yoghurt with water and turmeric, warm gently without boiling, and temper with mustard seeds, fenugreek, shallots, ginger, green chilli, dried chilli and curry leaves.",
+        "Plate 1 level cup rice with the pavakka mezhukkupuratti, the prawns, and the moru kachiyathu alongside."
+      ],
+      "swaps": [
+        {
+          "for": "Chemmeen",
+          "use": "Kallummakkaya (Mussels) Roast"
+        },
+        {
+          "for": "Chemmeen",
+          "use": "Ayala (Mackerel) Mulakittathu"
         }
       ],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.lunch.nadan-kozhi-roast-and-padavalanga": {
-      "id": "kerala.lunch.nadan-kozhi-roast-and-padavalanga",
-      "name": "Nadan Kozhi Roast & Padavalanga",
+    "kerala.lunch.chicken-pepper-roast-and-murungayila": {
+      "id": "kerala.lunch.chicken-pepper-roast-and-murungayila",
+      "name": "Chicken Pepper Roast & Murungayila",
       "slot": [
         "lunch"
       ],
@@ -823,23 +2793,869 @@
       "lean": false,
       "tags": [],
       "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
       "packable": true,
+      "prepMinutes": 20,
+      "cookMinutes": 40,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "chicken-roast",
       "nutrition": {
-        "kcal": 550
+        "kcal": 540,
+        "carbs": 59.0,
+        "fibre": 11.0,
+        "protein": 38.0,
+        "satFat": 4.0,
+        "sugar": 0.0
       },
       "components": [
-        "1 cup Padavalanga mezhukkupuratti",
-        "1 portion Nadan chicken roast",
+        "1 cup Murungayila (drumstick leaves) thoran",
+        "1 cup Chicken pepper roast (dry preparation with shallots)",
         "1 level cup Matta rice",
-        "Moru kachiyathu"
+        "Thakkali (tomato) Rasam"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "matta rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "chicken (bone-in curry cut)",
+          "qty": 180.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "black pepper",
+          "qty": 1.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garam masala",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 3.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 4.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 1.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "drumstick leaves (murungayila)",
+          "qty": 0.4,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "grated coconut",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tamarind",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "asafoetida",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.",
+        "Marinate the chicken with turmeric, chilli powder, coriander powder and salt for 15 min.",
+        "Sauté shallots, ginger, garlic and curry leaves in coconut oil, add the chicken and cook covered 15 min, then uncover, add crushed black pepper and garam masala and roast until dry and dark.",
+        "Strip and wash the leaves for the murungayila thoran; splutter mustard seeds and curry leaves in coconut oil, add shallots and green chilli, then the vegetable with turmeric and salt, cover and cook until just tender, and finish with grated coconut.",
+        "For the rasam, simmer tamarind water with crushed tomato, garlic, pepper, cumin, turmeric and salt (extra tomato) for 10 min, temper with mustard seeds, dried chilli and asafoetida, and add coriander leaves.",
+        "Plate 1 level cup rice with the murungayila thoran, the chicken, and the rasam alongside."
+      ],
       "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.kalava-curry-and-kovakka": {
+      "id": "kerala.lunch.kalava-curry-and-kovakka",
+      "name": "Kalava (Grouper) Curry & Kovakka",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "prepMinutes": 20,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "kalava",
+      "nutrition": {
+        "kcal": 510,
+        "carbs": 58.0,
+        "fibre": 10.0,
+        "protein": 35.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "1 cup Kovakka mezhukkupuratti",
+        "Primary: 1 portion Kalava (Reef Cod/Grouper) stewed with turmeric, ginger, and Kudampuli",
+        "1 level cup Matta rice",
+        "Pepper Rasam"
+      ],
+      "ingredients": [
+        {
+          "item": "matta rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "grouper (kalava) fillet",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "kudampuli (Malabar tamarind)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "chilli powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "kashmiri chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "fenugreek seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 2.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 3.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 1.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ivy gourd (kovakka)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tamarind",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "asafoetida",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.",
+        "Clean the grouper fillet; soak the kudampuli in warm water and grind the chilli powders, turmeric and a little water to a paste.",
+        "Heat coconut oil in a clay pot, splutter fenugreek seeds, sauté shallots, ginger, garlic and curry leaves, add the chilli paste, the kudampuli with its water and salt, then slide in the fish and simmer 12-15 min until the gravy thickens.",
+        "Dice the vegetable finely for the kovakka mezhukkupuratti; splutter mustard seeds in coconut oil, add shallots, garlic and green chilli, then the vegetable with turmeric and salt, and stir-fry uncovered until tender and lightly browned.",
+        "For the rasam, simmer tamarind water with crushed tomato, garlic, pepper, cumin, turmeric and salt (extra black pepper) for 10 min, temper with mustard seeds, dried chilli and asafoetida, and add coriander leaves.",
+        "Plate 1 level cup rice with the kovakka mezhukkupuratti, the grouper fillet, and the rasam alongside."
+      ],
+      "swaps": [
+        {
+          "for": "Kalava",
+          "use": "Tilapia Tawa Roast"
+        },
+        {
+          "for": "Kalava",
+          "use": "White Avoli (Pomfret) Curry"
+        }
+      ],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.karimeen-pollichathu-and-cheera": {
+      "id": "kerala.lunch.karimeen-pollichathu-and-cheera",
+      "name": "Karimeen Pollichathu & Cheera",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "banana-leaf"
+      ],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "prepMinutes": 25,
+      "cookMinutes": 45,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "karimeen",
+      "nutrition": {
+        "kcal": 550,
+        "carbs": 59.0,
+        "fibre": 11.0,
+        "protein": 34.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "1 cup Red Cheera thoran",
+        "Primary: 1 whole Karimeen (Pearl Spot) roasted in banana leaf with spicy shallots",
+        "1 level cup Matta rice",
+        "Tomato Rasam"
+      ],
+      "ingredients": [
+        {
+          "item": "matta rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "pearl spot (karimeen)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "banana leaf",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "chilli powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "kashmiri chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut oil",
+          "qty": 3.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 4.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "lime",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 1.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "amaranth leaves (cheera)",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "grated coconut",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tamarind",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "asafoetida",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.",
+        "Score and marinate the pearl spot with turmeric, chilli powder, pepper, lime juice and salt, then sear briefly on both sides in 1 tsp coconut oil.",
+        "Fry shallots, ginger, garlic and green chilli in the remaining oil, add tomato, chilli powders and curry leaves and cook to a thick masala.",
+        "Wilt the banana leaf over a flame, spread masala on it, lay the fish on top, cover with more masala, wrap, and roast the parcel on a tawa 8-10 min per side.",
+        "Strip and wash the leaves for the cheera thoran; splutter mustard seeds and curry leaves in coconut oil, add shallots and green chilli, then the vegetable with turmeric and salt, cover and cook until just tender, and finish with grated coconut.",
+        "For the rasam, simmer tamarind water with crushed tomato, garlic, pepper, cumin, turmeric and salt (extra tomato) for 10 min, temper with mustard seeds, dried chilli and asafoetida, and add coriander leaves.",
+        "Plate 1 level cup rice with the cheera thoran, the pearl spot, and the rasam alongside."
+      ],
+      "swaps": [
+        {
+          "for": "Karimeen",
+          "use": "Seer Fish (Neymeen) Pollichathu"
+        },
+        {
+          "for": "Karimeen",
+          "use": "Pomfret (Avoli) Pollichathu"
+        }
+      ],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.mathi-roast-and-padavalanga-thoran": {
+      "id": "kerala.lunch.mathi-roast-and-padavalanga-thoran",
+      "name": "Mathi Roast & Padavalanga Thoran",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "mathi",
+      "nutrition": {
+        "kcal": 540,
+        "carbs": 58.0,
+        "fibre": 10.0,
+        "protein": 34.0,
+        "satFat": 5.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "1 cup Padavalanga (snake gourd) thoran",
+        "Primary: 3 fresh sardines (Mathi) pan-seared with turmeric, pepper, Kudampuli",
+        "1 level cup Matta rice",
+        "Cumin Rasam"
+      ],
+      "ingredients": [
+        {
+          "item": "matta rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "sardines (mathi)",
+          "qty": 3.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "lime",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "coconut oil",
+          "qty": 2.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 3.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 1.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "snake gourd (padavalanga)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "grated coconut",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tamarind",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "asafoetida",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.",
+        "Marinate the sardines with turmeric, chilli powder, crushed pepper, lime juice and salt for 15 min.",
+        "Heat 1 tsp coconut oil on a tawa and sear the fish 4-5 min per side with curry leaves until the skin is crisp and the flesh flakes.",
+        "Dice the vegetable finely for the padavalanga thoran; splutter mustard seeds and curry leaves in coconut oil, add shallots and green chilli, then the vegetable with turmeric and salt, cover and cook until just tender, and finish with grated coconut.",
+        "For the rasam, simmer tamarind water with crushed tomato, garlic, pepper, cumin, turmeric and salt (extra cumin) for 10 min, temper with mustard seeds, dried chilli and asafoetida, and add coriander leaves.",
+        "Plate 1 level cup rice with the padavalanga thoran, the sardines, and the rasam alongside."
+      ],
+      "swaps": [
+        {
+          "for": "Mathi",
+          "use": "Kilimeen (Pink Perch) Tawa Roast"
+        },
+        {
+          "for": "Mathi",
+          "use": "Karimeen Pollichathu"
+        }
+      ],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
     "kerala.lunch.nadan-kozhi-stew-and-french-beans": {
@@ -855,12 +3671,19 @@
       "tags": [],
       "spice": "medium",
       "packable": true,
+      "prepMinutes": 20,
+      "cookMinutes": 40,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "chicken-curry",
       "nutrition": {
-        "kcal": 520
+        "kcal": 520,
+        "carbs": 60.0,
+        "fibre": 10.0,
+        "protein": 37.0,
+        "satFat": 5.0,
+        "sugar": 0.0
       },
       "components": [
         "1 cup French beans mezhukkupuratti",
@@ -868,14 +3691,170 @@
         "1 level cup Matta rice",
         "Chilled Sambharam"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "matta rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "chicken (bone-in curry cut)",
+          "qty": 180.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cardamom pods",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cloves",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cinnamon stick",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coconut milk (canned)",
+          "qty": 80.0,
+          "unit": "ml",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 400.0
+        },
+        {
+          "item": "coconut oil",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 4.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 1.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "french beans",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "shallots (small onions)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.",
+        "Sauté cardamom, cloves, cinnamon, onion, ginger and green chilli in coconut oil without browning.",
+        "Add the chicken, carrot, pepper, salt and 1.5 cups water, cook covered 25 min, then add the coconut milk and curry leaves and simmer gently 5 min.",
+        "Dice the vegetable finely for the french beans mezhukkupuratti; splutter mustard seeds in coconut oil, add shallots, garlic and green chilli, then the vegetable with turmeric and salt, and stir-fry uncovered until tender and lightly browned.",
+        "Whisk the yoghurt with water, crushed ginger, green chilli, curry leaves and salt to make the sambharam; chill until serving.",
+        "Plate 1 level cup rice with the french beans mezhukkupuratti, the chicken, and the sambharam alongside."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     },
-    "kerala.snack.chilled-sambharam-and-walnut-halves": {
-      "id": "kerala.snack.chilled-sambharam-and-walnut-halves",
-      "name": "Chilled Sambharam & Walnut halves",
+    "kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt": {
+      "id": "kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt",
+      "name": "Green tea & Roasted makhana spiced with turmeric & salt",
       "slot": [
         "snack"
       ],
@@ -888,205 +3867,570 @@
       ],
       "spice": "mild",
       "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "nuts",
-      "nutrition": {
-        "kcal": 120
-      },
-      "components": [
-        "Chilled Sambharam",
-        "10-12 walnut halves"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.snack.cold-sambharam-and-boiled-chana": {
-      "id": "kerala.snack.cold-sambharam-and-boiled-chana",
-      "name": "Cold Sambharam & Boiled chana",
-      "slot": [
-        "snack"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "legume",
-      "lean": false,
-      "tags": [
-        "chaya"
-      ],
-      "spice": "mild",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "kadala",
-      "nutrition": {
-        "kcal": 120
-      },
-      "components": [
-        "1 glass cold Sambharam",
-        "1/2 cup boiled chana"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.snack.green-tea-and-roasted-peanuts": {
-      "id": "kerala.snack.green-tea-and-roasted-peanuts",
-      "name": "Green tea & Roasted peanuts",
-      "slot": [
-        "snack"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "none",
-      "lean": false,
-      "tags": [
-        "chaya"
-      ],
-      "spice": "mild",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "nuts",
-      "nutrition": {
-        "kcal": 120
-      },
-      "components": [
-        "Green tea",
-        "Fistful of roasted peanuts"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.snack.kattan-chaya-and-boiled-green-gram": {
-      "id": "kerala.snack.kattan-chaya-and-boiled-green-gram",
-      "name": "Kattan Chaya & Boiled green gram",
-      "slot": [
-        "snack"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "legume",
-      "lean": false,
-      "tags": [
-        "chaya"
-      ],
-      "spice": "mild",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "cherupayar",
-      "nutrition": {
-        "kcal": 110
-      },
-      "components": [
-        "Kattan Chaya",
-        "1/2 cup boiled green gram"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.snack.kattan-chaya-and-boiled-spiced-kadala-sundal": {
-      "id": "kerala.snack.kattan-chaya-and-boiled-spiced-kadala-sundal",
-      "name": "Kattan Chaya & Boiled spiced Kadala sundal",
-      "slot": [
-        "snack"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "legume",
-      "lean": false,
-      "tags": [
-        "chaya"
-      ],
-      "spice": "mild",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "dal",
-      "nutrition": {
-        "kcal": 120
-      },
-      "components": [
-        "Kattan Chaya",
-        "1/2 cup boiled spiced Kadala sundal"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.snack.kattan-chaya-with-cardamom-and-boiled-tempered-green-gram-sp": {
-      "id": "kerala.snack.kattan-chaya-with-cardamom-and-boiled-tempered-green-gram-sp",
-      "name": "Kattan Chaya with cardamom & Boiled, tempered green gram sprouts",
-      "slot": [
-        "snack"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "legume",
-      "lean": false,
-      "tags": [
-        "chaya"
-      ],
-      "spice": "mild",
-      "packable": false,
-      "effort": "weekday",
-      "treat": false,
-      "refinedCarb": false,
-      "family": "sprouts",
-      "nutrition": {
-        "kcal": 120
-      },
-      "components": [
-        "Kattan Chaya with cardamom",
-        "1/2 cup boiled, tempered green gram sprouts"
-      ],
-      "ingredients": [],
-      "steps": [],
-      "swaps": [],
-      "source": "Kerala 28-day plan (index.html, Oct 2026)"
-    },
-    "kerala.snack.kattan-kappi-and-roasted-makhana": {
-      "id": "kerala.snack.kattan-kappi-and-roasted-makhana",
-      "name": "Kattan Kappi & Roasted makhana",
-      "slot": [
-        "snack"
-      ],
-      "role": "main",
-      "cuisine": "kerala",
-      "protein": "none",
-      "lean": false,
-      "tags": [
-        "chaya"
-      ],
-      "spice": "mild",
-      "packable": false,
+      "prepMinutes": 2,
+      "cookMinutes": 8,
       "effort": "weekday",
       "treat": false,
       "refinedCarb": false,
       "family": "makhana",
       "nutrition": {
-        "kcal": 110
+        "kcal": 110,
+        "carbs": 15.0,
+        "fibre": 3.0,
+        "protein": 2.0,
+        "satFat": 2.0,
+        "sugar": 0.0
       },
       "components": [
-        "Kattan Kappi",
-        "1 cup roasted makhana"
+        "Green tea",
+        "1 cup roasted makhana (foxnuts) spiced with turmeric & salt"
       ],
-      "ingredients": [],
-      "steps": [],
+      "ingredients": [
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "makhana (foxnuts)",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "coconut oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Steep the green tea bag in a cup of just-boiled water for 3 minutes, then remove the bag.",
+        "Heat the coconut oil in a pan, add the makhana and roast on low heat for 6 to 8 minutes, stirring, until crisp.",
+        "Sprinkle with turmeric and salt, toss well and serve with the green tea."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram": {
+      "id": "kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram",
+      "name": "Hot Kattan Chaya & Boiled sprouted green gram",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 2,
+      "cookMinutes": 6,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "cherupayar",
+      "nutrition": {
+        "kcal": 150,
+        "carbs": 17.0,
+        "fibre": 5.0,
+        "protein": 7.0,
+        "satFat": 0.1,
+        "sugar": 0.0
+      },
+      "components": [
+        "Hot Kattan Chaya",
+        "1/2 cup boiled sprouted green gram"
+      ],
+      "ingredients": [
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green gram (cherupayar)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil a cup of water, add the tea leaves, simmer 2 minutes, strain and serve unsweetened.",
+        "Steam or simmer the pre-sprouted green gram for 4 to 5 minutes until just tender.",
+        "Drain, season with salt and serve warm with the tea."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.kattan-chaya-and-kadala-sundal": {
+      "id": "kerala.snack.kattan-chaya-and-kadala-sundal",
+      "name": "Kattan Chaya & Kadala sundal",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 4,
+      "cookMinutes": 8,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "chickpeas",
+      "nutrition": {
+        "kcal": 175,
+        "carbs": 18.0,
+        "fibre": 6.0,
+        "protein": 6.0,
+        "satFat": 5.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Kattan Chaya",
+        "1/2 cup Kadala sundal"
+      ],
+      "ingredients": [
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black chickpeas (kadala)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "grated coconut",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "coconut oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mustard seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "dried red chillies",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil a cup of water, add the tea leaves, simmer 2 minutes, strain and serve unsweetened.",
+        "Heat the coconut oil, pop the mustard seeds, then add the curry leaves and dried red chilli.",
+        "Toss in the pre-boiled kadala with salt and heat through for 3 to 4 minutes.",
+        "Stir in the grated coconut, take off the heat and serve warm with the tea."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.kattan-chaya-and-roasted-peanuts-or-almonds": {
+      "id": "kerala.snack.kattan-chaya-and-roasted-peanuts-or-almonds",
+      "name": "Kattan Chaya & Roasted peanuts or almonds",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 2,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "nuts",
+      "nutrition": {
+        "kcal": 130,
+        "carbs": 3.0,
+        "fibre": 2.0,
+        "protein": 4.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Kattan Chaya (black tea, unsweetened)",
+        "12-15 roasted peanuts or almonds"
+      ],
+      "ingredients": [
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "peanuts",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "almonds",
+          "qty": 8.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        }
+      ],
+      "steps": [
+        "Boil a cup of water, add the tea leaves, simmer 2 minutes, strain and serve unsweetened.",
+        "Dry-roast the peanuts and almonds in a pan for 3 to 4 minutes until fragrant.",
+        "Serve the nuts warm with the tea."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.sambharam-and-walnut-halves": {
+      "id": "kerala.snack.sambharam-and-walnut-halves",
+      "name": "Sambharam & Walnut halves",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 2,
+      "cookMinutes": 0,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "nuts",
+      "nutrition": {
+        "kcal": 100,
+        "carbs": 8.0,
+        "fibre": 1.3,
+        "protein": 7.0,
+        "satFat": 1.7,
+        "sugar": 0.0
+      },
+      "components": [
+        "1 glass Sambharam",
+        "10 walnut halves"
+      ],
+      "ingredients": [
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "walnuts",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        }
+      ],
+      "steps": [
+        "Whisk the yoghurt with 150 ml cold water, crushed ginger, slit green chilli, curry leaves and salt to make sambharam.",
+        "Break the walnut halves into a small bowl; toast briefly in a dry pan if you prefer them warm.",
+        "Serve the walnuts with the chilled sambharam."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.spiced-inji-chaya-and-boiled-white-chana": {
+      "id": "kerala.snack.spiced-inji-chaya-and-boiled-white-chana",
+      "name": "Spiced Inji chaya & Boiled white chana",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 2,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "chickpeas",
+      "nutrition": {
+        "kcal": 150,
+        "carbs": 18.0,
+        "fibre": 5.0,
+        "protein": 6.0,
+        "satFat": 0.2,
+        "sugar": 0.0
+      },
+      "components": [
+        "Spiced Inji chaya (no sugar)",
+        "1/2 cup boiled white chana"
+      ],
+      "ingredients": [
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "cardamom pods",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.125,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Crush the ginger and cardamom, boil them with the pepper in a cup of water for 2 minutes, add the tea leaves, simmer a minute and strain.",
+        "Reheat the pre-boiled chickpeas in a pan with a splash of water for 3 to 4 minutes.",
+        "Season with salt and serve warm with the drink."
+      ],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.spiced-sambharam-with-crushed-curry-leaves-and-roasted-almon": {
+      "id": "kerala.snack.spiced-sambharam-with-crushed-curry-leaves-and-roasted-almon",
+      "name": "Spiced Sambharam with crushed curry leaves & Roasted almonds",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 2,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "nuts",
+      "nutrition": {
+        "kcal": 100,
+        "carbs": 7.5,
+        "fibre": 1.5,
+        "protein": 6.5,
+        "satFat": 1.1,
+        "sugar": 0.0
+      },
+      "components": [
+        "1 glass spiced Sambharam with crushed curry leaves",
+        "10 roasted almonds"
+      ],
+      "ingredients": [
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "green chilli",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "curry leaves",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "almonds",
+          "qty": 12.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        }
+      ],
+      "steps": [
+        "Crush the curry leaves, ginger and green chilli with the cumin, then whisk into the yoghurt with 150 ml cold water and salt.",
+        "Dry-roast the almonds in a pan for 2 to 3 minutes until fragrant and let them cool.",
+        "Serve the almonds alongside the drink."
+      ],
       "swaps": [],
       "source": "Kerala 28-day plan (index.html, Oct 2026)"
     }

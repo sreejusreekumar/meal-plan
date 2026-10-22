@@ -13,7 +13,23 @@ effort: weekday
 family: makhana
 nutrition:
   kcal: 110
+  carbs: 15
+  fibre: 3
+  protein: 2
+  satFat: 2
+  sugar: 0
 components:
 - Kattan Kappi
 - 1 cup roasted makhana
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 8
+ingredients:
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: makhana (foxnuts), qty: 20, unit: g }
+  - { item: coconut oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - Boil a cup of water, stir in the coffee powder, let it steep a minute and strain into a cup; no sugar.
+  - Heat the coconut oil in a pan, add the makhana and roast on low heat for 6 to 8 minutes, stirring, until crisp.
+  - Sprinkle with salt and serve with the drink.

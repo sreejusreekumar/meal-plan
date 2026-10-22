@@ -10,10 +10,28 @@ kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
 family: toast
+prepMinutes: 2
+cookMinutes: 12
 nutrition:
   kcal: 340
+  carbs: 30
+  fibre: 5
+  protein: 20
+  satFat: 3.5
+  sugar: 0
 components:
 - 2 slices wholemeal bread dry toasted
 - 2 hard-boiled eggs with black pepper
 - Black tea
+ingredients:
+  - { item: wholemeal bread, qty: 2, unit: pc }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - Hard-boil the eggs for 10 minutes, cool in cold water and peel.
+  - Toast the wholemeal bread dry.
+  - Halve the eggs and season with crushed black pepper and a pinch of salt.
+  - Brew the black tea without sugar and serve.
 source: Kerala 28-day plan (index.html, Oct 2026)

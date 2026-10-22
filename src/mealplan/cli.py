@@ -10,7 +10,7 @@ from rich.console import Console
 from rich.table import Table
 
 from mealplan import build as build_mod
-from mealplan.config import load_household, load_rotation, paths
+from mealplan.config import load_catalogue, load_household, load_rotation, paths
 from mealplan.generate import GenerationError, generate
 from mealplan.models import SLOTS, Plan, Recipe
 from mealplan.packs import (
@@ -21,6 +21,7 @@ from mealplan.packs import (
     load_packs,
     parse_cuisine_arg,
 )
+from mealplan.shopping import fmt_qty, round_up, shopping_list, to_markdown
 from mealplan.validate import validate_plan
 from mealplan.weeks import resolve_week, week_start
 
@@ -85,13 +86,14 @@ def plan(
         packs = load_packs(p.cuisines_dir, ids)
     except PackError as exc:
         _fail(str(exc))
+    catalogue = load_catalogue(p)
     for lp in packs:
-        problems = check_pack(lp)
+        problems = check_pack(lp, catalogue)
         if problems:
             _fail(f"pack {lp.pack.id} is not ready:\n  " + "\n  ".join(problems))
     history = [pl for pl in build_mod.all_plans(p) if pl.week < wk][-2:]
     try:
-        result = generate(wk, packs, household, salt=salt, history=history)
+        result = generate(wk, packs, household, salt=salt, history=history, catalogue=catalogue)
     except GenerationError as exc:
         _fail(str(exc))
     build_mod.save_plan(p, result)
@@ -120,6 +122,8 @@ def validate(
     household = load_household(p)
     console.print(f"household: {len(household.people)} people, {household.servings} servings/meal")
     ids = parse_cuisine_arg(cuisine) if cuisine else list_pack_ids(p.cuisines_dir)
+    catalogue = load_catalogue(p)
+    console.print(f"catalogue: {len(catalogue.items) if catalogue else 0} ingredients")
     bad = 0
     for pid in ids:
         try:
@@ -128,7 +132,7 @@ def validate(
             err.print(str(exc))
             bad += 1
             continue
-        problems = check_pack(lp)
+        problems = check_pack(lp, catalogue)
         status = "[green]ok[/]" if not problems else "[red]" + "; ".join(problems) + "[/]"
         console.print(f"pack {pid} v{lp.pack.version}: {len(lp.recipes)} recipes · {status}")
         bad += bool(problems)
@@ -190,7 +194,9 @@ def recipe(recipe_id: str = typer.Argument(..., help="e.g. kerala.lunch.netholi-
     if r.ingredients:
         console.print(f"\n[bold]Ingredients for the household ({household.servings} servings)[/]")
         for ing in r.ingredients:
-            console.print(f"  • {ing.item}: {ing.qty * household.servings:g} {ing.unit}")
+            unit = ing.unit or "pc"
+            amount = fmt_qty(round_up(ing.qty * household.servings, unit, None), unit)
+            console.print(f"  • {ing.item}: {amount}")
     else:
         console.print("\n[dim]No ingredient quantities yet (phase 1 authoring).[/]")
     if r.steps:
@@ -223,6 +229,32 @@ def build(
         f"[green]Wrote {p.index_html}[/] · current {man['current']} · next {man['next']} "
         f"· version {man['version']}"
     )
+
+
+@app.command()
+def shop(
+    week: str = typer.Option("next", "--week", "-w", help="this | next | last | YYYY-Www"),
+    todo: bool = typer.Option(False, "--todo", help="Also push to Microsoft To Do (phase 3)."),
+) -> None:
+    """Build the week's shopping list: shopping/<week>.md and .json, grouped by aisle."""
+    p = paths()
+    household = load_household(p)
+    wk = resolve_week(week, household.timezone)
+    f = build_mod.plan_path(p, wk)
+    if not f.exists():
+        _fail(f"no plan for {wk}; run `mealplan plan --week {week}` first")
+    sl = shopping_list(build_mod.load_plan(f), household, load_catalogue(p))
+    if not sl.buy and not sl.pantry:
+        _fail(f"plan {wk} has no ingredient data; regenerate it after authoring recipes")
+    p.shopping_dir.mkdir(parents=True, exist_ok=True)
+    md = p.shopping_dir / f"{wk}.md"
+    js = p.shopping_dir / f"{wk}.json"
+    md.write_text(to_markdown(sl), encoding="utf-8")
+    js.write_text(sl.model_dump_json(by_alias=True, exclude_none=True, indent=2) + "\n")
+    console.print(to_markdown(sl))
+    console.print(f"[green]Wrote {md} and {js}[/]")
+    if todo:
+        _fail("Microsoft To Do push arrives in phase 3; the list files above are ready.")
 
 
 @app.command("add-cuisine")

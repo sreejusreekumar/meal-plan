@@ -12,8 +12,9 @@ import json
 from datetime import date, timedelta
 from pathlib import Path
 
-from mealplan.config import Paths, load_household, load_yaml
+from mealplan.config import Paths, load_catalogue, load_household, load_yaml
 from mealplan.models import Household, Pack, Plan
+from mealplan.shopping import shopping_list
 from mealplan.weeks import today_in, week_id
 from mealplan.weeks import week_start as ws
 
@@ -99,6 +100,9 @@ def page_data(p: Paths, household: Household, plans: list[Plan], today: date) ->
         "packs": pack_meta(p, cuisines),
         "manifest": {"current": current, "next": nxt},
         "weeks": [pl.model_dump(by_alias=True, exclude_none=True) for pl in embed],
+        "shopping": {
+            pl.week: shopping_list(pl, household, load_catalogue(p)).dump() for pl in embed
+        },
     }
 
 

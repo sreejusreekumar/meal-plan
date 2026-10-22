@@ -11,6 +11,11 @@ effort: weekday
 family: netholi
 nutrition:
   kcal: 520
+  carbs: 58
+  fibre: 10
+  protein: 32
+  satFat: 5
+  sugar: 0
 components:
 - 1 cup Kovakka (ivy gourd) mezhukkupuratti
 - 'Primary: 1 bowl Netholi (anchovies) Peera with Kudampuli & crushed shallots'
@@ -21,4 +26,29 @@ swaps:
   use: Chemmeen (Prawns) Ularthiyathu (sautéed with black pepper & shallots)
 - for: Netholi
   use: Kilimeen (Pink Perch) Curry
+prepMinutes: 20
+cookMinutes: 30
+ingredients:
+  - { item: matta rice, qty: 60, unit: g }
+  - { item: anchovies (netholi), qty: 120, unit: g }
+  - { item: grated coconut, qty: 20, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc   }
+  - { item: ginger, qty: 3, unit: g   }
+  - { item: garlic, qty: 4, unit: g   }
+  - { item: kudampuli (Malabar tamarind), qty: 1, unit: pc }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coconut oil, qty: 2, unit: tsp }
+  - { item: curry leaves, qty: 3, unit: sprig }
+  - { item: salt, qty: 1.25, unit: tsp }
+  - { item: ivy gourd (kovakka), qty: 100, unit: g }
+  - { item: mustard seeds, qty: 0.5, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+steps:
+  - Rinse the matta rice, pressure-cook it with 3 cups water for 5 whistles (or boil 35 min) and drain.
+  - Clean the anchovies; crush grated coconut with shallots, green chilli, ginger, garlic and turmeric.
+  - Combine the coconut mix with the fish, kudampuli, curry leaves, salt and a splash of water in a pan, cover and cook 10-12 min, then uncover and dry off with 1 tsp coconut oil.
+  - Dice the vegetable finely for the kovakka mezhukkupuratti; splutter mustard seeds in coconut oil, add shallots, garlic and green chilli, then the vegetable with turmeric and salt, and stir-fry uncovered until tender and lightly browned.
+  - Whisk the yoghurt with water, crushed ginger, green chilli, curry leaves and salt to make the sambharam; chill until serving.
+  - Plate 1 level cup rice with the kovakka mezhukkupuratti, the anchovies, and the sambharam alongside.
 source: Kerala 28-day plan (index.html, Oct 2026)

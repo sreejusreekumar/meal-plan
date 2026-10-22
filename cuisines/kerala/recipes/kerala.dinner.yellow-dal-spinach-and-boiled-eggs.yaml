@@ -9,11 +9,42 @@ spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 10
+cookMinutes: 25
 family: boiled-eggs
 nutrition:
   kcal: 490
+  carbs: 38
+  fibre: 11
+  protein: 30
+  satFat: 5
+  sugar: 0
 components:
 - 1 large bowl Cheera Parippu
 - 2 hard-boiled eggs with black pepper
 - 1 whole-wheat chapati
+ingredients:
+- { item: yellow moong dal, qty: 40, unit: g }
+- { item: amaranth leaves (cheera), qty: 0.5, unit: bunch  }
+- { item: eggs, qty: 2, unit: pc }
+- { item: shallots (small onions), qty: 20, unit: g }
+- { item: garlic, qty: 4, unit: g   }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: cumin seeds, qty: 0.5, unit: tsp }
+- { item: grated coconut, qty: 10, unit: g }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: mustard seeds, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 1, unit: sprig }
+- { item: dried red chillies, qty: 1, unit: pc }
+- { item: black pepper, qty: 0.5, unit: tsp }
+- { item: whole-wheat atta, qty: 35, unit: g }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Cook the moong dal with turmeric and 300 ml water until soft.
+- Hard-boil the eggs, peel and halve.
+- Add the chopped cheera, garlic and green chilli to the dal and simmer 5 minutes.
+- Stir in the coconut crushed with cumin and bring back to a boil.
+- Temper mustard seeds, dried chilli, shallots and curry leaves in coconut oil and pour over the dal.
+- Roll one chapati, cook on the tawa and serve with the dal and pepper-sprinkled eggs.
 source: Kerala 28-day plan (index.html, Oct 2026)

@@ -9,11 +9,40 @@ spice: medium
 kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
+prepMinutes: 15
+cookMinutes: 30
 family: chicken-roast
 nutrition:
   kcal: 490
+  carbs: 44
+  fibre: 8
+  protein: 38
+  satFat: 5
+  sugar: 0
 components:
 - 2 whole-wheat phulkas
 - 1 bowl dry-style Nadan pepper chicken
 - Cucumber slices
+ingredients:
+- { item: whole-wheat atta, qty: 70, unit: g }
+- { item: chicken thigh (boneless), qty: 150, unit: g }
+- { item: black pepper, qty: 1.5, unit: tsp }
+- { item: shallots (small onions), qty: 20, unit: g  }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: green chilli, qty: 0.5, unit: pc  }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: coriander powder, qty: 1, unit: tsp }
+- { item: garam masala, qty: 0.25, unit: tsp }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: coconut oil, qty: 1, unit: tsp }
+- { item: cucumber, qty: 0.5, unit: pc  }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Cut the chicken into bite-size pieces and marinate with turmeric, half the crushed pepper and salt.
+- Heat the coconut oil and fry the shallots, ginger, garlic, green chilli and curry leaves until golden.
+- Add coriander powder and the chicken; cover and cook 15 minutes in its own juices.
+- Uncover, add the remaining pepper and garam masala and cook on high until dry and glossy.
+- Roll two phulkas and puff on the tawa.
+- Serve with cucumber slices.
 source: Kerala 28-day plan (index.html, Oct 2026)

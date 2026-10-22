@@ -28,7 +28,13 @@ git add -A && git commit -m "Plan 2026-W45 (Kerala)" && git push
 Don't like the week? `mealplan plan --week next --salt 1 --force`. The salt is recorded in the plan
 file, so the result is still reproducible.
 
-Shopping list and Microsoft To Do push arrive in phases 1 and 3; Saturday automation in phase 4.
+```
+uv run mealplan shop --week next                        # shopping/<week>.md + .json, grouped by aisle
+```
+
+The page's **Shopping** tab shows the same list with tick boxes (per device) and a copy button.
+Microsoft To Do push (`--todo`, into a dedicated "Weekly Basket" list) arrives in phase 3;
+Saturday automation in phase 4.
 
 ## Cuisines: where they live and how to pick one
 
@@ -74,6 +80,7 @@ A pack is usable once it has at least 10 breakfast, 10 lunch, 7 snack and 10 din
 |---|---|
 | `mealplan plan -c <id[,id]> -w <this\|next\|YYYY-Www> [--salt N] [--force]` | Generate and validate a week |
 | `mealplan show -w <week>` | Print a week |
+| `mealplan shop -w <week> [--todo]` | Write the shopping list for a week |
 | `mealplan recipe <id>` | Print a recipe scaled to the household |
 | `mealplan build [--check]` | Regenerate `index.html`; `--check` fails if it is stale |
 | `mealplan validate [-c <id>]` | Validate config, packs and committed plans |
@@ -82,7 +89,8 @@ A pack is usable once it has at least 10 breakfast, 10 lunch, 7 snack and 10 din
 
 ## Layout
 
-- `config/household.yaml` — people, energy targets, weekly rules, pantry staples, To Do mapping.
+- `config/household.yaml` — people, energy targets, weekly rules, To Do list name.
+- `config/ingredients.yaml` — the ingredient catalogue: canonical names, units, aisles, staples, pack sizes. Every recipe ingredient must use one of these names.
 - `cuisines/<id>/pack.yaml` + `recipes/*.yaml` — one recipe per file, quantities per adult serving.
 - `plans/<week>.json` — generated weeks with embedded recipe snapshots. Committed, never edited.
 - `src/mealplan/` — the Python package. `web/template.html` is the page; `__PLAN_DATA__` is

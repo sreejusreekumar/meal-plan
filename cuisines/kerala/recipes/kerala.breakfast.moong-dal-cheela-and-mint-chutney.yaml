@@ -10,10 +10,36 @@ kidNote: Hold back the green chilli and chilli powder for the child's portion.
 packable: false
 effort: weekday
 family: dosa
+prepMinutes: 15
+cookMinutes: 15
 nutrition:
   kcal: 370
+  carbs: 36
+  fibre: 8
+  protein: 21
+  satFat: 3.5
+  sugar: 0
 components:
 - 2 yellow moong dal pancakes with ginger and chillies
 - Mint chutney
 - 1 boiled egg
+ingredients:
+  - { item: yellow moong dal, qty: 50, unit: g }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: mint leaves, qty: 0.25, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch  }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - Soak the moong dal for 2 hours (or overnight) and grind with ginger, green chilli, turmeric, cumin and salt to a pouring batter.
+  - Blend the mint, coriander, coconut and lemon juice with a little water into a chutney.
+  - Spread the batter into 2 pancakes on a hot tawa, scatter chopped onion on top, drizzle oil and cook both sides.
+  - Hard-boil the egg and serve with the cheelas and chutney.
 source: Kerala 28-day plan (index.html, Oct 2026)

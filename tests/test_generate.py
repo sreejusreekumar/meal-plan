@@ -19,7 +19,7 @@ def test_same_inputs_same_plan(kerala, household):
     a = generate("2026-W44", [kerala], household, now=NOW)
     b = generate("2026-W44", [kerala], household, now=NOW)
     assert meals_of(a) == meals_of(b)
-    assert a.seed == seed_string(["kerala"], "2026-W44", {"kerala": 1}, 0)
+    assert a.seed == seed_string(["kerala"], "2026-W44", {"kerala": kerala.pack.version}, 0)
     assert a.model_dump_json(by_alias=True) == b.model_dump_json(by_alias=True)
 
 

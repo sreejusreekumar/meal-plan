@@ -9,9 +9,30 @@ spice: medium
 packable: false
 effort: weekday
 family: omelette
+prepMinutes: 8
+cookMinutes: 10
 nutrition:
   kcal: 360
+  carbs: 6
+  fibre: 2
+  protein: 21
+  satFat: 4.5
+  sugar: 0
 components:
 - 2-egg omelette with sliced mushrooms, onions, and 1 slice light cheese
 - Warm ginger water
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: light cheese slices, qty: 1, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g  }
+steps:
+  - Simmer the sliced ginger in a cup of water for 5 minutes to make the warm ginger water.
+  - Slice the mushrooms and onion; saute in half the oil until the mushrooms brown and dry out.
+  - Whisk the eggs with salt and pepper, pour over the mushrooms and cook on medium until nearly set.
+  - Lay the cheese slice on one half, fold the omelette over and let the cheese melt for a minute before serving.
 source: Kerala 28-day plan (index.html, Oct 2026)

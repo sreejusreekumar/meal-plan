@@ -61,15 +61,71 @@ class Nutrition(CamelModel):
     sugar: float | None = Field(default=None, ge=0)
 
 
+Aisle = Literal["produce", "fish", "meat", "dairy", "grains", "pantry", "spices", "frozen", "other"]
+
+
 class Ingredient(CamelModel):
+    """A recipe line, per adult reference serving. `aisle`, `staple` and `pack_size` may be
+    left out in recipe files and are filled from the catalogue when a plan is generated."""
+
     item: str
     qty: float = Field(gt=0)
+    unit: str | None = None
+    aisle: Aisle | None = None
+    staple: bool | None = None
+    pack_size: float | None = Field(default=None, gt=0)
+
+
+class CatalogueItem(CamelModel):
+    item: str
     unit: str
-    aisle: Literal[
-        "produce", "fish", "meat", "dairy", "grains", "pantry", "spices", "frozen", "other"
-    ] = "other"
+    aisle: Aisle = "other"
     staple: bool = False
     pack_size: float | None = Field(default=None, gt=0)
+
+
+class Catalogue(CamelModel):
+    """config/ingredients.yaml: the canonical ingredient names every pack must use."""
+
+    aisle_order: list[str] = Field(default_factory=lambda: list(AISLES))
+    items: list[CatalogueItem]
+
+    @property
+    def by_name(self) -> dict[str, CatalogueItem]:
+        return {i.item: i for i in self.items}
+
+    def resolve(self, ing: Ingredient) -> Ingredient:
+        """Fill unit/aisle/staple/packSize from the catalogue (recipe values win when set)."""
+        cat = self.by_name.get(ing.item)
+        if cat is None:
+            if ing.unit is None or ing.aisle is None:
+                raise ValueError(f"ingredient {ing.item!r} is not in the catalogue")
+            return ing.model_copy(update={"staple": bool(ing.staple)})
+        return ing.model_copy(
+            update={
+                "unit": ing.unit or cat.unit,
+                "aisle": ing.aisle or cat.aisle,
+                "staple": cat.staple if ing.staple is None else ing.staple,
+                "pack_size": ing.pack_size or cat.pack_size,
+            }
+        )
+
+    def problems(self, recipe: Recipe) -> list[str]:
+        out = []
+        names = self.by_name
+        seen: set[str] = set()
+        for ing in recipe.ingredients:
+            cat = names.get(ing.item)
+            if cat is None:
+                out.append(f"{recipe.id}: ingredient {ing.item!r} is not in the catalogue")
+            elif ing.unit and ing.unit != cat.unit:
+                out.append(
+                    f"{recipe.id}: {ing.item!r} uses {ing.unit!r}, catalogue says {cat.unit!r}"
+                )
+            if ing.item in seen:
+                out.append(f"{recipe.id}: {ing.item!r} listed twice")
+            seen.add(ing.item)
+        return out
 
 
 class Swap(CamelModel):
@@ -201,8 +257,8 @@ class WeeklyRules(CamelModel):
 
 
 class TodoConfig(CamelModel):
-    mode: Literal["lists-by-aisle", "single-list"] = "lists-by-aisle"
-    lists: dict[str, str] = Field(default_factory=lambda: {"default": "Groceries"})
+    list_name: str = "Weekly Basket"
+    """The Microsoft To Do list the shopping list is pushed to. Created if missing."""
 
 
 class Household(CamelModel):

@@ -10,10 +10,26 @@ tags:
 spice: mild
 packable: false
 effort: weekday
-family: kadala
+family: edamame
 nutrition:
   kcal: 120
+  carbs: 6
+  fibre: 3
+  protein: 7
+  satFat: 0.3
+  sugar: 0
 components:
 - Inji Chaya (ginger tea, no sugar)
 - Boiled, salted edamame or chickpeas (1/2 cup)
 source: Kerala 28-day plan (index.html, Oct 2026)
+prepMinutes: 2
+cookMinutes: 5
+ingredients:
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g  }
+  - { item: edamame (frozen), qty: 60, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - Crush the ginger, boil it in a cup of water for 2 minutes, add the tea leaves, simmer a minute and strain.
+  - Boil the frozen edamame in salted water for 4 to 5 minutes, then drain.
+  - Sprinkle with salt and serve warm with the tea (boiled chickpeas work as a swap).

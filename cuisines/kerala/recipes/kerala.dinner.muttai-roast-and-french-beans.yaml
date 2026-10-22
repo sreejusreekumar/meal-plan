@@ -8,11 +8,41 @@ protein: egg
 spice: medium
 packable: false
 effort: weekday
+prepMinutes: 10
+cookMinutes: 25
 family: egg-roast
 nutrition:
   kcal: 490
+  carbs: 34
+  fibre: 10
+  protein: 25
+  satFat: 4
+  sugar: 0
 components:
 - 2 hard-boiled eggs in onion masala
 - 1 large bowl sautéed French beans
 - 1 whole-wheat chapati
+ingredients:
+- { item: eggs, qty: 2, unit: pc }
+- { item: onion, qty: 0.5, unit: pc  }
+- { item: ginger, qty: 3, unit: g  }
+- { item: garlic, qty: 4, unit: g   }
+- { item: chilli powder, qty: 0.5, unit: tsp }
+- { item: coriander powder, qty: 1, unit: tsp }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: garam masala, qty: 0.5, unit: tsp }
+- { item: curry leaves, qty: 2, unit: sprig }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: whole-wheat atta, qty: 35, unit: g }
+- { item: black pepper, qty: 0.5, unit: tsp }
+- { item: salt, qty: 0.5, unit: tsp }
+- { item: french beans, qty: 150, unit: g }
+- { item: shallots (small onions), qty: 20, unit: g }
+steps:
+- Hard-boil the eggs, peel and halve.
+- Fry the sliced onion, ginger, garlic and curry leaves in the oil until golden brown.
+- Add chilli, coriander and turmeric powders with a splash of water and cook to a thick onion masala.
+- Add the eggs, coat in the masala, finish with garam masala and cook 2 minutes.
+- Saute the chopped French beans with shallots, pepper and salt until just tender.
+- Roll one chapati, cook on the tawa and serve with the egg roast and beans.
 source: Kerala 28-day plan (index.html, Oct 2026)

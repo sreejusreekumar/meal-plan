@@ -175,6 +175,14 @@ generated files (plans, shopping) because the page consumes them.
 
 ## 6. Data model
 
+### 6.0 Ingredient catalogue (`config/ingredients.yaml`)
+
+One list of canonical ingredient names with unit, aisle, pantry-staple flag and
+pack size. Recipes reference items by exact name and inherit the rest, so the
+shopping list merges "shallots" from twelve recipes into one line and never
+sees "shallot" and "small onions" as two items. The validator rejects a recipe
+whose ingredient is not in the catalogue. Plans snapshot the resolved values.
+
 ### 6.1 Recipe (`cuisines/<id>/recipes/<recipe-id>.yaml`)
 
 ```yaml
@@ -194,12 +202,12 @@ prepMinutes: 15
 cookMinutes: 20
 effort: weekday          # weekday | weekend
 nutrition: { kcal: 220, carbs: 6, fibre: 3, protein: 24, satFat: 4, sugar: 1 }
-ingredients:             # per adult reference serving
-  - { item: anchovies (netholi), qty: 120, unit: g, aisle: fish, packSize: 50 }
-  - { item: grated coconut, qty: 2, unit: tbsp, aisle: produce }
-  - { item: kudampuli, qty: 1, unit: pc, aisle: pantry, staple: true }
-  - { item: shallots, qty: 6, unit: pc, aisle: produce }
-  - { item: turmeric, qty: 0.5, unit: tsp, aisle: spices, staple: true }
+ingredients:             # per adult reference serving; names from the catalogue
+  - { item: anchovies (netholi), qty: 120, unit: g }
+  - { item: grated coconut, qty: 20, unit: g }
+  - { item: kudampuli (Malabar tamarind), qty: 1, unit: pc }
+  - { item: shallots (small onions), qty: 40, unit: g }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
 steps:
   - "..."
 swaps:
@@ -259,12 +267,7 @@ weeklyRules:
 pantryStaples: [salt, turmeric, black pepper, mustard seeds, curry leaves, coconut oil,
                 olive oil, cumin, coriander powder, chilli powder, garam masala]
 todo:
-  mode: lists-by-aisle   # or single-list
-  lists:
-    produce: Vegetables & Fruits
-    fish: Meat & Fish
-    meat: Meat & Fish
-    default: Groceries
+  listName: Weekly Basket   # created on first push if missing
 ```
 
 ### 6.4 Plan output (`plans/2026-W44.json`)
@@ -370,14 +373,14 @@ per device) and a "Copy list" button as a no-setup fallback.
   at shopping-assistant's `data/ms_token_cache.json` so one login serves both.
 - **Write path (new):** `POST /me/todo/lists/{id}/tasks` with `title`,
   `body.content` and, in checklist mode, `checklistItems`.
-- **Mode `lists-by-aisle` (default):** produce lines go to "Vegetables & Fruits",
-  fish and meat to "Meat & Fish", everything else to "Groceries". This matches
-  the lists shopping-assistant already syncs, so the weekly flow becomes
-  meal-plan → To Do → shopping-assistant price comparison with no new coupling.
-- **Mode `single-list`:** everything in one list, one task per item, created in
-  aisle order.
-- Task title `Tomatoes — 1.2 kg`; body
-  `used in: Thakkali Rasam, Egg Roast · meal-plan:2026-W44`.
+- **One dedicated list**, named in `household.todo.listName` (default
+  **"Weekly Basket"**), created on first push if it does not exist. Keeping the
+  planner's tasks in their own list means the family's hand-written lists are
+  never touched, and shopping-assistant can be pointed at "Weekly Basket" by
+  adding it to its `GROCERY_MS_TODO_LIST` setting when price comparison is wanted.
+- One task per Buy line, created in aisle order so the default list order is the
+  store walk. Task title `Tomatoes — 1.2 kg`; body
+  `Produce · used in: Thakkali Rasam, Egg Roast · meal-plan:2026-W44`.
 - **Idempotent and polite:** before writing, delete open tasks carrying the
   previous week's `meal-plan:` marker in those lists. Tasks the family added by
   hand are never touched. Re-running the same week replaces its tasks.
@@ -465,9 +468,9 @@ git add -A && git commit -m "Plan 2026-W45 (Thai)" && git push
 | Phase | Deliverable | Done when |
 |---|---|---|
 | 0 ✅ | uv project, models, validator, Kerala pack migrated from the 28 hardcoded days (108 recipes), generator, build, CI | `index.html` is regenerated from data and looks like today |
-| 1 | Shopping list (md + json) and in-page list with tick boxes | A week's list prints grouped by aisle |
+| 1 | Ingredient catalogue, quantities + nutrition + steps for all Kerala recipes, shopping list (md + json), in-page list with tick boxes | A week's list prints grouped by aisle |
 | 2 | Recipe panel in the page, recipe CLI | Every meal opens a recipe |
-| 3 | Microsoft To Do push, lists-by-aisle | `--todo` fills the three lists on the phone; shopping-assistant sees them |
+| 3 | Microsoft To Do push into the "Weekly Basket" list | `--todo` fills the list on the phone |
 | 4 | Saturday automation (Actions cron, manual dispatch, rotation) and local To Do job | A week appears on the tablet with no manual step |
 | 5 | More cuisine packs via `add-cuisine` + Claude authoring: North Indian, Sri Lankan, Thai, Mediterranean, Middle Eastern, Mexican, Japanese, Italian, Chinese, Vietnamese, Korean | Each pack passes `validate` and produces a valid week |
 | 6 | Nice-to-haves: per-person kid lunchbox slot, mixed-by-meal weeks, nutrition summary chart, print view | — |
@@ -485,6 +488,8 @@ git add -A && git commit -m "Plan 2026-W45 (Thai)" && git push
 | 7 | Auto-generate every Saturday via GitHub Actions; manual dispatch and CLI also available | Review 1 |
 | 8 | Timezone Australia/Melbourne | Review 1 |
 | 9 | Python 3.12 + uv, not Node (section 4.1) | Review 1 |
+| 10 | To Do push goes to one new dedicated list, "Weekly Basket" | Review 2 |
+| 11 | Ingredient names come from one catalogue (`config/ingredients.yaml`); recipes reference it | Phase 1 |
 
 ## 17. Open questions
 

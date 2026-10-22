@@ -9,9 +9,33 @@ spice: medium
 packable: false
 effort: weekday
 family: omelette
+prepMinutes: 10
+cookMinutes: 12
 nutrition:
   kcal: 350
+  carbs: 22
+  fibre: 5
+  protein: 19
+  satFat: 3.5
+  sugar: 0
 components:
 - 2-egg omelette loaded with shallots, tomatoes, and mushrooms
 - 1 slice wholemeal bread
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: shallots (small onions), qty: 20, unit: g  }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 60, unit: g }
+  - { item: garlic, qty: 4, unit: g  }
+  - { item: green chilli, qty: 0.5, unit: pc  }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+steps:
+  - Slice the mushrooms, shallots, garlic and chilli; dice the tomato.
+  - Saute half the mushrooms with the garlic in half the oil until browned; set aside as the side.
+  - Whisk the eggs with shallots, tomato, the remaining mushrooms, chilli, salt and pepper.
+  - Cook the omelette in the remaining oil on medium until set, flipping once.
+  - Toast the bread dry and plate with the omelette and sauteed mushrooms.
 source: Kerala 28-day plan (index.html, Oct 2026)

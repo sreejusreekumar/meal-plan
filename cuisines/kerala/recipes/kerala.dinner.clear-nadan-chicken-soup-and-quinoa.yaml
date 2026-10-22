@@ -8,10 +8,40 @@ protein: chicken
 spice: medium
 packable: false
 effort: weekday
+prepMinutes: 15
+cookMinutes: 40
 family: soup
 nutrition:
   kcal: 490
+  carbs: 38
+  fibre: 9
+  protein: 34
+  satFat: 4
+  sugar: 0
 components:
 - 1 large bowl chicken bone-broth soup with shredded meat & greens
 - 1/2 cup warm cooked quinoa or 1 chapati
+ingredients:
+- { item: chicken (bone-in curry cut), qty: 150, unit: g }
+- { item: carrot, qty: 0.5, unit: pc  }
+- { item: french beans, qty: 50, unit: g }
+- { item: spinach, qty: 0.5, unit: bunch  }
+- { item: onion, qty: 0.5, unit: pc  }
+- { item: ginger, qty: 3, unit: g   }
+- { item: garlic, qty: 4, unit: g   }
+- { item: black pepper, qty: 1, unit: tsp }
+- { item: turmeric powder, qty: 0.5, unit: tsp }
+- { item: cloves, qty: 2, unit: pc }
+- { item: cinnamon stick, qty: 1, unit: pc }
+- { item: curry leaves, qty: 1, unit: sprig }
+- { item: quinoa, qty: 40, unit: g }
+- { item: rice bran oil, qty: 1, unit: tsp }
+- { item: salt, qty: 0.5, unit: tsp }
+steps:
+- Heat the oil and fry the cloves, cinnamon, onion, ginger, garlic and curry leaves briefly.
+- Add the chicken, turmeric, pepper, salt and 700 ml water; simmer gently 30 minutes for a clear broth.
+- Meanwhile rinse the quinoa and simmer in 100 ml water for 15 minutes until fluffy.
+- Shred the chicken off the bone and return it to the broth with the carrot and beans; simmer 8 minutes.
+- Stir in the chopped spinach and cook 2 minutes more.
+- Serve the soup with the warm quinoa on the side (or one chapati).
 source: Kerala 28-day plan (index.html, Oct 2026)
