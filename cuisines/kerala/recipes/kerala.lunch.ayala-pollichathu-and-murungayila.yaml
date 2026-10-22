@@ -1,0 +1,27 @@
+id: kerala.lunch.ayala-pollichathu-and-murungayila
+name: Ayala Pollichathu & Murungayila
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+tags:
+- banana-leaf
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: ayala
+nutrition:
+  kcal: 550
+components:
+- 1 cup Murungayila thoran
+- 'Primary: 1 Ayala baked in banana leaf with spicy tomato masala'
+- 1 level cup Matta rice
+- Sambharam
+swaps:
+- for: Ayala
+  use: Karimeen Pollichathu
+- for: Ayala
+  use: Seer Fish (Neymeen) Roast
+source: Kerala 28-day plan (index.html, Oct 2026)

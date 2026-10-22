@@ -1,0 +1,23 @@
+{
+  "version": "9ef76c1682b7",
+  "current": "2026-W43",
+  "next": "2026-W44",
+  "weeks": [
+    {
+      "week": "2026-W43",
+      "startDate": "2026-10-19",
+      "cuisines": [
+        "kerala"
+      ],
+      "file": "2026-W43.json"
+    },
+    {
+      "week": "2026-W44",
+      "startDate": "2026-10-26",
+      "cuisines": [
+        "kerala"
+      ],
+      "file": "2026-W44.json"
+    }
+  ]
+}

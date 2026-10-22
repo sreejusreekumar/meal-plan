@@ -1,0 +1,18 @@
+id: kerala.dinner.grilled-kerala-chicken-and-thoran
+name: Grilled Kerala Chicken & Thoran
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: false
+effort: weekday
+family: grilled-chicken
+nutrition:
+  kcal: 510
+components:
+- 150g boneless chicken breast marinated in nadan spices
+- 1 cup Padavalanga (snake gourd) thoran
+- 1 whole-wheat chapati
+source: Kerala 28-day plan (index.html, Oct 2026)

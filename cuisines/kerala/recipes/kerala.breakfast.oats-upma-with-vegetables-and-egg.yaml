@@ -1,0 +1,17 @@
+id: kerala.breakfast.oats-upma-with-vegetables-and-egg
+name: Oats Upma with Vegetables & Egg
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekday
+family: upma
+nutrition:
+  kcal: 380
+components:
+- 1 bowl steel-cut or rolled oats upma cooked with carrots, beans, and mustard seeds
+- 1 boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

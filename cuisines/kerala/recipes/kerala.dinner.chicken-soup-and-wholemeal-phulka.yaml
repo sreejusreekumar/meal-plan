@@ -1,0 +1,18 @@
+id: kerala.dinner.chicken-soup-and-wholemeal-phulka
+name: Chicken Soup & Wholemeal Phulka
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: false
+effort: weekday
+family: soup
+nutrition:
+  kcal: 500
+components:
+- 1 large bowl shredded chicken & vegetable soup
+- 1 whole-wheat chapati
+- Cucumber slices
+source: Kerala 28-day plan (index.html, Oct 2026)

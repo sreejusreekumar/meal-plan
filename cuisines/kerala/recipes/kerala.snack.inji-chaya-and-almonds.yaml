@@ -1,0 +1,19 @@
+id: kerala.snack.inji-chaya-and-almonds
+name: Inji Chaya & Almonds
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 120
+components:
+- Inji Chaya
+- 12 almonds
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,25 @@
+id: kerala.lunch.avoli-curry-and-kovakka
+name: Avoli Curry & Kovakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: avoli
+nutrition:
+  kcal: 530
+components:
+- 1 cup Kovakka mezhukkupuratti
+- 'Primary: 1 portion Avoli (Pomfret) cooked with Kudampuli and green chillies'
+- 1 level cup Matta rice
+- Sambharam
+swaps:
+- for: Avoli
+  use: Ayala (Mackerel) Peera Pattichathu
+- for: Avoli
+  use: Choora (Tuna) Mulakittathu
+source: Kerala 28-day plan (index.html, Oct 2026)

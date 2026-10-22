@@ -1,0 +1,25 @@
+id: kerala.lunch.chemmeen-ularthiyathu-and-pavakka
+name: Chemmeen Ularthiyathu & Pavakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: chemmeen
+nutrition:
+  kcal: 540
+components:
+- 1 cup Pavakka mezhukkupuratti
+- 'Primary: 150g Chemmeen (Prawns) sautéed with shallots, curry leaves, and cracked pepper'
+- 1 level cup Matta rice
+- Moru kachiyathu
+swaps:
+- for: Chemmeen
+  use: Kallummakkaya (Mussels) Roast
+- for: Chemmeen
+  use: Ayala (Mackerel) Mulakittathu
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,20 @@
+id: kerala.dinner.cherupayar-puzhukku
+name: Cherupayar Puzhukku (No Rice Dinner)
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- no-rice
+spice: medium
+packable: false
+effort: weekday
+family: cherupayar
+nutrition:
+  kcal: 460
+components:
+- 1.5 cups Cherupayar puzhukku with 1 tbsp fresh coconut
+- 2 boiled egg whites
+- Clear vegetable soup
+source: Kerala 28-day plan (index.html, Oct 2026)

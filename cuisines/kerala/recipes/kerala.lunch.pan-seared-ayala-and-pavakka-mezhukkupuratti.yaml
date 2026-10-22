@@ -1,0 +1,25 @@
+id: kerala.lunch.pan-seared-ayala-and-pavakka-mezhukkupuratti
+name: Pan-Seared Ayala & Pavakka Mezhukkupuratti
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: ayala
+nutrition:
+  kcal: 530
+components:
+- 1 cup Pavakka (bitter gourd) mezhukkupuratti
+- 'Primary: 1 medium Ayala (mackerel) pan-roasted in minimal oil'
+- 1 level cup Matta rice
+- Garlic-pepper Rasam
+swaps:
+- for: Ayala
+  use: Karimeen (Pearl Spot) Tawa Roast
+- for: Ayala
+  use: Avoli (Black Pomfret) pan-seared with turmeric and pepper
+source: Kerala 28-day plan (index.html, Oct 2026)

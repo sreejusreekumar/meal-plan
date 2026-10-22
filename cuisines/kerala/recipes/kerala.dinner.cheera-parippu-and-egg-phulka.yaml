@@ -1,0 +1,18 @@
+id: kerala.dinner.cheera-parippu-and-egg-phulka
+name: Cheera Parippu & Egg Phulka
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: dal
+nutrition:
+  kcal: 490
+components:
+- 2 whole-wheat phulkas
+- 1 bowl Cheera Parippu (spinach dal)
+- 1 single-egg omelette
+source: Kerala 28-day plan (index.html, Oct 2026)

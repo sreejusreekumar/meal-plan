@@ -1,0 +1,18 @@
+id: kerala.dinner.thin-dosas-with-drumstick-sambar
+name: Thin Dosas with Drumstick Sambar
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: dosa
+nutrition:
+  kcal: 500
+components:
+- 2 thin whole-wheat dosas
+- 1 bowl Sambar (heavy on drumstick, ash gourd, brinjal)
+- 2 boiled egg whites
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,18 @@
+id: kerala.dinner.kadala-curry-with-chapatis
+name: Kadala Curry with Chapatis
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: dal
+nutrition:
+  kcal: 490
+components:
+- 2 whole-wheat chapatis
+- 1 cup thick Kadala curry
+- Mixed greens salad
+source: Kerala 28-day plan (index.html, Oct 2026)

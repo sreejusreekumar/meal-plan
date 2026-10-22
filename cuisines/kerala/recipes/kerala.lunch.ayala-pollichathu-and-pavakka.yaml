@@ -1,0 +1,26 @@
+id: kerala.lunch.ayala-pollichathu-and-pavakka
+name: Ayala Pollichathu & Pavakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+tags:
+- banana-leaf
+spice: medium
+packable: true
+effort: weekday
+family: ayala
+nutrition:
+  kcal: 550
+components:
+- 1 cup air-fried or pan-sautéed Pavakka chips
+- 'Primary: 1 whole Ayala wrapped in banana leaf and pan-roasted'
+- 1 level cup Matta rice
+- Fresh Sambharam
+swaps:
+- for: Ayala
+  use: Karimeen Pollichathu
+- for: Ayala
+  use: Black Avoli (Pomfret) Pollichathu
+source: Kerala 28-day plan (index.html, Oct 2026)

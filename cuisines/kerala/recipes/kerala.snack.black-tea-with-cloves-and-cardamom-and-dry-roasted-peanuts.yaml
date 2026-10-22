@@ -1,0 +1,19 @@
+id: kerala.snack.black-tea-with-cloves-and-cardamom-and-dry-roasted-peanuts
+name: Black tea with cloves and cardamom & Dry roasted peanuts
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 120
+components:
+- Black tea with cloves and cardamom
+- Handful of dry roasted peanuts
+source: Kerala 28-day plan (index.html, Oct 2026)

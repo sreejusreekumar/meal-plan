@@ -1,0 +1,27 @@
+id: kerala.lunch.karimeen-pollichathu-and-kovakka
+name: Karimeen Pollichathu & Kovakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+tags:
+- banana-leaf
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: karimeen
+nutrition:
+  kcal: 540
+components:
+- 1 cup Kovakka mezhukkupuratti
+- 'Primary: 1 whole Karimeen roasted in banana leaf with spicy shallot masala'
+- 1 level cup Matta rice
+- Garlic Rasam
+swaps:
+- for: Karimeen
+  use: Neymeen (Seer Fish) Pollichathu
+- for: Karimeen
+  use: Avoli (Pomfret) Pollichathu
+source: Kerala 28-day plan (index.html, Oct 2026)

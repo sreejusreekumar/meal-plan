@@ -1,0 +1,18 @@
+id: kerala.dinner.tandoori-pan-grilled-chicken-and-beans
+name: Tandoori/Pan-Grilled Chicken & Beans
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: false
+effort: weekday
+family: grilled-chicken
+nutrition:
+  kcal: 490
+components:
+- 180g Kerala spiced pan-grilled chicken thigh/breast
+- 1.5 cups French beans thoran
+- 1 small chapati
+source: Kerala 28-day plan (index.html, Oct 2026)

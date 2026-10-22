@@ -1,0 +1,19 @@
+id: kerala.lunch.nadan-kozhi-roast-and-padavalanga
+name: Nadan Kozhi Roast & Padavalanga
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: true
+effort: weekday
+family: chicken-roast
+nutrition:
+  kcal: 550
+components:
+- 1 cup Padavalanga mezhukkupuratti
+- 1 portion Nadan chicken roast
+- 1 level cup Matta rice
+- Moru kachiyathu
+source: Kerala 28-day plan (index.html, Oct 2026)

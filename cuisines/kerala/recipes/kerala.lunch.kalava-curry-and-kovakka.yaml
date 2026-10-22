@@ -1,0 +1,25 @@
+id: kerala.lunch.kalava-curry-and-kovakka
+name: Kalava (Grouper) Curry & Kovakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: kalava
+nutrition:
+  kcal: 510
+components:
+- 1 cup Kovakka mezhukkupuratti
+- 'Primary: 1 portion Kalava (Reef Cod/Grouper) stewed with turmeric, ginger, and Kudampuli'
+- 1 level cup Matta rice
+- Pepper Rasam
+swaps:
+- for: Kalava
+  use: Tilapia Tawa Roast
+- for: Kalava
+  use: White Avoli (Pomfret) Curry
+source: Kerala 28-day plan (index.html, Oct 2026)

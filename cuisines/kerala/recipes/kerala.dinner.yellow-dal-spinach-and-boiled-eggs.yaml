@@ -1,0 +1,19 @@
+id: kerala.dinner.yellow-dal-spinach-and-boiled-eggs
+name: Yellow Dal Spinach & Boiled Eggs
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: boiled-eggs
+nutrition:
+  kcal: 490
+components:
+- 1 large bowl Cheera Parippu
+- 2 hard-boiled eggs with black pepper
+- 1 whole-wheat chapati
+source: Kerala 28-day plan (index.html, Oct 2026)

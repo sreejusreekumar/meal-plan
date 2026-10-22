@@ -1,0 +1,19 @@
+id: kerala.snack.kattan-kappi-and-boiled-chana
+name: Kattan Kappi & Boiled chana
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: kadala
+nutrition:
+  kcal: 110
+components:
+- Kattan Kappi
+- 1/2 cup boiled chana
+source: Kerala 28-day plan (index.html, Oct 2026)

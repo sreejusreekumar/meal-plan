@@ -1,0 +1,18 @@
+id: kerala.breakfast.pesarattu-and-mint-chutney
+name: Pesarattu & Mint Chutney
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: dosa
+nutrition:
+  kcal: 360
+components:
+- 2 whole moong pesarattus
+- Mint-coriander dip
+- 1 boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

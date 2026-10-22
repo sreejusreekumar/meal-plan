@@ -1,0 +1,18 @@
+id: kerala.breakfast.lentil-adai-and-mint-chutney
+name: Lentil Adai & Mint Chutney
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: dosa
+nutrition:
+  kcal: 390
+components:
+- 2 medium mixed-dal adais
+- 1 tbsp fresh coconut-coriander chutney
+- 1 soft-boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,19 @@
+id: kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram
+name: Hot Kattan Chaya & Boiled sprouted green gram
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: sprouts
+nutrition:
+  kcal: 120
+components:
+- Hot Kattan Chaya
+- 1/2 cup boiled sprouted green gram
+source: Kerala 28-day plan (index.html, Oct 2026)

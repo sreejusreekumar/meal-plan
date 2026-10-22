@@ -1,0 +1,18 @@
+id: kerala.breakfast.ragi-puttu-and-cherupayar
+name: Ragi Puttu & Cherupayar
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: puttu
+nutrition:
+  kcal: 370
+components:
+- 1 cup Ragi puttu
+- 3/4 cup Cherupayaru curry
+- 1 boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

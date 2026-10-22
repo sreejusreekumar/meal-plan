@@ -1,0 +1,16 @@
+id: kerala.dinner.chicken-tikka-wrap-in-chapati
+name: Chicken Tikka Wrap in Chapati
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: false
+effort: weekday
+family: grilled-chicken
+nutrition:
+  kcal: 490
+components:
+- 1 chapati rolled with spiced grilled chicken strips, shredded cabbage, onions, and yogurt mint dressing
+source: Kerala 28-day plan (index.html, Oct 2026)

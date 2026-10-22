@@ -1,0 +1,25 @@
+id: kerala.lunch.mathi-mulakittathu-and-cheera-thoran
+name: Mathi Mulakittathu & Cheera Thoran
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: mathi
+nutrition:
+  kcal: 520
+components:
+- 1 cup Red Cheera (amaranth) thoran (minimal coconut)
+- 'Primary: 2-3 Mathi (sardines) cooked in spicy Kudampuli red gravy'
+- 1 level cup cooked Kerala Matta rice
+- 1 glass Sambharam (salted moru with ginger/curry leaves)
+swaps:
+- for: Mathi
+  use: Choora (Tuna) Mulakittathu
+- for: Mathi
+  use: Kozhuva/Netholi (Anchovy) Peera Pattichathu
+source: Kerala 28-day plan (index.html, Oct 2026)

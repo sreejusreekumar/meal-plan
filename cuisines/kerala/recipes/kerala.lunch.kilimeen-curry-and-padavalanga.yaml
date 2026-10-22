@@ -1,0 +1,24 @@
+id: kerala.lunch.kilimeen-curry-and-padavalanga
+name: Kilimeen Curry & Padavalanga
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+packable: true
+effort: weekday
+family: kilimeen
+nutrition:
+  kcal: 530
+components:
+- 1 cup Padavalanga thoran
+- 'Primary: 2 Kilimeen (Pink Perch) cooked with fenugreek, Kudampuli, and curry leaves'
+- 1 level cup Matta rice
+- Sambharam
+swaps:
+- for: Kilimeen
+  use: Mathi (Sardines) Roast
+- for: Kilimeen
+  use: Netholi (Anchovy) Peera
+source: Kerala 28-day plan (index.html, Oct 2026)

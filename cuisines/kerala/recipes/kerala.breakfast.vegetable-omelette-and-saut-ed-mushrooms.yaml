@@ -1,0 +1,17 @@
+id: kerala.breakfast.vegetable-omelette-and-saut-ed-mushrooms
+name: Vegetable Omelette & Sautéed Mushrooms
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 350
+components:
+- 2-egg omelette loaded with shallots, tomatoes, and mushrooms
+- 1 slice wholemeal bread
+source: Kerala 28-day plan (index.html, Oct 2026)

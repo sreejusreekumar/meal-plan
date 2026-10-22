@@ -1,0 +1,19 @@
+id: kerala.snack.kattan-kappi-and-roasted-pumpkin-seeds
+name: Kattan Kappi & Roasted pumpkin seeds
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 110
+components:
+- Kattan Kappi (black coffee with dry ginger)
+- Handful of roasted pumpkin seeds
+source: Kerala 28-day plan (index.html, Oct 2026)

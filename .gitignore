@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.env
+# Microsoft token cache must never be committed (repo is public)
+ms_token_cache.json

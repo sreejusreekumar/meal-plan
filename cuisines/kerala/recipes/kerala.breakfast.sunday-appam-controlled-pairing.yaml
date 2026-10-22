@@ -1,0 +1,19 @@
+id: kerala.breakfast.sunday-appam-controlled-pairing
+name: Sunday Appam Controlled Pairing
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: false
+effort: weekend
+treat: true
+refinedCarb: true
+family: appam
+nutrition:
+  kcal: 380
+components:
+- Strictly 2 thin Palappams (lace appams)
+- 1 bowl Nadan chicken curry (eat more chicken/gravy than appam)
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,17 @@
+id: kerala.breakfast.mushroom-and-cheese-omelette
+name: Mushroom & Cheese Omelette
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 360
+components:
+- 2-egg omelette with sliced mushrooms, onions, and 1 slice light cheese
+- Warm ginger water
+source: Kerala 28-day plan (index.html, Oct 2026)

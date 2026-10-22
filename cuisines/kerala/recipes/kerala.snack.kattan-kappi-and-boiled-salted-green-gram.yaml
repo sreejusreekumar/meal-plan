@@ -1,0 +1,19 @@
+id: kerala.snack.kattan-kappi-and-boiled-salted-green-gram
+name: Kattan Kappi & Boiled salted green gram
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: cherupayar
+nutrition:
+  kcal: 110
+components:
+- Kattan Kappi
+- 1/2 cup boiled salted green gram
+source: Kerala 28-day plan (index.html, Oct 2026)

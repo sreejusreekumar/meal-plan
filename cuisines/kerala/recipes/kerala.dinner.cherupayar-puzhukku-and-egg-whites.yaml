@@ -1,0 +1,20 @@
+id: kerala.dinner.cherupayar-puzhukku-and-egg-whites
+name: Cherupayar Puzhukku & Egg Whites
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- no-rice
+spice: medium
+packable: false
+effort: weekday
+family: cherupayar
+nutrition:
+  kcal: 500
+components:
+- 1.5 cups Cherupayar puzhukku
+- 2 hard-boiled egg whites
+- Clear vegetable soup (No rice)
+source: Kerala 28-day plan (index.html, Oct 2026)

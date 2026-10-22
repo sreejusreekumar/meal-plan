@@ -1,0 +1,19 @@
+id: kerala.snack.green-tea-and-roasted-pumpkin-seeds
+name: Green tea & Roasted pumpkin seeds
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 110
+components:
+- Green tea
+- 15 roasted pumpkin seeds
+source: Kerala 28-day plan (index.html, Oct 2026)

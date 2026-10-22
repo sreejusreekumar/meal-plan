@@ -1,0 +1,18 @@
+id: kerala.breakfast.idli-swap-oats-rava-idli-and-sambar
+name: 'Idli Swap: Oats-Rava Idli & Sambar'
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: idli
+nutrition:
+  kcal: 370
+components:
+- 2-3 Oats-Ragi steamed idlis
+- 1 bowl vegetable sambar
+- 1 boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

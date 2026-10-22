@@ -1,0 +1,24 @@
+id: kerala.lunch.neymeen-curry-and-kovakka
+name: Neymeen Curry & Kovakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+packable: true
+effort: weekday
+family: neymeen
+nutrition:
+  kcal: 530
+components:
+- 1 cup Kovakka thoran
+- 'Primary: 1 slice Neymeen in red Kudampuli gravy'
+- 1 level cup Matta rice
+- Sambharam
+swaps:
+- for: Neymeen
+  use: Kalava (Grouper) Curry
+- for: Neymeen
+  use: Black Pomfret (Avoli) Curry
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,18 @@
+id: kerala.dinner.nadan-kozhi-roast-and-chapatis
+name: Nadan Kozhi Roast & Chapatis
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: false
+effort: weekday
+family: chicken-roast
+nutrition:
+  kcal: 490
+components:
+- 2 whole-wheat phulkas
+- 1 bowl chicken roast with curry leaves
+- Sliced cucumbers
+source: Kerala 28-day plan (index.html, Oct 2026)

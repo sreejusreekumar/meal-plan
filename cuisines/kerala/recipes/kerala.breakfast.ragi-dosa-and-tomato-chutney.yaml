@@ -1,0 +1,19 @@
+id: kerala.breakfast.ragi-dosa-and-tomato-chutney
+name: Ragi Dosa & Tomato Chutney
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: dosa
+nutrition:
+  kcal: 370
+components:
+- 2 thin ragi-flour dosas
+- 2 tbsp spicy tomato-onion chammanthi
+- 1 boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

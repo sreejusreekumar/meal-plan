@@ -1,0 +1,19 @@
+id: kerala.snack.spiced-inji-chaya-and-boiled-white-chana
+name: Spiced Inji chaya & Boiled white chana
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: kadala
+nutrition:
+  kcal: 110
+components:
+- Spiced Inji chaya (no sugar)
+- 1/2 cup boiled white chana
+source: Kerala 28-day plan (index.html, Oct 2026)

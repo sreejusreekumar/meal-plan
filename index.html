@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kerala Meal Plan</title>
+<title>Family Meal Plan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap">
@@ -54,7 +54,7 @@ body {
 }
 .wrap { max-width: 1500px; margin: 0 auto; display: grid; gap: 18px; }
 button { font: inherit; color: inherit; }
-button:focus-visible, input:focus-visible { outline: 3px solid var(--turmeric); outline-offset: 2px; }
+button:focus-visible { outline: 3px solid var(--turmeric); outline-offset: 2px; }
 
 /* Header */
 .top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
@@ -63,17 +63,12 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--turmeric); 
 .clock { text-align: right; display: grid; gap: 4px; justify-items: end; }
 .clock .time { font-family: var(--display); font-weight: 600; font-size: 1.6em; line-height: 1; font-variant-numeric: tabular-nums; }
 .clock .date { color: var(--muted); font-size: 0.85em; }
-.link-btn { background: none; border: 0; padding: 6px 0; color: var(--leaf); text-decoration: underline; cursor: pointer; font-size: 0.8em; }
 
-.start-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
-.start-panel label { font-weight: 700; }
-.start-panel input { font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
-.start-panel .hint { color: var(--muted); font-size: 0.85em; flex-basis: 100%; margin: 0; }
-.btn { background: var(--leaf); color: var(--on-leaf); border: 0; border-radius: 8px; padding: 10px 18px; font-weight: 700; cursor: pointer; }
+.notice { background: var(--turmeric-soft); border: 1px solid var(--turmeric); border-radius: 10px; padding: 12px 16px; font-size: 0.9em; }
 
 /* Week + day navigation */
 .nav { display: grid; gap: 10px; }
-.weeks { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.weeks { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 8px; }
 .week-btn {
   border: 2px solid var(--line); background: var(--surface); border-radius: 10px;
   padding: 10px 12px; cursor: pointer; text-align: left; min-height: 64px; min-width: 0;
@@ -107,19 +102,21 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--turmeric); 
 .meals { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px; }
 .meal {
   background: var(--surface); border: 2px solid var(--line); border-radius: 12px;
-  padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; min-width: 0;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 10px;
 }
-.meal.now { border-color: var(--turmeric); box-shadow: 0 0 0 4px var(--turmeric-soft); }
-.meal-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-.meal-label { font-size: 0.72em; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--leaf); }
-.meal-kcal { font-size: 0.8em; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.now-pill { background: var(--turmeric); color: #fff; font-size: 0.65em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 9px; border-radius: 999px; margin-left: 8px; vertical-align: middle; }
+.meal.now { border-color: var(--leaf); box-shadow: 0 0 0 3px var(--leaf-soft); }
 .meal.past { opacity: 0.6; }
-.done-pill { border: 1px solid var(--muted); color: var(--muted); font-size: 0.65em; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 1px 8px; border-radius: 999px; margin-left: 8px; vertical-align: middle; }
-.meal h3 { font-family: var(--display); font-weight: 600; font-size: 1.15em; line-height: 1.2; margin: 0; text-wrap: balance; }
+.meal-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.meal-label { color: var(--muted); font-size: 0.78em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.now-pill, .done-pill { font-size: 0.85em; border-radius: 999px; padding: 1px 8px; letter-spacing: 0; text-transform: none; }
+.now-pill { background: var(--leaf); color: var(--on-leaf); }
+.done-pill { background: var(--line); color: var(--ink); }
+.meal-kcal { color: var(--muted); font-size: 0.8em; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.meal h3 { font-family: var(--display); font-weight: 600; font-size: 1.15em; margin: 0; line-height: 1.2; text-wrap: balance; }
 .meal ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; }
 .meal li::marker { color: var(--leaf); }
 .meal li.primary { font-weight: 700; }
+.kid { font-size: 0.82em; color: var(--muted); }
 .swap { margin-top: auto; background: var(--sea-soft); border-radius: 8px; padding: 10px 12px; font-size: 0.85em; }
 .swap b { display: block; color: var(--sea); font-size: 0.85em; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 2px; }
 
@@ -131,8 +128,9 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--turmeric); 
 .rules li::before { content: counter(r); font-family: var(--display); font-weight: 800; color: var(--leaf); font-size: 1.3em; line-height: 1.1; }
 .rules strong { display: block; }
 
+footer { color: var(--muted); font-size: 0.75em; text-align: center; }
+
 @media (max-width: 760px) {
-  .weeks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .days { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 16px; }
   .clock { text-align: left; justify-items: start; }
 }
@@ -145,22 +143,16 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--turmeric); 
 <div class="wrap">
   <header class="top">
     <div>
-      <h1>Kerala Meal Plan</h1>
-      <p class="sub">4 weeks · multi-fish, no mutton · fibre first · walk after meals</p>
+      <h1>Family Meal Plan</h1>
+      <p class="sub" id="subtitle">fibre first · walk after meals</p>
     </div>
     <div class="clock">
       <div class="time" id="clockTime">--:--</div>
       <div class="date" id="clockDate"></div>
-      <button class="link-btn" id="startToggle" type="button">Set plan start date</button>
     </div>
   </header>
 
-  <form class="start-panel" id="startPanel" hidden>
-    <label for="startInput">Plan started on</label>
-    <input type="date" id="startInput" required>
-    <button class="btn" type="submit">Save</button>
-    <p class="hint">Pick the Monday you began Day 1. The page then opens on the right day each morning, and repeats from Day 1 after Day 28.</p>
-  </form>
+  <div class="notice" id="notice" hidden></div>
 
   <nav class="nav" aria-label="Choose a day">
     <div class="weeks" id="weeks"></div>
@@ -172,206 +164,40 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--turmeric); 
   </section>
   <section class="meals" id="meals"></section>
 
-  <section class="rules">
+  <section class="rules" id="rules" hidden>
     <h2>Every day</h2>
-    <ol>
-      <li><span><strong>Plate order</strong>Thoran or mezhukkupuratti first, then fish, chicken or egg, then 1 cup matta rice last.</span></li>
-      <li><span><strong>Walk after meals</strong>10–15 minutes of brisk walking right after lunch and dinner.</span></li>
-      <li><span><strong>Cooking fish</strong>No deep-fried meen porichathu. Kudampuli curry, pollichathu, or a tawa roast with 1 tsp coconut oil.</span></li>
-      <li><span><strong>Skip completely</strong>Kappa, pazham pori, mutton, bakery snacks and sweetened tea.</span></li>
-    </ol>
+    <ol id="rulesList"></ol>
   </section>
+
+  <footer id="footer"></footer>
 </div>
 
+<script id="plan-data" type="application/json">{"version":"9ef76c1682b7","household":{"timezone":"Australia/Melbourne","servings":4.59,"people":[{"name":"Adult A","age":47},{"name":"Adult B","age":41},{"name":"Teen","age":14},{"name":"Child","age":8}]},"packs":{"kerala":{"name":"Kerala","slotLabels":{"breakfast":"Breakfast","lunch":"Lunch · fibre first","snack":"4 pm chaya","dinner":"Dinner"},"rules":[{"title":"Plate order","text":"Thoran or mezhukkupuratti first, then fish, chicken or egg, then 1 cup matta rice last."},{"title":"Walk after meals","text":"10–15 minutes of brisk walking right after lunch and dinner."},{"title":"Cooking fish","text":"No deep-fried meen porichathu. Kudampuli curry, pollichathu, or a tawa roast with 1 tsp coconut oil."},{"title":"Skip completely","text":"Kappa, pazham pori, bakery snacks and sweetened tea."}]}},"manifest":{"current":"2026-W43","next":"2026-W44"},"weeks":[{"week":"2026-W43","startDate":"2026-10-19","cuisines":["kerala"],"packVersions":{"kerala":1},"seed":"kerala:2026-W43:kerala=1:0","salt":0,"generatedAt":"2026-10-23T09:58:37+11:00","generator":"0.1.0","days":[{"date":"2026-10-19","dow":"Mon","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.moong-dal-cheela-and-mint-chutney"],"lunch":["kerala.lunch.ayala-mulakittathu-and-padavalanga"],"snack":["kerala.snack.black-coffee-with-cardamom-and-almonds"],"dinner":["kerala.dinner.egg-roast-and-phulka"]},"totals":{"kcal":1530.0,"refinedCarbDishes":0.0}},{"date":"2026-10-20","dow":"Tue","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.mushroom-and-cheese-omelette"],"lunch":["kerala.lunch.kozhi-curry-and-murungayila-thoran"],"snack":["kerala.snack.inji-chaya-and-boiled-salted-edamame-or-chickpeas"],"dinner":["kerala.dinner.paneer-and-vegetable-stir-fry"]},"totals":{"kcal":1530.0,"refinedCarbDishes":0.0}},{"date":"2026-10-21","dow":"Wed","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.oats-puttu-and-cherupayar"],"lunch":["kerala.lunch.chemmeen-ularthiyathu-and-pavakka"],"snack":["kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt"],"dinner":["kerala.dinner.grilled-kerala-chicken-and-thoran"]},"totals":{"kcal":1530.0,"refinedCarbDishes":0.0}},{"date":"2026-10-22","dow":"Thu","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.oats-upma-with-vegetables-and-egg"],"lunch":["kerala.lunch.chicken-pepper-roast-and-murungayila"],"snack":["kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram"],"dinner":["kerala.dinner.pan-seared-choora-and-steamed-greens"]},"totals":{"kcal":1540.0,"refinedCarbDishes":0.0}},{"date":"2026-10-23","dow":"Fri","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.idli-swap-oats-rava-idli-and-sambar"],"lunch":["kerala.lunch.kalava-curry-and-kovakka"],"snack":["kerala.snack.black-tea-with-cloves-and-cardamom-and-dry-roasted-peanuts"],"dinner":["kerala.dinner.fish-tikka-and-sambar-soup"]},"totals":{"kcal":1490.0,"refinedCarbDishes":0.0}},{"date":"2026-10-24","dow":"Sat","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.egg-bhurji-and-multigrain-toast"],"lunch":["kerala.lunch.avoli-curry-and-kovakka"],"snack":["kerala.snack.kattan-chaya-and-boiled-seasoned-kadala"],"dinner":["kerala.dinner.nadan-muttai-roast-and-chapati"]},"totals":{"kcal":1500.0,"refinedCarbDishes":0.0}},{"date":"2026-10-25","dow":"Sun","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.lentil-adai-and-mint-chutney"],"lunch":["kerala.lunch.karimeen-pollichathu-and-cheera"],"snack":["kerala.snack.kattan-kappi-with-dry-ginger-and-roasted-makhana"],"dinner":["kerala.dinner.cherupayar-puzhukku-and-egg-whites"]},"totals":{"kcal":1550.0,"refinedCarbDishes":0.0}}],"weekChecks":{"fishLunches":5,"chicken":3,"redMeat":0,"legumeDishes":9,"eggMains":5,"treats":0,"vegDinners":5},"recipes":{"kerala.breakfast.egg-bhurji-and-multigrain-toast":{"id":"kerala.breakfast.egg-bhurji-and-multigrain-toast","name":"Egg Bhurji & Multigrain Toast","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"omelette","nutrition":{"kcal":350},"components":["2 eggs scrambled with French beans, carrots & pepper","1-2 slices 100% wholemeal bread toasted dry"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.idli-swap-oats-rava-idli-and-sambar":{"id":"kerala.breakfast.idli-swap-oats-rava-idli-and-sambar","name":"Idli Swap: Oats-Rava Idli & Sambar","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"idli","nutrition":{"kcal":370},"components":["2-3 Oats-Ragi steamed idlis","1 bowl vegetable sambar","1 boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.lentil-adai-and-mint-chutney":{"id":"kerala.breakfast.lentil-adai-and-mint-chutney","name":"Lentil Adai & Mint Chutney","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"dosa","nutrition":{"kcal":390},"components":["2 medium mixed-dal adais","1 tbsp fresh coconut-coriander chutney","1 soft-boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.moong-dal-cheela-and-mint-chutney":{"id":"kerala.breakfast.moong-dal-cheela-and-mint-chutney","name":"Moong Dal Cheela & Mint Chutney","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"dosa","nutrition":{"kcal":370},"components":["2 yellow moong dal pancakes with ginger and chillies","Mint chutney","1 boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.mushroom-and-cheese-omelette":{"id":"kerala.breakfast.mushroom-and-cheese-omelette","name":"Mushroom & Cheese Omelette","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"omelette","nutrition":{"kcal":360},"components":["2-egg omelette with sliced mushrooms, onions, and 1 slice light cheese","Warm ginger water"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.oats-puttu-and-cherupayar":{"id":"kerala.breakfast.oats-puttu-and-cherupayar","name":"Oats Puttu & Cherupayar","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"puttu","nutrition":{"kcal":370},"components":["1 cup coarse rolled-oats puttu","3/4 cup Cherupayar curry","1 hard-boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.oats-upma-with-vegetables-and-egg":{"id":"kerala.breakfast.oats-upma-with-vegetables-and-egg","name":"Oats Upma with Vegetables & Egg","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"upma","nutrition":{"kcal":380},"components":["1 bowl steel-cut or rolled oats upma cooked with carrots, beans, and mustard seeds","1 boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.cherupayar-puzhukku-and-egg-whites":{"id":"kerala.dinner.cherupayar-puzhukku-and-egg-whites","name":"Cherupayar Puzhukku & Egg Whites","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["no-rice"],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"cherupayar","nutrition":{"kcal":500},"components":["1.5 cups Cherupayar puzhukku","2 hard-boiled egg whites","Clear vegetable soup (No rice)"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.egg-roast-and-phulka":{"id":"kerala.dinner.egg-roast-and-phulka","name":"Egg Roast & Phulka","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"egg-roast","nutrition":{"kcal":500},"components":["2 whole-wheat phulkas","Muttai roast (2 eggs in shallot-tomato gravy)","Steamed cauliflower florets"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.fish-tikka-and-sambar-soup":{"id":"kerala.dinner.fish-tikka-and-sambar-soup","name":"Fish Tikka & Sambar Soup","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["no-rice"],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"fish-fillet","nutrition":{"kcal":490},"components":["150g grilled fish fillet cubes (Neymeen or Hamour) marinated in spices","1 large bowl clear drumstick vegetable sambar (no rice)","1 chapati"],"ingredients":[],"steps":[],"swaps":[],"swapNote":"Fish fillet can be Neymeen, Kalava, or Basa.","source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.grilled-kerala-chicken-and-thoran":{"id":"kerala.dinner.grilled-kerala-chicken-and-thoran","name":"Grilled Kerala Chicken & Thoran","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"chicken","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"grilled-chicken","nutrition":{"kcal":510},"components":["150g boneless chicken breast marinated in nadan spices","1 cup Padavalanga (snake gourd) thoran","1 whole-wheat chapati"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.nadan-muttai-roast-and-chapati":{"id":"kerala.dinner.nadan-muttai-roast-and-chapati","name":"Nadan Muttai Roast & Chapati","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"egg-roast","nutrition":{"kcal":500},"components":["2 whole-wheat chapatis","Muttai roast (2 eggs in onion-tomato-garlic masala)","Large bowl of steamed French beans"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.pan-seared-choora-and-steamed-greens":{"id":"kerala.dinner.pan-seared-choora-and-steamed-greens","name":"Pan-Seared Choora (Tuna) & Steamed Greens","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"choora","nutrition":{"kcal":500},"components":["150g Choora steak spiced with black pepper and lime","1 cup steamed Cheera leaves","1 chapati"],"ingredients":[],"steps":[],"swaps":[{"for":"Choora","use":"Neymeen (Seer fish) steak"},{"for":"Choora","use":"Kalava (Grouper) fillet"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.paneer-and-vegetable-stir-fry":{"id":"kerala.dinner.paneer-and-vegetable-stir-fry","name":"Paneer & Vegetable Stir Fry","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"dairy","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"paneer","nutrition":{"kcal":500},"components":["100g paneer cubes stir-fried with capsicum, French beans, and shallots","1 chapati"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.avoli-curry-and-kovakka":{"id":"kerala.lunch.avoli-curry-and-kovakka","name":"Avoli Curry & Kovakka","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"avoli","nutrition":{"kcal":530},"components":["1 cup Kovakka mezhukkupuratti","Primary: 1 portion Avoli (Pomfret) cooked with Kudampuli and green chillies","1 level cup Matta rice","Sambharam"],"ingredients":[],"steps":[],"swaps":[{"for":"Avoli","use":"Ayala (Mackerel) Peera Pattichathu"},{"for":"Avoli","use":"Choora (Tuna) Mulakittathu"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.ayala-mulakittathu-and-padavalanga":{"id":"kerala.lunch.ayala-mulakittathu-and-padavalanga","name":"Ayala Mulakittathu & Padavalanga","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"ayala","nutrition":{"kcal":530},"components":["1 cup Padavalanga thoran","Primary: 1 Ayala cooked in spicy Kudampuli curry","1 level cup Matta rice","Pepper Rasam"],"ingredients":[],"steps":[],"swaps":[{"for":"Ayala","use":"Kilimeen (Pink Perch) Curry"},{"for":"Ayala","use":"Netholi Peera Pattichathu"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.chemmeen-ularthiyathu-and-pavakka":{"id":"kerala.lunch.chemmeen-ularthiyathu-and-pavakka","name":"Chemmeen Ularthiyathu & Pavakka","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"chemmeen","nutrition":{"kcal":540},"components":["1 cup Pavakka mezhukkupuratti","Primary: 150g Chemmeen (Prawns) sautéed with shallots, curry leaves, and cracked pepper","1 level cup Matta rice","Moru kachiyathu"],"ingredients":[],"steps":[],"swaps":[{"for":"Chemmeen","use":"Kallummakkaya (Mussels) Roast"},{"for":"Chemmeen","use":"Ayala (Mackerel) Mulakittathu"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.chicken-pepper-roast-and-murungayila":{"id":"kerala.lunch.chicken-pepper-roast-and-murungayila","name":"Chicken Pepper Roast & Murungayila","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"chicken","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"chicken-roast","nutrition":{"kcal":540},"components":["1 cup Murungayila (drumstick leaves) thoran","1 cup Chicken pepper roast (dry preparation with shallots)","1 level cup Matta rice","Thakkali (tomato) Rasam"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.kalava-curry-and-kovakka":{"id":"kerala.lunch.kalava-curry-and-kovakka","name":"Kalava (Grouper) Curry & Kovakka","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"kalava","nutrition":{"kcal":510},"components":["1 cup Kovakka mezhukkupuratti","Primary: 1 portion Kalava (Reef Cod/Grouper) stewed with turmeric, ginger, and Kudampuli","1 level cup Matta rice","Pepper Rasam"],"ingredients":[],"steps":[],"swaps":[{"for":"Kalava","use":"Tilapia Tawa Roast"},{"for":"Kalava","use":"White Avoli (Pomfret) Curry"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.karimeen-pollichathu-and-cheera":{"id":"kerala.lunch.karimeen-pollichathu-and-cheera","name":"Karimeen Pollichathu & Cheera","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":["banana-leaf"],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"karimeen","nutrition":{"kcal":550},"components":["1 cup Red Cheera thoran","Primary: 1 whole Karimeen (Pearl Spot) roasted in banana leaf with spicy shallots","1 level cup Matta rice","Tomato Rasam"],"ingredients":[],"steps":[],"swaps":[{"for":"Karimeen","use":"Seer Fish (Neymeen) Pollichathu"},{"for":"Karimeen","use":"Pomfret (Avoli) Pollichathu"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.kozhi-curry-and-murungayila-thoran":{"id":"kerala.lunch.kozhi-curry-and-murungayila-thoran","name":"Kozhi Curry & Murungayila Thoran","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"chicken","lean":false,"tags":[],"spice":"medium","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"chicken-curry","nutrition":{"kcal":550},"components":["1 cup Murungayila thoran","1 bowl Homestyle Kerala chicken curry","1 level cup Matta rice","Garlic Rasam"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.black-coffee-with-cardamom-and-almonds":{"id":"kerala.snack.black-coffee-with-cardamom-and-almonds","name":"Black coffee with cardamom & Almonds","slot":["snack"],"role":"main","cuisine":"kerala","protein":"none","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"nuts","nutrition":{"kcal":130},"components":["Black coffee with cardamom","12-14 almonds"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.black-tea-with-cloves-and-cardamom-and-dry-roasted-peanuts":{"id":"kerala.snack.black-tea-with-cloves-and-cardamom-and-dry-roasted-peanuts","name":"Black tea with cloves and cardamom & Dry roasted peanuts","slot":["snack"],"role":"main","cuisine":"kerala","protein":"none","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"nuts","nutrition":{"kcal":120},"components":["Black tea with cloves and cardamom","Handful of dry roasted peanuts"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt":{"id":"kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt","name":"Green tea & Roasted makhana spiced with turmeric & salt","slot":["snack"],"role":"main","cuisine":"kerala","protein":"none","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"makhana","nutrition":{"kcal":110},"components":["Green tea","1 cup roasted makhana (foxnuts) spiced with turmeric & salt"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram":{"id":"kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram","name":"Hot Kattan Chaya & Boiled sprouted green gram","slot":["snack"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"sprouts","nutrition":{"kcal":120},"components":["Hot Kattan Chaya","1/2 cup boiled sprouted green gram"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.inji-chaya-and-boiled-salted-edamame-or-chickpeas":{"id":"kerala.snack.inji-chaya-and-boiled-salted-edamame-or-chickpeas","name":"Inji Chaya & Boiled, salted edamame or chickpeas","slot":["snack"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"kadala","nutrition":{"kcal":120},"components":["Inji Chaya (ginger tea, no sugar)","Boiled, salted edamame or chickpeas (1/2 cup)"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.kattan-chaya-and-boiled-seasoned-kadala":{"id":"kerala.snack.kattan-chaya-and-boiled-seasoned-kadala","name":"Kattan Chaya & Boiled seasoned Kadala","slot":["snack"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"dal","nutrition":{"kcal":120},"components":["Kattan Chaya","1/2 cup boiled seasoned Kadala"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.kattan-kappi-with-dry-ginger-and-roasted-makhana":{"id":"kerala.snack.kattan-kappi-with-dry-ginger-and-roasted-makhana","name":"Kattan Kappi with dry ginger & Roasted makhana","slot":["snack"],"role":"main","cuisine":"kerala","protein":"none","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"makhana","nutrition":{"kcal":110},"components":["Kattan Kappi with dry ginger","1 cup roasted makhana"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"}}},{"week":"2026-W44","startDate":"2026-10-26","cuisines":["kerala"],"packVersions":{"kerala":1},"seed":"kerala:2026-W44:kerala=1:0","salt":0,"generatedAt":"2026-10-23T09:58:37+11:00","generator":"0.1.0","days":[{"date":"2026-10-26","dow":"Mon","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.oats-puttu-and-kadala"],"lunch":["kerala.lunch.ayala-pollichathu-and-pavakka"],"snack":["kerala.snack.cold-sambharam-and-boiled-chana"],"dinner":["kerala.dinner.paneer-tofu-bhurji-and-chapati"]},"totals":{"kcal":1550.0,"refinedCarbDishes":0.0}},{"date":"2026-10-27","dow":"Tue","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.ragi-dosa-and-tomato-chutney"],"lunch":["kerala.lunch.nadan-kozhi-roast-and-padavalanga"],"snack":["kerala.snack.chilled-sambharam-and-walnut-halves"],"dinner":["kerala.dinner.cheera-parippu-and-egg-phulka"]},"totals":{"kcal":1530.0,"refinedCarbDishes":0.0}},{"date":"2026-10-28","dow":"Wed","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.ragi-puttu-and-cherupayar"],"lunch":["kerala.lunch.choora-mulakittathu-and-cabbage-thoran"],"snack":["kerala.snack.kattan-kappi-and-roasted-makhana"],"dinner":["kerala.dinner.chicken-soup-and-wholemeal-phulka"]},"totals":{"kcal":1510.0,"refinedCarbDishes":0.0}},{"date":"2026-10-29","dow":"Thu","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.egg-and-vegetable-omelette"],"lunch":["kerala.lunch.nadan-kozhi-stew-and-french-beans"],"snack":["kerala.snack.kattan-chaya-with-cardamom-and-boiled-tempered-green-gram-sp"],"dinner":["kerala.dinner.muttai-roast-and-french-beans"]},"totals":{"kcal":1480.0,"refinedCarbDishes":0.0}},{"date":"2026-10-30","dow":"Fri","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.pesarattu-and-mint-chutney"],"lunch":["kerala.lunch.karimeen-pollichathu-and-kovakka"],"snack":["kerala.snack.green-tea-and-roasted-peanuts"],"dinner":["kerala.dinner.yellow-dal-spinach-and-boiled-eggs"]},"totals":{"kcal":1510.0,"refinedCarbDishes":0.0}},{"date":"2026-10-31","dow":"Sat","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.lace-appam-and-egg-roast"],"lunch":["kerala.lunch.mathi-fry-and-pavakka-mezhukkupuratti"],"snack":["kerala.snack.kattan-chaya-and-boiled-spiced-kadala-sundal"],"dinner":["kerala.dinner.muttai-roast-and-steamed-cabbage"]},"totals":{"kcal":1520.0,"refinedCarbDishes":1.0}},{"date":"2026-11-01","dow":"Sun","cuisine":"kerala","meals":{"breakfast":["kerala.breakfast.sprouted-moong-salad-and-poached-eggs"],"lunch":["kerala.lunch.kalava-tawa-roast-and-murungayila"],"snack":["kerala.snack.kattan-chaya-and-boiled-green-gram"],"dinner":["kerala.dinner.paneer-and-vegetable-stir-fry"]},"totals":{"kcal":1500.0,"refinedCarbDishes":0.0}}],"weekChecks":{"fishLunches":5,"chicken":3,"redMeat":0,"legumeDishes":10,"eggMains":5,"treats":1,"vegDinners":6},"recipes":{"kerala.breakfast.egg-and-vegetable-omelette":{"id":"kerala.breakfast.egg-and-vegetable-omelette","name":"Egg & Vegetable Omelette","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"omelette","nutrition":{"kcal":350},"components":["2 eggs whisked with diced beans, tomatoes, onions, green chillies","1 slice wholemeal bread"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.lace-appam-and-egg-roast":{"id":"kerala.breakfast.lace-appam-and-egg-roast","name":"Lace Appam & Egg Roast","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekend","treat":true,"refinedCarb":true,"family":"egg-roast","nutrition":{"kcal":370},"components":["Strictly 2 Palappams","1 egg roast with thick shallot-tomato gravy (do not drink plain coconut milk)"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.oats-puttu-and-kadala":{"id":"kerala.breakfast.oats-puttu-and-kadala","name":"Oats Puttu & Kadala","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"puttu","nutrition":{"kcal":380},"components":["1 cup rolled oats puttu","3/4 cup Kadala curry","1 hard-boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.pesarattu-and-mint-chutney":{"id":"kerala.breakfast.pesarattu-and-mint-chutney","name":"Pesarattu & Mint Chutney","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"dosa","nutrition":{"kcal":360},"components":["2 whole moong pesarattus","Mint-coriander dip","1 boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.ragi-dosa-and-tomato-chutney":{"id":"kerala.breakfast.ragi-dosa-and-tomato-chutney","name":"Ragi Dosa & Tomato Chutney","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"dosa","nutrition":{"kcal":370},"components":["2 thin ragi-flour dosas","2 tbsp spicy tomato-onion chammanthi","1 boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.ragi-puttu-and-cherupayar":{"id":"kerala.breakfast.ragi-puttu-and-cherupayar","name":"Ragi Puttu & Cherupayar","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"puttu","nutrition":{"kcal":370},"components":["1 cup Ragi puttu","3/4 cup Cherupayaru curry","1 boiled egg"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.breakfast.sprouted-moong-salad-and-poached-eggs":{"id":"kerala.breakfast.sprouted-moong-salad-and-poached-eggs","name":"Sprouted Moong Salad & Poached Eggs","slot":["breakfast"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"sprouts","nutrition":{"kcal":360},"components":["1 bowl steamed sprouted moong tossed with chopped onions, tomato, lemon","2 poached or soft-boiled eggs"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.cheera-parippu-and-egg-phulka":{"id":"kerala.dinner.cheera-parippu-and-egg-phulka","name":"Cheera Parippu & Egg Phulka","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"dal","nutrition":{"kcal":490},"components":["2 whole-wheat phulkas","1 bowl Cheera Parippu (spinach dal)","1 single-egg omelette"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.chicken-soup-and-wholemeal-phulka":{"id":"kerala.dinner.chicken-soup-and-wholemeal-phulka","name":"Chicken Soup & Wholemeal Phulka","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"chicken","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"soup","nutrition":{"kcal":500},"components":["1 large bowl shredded chicken & vegetable soup","1 whole-wheat chapati","Cucumber slices"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.muttai-roast-and-french-beans":{"id":"kerala.dinner.muttai-roast-and-french-beans","name":"Muttai Roast & French Beans","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"egg-roast","nutrition":{"kcal":490},"components":["2 hard-boiled eggs in onion masala","1 large bowl sautéed French beans","1 whole-wheat chapati"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.muttai-roast-and-steamed-cabbage":{"id":"kerala.dinner.muttai-roast-and-steamed-cabbage","name":"Muttai Roast & Steamed Cabbage","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"egg","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"egg-roast","nutrition":{"kcal":490},"components":["2 hard-boiled eggs in onion-tomato masala","1 large bowl steamed cabbage with black pepper","1 chapati"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.paneer-and-vegetable-stir-fry":{"id":"kerala.dinner.paneer-and-vegetable-stir-fry","name":"Paneer & Vegetable Stir Fry","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"dairy","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"paneer","nutrition":{"kcal":500},"components":["100g paneer cubes stir-fried with capsicum, French beans, and shallots","1 chapati"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.paneer-tofu-bhurji-and-chapati":{"id":"kerala.dinner.paneer-tofu-bhurji-and-chapati","name":"Paneer/Tofu Bhurji & Chapati","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"dairy","lean":false,"tags":[],"spice":"medium","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"omelette","nutrition":{"kcal":500},"components":["100g crumbled paneer or tofu sautéed with shallots and curry leaves","2 whole-wheat phulkas","Cucumber salad"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.dinner.yellow-dal-spinach-and-boiled-eggs":{"id":"kerala.dinner.yellow-dal-spinach-and-boiled-eggs","name":"Yellow Dal Spinach & Boiled Eggs","slot":["dinner"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"boiled-eggs","nutrition":{"kcal":490},"components":["1 large bowl Cheera Parippu","2 hard-boiled eggs with black pepper","1 whole-wheat chapati"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.ayala-pollichathu-and-pavakka":{"id":"kerala.lunch.ayala-pollichathu-and-pavakka","name":"Ayala Pollichathu & Pavakka","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":["banana-leaf"],"spice":"medium","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"ayala","nutrition":{"kcal":550},"components":["1 cup air-fried or pan-sautéed Pavakka chips","Primary: 1 whole Ayala wrapped in banana leaf and pan-roasted","1 level cup Matta rice","Fresh Sambharam"],"ingredients":[],"steps":[],"swaps":[{"for":"Ayala","use":"Karimeen Pollichathu"},{"for":"Ayala","use":"Black Avoli (Pomfret) Pollichathu"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.choora-mulakittathu-and-cabbage-thoran":{"id":"kerala.lunch.choora-mulakittathu-and-cabbage-thoran","name":"Choora Mulakittathu & Cabbage Thoran","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"choora","nutrition":{"kcal":530},"components":["1 cup Cabbage-carrot thoran","Primary: 1 cup Choora (Tuna) cooked in fiery Kudampuli red curry","1 level cup Matta rice","Sambharam"],"ingredients":[],"steps":[],"swaps":[{"for":"Choora","use":"Mathi (Sardines) Peera Pattichathu"},{"for":"Choora","use":"Netholi (Anchovy) Curry"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.kalava-tawa-roast-and-murungayila":{"id":"kerala.lunch.kalava-tawa-roast-and-murungayila","name":"Kalava (Grouper) Tawa Roast & Murungayila","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":[],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"kalava","nutrition":{"kcal":530},"components":["1 cup Murungayila thoran","Primary: 150g Kalava fillet pan-seared with turmeric, pepper, and lime","1 level cup Matta rice","Tomato Rasam"],"ingredients":[],"steps":[],"swaps":[{"for":"Kalava","use":"Karimeen Tawa Roast"},{"for":"Kalava","use":"Choora (Tuna) Steak"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.karimeen-pollichathu-and-kovakka":{"id":"kerala.lunch.karimeen-pollichathu-and-kovakka","name":"Karimeen Pollichathu & Kovakka","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":["banana-leaf"],"spice":"medium","kidNote":"Hold back the green chilli and chilli powder for the child's portion.","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"karimeen","nutrition":{"kcal":540},"components":["1 cup Kovakka mezhukkupuratti","Primary: 1 whole Karimeen roasted in banana leaf with spicy shallot masala","1 level cup Matta rice","Garlic Rasam"],"ingredients":[],"steps":[],"swaps":[{"for":"Karimeen","use":"Neymeen (Seer Fish) Pollichathu"},{"for":"Karimeen","use":"Avoli (Pomfret) Pollichathu"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.mathi-fry-and-pavakka-mezhukkupuratti":{"id":"kerala.lunch.mathi-fry-and-pavakka-mezhukkupuratti","name":"Mathi Fry & Pavakka Mezhukkupuratti","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"fish","lean":false,"tags":[],"spice":"medium","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"mathi","nutrition":{"kcal":540},"components":["1 cup Pavakka mezhukkupuratti","Primary: 3 shallow pan-seared Mathi (1 tsp coconut oil)","1 level cup Matta rice","Sambharam"],"ingredients":[],"steps":[],"swaps":[{"for":"Mathi","use":"Choora (Tuna) Mulakittathu"},{"for":"Mathi","use":"Chemmeen Roast"}],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.nadan-kozhi-roast-and-padavalanga":{"id":"kerala.lunch.nadan-kozhi-roast-and-padavalanga","name":"Nadan Kozhi Roast & Padavalanga","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"chicken","lean":false,"tags":[],"spice":"medium","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"chicken-roast","nutrition":{"kcal":550},"components":["1 cup Padavalanga mezhukkupuratti","1 portion Nadan chicken roast","1 level cup Matta rice","Moru kachiyathu"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.lunch.nadan-kozhi-stew-and-french-beans":{"id":"kerala.lunch.nadan-kozhi-stew-and-french-beans","name":"Nadan Kozhi Stew & French Beans","slot":["lunch"],"role":"main","cuisine":"kerala","protein":"chicken","lean":false,"tags":[],"spice":"medium","packable":true,"effort":"weekday","treat":false,"refinedCarb":false,"family":"chicken-curry","nutrition":{"kcal":520},"components":["1 cup French beans mezhukkupuratti","1 bowl Nadan chicken stew cooked in thin coconut milk with ginger, carrots, and whole spices (No mutton)","1 level cup Matta rice","Chilled Sambharam"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.chilled-sambharam-and-walnut-halves":{"id":"kerala.snack.chilled-sambharam-and-walnut-halves","name":"Chilled Sambharam & Walnut halves","slot":["snack"],"role":"main","cuisine":"kerala","protein":"none","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"nuts","nutrition":{"kcal":120},"components":["Chilled Sambharam","10-12 walnut halves"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.cold-sambharam-and-boiled-chana":{"id":"kerala.snack.cold-sambharam-and-boiled-chana","name":"Cold Sambharam & Boiled chana","slot":["snack"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"kadala","nutrition":{"kcal":120},"components":["1 glass cold Sambharam","1/2 cup boiled chana"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.green-tea-and-roasted-peanuts":{"id":"kerala.snack.green-tea-and-roasted-peanuts","name":"Green tea & Roasted peanuts","slot":["snack"],"role":"main","cuisine":"kerala","protein":"none","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"nuts","nutrition":{"kcal":120},"components":["Green tea","Fistful of roasted peanuts"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.kattan-chaya-and-boiled-green-gram":{"id":"kerala.snack.kattan-chaya-and-boiled-green-gram","name":"Kattan Chaya & Boiled green gram","slot":["snack"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"cherupayar","nutrition":{"kcal":110},"components":["Kattan Chaya","1/2 cup boiled green gram"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.kattan-chaya-and-boiled-spiced-kadala-sundal":{"id":"kerala.snack.kattan-chaya-and-boiled-spiced-kadala-sundal","name":"Kattan Chaya & Boiled spiced Kadala sundal","slot":["snack"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"dal","nutrition":{"kcal":120},"components":["Kattan Chaya","1/2 cup boiled spiced Kadala sundal"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.kattan-chaya-with-cardamom-and-boiled-tempered-green-gram-sp":{"id":"kerala.snack.kattan-chaya-with-cardamom-and-boiled-tempered-green-gram-sp","name":"Kattan Chaya with cardamom & Boiled, tempered green gram sprouts","slot":["snack"],"role":"main","cuisine":"kerala","protein":"legume","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"sprouts","nutrition":{"kcal":120},"components":["Kattan Chaya with cardamom","1/2 cup boiled, tempered green gram sprouts"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"},"kerala.snack.kattan-kappi-and-roasted-makhana":{"id":"kerala.snack.kattan-kappi-and-roasted-makhana","name":"Kattan Kappi & Roasted makhana","slot":["snack"],"role":"main","cuisine":"kerala","protein":"none","lean":false,"tags":["chaya"],"spice":"mild","packable":false,"effort":"weekday","treat":false,"refinedCarb":false,"family":"makhana","nutrition":{"kcal":110},"components":["Kattan Kappi","1 cup roasted makhana"],"ingredients":[],"steps":[],"swaps":[],"source":"Kerala 28-day plan (index.html, Oct 2026)"}}}]}</script>
 <script>
-const weekNames = ["Foundations", "Insulin sensitising", "Deep satiety", "Long-term habit"];
+const DATA = JSON.parse(document.getElementById("plan-data").textContent);
+const weeks = (DATA.weeks || []).slice().sort((a, b) => a.startDate.localeCompare(b.startDate));
+const SLOTS = ["breakfast", "lunch", "snack", "dinner"];
+const DEFAULT_LABELS = { breakfast: "Breakfast", lunch: "Lunch", snack: "Snack", dinner: "Dinner" };
+const POLL_MS = 15 * 60 * 1000;
 
-const planData = [
-  { day: 1, week: 1, label: "Day 1 (Mon)", totalCal: 1510,
-    breakfast: { title: "Nadan Pepper Omelette & Cherupayaru", cal: 360, items: ["2 eggs whisked with shallots, curry leaves, and green chillies", "1 small cup boiled Cherupayaru (green gram)", "Black coffee or plain warm water"] },
-    lunch: { title: "Mathi Mulakittathu & Cheera Thoran", cal: 520, items: ["1 cup Red Cheera (amaranth) thoran (minimal coconut)", "Primary: 2-3 Mathi (sardines) cooked in spicy Kudampuli red gravy", "1 level cup cooked Kerala Matta rice", "1 glass Sambharam (salted moru with ginger/curry leaves)"], fishOptions: "Swap Mathi with: Choora (Tuna) Mulakittathu OR Kozhuva/Netholi (Anchovy) Peera Pattichathu." },
-    snack: { title: "Evening Chaya", cal: 130, items: ["Kattan Chaya (black tea, unsweetened)", "12-15 roasted peanuts or almonds"] },
-    dinner: { title: "Whole-Wheat Phulkas & Nadan Chicken", cal: 500, items: ["2 oil-free whole-wheat chapatis", "1 bowl Nadan chicken curry (black pepper base)", "1 cucumber sliced with lemon"] } },
-  { day: 2, week: 1, label: "Day 2 (Tue)", totalCal: 1480,
-    breakfast: { title: "Ragi Puttu & Kadala Curry", cal: 380, items: ["1 small cylinder cup Ragi puttu", "3/4 cup Kadala (black chickpea) curry (thick dry gravy)", "1 hard-boiled egg"] },
-    lunch: { title: "Pan-Seared Ayala & Pavakka Mezhukkupuratti", cal: 530, items: ["1 cup Pavakka (bitter gourd) mezhukkupuratti", "Primary: 1 medium Ayala (mackerel) pan-roasted in minimal oil", "1 level cup Matta rice", "Garlic-pepper Rasam"], fishOptions: "Swap Ayala with: Karimeen (Pearl Spot) Tawa Roast OR Avoli (Black Pomfret) pan-seared with turmeric and pepper." },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Kattan Kappi (black coffee with dry ginger)", "Handful of roasted pumpkin seeds"] },
-    dinner: { title: "Cherupayar Puzhukku (No Rice Dinner)", cal: 460, items: ["1.5 cups Cherupayar puzhukku with 1 tbsp fresh coconut", "2 boiled egg whites", "Clear vegetable soup"] } },
-  { day: 3, week: 1, label: "Day 3 (Wed)", totalCal: 1520,
-    breakfast: { title: "Pesarattu (Moong Dosa) & Chutney", cal: 370, items: ["2 medium whole moong dosas", "2 tbsp coriander-mint-coconut chammandi", "1 boiled egg"] },
-    lunch: { title: "Netholi Meen Peera & Kovakka", cal: 520, items: ["1 cup Kovakka (ivy gourd) mezhukkupuratti", "Primary: 1 bowl Netholi (anchovies) Peera with Kudampuli & crushed shallots", "1 level cup Matta rice", "Chilled Sambharam"], fishOptions: "Swap Netholi with: Chemmeen (Prawns) Ularthiyathu (sautéed with black pepper & shallots) OR Kilimeen (Pink Perch) Curry." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Inji Chaya (ginger tea, no sugar)", "Boiled, salted edamame or chickpeas (1/2 cup)"] },
-    dinner: { title: "Grilled Kerala Chicken & Thoran", cal: 510, items: ["150g boneless chicken breast marinated in nadan spices", "1 cup Padavalanga (snake gourd) thoran", "1 whole-wheat chapati"] } },
-  { day: 4, week: 1, label: "Day 4 (Thu)", totalCal: 1490,
-    breakfast: { title: "Egg Bhurji & Multigrain Toast", cal: 350, items: ["2 eggs scrambled with French beans, carrots & pepper", "1-2 slices 100% wholemeal bread toasted dry"] },
-    lunch: { title: "Chicken Pepper Roast & Murungayila", cal: 540, items: ["1 cup Murungayila (drumstick leaves) thoran", "1 cup Chicken pepper roast (dry preparation with shallots)", "1 level cup Matta rice", "Thakkali (tomato) Rasam"] },
-    snack: { title: "Evening Chaya", cal: 100, items: ["1 glass spiced Sambharam with crushed curry leaves", "10 roasted almonds"] },
-    dinner: { title: "Thin Dosas with Drumstick Sambar", cal: 500, items: ["2 thin whole-wheat dosas", "1 bowl Sambar (heavy on drumstick, ash gourd, brinjal)", "2 boiled egg whites"] } },
-  { day: 5, week: 1, label: "Day 5 (Fri)", totalCal: 1530,
-    breakfast: { title: "Oats Puttu & Cherupayar", cal: 370, items: ["1 cup coarse rolled-oats puttu", "3/4 cup Cherupayar curry", "1 hard-boiled egg"] },
-    lunch: { title: "Neymeen Curry & Vazhuthananga", cal: 540, items: ["1 cup Vazhuthananga (brinjal) mezhukkupuratti", "Primary: 1 steak Neymeen (Seer fish) in Kudampuli red gravy", "1 level cup Matta rice", "Thin Moru kachiyathu"], fishOptions: "Swap Neymeen with: Kalava (Reef Cod/Grouper) Curry OR Choora (Tuna) Vevichathu." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Kattan Chaya with cardamom", "1/2 cup boiled, tempered green gram sprouts"] },
-    dinner: { title: "Nadan Muttai Roast & Chapati", cal: 500, items: ["2 whole-wheat chapatis", "Muttai roast (2 eggs in onion-tomato-garlic masala)", "Large bowl of steamed French beans"] } },
-  { day: 6, week: 1, label: "Day 6 (Sat)", totalCal: 1530,
-    breakfast: { title: "Lentil Adai & Mint Chutney", cal: 390, items: ["2 medium mixed-dal adais", "1 tbsp fresh coconut-coriander chutney", "1 soft-boiled egg"] },
-    lunch: { title: "Mathi Roast & Padavalanga Thoran", cal: 540, items: ["1 cup Padavalanga (snake gourd) thoran", "Primary: 3 fresh sardines (Mathi) pan-seared with turmeric, pepper, Kudampuli", "1 level cup Matta rice", "Cumin Rasam"], fishOptions: "Swap Mathi with: Kilimeen (Pink Perch) Tawa Roast OR Karimeen Pollichathu." },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Green tea", "1 cup roasted makhana (foxnuts) spiced with turmeric & salt"] },
-    dinner: { title: "Clear Nadan Chicken Soup & Quinoa", cal: 490, items: ["1 large bowl chicken bone-broth soup with shredded meat & greens", "1/2 cup warm cooked quinoa or 1 chapati"] } },
-  { day: 7, week: 1, label: "Day 7 (Sun)", totalCal: 1540,
-    breakfast: { title: "Sunday Appam Controlled Pairing", cal: 380, items: ["Strictly 2 thin Palappams (lace appams)", "1 bowl Nadan chicken curry (eat more chicken/gravy than appam)"] },
-    lunch: { title: "Ayala Pollichathu & Pavakka", cal: 550, items: ["1 cup air-fried or pan-sautéed Pavakka chips", "Primary: 1 whole Ayala wrapped in banana leaf and pan-roasted", "1 level cup Matta rice", "Fresh Sambharam"], fishOptions: "Swap Ayala with: Karimeen Pollichathu OR Black Avoli (Pomfret) Pollichathu." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Kattan Chaya", "1/2 cup boiled spiced Kadala sundal"] },
-    dinner: { title: "Cheera Parippu & Egg Phulka", cal: 490, items: ["2 whole-wheat phulkas", "1 bowl Cheera Parippu (spinach dal)", "1 single-egg omelette"] } },
-
-  { day: 8, week: 2, label: "Day 8 (Mon)", totalCal: 1500,
-    breakfast: { title: "Spinach-Egg Scramble & Wholemeal Toast", cal: 350, items: ["2 eggs scrambled with finely chopped Cheera & green chillies", "1 slice 100% wholemeal bread toasted"] },
-    lunch: { title: "Choora Mulakittathu & Cabbage Thoran", cal: 530, items: ["1 cup Cabbage-carrot thoran", "Primary: 1 cup Choora (Tuna) cooked in fiery Kudampuli red curry", "1 level cup Matta rice", "Sambharam"], fishOptions: "Swap Choora with: Mathi (Sardines) Peera Pattichathu OR Netholi (Anchovy) Curry." },
-    snack: { title: "Evening Chaya", cal: 130, items: ["Black coffee with cardamom", "12-14 almonds"] },
-    dinner: { title: "Chicken Kurumulaku & Chapatis", cal: 490, items: ["2 dry whole-wheat chapatis", "1 portion Pepper chicken curry", "Side of sliced cucumbers and tomatoes"] } },
-  { day: 9, week: 2, label: "Day 9 (Tue)", totalCal: 1480,
-    breakfast: { title: "Wheat Puttu & Kadala", cal: 380, items: ["1 small cylinder cup whole-wheat puttu", "3/4 cup Kadala curry", "1 hard-boiled egg"] },
-    lunch: { title: "Kalava (Grouper) Curry & Kovakka", cal: 510, items: ["1 cup Kovakka mezhukkupuratti", "Primary: 1 portion Kalava (Reef Cod/Grouper) stewed with turmeric, ginger, and Kudampuli", "1 level cup Matta rice", "Pepper Rasam"], fishOptions: "Swap Kalava with: Tilapia Tawa Roast OR White Avoli (Pomfret) Curry." },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Spiced Inji chaya (no sugar)", "1/2 cup boiled white chana"] },
-    dinner: { title: "Cherupayar Porridge & Boiled Eggs", cal: 480, items: ["1 large bowl savoury Cherupayar soup/puzhukku with crushed cumin", "2 hard-boiled eggs with pepper"] } },
-  { day: 10, week: 2, label: "Day 10 (Wed)", totalCal: 1510,
-    breakfast: { title: "Sprouted Moong Salad & Poached Eggs", cal: 360, items: ["1 bowl steamed sprouted moong tossed with chopped onions, tomato, lemon", "2 poached or soft-boiled eggs"] },
-    lunch: { title: "Chemmeen Ularthiyathu & Pavakka", cal: 540, items: ["1 cup Pavakka mezhukkupuratti", "Primary: 150g Chemmeen (Prawns) sautéed with shallots, curry leaves, and cracked pepper", "1 level cup Matta rice", "Moru kachiyathu"], fishOptions: "Swap Chemmeen with: Kallummakkaya (Mussels) Roast OR Ayala (Mackerel) Mulakittathu." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Green tea", "Fistful of roasted peanuts"] },
-    dinner: { title: "Tandoori/Pan-Grilled Chicken & Beans", cal: 490, items: ["180g Kerala spiced pan-grilled chicken thigh/breast", "1.5 cups French beans thoran", "1 small chapati"] } },
-  { day: 11, week: 2, label: "Day 11 (Thu)", totalCal: 1520,
-    breakfast: { title: "Ragi Dosa & Tomato Chutney", cal: 370, items: ["2 thin ragi-flour dosas", "2 tbsp spicy tomato-onion chammanthi", "1 boiled egg"] },
-    lunch: { title: "Kozhi Curry & Murungayila Thoran", cal: 550, items: ["1 cup Murungayila thoran", "1 bowl Homestyle Kerala chicken curry", "1 level cup Matta rice", "Garlic Rasam"] },
-    snack: { title: "Evening Chaya", cal: 100, items: ["1 glass Sambharam", "10 walnut halves"] },
-    dinner: { title: "Paneer/Tofu Bhurji & Chapati", cal: 500, items: ["100g crumbled paneer or tofu sautéed with shallots and curry leaves", "2 whole-wheat phulkas", "Cucumber salad"] } },
-  { day: 12, week: 2, label: "Day 12 (Fri)", totalCal: 1490,
-    breakfast: { title: "Vegetable Omelette & Sautéed Mushrooms", cal: 350, items: ["2-egg omelette loaded with shallots, tomatoes, and mushrooms", "1 slice wholemeal bread"] },
-    lunch: { title: "Kilimeen Curry & Padavalanga", cal: 530, items: ["1 cup Padavalanga thoran", "Primary: 2 Kilimeen (Pink Perch) cooked with fenugreek, Kudampuli, and curry leaves", "1 level cup Matta rice", "Sambharam"], fishOptions: "Swap Kilimeen with: Mathi (Sardines) Roast OR Netholi (Anchovy) Peera." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Kattan Chaya", "1/2 cup boiled seasoned Kadala"] },
-    dinner: { title: "Fish Tikka & Sambar Soup", cal: 490, items: ["150g grilled fish fillet cubes (Neymeen or Hamour) marinated in spices", "1 large bowl clear drumstick vegetable sambar (no rice)", "1 chapati"], fishOptions: "Fish fillet can be Neymeen, Kalava, or Basa." } },
-  { day: 13, week: 2, label: "Day 13 (Sat)", totalCal: 1510,
-    breakfast: { title: "Oats Upma with Vegetables & Egg", cal: 380, items: ["1 bowl steel-cut or rolled oats upma cooked with carrots, beans, and mustard seeds", "1 boiled egg"] },
-    lunch: { title: "Nadan Kozhi Stew & French Beans", cal: 520, items: ["1 cup French beans mezhukkupuratti", "1 bowl Nadan chicken stew cooked in thin coconut milk with ginger, carrots, and whole spices (No mutton)", "1 level cup Matta rice", "Chilled Sambharam"] },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Kattan Kappi", "1 cup roasted makhana"] },
-    dinner: { title: "Egg Roast & Phulka", cal: 500, items: ["2 whole-wheat phulkas", "Muttai roast (2 eggs in shallot-tomato gravy)", "Steamed cauliflower florets"] } },
-  { day: 14, week: 2, label: "Day 14 (Sun)", totalCal: 1530,
-    breakfast: { title: "Idli Swap: Oats-Rava Idli & Sambar", cal: 370, items: ["2-3 Oats-Ragi steamed idlis", "1 bowl vegetable sambar", "1 boiled egg"] },
-    lunch: { title: "Karimeen Pollichathu & Cheera", cal: 550, items: ["1 cup Red Cheera thoran", "Primary: 1 whole Karimeen (Pearl Spot) roasted in banana leaf with spicy shallots", "1 level cup Matta rice", "Tomato Rasam"], fishOptions: "Swap Karimeen with: Seer Fish (Neymeen) Pollichathu OR Pomfret (Avoli) Pollichathu." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Black tea with cloves and cardamom", "Handful of dry roasted peanuts"] },
-    dinner: { title: "Chicken Tikka Salad & Soup", cal: 490, items: ["150g spiced chicken breast strips", "Large green salad with cucumber, radish, lime", "1 bowl hot pepper rasam"] } },
-
-  { day: 15, week: 3, label: "Day 15 (Mon)", totalCal: 1510,
-    breakfast: { title: "Pesarattu & Boiled Egg", cal: 370, items: ["2 whole green gram pesarattu", "Fresh coconut-coriander chammandi (1 tbsp)", "1 hard-boiled egg"] },
-    lunch: { title: "Avoli Curry & Kovakka", cal: 530, items: ["1 cup Kovakka mezhukkupuratti", "Primary: 1 portion Avoli (Pomfret) cooked with Kudampuli and green chillies", "1 level cup Matta rice", "Sambharam"], fishOptions: "Swap Avoli with: Ayala (Mackerel) Peera Pattichathu OR Choora (Tuna) Mulakittathu." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Inji Chaya", "12 almonds"] },
-    dinner: { title: "Pepper Chicken & Phulkas", cal: 490, items: ["2 whole-wheat phulkas", "1 bowl dry-style Nadan pepper chicken", "Cucumber slices"] } },
-  { day: 16, week: 3, label: "Day 16 (Tue)", totalCal: 1480,
-    breakfast: { title: "Ragi Puttu & Cherupayar", cal: 370, items: ["1 cup Ragi puttu", "3/4 cup Cherupayaru curry", "1 boiled egg"] },
-    lunch: { title: "Mathi Mulakittathu & Pavakka", cal: 530, items: ["1 cup Pavakka thoran", "Primary: 3 Mathi cooked in sour Kudampuli red curry", "1 level cup Matta rice", "Garlic Rasam"], fishOptions: "Swap Mathi with: Netholi (Anchovy) Peera OR Kilimeen (Pink Perch) Curry." },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Kattan Kappi", "1/2 cup boiled salted green gram"] },
-    dinner: { title: "Vegetable Egg Scramble & Soup", cal: 470, items: ["3 eggs (1 whole + 2 whites) scrambled with beans, carrots, and onions", "1 chapati", "Clear vegetable broth"] } },
-  { day: 17, week: 3, label: "Day 17 (Wed)", totalCal: 1520,
-    breakfast: { title: "Mushroom & Cheese Omelette", cal: 360, items: ["2-egg omelette with sliced mushrooms, onions, and 1 slice light cheese", "Warm ginger water"] },
-    lunch: { title: "Nadan Kozhi Roast & Padavalanga", cal: 550, items: ["1 cup Padavalanga mezhukkupuratti", "1 portion Nadan chicken roast", "1 level cup Matta rice", "Moru kachiyathu"] },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Green tea", "15 roasted pumpkin seeds"] },
-    dinner: { title: "Pan-Seared Choora (Tuna) & Steamed Greens", cal: 500, items: ["150g Choora steak spiced with black pepper and lime", "1 cup steamed Cheera leaves", "1 chapati"], fishOptions: "Swap Choora with: Neymeen (Seer fish) steak OR Kalava (Grouper) fillet." } },
-  { day: 18, week: 3, label: "Day 18 (Thu)", totalCal: 1490,
-    breakfast: { title: "Whole Wheat Toast & Boiled Eggs", cal: 340, items: ["2 slices wholemeal bread dry toasted", "2 hard-boiled eggs with black pepper", "Black tea"] },
-    lunch: { title: "Netholi Tawa Roast & Cabbage", cal: 540, items: ["1 cup Cabbage thoran", "Primary: 1 cup Netholi (anchovies) shallow-roasted with shallots and curry leaves", "1 level cup Matta rice", "Tomato Rasam"], fishOptions: "Swap Netholi with: Mathi (Sardines) Tawa Roast OR Chemmeen (Prawns) Ularthu." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["1 glass cold Sambharam", "1/2 cup boiled chana"] },
-    dinner: { title: "Kadala Curry with Chapatis", cal: 490, items: ["2 whole-wheat chapatis", "1 cup thick Kadala curry", "Mixed greens salad"] } },
-  { day: 19, week: 3, label: "Day 19 (Fri)", totalCal: 1530,
-    breakfast: { title: "Moong Dal Cheela & Mint Chutney", cal: 370, items: ["2 yellow moong dal pancakes with ginger and chillies", "Mint chutney", "1 boiled egg"] },
-    lunch: { title: "Ayala Pollichathu & Murungayila", cal: 550, items: ["1 cup Murungayila thoran", "Primary: 1 Ayala baked in banana leaf with spicy tomato masala", "1 level cup Matta rice", "Sambharam"], fishOptions: "Swap Ayala with: Karimeen Pollichathu OR Seer Fish (Neymeen) Roast." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Kattan Chaya", "10-12 roasted cashews/almonds"] },
-    dinner: { title: "Muttai Roast & French Beans", cal: 490, items: ["2 hard-boiled eggs in onion masala", "1 large bowl sautéed French beans", "1 whole-wheat chapati"] } },
-  { day: 20, week: 3, label: "Day 20 (Sat)", totalCal: 1510,
-    breakfast: { title: "Oats Puttu & Kadala", cal: 380, items: ["1 cup rolled oats puttu", "3/4 cup Kadala curry", "1 hard-boiled egg"] },
-    lunch: { title: "Chicken Chukka & Cheera Thoran", cal: 530, items: ["1 cup Cheera thoran", "150g dry chicken chukka cooked with crushed black pepper, shallots, and curry leaves", "1 level cup Matta rice", "Cumin Rasam"] },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Kattan Kappi with dry ginger", "1 cup roasted makhana"] },
-    dinner: { title: "Chicken Tikka Wrap in Chapati", cal: 490, items: ["1 chapati rolled with spiced grilled chicken strips, shredded cabbage, onions, and yogurt mint dressing"] } },
-  { day: 21, week: 3, label: "Day 21 (Sun)", totalCal: 1520,
-    breakfast: { title: "Lace Appam & Egg Roast", cal: 370, items: ["Strictly 2 Palappams", "1 egg roast with thick shallot-tomato gravy (do not drink plain coconut milk)"] },
-    lunch: { title: "Mathi Fry & Pavakka Mezhukkupuratti", cal: 540, items: ["1 cup Pavakka mezhukkupuratti", "Primary: 3 shallow pan-seared Mathi (1 tsp coconut oil)", "1 level cup Matta rice", "Sambharam"], fishOptions: "Swap Mathi with: Choora (Tuna) Mulakittathu OR Chemmeen Roast." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Hot Kattan Chaya", "1/2 cup boiled sprouted green gram"] },
-    dinner: { title: "Yellow Dal Spinach & Boiled Eggs", cal: 490, items: ["1 large bowl Cheera Parippu", "2 hard-boiled eggs with black pepper", "1 whole-wheat chapati"] } },
-
-  { day: 22, week: 4, label: "Day 22 (Mon)", totalCal: 1490,
-    breakfast: { title: "Nadan Scramble & Multigrain Toast", cal: 350, items: ["2 eggs scrambled with curry leaves, onions, and crushed pepper", "1 slice wholemeal bread"] },
-    lunch: { title: "Neymeen Curry & Kovakka", cal: 530, items: ["1 cup Kovakka thoran", "Primary: 1 slice Neymeen in red Kudampuli gravy", "1 level cup Matta rice", "Sambharam"], fishOptions: "Swap Neymeen with: Kalava (Grouper) Curry OR Black Pomfret (Avoli) Curry." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Inji Chaya", "12-14 almonds"] },
-    dinner: { title: "Chicken Pepper Fry & Salad", cal: 490, items: ["150g boneless pepper chicken cooked dry", "Large green salad with cucumber and radish", "1 chapati"] } },
-  { day: 23, week: 4, label: "Day 23 (Tue)", totalCal: 1510,
-    breakfast: { title: "Ragi Dosa & Boiled Egg", cal: 370, items: ["2 thin ragi dosas", "1 tbsp coriander chammanthi", "1 hard-boiled egg"] },
-    lunch: { title: "Ayala Mulakittathu & Padavalanga", cal: 530, items: ["1 cup Padavalanga thoran", "Primary: 1 Ayala cooked in spicy Kudampuli curry", "1 level cup Matta rice", "Pepper Rasam"], fishOptions: "Swap Ayala with: Kilimeen (Pink Perch) Curry OR Netholi Peera Pattichathu." },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Kattan Kappi", "1/2 cup boiled chana"] },
-    dinner: { title: "Cherupayar Puzhukku & Egg Whites", cal: 500, items: ["1.5 cups Cherupayar puzhukku", "2 hard-boiled egg whites", "Clear vegetable soup (No rice)"] } },
-  { day: 24, week: 4, label: "Day 24 (Wed)", totalCal: 1500,
-    breakfast: { title: "Pesarattu & Mint Chutney", cal: 360, items: ["2 whole moong pesarattus", "Mint-coriander dip", "1 boiled egg"] },
-    lunch: { title: "Netholi Peera & Pavakka", cal: 540, items: ["1 cup Pavakka mezhukkupuratti", "Primary: 1 portion Netholi (anchovy) peera", "1 level cup Matta rice", "Sambharam"], fishOptions: "Swap Netholi with: Mathi (Sardines) Peera OR Chemmeen (Prawns) Ularthiyathu." },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Green tea", "Roasted pumpkin seeds (1 tbsp)"] },
-    dinner: { title: "Nadan Kozhi Roast & Chapatis", cal: 490, items: ["2 whole-wheat phulkas", "1 bowl chicken roast with curry leaves", "Sliced cucumbers"] } },
-  { day: 25, week: 4, label: "Day 25 (Thu)", totalCal: 1530,
-    breakfast: { title: "Whole-Wheat Puttu & Kadala", cal: 380, items: ["1 cup whole-wheat puttu", "3/4 cup Kadala curry", "1 hard-boiled egg"] },
-    lunch: { title: "Kalava (Grouper) Tawa Roast & Murungayila", cal: 530, items: ["1 cup Murungayila thoran", "Primary: 150g Kalava fillet pan-seared with turmeric, pepper, and lime", "1 level cup Matta rice", "Tomato Rasam"], fishOptions: "Swap Kalava with: Karimeen Tawa Roast OR Choora (Tuna) Steak." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Chilled Sambharam", "10-12 walnut halves"] },
-    dinner: { title: "Paneer & Vegetable Stir Fry", cal: 500, items: ["100g paneer cubes stir-fried with capsicum, French beans, and shallots", "1 chapati"] } },
-  { day: 26, week: 4, label: "Day 26 (Fri)", totalCal: 1480,
-    breakfast: { title: "Egg & Vegetable Omelette", cal: 350, items: ["2 eggs whisked with diced beans, tomatoes, onions, green chillies", "1 slice wholemeal bread"] },
-    lunch: { title: "Ayala Tawa Sear & Cheera Thoran", cal: 530, items: ["1 cup Cheera thoran", "Primary: 1 medium Ayala shallow pan-seared", "1 level cup Matta rice", "Sambharam"], fishOptions: "Swap Ayala with: Mathi (Sardines) Roast OR Kilimeen Roast." },
-    snack: { title: "Evening Chaya", cal: 110, items: ["Kattan Chaya", "1/2 cup boiled green gram"] },
-    dinner: { title: "Muttai Roast & Steamed Cabbage", cal: 490, items: ["2 hard-boiled eggs in onion-tomato masala", "1 large bowl steamed cabbage with black pepper", "1 chapati"] } },
-  { day: 27, week: 4, label: "Day 27 (Sat)", totalCal: 1530,
-    breakfast: { title: "Oats Upma & Boiled Egg", cal: 370, items: ["1 bowl savoury vegetable oats upma", "1 hard-boiled egg", "Ginger tea (no sugar)"] },
-    lunch: { title: "Karimeen Pollichathu & Kovakka", cal: 540, items: ["1 cup Kovakka mezhukkupuratti", "Primary: 1 whole Karimeen roasted in banana leaf with spicy shallot masala", "1 level cup Matta rice", "Garlic Rasam"], fishOptions: "Swap Karimeen with: Neymeen (Seer Fish) Pollichathu OR Avoli (Pomfret) Pollichathu." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Kattan Kappi", "1 cup roasted makhana"] },
-    dinner: { title: "Chicken Soup & Wholemeal Phulka", cal: 500, items: ["1 large bowl shredded chicken & vegetable soup", "1 whole-wheat chapati", "Cucumber slices"] } },
-  { day: 28, week: 4, label: "Day 28 (Sun)", totalCal: 1540,
-    breakfast: { title: "Palappam & Chicken Stew", cal: 380, items: ["2 thin Palappams strictly", "1 bowl chicken stew made with thin coconut milk and vegetables"] },
-    lunch: { title: "Choora Mulakittathu & Padavalanga", cal: 540, items: ["1 cup Padavalanga thoran", "Primary: 1 cup Choora (Tuna) cooked in spicy Kudampuli red curry", "1 level cup Matta rice", "Chilled Sambharam"], fishOptions: "Swap Choora with: Mathi (Sardines) Mulakittathu OR Chemmeen Ularthiyathu." },
-    snack: { title: "Evening Chaya", cal: 120, items: ["Kattan Chaya", "1/2 cup Kadala sundal"] },
-    dinner: { title: "Cheera Parippu & Egg Phulka", cal: 500, items: ["2 whole-wheat phulkas", "1 bowl Cheera Parippu dal", "1 boiled egg with crushed pepper"] } }
-];
-
-const MEALS = [
-  { key: "breakfast", label: "Breakfast" },
-  { key: "lunch", label: "Lunch · fibre first" },
-  { key: "snack", label: "4 pm chaya" },
-  { key: "dinner", label: "Dinner" }
-];
-const DAY_MS = 86400000;
-const STORE_KEY = "kerala-plan-start";
-
-/* ---------- start date & today ---------- */
-function mondayOf(d) {
-  const x = new Date(d.getFullYear(), d.getMonth(), d.getDate());
-  const shift = (x.getDay() + 6) % 7; // Mon = 0
-  x.setDate(x.getDate() - shift);
-  return x;
+/* ---------- dates ---------- */
+const pad = (n) => String(n).padStart(2, "0");
+function todayISO() {
+  const n = new Date();
+  return n.getFullYear() + "-" + pad(n.getMonth() + 1) + "-" + pad(n.getDate());
 }
-function toISO(d) {
-  return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+function fromISO(s) { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
+function fmtDay(iso) { return fromISO(iso).toLocaleDateString([], { weekday: "short", day: "numeric", month: "short" }); }
+function fmtRange(w) {
+  const a = fromISO(w.days[0].date), b = fromISO(w.days[6].date);
+  return a.toLocaleDateString([], { day: "numeric", month: "short" }) + " – " + b.toLocaleDateString([], { day: "numeric", month: "short" });
 }
-function fromISO(s) {
-  const [y, m, d] = s.split("-").map(Number);
-  return new Date(y, m - 1, d);
-}
-function loadStart() {
-  try {
-    const s = localStorage.getItem(STORE_KEY);
-    if (s && /^\d{4}-\d{2}-\d{2}$/.test(s)) return fromISO(s);
-  } catch (e) {}
-  const m = mondayOf(new Date());
-  try { localStorage.setItem(STORE_KEY, toISO(m)); } catch (e) {}
-  return m;
-}
-let startDate = loadStart();
-
-function todayPlanDay() {
-  const now = new Date();
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const diff = Math.round((today - startDate) / DAY_MS);
-  if (diff < 0) return 1;
-  return (diff % 28) + 1;
+function locate(iso) {
+  for (let wi = 0; wi < weeks.length; wi++) {
+    const di = weeks[wi].days.findIndex(d => d.date === iso);
+    if (di > -1) return { wi, di };
+  }
+  return null;
 }
 function currentMealKey() {
   const h = new Date().getHours();
@@ -382,60 +208,97 @@ function currentMealKey() {
 }
 
 /* ---------- state ---------- */
-let todayDay = todayPlanDay();
-let selectedDay = todayDay;
+let todayLoc = locate(todayISO());
+let sel = todayLoc ? { ...todayLoc } : (weeks.length ? { wi: weeks.length - 1, di: 0 } : null);
 let lastTouch = Date.now();
 
 /* ---------- render ---------- */
 const $ = (id) => document.getElementById(id);
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function weekLabel(w) {
+  if (w.week === DATA.manifest.current) return "This week";
+  if (w.week === DATA.manifest.next) return "Next week";
+  return "Week " + w.week.slice(-2);
+}
+function packOf(day) { return (DATA.packs || {})[day.cuisine] || { name: day.cuisine, slotLabels: {}, rules: [] }; }
 
 function render() {
-  const day = planData[selectedDay - 1];
-  const week = day.week;
+  if (!sel) {
+    $("notice").hidden = false;
+    $("notice").textContent = "No plan has been generated yet. Run `mealplan plan` and `mealplan build`.";
+    $("weeks").innerHTML = ""; $("days").innerHTML = ""; $("dayHead").innerHTML = ""; $("meals").innerHTML = "";
+    return;
+  }
+  const week = weeks[sel.wi];
+  const day = week.days[sel.di];
+  const pack = packOf(day);
+  const isToday = !!todayLoc && todayLoc.wi === sel.wi && todayLoc.di === sel.di;
 
-  $("weeks").innerHTML = weekNames.map((n, i) =>
-    `<button type="button" class="week-btn" data-week="${i + 1}" aria-pressed="${week === i + 1}">
-       <b>Week ${i + 1}</b><span>${n}</span></button>`).join("");
+  $("notice").hidden = !!todayLoc;
+  if (!todayLoc) $("notice").textContent = "There is no plan covering today yet. Showing " + weekLabel(week).toLowerCase() + " (" + fmtRange(week) + ").";
 
-  $("days").innerHTML = planData.filter(d => d.week === week).map(d => {
-    const dow = d.label.match(/\((\w+)\)/)[1];
-    return `<button type="button" class="day-btn" data-day="${d.day}" aria-pressed="${d.day === selectedDay}">
-      ${d.day === todayDay ? '<span class="today-dot">Today</span>' : ""}
-      <span class="dow">${dow}</span><span class="num">Day ${d.day}</span></button>`;
+  $("subtitle").textContent = pack.name + " · " + fmtRange(week) + " · fibre first · walk after meals";
+
+  $("weeks").innerHTML = weeks.map((w, i) => {
+    const names = [...new Set(w.days.map(d => packOf(d).name))].join(" / ");
+    return `<button type="button" class="week-btn" data-week="${i}" aria-pressed="${i === sel.wi}">
+       <b>${esc(weekLabel(w))}</b><span>${esc(fmtRange(w))} · ${esc(names)}</span></button>`;
   }).join("");
 
-  const dow = day.label.match(/\((\w+)\)/)[1];
-  const isToday = selectedDay === todayDay;
+  $("days").innerHTML = week.days.map((d, i) => {
+    const today = !!todayLoc && todayLoc.wi === sel.wi && todayLoc.di === i;
+    return `<button type="button" class="day-btn" data-day="${i}" aria-pressed="${i === sel.di}">
+      ${today ? '<span class="today-dot">Today</span>' : ""}
+      <span class="dow">${esc(d.dow)}</span><span class="num">${fromISO(d.date).getDate()}</span></button>`;
+  }).join("");
+
+  const kcal = Math.round(day.totals.kcal || 0);
   $("dayHead").innerHTML = `
-    <h2>${isToday ? "Today · " : ""}Day ${day.day}, ${dow}</h2>
-    <div class="meta">Week ${week} of 4 · about <strong>${day.totalCal.toLocaleString()} kcal</strong></div>
-    ${isToday ? "" : '<button type="button" class="back-today" id="backToday">Back to today</button>'}`;
+    <h2>${isToday ? "Today · " : ""}${esc(fmtDay(day.date))}</h2>
+    <div class="meta">${esc(pack.name)} · about <strong>${kcal.toLocaleString()} kcal</strong> per adult portion</div>
+    ${!isToday && todayLoc ? '<button type="button" class="back-today" id="backToday">Back to today</button>' : ""}`;
 
   const nowKey = isToday ? currentMealKey() : null;
-  // Today: current meal first, then what's coming up, then earlier meals (dimmed) at the end.
-  let order = MEALS;
-  const nowIdx = MEALS.findIndex(m => m.key === nowKey);
-  if (nowIdx > -1) order = MEALS.slice(nowIdx).concat(MEALS.slice(0, nowIdx));
-  $("meals").innerHTML = order.map(m => {
-    const past = nowIdx > -1 && MEALS.indexOf(m) < nowIdx;
-    const meal = day[m.key];
-    const items = meal.items.map(it => {
+  let order = SLOTS;
+  const nowIdx = SLOTS.indexOf(nowKey);
+  if (nowIdx > -1) order = SLOTS.slice(nowIdx).concat(SLOTS.slice(0, nowIdx));
+
+  $("meals").innerHTML = order.map(slot => {
+    const past = nowIdx > -1 && SLOTS.indexOf(slot) < nowIdx;
+    const recipes = (day.meals[slot] || []).map(id => week.recipes[id]).filter(Boolean);
+    const cal = recipes.reduce((s, r) => s + (r.nutrition.kcal || 0), 0);
+    const title = recipes.map(r => r.name).join(" · ") || "—";
+    const items = recipes.flatMap(r => r.components || []).map(it => {
       const primary = it.startsWith("Primary: ");
       return `<li${primary ? ' class="primary"' : ""}>${esc(primary ? it.slice(9) : it)}</li>`;
     }).join("");
-    const swap = meal.fishOptions
-      ? `<div class="swap"><b>Fish swap</b>${esc(meal.fishOptions.replace(/^Swap [^:]+:\s*/, (s) => s.replace(/^Swap /, "Instead of ").replace(/ with:\s*$/, ": ")))}</div>` : "";
-    return `<article class="meal${m.key === nowKey ? " now" : ""}${past ? " past" : ""}">
+    const kid = recipes.map(r => r.kidNote).filter(Boolean);
+    const swapLines = [];
+    for (const r of recipes) {
+      const byTarget = new Map();
+      for (const s of (r.swaps || [])) { if (!byTarget.has(s.for)) byTarget.set(s.for, []); byTarget.get(s.for).push(s.use); }
+      for (const [t, uses] of byTarget) swapLines.push("Instead of " + t + ": " + uses.join(" or "));
+      if (r.swapNote) swapLines.push(r.swapNote);
+    }
+    const swap = swapLines.length ? `<div class="swap"><b>Swap</b>${esc(swapLines.join(" · "))}</div>` : "";
+    const label = (pack.slotLabels || {})[slot] || DEFAULT_LABELS[slot];
+    return `<article class="meal${slot === nowKey ? " now" : ""}${past ? " past" : ""}">
       <div class="meal-top">
-        <span class="meal-label">${m.label}${m.key === nowKey ? '<span class="now-pill">Now</span>' : ""}${past ? '<span class="done-pill">Earlier</span>' : ""}</span>
-        <span class="meal-kcal">~${meal.cal} kcal</span>
+        <span class="meal-label">${esc(label)}${slot === nowKey ? '<span class="now-pill">Now</span>' : ""}${past ? '<span class="done-pill">Earlier</span>' : ""}</span>
+        <span class="meal-kcal">~${cal} kcal</span>
       </div>
-      <h3>${esc(meal.title)}</h3>
+      <h3>${esc(title)}</h3>
       <ul>${items}</ul>
+      ${kid.length ? `<p class="kid">Kid: ${esc(kid[0])}</p>` : ""}
       ${swap}
     </article>`;
   }).join("");
+
+  const rules = pack.rules || [];
+  $("rules").hidden = rules.length === 0;
+  $("rulesList").innerHTML = rules.map(r => `<li><span><strong>${esc(r.title)}</strong>${esc(r.text)}</span></li>`).join("");
+
+  $("footer").textContent = "Plan " + week.week + " · " + DATA.household.servings + " servings per meal · version " + DATA.version;
 }
 
 function updateClock() {
@@ -449,46 +312,39 @@ document.addEventListener("click", (e) => {
   lastTouch = Date.now();
   const w = e.target.closest("[data-week]");
   if (w) {
-    const wk = Number(w.dataset.week);
-    const t = planData[todayDay - 1];
-    selectedDay = t.week === wk ? todayDay : (wk - 1) * 7 + 1;
+    const wi = Number(w.dataset.week);
+    sel = (todayLoc && todayLoc.wi === wi) ? { ...todayLoc } : { wi, di: 0 };
     render(); return;
   }
   const d = e.target.closest("[data-day]");
-  if (d) { selectedDay = Number(d.dataset.day); render(); return; }
-  if (e.target.closest("#backToday")) { selectedDay = todayDay; render(); }
-});
-
-$("startToggle").addEventListener("click", () => {
-  const p = $("startPanel");
-  p.hidden = !p.hidden;
-  $("startInput").value = toISO(startDate);
-  if (!p.hidden) $("startInput").focus();
-});
-$("startPanel").addEventListener("submit", (e) => {
-  e.preventDefault();
-  const v = $("startInput").value;
-  if (!v) return;
-  startDate = fromISO(v);
-  try { localStorage.setItem(STORE_KEY, v); } catch (err) {}
-  todayDay = todayPlanDay();
-  selectedDay = todayDay;
-  $("startPanel").hidden = true;
-  render();
+  if (d) { sel = { wi: sel.wi, di: Number(d.dataset.day) }; render(); return; }
+  if (e.target.closest("#backToday") && todayLoc) { sel = { ...todayLoc }; render(); }
 });
 
 /* Every minute: refresh the clock, roll over at midnight, and drift back
    to today after 3 idle minutes so the fridge always shows the right day. */
 setInterval(() => {
   updateClock();
-  const t = todayPlanDay();
+  const t = locate(todayISO());
   const idle = Date.now() - lastTouch > 3 * 60 * 1000;
-  if (t !== todayDay || idle) {
-    todayDay = t;
-    if (idle) selectedDay = todayDay;
-  }
+  const changed = JSON.stringify(t) !== JSON.stringify(todayLoc);
+  todayLoc = t;
+  if ((changed || idle) && todayLoc) sel = { ...todayLoc };
   render();
 }, 60 * 1000);
+
+/* Pick up a newly published week without anyone touching the tablet. */
+async function checkForUpdate() {
+  if (!/^https?:$/.test(location.protocol)) return;
+  try {
+    const res = await fetch("plans/manifest.json?ts=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) return;
+    const man = await res.json();
+    if (man.version && man.version !== DATA.version) location.reload();
+  } catch (e) { /* offline: try again later */ }
+}
+setInterval(checkForUpdate, POLL_MS);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkForUpdate(); });
 
 updateClock();
 render();

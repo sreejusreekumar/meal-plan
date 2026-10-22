@@ -1,0 +1,20 @@
+id: kerala.lunch.chicken-chukka-and-cheera-thoran
+name: Chicken Chukka & Cheera Thoran
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: chicken-roast
+nutrition:
+  kcal: 530
+components:
+- 1 cup Cheera thoran
+- 150g dry chicken chukka cooked with crushed black pepper, shallots, and curry leaves
+- 1 level cup Matta rice
+- Cumin Rasam
+source: Kerala 28-day plan (index.html, Oct 2026)

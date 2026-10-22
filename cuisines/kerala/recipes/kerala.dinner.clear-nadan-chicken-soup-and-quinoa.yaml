@@ -1,0 +1,17 @@
+id: kerala.dinner.clear-nadan-chicken-soup-and-quinoa
+name: Clear Nadan Chicken Soup & Quinoa
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: false
+effort: weekday
+family: soup
+nutrition:
+  kcal: 490
+components:
+- 1 large bowl chicken bone-broth soup with shredded meat & greens
+- 1/2 cup warm cooked quinoa or 1 chapati
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,18 @@
+id: kerala.breakfast.ragi-puttu-and-kadala-curry
+name: Ragi Puttu & Kadala Curry
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: puttu
+nutrition:
+  kcal: 380
+components:
+- 1 small cylinder cup Ragi puttu
+- 3/4 cup Kadala (black chickpea) curry (thick dry gravy)
+- 1 hard-boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

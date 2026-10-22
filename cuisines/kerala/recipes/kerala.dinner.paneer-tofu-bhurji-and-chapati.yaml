@@ -1,0 +1,18 @@
+id: kerala.dinner.paneer-tofu-bhurji-and-chapati
+name: Paneer/Tofu Bhurji & Chapati
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: dairy
+spice: medium
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 500
+components:
+- 100g crumbled paneer or tofu sautéed with shallots and curry leaves
+- 2 whole-wheat phulkas
+- Cucumber salad
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,18 @@
+id: kerala.breakfast.oats-puttu-and-kadala
+name: Oats Puttu & Kadala
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: puttu
+nutrition:
+  kcal: 380
+components:
+- 1 cup rolled oats puttu
+- 3/4 cup Kadala curry
+- 1 hard-boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

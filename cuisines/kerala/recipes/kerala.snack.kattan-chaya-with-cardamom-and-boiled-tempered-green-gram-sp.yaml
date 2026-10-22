@@ -1,0 +1,19 @@
+id: kerala.snack.kattan-chaya-with-cardamom-and-boiled-tempered-green-gram-sp
+name: Kattan Chaya with cardamom & Boiled, tempered green gram sprouts
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: sprouts
+nutrition:
+  kcal: 120
+components:
+- Kattan Chaya with cardamom
+- 1/2 cup boiled, tempered green gram sprouts
+source: Kerala 28-day plan (index.html, Oct 2026)

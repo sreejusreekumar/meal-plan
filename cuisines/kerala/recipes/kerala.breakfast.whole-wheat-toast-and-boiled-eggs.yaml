@@ -1,0 +1,19 @@
+id: kerala.breakfast.whole-wheat-toast-and-boiled-eggs
+name: Whole Wheat Toast & Boiled Eggs
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: toast
+nutrition:
+  kcal: 340
+components:
+- 2 slices wholemeal bread dry toasted
+- 2 hard-boiled eggs with black pepper
+- Black tea
+source: Kerala 28-day plan (index.html, Oct 2026)

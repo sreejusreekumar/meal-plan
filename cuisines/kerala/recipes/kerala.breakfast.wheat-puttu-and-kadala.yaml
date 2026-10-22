@@ -1,0 +1,18 @@
+id: kerala.breakfast.wheat-puttu-and-kadala
+name: Wheat Puttu & Kadala
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: puttu
+nutrition:
+  kcal: 380
+components:
+- 1 small cylinder cup whole-wheat puttu
+- 3/4 cup Kadala curry
+- 1 hard-boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

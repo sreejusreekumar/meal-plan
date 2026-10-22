@@ -1,0 +1,19 @@
+id: kerala.dinner.chicken-pepper-fry-and-salad
+name: Chicken Pepper Fry & Salad
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: chicken-roast
+nutrition:
+  kcal: 490
+components:
+- 150g boneless pepper chicken cooked dry
+- Large green salad with cucumber and radish
+- 1 chapati
+source: Kerala 28-day plan (index.html, Oct 2026)

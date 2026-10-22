@@ -1,0 +1,19 @@
+id: kerala.snack.black-coffee-with-cardamom-and-almonds
+name: Black coffee with cardamom & Almonds
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 130
+components:
+- Black coffee with cardamom
+- 12-14 almonds
+source: Kerala 28-day plan (index.html, Oct 2026)

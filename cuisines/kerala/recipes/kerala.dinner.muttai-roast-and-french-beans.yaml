@@ -1,0 +1,18 @@
+id: kerala.dinner.muttai-roast-and-french-beans
+name: Muttai Roast & French Beans
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekday
+family: egg-roast
+nutrition:
+  kcal: 490
+components:
+- 2 hard-boiled eggs in onion masala
+- 1 large bowl sautéed French beans
+- 1 whole-wheat chapati
+source: Kerala 28-day plan (index.html, Oct 2026)

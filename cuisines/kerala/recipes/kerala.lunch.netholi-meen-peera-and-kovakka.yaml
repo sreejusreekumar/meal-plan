@@ -1,0 +1,24 @@
+id: kerala.lunch.netholi-meen-peera-and-kovakka
+name: Netholi Meen Peera & Kovakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+packable: true
+effort: weekday
+family: netholi
+nutrition:
+  kcal: 520
+components:
+- 1 cup Kovakka (ivy gourd) mezhukkupuratti
+- 'Primary: 1 bowl Netholi (anchovies) Peera with Kudampuli & crushed shallots'
+- 1 level cup Matta rice
+- Chilled Sambharam
+swaps:
+- for: Netholi
+  use: Chemmeen (Prawns) Ularthiyathu (sautéed with black pepper & shallots)
+- for: Netholi
+  use: Kilimeen (Pink Perch) Curry
+source: Kerala 28-day plan (index.html, Oct 2026)

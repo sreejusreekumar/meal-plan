@@ -1,0 +1,25 @@
+id: kerala.lunch.mathi-mulakittathu-and-pavakka
+name: Mathi Mulakittathu & Pavakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: mathi
+nutrition:
+  kcal: 530
+components:
+- 1 cup Pavakka thoran
+- 'Primary: 3 Mathi cooked in sour Kudampuli red curry'
+- 1 level cup Matta rice
+- Garlic Rasam
+swaps:
+- for: Mathi
+  use: Netholi (Anchovy) Peera
+- for: Mathi
+  use: Kilimeen (Pink Perch) Curry
+source: Kerala 28-day plan (index.html, Oct 2026)

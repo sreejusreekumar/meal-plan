@@ -1,0 +1,25 @@
+id: kerala.lunch.choora-mulakittathu-and-cabbage-thoran
+name: Choora Mulakittathu & Cabbage Thoran
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: choora
+nutrition:
+  kcal: 530
+components:
+- 1 cup Cabbage-carrot thoran
+- 'Primary: 1 cup Choora (Tuna) cooked in fiery Kudampuli red curry'
+- 1 level cup Matta rice
+- Sambharam
+swaps:
+- for: Choora
+  use: Mathi (Sardines) Peera Pattichathu
+- for: Choora
+  use: Netholi (Anchovy) Curry
+source: Kerala 28-day plan (index.html, Oct 2026)

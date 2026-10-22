@@ -1,0 +1,19 @@
+id: kerala.snack.inji-chaya-and-boiled-salted-edamame-or-chickpeas
+name: Inji Chaya & Boiled, salted edamame or chickpeas
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: kadala
+nutrition:
+  kcal: 120
+components:
+- Inji Chaya (ginger tea, no sugar)
+- Boiled, salted edamame or chickpeas (1/2 cup)
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,19 @@
+id: kerala.lunch.kozhi-curry-and-murungayila-thoran
+name: Kozhi Curry & Murungayila Thoran
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: true
+effort: weekday
+family: chicken-curry
+nutrition:
+  kcal: 550
+components:
+- 1 cup Murungayila thoran
+- 1 bowl Homestyle Kerala chicken curry
+- 1 level cup Matta rice
+- Garlic Rasam
+source: Kerala 28-day plan (index.html, Oct 2026)

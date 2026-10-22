@@ -1,0 +1,25 @@
+id: kerala
+name: Kerala
+version: 1
+description: Multi-fish, no deep frying, fibre first. Migrated from the original 28-day plan.
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · fibre first
+  snack: 4 pm chaya
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: Thoran or mezhukkupuratti first, then fish, chicken or egg, then 1 cup matta rice last.
+  - title: Walk after meals
+    text: 10–15 minutes of brisk walking right after lunch and dinner.
+  - title: Cooking fish
+    text: No deep-fried meen porichathu. Kudampuli curry, pollichathu, or a tawa roast with 1 tsp coconut oil.
+  - title: Skip completely
+    text: Kappa, pazham pori, bakery snacks and sweetened tea.

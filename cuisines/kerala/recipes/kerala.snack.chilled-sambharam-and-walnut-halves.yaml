@@ -1,0 +1,19 @@
+id: kerala.snack.chilled-sambharam-and-walnut-halves
+name: Chilled Sambharam & Walnut halves
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 120
+components:
+- Chilled Sambharam
+- 10-12 walnut halves
+source: Kerala 28-day plan (index.html, Oct 2026)

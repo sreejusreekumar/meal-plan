@@ -1,0 +1,25 @@
+id: kerala.lunch.choora-mulakittathu-and-padavalanga
+name: Choora Mulakittathu & Padavalanga
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: choora
+nutrition:
+  kcal: 540
+components:
+- 1 cup Padavalanga thoran
+- 'Primary: 1 cup Choora (Tuna) cooked in spicy Kudampuli red curry'
+- 1 level cup Matta rice
+- Chilled Sambharam
+swaps:
+- for: Choora
+  use: Mathi (Sardines) Mulakittathu
+- for: Choora
+  use: Chemmeen Ularthiyathu
+source: Kerala 28-day plan (index.html, Oct 2026)

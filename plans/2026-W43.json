@@ -1,0 +1,1108 @@
+{
+  "week": "2026-W43",
+  "startDate": "2026-10-19",
+  "cuisines": [
+    "kerala"
+  ],
+  "packVersions": {
+    "kerala": 1
+  },
+  "seed": "kerala:2026-W43:kerala=1:0",
+  "salt": 0,
+  "generatedAt": "2026-10-23T09:58:37+11:00",
+  "generator": "0.1.0",
+  "days": [
+    {
+      "date": "2026-10-19",
+      "dow": "Mon",
+      "cuisine": "kerala",
+      "meals": {
+        "breakfast": [
+          "kerala.breakfast.moong-dal-cheela-and-mint-chutney"
+        ],
+        "lunch": [
+          "kerala.lunch.ayala-mulakittathu-and-padavalanga"
+        ],
+        "snack": [
+          "kerala.snack.black-coffee-with-cardamom-and-almonds"
+        ],
+        "dinner": [
+          "kerala.dinner.egg-roast-and-phulka"
+        ]
+      },
+      "totals": {
+        "kcal": 1530.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "dow": "Tue",
+      "cuisine": "kerala",
+      "meals": {
+        "breakfast": [
+          "kerala.breakfast.mushroom-and-cheese-omelette"
+        ],
+        "lunch": [
+          "kerala.lunch.kozhi-curry-and-murungayila-thoran"
+        ],
+        "snack": [
+          "kerala.snack.inji-chaya-and-boiled-salted-edamame-or-chickpeas"
+        ],
+        "dinner": [
+          "kerala.dinner.paneer-and-vegetable-stir-fry"
+        ]
+      },
+      "totals": {
+        "kcal": 1530.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "dow": "Wed",
+      "cuisine": "kerala",
+      "meals": {
+        "breakfast": [
+          "kerala.breakfast.oats-puttu-and-cherupayar"
+        ],
+        "lunch": [
+          "kerala.lunch.chemmeen-ularthiyathu-and-pavakka"
+        ],
+        "snack": [
+          "kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt"
+        ],
+        "dinner": [
+          "kerala.dinner.grilled-kerala-chicken-and-thoran"
+        ]
+      },
+      "totals": {
+        "kcal": 1530.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "dow": "Thu",
+      "cuisine": "kerala",
+      "meals": {
+        "breakfast": [
+          "kerala.breakfast.oats-upma-with-vegetables-and-egg"
+        ],
+        "lunch": [
+          "kerala.lunch.chicken-pepper-roast-and-murungayila"
+        ],
+        "snack": [
+          "kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram"
+        ],
+        "dinner": [
+          "kerala.dinner.pan-seared-choora-and-steamed-greens"
+        ]
+      },
+      "totals": {
+        "kcal": 1540.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "dow": "Fri",
+      "cuisine": "kerala",
+      "meals": {
+        "breakfast": [
+          "kerala.breakfast.idli-swap-oats-rava-idli-and-sambar"
+        ],
+        "lunch": [
+          "kerala.lunch.kalava-curry-and-kovakka"
+        ],
+        "snack": [
+          "kerala.snack.black-tea-with-cloves-and-cardamom-and-dry-roasted-peanuts"
+        ],
+        "dinner": [
+          "kerala.dinner.fish-tikka-and-sambar-soup"
+        ]
+      },
+      "totals": {
+        "kcal": 1490.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "dow": "Sat",
+      "cuisine": "kerala",
+      "meals": {
+        "breakfast": [
+          "kerala.breakfast.egg-bhurji-and-multigrain-toast"
+        ],
+        "lunch": [
+          "kerala.lunch.avoli-curry-and-kovakka"
+        ],
+        "snack": [
+          "kerala.snack.kattan-chaya-and-boiled-seasoned-kadala"
+        ],
+        "dinner": [
+          "kerala.dinner.nadan-muttai-roast-and-chapati"
+        ]
+      },
+      "totals": {
+        "kcal": 1500.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "dow": "Sun",
+      "cuisine": "kerala",
+      "meals": {
+        "breakfast": [
+          "kerala.breakfast.lentil-adai-and-mint-chutney"
+        ],
+        "lunch": [
+          "kerala.lunch.karimeen-pollichathu-and-cheera"
+        ],
+        "snack": [
+          "kerala.snack.kattan-kappi-with-dry-ginger-and-roasted-makhana"
+        ],
+        "dinner": [
+          "kerala.dinner.cherupayar-puzhukku-and-egg-whites"
+        ]
+      },
+      "totals": {
+        "kcal": 1550.0,
+        "refinedCarbDishes": 0.0
+      }
+    }
+  ],
+  "weekChecks": {
+    "fishLunches": 5,
+    "chicken": 3,
+    "redMeat": 0,
+    "legumeDishes": 9,
+    "eggMains": 5,
+    "treats": 0,
+    "vegDinners": 5
+  },
+  "recipes": {
+    "kerala.breakfast.egg-bhurji-and-multigrain-toast": {
+      "id": "kerala.breakfast.egg-bhurji-and-multigrain-toast",
+      "name": "Egg Bhurji & Multigrain Toast",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "omelette",
+      "nutrition": {
+        "kcal": 350
+      },
+      "components": [
+        "2 eggs scrambled with French beans, carrots & pepper",
+        "1-2 slices 100% wholemeal bread toasted dry"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.breakfast.idli-swap-oats-rava-idli-and-sambar": {
+      "id": "kerala.breakfast.idli-swap-oats-rava-idli-and-sambar",
+      "name": "Idli Swap: Oats-Rava Idli & Sambar",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "idli",
+      "nutrition": {
+        "kcal": 370
+      },
+      "components": [
+        "2-3 Oats-Ragi steamed idlis",
+        "1 bowl vegetable sambar",
+        "1 boiled egg"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.breakfast.lentil-adai-and-mint-chutney": {
+      "id": "kerala.breakfast.lentil-adai-and-mint-chutney",
+      "name": "Lentil Adai & Mint Chutney",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "dosa",
+      "nutrition": {
+        "kcal": 390
+      },
+      "components": [
+        "2 medium mixed-dal adais",
+        "1 tbsp fresh coconut-coriander chutney",
+        "1 soft-boiled egg"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.breakfast.moong-dal-cheela-and-mint-chutney": {
+      "id": "kerala.breakfast.moong-dal-cheela-and-mint-chutney",
+      "name": "Moong Dal Cheela & Mint Chutney",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "dosa",
+      "nutrition": {
+        "kcal": 370
+      },
+      "components": [
+        "2 yellow moong dal pancakes with ginger and chillies",
+        "Mint chutney",
+        "1 boiled egg"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.breakfast.mushroom-and-cheese-omelette": {
+      "id": "kerala.breakfast.mushroom-and-cheese-omelette",
+      "name": "Mushroom & Cheese Omelette",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "omelette",
+      "nutrition": {
+        "kcal": 360
+      },
+      "components": [
+        "2-egg omelette with sliced mushrooms, onions, and 1 slice light cheese",
+        "Warm ginger water"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.breakfast.oats-puttu-and-cherupayar": {
+      "id": "kerala.breakfast.oats-puttu-and-cherupayar",
+      "name": "Oats Puttu & Cherupayar",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "puttu",
+      "nutrition": {
+        "kcal": 370
+      },
+      "components": [
+        "1 cup coarse rolled-oats puttu",
+        "3/4 cup Cherupayar curry",
+        "1 hard-boiled egg"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.breakfast.oats-upma-with-vegetables-and-egg": {
+      "id": "kerala.breakfast.oats-upma-with-vegetables-and-egg",
+      "name": "Oats Upma with Vegetables & Egg",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "upma",
+      "nutrition": {
+        "kcal": 380
+      },
+      "components": [
+        "1 bowl steel-cut or rolled oats upma cooked with carrots, beans, and mustard seeds",
+        "1 boiled egg"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.cherupayar-puzhukku-and-egg-whites": {
+      "id": "kerala.dinner.cherupayar-puzhukku-and-egg-whites",
+      "name": "Cherupayar Puzhukku & Egg Whites",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "no-rice"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "cherupayar",
+      "nutrition": {
+        "kcal": 500
+      },
+      "components": [
+        "1.5 cups Cherupayar puzhukku",
+        "2 hard-boiled egg whites",
+        "Clear vegetable soup (No rice)"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.egg-roast-and-phulka": {
+      "id": "kerala.dinner.egg-roast-and-phulka",
+      "name": "Egg Roast & Phulka",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "egg-roast",
+      "nutrition": {
+        "kcal": 500
+      },
+      "components": [
+        "2 whole-wheat phulkas",
+        "Muttai roast (2 eggs in shallot-tomato gravy)",
+        "Steamed cauliflower florets"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.fish-tikka-and-sambar-soup": {
+      "id": "kerala.dinner.fish-tikka-and-sambar-soup",
+      "name": "Fish Tikka & Sambar Soup",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "no-rice"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "fish-fillet",
+      "nutrition": {
+        "kcal": 490
+      },
+      "components": [
+        "150g grilled fish fillet cubes (Neymeen or Hamour) marinated in spices",
+        "1 large bowl clear drumstick vegetable sambar (no rice)",
+        "1 chapati"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "swapNote": "Fish fillet can be Neymeen, Kalava, or Basa.",
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.grilled-kerala-chicken-and-thoran": {
+      "id": "kerala.dinner.grilled-kerala-chicken-and-thoran",
+      "name": "Grilled Kerala Chicken & Thoran",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "grilled-chicken",
+      "nutrition": {
+        "kcal": 510
+      },
+      "components": [
+        "150g boneless chicken breast marinated in nadan spices",
+        "1 cup Padavalanga (snake gourd) thoran",
+        "1 whole-wheat chapati"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.nadan-muttai-roast-and-chapati": {
+      "id": "kerala.dinner.nadan-muttai-roast-and-chapati",
+      "name": "Nadan Muttai Roast & Chapati",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "egg-roast",
+      "nutrition": {
+        "kcal": 500
+      },
+      "components": [
+        "2 whole-wheat chapatis",
+        "Muttai roast (2 eggs in onion-tomato-garlic masala)",
+        "Large bowl of steamed French beans"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.pan-seared-choora-and-steamed-greens": {
+      "id": "kerala.dinner.pan-seared-choora-and-steamed-greens",
+      "name": "Pan-Seared Choora (Tuna) & Steamed Greens",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "choora",
+      "nutrition": {
+        "kcal": 500
+      },
+      "components": [
+        "150g Choora steak spiced with black pepper and lime",
+        "1 cup steamed Cheera leaves",
+        "1 chapati"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [
+        {
+          "for": "Choora",
+          "use": "Neymeen (Seer fish) steak"
+        },
+        {
+          "for": "Choora",
+          "use": "Kalava (Grouper) fillet"
+        }
+      ],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.dinner.paneer-and-vegetable-stir-fry": {
+      "id": "kerala.dinner.paneer-and-vegetable-stir-fry",
+      "name": "Paneer & Vegetable Stir Fry",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "paneer",
+      "nutrition": {
+        "kcal": 500
+      },
+      "components": [
+        "100g paneer cubes stir-fried with capsicum, French beans, and shallots",
+        "1 chapati"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.avoli-curry-and-kovakka": {
+      "id": "kerala.lunch.avoli-curry-and-kovakka",
+      "name": "Avoli Curry & Kovakka",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "avoli",
+      "nutrition": {
+        "kcal": 530
+      },
+      "components": [
+        "1 cup Kovakka mezhukkupuratti",
+        "Primary: 1 portion Avoli (Pomfret) cooked with Kudampuli and green chillies",
+        "1 level cup Matta rice",
+        "Sambharam"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [
+        {
+          "for": "Avoli",
+          "use": "Ayala (Mackerel) Peera Pattichathu"
+        },
+        {
+          "for": "Avoli",
+          "use": "Choora (Tuna) Mulakittathu"
+        }
+      ],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.ayala-mulakittathu-and-padavalanga": {
+      "id": "kerala.lunch.ayala-mulakittathu-and-padavalanga",
+      "name": "Ayala Mulakittathu & Padavalanga",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "ayala",
+      "nutrition": {
+        "kcal": 530
+      },
+      "components": [
+        "1 cup Padavalanga thoran",
+        "Primary: 1 Ayala cooked in spicy Kudampuli curry",
+        "1 level cup Matta rice",
+        "Pepper Rasam"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [
+        {
+          "for": "Ayala",
+          "use": "Kilimeen (Pink Perch) Curry"
+        },
+        {
+          "for": "Ayala",
+          "use": "Netholi Peera Pattichathu"
+        }
+      ],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.chemmeen-ularthiyathu-and-pavakka": {
+      "id": "kerala.lunch.chemmeen-ularthiyathu-and-pavakka",
+      "name": "Chemmeen Ularthiyathu & Pavakka",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "chemmeen",
+      "nutrition": {
+        "kcal": 540
+      },
+      "components": [
+        "1 cup Pavakka mezhukkupuratti",
+        "Primary: 150g Chemmeen (Prawns) sautéed with shallots, curry leaves, and cracked pepper",
+        "1 level cup Matta rice",
+        "Moru kachiyathu"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [
+        {
+          "for": "Chemmeen",
+          "use": "Kallummakkaya (Mussels) Roast"
+        },
+        {
+          "for": "Chemmeen",
+          "use": "Ayala (Mackerel) Mulakittathu"
+        }
+      ],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.chicken-pepper-roast-and-murungayila": {
+      "id": "kerala.lunch.chicken-pepper-roast-and-murungayila",
+      "name": "Chicken Pepper Roast & Murungayila",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "chicken-roast",
+      "nutrition": {
+        "kcal": 540
+      },
+      "components": [
+        "1 cup Murungayila (drumstick leaves) thoran",
+        "1 cup Chicken pepper roast (dry preparation with shallots)",
+        "1 level cup Matta rice",
+        "Thakkali (tomato) Rasam"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.kalava-curry-and-kovakka": {
+      "id": "kerala.lunch.kalava-curry-and-kovakka",
+      "name": "Kalava (Grouper) Curry & Kovakka",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "kalava",
+      "nutrition": {
+        "kcal": 510
+      },
+      "components": [
+        "1 cup Kovakka mezhukkupuratti",
+        "Primary: 1 portion Kalava (Reef Cod/Grouper) stewed with turmeric, ginger, and Kudampuli",
+        "1 level cup Matta rice",
+        "Pepper Rasam"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [
+        {
+          "for": "Kalava",
+          "use": "Tilapia Tawa Roast"
+        },
+        {
+          "for": "Kalava",
+          "use": "White Avoli (Pomfret) Curry"
+        }
+      ],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.karimeen-pollichathu-and-cheera": {
+      "id": "kerala.lunch.karimeen-pollichathu-and-cheera",
+      "name": "Karimeen Pollichathu & Cheera",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "banana-leaf"
+      ],
+      "spice": "medium",
+      "kidNote": "Hold back the green chilli and chilli powder for the child's portion.",
+      "packable": true,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "karimeen",
+      "nutrition": {
+        "kcal": 550
+      },
+      "components": [
+        "1 cup Red Cheera thoran",
+        "Primary: 1 whole Karimeen (Pearl Spot) roasted in banana leaf with spicy shallots",
+        "1 level cup Matta rice",
+        "Tomato Rasam"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [
+        {
+          "for": "Karimeen",
+          "use": "Seer Fish (Neymeen) Pollichathu"
+        },
+        {
+          "for": "Karimeen",
+          "use": "Pomfret (Avoli) Pollichathu"
+        }
+      ],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.lunch.kozhi-curry-and-murungayila-thoran": {
+      "id": "kerala.lunch.kozhi-curry-and-murungayila-thoran",
+      "name": "Kozhi Curry & Murungayila Thoran",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": true,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "chicken-curry",
+      "nutrition": {
+        "kcal": 550
+      },
+      "components": [
+        "1 cup Murungayila thoran",
+        "1 bowl Homestyle Kerala chicken curry",
+        "1 level cup Matta rice",
+        "Garlic Rasam"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.black-coffee-with-cardamom-and-almonds": {
+      "id": "kerala.snack.black-coffee-with-cardamom-and-almonds",
+      "name": "Black coffee with cardamom & Almonds",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "nuts",
+      "nutrition": {
+        "kcal": 130
+      },
+      "components": [
+        "Black coffee with cardamom",
+        "12-14 almonds"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.black-tea-with-cloves-and-cardamom-and-dry-roasted-peanuts": {
+      "id": "kerala.snack.black-tea-with-cloves-and-cardamom-and-dry-roasted-peanuts",
+      "name": "Black tea with cloves and cardamom & Dry roasted peanuts",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "nuts",
+      "nutrition": {
+        "kcal": 120
+      },
+      "components": [
+        "Black tea with cloves and cardamom",
+        "Handful of dry roasted peanuts"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt": {
+      "id": "kerala.snack.green-tea-and-roasted-makhana-spiced-with-turmeric-and-salt",
+      "name": "Green tea & Roasted makhana spiced with turmeric & salt",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "makhana",
+      "nutrition": {
+        "kcal": 110
+      },
+      "components": [
+        "Green tea",
+        "1 cup roasted makhana (foxnuts) spiced with turmeric & salt"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram": {
+      "id": "kerala.snack.hot-kattan-chaya-and-boiled-sprouted-green-gram",
+      "name": "Hot Kattan Chaya & Boiled sprouted green gram",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "sprouts",
+      "nutrition": {
+        "kcal": 120
+      },
+      "components": [
+        "Hot Kattan Chaya",
+        "1/2 cup boiled sprouted green gram"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.inji-chaya-and-boiled-salted-edamame-or-chickpeas": {
+      "id": "kerala.snack.inji-chaya-and-boiled-salted-edamame-or-chickpeas",
+      "name": "Inji Chaya & Boiled, salted edamame or chickpeas",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "kadala",
+      "nutrition": {
+        "kcal": 120
+      },
+      "components": [
+        "Inji Chaya (ginger tea, no sugar)",
+        "Boiled, salted edamame or chickpeas (1/2 cup)"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.kattan-chaya-and-boiled-seasoned-kadala": {
+      "id": "kerala.snack.kattan-chaya-and-boiled-seasoned-kadala",
+      "name": "Kattan Chaya & Boiled seasoned Kadala",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "dal",
+      "nutrition": {
+        "kcal": 120
+      },
+      "components": [
+        "Kattan Chaya",
+        "1/2 cup boiled seasoned Kadala"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    },
+    "kerala.snack.kattan-kappi-with-dry-ginger-and-roasted-makhana": {
+      "id": "kerala.snack.kattan-kappi-with-dry-ginger-and-roasted-makhana",
+      "name": "Kattan Kappi with dry ginger & Roasted makhana",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "kerala",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "chaya"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "family": "makhana",
+      "nutrition": {
+        "kcal": 110
+      },
+      "components": [
+        "Kattan Kappi with dry ginger",
+        "1 cup roasted makhana"
+      ],
+      "ingredients": [],
+      "steps": [],
+      "swaps": [],
+      "source": "Kerala 28-day plan (index.html, Oct 2026)"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+id: kerala.dinner.vegetable-egg-scramble-and-soup
+name: Vegetable Egg Scramble & Soup
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 470
+components:
+- 3 eggs (1 whole + 2 whites) scrambled with beans, carrots, and onions
+- 1 chapati
+- Clear vegetable broth
+source: Kerala 28-day plan (index.html, Oct 2026)

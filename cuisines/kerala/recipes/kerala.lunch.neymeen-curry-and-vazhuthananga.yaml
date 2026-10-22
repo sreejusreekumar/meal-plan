@@ -1,0 +1,25 @@
+id: kerala.lunch.neymeen-curry-and-vazhuthananga
+name: Neymeen Curry & Vazhuthananga
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: neymeen
+nutrition:
+  kcal: 540
+components:
+- 1 cup Vazhuthananga (brinjal) mezhukkupuratti
+- 'Primary: 1 steak Neymeen (Seer fish) in Kudampuli red gravy'
+- 1 level cup Matta rice
+- Thin Moru kachiyathu
+swaps:
+- for: Neymeen
+  use: Kalava (Reef Cod/Grouper) Curry
+- for: Neymeen
+  use: Choora (Tuna) Vevichathu
+source: Kerala 28-day plan (index.html, Oct 2026)

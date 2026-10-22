@@ -1,0 +1,18 @@
+id: kerala.breakfast.pesarattu-and-boiled-egg
+name: Pesarattu & Boiled Egg
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: dosa
+nutrition:
+  kcal: 370
+components:
+- 2 whole green gram pesarattu
+- Fresh coconut-coriander chammandi (1 tbsp)
+- 1 hard-boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

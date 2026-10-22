@@ -1,0 +1,18 @@
+id: kerala.breakfast.oats-puttu-and-cherupayar
+name: Oats Puttu & Cherupayar
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: puttu
+nutrition:
+  kcal: 370
+components:
+- 1 cup coarse rolled-oats puttu
+- 3/4 cup Cherupayar curry
+- 1 hard-boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

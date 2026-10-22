@@ -1,0 +1,25 @@
+id: kerala.lunch.kalava-tawa-roast-and-murungayila
+name: Kalava (Grouper) Tawa Roast & Murungayila
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: kalava
+nutrition:
+  kcal: 530
+components:
+- 1 cup Murungayila thoran
+- 'Primary: 150g Kalava fillet pan-seared with turmeric, pepper, and lime'
+- 1 level cup Matta rice
+- Tomato Rasam
+swaps:
+- for: Kalava
+  use: Karimeen Tawa Roast
+- for: Kalava
+  use: Choora (Tuna) Steak
+source: Kerala 28-day plan (index.html, Oct 2026)

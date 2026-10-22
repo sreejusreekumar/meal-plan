@@ -1,0 +1,19 @@
+id: kerala.snack.kattan-chaya-and-roasted-peanuts-or-almonds
+name: Kattan Chaya & Roasted peanuts or almonds
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 130
+components:
+- Kattan Chaya (black tea, unsweetened)
+- 12-15 roasted peanuts or almonds
+source: Kerala 28-day plan (index.html, Oct 2026)

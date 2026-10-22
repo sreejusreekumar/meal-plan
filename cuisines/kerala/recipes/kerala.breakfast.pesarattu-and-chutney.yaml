@@ -1,0 +1,18 @@
+id: kerala.breakfast.pesarattu-and-chutney
+name: Pesarattu (Moong Dosa) & Chutney
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: dosa
+nutrition:
+  kcal: 370
+components:
+- 2 medium whole moong dosas
+- 2 tbsp coriander-mint-coconut chammandi
+- 1 boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

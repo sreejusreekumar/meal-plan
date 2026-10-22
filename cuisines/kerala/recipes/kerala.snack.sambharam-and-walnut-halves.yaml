@@ -1,0 +1,19 @@
+id: kerala.snack.sambharam-and-walnut-halves
+name: Sambharam & Walnut halves
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 100
+components:
+- 1 glass Sambharam
+- 10 walnut halves
+source: Kerala 28-day plan (index.html, Oct 2026)

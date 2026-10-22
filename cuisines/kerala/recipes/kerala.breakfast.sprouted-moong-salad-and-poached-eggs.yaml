@@ -1,0 +1,17 @@
+id: kerala.breakfast.sprouted-moong-salad-and-poached-eggs
+name: Sprouted Moong Salad & Poached Eggs
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+packable: false
+effort: weekday
+family: sprouts
+nutrition:
+  kcal: 360
+components:
+- 1 bowl steamed sprouted moong tossed with chopped onions, tomato, lemon
+- 2 poached or soft-boiled eggs
+source: Kerala 28-day plan (index.html, Oct 2026)

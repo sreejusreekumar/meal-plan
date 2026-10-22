@@ -1,0 +1,21 @@
+id: kerala.dinner.fish-tikka-and-sambar-soup
+name: Fish Tikka & Sambar Soup
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- no-rice
+spice: medium
+packable: false
+effort: weekday
+family: fish-fillet
+nutrition:
+  kcal: 490
+components:
+- 150g grilled fish fillet cubes (Neymeen or Hamour) marinated in spices
+- 1 large bowl clear drumstick vegetable sambar (no rice)
+- 1 chapati
+swapNote: Fish fillet can be Neymeen, Kalava, or Basa.
+source: Kerala 28-day plan (index.html, Oct 2026)

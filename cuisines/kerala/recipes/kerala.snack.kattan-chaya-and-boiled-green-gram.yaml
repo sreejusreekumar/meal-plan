@@ -1,0 +1,19 @@
+id: kerala.snack.kattan-chaya-and-boiled-green-gram
+name: Kattan Chaya & Boiled green gram
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: legume
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: cherupayar
+nutrition:
+  kcal: 110
+components:
+- Kattan Chaya
+- 1/2 cup boiled green gram
+source: Kerala 28-day plan (index.html, Oct 2026)

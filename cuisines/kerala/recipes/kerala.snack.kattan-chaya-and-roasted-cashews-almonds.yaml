@@ -1,0 +1,19 @@
+id: kerala.snack.kattan-chaya-and-roasted-cashews-almonds
+name: Kattan Chaya & Roasted cashews/almonds
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 120
+components:
+- Kattan Chaya
+- 10-12 roasted cashews/almonds
+source: Kerala 28-day plan (index.html, Oct 2026)

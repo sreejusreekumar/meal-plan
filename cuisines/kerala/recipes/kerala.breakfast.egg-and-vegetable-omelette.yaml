@@ -1,0 +1,18 @@
+id: kerala.breakfast.egg-and-vegetable-omelette
+name: Egg & Vegetable Omelette
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 350
+components:
+- 2 eggs whisked with diced beans, tomatoes, onions, green chillies
+- 1 slice wholemeal bread
+source: Kerala 28-day plan (index.html, Oct 2026)

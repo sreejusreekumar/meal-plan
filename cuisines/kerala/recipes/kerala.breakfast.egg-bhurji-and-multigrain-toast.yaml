@@ -1,0 +1,18 @@
+id: kerala.breakfast.egg-bhurji-and-multigrain-toast
+name: Egg Bhurji & Multigrain Toast
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 350
+components:
+- 2 eggs scrambled with French beans, carrots & pepper
+- 1-2 slices 100% wholemeal bread toasted dry
+source: Kerala 28-day plan (index.html, Oct 2026)

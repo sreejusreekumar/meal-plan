@@ -1,0 +1,27 @@
+id: kerala.lunch.karimeen-pollichathu-and-cheera
+name: Karimeen Pollichathu & Cheera
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+tags:
+- banana-leaf
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: karimeen
+nutrition:
+  kcal: 550
+components:
+- 1 cup Red Cheera thoran
+- 'Primary: 1 whole Karimeen (Pearl Spot) roasted in banana leaf with spicy shallots'
+- 1 level cup Matta rice
+- Tomato Rasam
+swaps:
+- for: Karimeen
+  use: Seer Fish (Neymeen) Pollichathu
+- for: Karimeen
+  use: Pomfret (Avoli) Pollichathu
+source: Kerala 28-day plan (index.html, Oct 2026)

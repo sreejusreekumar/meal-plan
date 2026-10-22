@@ -1,0 +1,19 @@
+id: kerala.breakfast.palappam-and-chicken-stew
+name: Palappam & Chicken Stew
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: false
+effort: weekend
+treat: true
+refinedCarb: true
+family: appam
+nutrition:
+  kcal: 380
+components:
+- 2 thin Palappams strictly
+- 1 bowl chicken stew made with thin coconut milk and vegetables
+source: Kerala 28-day plan (index.html, Oct 2026)

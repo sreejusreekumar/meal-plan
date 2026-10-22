@@ -1,0 +1,18 @@
+id: kerala.breakfast.spinach-egg-scramble-and-wholemeal-toast
+name: Spinach-Egg Scramble & Wholemeal Toast
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 350
+components:
+- 2 eggs scrambled with finely chopped Cheera & green chillies
+- 1 slice 100% wholemeal bread toasted
+source: Kerala 28-day plan (index.html, Oct 2026)

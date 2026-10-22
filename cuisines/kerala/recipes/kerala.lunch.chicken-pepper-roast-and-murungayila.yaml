@@ -1,0 +1,20 @@
+id: kerala.lunch.chicken-pepper-roast-and-murungayila
+name: Chicken Pepper Roast & Murungayila
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: chicken-roast
+nutrition:
+  kcal: 540
+components:
+- 1 cup Murungayila (drumstick leaves) thoran
+- 1 cup Chicken pepper roast (dry preparation with shallots)
+- 1 level cup Matta rice
+- Thakkali (tomato) Rasam
+source: Kerala 28-day plan (index.html, Oct 2026)

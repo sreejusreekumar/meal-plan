@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Meal Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap">
+<style>
+/* Layout: kitchen-display board. Today first, big touch targets, readable from a step back. */
+:root {
+  --bg: #F1F5EE;
+  --surface: #FFFFFF;
+  --ink: #17251B;
+  --muted: #566656;
+  --leaf: #1E6B3A;
+  --leaf-soft: #DDEBDD;
+  --turmeric: #B97606;
+  --turmeric-soft: #FBEFD6;
+  --sea: #0D6884;
+  --sea-soft: #E1EFF3;
+  --line: #D3DDD1;
+  --on-leaf: #FFFFFF;
+  --display: "Bricolage Grotesque", "Segoe UI", Roboto, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", Roboto, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1611; --surface: #16211A; --ink: #E6EFE5; --muted: #9DB09E;
+    --leaf: #6FC68D; --leaf-soft: #1D3324; --turmeric: #E9AB3C; --turmeric-soft: #3A2C10;
+    --sea: #72C4DE; --sea-soft: #12303A; --line: #2A3B2F; --on-leaf: #0E1611;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1611; --surface: #16211A; --ink: #E6EFE5; --muted: #9DB09E;
+  --leaf: #6FC68D; --leaf-soft: #1D3324; --turmeric: #E9AB3C; --turmeric-soft: #3A2C10;
+  --sea: #72C4DE; --sea-soft: #12303A; --line: #2A3B2F; --on-leaf: #0E1611;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+[hidden] { display: none !important; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--body);
+  font-size: clamp(17px, 0.55vw + 13px, 23px);
+  line-height: 1.45;
+  padding-block: 20px 32px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1500px; margin: 0 auto; display: grid; gap: 18px; }
+button { font: inherit; color: inherit; }
+button:focus-visible { outline: 3px solid var(--turmeric); outline-offset: 2px; }
+
+/* Header */
+.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+.top h1 { font-family: var(--display); font-weight: 800; font-size: 1.75em; line-height: 1.1; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+.top .sub { color: var(--muted); margin: 4px 0 0; font-size: 0.85em; }
+.clock { text-align: right; display: grid; gap: 4px; justify-items: end; }
+.clock .time { font-family: var(--display); font-weight: 600; font-size: 1.6em; line-height: 1; font-variant-numeric: tabular-nums; }
+.clock .date { color: var(--muted); font-size: 0.85em; }
+
+.notice { background: var(--turmeric-soft); border: 1px solid var(--turmeric); border-radius: 10px; padding: 12px 16px; font-size: 0.9em; }
+
+/* Week + day navigation */
+.nav { display: grid; gap: 10px; }
+.weeks { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 8px; }
+.week-btn {
+  border: 2px solid var(--line); background: var(--surface); border-radius: 10px;
+  padding: 10px 12px; cursor: pointer; text-align: left; min-height: 64px; min-width: 0;
+}
+.week-btn b { display: block; font-family: var(--display); font-weight: 600; font-size: 1.05em; }
+.week-btn span { color: var(--muted); font-size: 0.78em; }
+.week-btn[aria-pressed="true"] { border-color: var(--leaf); background: var(--leaf-soft); }
+
+.days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.day-btn {
+  position: relative; border: 2px solid var(--line); background: var(--surface); border-radius: 10px;
+  padding: 10px 6px; cursor: pointer; text-align: center; min-height: 72px; min-width: 0;
+}
+.day-btn .dow { display: block; font-weight: 700; font-size: 1em; }
+.day-btn .num { display: block; color: var(--muted); font-size: 0.75em; font-variant-numeric: tabular-nums; }
+.day-btn[aria-pressed="true"] { border-color: var(--leaf); background: var(--leaf); color: var(--on-leaf); }
+.day-btn[aria-pressed="true"] .num { color: inherit; opacity: 0.85; }
+.day-btn .today-dot {
+  position: absolute; top: -9px; left: 50%; transform: translateX(-50%);
+  background: var(--turmeric); color: #fff; font-size: 0.6em; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 1px 8px; border-radius: 999px; white-space: nowrap;
+}
+
+/* Day detail */
+.day-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px; padding-top: 6px; }
+.day-head h2 { font-family: var(--display); font-weight: 800; font-size: 1.5em; margin: 0; line-height: 1.15; text-wrap: balance; }
+.day-head .meta { color: var(--muted); font-size: 0.9em; font-variant-numeric: tabular-nums; }
+.day-head .meta strong { color: var(--turmeric); }
+.back-today { background: var(--turmeric-soft); color: var(--ink); border: 1px solid var(--turmeric); border-radius: 999px; padding: 6px 16px; cursor: pointer; font-weight: 700; font-size: 0.85em; }
+
+.meals { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 14px; }
+.meal {
+  background: var(--surface); border: 2px solid var(--line); border-radius: 12px;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 10px;
+}
+.meal.now { border-color: var(--leaf); box-shadow: 0 0 0 3px var(--leaf-soft); }
+.meal.past { opacity: 0.6; }
+.meal-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.meal-label { color: var(--muted); font-size: 0.78em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.now-pill, .done-pill { font-size: 0.85em; border-radius: 999px; padding: 1px 8px; letter-spacing: 0; text-transform: none; }
+.now-pill { background: var(--leaf); color: var(--on-leaf); }
+.done-pill { background: var(--line); color: var(--ink); }
+.meal-kcal { color: var(--muted); font-size: 0.8em; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.meal h3 { font-family: var(--display); font-weight: 600; font-size: 1.15em; margin: 0; line-height: 1.2; text-wrap: balance; }
+.meal ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; }
+.meal li::marker { color: var(--leaf); }
+.meal li.primary { font-weight: 700; }
+.kid { font-size: 0.82em; color: var(--muted); }
+.swap { margin-top: auto; background: var(--sea-soft); border-radius: 8px; padding: 10px 12px; font-size: 0.85em; }
+.swap b { display: block; color: var(--sea); font-size: 0.85em; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 2px; }
+
+/* Guardrails */
+.rules { background: var(--leaf-soft); border-radius: 12px; padding: 16px 20px; }
+.rules h2 { font-family: var(--display); font-weight: 600; font-size: 1.05em; margin: 0 0 10px; }
+.rules ol { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 10px 22px; counter-reset: r; }
+.rules li { font-size: 0.85em; counter-increment: r; display: grid; grid-template-columns: auto 1fr; gap: 10px; min-width: 0; }
+.rules li::before { content: counter(r); font-family: var(--display); font-weight: 800; color: var(--leaf); font-size: 1.3em; line-height: 1.1; }
+.rules strong { display: block; }
+
+footer { color: var(--muted); font-size: 0.75em; text-align: center; }
+
+@media (max-width: 760px) {
+  .days { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 16px; }
+  .clock { text-align: left; justify-items: start; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .meal, .day-btn, .week-btn { transition: border-color .15s, background-color .15s; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Family Meal Plan</h1>
+      <p class="sub" id="subtitle">fibre first · walk after meals</p>
+    </div>
+    <div class="clock">
+      <div class="time" id="clockTime">--:--</div>
+      <div class="date" id="clockDate"></div>
+    </div>
+  </header>
+
+  <div class="notice" id="notice" hidden></div>
+
+  <nav class="nav" aria-label="Choose a day">
+    <div class="weeks" id="weeks"></div>
+    <div class="days" id="days"></div>
+  </nav>
+
+  <section aria-live="polite">
+    <div class="day-head" id="dayHead"></div>
+  </section>
+  <section class="meals" id="meals"></section>
+
+  <section class="rules" id="rules" hidden>
+    <h2>Every day</h2>
+    <ol id="rulesList"></ol>
+  </section>
+
+  <footer id="footer"></footer>
+</div>
+
+<script id="plan-data" type="application/json">__PLAN_DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById("plan-data").textContent);
+const weeks = (DATA.weeks || []).slice().sort((a, b) => a.startDate.localeCompare(b.startDate));
+const SLOTS = ["breakfast", "lunch", "snack", "dinner"];
+const DEFAULT_LABELS = { breakfast: "Breakfast", lunch: "Lunch", snack: "Snack", dinner: "Dinner" };
+const POLL_MS = 15 * 60 * 1000;
+
+/* ---------- dates ---------- */
+const pad = (n) => String(n).padStart(2, "0");
+function todayISO() {
+  const n = new Date();
+  return n.getFullYear() + "-" + pad(n.getMonth() + 1) + "-" + pad(n.getDate());
+}
+function fromISO(s) { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
+function fmtDay(iso) { return fromISO(iso).toLocaleDateString([], { weekday: "short", day: "numeric", month: "short" }); }
+function fmtRange(w) {
+  const a = fromISO(w.days[0].date), b = fromISO(w.days[6].date);
+  return a.toLocaleDateString([], { day: "numeric", month: "short" }) + " – " + b.toLocaleDateString([], { day: "numeric", month: "short" });
+}
+function locate(iso) {
+  for (let wi = 0; wi < weeks.length; wi++) {
+    const di = weeks[wi].days.findIndex(d => d.date === iso);
+    if (di > -1) return { wi, di };
+  }
+  return null;
+}
+function currentMealKey() {
+  const h = new Date().getHours();
+  if (h < 11) return "breakfast";
+  if (h < 15) return "lunch";
+  if (h < 18) return "snack";
+  return "dinner";
+}
+
+/* ---------- state ---------- */
+let todayLoc = locate(todayISO());
+let sel = todayLoc ? { ...todayLoc } : (weeks.length ? { wi: weeks.length - 1, di: 0 } : null);
+let lastTouch = Date.now();
+
+/* ---------- render ---------- */
+const $ = (id) => document.getElementById(id);
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function weekLabel(w) {
+  if (w.week === DATA.manifest.current) return "This week";
+  if (w.week === DATA.manifest.next) return "Next week";
+  return "Week " + w.week.slice(-2);
+}
+function packOf(day) { return (DATA.packs || {})[day.cuisine] || { name: day.cuisine, slotLabels: {}, rules: [] }; }
+
+function render() {
+  if (!sel) {
+    $("notice").hidden = false;
+    $("notice").textContent = "No plan has been generated yet. Run `mealplan plan` and `mealplan build`.";
+    $("weeks").innerHTML = ""; $("days").innerHTML = ""; $("dayHead").innerHTML = ""; $("meals").innerHTML = "";
+    return;
+  }
+  const week = weeks[sel.wi];
+  const day = week.days[sel.di];
+  const pack = packOf(day);
+  const isToday = !!todayLoc && todayLoc.wi === sel.wi && todayLoc.di === sel.di;
+
+  $("notice").hidden = !!todayLoc;
+  if (!todayLoc) $("notice").textContent = "There is no plan covering today yet. Showing " + weekLabel(week).toLowerCase() + " (" + fmtRange(week) + ").";
+
+  $("subtitle").textContent = pack.name + " · " + fmtRange(week) + " · fibre first · walk after meals";
+
+  $("weeks").innerHTML = weeks.map((w, i) => {
+    const names = [...new Set(w.days.map(d => packOf(d).name))].join(" / ");
+    return `<button type="button" class="week-btn" data-week="${i}" aria-pressed="${i === sel.wi}">
+       <b>${esc(weekLabel(w))}</b><span>${esc(fmtRange(w))} · ${esc(names)}</span></button>`;
+  }).join("");
+
+  $("days").innerHTML = week.days.map((d, i) => {
+    const today = !!todayLoc && todayLoc.wi === sel.wi && todayLoc.di === i;
+    return `<button type="button" class="day-btn" data-day="${i}" aria-pressed="${i === sel.di}">
+      ${today ? '<span class="today-dot">Today</span>' : ""}
+      <span class="dow">${esc(d.dow)}</span><span class="num">${fromISO(d.date).getDate()}</span></button>`;
+  }).join("");
+
+  const kcal = Math.round(day.totals.kcal || 0);
+  $("dayHead").innerHTML = `
+    <h2>${isToday ? "Today · " : ""}${esc(fmtDay(day.date))}</h2>
+    <div class="meta">${esc(pack.name)} · about <strong>${kcal.toLocaleString()} kcal</strong> per adult portion</div>
+    ${!isToday && todayLoc ? '<button type="button" class="back-today" id="backToday">Back to today</button>' : ""}`;
+
+  const nowKey = isToday ? currentMealKey() : null;
+  let order = SLOTS;
+  const nowIdx = SLOTS.indexOf(nowKey);
+  if (nowIdx > -1) order = SLOTS.slice(nowIdx).concat(SLOTS.slice(0, nowIdx));
+
+  $("meals").innerHTML = order.map(slot => {
+    const past = nowIdx > -1 && SLOTS.indexOf(slot) < nowIdx;
+    const recipes = (day.meals[slot] || []).map(id => week.recipes[id]).filter(Boolean);
+    const cal = recipes.reduce((s, r) => s + (r.nutrition.kcal || 0), 0);
+    const title = recipes.map(r => r.name).join(" · ") || "—";
+    const items = recipes.flatMap(r => r.components || []).map(it => {
+      const primary = it.startsWith("Primary: ");
+      return `<li${primary ? ' class="primary"' : ""}>${esc(primary ? it.slice(9) : it)}</li>`;
+    }).join("");
+    const kid = recipes.map(r => r.kidNote).filter(Boolean);
+    const swapLines = [];
+    for (const r of recipes) {
+      const byTarget = new Map();
+      for (const s of (r.swaps || [])) { if (!byTarget.has(s.for)) byTarget.set(s.for, []); byTarget.get(s.for).push(s.use); }
+      for (const [t, uses] of byTarget) swapLines.push("Instead of " + t + ": " + uses.join(" or "));
+      if (r.swapNote) swapLines.push(r.swapNote);
+    }
+    const swap = swapLines.length ? `<div class="swap"><b>Swap</b>${esc(swapLines.join(" · "))}</div>` : "";
+    const label = (pack.slotLabels || {})[slot] || DEFAULT_LABELS[slot];
+    return `<article class="meal${slot === nowKey ? " now" : ""}${past ? " past" : ""}">
+      <div class="meal-top">
+        <span class="meal-label">${esc(label)}${slot === nowKey ? '<span class="now-pill">Now</span>' : ""}${past ? '<span class="done-pill">Earlier</span>' : ""}</span>
+        <span class="meal-kcal">~${cal} kcal</span>
+      </div>
+      <h3>${esc(title)}</h3>
+      <ul>${items}</ul>
+      ${kid.length ? `<p class="kid">Kid: ${esc(kid[0])}</p>` : ""}
+      ${swap}
+    </article>`;
+  }).join("");
+
+  const rules = pack.rules || [];
+  $("rules").hidden = rules.length === 0;
+  $("rulesList").innerHTML = rules.map(r => `<li><span><strong>${esc(r.title)}</strong>${esc(r.text)}</span></li>`).join("");
+
+  $("footer").textContent = "Plan " + week.week + " · " + DATA.household.servings + " servings per meal · version " + DATA.version;
+}
+
+function updateClock() {
+  const now = new Date();
+  $("clockTime").textContent = now.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+  $("clockDate").textContent = now.toLocaleDateString([], { weekday: "long", day: "numeric", month: "long" });
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click", (e) => {
+  lastTouch = Date.now();
+  const w = e.target.closest("[data-week]");
+  if (w) {
+    const wi = Number(w.dataset.week);
+    sel = (todayLoc && todayLoc.wi === wi) ? { ...todayLoc } : { wi, di: 0 };
+    render(); return;
+  }
+  const d = e.target.closest("[data-day]");
+  if (d) { sel = { wi: sel.wi, di: Number(d.dataset.day) }; render(); return; }
+  if (e.target.closest("#backToday") && todayLoc) { sel = { ...todayLoc }; render(); }
+});
+
+/* Every minute: refresh the clock, roll over at midnight, and drift back
+   to today after 3 idle minutes so the fridge always shows the right day. */
+setInterval(() => {
+  updateClock();
+  const t = locate(todayISO());
+  const idle = Date.now() - lastTouch > 3 * 60 * 1000;
+  const changed = JSON.stringify(t) !== JSON.stringify(todayLoc);
+  todayLoc = t;
+  if ((changed || idle) && todayLoc) sel = { ...todayLoc };
+  render();
+}, 60 * 1000);
+
+/* Pick up a newly published week without anyone touching the tablet. */
+async function checkForUpdate() {
+  if (!/^https?:$/.test(location.protocol)) return;
+  try {
+    const res = await fetch("plans/manifest.json?ts=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) return;
+    const man = await res.json();
+    if (man.version && man.version !== DATA.version) location.reload();
+  } catch (e) { /* offline: try again later */ }
+}
+setInterval(checkForUpdate, POLL_MS);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkForUpdate(); });
+
+updateClock();
+render();
+</script>
+</body>
+</html>

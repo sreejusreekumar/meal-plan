@@ -1,0 +1,19 @@
+id: kerala.breakfast.lace-appam-and-egg-roast
+name: Lace Appam & Egg Roast
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekend
+treat: true
+refinedCarb: true
+family: egg-roast
+nutrition:
+  kcal: 370
+components:
+- Strictly 2 Palappams
+- 1 egg roast with thick shallot-tomato gravy (do not drink plain coconut milk)
+source: Kerala 28-day plan (index.html, Oct 2026)

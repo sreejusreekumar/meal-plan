@@ -1,0 +1,19 @@
+id: kerala.lunch.nadan-kozhi-stew-and-french-beans
+name: Nadan Kozhi Stew & French Beans
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+packable: true
+effort: weekday
+family: chicken-curry
+nutrition:
+  kcal: 520
+components:
+- 1 cup French beans mezhukkupuratti
+- 1 bowl Nadan chicken stew cooked in thin coconut milk with ginger, carrots, and whole spices (No mutton)
+- 1 level cup Matta rice
+- Chilled Sambharam
+source: Kerala 28-day plan (index.html, Oct 2026)

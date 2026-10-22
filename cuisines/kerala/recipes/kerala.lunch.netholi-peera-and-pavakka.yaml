@@ -1,0 +1,24 @@
+id: kerala.lunch.netholi-peera-and-pavakka
+name: Netholi Peera & Pavakka
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+packable: true
+effort: weekday
+family: netholi
+nutrition:
+  kcal: 540
+components:
+- 1 cup Pavakka mezhukkupuratti
+- 'Primary: 1 portion Netholi (anchovy) peera'
+- 1 level cup Matta rice
+- Sambharam
+swaps:
+- for: Netholi
+  use: Mathi (Sardines) Peera
+- for: Netholi
+  use: Chemmeen (Prawns) Ularthiyathu
+source: Kerala 28-day plan (index.html, Oct 2026)

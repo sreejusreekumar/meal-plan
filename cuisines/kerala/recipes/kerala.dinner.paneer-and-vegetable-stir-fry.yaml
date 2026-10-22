@@ -1,0 +1,17 @@
+id: kerala.dinner.paneer-and-vegetable-stir-fry
+name: Paneer & Vegetable Stir Fry
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: dairy
+spice: medium
+packable: false
+effort: weekday
+family: paneer
+nutrition:
+  kcal: 500
+components:
+- 100g paneer cubes stir-fried with capsicum, French beans, and shallots
+- 1 chapati
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,25 @@
+id: kerala.lunch.mathi-roast-and-padavalanga-thoran
+name: Mathi Roast & Padavalanga Thoran
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: true
+effort: weekday
+family: mathi
+nutrition:
+  kcal: 540
+components:
+- 1 cup Padavalanga (snake gourd) thoran
+- 'Primary: 3 fresh sardines (Mathi) pan-seared with turmeric, pepper, Kudampuli'
+- 1 level cup Matta rice
+- Cumin Rasam
+swaps:
+- for: Mathi
+  use: Kilimeen (Pink Perch) Tawa Roast
+- for: Mathi
+  use: Karimeen Pollichathu
+source: Kerala 28-day plan (index.html, Oct 2026)

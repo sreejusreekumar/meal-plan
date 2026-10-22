@@ -1,0 +1,24 @@
+id: kerala.lunch.mathi-fry-and-pavakka-mezhukkupuratti
+name: Mathi Fry & Pavakka Mezhukkupuratti
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+packable: true
+effort: weekday
+family: mathi
+nutrition:
+  kcal: 540
+components:
+- 1 cup Pavakka mezhukkupuratti
+- 'Primary: 3 shallow pan-seared Mathi (1 tsp coconut oil)'
+- 1 level cup Matta rice
+- Sambharam
+swaps:
+- for: Mathi
+  use: Choora (Tuna) Mulakittathu
+- for: Mathi
+  use: Chemmeen Roast
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,49 @@
+# Household configuration. Portion factors are derived from targetKcal / referenceKcal.
+# These defaults ignore sex and activity level; tune them with a doctor or dietitian.
+timezone: Australia/Melbourne
+weekStarts: monday
+shoppingDay: saturday
+referenceKcal: 1550
+people:
+  - { name: Adult A, age: 47, targetKcal: [1600, 1800], spice: medium }
+  - { name: Adult B, age: 41, targetKcal: [1600, 1800], spice: medium }
+  - { name: Teen,    age: 14, targetKcal: [2000, 2400], spice: medium }
+  - { name: Child,   age: 8,  targetKcal: [1400, 1600], spice: mild }
+packedLunchDays: [mon, tue, wed, thu, fri]
+# Per adult reference portion per day: [min, max]; null = unbounded.
+# Metrics other than kcal are only checked when every recipe in the day provides them.
+targetsPerReferenceDay:
+  kcal: [1450, 1650]
+  carbs: [null, 170]
+  fibre: [25, null]
+  protein: [70, null]
+  satFat: [null, 15]
+  sugar: [null, 0]
+  refinedCarbDishes: [null, 1]
+weeklyRules:
+  fishLunchesMin: 3
+  chickenMax: 3
+  redMeatMax: 1        # beef or pork; only recipes tagged lean: true are eligible
+  legumeDishesMin: 3
+  eggMainsMax: 5       # meals whose main protein is egg
+  treatsMax: 1
+  vegDinnersMin: 2
+pantryStaples:
+  - salt
+  - turmeric
+  - black pepper
+  - mustard seeds
+  - curry leaves
+  - coconut oil
+  - olive oil
+  - cumin
+  - coriander powder
+  - chilli powder
+  - garam masala
+todo:
+  mode: lists-by-aisle
+  lists:
+    produce: Vegetables & Fruits
+    fish: Meat & Fish
+    meat: Meat & Fish
+    default: Groceries

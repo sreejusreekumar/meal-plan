@@ -1,0 +1,18 @@
+id: kerala.dinner.nadan-muttai-roast-and-chapati
+name: Nadan Muttai Roast & Chapati
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekday
+family: egg-roast
+nutrition:
+  kcal: 500
+components:
+- 2 whole-wheat chapatis
+- Muttai roast (2 eggs in onion-tomato-garlic masala)
+- Large bowl of steamed French beans
+source: Kerala 28-day plan (index.html, Oct 2026)

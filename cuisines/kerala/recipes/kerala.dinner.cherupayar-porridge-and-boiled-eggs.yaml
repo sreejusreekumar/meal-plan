@@ -1,0 +1,18 @@
+id: kerala.dinner.cherupayar-porridge-and-boiled-eggs
+name: Cherupayar Porridge & Boiled Eggs
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: boiled-eggs
+nutrition:
+  kcal: 480
+components:
+- 1 large bowl savoury Cherupayar soup/puzhukku with crushed cumin
+- 2 hard-boiled eggs with pepper
+source: Kerala 28-day plan (index.html, Oct 2026)

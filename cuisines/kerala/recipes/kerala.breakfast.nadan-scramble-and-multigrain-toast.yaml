@@ -1,0 +1,18 @@
+id: kerala.breakfast.nadan-scramble-and-multigrain-toast
+name: Nadan Scramble & Multigrain Toast
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 350
+components:
+- 2 eggs scrambled with curry leaves, onions, and crushed pepper
+- 1 slice wholemeal bread
+source: Kerala 28-day plan (index.html, Oct 2026)

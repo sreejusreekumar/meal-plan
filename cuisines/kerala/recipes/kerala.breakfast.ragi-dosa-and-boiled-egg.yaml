@@ -1,0 +1,18 @@
+id: kerala.breakfast.ragi-dosa-and-boiled-egg
+name: Ragi Dosa & Boiled Egg
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekday
+family: dosa
+nutrition:
+  kcal: 370
+components:
+- 2 thin ragi dosas
+- 1 tbsp coriander chammanthi
+- 1 hard-boiled egg
+source: Kerala 28-day plan (index.html, Oct 2026)

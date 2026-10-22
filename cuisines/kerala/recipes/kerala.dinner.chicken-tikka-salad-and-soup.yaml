@@ -1,0 +1,19 @@
+id: kerala.dinner.chicken-tikka-salad-and-soup
+name: Chicken Tikka Salad & Soup
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: grilled-chicken
+nutrition:
+  kcal: 490
+components:
+- 150g spiced chicken breast strips
+- Large green salad with cucumber, radish, lime
+- 1 bowl hot pepper rasam
+source: Kerala 28-day plan (index.html, Oct 2026)

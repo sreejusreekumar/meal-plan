@@ -1,0 +1,19 @@
+id: kerala.snack.kattan-kappi-with-dry-ginger-and-roasted-makhana
+name: Kattan Kappi with dry ginger & Roasted makhana
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: makhana
+nutrition:
+  kcal: 110
+components:
+- Kattan Kappi with dry ginger
+- 1 cup roasted makhana
+source: Kerala 28-day plan (index.html, Oct 2026)

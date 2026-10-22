@@ -1,0 +1,24 @@
+id: kerala.dinner.pan-seared-choora-and-steamed-greens
+name: Pan-Seared Choora (Tuna) & Steamed Greens
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: choora
+nutrition:
+  kcal: 500
+components:
+- 150g Choora steak spiced with black pepper and lime
+- 1 cup steamed Cheera leaves
+- 1 chapati
+swaps:
+- for: Choora
+  use: Neymeen (Seer fish) steak
+- for: Choora
+  use: Kalava (Grouper) fillet
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,19 @@
+id: kerala.dinner.muttai-roast-and-steamed-cabbage
+name: Muttai Roast & Steamed Cabbage
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: egg-roast
+nutrition:
+  kcal: 490
+components:
+- 2 hard-boiled eggs in onion-tomato masala
+- 1 large bowl steamed cabbage with black pepper
+- 1 chapati
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,19 @@
+id: kerala.dinner.pepper-chicken-and-phulkas
+name: Pepper Chicken & Phulkas
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: chicken-roast
+nutrition:
+  kcal: 490
+components:
+- 2 whole-wheat phulkas
+- 1 bowl dry-style Nadan pepper chicken
+- Cucumber slices
+source: Kerala 28-day plan (index.html, Oct 2026)

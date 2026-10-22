@@ -1,0 +1,19 @@
+id: kerala.snack.spiced-sambharam-with-crushed-curry-leaves-and-roasted-almon
+name: Spiced Sambharam with crushed curry leaves & Roasted almonds
+slot:
+- snack
+role: main
+cuisine: kerala
+protein: none
+tags:
+- chaya
+spice: mild
+packable: false
+effort: weekday
+family: nuts
+nutrition:
+  kcal: 100
+components:
+- 1 glass spiced Sambharam with crushed curry leaves
+- 10 roasted almonds
+source: Kerala 28-day plan (index.html, Oct 2026)

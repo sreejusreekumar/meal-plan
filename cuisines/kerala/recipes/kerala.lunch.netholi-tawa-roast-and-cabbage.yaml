@@ -1,0 +1,24 @@
+id: kerala.lunch.netholi-tawa-roast-and-cabbage
+name: Netholi Tawa Roast & Cabbage
+slot:
+- lunch
+role: main
+cuisine: kerala
+protein: fish
+spice: medium
+packable: true
+effort: weekday
+family: netholi
+nutrition:
+  kcal: 540
+components:
+- 1 cup Cabbage thoran
+- 'Primary: 1 cup Netholi (anchovies) shallow-roasted with shallots and curry leaves'
+- 1 level cup Matta rice
+- Tomato Rasam
+swaps:
+- for: Netholi
+  use: Mathi (Sardines) Tawa Roast
+- for: Netholi
+  use: Chemmeen (Prawns) Ularthu
+source: Kerala 28-day plan (index.html, Oct 2026)

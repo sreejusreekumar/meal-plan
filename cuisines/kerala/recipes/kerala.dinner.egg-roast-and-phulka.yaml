@@ -1,0 +1,18 @@
+id: kerala.dinner.egg-roast-and-phulka
+name: Egg Roast & Phulka
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: egg
+spice: medium
+packable: false
+effort: weekday
+family: egg-roast
+nutrition:
+  kcal: 500
+components:
+- 2 whole-wheat phulkas
+- Muttai roast (2 eggs in shallot-tomato gravy)
+- Steamed cauliflower florets
+source: Kerala 28-day plan (index.html, Oct 2026)

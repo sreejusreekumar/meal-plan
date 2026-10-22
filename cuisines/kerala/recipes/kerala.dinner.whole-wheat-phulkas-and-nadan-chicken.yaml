@@ -1,0 +1,18 @@
+id: kerala.dinner.whole-wheat-phulkas-and-nadan-chicken
+name: Whole-Wheat Phulkas & Nadan Chicken
+slot:
+- dinner
+role: main
+cuisine: kerala
+protein: chicken
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+nutrition:
+  kcal: 500
+components:
+- 2 oil-free whole-wheat chapatis
+- 1 bowl Nadan chicken curry (black pepper base)
+- 1 cucumber sliced with lemon
+source: Kerala 28-day plan (index.html, Oct 2026)

@@ -1,0 +1,19 @@
+id: kerala.breakfast.nadan-pepper-omelette-and-cherupayaru
+name: Nadan Pepper Omelette & Cherupayaru
+slot:
+- breakfast
+role: main
+cuisine: kerala
+protein: legume
+spice: medium
+kidNote: Hold back the green chilli and chilli powder for the child's portion.
+packable: false
+effort: weekday
+family: omelette
+nutrition:
+  kcal: 360
+components:
+- 2 eggs whisked with shallots, curry leaves, and green chillies
+- 1 small cup boiled Cherupayaru (green gram)
+- Black coffee or plain warm water
+source: Kerala 28-day plan (index.html, Oct 2026)
