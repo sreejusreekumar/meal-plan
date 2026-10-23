@@ -1,0 +1,45 @@
+id: mexican.breakfast.huevos-a-la-mexicana
+name: Huevos a la mexicana with pinto beans
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: egg
+family: mexicana
+tags: [quick]
+spice: medium
+kidNote: "Scramble the child's egg first, before the jalapeno goes into the pan."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Huevos a la mexicana, eggs scrambled with tomato, onion and green chilli in the colours of the Mexican flag."
+nutrition: { kcal: 350, carbs: 30, fibre: 8, protein: 21, satFat: 3.9, sugar: 0 }
+components:
+  - "Primary: 2 eggs scrambled with tomato, onion and jalapeno"
+  - "1/3 cup pinto beans, warmed with cumin"
+  - "1 warm corn tortilla"
+  - "Café de olla, unsweetened (coffee with cinnamon)"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: pinto beans (dried), qty: 30, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+steps:
+  - "Soak the pinto beans overnight and pressure-cook with salt until soft (or use beans cooked ahead); reheat with the cumin and a little broth."
+  - "Dice the tomato, onion and jalapeno finely."
+  - "Heat the oil in a non-stick pan, soften the onion and jalapeno 2 minutes, add the tomato and cook 2 minutes more until it collapses."
+  - "Pour in the beaten, salted eggs and scramble gently over low heat until just set; fold in the coriander."
+  - "Warm the tortilla on a dry pan and serve with the eggs and the beans."
+  - "Café de olla: simmer a cup of water with the cinnamon stick for 3 minutes, stir in the coffee powder, steep, strain; no sugar or piloncillo."
+source: "Adapted from the traditional huevos a la mexicana"

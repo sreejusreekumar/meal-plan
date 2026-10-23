@@ -1,0 +1,35 @@
+id: japanese.breakfast.oats-banana-walnuts
+name: Oats with Yoghurt, Banana, Walnuts & Black Sesame
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: dairy
+family: oats
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 5
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 355, carbs: 45, fibre: 6, protein: 15, satFat: 2.3, sugar: 0 }
+components:
+  - "Primary: 1 bowl rolled oats (35 g) cooked in water, stirred with low-fat yoghurt"
+  - "Half a banana, walnuts and toasted black sesame on top"
+  - "Green tea"
+ingredients:
+  - { item: rolled oats, qty: 35, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: walnuts, qty: 10, unit: g }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Simmer the oats in 200 ml water with a pinch of salt for 5-6 minutes until thick; cool 2 minutes."
+  - "Toast the sesame seeds in a dry pan 1 minute until they pop; roughly crush."
+  - "Stir the yoghurt through the oats, top with sliced banana, broken walnuts and the sesame."
+  - "Serve with a cup of green tea."
+source: "A Western-Japanese home breakfast (yoghurt oats with kuro goma)"

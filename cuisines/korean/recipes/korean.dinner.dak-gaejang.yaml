@@ -1,0 +1,45 @@
+id: korean.dinner.dak-gaejang
+name: Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: chicken
+family: dak-gaejang
+spice: medium
+kidNote: "Take out the child's share of chicken and vegetables in the clear broth before the gochugaru oil goes in."
+packable: false
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 480, carbs: 50, fibre: 11, protein: 39, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl dak gaejang (shredded chicken, bean sprouts, napa cabbage, mushrooms, zucchini and spring onion in a gochugaru broth)"
+  - "Small bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: chicken breast, qty: 120, unit: g }
+  - { item: bean sprouts, qty: 100, unit: g }
+  - { item: napa cabbage (wombok), qty: 80, unit: g }
+  - { item: spring onion, qty: 0.5, unit: bunch }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: gochugaru (korean chilli flakes), qty: 1.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: brown rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Simmer the chicken breast in 450 ml water with the ginger and half the spring onion for 15 minutes; lift out, shred, and keep the broth."
+  - "Stir the gochugaru into the sesame oil with the crushed garlic to make a chilli oil; add it to the broth with the soy sauce."
+  - "Add the napa cabbage in strips, the mushrooms and the zucchini in chunks and simmer 5 minutes; return the shredded chicken with the bean sprouts and the remaining spring onion in 5 cm lengths for 3 minutes."
+  - "Season with black pepper and serve with the kimchi and the small bowl of rice."
+swaps:
+  - { for: chicken breast, use: "chicken thigh (boneless)", note: "simmer 20 minutes" }
+source: "Adapted from the traditional dak gaejang"

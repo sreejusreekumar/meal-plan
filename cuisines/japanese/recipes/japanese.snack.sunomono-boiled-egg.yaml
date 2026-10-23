@@ -1,0 +1,40 @@
+id: japanese.snack.sunomono-boiled-egg
+name: Cucumber Sunomono with Boiled Egg & Barley Tea
+slot: [snack]
+role: main
+cuisine: japanese
+protein: egg
+family: sunomono
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 8
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Sunomono, the Japanese vinegared cucumber and wakame salad served as a small refreshing side."
+nutrition: { kcal: 145, carbs: 6, fibre: 4, protein: 10, satFat: 1.8, sugar: 0 }
+components:
+  - "Primary: Cucumber and wakame sunomono with sesame"
+  - "1 boiled egg"
+  - "A small handful of edamame"
+  - "Roasted barley tea (mugicha)"
+ingredients:
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: rice vinegar, qty: 2, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: ginger, qty: 2, unit: g }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: edamame (frozen), qty: 30, unit: g }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Boil the egg 9 minutes; drop the edamame in for the last 4 minutes. Cool both under the tap and peel the egg."
+  - "Slice the cucumber thinly, salt lightly, rest 5 minutes and squeeze out the water. Soak the wakame 3 minutes and squeeze."
+  - "Toss the cucumber and wakame with the rice vinegar, soy, grated ginger and toasted sesame."
+  - "Serve with the halved egg, the edamame and a glass of barley tea (hot or chilled)."
+source: "Adapted from the traditional kyuri no sunomono"

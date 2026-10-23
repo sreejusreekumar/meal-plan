@@ -1,0 +1,45 @@
+id: middle-eastern.lunch.sayadieh
+name: Sayadieh-style spiced fish with brown rice & caramelised onion
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: fish
+family: sayadieh
+spice: medium
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 535, carbs: 60, fibre: 9, protein: 36, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g cumin-spiced baked white fish"
+  - "1 level cup brown rice cooked with caramelised onion and spices, pine nuts on top"
+  - "Shredded cabbage salad with lemon and sumac"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: brown rice, qty: 55, unit: g }
+  - { item: onion, qty: 1, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: allspice, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: pine nuts, qty: 10, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: sumac, qty: 0.5, unit: tsp }
+steps:
+  - "Slice the onion and cook it in the olive oil over medium heat for 15 minutes until deep golden; lift out a third for the garnish."
+  - "Add the rice, cumin, coriander powder, cinnamon, allspice and pepper to the onions, stir a minute, then add 1 cup water and salt; cover and simmer 30 minutes until tender."
+  - "Season the fish with salt, pepper and a pinch of cumin; bake at 200C for 12-15 minutes (or pan-sear 3-4 minutes a side)."
+  - "Toast the pine nuts in a dry pan 2 minutes. Shred the cabbage finely and toss with lemon juice, sumac, parsley and a pinch of salt."
+  - "Mound the rice, top with the reserved onions and pine nuts, lay the fish on top and serve the cabbage salad alongside."
+swaps:
+  - { for: firm white fish fillet, use: salmon fillet, note: "use 120 g; higher in fat" }
+source: "Adapted from the traditional Lebanese sayadieh"

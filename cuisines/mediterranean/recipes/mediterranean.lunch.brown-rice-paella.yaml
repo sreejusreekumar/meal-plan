@@ -1,0 +1,45 @@
+id: mediterranean.lunch.brown-rice-paella
+name: Brown-rice paella with prawns, squid & capsicum
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: fish
+family: paella
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Paella de marisco, the Valencian seafood rice cooked in a wide pan with sofrito, smoked paprika and stock, here on brown rice."
+nutrition: { kcal: 520, carbs: 60, fibre: 9, protein: 39, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 heaped cup brown-rice paella with 100 g prawns, 80 g squid and capsicum"
+  - "French beans cooked in the rice"
+  - "Lemon wedge and parsley"
+ingredients:
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: prawns (chemmeen), qty: 100, unit: g }
+  - { item: squid, qty: 80, unit: g }
+  - { item: capsicum, qty: 1, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: french beans, qty: 50, unit: g }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the brown rice 30 minutes if you can; it shortens the cook."
+  - "Heat the olive oil in a wide shallow pan; soften the diced onion, garlic and half the capsicum, add the grated tomato and smoked paprika and cook to a thick sofrito."
+  - "Stir in the drained rice, 2 cups hot water and salt; simmer uncovered without stirring about 30 minutes until the rice is nearly tender."
+  - "Lay the remaining capsicum strips, french beans, prawns and squid rings on top, cover loosely and cook 6-8 minutes until the seafood is just opaque and the liquid is absorbed."
+  - "Rest 5 minutes off the heat for the socarrat crust; serve with lemon and parsley."
+swaps:
+  - { for: squid, use: firm white fish fillet, note: "cubes, same timing" }
+source: "Adapted from the traditional Valencian paella de marisco"

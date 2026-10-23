@@ -158,3 +158,116 @@ items:
   - { item: kale, unit: bunch, aisle: produce }
   - { item: snake beans, unit: g, aisle: produce, packSize: 100 }
   - { item: banana, unit: pc, aisle: produce }
+
+  # ---------------------------------------------------------------- Mediterranean / Middle Eastern
+  - { item: extra virgin olive oil, unit: tsp, aisle: pantry, staple: true }
+  - { item: wholemeal pita, unit: pc, aisle: grains, packSize: 6 }
+  - { item: wholemeal bread roll, unit: pc, aisle: grains, packSize: 6 }
+  - { item: wholemeal pasta, unit: g, aisle: grains, packSize: 100 }
+  - { item: bulgur wheat, unit: g, aisle: grains, packSize: 100 }
+  - { item: brown rice, unit: g, aisle: grains, packSize: 100 }
+  - { item: wholemeal couscous, unit: g, aisle: grains, packSize: 100 }
+  - { item: freekeh, unit: g, aisle: grains, packSize: 100 }
+  - { item: pearl barley, unit: g, aisle: grains, packSize: 100 }
+  - { item: cannellini beans, unit: g, aisle: grains, packSize: 100 }
+  - { item: brown lentils, unit: g, aisle: grains, packSize: 100 }
+  - { item: fava beans (canned), unit: g, aisle: pantry, packSize: 400 }
+  - { item: feta, unit: g, aisle: dairy, packSize: 100 }
+  - { item: parmesan, unit: g, aisle: dairy, packSize: 50 }
+  - { item: halloumi, unit: g, aisle: dairy, packSize: 100 }
+  - { item: low-fat cheese (grated), unit: g, aisle: dairy, packSize: 100 }
+  - { item: olives, unit: g, aisle: pantry, packSize: 50 }
+  - { item: capers, unit: tsp, aisle: pantry, staple: true }
+  - { item: canned tomatoes, unit: g, aisle: pantry, packSize: 400 }
+  - { item: tomato paste, unit: tsp, aisle: pantry, staple: true }
+  - { item: zucchini, unit: pc, aisle: produce }
+  - { item: cherry tomatoes, unit: g, aisle: produce, packSize: 100 }
+  - { item: red onion, unit: pc, aisle: produce }
+  - { item: celery, unit: pc, aisle: produce }
+  - { item: fennel bulb, unit: pc, aisle: produce }
+  - { item: cos lettuce, unit: pc, aisle: produce }
+  - { item: parsley, unit: bunch, aisle: produce }
+  - { item: basil, unit: bunch, aisle: produce }
+  - { item: dill, unit: bunch, aisle: produce }
+  - { item: rosemary, unit: sprig, aisle: produce, staple: true }
+  - { item: orange, unit: pc, aisle: produce }
+  - { item: pomegranate, unit: pc, aisle: produce }
+  - { item: mixed berries (frozen), unit: g, aisle: frozen, packSize: 100 }
+  - { item: dried oregano, unit: tsp, aisle: spices, staple: true }
+  - { item: dried thyme, unit: tsp, aisle: spices, staple: true }
+  - { item: dried mint, unit: tsp, aisle: spices, staple: true }
+  - { item: paprika, unit: tsp, aisle: spices, staple: true }
+  - { item: smoked paprika, unit: tsp, aisle: spices, staple: true }
+  - { item: sumac, unit: tsp, aisle: spices, staple: true }
+  - { item: zaatar, unit: tsp, aisle: spices, staple: true }
+  - { item: baharat, unit: tsp, aisle: spices, staple: true }
+  - { item: allspice, unit: tsp, aisle: spices, staple: true }
+  - { item: star anise, unit: pc, aisle: spices, staple: true }
+  - { item: tahini, unit: tbsp, aisle: pantry, staple: true }
+  - { item: harissa, unit: tsp, aisle: pantry, staple: true }
+  - { item: pomegranate molasses, unit: tsp, aisle: pantry, staple: true }
+  - { item: balsamic vinegar, unit: tsp, aisle: pantry, staple: true }
+  - { item: red wine vinegar, unit: tsp, aisle: pantry, staple: true }
+  - { item: dates, unit: pc, aisle: pantry }
+  - { item: pistachios, unit: g, aisle: grains, packSize: 50 }
+  - { item: pine nuts, unit: g, aisle: grains, packSize: 50 }
+  - { item: salmon fillet, unit: g, aisle: fish, packSize: 50 }
+  - { item: squid, unit: g, aisle: fish, packSize: 50 }
+  - { item: tuna (canned in springwater), unit: g, aisle: pantry, packSize: 95 }
+  - { item: lean beef mince, unit: g, aisle: meat, packSize: 50 }
+  - { item: lean beef strips, unit: g, aisle: meat, packSize: 50 }
+  - { item: pork tenderloin (lean), unit: g, aisle: meat, packSize: 50 }
+  - { item: chicken mince, unit: g, aisle: meat, packSize: 50 }
+
+  # ---------------------------------------------------------------- Thai / Vietnamese / Japanese / Korean
+  - { item: brown jasmine rice, unit: g, aisle: grains, packSize: 100 }
+  - { item: brown rice noodles, unit: g, aisle: grains, packSize: 100 }
+  - { item: soba noodles, unit: g, aisle: grains, packSize: 100 }
+  - { item: rice paper, unit: pc, aisle: pantry }
+  - { item: fish sauce, unit: tsp, aisle: pantry, staple: true }
+  - { item: soy sauce (low-sodium), unit: tsp, aisle: pantry, staple: true }
+  - { item: oyster sauce, unit: tsp, aisle: pantry, staple: true }
+  - { item: sesame oil, unit: tsp, aisle: pantry, staple: true }
+  - { item: sesame seeds, unit: tsp, aisle: pantry, staple: true }
+  - { item: rice vinegar, unit: tsp, aisle: pantry, staple: true }
+  - { item: mirin, unit: tsp, aisle: pantry, staple: true }
+  - { item: miso paste, unit: tbsp, aisle: pantry, staple: true }
+  - { item: kombu, unit: g, aisle: pantry, staple: true }
+  - { item: bonito flakes, unit: g, aisle: pantry, staple: true }
+  - { item: wakame (dried), unit: g, aisle: pantry, staple: true }
+  - { item: nori sheets, unit: pc, aisle: pantry }
+  - { item: wasabi, unit: tsp, aisle: pantry, staple: true }
+  - { item: thai red curry paste, unit: tbsp, aisle: pantry, staple: true }
+  - { item: thai green curry paste, unit: tbsp, aisle: pantry, staple: true }
+  - { item: gochujang, unit: tbsp, aisle: pantry, staple: true }
+  - { item: doenjang, unit: tbsp, aisle: pantry, staple: true }
+  - { item: gochugaru (korean chilli flakes), unit: tsp, aisle: spices, staple: true }
+  - { item: kimchi, unit: g, aisle: pantry, packSize: 200 }
+  - { item: roasted barley tea bags, unit: pc, aisle: pantry, staple: true }
+  - { item: galangal, unit: g, aisle: produce }
+  - { item: kaffir lime leaves, unit: pc, aisle: produce, staple: true }
+  - { item: thai basil, unit: bunch, aisle: produce }
+  - { item: red chilli (fresh), unit: pc, aisle: produce }
+  - { item: bean sprouts, unit: g, aisle: produce, packSize: 100 }
+  - { item: bok choy, unit: bunch, aisle: produce }
+  - { item: morning glory (water spinach), unit: bunch, aisle: produce }
+  - { item: chinese broccoli (gai lan), unit: bunch, aisle: produce }
+  - { item: snow peas, unit: g, aisle: produce, packSize: 100 }
+  - { item: green papaya, unit: g, aisle: produce, packSize: 100 }
+  - { item: daikon radish, unit: pc, aisle: produce }
+  - { item: shiitake mushrooms, unit: g, aisle: produce, packSize: 50 }
+  - { item: napa cabbage (wombok), unit: g, aisle: produce, packSize: 200 }
+  - { item: nashi pear, unit: pc, aisle: produce }
+  - { item: sweet potato, unit: pc, aisle: produce }
+  - { item: pumpkin, unit: g, aisle: produce, packSize: 100 }
+
+  # ---------------------------------------------------------------- Mexican
+  - { item: wholemeal tortilla, unit: pc, aisle: grains, packSize: 8 }
+  - { item: corn tortilla, unit: pc, aisle: grains, packSize: 10 }
+  - { item: black beans (dried), unit: g, aisle: grains, packSize: 100 }
+  - { item: pinto beans (dried), unit: g, aisle: grains, packSize: 100 }
+  - { item: avocado, unit: pc, aisle: produce }
+  - { item: jalapeno, unit: pc, aisle: produce }
+  - { item: chipotle in adobo, unit: tsp, aisle: pantry, staple: true }
+  - { item: sweet corn (frozen), unit: g, aisle: frozen, packSize: 100 }
+  - { item: pineapple, unit: g, aisle: produce, packSize: 100 }

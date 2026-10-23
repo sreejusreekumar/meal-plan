@@ -1,0 +1,51 @@
+id: vietnamese.lunch.com-ga-sa
+name: Com Ga Sa Lemongrass Chicken Plate with Do Chua
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: com-tam
+tags: [grill]
+spice: medium
+kidNote: "No chilli in this plate; the pepper is mild."
+packable: true
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 60, fibre: 9, protein: 35, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 150 g grilled lemongrass chicken thigh"
+  - "1 level cup brown rice with mo hanh (spring onion oil)"
+  - "Do chua pickled carrot and daikon"
+  - "Cucumber and tomato slices"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: daikon radish, qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 2, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the brown rice with 1.5 cups water, covered, 35 minutes."
+  - "Pound lemongrass, garlic and shallot; rub into the chicken with fish sauce, soy sauce and black pepper. Marinate 15 minutes."
+  - "Cut carrot and daikon into matchsticks, toss with rice vinegar and salt; leave 15 minutes."
+  - "Warm the rice bran oil, stir in the chopped spring onion and switch off (mo hanh)."
+  - "Grill the chicken 6 minutes a side until charred and cooked through; rest and slice."
+  - "Plate the rice drizzled with the spring onion oil, the chicken, do chua, cucumber and tomato, and scatter coriander."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "grill 5 minutes a side" }
+source: "Adapted from the traditional com tam suon nuong, with chicken and brown rice"

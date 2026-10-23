@@ -1,0 +1,41 @@
+id: mediterranean.breakfast.smashed-cannellini-toast
+name: Smashed cannellini beans on wholemeal toast with a fried egg
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: legume
+family: beans-toast
+tags: [quick]
+spice: medium
+kidNote: "Leave the chilli flakes off the child's toast; a squeeze of lemon and parsley is enough."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 342, carbs: 33, fibre: 10, protein: 20, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 slice wholemeal toast heaped with lemon-garlic smashed cannellini beans"
+  - "1 fried egg on top"
+  - "Cherry tomatoes on the side"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: cannellini beans, qty: 40, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cherry tomatoes, qty: 60, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Soak the cannellini beans overnight and simmer 45-60 minutes until soft, or cook a batch on the weekend and keep in the fridge (about 100 g cooked per serving)."
+  - "Warm half the olive oil with the chopped garlic in a pan 1 minute, add the beans with a splash of their liquid, salt and pepper, and crush roughly with a fork; finish with lemon juice and parsley."
+  - "Toast the bread; fry the egg in the rest of the oil until the white sets."
+  - "Pile the beans on the toast, top with the egg and a pinch of chilli flakes; serve with cherry tomatoes and black coffee or tea."
+source: "Adapted from the Tuscan fagioli all'olio on bread"

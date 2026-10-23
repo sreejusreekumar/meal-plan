@@ -1,0 +1,46 @@
+id: mediterranean.lunch.ratatouille-chickpeas
+name: Ratatouille with chickpeas, baked egg & brown rice
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: legume
+family: ratatouille
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 550, carbs: 63, fibre: 14, protein: 24, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 large bowl ratatouille (eggplant, zucchini, capsicum, onion, tomato, basil) with chickpeas and 1 baked egg"
+  - "1/2 cup brown rice"
+  - "15 g feta crumbled over"
+ingredients:
+  - { item: white chickpeas (chana), qty: 50, unit: g }
+  - { item: brown rice, qty: 30, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: brinjal (eggplant), qty: 100, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: basil, qty: 0.1, unit: bunch }
+  - { item: dried thyme, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: feta, qty: 15, unit: g }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the soaked chickpeas until tender (or use the week's batch). Boil the brown rice in plenty of water 30 minutes and drain."
+  - "Heat the olive oil and soften the diced onion and garlic; add the diced eggplant, zucchini and capsicum and cook 10 minutes, stirring."
+  - "Add the canned tomatoes, thyme, salt and pepper and the chickpeas; simmer 15 minutes until thick."
+  - "Make a hollow, crack in the egg, cover and cook 5-6 minutes until the white is set."
+  - "Scatter basil and feta over; serve with the rice. For a lunchbox hard-boil the egg instead and pack it whole."
+swaps:
+  - { for: white chickpeas (chana), use: cannellini beans }
+  - { for: eggs, use: feta, note: "15 g more feta instead of the egg" }
+source: "Adapted from the Provençal ratatouille"

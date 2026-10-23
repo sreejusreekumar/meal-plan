@@ -1,0 +1,47 @@
+id: mediterranean.lunch.fakes-lentil-soup
+name: Fakes (Greek lentil soup) with wholemeal bread & feta
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: legume
+family: lentil-soup
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Fakes, the everyday Greek brown lentil soup simmered with onion, carrot, garlic, bay and oregano and finished with red wine vinegar."
+nutrition: { kcal: 525, carbs: 62, fibre: 13, protein: 30, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 large bowl fakes (brown lentil soup) with a splash of red wine vinegar"
+  - "1 slice wholemeal bread"
+  - "30 g feta, crumbled over"
+  - "Salad leaves with lemon"
+ingredients:
+  - { item: brown lentils, qty: 75, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: tomato paste, qty: 2, unit: tsp }
+  - { item: bay leaf, qty: 1, unit: pc }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: red wine vinegar, qty: 1, unit: tsp }
+  - { item: feta, qty: 30, unit: g }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Rinse the lentils and bring to the boil in 3 cups water; drain, then return to the pot with fresh water to cover by 3 cm."
+  - "Add the diced onion, carrot, sliced garlic, tomato paste, bay leaf and oregano; simmer uncovered 30 minutes until the lentils are soft and the soup is thick."
+  - "Season with salt and pepper, stir in the olive oil and red wine vinegar and simmer 2 minutes more."
+  - "Dress the salad leaves with lemon juice."
+  - "Serve the soup with the feta crumbled over, the bread and the salad. Packs well in a thermos; carry the feta separately."
+swaps:
+  - { for: feta, use: olives, note: "20 g, for a dairy-free plate" }
+source: "Adapted from the traditional Greek fakes"

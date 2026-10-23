@@ -1,0 +1,47 @@
+id: vietnamese.dinner.tom-rim
+name: Tom Rim Braised Prawns & Garlic Bok Choy
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: fish
+family: tom-rim
+tags: [quick]
+spice: medium
+kidNote: "Leave the chilli out of the child's prawns."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tom rim, prawns braised until sticky in fish sauce, shallot and pepper, a Vietnamese home-cooking staple served with rice."
+nutrition: { kcal: 475, carbs: 49, fibre: 8, protein: 37, satFat: 3, sugar: 2 }
+components:
+  - "Primary: 170 g prawns braised in fish sauce, shallot and black pepper"
+  - "3/4 cup brown rice"
+  - "Bok choy stir-fried with garlic and ginger"
+  - "Tomato wedges"
+ingredients:
+  - { item: prawns (chemmeen), qty: 170, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: sugar, qty: 0.5, unit: tsp }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: garlic, qty: 8, unit: g }
+  - { item: black pepper, qty: 0.5, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 2, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: bok choy, qty: 1, unit: bunch }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+steps:
+  - "Cook the brown rice with 1.25 cups water, covered, 35 minutes."
+  - "Peel the prawns, leaving tails on; toss with 1 tsp fish sauce and the black pepper."
+  - "Heat 1 tsp rice bran oil, melt the sugar until amber, add sliced shallots and half the garlic and fry 1 minute; add the prawns, remaining fish sauce, chilli and 3 tbsp water and braise 4-5 minutes until the sauce is sticky and clings. Finish with spring onion."
+  - "Heat the other tsp of oil, fry the rest of the garlic and the ginger 20 seconds, add the bok choy and stir-fry 2-3 minutes with a splash of water."
+  - "Plate the rice with the prawns, bok choy and tomato."
+swaps:
+  - { for: prawns (chemmeen), use: "squid", note: "braise 3 minutes only" }
+source: "Adapted from the traditional tom rim"

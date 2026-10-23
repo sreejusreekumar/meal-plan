@@ -1,0 +1,45 @@
+id: korean.lunch.sundubu-jjigae
+name: Sundubu Jjigae with Prawns & Brown Rice
+slot: [lunch]
+role: main
+cuisine: korean
+protein: fish
+family: sundubu
+spice: medium
+kidNote: "Ladle out the child's portion before the gochugaru goes in and give them the tofu, prawns and vegetables in the plain broth."
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Sundubu jjigae, the bubbling Korean soft-tofu stew with seafood, served in a small stone pot."
+nutrition: { kcal: 540, carbs: 56, fibre: 10, protein: 40, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl sundubu jjigae (tofu, prawns, kimchi, shiitake, zucchini and bean sprouts in gochugaru broth)"
+  - "1 small bowl brown rice"
+  - "Spring onion and sesame oil to finish"
+ingredients:
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: prawns (chemmeen), qty: 100, unit: g }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: gochugaru (korean chilli flakes), qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times its volume of water, covered 35 minutes, rest 10."
+  - "Warm the sesame oil in a small pot; stir the chopped kimchi, crushed garlic and gochugaru for 2 minutes until fragrant."
+  - "Add 300 ml water, the soy sauce, sliced shiitake and zucchini; simmer 5 minutes."
+  - "Slide in the tofu in large soft chunks (break it with a spoon, the way soft tofu would), then the prawns and bean sprouts; simmer 3-4 minutes until the prawns curl."
+  - "Season with salt, top with spring onion and serve bubbling with the small bowl of rice; eat the vegetables and stew first, rice last."
+swaps:
+  - { for: prawns (chemmeen), use: "squid", note: "add in the last 2 minutes" }
+source: "Adapted from the traditional sundubu jjigae"

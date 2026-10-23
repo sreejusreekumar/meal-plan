@@ -1,0 +1,51 @@
+id: mexican.dinner.chiles-rellenos
+name: Baked chiles rellenos (capsicum stuffed with beans & corn) in tomato-chipotle sauce
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: legume
+family: rellenos
+spice: medium
+kidNote: "Spoon the chipotle into the adults' portion of sauce only; the stuffing itself has no chilli."
+packable: false
+prepMinutes: 20
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chiles rellenos, the Puebla dish of poblano chillies stuffed with cheese or picadillo, traditionally battered and fried, here baked with a bean and corn stuffing."
+nutrition: { kcal: 485, carbs: 51, fibre: 15, protein: 27, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 capsicum stuffed with black beans, sweet corn, onion and egg, baked with 15 g cheese"
+  - "Tomato-chipotle sauce"
+  - "Cos lettuce, cucumber and radish salad with yoghurt-lime dressing"
+ingredients:
+  - { item: capsicum, qty: 1, unit: pc }
+  - { item: black beans (dried), qty: 40, unit: g }
+  - { item: sweet corn (frozen), qty: 40, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: low-fat cheese (grated), qty: 15, unit: g }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: chipotle in adobo, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: radish, qty: 2, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the soaked black beans with salt until soft and drain. Halve the capsicum lengthways and deseed."
+  - "Soften the chopped onion and garlic in the oil with cumin and oregano; stir in the beans and corn, mash lightly, cool a little and bind with the beaten egg and half the coriander."
+  - "Fill the capsicum halves, set in a baking dish, pour the canned tomatoes blended with chipotle and salt around them, and sprinkle the cheese on top. Bake at 200 C for 25-30 minutes until the capsicum is soft."
+  - "Whisk the yoghurt with lime and salt; toss with shredded lettuce, cucumber and radish."
+  - "Serve the stuffed capsicum with the sauce spooned over, coriander on top, salad on the side."
+swaps:
+  - { for: black beans (dried), use: "pinto beans (dried)", note: "same timing" }
+source: "Adapted from the traditional chiles rellenos"

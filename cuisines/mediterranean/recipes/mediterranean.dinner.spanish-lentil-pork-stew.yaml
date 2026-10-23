@@ -1,0 +1,48 @@
+id: mediterranean.dinner.spanish-lentil-pork-stew
+name: Spanish lentil & vegetable stew with pork tenderloin
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: pork
+lean: true
+family: lentil-stew
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 490, carbs: 46, fibre: 13, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 large bowl lentejas (brown lentils, carrot, capsicum, tomato, smoked paprika) with 100 g pork tenderloin pieces"
+  - "Kale wilted into the stew"
+  - "Salad leaves with lemon and olive oil"
+ingredients:
+  - { item: brown lentils, qty: 55, unit: g }
+  - { item: pork tenderloin (lean), qty: 100, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: smoked paprika, qty: 1, unit: tsp }
+  - { item: bay leaf, qty: 1, unit: pc }
+  - { item: kale, qty: 0.25, unit: bunch }
+  - { item: extra virgin olive oil, qty: 2, unit: tsp }
+  - { item: red wine vinegar, qty: 1, unit: tsp }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Cube the pork tenderloin, season with salt, pepper and half the smoked paprika; brown in 1 tsp olive oil 3 minutes and set aside."
+  - "In the same pot soften the diced onion, carrot, capsicum and garlic 6 minutes; add the remaining paprika, bay leaf and canned tomatoes."
+  - "Add the rinsed lentils and 2.5 cups water; simmer 25 minutes until the lentils are tender and the stew is thick."
+  - "Return the pork with the stripped kale leaves and simmer 5 minutes; finish with the vinegar and parsley."
+  - "Dress the salad leaves with lemon and the second teaspoon of olive oil; serve alongside."
+swaps:
+  - { for: pork tenderloin (lean), use: white chickpeas (chana), note: "30 g dry, cooked; then protein is legume and the plate is vegetarian" }
+source: "Adapted from the Spanish lentejas estofadas"

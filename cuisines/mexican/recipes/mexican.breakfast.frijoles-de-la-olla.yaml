@@ -1,0 +1,49 @@
+id: mexican.breakfast.frijoles-de-la-olla
+name: Frijoles de la olla with a fried egg
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: legume
+family: frijoles
+spice: medium
+kidNote: "Serve the child's bowl without the jalapeno in the pico; the beans themselves are mild."
+packable: false
+prepMinutes: 10
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Frijoles de la olla, Mexico's everyday pot of beans simmered with onion and garlic, eaten as a brothy bowl."
+nutrition: { kcal: 345, carbs: 34, fibre: 10, protein: 19, satFat: 3.1, sugar: 0 }
+components:
+  - "Primary: 1 bowl brothy black beans with onion, garlic and oregano"
+  - "1 fried egg on top"
+  - "1 warm corn tortilla and pico de gallo"
+  - "A spoon of yoghurt in place of crema"
+  - "Café de olla, unsweetened (coffee with cinnamon)"
+ingredients:
+  - { item: black beans (dried), qty: 40, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 30, unit: g }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+steps:
+  - "Soak the black beans overnight. Pressure-cook with half the onion, the garlic, oregano and cumin in 2 cups water for 25-30 minutes until creamy; salt at the end. Keep them brothy."
+  - "Pico de gallo: dice the tomato, the rest of the onion and the jalapeno; mix with coriander, lime juice and a pinch of salt."
+  - "Fry the egg in the oil in a non-stick pan until the white is set and the edges crisp."
+  - "Warm the tortilla on a dry pan."
+  - "Ladle the beans into a bowl, top with the egg, pico de gallo and a spoon of yoghurt; tortilla alongside for dipping."
+  - "Café de olla: simmer a cup of water with the cinnamon stick for 3 minutes, stir in the coffee powder, steep, strain; no sugar or piloncillo."
+source: "Adapted from the traditional frijoles de la olla"

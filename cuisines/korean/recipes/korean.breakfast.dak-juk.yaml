@@ -1,0 +1,48 @@
+id: korean.breakfast.dak-juk
+name: Dak Juk (chicken & brown rice porridge) with Kimchi
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: chicken
+family: juk
+spice: medium
+kidNote: "The porridge itself is mild; serve the child's kimchi rinsed or leave it off."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dak juk, the comforting Korean chicken and rice porridge simmered with garlic and ginger, often finished with egg and sesame."
+nutrition: { kcal: 353, carbs: 41, fibre: 7, protein: 21, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl dak juk (brown rice and barley porridge with shredded chicken, carrot, shiitake and a swirled egg)"
+  - "Kimchi (60 g)"
+  - "Sesame seeds and spring onion to finish"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: brown rice, qty: 35, unit: g }
+  - { item: pearl barley, qty: 15, unit: g }
+  - { item: chicken breast, qty: 40, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown rice and barley; soak 20 minutes if there is time (or overnight)."
+  - "Simmer the chicken breast with the ginger, garlic and the white of the spring onion in 500 ml water for 10 minutes; lift out the chicken and shred it."
+  - "Add the drained grains, diced carrot and sliced shiitake to the broth and simmer 25-30 minutes, stirring now and then, until the grains burst and the porridge is thick."
+  - "Return the shredded chicken, season with salt and pepper, then drizzle in the beaten egg while stirring so it sets in ribbons."
+  - "Finish with sesame oil, sesame seeds and green spring onion; serve with kimchi and the barley tea."
+swaps:
+  - { for: chicken breast, use: "tofu (firm)", note: "80 g diced, add in the last 5 minutes" }
+source: "Adapted from the traditional dak juk"

@@ -1,0 +1,45 @@
+id: mediterranean.dinner.briam
+name: Briam (Greek roasted vegetables) with chickpeas, feta & wholemeal bread
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: legume
+family: briam
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 50
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Briam, the Greek oven bake of zucchini, eggplant, capsicum, onion and tomato slow-roasted with olive oil, garlic and parsley."
+nutrition: { kcal: 475, carbs: 53, fibre: 16, protein: 22, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 large portion briam (roasted zucchini, eggplant, capsicum, onion, tomato) with chickpeas baked in"
+  - "25 g feta crumbled over"
+  - "1 slice wholemeal bread"
+ingredients:
+  - { item: zucchini, qty: 1, unit: pc }
+  - { item: brinjal (eggplant), qty: 100, unit: g }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: white chickpeas (chana), qty: 40, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: dried oregano, qty: 1, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: feta, qty: 25, unit: g }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the soaked chickpeas until tender (or use the week's batch). Heat the oven to 200 C."
+  - "Slice the zucchini, eggplant, capsicum, onion and tomato into thick rounds and strips; toss in a baking dish with the chickpeas, canned tomatoes, sliced garlic, most of the parsley, oregano, olive oil, salt and pepper and a splash of water."
+  - "Roast uncovered 45-50 minutes, turning once, until the vegetables are soft and caramelised at the edges and the juices are thick."
+  - "Crumble the feta over, scatter the remaining parsley and serve warm with the slice of bread to mop up the juices."
+swaps:
+  - { for: white chickpeas (chana), use: brown lentils, note: "40 g, cooked, stirred in before baking" }
+source: "Adapted from the traditional Greek briam"

@@ -1,0 +1,47 @@
+id: thai.dinner.khai-jiao
+name: Khai Jiao (Thai omelette) with tomato-chilli sauce & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: egg
+family: omelette
+tags: [quick]
+spice: medium
+kidNote: "Serve the child's omelette with a spoon of the tomato sauce made before the chilli is pounded in."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 505, carbs: 49, fibre: 8, protein: 29, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 fluffy Thai omelette with tofu and spring onion (1 tsp oil)"
+  - "Nam prik-style tomato, chilli, garlic and lime dipping sauce"
+  - "Garlic stir-fried cabbage"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: spring onion, qty: 0.2, unit: bunch }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Char the tomato, shallots, chilli and 4 g of the garlic in a dry pan until blistered; pound to a rough sauce with 1 tsp fish sauce and the lime juice."
+  - "Heat the oil in a non-stick wok; stir-fry the cabbage with the remaining garlic 2 minutes until just tender; set aside."
+  - "Beat the eggs with 1 tsp fish sauce, black pepper, crumbled tofu and spring onion until frothy."
+  - "Pour into the hot wok (still oiled) from a height so it puffs; cook 1-2 minutes, flip, and finish 1 minute until golden."
+  - "Serve the omelette with the tomato-chilli sauce, cabbage and 3/4 cup rice."
+swaps:
+  - { for: tofu (firm), use: "chicken mince", note: "50 g, cooked first (khai jiao moo sap style)" }
+source: "Adapted from the traditional khai jiao, shallow-cooked in a measured teaspoon of oil."

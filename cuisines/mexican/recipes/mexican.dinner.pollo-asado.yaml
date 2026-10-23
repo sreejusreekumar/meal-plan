@@ -1,0 +1,48 @@
+id: mexican.dinner.pollo-asado
+name: Pollo asado (citrus-grilled chicken) with grilled vegetables & black beans
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: chicken
+family: pollo-asado
+spice: medium
+kidNote: "Marinate the child's piece without the chilli powder; orange, lime, garlic and oregano carry the flavour."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pollo asado, the northern Mexican and Sinaloan grilled chicken marinated in citrus juice, garlic, oregano and chilli."
+nutrition: { kcal: 480, carbs: 44, fibre: 12, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 130 g orange-lime grilled chicken thigh (pollo asado)"
+  - "Grilled capsicum, zucchini and onion"
+  - "Black beans with charred sweet corn and coriander"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 130, unit: g }
+  - { item: orange, qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: black beans (dried), qty: 45, unit: g }
+  - { item: sweet corn (frozen), qty: 50, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Whisk orange and lime juice with crushed garlic, oregano, ground cumin, smoked paprika, chilli powder and salt; marinate the chicken thigh 30 minutes or overnight."
+  - "Cook the soaked black beans with salt until soft; char the corn in a dry pan and fold through the beans with coriander."
+  - "Grill the chicken on a hot griddle or under the grill 6-7 minutes a side until charred and cooked through; rest 5 minutes and slice."
+  - "Brush the capsicum, zucchini and onion wedges with the oil and grill alongside until softened and marked."
+  - "Plate the beans and vegetables first, the chicken on top, with a last squeeze of lime."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "130 g, grill 5 minutes a side" }
+source: "Adapted from the traditional pollo asado"

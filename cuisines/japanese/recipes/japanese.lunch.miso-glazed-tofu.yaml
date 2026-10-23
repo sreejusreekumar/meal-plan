@@ -1,0 +1,43 @@
+id: japanese.lunch.miso-glazed-tofu
+name: Miso-Glazed Tofu with Brown Rice, Cabbage & Edamame
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: legume
+family: miso-tofu
+tags: [quick, vegetarian]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 543, carbs: 59, fibre: 10, protein: 30, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 120 g grilled tofu with ginger-miso glaze"
+  - "Cabbage and carrot stir-fry with sesame oil and soy"
+  - "Edamame, 40 g"
+  - "1 small bowl brown rice (60 g uncooked)"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: miso paste, qty: 0.5, unit: tbsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: edamame (frozen), qty: 40, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+steps:
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Press the tofu in paper towel 10 minutes and cut into two thick slabs. Mix the miso with grated ginger and 1 teaspoon water into a spreadable paste."
+  - "Grill the tofu on a lined tray or in a dry non-stick pan 4 minutes a side, spread the miso paste on top and grill 2 minutes more until it blisters."
+  - "Boil the edamame 4 minutes; drain."
+  - "Heat the sesame oil, add the garlic, then the shredded cabbage and carrot matchsticks; stir-fry 3 minutes until just wilted and season with the soy."
+  - "Box the rice with the vegetables, the edamame and the tofu slabs."
+swaps:
+  - { for: tofu (firm), use: eggs, note: "2 eggs as a tamagoyaki omelette" }
+source: "Adapted from the traditional tofu dengaku, oven-grilled with the miso measured"

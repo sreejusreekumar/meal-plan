@@ -1,0 +1,45 @@
+id: korean.dinner.mushroom-tofu-jeongol
+name: Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: legume
+family: jeongol
+spice: medium
+kidNote: "Simmer the child's tofu and vegetables in the plain doenjang broth; the gochugaru is added at the table for the adults."
+packable: false
+prepMinutes: 20
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 490, carbs: 47, fibre: 11, protein: 32, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl beoseot dubu jeongol (tofu, shiitake, mushrooms, napa cabbage, zucchini and carrot simmered in a doenjang-soy broth)"
+  - "2/3 bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: mushrooms, qty: 100, unit: g }
+  - { item: napa cabbage (wombok), qty: 100, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: doenjang, qty: 0.5, unit: tbsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Make the broth: simmer the shiitake stems, crushed garlic, doenjang and soy sauce in 400 ml water for 10 minutes, then strain back into a shallow wide pot."
+  - "Arrange the tofu slabs, shiitake caps, mushrooms, napa cabbage, zucchini half-moons and carrot slices in neat sections in the pot and pour the hot broth over."
+  - "Bring to the table (or keep on the stove) and simmer 8-10 minutes until the vegetables are tender; scatter the spring onion in 5 cm lengths and the gochugaru over the adults' side."
+  - "Finish with the sesame oil and serve with kimchi and the rice, eating the vegetables and tofu from the pot first."
+swaps:
+  - { for: tofu (firm), use: "firm white fish fillet", note: "120 g in chunks, added for the last 5 minutes" }
+source: "Adapted from the traditional beoseot jeongol"

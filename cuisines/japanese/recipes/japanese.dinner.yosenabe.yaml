@@ -1,0 +1,47 @@
+id: japanese.dinner.yosenabe
+name: Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: chicken
+family: nabe
+spice: mild
+packable: false
+prepMinutes: 20
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Yosenabe, the Japanese 'gather-everything' hot pot of chicken, seafood, tofu and vegetables simmered in dashi at the table."
+nutrition: { kcal: 500, carbs: 48, fibre: 10, protein: 39, satFat: 3, sugar: 0 }
+components:
+  - "Primary: hot pot of chicken (50 g), prawns (50 g) and tofu (60 g) in dashi-soy"
+  - "Napa cabbage, shiitake, carrot and daikon from the pot"
+  - "Lemon and a drizzle of sesame oil"
+  - "Small bowl brown rice (45 g uncooked)"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 50, unit: g }
+  - { item: prawns (chemmeen), qty: 50, unit: g }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: napa cabbage (wombok), qty: 150, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: kombu, qty: 3, unit: g }
+  - { item: bonito flakes, qty: 3, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: brown rice, qty: 45, unit: g }
+steps:
+  - "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Make 600 ml dashi: soak the kombu 15 minutes, bring to a simmer, remove it, add the bonito flakes, rest 2 minutes and strain. Season with the soy."
+  - "Cut the napa cabbage into 4 cm pieces, the carrot and daikon into thin rounds, the tofu into cubes; halve the shiitake. Trim and cube the chicken; peel the prawns."
+  - "Simmer the daikon and carrot in the dashi 5 minutes, add the chicken and cabbage stalks for 5 minutes, then the cabbage leaves, shiitake and tofu for 3 minutes."
+  - "Add the prawns for the final 2 minutes and finish with spring onion, a squeeze of lemon and the sesame oil."
+  - "Eat the vegetables and broth first, then the chicken, prawns and tofu, with the small bowl of rice."
+swaps:
+  - { for: prawns (chemmeen), use: "firm white fish fillet", note: "60 g, add 3 minutes before the end" }
+source: "Adapted from the traditional yosenabe"

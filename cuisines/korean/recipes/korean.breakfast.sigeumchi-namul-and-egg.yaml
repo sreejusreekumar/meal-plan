@@ -1,0 +1,45 @@
+id: korean.breakfast.sigeumchi-namul-and-egg
+name: Sigeumchi Namul (sesame spinach) with Fried Egg, Edamame & Brown Rice
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: egg
+family: namul-egg
+tags: [quick]
+spice: medium
+kidNote: "Only the kimchi is spicy; serve the child's kimchi rinsed or swap it for more spinach."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 373, carbs: 39, fibre: 8, protein: 19, satFat: 3, sugar: 0 }
+components:
+  - "Primary: sigeumchi namul (blanched spinach with garlic, soy and sesame) topped with a fried egg"
+  - "1 small bowl brown rice (45 g uncooked)"
+  - "Edamame (40 g) and kimchi (60 g)"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: edamame (frozen), qty: 40, unit: g }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice (45 g uncooked) or reheat rice from the night before."
+  - "Boil the edamame 4 minutes in salted water, scoop out, then blanch the spinach 30 seconds in the same water; cool, squeeze dry and chop."
+  - "Toss the spinach with crushed garlic, soy sauce, sesame oil and most of the sesame seeds."
+  - "Fry the egg in the rice bran oil until the white is set and the yolk still soft."
+  - "Plate the spinach with the egg on top, the rice, edamame and kimchi; scatter the remaining sesame seeds and pour the barley tea."
+swaps:
+  - { for: spinach, use: "zucchini", note: "0.5 pc, sliced and sauteed in the rice bran oil (hobak namul)" }
+source: "Adapted from the traditional sigeumchi namul"

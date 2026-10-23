@@ -1,0 +1,48 @@
+id: mediterranean.dinner.stuffed-capsicums
+name: Stuffed capsicums with brown rice, lentils & pine nuts
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: legume
+family: stuffed-capsicum
+spice: mild
+packable: false
+prepMinutes: 20
+cookMinutes: 45
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 485, carbs: 52, fibre: 11, protein: 20, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 large capsicum stuffed with brown rice, brown lentils, herbs and pine nuts, baked in tomato"
+  - "20 g feta crumbled over"
+  - "Cos lettuce and cucumber salad with lemon"
+ingredients:
+  - { item: capsicum, qty: 1, unit: pc }
+  - { item: brown rice, qty: 20, unit: g }
+  - { item: brown lentils, qty: 45, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: canned tomatoes, qty: 75, unit: g }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: pine nuts, qty: 10, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: feta, qty: 20, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: red wine vinegar, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Boil the brown rice 25 minutes and the rinsed lentils 20 minutes (separately or together), until just tender; drain."
+  - "Soften the diced onion and garlic in the olive oil; stir in the rice, lentils, pine nuts, chopped parsley and dill, oregano, half the canned tomatoes, salt and pepper."
+  - "Halve the capsicum lengthways, remove the seeds and fill the halves with the mixture; set in a small dish with the remaining canned tomatoes and a splash of water around them."
+  - "Cover with foil and bake at 190 C for 30 minutes, then uncover 10 minutes more until the capsicum is soft."
+  - "Crumble the feta over and serve with shredded cos and cucumber dressed with lemon and vinegar."
+swaps:
+  - { for: capsicum, use: tomato, note: "2 large hollowed tomatoes, bake 25 minutes" }
+source: "Adapted from the Greek gemista"

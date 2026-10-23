@@ -1,0 +1,48 @@
+id: japanese.breakfast.tuna-cucumber-onigiri
+name: Tuna & Cucumber Onigiri with Miso Soup
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: fish
+family: tuna-onigiri
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 343, carbs: 42, fibre: 7, protein: 22, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 2 brown-rice onigiri (45 g uncooked) with vinegared tuna and cucumber, wrapped in nori"
+  - "Miso soup with cabbage, carrot, tofu and wakame"
+  - "Green tea"
+ingredients:
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: tuna (canned in springwater), qty: 50, unit: g }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: cabbage, qty: 50, unit: g }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: tofu (firm), qty: 30, unit: g }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water, about 30 minutes."
+  - "Drain the tuna well and mix with the finely diced cucumber, rice vinegar, soy and toasted sesame."
+  - "Make dashi from the kombu and bonito in 300 ml water; simmer the shredded cabbage and carrot in it 4 minutes, add the cubed tofu and wakame for 2 minutes, then dissolve the miso off the heat and add spring onion."
+  - "With wet, lightly salted hands shape the warm rice into two triangles around the tuna filling and wrap each in a half sheet of nori."
+  - "Serve the onigiri with the soup and a cup of green tea."
+swaps:
+  - { for: tuna (canned in springwater), use: "salmon fillet", note: bake and flake 50 g }
+source: "Adapted from the traditional tuna onigiri, without mayonnaise"

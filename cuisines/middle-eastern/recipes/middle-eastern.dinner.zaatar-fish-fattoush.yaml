@@ -1,0 +1,49 @@
+id: middle-eastern.dinner.zaatar-fish-fattoush
+name: Grilled zaatar fish with fattoush-style salad & tahini drizzle
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: fish
+family: zaatar-fish
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 470, carbs: 38, fibre: 10, protein: 33, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g grilled white fish crusted with zaatar"
+  - "Fattoush-style salad with half a toasted wholemeal pita and sumac-pomegranate dressing"
+  - "Lemon-tahini drizzle (1 tbsp tahini)"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: zaatar, qty: 1.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: sumac, qty: 1, unit: tsp }
+  - { item: pomegranate molasses, qty: 1, unit: tsp }
+  - { item: tahini, qty: 1, unit: tbsp }
+steps:
+  - "Rub the fish with the zaatar, half the olive oil, salt and pepper; grill or pan-sear 3-4 minutes a side."
+  - "Tear the half pita into shards and toast dry until crisp."
+  - "Chop the lettuce, tomato, cucumber, red onion, capsicum, parsley and mint; whisk half the lemon juice with the sumac, pomegranate molasses, remaining oil and a pinch of salt and toss through with the pita shards."
+  - "Whisk the tahini with the remaining lemon juice, the crushed garlic and water to a drizzle."
+  - "Serve the fish on the fattoush with the tahini spooned over."
+swaps:
+  - { for: firm white fish fillet, use: "salmon fillet", note: "use 120 g" }
+source: "Adapted from Lebanese zaatar fish and fattoush"

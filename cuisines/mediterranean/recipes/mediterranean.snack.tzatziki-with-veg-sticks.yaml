@@ -1,0 +1,39 @@
+id: mediterranean.snack.tzatziki-with-veg-sticks
+name: Tzatziki with carrot and capsicum sticks, green tea
+slot: [snack]
+role: main
+cuisine: mediterranean
+protein: dairy
+family: tzatziki
+tags: [quick, no-cook]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 3
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tzatziki, the Greek dip of strained yoghurt, grated cucumber, garlic and dill."
+nutrition: { kcal: 137, carbs: 15, fibre: 3, protein: 8, satFat: 1, sugar: 0 }
+components:
+  - "Small bowl of tzatziki (yoghurt, cucumber, dill, garlic)"
+  - "Carrot and capsicum sticks for dipping"
+  - "Green tea (unsweetened)"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 120, unit: g }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 0.5, unit: tsp }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Grate the cucumber, salt it and squeeze out the water in your fist."
+  - "Stir the cucumber into the yoghurt with the crushed garlic, chopped dill, lemon juice and olive oil."
+  - "Cut the carrot and capsicum into sticks."
+  - "Steep the green tea bag 2-3 minutes in hot (not boiling) water; serve with the dip and sticks."
+source: "Adapted from the traditional tzatziki"

@@ -1,0 +1,43 @@
+id: japanese.dinner.torijiru
+name: Torijiru (Tonjiru-Style Chicken & Root Vegetable Miso Soup) with Brown Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: chicken
+family: tonjiru
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tonjiru, the hearty Japanese miso soup of thin pork and root vegetables; made here with chicken thigh (torijiru) so the pack keeps red meat to twice."
+nutrition: { kcal: 468, carbs: 49, fibre: 9, protein: 31, satFat: 3, sugar: 0 }
+components:
+  - "Primary: big bowl of miso soup with 110 g chicken thigh, daikon, carrot, pumpkin and shiitake"
+  - "Spring onion and ginger to finish"
+  - "Small bowl brown rice (40 g uncooked)"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 110, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: pumpkin, qty: 80, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Cook the brown rice (40 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Soak the kombu in 400 ml water for 15 minutes. Cut the daikon and carrot into thin quarter-rounds, the pumpkin into 2 cm cubes; slice the shiitake. Trim the chicken and slice thin."
+  - "Heat the sesame oil in a pot and stir the chicken 2 minutes, then the daikon, carrot and shiitake 2 minutes more."
+  - "Add the kombu water (remove the kombu once it simmers) and the pumpkin; simmer 15 minutes until the roots are tender."
+  - "Dissolve the miso in a ladle of the broth and stir it back in off the boil; do not reboil."
+  - "Serve in a large bowl with sliced spring onion and a little grated ginger on top, the small bowl of rice alongside."
+swaps:
+  - { for: chicken thigh (boneless), use: "pork tenderloin (lean)", note: "the classic tonjiru; counts as red meat for the week" }
+source: "Adapted from the traditional tonjiru"

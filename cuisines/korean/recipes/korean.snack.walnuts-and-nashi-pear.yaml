@@ -1,0 +1,34 @@
+id: korean.snack.walnuts-and-nashi-pear
+name: Walnuts with Nashi Pear, Yoghurt & Barley Tea
+slot: [snack]
+role: main
+cuisine: korean
+protein: dairy
+family: walnuts
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 5
+cookMinutes: 0
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 178, carbs: 15, fibre: 5, protein: 5, satFat: 1, sugar: 0 }
+components:
+  - "Primary: half a nashi pear (bae), sliced, with walnuts (15 g)"
+  - "Low-fat yoghurt (50 g) for dipping"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: nashi pear, qty: 0.5, unit: pc }
+  - { item: walnuts, qty: 15, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Core and slice half a nashi pear; squeeze a little lemon or water over if it will sit a while."
+  - "Toast the walnuts 2 minutes in a dry pan for extra crunch, or serve raw."
+  - "Steep the barley tea bag in hot water (or pour over ice)."
+  - "Serve the pear and walnuts with the yoghurt as a dip and the tea."
+swaps:
+  - { for: walnuts, use: "almonds", note: "same weight" }
+source: "Korean nashi pear (bae) and walnut after-meal plate"

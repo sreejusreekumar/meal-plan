@@ -1,0 +1,47 @@
+id: korean.dinner.dakdoritang
+name: Dakdoritang (Spicy Chicken & Potato Stew) with Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: chicken
+family: dakdoritang
+spice: medium
+kidNote: "Lift out a share of chicken, potato and carrot before the gochujang-gochugaru paste goes in, and simmer it in soy and garlic only."
+packable: false
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dakdoritang (dakbokkeumtang), the Korean braised chicken stew with potato and carrot in a gochujang broth."
+nutrition: { kcal: 470, carbs: 50, fibre: 10, protein: 37, satFat: 3, sugar: 1 }
+components:
+  - "Primary: 1 bowl dakdoritang (chicken thigh, half a potato, carrot, onion and zucchini in gochujang broth)"
+  - "Half a small bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: potato, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: gochujang, qty: 0.33, unit: tbsp }
+  - { item: gochugaru (korean chilli flakes), qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: brown rice, qty: 30, unit: g }
+steps:
+  - "Cook the brown rice (rinse, 1.5 times water, covered 35 minutes); only half a bowl tonight because the potato carries part of the carbohydrate."
+  - "Cut the chicken thigh into large chunks; blanch 1 minute in boiling water and drain to keep the broth clean."
+  - "Mix the gochujang, gochugaru, soy sauce, crushed garlic and ginger with 300 ml water in a pot; add the chicken, the potato and carrot in big pieces and the onion in wedges."
+  - "Bring to a boil, then simmer uncovered 20 minutes until the potato is tender and the sauce has reduced and thickened."
+  - "Add the zucchini in chunks for the last 5 minutes; season with salt and finish with the spring onion."
+  - "Serve with the kimchi and the half bowl of rice; eat the vegetables and chicken first."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "add 10 minutes into the simmer so it does not dry out" }
+source: "Adapted from the traditional dakdoritang"

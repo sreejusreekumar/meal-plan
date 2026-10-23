@@ -1,0 +1,47 @@
+id: mediterranean.dinner.prawn-zucchini-spaghetti
+name: Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: fish
+family: prawn-pasta
+tags: [quick]
+spice: medium
+kidNote: "Leave the chilli flakes out of the pan and sprinkle them on the adults' plates only."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 480, carbs: 44, fibre: 9, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 130 g prawns tossed with garlic, lemon, chilli and parsley"
+  - "60 g wholemeal spaghetti with zucchini ribbons and cherry tomatoes"
+  - "10 g toasted pine nuts; salad leaves with balsamic"
+ingredients:
+  - { item: prawns (chemmeen), qty: 130, unit: g }
+  - { item: wholemeal pasta, qty: 60, unit: g }
+  - { item: zucchini, qty: 1, unit: pc }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: capers, qty: 1, unit: tsp }
+  - { item: pine nuts, qty: 10, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: balsamic vinegar, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Boil the spaghetti in salted water until al dente; keep a cup of the water."
+  - "Shave the zucchini into ribbons with a peeler; toast the pine nuts in a dry pan and set aside."
+  - "Heat the olive oil, add the sliced garlic and chilli flakes for 30 seconds, then the prawns; cook 2 minutes a side until pink."
+  - "Add the zucchini ribbons, halved cherry tomatoes and capers with a splash of pasta water; toss 2 minutes."
+  - "Toss in the drained spaghetti, lemon zest and juice, parsley and pepper; top with the pine nuts. Salad leaves with balsamic alongside."
+swaps:
+  - { for: prawns (chemmeen), use: squid, note: "rings, 2 minutes only" }
+source: "Adapted from the Italian spaghetti con gamberi e zucchine"

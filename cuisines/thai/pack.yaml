@@ -1,0 +1,25 @@
+id: thai
+name: Thai
+version: 1
+description: "Thai home cooking for a pre-diabetic household: brown jasmine rice measured, thin coconut milk, stir-fried greens, grilled and steamed fish, herbs and lime instead of sugar."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · greens first
+  snack: 4 pm
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: "Greens or salad first, then the fish, chicken or tofu dish, then one level cup of brown jasmine rice last."
+  - title: Walk after meals
+    text: "10–15 minutes of brisk walking right after lunch and dinner."
+  - title: Sugar and fat are measured
+    text: "No palm sugar in sauces; thin coconut milk only; oil 1 teaspoon per stir-fry."
+  - title: Skip completely
+    text: "White rice, fried spring rolls, sweet Thai iced tea and sticky rice desserts."

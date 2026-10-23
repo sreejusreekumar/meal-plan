@@ -1,0 +1,35 @@
+id: japanese.snack.boiled-egg-soy-wasabi
+name: Boiled Egg with Soy & Wasabi, Green Tea
+slot: [snack]
+role: main
+cuisine: japanese
+protein: egg
+family: egg-snack
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 3
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 104, carbs: 5, fibre: 3, protein: 9, satFat: 1.6, sugar: 0 }
+components:
+  - "Primary: 1 boiled egg with a soy-wasabi dip"
+  - "Cucumber and carrot sticks, 1 sheet roasted nori"
+  - "Green tea"
+ingredients:
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: wasabi, qty: 0.25, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Boil the egg 9 minutes, cool under the tap, peel and halve."
+  - "Stir the wasabi into the soy for a dip; cut the cucumber and carrot into sticks."
+  - "Toast the nori sheet 20 seconds in a dry pan and cut into strips to wrap around the egg or vegetables."
+  - "Serve with a cup of green tea; leave the wasabi out of the child's dip."
+source: "Japanese home snack of yude tamago with wasabi-joyu"

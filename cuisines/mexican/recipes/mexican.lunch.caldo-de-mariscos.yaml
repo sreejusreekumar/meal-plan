@@ -1,0 +1,48 @@
+id: mexican.lunch.caldo-de-mariscos
+name: Caldo de mariscos (prawn & squid soup) with baked tortilla strips
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: fish
+family: tortilla-soup
+spice: medium
+kidNote: "Add the chipotle to the adults' bowls at the table instead of into the pot."
+packable: true
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 53, fibre: 12, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 large bowl prawn and squid soup in smoky tomato broth with capsicum, zucchini and corn"
+  - "2 corn tortillas cut into strips and baked crisp"
+  - "Quarter avocado, coriander and lime to finish"
+ingredients:
+  - { item: prawns (chemmeen), qty: 100, unit: g }
+  - { item: squid, qty: 80, unit: g }
+  - { item: canned tomatoes, qty: 150, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: chipotle in adobo, qty: 1, unit: tsp }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: sweet corn (frozen), qty: 50, unit: g }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Cut the tortillas into thin strips, spread on a tray and bake at 200 C for 8 minutes until crisp."
+  - "Soften the chopped onion, garlic and diced capsicum in 1 tsp oil; add cumin and oregano, then the canned tomatoes and 400 ml water. Simmer 10 minutes and blend half of it smooth."
+  - "Add the diced zucchini and corn; simmer 5 minutes."
+  - "Drop in the cleaned prawns and squid rings with the chipotle and salt; cook 3 minutes only so the seafood stays tender."
+  - "Serve with the tortilla strips, diced avocado, coriander and lime on top. For a lunchbox carry the soup in a flask and the strips in a separate box."
+swaps:
+  - { for: squid, use: "firm white fish fillet", note: "add in chunks with the prawns" }
+source: "Adapted from the traditional caldo de mariscos and sopa de tortilla"

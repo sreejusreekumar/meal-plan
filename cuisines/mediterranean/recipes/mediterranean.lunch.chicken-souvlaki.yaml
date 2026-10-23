@@ -1,0 +1,46 @@
+id: mediterranean.lunch.chicken-souvlaki
+name: Chicken souvlaki with tzatziki, salad & wholemeal pita
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: chicken
+family: souvlaki
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 505, carbs: 45, fibre: 8, protein: 40, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 140 g chicken thigh souvlaki skewers with lemon and oregano"
+  - "Tzatziki (100 g yoghurt, cucumber, garlic, dill)"
+  - "Tomato, cos lettuce, red onion and olive salad"
+  - "1 wholemeal pita"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 140, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: dried oregano, qty: 1, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: olives, qty: 15, unit: g }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Cube the chicken thigh and marinate 15 minutes (or overnight) in the olive oil, lemon juice, oregano, half the garlic, salt and pepper."
+  - "Grate half the cucumber, squeeze out the water and stir into the yoghurt with the rest of the garlic, chopped dill and a pinch of salt for the tzatziki."
+  - "Thread the chicken onto skewers and grill or pan-sear on high 10-12 minutes, turning, until charred at the edges and cooked through."
+  - "Slice the tomato, remaining cucumber and red onion, shred the cos lettuce and toss with the olives."
+  - "Warm the pita and serve everything together; for a lunchbox pack the tzatziki separately."
+swaps:
+  - { for: chicken thigh (boneless), use: chicken breast, note: "cook 8-9 minutes" }
+source: "Adapted from the traditional Greek souvlaki plate"

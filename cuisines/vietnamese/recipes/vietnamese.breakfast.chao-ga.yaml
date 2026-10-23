@@ -1,0 +1,47 @@
+id: vietnamese.breakfast.chao-ga
+name: Chao ga (chicken and ginger brown rice congee)
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: chao
+tags: [soup, one-pot]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chao ga, the Vietnamese chicken rice porridge: rice simmered in chicken broth with ginger until soft, topped with shredded chicken, herbs and black pepper, eaten all over Vietnam for breakfast or when unwell."
+nutrition: { kcal: 345, carbs: 40, fibre: 6, protein: 22, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl chao ga - brown rice congee with shredded chicken and ginger"
+  - "Spring onion, coriander, bean sprouts and roasted peanuts on top"
+  - "Lime wedge and black pepper"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: chicken (bone-in curry cut), qty: 100, unit: g }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: bean sprouts, qty: 40, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown rice. Put it in a pot with the chicken, half the ginger (sliced), the shallot and 700 ml water; bring to a boil and skim."
+  - "Simmer uncovered 35-40 minutes, stirring now and then, until the rice has burst and the congee is loose and creamy; add water if it thickens too much."
+  - "Lift out the chicken, shred the meat off the bone and return it to the pot; season with fish sauce, salt and pepper."
+  - "Dry-roast the peanuts in a small pan 3 minutes and crush them coarsely; cut the remaining ginger into fine threads."
+  - "Ladle into a bowl and top with ginger threads, spring onion, coriander, bean sprouts, peanuts and a squeeze of lime."
+  - "Brew the green tea, cool and serve over ice."
+swaps:
+  - { for: chicken (bone-in curry cut), use: "chicken breast", note: "use 60 g, poach in the congee for the last 15 minutes and shred" }
+source: "Adapted from the traditional chao ga, made with brown rice"

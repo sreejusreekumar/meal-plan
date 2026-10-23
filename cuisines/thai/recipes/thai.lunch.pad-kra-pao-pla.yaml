@@ -1,0 +1,48 @@
+id: thai.lunch.pad-kra-pao-pla
+name: Pad Kra Pao Pla (holy-basil fish stir-fry) & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: fish
+family: kra-pao
+tags: [quick]
+spice: medium
+kidNote: "Stir-fry the garlic without the chillies, plate the child's portion, then add the chillies for the adults' pan."
+packable: true
+prepMinutes: 10
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 515, carbs: 59, fibre: 10, protein: 42, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 plate fish stir-fried with holy basil, garlic and chilli"
+  - "French beans, capsicum, mushrooms and cherry tomatoes in the stir-fry"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: firm white fish fillet, qty: 170, unit: g }
+  - { item: thai basil, qty: 0.25, unit: bunch }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: oyster sauce, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: french beans, qty: 80, unit: g }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 80, unit: g }
+  - { item: cherry tomatoes, qty: 60, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes)."
+  - "Cut the fish into 3 cm chunks and pat dry. Pound the garlic and chillies roughly."
+  - "Heat the oil in a wok, sear the fish 2 minutes until just golden and lift out."
+  - "Fry the garlic-chilli paste and shallots 30 seconds, add the beans, capsicum and mushrooms; stir-fry 3 minutes with a splash of water."
+  - "Return the fish with the tomatoes, oyster sauce, fish sauce and soy; toss gently 1 minute, then fold in the basil off the heat."
+  - "Serve with 1 level cup rice."
+swaps:
+  - { for: firm white fish fillet, use: "squid", note: "170 g, 1 minute in the wok" }
+source: "Adapted from the traditional pad kra pao, made with fish and no sugar."

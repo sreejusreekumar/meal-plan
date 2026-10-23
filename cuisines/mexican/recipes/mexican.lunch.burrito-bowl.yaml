@@ -1,0 +1,48 @@
+id: mexican.lunch.burrito-bowl
+name: Burrito bowl with brown rice, black beans & grilled chicken
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: chicken
+family: burrito-bowl
+spice: medium
+kidNote: "Skip the jalapeno in the salsa and use only a pinch of chilli powder on the child's chicken."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Burrito bowl, the unwrapped version of the northern Mexican burrito: rice, beans, grilled meat, salsa and avocado served in a bowl instead of a flour tortilla."
+nutrition: { kcal: 540, carbs: 56, fibre: 13, protein: 37, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 100 g grilled chilli-lime chicken over 40 g (dry) brown rice and black beans"
+  - "Pico de gallo salsa (tomato, red onion, jalapeno, lime, coriander)"
+  - "Quarter avocado and shredded cos lettuce"
+ingredients:
+  - { item: chicken breast, qty: 100, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: black beans (dried), qty: 40, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Rinse the brown rice and simmer in plenty of water 30 minutes; drain. Cook the soaked black beans with salt and half the cumin until soft."
+  - "Marinate the chicken with crushed garlic, ground cumin, chilli powder, oregano, lime juice and salt for 10 minutes."
+  - "Grill or pan-sear the chicken in 1 tsp oil 5-6 minutes a side; rest and slice."
+  - "Dice the tomato, red onion and jalapeno; mix with coriander, lime and salt for the pico de gallo."
+  - "Layer the bowl: lettuce, rice, beans, chicken, salsa, and a quarter avocado sliced on top. Travels well; keep the avocado with a squeeze of lime."
+swaps:
+  - { for: chicken breast, use: "tofu (firm)", note: "150 g, same marinade and grilling" }
+source: "Adapted from the traditional burrito"

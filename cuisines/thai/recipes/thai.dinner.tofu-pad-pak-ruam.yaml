@@ -1,0 +1,43 @@
+id: thai.dinner.tofu-pad-pak-ruam
+name: Tofu Pad Pak Ruam (mixed vegetable stir-fry) & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: legume
+family: tofu-stir-fry
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pad pak ruam mit, the Thai mixed-vegetable stir-fry with garlic and soy, here with pan-seared tofu."
+nutrition: { kcal: 475, carbs: 50, fibre: 10, protein: 31, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 plate seared tofu stir-fried with bok choy, beans, mushrooms and cabbage"
+  - "Garlic, ginger, soy and black pepper"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: tofu (firm), qty: 150, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: french beans, qty: 60, unit: g }
+  - { item: mushrooms, qty: 60, unit: g }
+  - { item: cabbage, qty: 60, unit: g }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Press the tofu dry and cut into 2 cm cubes. Cut the vegetables into bite-size pieces, keeping bok choy leaves whole."
+  - "Heat the oil in a wok and sear the tofu until golden on two sides; push to the side."
+  - "Add the garlic and ginger, then the beans, mushrooms and cabbage; stir-fry 3 minutes with a splash of water."
+  - "Add the bok choy and soy sauce; toss 1 minute until just wilted. Finish with black pepper and serve with 3/4 cup rice."
+swaps:
+  - { for: tofu (firm), use: "eggs", note: "2 eggs scrambled into the stir-fry" }
+source: "Adapted from the traditional pad pak ruam mit, soy in place of oyster sauce."

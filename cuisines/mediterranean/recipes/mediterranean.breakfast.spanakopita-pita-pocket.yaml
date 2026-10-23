@@ -1,0 +1,41 @@
+id: mediterranean.breakfast.spanakopita-pita-pocket
+name: Spanakopita-style spinach and feta wholemeal pita pocket, baked
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: dairy
+family: pita-pocket
+tags: [weekend]
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekend
+treat: true
+refinedCarb: false
+signature: true
+basedOn: "Spanakopita, the Greek spinach and feta pie in filo pastry, here baked as a filling inside a wholemeal pita instead of pastry."
+nutrition: { kcal: 372, carbs: 34, fibre: 8, protein: 19, satFat: 6, sugar: 0 }
+components:
+  - "Primary: 1 wholemeal pita pocket stuffed with spinach, feta, egg and dill, baked crisp"
+  - "Cherry tomatoes with lemon"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: feta, qty: 25, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: salt, qty: 0.2, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Heat the oven to 200 C. Wash and chop the spinach; soften the chopped onion in half the olive oil 3 minutes, add the spinach and cook until wilted and dry; cool slightly."
+  - "Mix in the crumbled feta, beaten egg, chopped dill, pepper and a small pinch of salt."
+  - "Cut the pita in half, open the pockets and fill each with the spinach mixture; brush the outside with the rest of the oil."
+  - "Bake 15-18 minutes on a tray until the pita is crisp and the filling set."
+  - "Serve with cherry tomatoes squeezed with lemon and black coffee or tea."
+source: "Adapted from the traditional spanakopita"

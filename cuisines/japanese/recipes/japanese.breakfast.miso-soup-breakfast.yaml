@@ -1,0 +1,43 @@
+id: japanese.breakfast.miso-soup-breakfast
+name: Miso Soup Breakfast with Tofu, Wakame & Egg
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: legume
+family: miso-breakfast
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Asagohan no misoshiru, the everyday Japanese breakfast of a hearty miso soup with tofu and wakame, an egg and a small bowl of rice."
+nutrition: { kcal: 366, carbs: 38, fibre: 8, protein: 22, satFat: 2.2, sugar: 0 }
+components:
+  - "Primary: 1 large bowl miso soup with tofu, wakame, shiitake, spinach and a poached egg"
+  - "Small bowl brown rice (40 g uncooked) with shredded nori"
+  - "Green tea"
+ingredients:
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: wakame (dried), qty: 3, unit: g }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water, about 30 minutes."
+  - "Make dashi from the kombu and bonito in 400 ml water; strain and return to the pot."
+  - "Add the sliced shiitake and simmer 3 minutes; add the cubed tofu and the wakame and simmer 2 minutes more."
+  - "Crack the egg into the gently simmering soup and poach 3 minutes; add the chopped spinach for the last minute."
+  - "Take the pot off the heat, dissolve the miso through a ladle, and add sliced spring onion."
+  - "Serve the soup with the rice topped with shredded nori, and a cup of green tea."
+source: "Adapted from the traditional Japanese breakfast miso soup"

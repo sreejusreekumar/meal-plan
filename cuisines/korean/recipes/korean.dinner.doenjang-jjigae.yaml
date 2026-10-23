@@ -1,0 +1,47 @@
+id: korean.dinner.doenjang-jjigae
+name: Doenjang Jjigae with Tofu, Zucchini & Mushrooms
+slot: [dinner]
+role: main
+cuisine: korean
+protein: legume
+family: doenjang
+spice: medium
+kidNote: "Doenjang is mild; skip the pinch of gochugaru in the child's bowl and give them a tiny taste of kimchi only."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Doenjang jjigae, the everyday Korean fermented soybean-paste stew with tofu and vegetables."
+nutrition: { kcal: 500, carbs: 48, fibre: 12, protein: 33, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl doenjang jjigae (tofu, zucchini, mushrooms, shiitake and onion in soybean-paste broth)"
+  - "Spinach namul with sesame oil"
+  - "2/3 bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: doenjang, qty: 1, unit: tbsp }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 60, unit: g }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Dissolve the doenjang in 350 ml water with the crushed garlic; add the diced onion and the sliced shiitake and simmer 5 minutes."
+  - "Add the diced zucchini and sliced mushrooms and simmer 5 minutes more."
+  - "Slide in the tofu in cubes with the gochugaru; simmer gently 3-4 minutes and finish with spring onion."
+  - "Blanch the spinach 30 seconds, squeeze and dress with the sesame oil and a pinch of salt."
+  - "Serve the stew with the namul, kimchi and the rice; vegetables and stew first, rice last."
+swaps:
+  - { for: tofu (firm), use: "prawns (chemmeen)", note: "120 g, added in the last 3 minutes" }
+source: "Adapted from the traditional doenjang jjigae"

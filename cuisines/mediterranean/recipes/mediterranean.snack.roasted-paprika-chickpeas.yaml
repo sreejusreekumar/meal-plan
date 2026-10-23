@@ -1,0 +1,34 @@
+id: mediterranean.snack.roasted-paprika-chickpeas
+name: Roasted chickpeas with paprika and oregano, green tea
+slot: [snack]
+role: main
+cuisine: mediterranean
+protein: legume
+family: chickpeas
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Garbanzos tostados, the crunchy paprika-roasted chickpeas served as a tapa in Spain and, with oregano, as a Greek meze."
+nutrition: { kcal: 130, carbs: 13, fibre: 5, protein: 6, satFat: 1, sugar: 0 }
+components:
+  - "Small handful of crunchy roasted chickpeas with smoked paprika and oregano"
+  - "Green tea (unsweetened)"
+ingredients:
+  - { item: white chickpeas (chana), qty: 30, unit: g }
+  - { item: extra virgin olive oil, qty: 0.5, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Use chickpeas soaked and boiled earlier in the week (30 g dry gives about 75 g cooked); pat them completely dry on a towel."
+  - "Toss with the olive oil, paprika, oregano and salt."
+  - "Spread on a tray and roast at 220 C for 15 minutes (or 10 minutes in an air fryer), shaking once, until crunchy; cool 2 minutes so they crisp."
+  - "Steep the green tea bag 2-3 minutes in hot water and serve with the warm chickpeas."
+source: "Adapted from the traditional garbanzos tostados"

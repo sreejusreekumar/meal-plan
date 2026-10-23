@@ -1,0 +1,50 @@
+id: mexican.lunch.fish-tacos
+name: Grilled fish tacos with cabbage slaw & lime crema
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: fish
+family: fish-tacos
+tags: [quick]
+spice: medium
+kidNote: "Leave the jalapeno out of the child's slaw and crema; the fish itself is only paprika and cumin."
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tacos de pescado, the Baja California street taco of grilled or fried fish in a corn tortilla with shredded cabbage and a lime-sour cream."
+nutrition: { kcal: 525, carbs: 58, fibre: 13, protein: 40, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 2 corn tortillas filled with 130 g grilled white fish and cabbage slaw"
+  - "Lime crema (low-fat yoghurt, lime, coriander)"
+  - "Black bean and sweet corn side salad with cherry tomatoes"
+ingredients:
+  - { item: firm white fish fillet, qty: 130, unit: g }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: cabbage, qty: 80, unit: g }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: black beans (dried), qty: 35, unit: g }
+  - { item: sweet corn (frozen), qty: 50, unit: g }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the black beans overnight and simmer with salt until soft (or cook a batch on Sunday); toss warm with the thawed corn, halved cherry tomatoes and a squeeze of lime."
+  - "Shred the cabbage finely with the red onion; dress with lime juice, half the coriander, salt and the finely chopped jalapeno."
+  - "Stir the yoghurt with lime juice, crushed garlic and the rest of the coriander for the crema."
+  - "Rub the fish with smoked paprika, ground cumin and salt; sear in 1 tsp oil on a hot pan 3 minutes a side, then flake into chunks."
+  - "Warm the corn tortillas on a dry pan 20 seconds a side. For a lunchbox pack the fish, slaw, crema and tortillas separately and assemble at the table."
+  - "Serve: slaw and bean salad first, then fill each tortilla with fish, slaw and a spoon of crema."
+swaps:
+  - { for: firm white fish fillet, use: "prawns (chemmeen)", note: "grill 2 minutes a side" }
+source: "Adapted from the traditional Baja fish taco"

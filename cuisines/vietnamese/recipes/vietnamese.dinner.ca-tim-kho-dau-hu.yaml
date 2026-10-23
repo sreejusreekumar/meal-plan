@@ -1,0 +1,47 @@
+id: vietnamese.dinner.ca-tim-kho-dau-hu
+name: Ca Tim Kho Eggplant & Tofu Braised with Lemongrass
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: legume
+family: eggplant
+tags: [vegetarian]
+spice: medium
+kidNote: "Leave the chilli whole in the pot and lift it out before serving the child."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 505, carbs: 49, fibre: 9, protein: 29, satFat: 3, sugar: 0 }
+components:
+  - "Primary: eggplant and tofu braised with lemongrass, shallot and soy"
+  - "3/4 cup brown rice"
+  - "Tomato wedges and thai basil"
+ingredients:
+  - { item: tofu (firm), qty: 140, unit: g }
+  - { item: brinjal (eggplant), qty: 150, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1.5, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: thai basil, qty: 0.15, unit: bunch }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice with 1.25 cups water, covered, 35 minutes."
+  - "Cut the eggplant into chunky batons and salt lightly for 10 minutes; press the tofu and cut into cubes."
+  - "Heat 1 tsp rice bran oil in a wide pot, brown the tofu cubes and set aside; add the remaining oil, the minced lemongrass heart, garlic, sliced shallots and the chilli and fry 1 minute."
+  - "Add the eggplant, soy sauce, black pepper and 150 ml water; cover and simmer 12 minutes until the eggplant is soft."
+  - "Return the tofu and cook uncovered 5 minutes until the sauce thickens; finish with spring onion and torn thai basil."
+  - "Serve over the rice with tomato wedges."
+swaps:
+  - { for: tofu (firm), use: "eggs", note: "2 boiled eggs, halved, added for the last 5 minutes" }
+source: "Adapted from the traditional ca tim kho"

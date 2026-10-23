@@ -1,0 +1,32 @@
+id: middle-eastern.snack.zaatar-roasted-chickpeas
+name: Pan-roasted chickpeas with zaatar & sumac
+slot: [snack]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: chickpeas
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 5
+cookMinutes: 12
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 130, carbs: 13, fibre: 5, protein: 6, satFat: 0.5, sugar: 0 }
+components:
+  - "Primary: 3/4 cup crisp pan-roasted chickpeas with zaatar and sumac"
+  - "Black tea, unsweetened"
+ingredients:
+  - { item: white chickpeas (chana), qty: 30, unit: g }
+  - { item: extra virgin olive oil, qty: 0.5, unit: tsp }
+  - { item: zaatar, qty: 0.5, unit: tsp }
+  - { item: sumac, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Use chickpeas soaked and boiled in a batch earlier in the week; pat them very dry on a tea towel."
+  - "Toss with the olive oil and salt and toast in a hot non-stick pan, shaking often, for 10-12 minutes until blistered and crisp."
+  - "Take off the heat and toss with zaatar and sumac; brew the black tea and drink it unsweetened."
+source: "Inspired by Levantine street-corner roasted chickpeas (qudama)"

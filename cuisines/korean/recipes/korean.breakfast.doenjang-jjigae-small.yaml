@@ -1,0 +1,45 @@
+id: korean.breakfast.doenjang-jjigae-small
+name: Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: legume
+family: doenjang
+spice: medium
+kidNote: "Leave the gochugaru out of the pot and sprinkle it on the adults' bowls; serve the child's kimchi rinsed."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Doenjang jjigae, the everyday Korean soybean-paste stew with tofu and vegetables that anchors a home breakfast table."
+nutrition: { kcal: 352, carbs: 41, fibre: 6, protein: 21, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 small bowl doenjang jjigae with tofu, zucchini, mushroom and napa cabbage"
+  - "1 small bowl brown rice (45 g uncooked)"
+  - "1 boiled egg and kimchi (40 g)"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 40, unit: g }
+  - { item: napa cabbage (wombok), qty: 50, unit: g }
+  - { item: doenjang, qty: 0.33, unit: tbsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: gochugaru (korean chilli flakes), qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: kimchi, qty: 40, unit: g }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice (45 g uncooked, 1.5 times its volume of water, 35 minutes) or use rice from the night before; boil the egg 9 minutes and peel."
+  - "Bring 300 ml water to the boil in a small pot and dissolve the doenjang (1 teaspoon per person) through a sieve with the crushed garlic."
+  - "Add the sliced zucchini, mushrooms and shredded napa cabbage; simmer 6-7 minutes."
+  - "Add the tofu in cubes and simmer 3 minutes more; add the spring onion and the gochugaru for the adults."
+  - "Serve the stew with the rice, the halved egg and kimchi; pour the barley tea."
+swaps:
+  - { for: zucchini, use: "potato", note: "0.5 pc diced, add 5 minutes earlier" }
+source: "Adapted from the traditional doenjang jjigae"

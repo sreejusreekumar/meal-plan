@@ -1,0 +1,51 @@
+id: vietnamese.dinner.goi-cuon-dau-hu
+name: Goi Cuon Dau Hu Tofu & Egg Rice-Paper Rolls
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: legume
+family: goi-cuon-tofu
+tags: [vegetarian]
+spice: medium
+kidNote: "Keep the chilli out of one bowl of dipping sauce; the rolls are mild."
+packable: false
+prepMinutes: 25
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 505, carbs: 40, fibre: 8, protein: 30, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 4 fresh rice-paper rolls with pan-fried tofu, egg strips, cabbage, sprouts and herbs"
+  - "Soy-lime dipping sauce with crushed peanuts"
+  - "Extra cos lettuce and cucumber on the side"
+ingredients:
+  - { item: rice paper, qty: 4, unit: pc }
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: cabbage, qty: 60, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: thai basil, qty: 0.1, unit: bunch }
+  - { item: peanuts, qty: 8, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+steps:
+  - "Press the tofu and cut into finger-length batons; brown in a non-stick pan with the rice bran oil, 6 minutes, then season with 1 tsp soy sauce."
+  - "Beat the egg, cook as a thin omelette in the same pan and cut into strips."
+  - "Shred the cabbage finely; cut cucumber and carrot into sticks; blanch the bean sprouts 30 seconds."
+  - "Dip each rice paper in warm water, lay on a damp board, add a lettuce piece, cabbage, cucumber, carrot, sprouts, herbs, tofu and egg strips; fold in the sides and roll. Make 4 rolls."
+  - "Dipping sauce: 1 tsp soy sauce, lime juice, rice vinegar, 3 tbsp water, minced garlic, chilli and the crushed peanuts."
+  - "Serve the rolls with the sauce and the remaining lettuce and cucumber."
+swaps:
+  - { for: tofu (firm), use: "prawns (chemmeen)", note: "120 g poached; no longer vegetarian" }
+source: "Adapted from the traditional goi cuon, vegetarian version"

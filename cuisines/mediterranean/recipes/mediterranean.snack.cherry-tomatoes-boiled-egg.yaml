@@ -1,0 +1,35 @@
+id: mediterranean.snack.cherry-tomatoes-boiled-egg
+name: Cherry tomatoes with a boiled egg and oregano, green tea
+slot: [snack]
+role: main
+cuisine: mediterranean
+protein: egg
+family: tomatoes
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 3
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 160, carbs: 11, fibre: 3, protein: 9, satFat: 2, sugar: 0 }
+components:
+  - "1 boiled egg, halved, with cherry tomatoes, oregano, pepper and a thread of olive oil"
+  - "Half a slice of wholemeal toast"
+  - "Green tea (unsweetened)"
+ingredients:
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cherry tomatoes, qty: 120, unit: g }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: extra virgin olive oil, qty: 0.5, unit: tsp }
+  - { item: wholemeal bread, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Boil the egg 9 minutes, cool under the tap, peel and halve."
+  - "Halve the cherry tomatoes, toss with the oregano, salt, pepper and olive oil; toast the half slice of bread."
+  - "Steep the green tea bag 2-3 minutes in hot water and serve everything together."
+source: "Adapted from the Greek village plate of egg and tomato"

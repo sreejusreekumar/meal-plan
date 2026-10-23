@@ -1,0 +1,47 @@
+id: mexican.breakfast.huevos-rancheros
+name: Huevos rancheros with black beans
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: egg
+family: rancheros
+tags: [quick]
+spice: medium
+kidNote: "Leave the jalapeno out of the child's share of ranchero salsa; spoon the plain tomato part over the egg."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Huevos rancheros, the ranch-style Mexican breakfast of eggs on warm corn tortillas under a cooked tomato-chilli salsa."
+nutrition: { kcal: 370, carbs: 36, fibre: 9, protein: 22, satFat: 3.5, sugar: 0 }
+components:
+  - "Primary: 2 eggs poached in ranchero salsa on 2 warm corn tortillas"
+  - "1/3 cup black beans (frijoles de la olla), mashed"
+  - "Coriander and lime"
+  - "Café de olla, unsweetened (coffee with cinnamon)"
+ingredients:
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: black beans (dried), qty: 25, unit: g }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+steps:
+  - "Soak the black beans overnight; pressure-cook with salt until soft (or use beans cooked earlier in the week). Mash lightly with a little of their broth."
+  - "Ranchero salsa: toast the cumin in a dry pan, add the chopped onion, garlic and jalapeno with a splash of water and soften 3 minutes, then add the canned tomatoes, oregano and salt and simmer 5 minutes to a loose sauce."
+  - "Crack the eggs straight into the simmering salsa, cover and poach 4-5 minutes until the whites set and the yolks are still soft."
+  - "Warm the corn tortillas on a dry comal or pan, 30 seconds a side."
+  - "Lay the tortillas on the plate, slide the eggs and salsa on top, add the beans alongside and finish with coriander and lime."
+  - "Café de olla: simmer a cup of water with the cinnamon stick for 3 minutes, stir in the coffee powder, steep, strain; no sugar or piloncillo."
+source: "Adapted from the traditional huevos rancheros"

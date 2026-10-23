@@ -1,0 +1,47 @@
+id: middle-eastern.dinner.halloumi-vegetable-skewers
+name: Grilled halloumi & vegetable skewers with chickpea bulgur salad
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: dairy
+family: halloumi
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 490, carbs: 54, fibre: 15, protein: 23, satFat: 6, sugar: 0 }
+components:
+  - "Primary: 2 skewers of grilled halloumi (30 g), capsicum, zucchini, red onion and cherry tomatoes with zaatar"
+  - "Bulgur and chickpea salad with parsley, mint and lemon"
+  - "Minted yoghurt dip (50 g) with pomegranate molasses"
+ingredients:
+  - { item: halloumi, qty: 30, unit: g }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: zaatar, qty: 1, unit: tsp }
+  - { item: bulgur wheat, qty: 40, unit: g }
+  - { item: white chickpeas (chana), qty: 25, unit: g }
+  - { item: parsley, qty: 0.25, unit: bunch }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: dried mint, qty: 0.5, unit: tsp }
+  - { item: pomegranate molasses, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the chickpeas overnight and simmer 45 minutes until tender (use a batch cooked for the week). Simmer the bulgur in 2/3 cup salted water 12 minutes; rest covered 5 minutes."
+  - "Cut the halloumi into 4 cubes and the capsicum, zucchini and red onion into chunks; thread onto 2 skewers with the cherry tomatoes, brush with the olive oil and sprinkle with zaatar and pepper."
+  - "Grill or griddle the skewers 8-10 minutes, turning, until the vegetables char and the halloumi is golden."
+  - "Fold the chickpeas, chopped parsley, mint, lemon juice and a pinch of salt through the bulgur."
+  - "Stir the dried mint into the yoghurt and streak with the pomegranate molasses. Serve the skewers on the salad with the dip."
+swaps:
+  - { for: halloumi, use: feta, note: "20 g, crumbled over the salad instead of grilled" }
+source: "Adapted from Cypriot and Levantine grilled halloumi mezze"

@@ -1,0 +1,51 @@
+id: vietnamese.lunch.cha-ca
+name: Cha Ca Turmeric-Dill Fish with Vermicelli & Peanuts
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: fish
+family: cha-ca
+tags: [grill]
+spice: medium
+kidNote: "Leave the chilli out of the child's nuoc cham."
+packable: true
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 57, fibre: 9, protein: 39, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 160 g turmeric-galangal fish seared with dill and spring onion"
+  - "1 level cup brown rice vermicelli"
+  - "Lettuce, bean sprouts, cucumber, mint and coriander"
+  - "Roasted peanuts and nuoc cham"
+ingredients:
+  - { item: firm white fish fillet, qty: 160, unit: g }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: galangal, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: dill, qty: 0.3, unit: bunch }
+  - { item: spring onion, qty: 0.2, unit: bunch }
+  - { item: brown rice noodles, qty: 60, unit: g }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+steps:
+  - "Cut the fish into 3 cm chunks; rub with turmeric, grated galangal, garlic, minced shallot and 1 tsp fish sauce. Marinate 15 minutes."
+  - "Cook the brown rice noodles per packet, rinse cold and drain."
+  - "Heat the rice bran oil in a wide pan, sear the fish 2-3 minutes a side, then pile in the dill fronds and spring onion lengths and toss 1 minute until just wilted."
+  - "Nuoc cham: 1 tsp fish sauce, lime juice, 3 tbsp water and sliced chilli."
+  - "Serve noodles, lettuce, bean sprouts, cucumber and herbs in a bowl, top with the fish and dill, crushed peanuts and the sauce."
+swaps:
+  - { for: firm white fish fillet, use: "salmon fillet", note: "richer; same timing" }
+source: "Adapted from the traditional cha ca La Vong of Hanoi"

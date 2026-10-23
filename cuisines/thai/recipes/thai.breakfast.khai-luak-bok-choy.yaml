@@ -1,0 +1,42 @@
+id: thai.breakfast.khai-luak-bok-choy
+name: Khai luak (soft-boiled eggs) with chilli-lime, bok choy and brown rice
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: egg
+family: boiled-eggs
+tags: [quick]
+spice: medium
+kidNote: "Dress the child's eggs with lime and a drop of soy only, no chilli."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 375, carbs: 35, fibre: 5, protein: 21, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 soft-boiled eggs with a chilli-lime-fish sauce dressing, coriander and crushed peanuts"
+  - "Blanched bok choy with garlic"
+  - "2/3 cup brown jasmine rice"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: bok choy, qty: 1, unit: bunch }
+  - { item: brown jasmine rice, qty: 40, unit: g }
+  - { item: black pepper, qty: 0.2, unit: tsp }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Cook the brown jasmine rice (1.5 times its volume of water, 25 minutes, lid on)."
+  - "Lower the eggs into boiling water for 6 minutes; cool briefly, peel and halve."
+  - "Mix the lime juice, fish sauce, finely chopped chilli, half the garlic and pepper into a dressing."
+  - "Blanch the bok choy 1-2 minutes with the rest of the garlic sliced in; drain well."
+  - "Spoon the dressing over the egg halves, scatter coriander and crushed peanuts, and serve with the bok choy and rice; steep the lemongrass 5 minutes for the tea."
+source: "Adapted from khai luak, the Thai soft-boiled breakfast egg, served savoury."

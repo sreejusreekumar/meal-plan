@@ -1,0 +1,46 @@
+id: thai.breakfast.tofu-basil-scramble
+name: Tofu and Thai basil scramble (pad kaprao tao hu) with brown rice
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: legume
+family: tofu-scramble
+tags: [quick, vegetarian]
+spice: medium
+kidNote: "Cook the child's share before adding the chilli, or scoop it out first."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pad kaprao, the Thai holy-basil stir-fry with garlic and chilli eaten over rice at any hour; here with crumbled firm tofu and Thai basil."
+nutrition: { kcal: 370, carbs: 38, fibre: 5, protein: 22, satFat: 2, sugar: 0 }
+components:
+  - "Primary: Crumbled firm tofu stir-fried with garlic, chilli, Thai basil and snow peas"
+  - "2/3 cup brown jasmine rice"
+  - "Cucumber slices"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: thai basil, qty: 0.25, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: snow peas, qty: 50, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: oyster sauce, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 40, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Cook the brown jasmine rice (1.5 times its volume of water, 25 minutes, lid on)."
+  - "Press the tofu dry and crumble it coarsely; pound the garlic and chilli together."
+  - "Heat 1 tsp rice bran oil in a wok; fry the garlic-chilli paste and sliced shallots 30 seconds, add the tofu and stir-fry on high heat 4 minutes until it catches a little colour."
+  - "Add the snow peas, soy and oyster sauce; toss 1 minute, then kill the heat and fold in the Thai basil leaves."
+  - "Serve on the rice with cucumber slices and lemongrass tea steeped 5 minutes."
+swaps:
+  - { for: snow peas, use: "french beans", note: "cut into 2 cm pieces, same timing" }
+source: "Adapted from the traditional pad kaprao, with tofu."

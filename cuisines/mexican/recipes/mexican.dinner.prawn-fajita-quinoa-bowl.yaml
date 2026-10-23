@@ -1,0 +1,49 @@
+id: mexican.dinner.prawn-fajita-quinoa-bowl
+name: Prawn fajita bowl with quinoa, capsicum & avocado
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: fish
+family: quinoa-bowl
+tags: [quick]
+spice: medium
+kidNote: "Season the child's prawns with paprika and cumin only; add chilli powder and jalapeno to the adults' bowls."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 500, carbs: 50, fibre: 11, protein: 34, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 130 g fajita-spiced prawns with seared capsicum, onion and zucchini"
+  - "50 g (dry) quinoa"
+  - "Quarter avocado, lime-yoghurt crema and coriander"
+ingredients:
+  - { item: prawns (chemmeen), qty: 130, unit: g }
+  - { item: quinoa, qty: 50, unit: g }
+  - { item: capsicum, qty: 1, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 40, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Rinse the quinoa and simmer in 150 ml salted water 15 minutes; rest covered 5 minutes and fluff."
+  - "Toss the prawns with smoked paprika, ground cumin, chilli powder, oregano, crushed garlic and salt."
+  - "Sear the sliced capsicum, onion and zucchini in the oil on a very hot pan 5 minutes until charred at the edges; add the prawns and cook 2-3 minutes more."
+  - "Whisk the yoghurt with lime, salt and chopped coriander for the crema."
+  - "Build the bowl: quinoa, vegetables and prawns, sliced avocado, jalapeno rings, crema and a squeeze of lime."
+swaps:
+  - { for: prawns (chemmeen), use: "chicken breast", note: "120 g strips, sear 6 minutes" }
+source: "Adapted from the traditional fajitas, served as a bowl"

@@ -1,0 +1,44 @@
+id: mexican.breakfast.black-bean-egg-bowl
+name: Black bean and egg bowl with cabbage slaw
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: legume
+family: bean-bowl
+tags: [quick]
+spice: medium
+kidNote: "Leave the jalapeno out of the child's slaw."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 355, carbs: 33, fibre: 11, protein: 21, satFat: 3.3, sugar: 0 }
+components:
+  - "Primary: 1/2 cup warm black beans with cumin and corn"
+  - "1 soft-boiled egg, halved"
+  - "Cabbage and red onion slaw with lime and jalapeno"
+  - "Toasted pumpkin seeds and a spoon of yoghurt"
+ingredients:
+  - { item: black beans (dried), qty: 35, unit: g }
+  - { item: sweet corn (frozen), qty: 40, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cabbage, qty: 50, unit: g }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: pumpkin seeds, qty: 10, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the black beans overnight; pressure-cook with salt until soft (or use beans cooked ahead)."
+  - "Boil the egg 7 minutes, cool, peel and halve."
+  - "Slaw: shred the cabbage finely, slice the red onion and jalapeno thinly, toss with lime juice, salt and coriander and let it sit 5 minutes."
+  - "Warm the oil with the cumin, add the beans and corn with a little broth and heat through."
+  - "Toast the pumpkin seeds 2 minutes in a dry pan. Build the bowl: beans, slaw, egg, yoghurt and seeds."
+source: "A Mexican-style black bean breakfast bowl"

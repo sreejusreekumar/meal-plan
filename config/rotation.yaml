@@ -1,6 +1,14 @@
 # Cuisine order used when `mealplan plan` is run without --cuisine (the Saturday automation).
 # Picked by ISO week number, cycling. An entry may be a comma-separated list for a mixed week.
+# Repeat an entry to serve that cuisine more often.
 rotation:
   - kerala
   - north-indian
   - sri-lankan
+  - thai
+  - mediterranean
+  - japanese
+  - middle-eastern
+  - korean
+  - mexican
+  - vietnamese

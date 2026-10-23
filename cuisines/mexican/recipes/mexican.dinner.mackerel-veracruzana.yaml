@@ -1,0 +1,47 @@
+id: mexican.dinner.mackerel-veracruzana
+name: Mackerel a la veracruzana (tomato, onion & jalapeno) with brown rice
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: fish
+family: veracruzana
+spice: medium
+kidNote: "Lift the jalapeno slices off the child's portion; the sauce itself is mild tomato and onion."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 490, carbs: 48, fibre: 8, protein: 32, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 mackerel baked in a Veracruz-style tomato, onion, capsicum and jalapeno sauce"
+  - "Half cup brown rice"
+  - "Wilted spinach with lime"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Rinse the brown rice and simmer in plenty of water 30 minutes; drain."
+  - "Soften the sliced onion, capsicum and garlic in the oil; add the chopped fresh tomato, canned tomatoes, oregano, the piece of cinnamon, pepper and salt and simmer 10 minutes to a chunky sauce. Fish out the cinnamon."
+  - "Clean and score the mackerel (or fillet it), season with salt and lime, lay it in a baking dish and spoon the sauce over with the jalapeno slices on top. Bake at 200 C for 15 minutes."
+  - "Wilt the spinach in the hot pan with a squeeze of lime."
+  - "Serve the fish and sauce over the rice with the spinach alongside, coriander on top."
+swaps:
+  - { for: mackerel (ayala), use: "firm white fish fillet", note: "150 g, bake 12 minutes" }
+source: "Adapted from the traditional pescado a la veracruzana (without olives and capers)"

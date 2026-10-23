@@ -1,0 +1,36 @@
+id: mediterranean.breakfast.greek-yoghurt-bowl
+name: Greek yoghurt bowl with walnuts, berries and cinnamon
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: dairy
+family: yoghurt-bowl
+tags: [quick, no-cook]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 0
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Yiaourti me karydia, the Greek bowl of thick yoghurt with walnuts and honey, here sweetened only with berries and cinnamon."
+nutrition: { kcal: 357, carbs: 36, fibre: 7, protein: 17, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl thick strained yoghurt with walnuts and berries"
+  - "Toasted oats and cinnamon on top"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 200, unit: g }
+  - { item: walnuts, qty: 15, unit: g }
+  - { item: mixed berries (frozen), qty: 100, unit: g }
+  - { item: rolled oats, qty: 25, unit: g }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: coffee powder, qty: 1, unit: tsp }
+steps:
+  - "The night before, hang the yoghurt in a muslin or coffee filter over a bowl in the fridge so it thickens Greek-style (or just use it as is)."
+  - "Toast the oats in a dry pan 3-4 minutes until fragrant; grate the cinnamon stick finely over them."
+  - "Thaw the berries 5 minutes at room temperature or 30 seconds in the microwave."
+  - "Spoon the yoghurt into a bowl, top with the berries and their juice, the roughly broken walnuts and the cinnamon oats; no honey."
+  - "Serve with black coffee or unsweetened tea."
+source: "Adapted from the traditional yiaourti me karydia kai meli"

@@ -1,0 +1,39 @@
+id: vietnamese.snack.bean-sprout-herb-salad-egg
+name: Bean sprout and herb salad with peanuts and a boiled egg, iced tea
+slot: [snack]
+role: main
+cuisine: vietnamese
+protein: egg
+family: sprout-salad
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 150, carbs: 6, fibre: 3, protein: 10, satFat: 2.5, sugar: 0 }
+components:
+  - "Primary: blanched bean sprouts tossed with mint, coriander and shallot in a lime-fish-sauce dressing"
+  - "1 boiled egg, quartered, and 8 g crushed peanuts"
+  - "Tra da (iced black tea, unsweetened)"
+ingredients:
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+  - { item: coriander leaves, qty: 0.05, unit: bunch }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: peanuts, qty: 8, unit: g }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Boil the egg 8 minutes, cool, peel and quarter."
+  - "Blanch the bean sprouts 20 seconds in boiling water, drain and cool under the tap so they stay crunchy."
+  - "Whisk lime juice with the fish sauce and 1 tsp water; toss with the sprouts, thinly sliced shallot, torn mint and coriander."
+  - "Top with the egg and crushed roasted peanuts. Brew the black tea strong, cool and pour over ice."
+swaps:
+  - { for: eggs, use: "tofu (firm)", note: "60 g, seared" }
+source: "A Vietnamese-style goi gia (bean sprout salad) scaled to a snack"

@@ -1,0 +1,42 @@
+id: mediterranean.breakfast.zucchini-feta-frittata
+name: Zucchini, feta and herb frittata with wholemeal toast
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: egg
+family: frittata
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Frittata di zucchine, the Italian open omelette of grated zucchini and herbs finished under the grill."
+nutrition: { kcal: 364, carbs: 27, fibre: 6, protein: 20, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 wedge zucchini, feta and basil frittata (2 eggs)"
+  - "1 slice wholemeal toast"
+  - "Cherry tomatoes and half an orange"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: feta, qty: 10, unit: g }
+  - { item: basil, qty: 0.1, unit: bunch }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: cherry tomatoes, qty: 100, unit: g }
+  - { item: orange, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Grate the zucchini, salt it lightly and squeeze out the water; chop the onion and herbs."
+  - "Heat the olive oil in a small ovenproof pan and soften the onion and zucchini 4 minutes."
+  - "Beat the eggs with pepper, parsley and basil, pour over the vegetables, crumble the feta on top and cook on low 5 minutes."
+  - "Finish 3-4 minutes under a hot grill until puffed and set; toast the bread meanwhile."
+  - "Serve a wedge with the toast, cherry tomatoes, half an orange and black coffee or tea."
+source: "Adapted from the traditional frittata di zucchine"

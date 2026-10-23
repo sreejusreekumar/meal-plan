@@ -1,0 +1,39 @@
+id: vietnamese.snack.do-chua-and-egg
+name: Do chua (pickled carrot and daikon, no sugar) with a boiled egg
+slot: [snack]
+role: main
+cuisine: vietnamese
+protein: egg
+family: do-chua
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Do chua, the crunchy carrot and daikon pickle that goes into every banh mi and beside grilled meats across Vietnam, made here with rice vinegar and no sugar."
+nutrition: { kcal: 105, carbs: 6, fibre: 3, protein: 7, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 small bowl do chua - carrot and daikon matchsticks in rice vinegar and salt"
+  - "1 boiled egg with coriander and black pepper"
+  - "Hot green tea (unsweetened)"
+ingredients:
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: daikon radish, qty: 0.2, unit: pc }
+  - { item: rice vinegar, qty: 2, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: coriander leaves, qty: 0.05, unit: bunch }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cut the carrot and daikon into thin matchsticks, toss with the salt and leave 5 minutes, then squeeze out the water."
+  - "Mix with the rice vinegar and 2 tbsp water; rest at least 10 minutes (keeps 3 days in the fridge)."
+  - "Boil the egg 8 minutes, cool, peel and halve; season with pepper."
+  - "Brew the green tea and serve the pickle beside the egg, scattered with coriander."
+swaps:
+  - { for: daikon radish, use: "cucumber", note: "no need to salt first" }
+source: "Adapted from the traditional do chua, without the usual sugar"

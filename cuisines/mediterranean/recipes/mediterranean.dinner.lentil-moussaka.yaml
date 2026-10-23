@@ -1,0 +1,48 @@
+id: mediterranean.dinner.lentil-moussaka
+name: Moussaka-style baked eggplant with lentils & a yoghurt top
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: legume
+family: moussaka
+spice: mild
+packable: false
+prepMinutes: 25
+cookMinutes: 55
+effort: weekend
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Moussaka, the Greek layered bake of eggplant and spiced tomato mince under a béchamel; here with brown lentils and a yoghurt-egg top instead of béchamel."
+nutrition: { kcal: 505, carbs: 50, fibre: 15, protein: 32, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 generous square lentil moussaka (grilled eggplant layered with lentil-tomato sauce)"
+  - "Yoghurt, egg and parmesan top (no béchamel)"
+  - "Salad leaves with lemon"
+ingredients:
+  - { item: brinjal (eggplant), qty: 200, unit: g }
+  - { item: brown lentils, qty: 50, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: canned tomatoes, qty: 150, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: dried oregano, qty: 1, unit: tsp }
+  - { item: bay leaf, qty: 1, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: parmesan, qty: 10, unit: g }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Rinse the lentils and simmer in water 20 minutes until just tender; drain."
+  - "Slice the eggplant 1 cm thick, brush with half the olive oil, salt, and grill or roast at 220 C for 15 minutes until soft and browned."
+  - "Soften the diced onion and garlic in the rest of the oil; add the lentils, canned tomatoes, tomato paste, oregano, bay leaf, salt and pepper and simmer 15 minutes to a thick sauce."
+  - "Whisk the yoghurt with the egg, the grated parmesan and a little pepper for the top."
+  - "Layer half the eggplant in a small baking dish, then the lentil sauce, then the rest of the eggplant; pour the yoghurt mixture over and bake at 180 C for 25 minutes until set and golden."
+  - "Rest 10 minutes before cutting; serve with the salad leaves dressed with lemon."
+swaps:
+  - { for: brown lentils, use: lean beef mince, note: "100 g, browned; then protein is beef" }
+source: "Adapted from the traditional Greek moussaka, lightened"

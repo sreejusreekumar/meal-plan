@@ -1,0 +1,49 @@
+id: japanese.lunch.zaru-soba-tofu
+name: Cold Soba Salad with Tofu, Cucumber & Dipping Sauce
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: legume
+family: soba
+tags: [quick, no-reheat]
+spice: mild
+kidNote: "Leave the wasabi out of the child's dipping sauce."
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Zaru soba, chilled buckwheat noodles served with a dashi-soy dipping sauce (tsuyu), a Japanese summer classic."
+nutrition: { kcal: 524, carbs: 57, fibre: 10, protein: 31, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 60 g soba noodles (dry), chilled, with 100 g seared tofu"
+  - "Cucumber, carrot and edamame with nori and sesame"
+  - "Dashi-soy dipping sauce (tsuyu) with ginger and wasabi, no sugar"
+ingredients:
+  - { item: soba noodles, qty: 60, unit: g }
+  - { item: tofu (firm), qty: 100, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: edamame (frozen), qty: 40, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: wasabi, qty: 0.25, unit: tsp }
+steps:
+  - "Make the dashi: steep the kombu in 150 ml cold water 10 minutes, bring to a simmer, remove the kombu, add the bonito flakes, rest 2 minutes and strain. Stir in the soy, rice vinegar and grated ginger; chill. This is the tsuyu."
+  - "Boil the soba 4-5 minutes, drain, rinse under cold water until cool and drain well."
+  - "Press the tofu in paper towel, cut into 2 cm cubes and sear in the sesame oil until golden on two sides."
+  - "Boil the edamame 4 minutes. Cut the cucumber and carrot into fine matchsticks; slice the spring onion."
+  - "Toss the soba with the vegetables and sesame seeds; top with the tofu, shredded nori and spring onion."
+  - "Pack the tsuyu in a small pot (wasabi on the side) and pour over the noodles when eating; keep the box cool."
+swaps:
+  - { for: tofu (firm), use: eggs, note: "2 eggs as a thin rolled omelette, sliced" }
+source: "Adapted from the traditional zaru soba, built into a lunchbox salad"

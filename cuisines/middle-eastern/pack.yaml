@@ -1,0 +1,25 @@
+id: middle-eastern
+name: Middle Eastern
+version: 1
+description: "Levantine, Turkish and Persian home cooking for a pre-diabetic household: legumes, grilled chicken and fish, herbs, measured olive oil and tahini, wholemeal pita only."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · mezze first
+  snack: 4 pm tea
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: "Salad or mezze first, then the protein, then one wholemeal pita or a measured cup of freekeh, bulgur or brown rice."
+  - title: Walk after meals
+    text: "10–15 minutes of brisk walking right after lunch and dinner."
+  - title: Fat is measured
+    text: "Olive oil 1 teaspoon per dish; tahini 1 tablespoon; halloumi and nuts in small amounts."
+  - title: Skip completely
+    text: "White pita, fried falafel, baklava, sweetened tea and sugary pomegranate drinks."

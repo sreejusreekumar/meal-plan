@@ -1,0 +1,36 @@
+id: japanese.snack.daikon-carrot-pickle-walnuts
+name: Daikon & Carrot Quick Pickle with Walnuts
+slot: [snack]
+role: main
+cuisine: japanese
+protein: none
+family: pickle
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 168, carbs: 6, fibre: 4, protein: 4, satFat: 1.3, sugar: 0 }
+components:
+  - "Primary: Namasu-style daikon and carrot quick pickle with ginger and sesame"
+  - "20 g walnuts"
+  - "Roasted barley tea (mugicha)"
+ingredients:
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: rice vinegar, qty: 2, unit: tsp }
+  - { item: ginger, qty: 2, unit: g }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: walnuts, qty: 20, unit: g }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Cut the daikon and carrot into thin matchsticks, toss with the salt and rest 10 minutes; squeeze out the water."
+  - "Dress with the rice vinegar and finely grated ginger; scatter with toasted sesame."
+  - "Toast the walnuts in a dry pan 3 minutes."
+  - "Serve the pickle with the walnuts and a glass of barley tea."
+source: "Adapted from the traditional namasu, without sugar"

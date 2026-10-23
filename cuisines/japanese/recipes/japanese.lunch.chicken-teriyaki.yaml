@@ -1,0 +1,48 @@
+id: japanese.lunch.chicken-teriyaki
+name: Chicken Teriyaki with Brown Rice & Cucumber Sunomono
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: chicken
+family: chicken-teriyaki
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tori no teriyaki, chicken glazed in soy and mirin, one of the best-known dishes of Japanese home cooking."
+nutrition: { kcal: 526, carbs: 60, fibre: 10, protein: 40, satFat: 3, sugar: 2 }
+components:
+  - "Primary: 120 g chicken teriyaki (soy, 1 tsp mirin, ginger, garlic; no sugar)"
+  - "Cucumber and wakame sunomono (vinegar salad)"
+  - "French beans and carrot, blanched, with edamame"
+  - "1 small bowl brown rice (60 g uncooked)"
+ingredients:
+  - { item: chicken breast, qty: 120, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: french beans, qty: 80, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: edamame (frozen), qty: 30, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Slice the cucumber thinly, salt lightly and squeeze after 5 minutes; soak the wakame 5 minutes, drain, and toss both with the rice vinegar."
+  - "Blanch the french beans and carrot batons 3 minutes with the edamame; drain."
+  - "Slice the chicken breast into 2 cm strips. Heat the rice bran oil in a non-stick pan and sear the chicken 3 minutes a side until just cooked through."
+  - "Add soy, mirin, grated ginger and garlic with 1 tablespoon water; toss 1 minute until the strips are glazed."
+  - "Box the rice, vegetables and sunomono with the chicken on top."
+swaps:
+  - { for: chicken breast, use: "chicken thigh (boneless)", note: "trim visible fat; 1 minute longer" }
+source: "Adapted from the traditional tori no teriyaki, with mirin measured and no sugar"

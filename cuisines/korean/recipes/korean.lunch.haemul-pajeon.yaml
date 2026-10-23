@@ -1,0 +1,49 @@
+id: korean.lunch.haemul-pajeon
+name: Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato
+slot: [lunch]
+role: main
+cuisine: korean
+protein: fish
+family: pajeon
+tags: [packable]
+spice: medium
+kidNote: "Serve the child's dipping sauce without gochugaru and give them cucumber instead of kimchi."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 535, carbs: 55, fibre: 13, protein: 34, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 whole-wheat haemul pajeon (40 g atta, egg, prawns, spring onion, zucchini) pan-fried in 1 tsp oil"
+  - "Soy, vinegar and gochugaru dipping sauce"
+  - "Half a roasted sweet potato"
+  - "Cos lettuce, cucumber and carrot salad with sesame; kimchi"
+ingredients:
+  - { item: whole-wheat atta, qty: 40, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: prawns (chemmeen), qty: 120, unit: g }
+  - { item: spring onion, qty: 0.5, unit: bunch }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: sweet potato, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Roast the sweet potato half in its skin at 200 C for 30 minutes (or microwave 5 minutes then crisp in a pan)."
+  - "Whisk the atta with the egg, a pinch of salt and about 60 ml cold water to a thin batter; fold in the spring onion cut into 5 cm lengths, coarsely grated zucchini and the chopped prawns."
+  - "Heat the rice bran oil in a non-stick pan; pour in the batter as one large thin pancake and cook 4-5 minutes until the base is golden and set, flip and cook 3 more."
+  - "Mix the soy sauce, rice vinegar and gochugaru for dipping. Toss the torn lettuce, sliced cucumber and carrot sticks with the sesame seeds."
+  - "Cut the pancake into wedges and serve with the sauce, sweet potato, salad and kimchi; it is good cold from a lunchbox."
+swaps:
+  - { for: prawns (chemmeen), use: "squid", note: "finely chopped" }
+source: "Adapted from the traditional haemul pajeon"

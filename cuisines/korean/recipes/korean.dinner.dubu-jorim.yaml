@@ -1,0 +1,46 @@
+id: korean.dinner.dubu-jorim
+name: Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: legume
+family: dubu-jorim
+tags: [quick]
+spice: medium
+kidNote: "Braise a couple of tofu slices in soy, garlic and spring onion only, before the gochugaru goes into the pan."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dubu jorim, Korean pan-seared tofu braised in a soy, garlic and chilli-flake sauce, a staple banchan turned main."
+nutrition: { kcal: 505, carbs: 43, fibre: 9, protein: 33, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g dubu jorim (seared tofu braised in soy, garlic and gochugaru)"
+  - "Bean sprout namul and stir-fried zucchini (hobak bokkeum)"
+  - "2/3 bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: tofu (firm), qty: 150, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: gochugaru (korean chilli flakes), qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: bean sprouts, qty: 100, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Press the tofu dry and cut into 1 cm slabs; sear in the rice bran oil in a non-stick pan 3 minutes a side until golden."
+  - "Mix the soy sauce, gochugaru, crushed garlic, chopped spring onion and 60 ml water; pour over the tofu and simmer 5 minutes, spooning the sauce over, until it is glossy and nearly dry."
+  - "Blanch the bean sprouts 2 minutes, squeeze and dress with the sesame oil and a pinch of salt; stir-fry the half-moon zucchini slices in the tofu pan with a splash of water for 3 minutes."
+  - "Serve the tofu with the namul, zucchini, kimchi and the rice."
+swaps:
+  - { for: bean sprouts, use: "spinach", note: "0.5 bunch, blanch 30 seconds" }
+source: "Adapted from the traditional dubu jorim"

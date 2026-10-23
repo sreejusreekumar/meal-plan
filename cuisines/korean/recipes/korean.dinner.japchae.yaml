@@ -1,0 +1,46 @@
+id: korean.dinner.japchae
+name: Japchae on Soba with Spinach, Shiitake & Egg
+slot: [dinner]
+role: main
+cuisine: korean
+protein: egg
+family: japchae
+spice: mild
+kidNote: "Japchae is not hot; the kimchi stays on the side for the adults."
+packable: false
+prepMinutes: 25
+cookMinutes: 25
+effort: weekend
+treat: true
+refinedCarb: false
+signature: true
+basedOn: "Japchae, the Korean celebration dish of stir-fried glass noodles, vegetables and egg in soy and sesame; here on soba with nashi pear instead of sugar."
+nutrition: { kcal: 500, carbs: 49, fibre: 10, protein: 31, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 50 g soba tossed with spinach, shiitake, carrot and spring onion in soy, sesame and grated nashi pear"
+  - "2 eggs as thin omelette strips (jidan)"
+  - "40 g seared tofu cubes"
+ingredients:
+  - { item: soba noodles, qty: 50, unit: g }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tofu (firm), qty: 40, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: nashi pear, qty: 0.25, unit: pc }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the soba 4-5 minutes, rinse under cold water and drain; toss with a third of the sesame oil so the strands stay separate."
+  - "Beat the eggs with a pinch of salt and cook as a thin omelette in a non-stick pan; roll and slice into ribbons."
+  - "Blanch the spinach 30 seconds and squeeze dry; sear the tofu cubes in the dry pan until golden."
+  - "Stir-fry the carrot matchsticks, sliced shiitake and spring onion in the remaining sesame oil with the crushed garlic for 3 minutes."
+  - "Mix the soy sauce, finely grated nashi pear and black pepper; add the noodles, spinach and tofu to the pan with the sauce and toss over high heat 2 minutes."
+  - "Pile onto a platter and lay the egg ribbons on top; serve warm or at room temperature."
+swaps:
+  - { for: soba noodles, use: "brown rice", note: "40 g cooked rice stirred through for a japchae-bap" }
+source: "Adapted from the traditional japchae"

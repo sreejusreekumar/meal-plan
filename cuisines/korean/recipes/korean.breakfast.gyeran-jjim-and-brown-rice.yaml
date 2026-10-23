@@ -1,0 +1,45 @@
+id: korean.breakfast.gyeran-jjim-and-brown-rice
+name: Gyeran Jjim & Brown Rice with Kimchi
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: egg
+family: gyeran-jjim
+tags: [quick]
+spice: medium
+kidNote: "The kimchi carries the chilli; give the child a small spoon of kimchi rinsed in water, or plain spinach namul instead."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Gyeran jjim, the Korean steamed egg custard, puffed up in a small pot and eaten with rice and kimchi."
+nutrition: { kcal: 370, carbs: 37, fibre: 6, protein: 20, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 small pot gyeran jjim (steamed egg, 2 eggs) with spring onion"
+  - "1 small bowl brown rice (45 g uncooked)"
+  - "Kimchi (60 g) and sigeumchi namul (sesame spinach)"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown rice and cook it in 1.5 times its volume of water, covered, for about 35 minutes (or use rice cooked the night before)."
+  - "Whisk the eggs with 100 ml water, salt and most of the sliced spring onion until smooth."
+  - "Pour into a small lidded pot (a ttukbaegi or small saucepan), set it over low heat, and stir gently for 2-3 minutes as it thickens; then cover and leave 3-4 minutes until puffed and just set."
+  - "Blanch the spinach 30 seconds, squeeze dry, chop and toss with crushed garlic, soy sauce, sesame oil and sesame seeds."
+  - "Steep the barley tea bag in hot water; serve the gyeran jjim with the rice, kimchi and spinach namul alongside."
+swaps:
+  - { for: spinach, use: "bean sprouts", note: "blanch 3 minutes for kongnamul muchim" }
+source: "Adapted from the traditional gyeran jjim"

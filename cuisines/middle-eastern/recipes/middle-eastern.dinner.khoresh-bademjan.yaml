@@ -1,0 +1,48 @@
+id: middle-eastern.dinner.khoresh-bademjan
+name: Khoresh bademjan (Persian eggplant stew) with chicken & brown rice
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: chicken
+family: khoresh
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 50
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Khoresh bademjan, the Persian eggplant and tomato stew soured with dried lime, one of Iran's everyday khoresh served over rice."
+nutrition: { kcal: 505, carbs: 50, fibre: 11, protein: 35, satFat: 3, sugar: 0 }
+components:
+  - "Primary: eggplant and chicken khoresh with turmeric, cinnamon and lemon"
+  - "Scant 2/3 cup brown rice"
+  - "Salad shirazi (cucumber, tomato, red onion, dried mint)"
+ingredients:
+  - { item: brinjal (eggplant), qty: 200, unit: g }
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 35, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: dried mint, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the brown rice in 2/3 cup salted water, covered, for 30 minutes."
+  - "Slice the eggplant lengthways into thick fingers, salt lightly and roast on a lined tray at 220C for 20 minutes until browned (no frying)."
+  - "Brown the chicken pieces in the olive oil with the sliced onion and garlic; stir in the turmeric, cinnamon stick and pepper."
+  - "Add the canned tomatoes, tomato paste, salt and 1/2 cup water; simmer 20 minutes. Lay the roasted eggplant on top, add the juice of half a lemon and simmer 10 minutes more without stirring so the eggplant holds its shape."
+  - "Dice the cucumber, tomato and red onion with dried mint and the remaining lemon for the shirazi salad. Serve the khoresh over the rice."
+swaps:
+  - { for: chicken thigh (boneless), use: "lean beef strips", note: "simmer 40 minutes before the eggplant goes in" }
+source: "Adapted from the traditional Persian khoresh bademjan"

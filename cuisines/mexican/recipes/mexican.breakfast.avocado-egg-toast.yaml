@@ -1,0 +1,38 @@
+id: mexican.breakfast.avocado-egg-toast
+name: Avocado and egg on wholemeal toast with lime and chilli
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: egg
+family: avocado-toast
+tags: [quick]
+spice: medium
+kidNote: "Skip the chilli powder on the child's toast; lime and a pinch of salt only."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 350, carbs: 29, fibre: 10, protein: 18, satFat: 3.4, sugar: 0 }
+components:
+  - "Primary: 2 slices wholemeal toast with a quarter avocado mashed with lime, salt and chilli powder"
+  - "1 boiled egg, sliced on top"
+  - "Cherry tomatoes and toasted pumpkin seeds"
+ingredients:
+  - { item: wholemeal bread, qty: 2, unit: pc }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: cherry tomatoes, qty: 60, unit: g }
+  - { item: pumpkin seeds, qty: 8, unit: g }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Boil the egg 8 minutes, cool under the tap, peel and slice."
+  - "Toast the pumpkin seeds in a dry pan for 2 minutes until they pop; toast the bread."
+  - "Mash the avocado with lime juice, salt and chilli powder."
+  - "Spread the avocado over the toast, lay the egg slices on top, add the halved cherry tomatoes, pumpkin seeds and coriander."
+source: "A Mexican-flavoured take on avocado toast"

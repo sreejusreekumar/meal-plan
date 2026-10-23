@@ -1,0 +1,47 @@
+id: vietnamese.dinner.goi-ga-light
+name: Chicken & Cabbage Herb Salad with a Small Rice Portion
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: chicken-salad
+tags: [quick, light]
+spice: medium
+kidNote: "Dress the child's plate before the chilli goes into the dressing."
+packable: false
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 470, carbs: 44, fibre: 10, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 2 cups shredded chicken, cabbage, carrot and cucumber salad with mint, coriander, basil and peanuts"
+  - "1/2 cup brown rice"
+  - "Lime-fish sauce dressing (no sugar)"
+ingredients:
+  - { item: chicken breast, qty: 130, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: cabbage, qty: 150, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: thai basil, qty: 0.1, unit: bunch }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+steps:
+  - "Cook the brown rice with 1 cup water, covered, 35 minutes."
+  - "Poach the chicken breast in simmering salted water 12 minutes; rest and shred."
+  - "Shred the cabbage and carrot, slice the cucumber into half-moons and the onion paper-thin (soak the onion in the rice vinegar 5 minutes)."
+  - "Dressing: fish sauce, lime juice, minced garlic, chilli and 2 tbsp water."
+  - "Toss everything with the herbs and dressing, top with toasted crushed peanuts and serve with the small portion of rice."
+swaps:
+  - { for: chicken breast, use: "tofu (firm)", note: "150 g, pan-fried; vegetarian with soy in place of fish sauce" }
+source: "Adapted from the traditional goi ga bap cai, as a light dinner"

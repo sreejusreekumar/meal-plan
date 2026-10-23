@@ -1,0 +1,48 @@
+id: thai.lunch.pla-neung-manao
+name: Pla Neung Manao (steamed fish with lime, garlic & chilli) & gai lan
+slot: [lunch]
+role: main
+cuisine: thai
+protein: fish
+family: steamed-fish
+tags: [high-protein]
+spice: medium
+kidNote: "Spoon the lime dressing over the adult portions only; give the child plain steamed fish with a squeeze of lime."
+packable: true
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pla neung manao, the Thai whole fish steamed and dressed with lime, garlic, chilli and fish sauce."
+nutrition: { kcal: 527, carbs: 56, fibre: 9, protein: 40, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g steamed fish with shiitake and lime-garlic-chilli dressing"
+  - "Stir-fried gai lan and carrot in oyster sauce"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: shiitake mushrooms, qty: 60, unit: g }
+  - { item: lemongrass, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: chinese broccoli (gai lan), qty: 0.5, unit: bunch }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: oyster sauce, qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes)."
+  - "Lay the fish on a heatproof plate over the bruised lemongrass, scatter the sliced shiitake on top and steam 10-12 minutes until it flakes."
+  - "Mix lime juice, fish sauce, half the garlic (finely chopped) and the chilli for the dressing."
+  - "Stir-fry the gai lan and carrot sticks with the rest of the garlic in 1 tsp rice bran oil, add the oyster sauce and a splash of water; 2-3 minutes."
+  - "Drizzle the sesame oil over the hot fish, spoon over the lime dressing and scatter with coriander."
+  - "Plate the fish, the greens and 1 level cup rice."
+swaps:
+  - { for: firm white fish fillet, use: "salmon fillet", note: "120 g, steam 10 minutes" }
+source: "Adapted from the traditional pla neung manao."

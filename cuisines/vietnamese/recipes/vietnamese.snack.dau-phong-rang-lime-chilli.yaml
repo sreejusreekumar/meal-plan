@@ -1,0 +1,38 @@
+id: vietnamese.snack.dau-phong-rang-lime-chilli
+name: Dau phong rang (roasted peanuts with lime, chilli and salt) with cucumber and iced tea
+slot: [snack]
+role: main
+cuisine: vietnamese
+protein: legume
+family: peanuts
+tags: [quick]
+spice: mild
+kidNote: "Set aside a spoon of plain roasted peanuts before adding the chilli."
+packable: true
+prepMinutes: 5
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dau phong rang muoi ot, the Vietnamese beer-garden and roadside nibble of peanuts roasted with salt and chilli, brightened here with lime zest."
+nutrition: { kcal: 155, carbs: 6, fibre: 3, protein: 7, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 25 g peanuts roasted with salt, chilli and lime zest"
+  - "Cucumber sticks to dip into the lime juice"
+  - "Tra da (iced black tea, unsweetened)"
+ingredients:
+  - { item: peanuts, qty: 25, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Dry-roast the peanuts in a small pan over medium heat 6-8 minutes, shaking often, until the skins crackle and smell toasted."
+  - "Add the finely chopped chilli and salt for the last minute, then take off the heat and grate over the lime zest; cool a few minutes to crisp up."
+  - "Cut the cucumber into sticks and squeeze the lime juice over them."
+  - "Brew the black tea strong, cool and pour over ice, no sugar."
+swaps:
+  - { for: peanuts, use: "cashews", note: "roast 5 minutes only" }
+source: "Adapted from the traditional dau phong rang muoi ot"

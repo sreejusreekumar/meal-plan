@@ -1,0 +1,37 @@
+id: thai.snack.tofu-cubes-soy-chilli
+name: Seared tofu cubes with soy, sesame and chilli flakes, carrot and cucumber, green tea
+slot: [snack]
+role: main
+cuisine: thai
+protein: legume
+family: tofu
+tags: [quick, vegetarian]
+spice: mild
+kidNote: "Skip the chilli flakes on the child's tofu."
+packable: false
+prepMinutes: 5
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 130, carbs: 7, fibre: 3, protein: 10, satFat: 1, sugar: 0 }
+components:
+  - "Primary: Firm tofu cubes seared in sesame oil, tossed with soy, spring onion and chilli flakes"
+  - "Carrot and cucumber sticks"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: tofu (firm), qty: 70, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: chilli flakes, qty: 0.2, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Press the tofu dry and cut into 2 cm cubes."
+  - "Heat the sesame oil in a non-stick pan; sear the tofu 2-3 minutes per side until golden."
+  - "Toss with the soy sauce, sliced spring onion and chilli flakes."
+  - "Cut the carrot and cucumber into sticks; serve alongside with green tea brewed 2 minutes."
+source: "A Thai-Chinese style tao hu snack, pan-seared not fried."

@@ -1,0 +1,48 @@
+id: korean.dinner.bibim-guksu
+name: Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber
+slot: [dinner]
+role: main
+cuisine: korean
+protein: egg
+family: bibim-guksu
+tags: [quick]
+spice: medium
+kidNote: "Toss the child's noodles with soy, vinegar and sesame oil only and leave the gochujang and kimchi for the adults."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Bibim guksu, the Korean cold noodle dish tossed in a tangy gochujang dressing with cucumber, kimchi and a boiled egg."
+nutrition: { kcal: 500, carbs: 50, fibre: 9, protein: 32, satFat: 4, sugar: 1 }
+components:
+  - "Primary: 50 g soba noodles tossed with 1 tsp gochujang, vinegar, soy and sesame dressing"
+  - "2 boiled eggs and 50 g tofu cubes"
+  - "Cucumber, shredded cabbage, bean sprouts and kimchi"
+  - "Nori strips"
+ingredients:
+  - { item: soba noodles, qty: 50, unit: g }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tofu (firm), qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: cabbage, qty: 60, unit: g }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: gochujang, qty: 0.33, unit: tbsp }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: nori sheets, qty: 1, unit: pc }
+steps:
+  - "Boil the eggs 9 minutes, cool in cold water and halve. Blanch the bean sprouts 2 minutes and drain."
+  - "Cook the soba in plenty of boiling water 4-5 minutes, then rinse under cold running water, rubbing the strands, and drain well."
+  - "Whisk the gochujang, gochugaru, soy sauce, rice vinegar, sesame oil, crushed garlic and 1 tablespoon of kimchi juice into a dressing."
+  - "Toss the noodles with the dressing, the sliced cucumber, finely shredded cabbage, bean sprouts and chopped kimchi."
+  - "Top with the eggs, tofu cubes and nori cut into strips; serve cold."
+swaps:
+  - { for: eggs, use: "chicken breast", note: "100 g poached and shredded" }
+source: "Adapted from the traditional bibim guksu"

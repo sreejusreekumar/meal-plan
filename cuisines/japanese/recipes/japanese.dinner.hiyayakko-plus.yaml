@@ -1,0 +1,42 @@
+id: japanese.dinner.hiyayakko-plus
+name: Hiyayakko Plate (Chilled Tofu with Ginger-Soy, Egg, Edamame & Cucumber)
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: legume
+family: hiyayakko
+tags: [quick, no-cook-main, vegetarian]
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 482, carbs: 44, fibre: 9, protein: 33, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 100 g chilled tofu with ginger, spring onion, bonito and soy"
+  - "A boiled egg, edamame (50 g) and cucumber-wakame sunomono"
+  - "Small bowl brown rice (40 g uncooked)"
+ingredients:
+  - { item: tofu (firm), qty: 100, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: edamame (frozen), qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Cook the brown rice (40 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Boil the egg 9 minutes, cool in cold water, peel and halve. Boil the edamame 4 minutes and drain."
+  - "Slice the cucumber thinly, salt lightly and squeeze after 5 minutes; soak the wakame 5 minutes, drain, and toss both with the rice vinegar."
+  - "Drain the tofu and cut into a thick block; set on a plate and top with grated ginger, sliced spring onion and bonito flakes. Spoon the soy over just before eating."
+  - "Serve everything together as a light plate: sunomono and edamame first, then tofu and egg, rice last."
+swaps:
+  - { for: eggs, use: "prawns (chemmeen)", note: "50 g, boiled 2 minutes" }
+source: "Adapted from the traditional hiyayakko, built out into a light summer dinner"

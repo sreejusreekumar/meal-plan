@@ -1,0 +1,53 @@
+id: vietnamese.lunch.bun-cha
+name: Bun Cha with Brown Rice Vermicelli & Herbs
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: pork
+lean: true
+family: bun-cha
+tags: [grill]
+spice: medium
+kidNote: "Leave the chilli out of the child's bowl of nuoc cham; serve plain lime-fish sauce."
+packable: true
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Bun cha, Hanoi's grilled pork patties served over rice vermicelli with a heap of herbs and a bowl of dipping sauce."
+nutrition: { kcal: 525, carbs: 61, fibre: 9, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 4 small grilled lean pork patties (150 g pork tenderloin)"
+  - "1 level cup brown rice vermicelli"
+  - "Herb plate: cos lettuce, mint, coriander, bean sprouts, cucumber"
+  - "Nuoc cham with pickled carrot and daikon (no sugar)"
+ingredients:
+  - { item: pork tenderloin (lean), qty: 150, unit: g }
+  - { item: brown rice noodles, qty: 60, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: rice vinegar, qty: 2, unit: tsp }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+steps:
+  - "Mince or very finely chop the pork tenderloin; mix with finely chopped shallot, garlic, 1 tsp fish sauce and black pepper. Shape into 4 small flat patties and rest 10 minutes."
+  - "Shred carrot and daikon, toss with rice vinegar and a pinch of salt for a quick do chua pickle."
+  - "Make the nuoc cham: 1 tsp fish sauce, lime juice, 3 tbsp water, sliced chilli; stir in the pickle."
+  - "Cook the brown rice noodles per packet (about 6 minutes), rinse under cold water and drain well."
+  - "Brush the patties with the rice bran oil and grill or pan-sear on a hot griddle 3-4 minutes a side until charred at the edges."
+  - "Plate the noodles with the lettuce, herbs, bean sprouts and cucumber; add the patties and pour the nuoc cham over at the table (pack it separately for a lunchbox)."
+swaps:
+  - { for: pork tenderloin (lean), use: "chicken mince", note: "same timing" }
+source: "Adapted from the traditional bun cha of Hanoi"

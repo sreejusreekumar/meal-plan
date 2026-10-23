@@ -1,0 +1,50 @@
+id: vietnamese.breakfast.pho-ga
+name: Pho ga (chicken pho) on brown rice noodles
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: pho
+tags: [soup]
+spice: medium
+kidNote: "Leave the sliced red chilli off the child's bowl; the broth itself is not spicy."
+packable: false
+prepMinutes: 15
+cookMinutes: 60
+effort: weekend
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pho ga, the chicken version of Vietnam's national noodle soup: a clear star-anise and ginger broth poured over rice noodles, shredded chicken and a heap of fresh herbs, from Hanoi."
+nutrition: { kcal: 350, carbs: 42, fibre: 6, protein: 22, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl pho ga - chicken and star anise broth with shredded chicken"
+  - "45 g brown rice noodles (about 3/4 cup cooked)"
+  - "Bean sprouts, coriander, spring onion and lime on top"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: chicken (bone-in curry cut), qty: 120, unit: g }
+  - { item: brown rice noodles, qty: 45, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: star anise, qty: 1, unit: pc }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Char the shallots and ginger over a flame or in a dry pan until blistered; toast the star anise and cinnamon briefly."
+  - "Cover the chicken pieces with 600 ml water, add the charred aromatics and spices, bring to a boil, skim, then simmer gently 45 minutes (or 20 minutes in a pressure cooker)."
+  - "Lift out the chicken, pull the meat off the bone and shred it; strain the broth and season with fish sauce, salt and pepper. Add no sugar."
+  - "Cook the brown rice noodles in boiling water until just tender (about 6 minutes), rinse and drain."
+  - "Put the noodles in a bowl, top with shredded chicken, pour over the hot broth, then pile on bean sprouts, coriander, spring onion, chilli and a squeeze of lime."
+  - "Brew the green tea, cool it and pour over ice for the tra da."
+swaps:
+  - { for: chicken (bone-in curry cut), use: "chicken breast", note: "poach 12 minutes in the spiced broth; the broth will be lighter" }
+source: "Adapted from the traditional pho ga of Hanoi, with brown rice noodles and no sugar or MSG in the broth"

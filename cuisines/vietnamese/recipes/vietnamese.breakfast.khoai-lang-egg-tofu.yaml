@@ -1,0 +1,43 @@
+id: vietnamese.breakfast.khoai-lang-egg-tofu
+name: Khoai lang luoc (boiled sweet potato) with a boiled egg, tofu and herb salad
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: egg
+family: sweet-potato
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 345, carbs: 28, fibre: 7, protein: 20, satFat: 3.5, sugar: 0 }
+components:
+  - "Primary: half a boiled sweet potato with peanut salt (muoi dau phong)"
+  - "1 boiled egg and 60 g seared tofu"
+  - "Cucumber, mint and coriander salad with lime and fish sauce"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: sweet potato, qty: 0.5, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Scrub the sweet potato, cut the half into thick rounds and boil or steam 12-15 minutes until tender; boil the egg in the same pot for 8 minutes."
+  - "Dry-roast the peanuts 3 minutes, cool and crush with the salt."
+  - "Pat the tofu dry, cut into two slabs and sear in a dry non-stick pan until golden on both sides."
+  - "Slice the cucumber, toss with the torn mint and coriander, lime juice and fish sauce."
+  - "Plate the sweet potato with the peanut salt sprinkled over, the halved egg, the tofu and the salad. Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: tofu (firm), use: "eggs", note: "use 2 eggs in total and skip the tofu" }
+source: "Adapted from khoai lang luoc with muoi dau phong, the Vietnamese boiled sweet potato breakfast"

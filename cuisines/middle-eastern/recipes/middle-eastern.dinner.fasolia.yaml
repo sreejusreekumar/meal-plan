@@ -1,0 +1,49 @@
+id: middle-eastern.dinner.fasolia
+name: Fasolia (white bean stew in tomato) with yoghurt & cucumber salad
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: fasolia
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 45
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Fasolia, the Levantine and Iraqi white bean stew simmered in garlic tomato sauce and usually eaten with rice."
+nutrition: { kcal: 470, carbs: 58, fibre: 17, protein: 26, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 large bowl fasolia (cannellini beans, carrot, tomato, cumin and baharat)"
+  - "Yoghurt (100 g) with dried mint"
+  - "Cucumber and spring onion salad with lemon"
+ingredients:
+  - { item: cannellini beans, qty: 70, unit: g }
+  - { item: canned tomatoes, qty: 150, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: baharat, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: dried mint, qty: 0.5, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+steps:
+  - "Soak the cannellini beans overnight; drain and simmer in fresh water 40 minutes until tender (or pressure-cook 15 minutes)."
+  - "Soften the chopped onion, garlic and diced carrot in the olive oil 6-8 minutes; add the crushed cumin, coriander powder, baharat and pepper."
+  - "Add the canned tomatoes, tomato paste, the beans with a cup of their cooking water and the salt; simmer 15 minutes until the sauce is thick and glossy."
+  - "Stir the dried mint into the yoghurt. Dice the cucumber and spring onion and dress with lemon juice and a pinch of salt."
+  - "Finish the stew with chopped parsley and serve with the yoghurt and the salad."
+swaps:
+  - { for: cannellini beans, use: "white chickpeas (chana)", note: "same soak and cook time" }
+source: "Adapted from the traditional Lebanese fasolia bi zeit"

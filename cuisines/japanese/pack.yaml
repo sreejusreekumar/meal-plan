@@ -1,0 +1,25 @@
+id: japanese
+name: Japanese
+version: 1
+description: "Japanese home cooking (washoku) for a pre-diabetic household: brown rice measured, miso soup, grilled fish, tofu, vegetables simmered or steamed, soy and mirin measured."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · vegetables first
+  snack: 4 pm tea
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: "Vegetables and miso soup first, then fish, tofu or chicken, then a small bowl of brown rice last."
+  - title: Walk after meals
+    text: "10–15 minutes of brisk walking right after lunch and dinner."
+  - title: Salt and sugar are measured
+    text: "Low-sodium soy, 1 teaspoon mirin at most, no sugar in teriyaki."
+  - title: Skip completely
+    text: "White rice, tempura, katsu, ramen and sweetened drinks."

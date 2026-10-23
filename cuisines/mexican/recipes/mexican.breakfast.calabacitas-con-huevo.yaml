@@ -1,0 +1,43 @@
+id: mexican.breakfast.calabacitas-con-huevo
+name: Calabacitas con huevo with a corn tortilla
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: egg
+family: calabacitas
+tags: [quick]
+spice: medium
+kidNote: "Cook the child's share before adding the jalapeno, or pick the jalapeno pieces out."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 385, carbs: 36, fibre: 10, protein: 22, satFat: 3.9, sugar: 0 }
+components:
+  - "Primary: zucchini, sweet corn, tomato and onion sauteed, then 2 eggs scrambled through"
+  - "1/4 cup pinto beans"
+  - "1 warm corn tortilla and coriander"
+ingredients:
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: sweet corn (frozen), qty: 50, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: pinto beans (dried), qty: 25, unit: g }
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the pinto beans overnight; pressure-cook with salt until soft (or use beans cooked ahead) and keep warm."
+  - "Dice the zucchini, tomato, onion and jalapeno small."
+  - "Heat the oil in a non-stick pan, cook the onion, garlic and jalapeno 2 minutes, add the zucchini and corn and saute 5 minutes until the zucchini is tender, then the tomato and oregano for 2 minutes."
+  - "Pour in the beaten, salted eggs and stir gently until just set."
+  - "Warm the tortilla on a dry pan; serve the calabacitas with the beans and coriander."
+source: "Adapted from the traditional calabacitas con huevo"

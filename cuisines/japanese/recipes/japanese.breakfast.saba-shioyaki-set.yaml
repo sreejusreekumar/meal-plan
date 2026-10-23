@@ -1,0 +1,46 @@
+id: japanese.breakfast.saba-shioyaki-set
+name: Saba Shioyaki Breakfast Set
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: fish
+family: saba-set
+tags: [high-protein]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Saba shioyaki teishoku, the classic Japanese breakfast set of grilled salted mackerel with rice, miso soup and a small vegetable side."
+nutrition: { kcal: 375, carbs: 36, fibre: 6, protein: 22, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 piece grilled salted mackerel (saba shioyaki) with grated daikon"
+  - "Small bowl brown rice (40 g uncooked)"
+  - "Miso soup with wakame and spring onion"
+  - "Spinach ohitashi with sesame"
+  - "Green tea"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: daikon radish, qty: 0.1, unit: pc }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown rice and cook it with 1.5 times its volume of water (about 30 minutes, or in the rice cooker)."
+  - "Make dashi: steep the kombu in 300 ml water, bring almost to the boil, remove the kombu, add the bonito flakes, rest 2 minutes and strain."
+  - "Salt the mackerel lightly on both sides and rest 10 minutes; grill or pan-grill skin side first, 4-5 minutes a side, until the skin blisters."
+  - "Blanch the spinach 40 seconds, squeeze dry, cut into 3 cm lengths and dress with half the soy and 2 tablespoons of dashi; top with toasted sesame."
+  - "Soak the wakame in the remaining dashi for 3 minutes, warm gently and dissolve the miso off the heat; add sliced spring onion."
+  - "Serve the mackerel with grated daikon and the rest of the soy, alongside the rice, soup, spinach and a cup of green tea."
+source: "Adapted from the traditional saba shioyaki teishoku"

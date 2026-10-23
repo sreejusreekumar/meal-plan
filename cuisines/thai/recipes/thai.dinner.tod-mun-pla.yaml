@@ -1,0 +1,47 @@
+id: thai.dinner.tod-mun-pla
+name: Tod Mun Pla (Thai fish cakes) with cucumber relish & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: fish
+family: fish-cakes
+spice: medium
+kidNote: "Red curry paste is mildly hot; shape the child's cakes from the mix before adding the extra chilli to the relish."
+packable: false
+prepMinutes: 20
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tod mun pla, the Thai fish cakes of fish paste, red curry paste, kaffir lime and snake beans, usually deep-fried, here pan-seared."
+nutrition: { kcal: 483, carbs: 49, fibre: 8, protein: 40, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 4 pan-seared fish cakes with kaffir lime and beans (1 tsp oil)"
+  - "Ajad cucumber relish with shallot, chilli and lime (no sugar)"
+  - "Steamed bok choy"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: thai red curry paste, qty: 1, unit: tbsp }
+  - { item: eggs, qty: 0.5, unit: pc }
+  - { item: kaffir lime leaves, qty: 2, unit: pc }
+  - { item: french beans, qty: 70, unit: g }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Blitz or finely chop the fish to a paste with the curry paste, half an egg and fish sauce; knead until springy. Fold in the finely shredded lime leaves and 40 g of the beans, sliced thinly."
+  - "Shape into 4 flat cakes. Heat the oil in a non-stick pan and cook 3 minutes a side until golden and firm."
+  - "For the relish, mix thin cucumber slices, sliced shallot, chilli, lime juice and 1 tbsp water; add the coriander."
+  - "Steam the bok choy and the remaining beans 3 minutes. Serve the cakes with the relish, greens and 3/4 cup rice."
+swaps:
+  - { for: firm white fish fillet, use: "prawns (chemmeen)", note: "150 g, blitzed (tod mun goong)" }
+source: "Adapted from the traditional tod mun pla, pan-seared and with sugar-free ajad."

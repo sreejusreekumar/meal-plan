@@ -1,0 +1,47 @@
+id: japanese.dinner.kinpira-mackerel
+name: Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: fish
+family: kinpira
+tags: [quick]
+spice: medium
+kidNote: "Add the chilli flakes to the kinpira after setting the child's portion aside."
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 495, carbs: 45, fibre: 9, protein: 30, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 salt-grilled mackerel with lemon"
+  - "Kinpira of carrot, daikon and french beans with sesame oil, soy and chilli"
+  - "Miso soup with wakame and spring onion"
+  - "Small bowl brown rice (40 g uncooked)"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: french beans, qty: 50, unit: g }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Cook the brown rice (40 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Clean and butterfly or fillet the mackerel, salt both sides and leave 10 minutes; pat dry."
+  - "Cut the carrot and daikon into thin matchsticks and the french beans into 3 cm pieces. Heat the sesame oil, stir-fry the vegetables 4 minutes, add the soy and 2 tablespoons water and cook until dry and glossy; finish with the chilli flakes."
+  - "Bring 200 ml water with the soaked wakame to a simmer, dissolve the miso in off the boil and add the spring onion."
+  - "Grill the mackerel skin side up under a hot grill 5 minutes, turn and grill 3-4 minutes until the skin blisters."
+  - "Serve the soup and kinpira first, the fish with a lemon wedge, and the small bowl of rice last."
+swaps:
+  - { for: mackerel (ayala), use: salmon fillet, note: "110 g, grill 4 minutes a side" }
+source: "Adapted from the traditional saba shioyaki with kinpira, without the usual sugar and mirin"

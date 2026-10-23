@@ -1,0 +1,46 @@
+id: thai.lunch.larb-gai
+name: Larb Gai (minced chicken salad with mint & lime) & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: chicken
+family: larb
+tags: [quick]
+spice: medium
+kidNote: "Mix the chilli flakes into the adult portions at the end; the child's larb gets lime, mint and toasted rice only."
+packable: true
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Larb gai, the Isaan (north-eastern Thai) warm salad of minced chicken with lime, fish sauce, mint, shallots and toasted rice powder."
+nutrition: { kcal: 520, carbs: 59, fibre: 9, protein: 37, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl larb gai (minced chicken, shallots, mint, coriander, lime, toasted-rice powder)"
+  - "Cos lettuce, cucumber, cabbage and blanched beans to scoop and crunch"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: chicken mince, qty: 150, unit: g }
+  - { item: brown jasmine rice, qty: 65, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cabbage, qty: 50, unit: g }
+  - { item: french beans, qty: 50, unit: g }
+steps:
+  - "Set aside 1 tsp (5 g) of the brown jasmine rice; cook the rest (60 g with 1.5 cups water, 30-35 minutes)."
+  - "Toast the reserved teaspoon of rice in a dry pan until golden and nutty, then grind to a coarse powder (khao khua)."
+  - "Cook the chicken mince in a pan with 3 tbsp water, breaking it up, until just cooked and the liquid is gone, 5-6 minutes. Cool slightly."
+  - "Blanch the beans 2 minutes. Toss the chicken with sliced shallots, spring onion, lime juice, fish sauce, chilli flakes and the toasted-rice powder."
+  - "Fold in the mint and coriander. Serve with lettuce leaves, cucumber, cabbage wedges, the beans and 1 level cup rice."
+swaps:
+  - { for: chicken mince, use: "tofu (firm)", note: "150 g crumbled and dry-fried" }
+source: "Adapted from the traditional larb gai (no sugar)."

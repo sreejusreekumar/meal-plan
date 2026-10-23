@@ -1,0 +1,47 @@
+id: korean.lunch.dak-galbi
+name: Dak Galbi with Cabbage & Sweet Potato
+slot: [lunch]
+role: main
+cuisine: korean
+protein: chicken
+family: dak-galbi
+tags: [packable]
+spice: medium
+kidNote: "Pan-fry a share of the chicken, cabbage and sweet potato in soy and garlic before adding the gochujang-gochugaru paste to the rest."
+packable: true
+prepMinutes: 20
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dak galbi, the spicy stir-fried chicken with cabbage and sweet potato from Chuncheon, cooked on a big hot plate."
+nutrition: { kcal: 550, carbs: 59, fibre: 10, protein: 37, satFat: 4, sugar: 1 }
+components:
+  - "Primary: 150 g dak galbi (chicken thigh in gochujang-gochugaru paste) with cabbage, onion and half a sweet potato"
+  - "2/3 bowl brown rice"
+  - "Spring onion and sesame to finish"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: sweet potato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: gochujang, qty: 0.33, unit: tbsp }
+  - { item: gochugaru (korean chilli flakes), qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Cook the brown rice (rinse, 1.5 times water, covered 35 minutes); it is a smaller bowl today because the sweet potato carries part of the carbohydrate."
+  - "Mix the gochujang, gochugaru, soy sauce, crushed garlic and ginger into a paste; cut the chicken thigh into bite-size pieces and coat them."
+  - "Cut the sweet potato into 1 cm slices, the cabbage into wide ribbons and the onion into wedges."
+  - "Heat the rice bran oil in a wide pan; lay in the sweet potato and chicken and cook 5 minutes without moving, then turn."
+  - "Add the cabbage and onion with a splash of water, cover 5 minutes, then uncover and stir-fry until the chicken is cooked through and the paste clings to everything."
+  - "Scatter the spring onion and sesame seeds; serve with the rice. Packs well; reheat gently."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "cut thicker and cook 2 minutes less" }
+source: "Adapted from the traditional dak galbi"

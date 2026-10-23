@@ -1,0 +1,48 @@
+id: vietnamese.dinner.pho-ga
+name: Pho Ga Chicken Noodle Soup with Herbs
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: pho
+spice: medium
+kidNote: "Serve the chilli slices on the side so the child's bowl stays mild."
+packable: false
+prepMinutes: 15
+cookMinutes: 45
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pho ga, the Hanoi chicken noodle soup with a clear ginger, onion and star anise broth, topped with herbs and bean sprouts."
+nutrition: { kcal: 470, carbs: 49, fibre: 8, protein: 39, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 large bowl chicken pho (180 g chicken thigh, 3/4 cup brown rice noodles)"
+  - "Bean sprouts, bok choy, thai basil, coriander and spring onion"
+  - "Lime and chilli on the side"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 180, unit: g }
+  - { item: brown rice noodles, qty: 50, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 10, unit: g }
+  - { item: star anise, qty: 1, unit: pc }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: bean sprouts, qty: 80, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: thai basil, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+steps:
+  - "Char half the onion and the ginger over a flame or in a dry pan until blackened in spots."
+  - "Put the chicken, charred onion and ginger, star anise, cinnamon, salt and 600 ml water in a pot; bring to a simmer, skim, and cook gently 30 minutes."
+  - "Lift out the chicken, shred it; strain the broth and season with fish sauce and black pepper."
+  - "Cook the brown rice noodles per packet, drain; blanch the bok choy 1 minute in the broth."
+  - "Bowl the noodles, shredded chicken, bok choy and bean sprouts; ladle over the boiling broth. Top with the remaining onion sliced paper-thin, spring onion, coriander and thai basil; squeeze lime and add chilli to taste."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "simmer 20 minutes" }
+source: "Adapted from the traditional pho ga of Hanoi"

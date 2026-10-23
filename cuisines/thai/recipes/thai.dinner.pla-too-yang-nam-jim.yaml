@@ -1,0 +1,45 @@
+id: thai.dinner.pla-too-yang-nam-jim
+name: Grilled mackerel with nam jim & som tam, brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: fish
+family: grilled-mackerel
+spice: medium
+kidNote: "Pound the som tam dressing and nam jim without chilli, serve the child, then add the chilli for the adults."
+packable: false
+prepMinutes: 20
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 506, carbs: 49, fibre: 8, protein: 40, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 grilled mackerel with nam jim (lime, chilli, garlic, fish sauce)"
+  - "Som tam: green papaya, cherry tomatoes, beans and peanuts (no sugar)"
+  - "Cabbage wedges"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: green papaya, qty: 100, unit: g }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: french beans, qty: 40, unit: g }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: cabbage, qty: 40, unit: g }
+  - { item: brown jasmine rice, qty: 45, unit: g }
+steps:
+  - "Cook the brown jasmine rice (45 g with 1 cup water, 30-35 minutes)."
+  - "Slash the cleaned mackerel twice on each side, rub with 2 g of crushed garlic and grill 5-6 minutes a side; mackerel needs no added oil."
+  - "Nam jim: pound the remaining garlic with half the chilli, add lime juice, 1 tsp fish sauce, the shallots and chopped coriander."
+  - "Som tam: shred the papaya; pound the other half of the chilli, bruise the beans, add the tomatoes, 1 tsp fish sauce and lime, then toss with the papaya and peanuts."
+  - "Serve the mackerel with the nam jim, som tam, cabbage wedges and 3/4 cup rice."
+swaps:
+  - { for: mackerel (ayala), use: "salmon fillet", note: "110 g, 4 minutes a side" }
+source: "Adapted from the traditional pla too yang with nam jim seafood and som tam."

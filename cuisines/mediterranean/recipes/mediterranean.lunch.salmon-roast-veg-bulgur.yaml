@@ -1,0 +1,42 @@
+id: mediterranean.lunch.salmon-roast-veg-bulgur
+name: Baked salmon with roasted vegetables & bulgur
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: fish
+family: salmon
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 510, carbs: 42, fibre: 10, protein: 33, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 120 g baked salmon with lemon and dill"
+  - "Tray-roasted zucchini, capsicum, red onion and cherry tomatoes with oregano"
+  - "3/4 cup bulgur"
+ingredients:
+  - { item: salmon fillet, qty: 120, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: bulgur wheat, qty: 50, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Heat the oven to 200 C. Cut the zucchini, capsicum and red onion into chunks, toss with the cherry tomatoes, olive oil, oregano, sliced garlic, salt and pepper on a tray and roast 15 minutes."
+  - "Season the salmon with salt, pepper and lemon zest; lay it on the tray among the vegetables and roast a further 10-12 minutes until just cooked."
+  - "Meanwhile pour 3/4 cup boiling water over the bulgur with a pinch of salt, cover and stand 15 minutes; fluff."
+  - "Squeeze the lemon over the salmon, scatter dill and serve with the vegetables and bulgur. Cold the next day it is a good lunchbox."
+swaps:
+  - { for: salmon fillet, use: firm white fish fillet, note: "150 g, same timing" }
+source: "Mediterranean home cooking, tray-bake style"

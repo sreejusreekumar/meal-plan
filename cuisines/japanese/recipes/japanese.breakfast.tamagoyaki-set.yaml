@@ -1,0 +1,47 @@
+id: japanese.breakfast.tamagoyaki-set
+name: Tamagoyaki with Brown Rice & Miso Soup
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: egg
+family: tamagoyaki
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tamagoyaki, the Japanese rolled omelette seasoned with dashi, soy and a little mirin, a staple of home breakfasts and bento boxes."
+nutrition: { kcal: 390, carbs: 39, fibre: 6, protein: 19, satFat: 3.4, sugar: 2 }
+components:
+  - "Primary: Tamagoyaki rolled omelette (2 eggs) with grated daikon"
+  - "Small bowl brown rice (40 g uncooked)"
+  - "Miso soup with wakame"
+  - "Bok choy ohitashi with sesame"
+  - "Green tea"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.25, unit: tsp }
+  - { item: daikon radish, qty: 0.1, unit: pc }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice (40 g per person) with 1.5 times its volume of water, about 30 minutes."
+  - "Make dashi from the kombu and bonito flakes in 300 ml water; strain."
+  - "Beat the eggs with the mirin, half the soy and 2 tablespoons of dashi."
+  - "Wipe a small pan with the sesame oil; pour in a thin layer of egg, roll it up as it sets, slide back, pour the next layer under the roll and repeat until the egg is used. Rest, then slice."
+  - "Blanch the bok choy 1 minute, squeeze, cut and dress with the remaining soy and a spoon of dashi; sprinkle with toasted sesame."
+  - "Soak the wakame in the rest of the dashi, warm, dissolve the miso off the heat and add spring onion. Serve with grated daikon beside the tamagoyaki and a cup of green tea."
+source: "Adapted from the traditional tamagoyaki"

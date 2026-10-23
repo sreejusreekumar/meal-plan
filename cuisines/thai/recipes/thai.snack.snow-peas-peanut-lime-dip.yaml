@@ -1,0 +1,37 @@
+id: thai.snack.snow-peas-peanut-lime-dip
+name: Snow peas and carrot sticks with a peanut-lime dip, green tea
+slot: [snack]
+role: main
+cuisine: thai
+protein: none
+family: peanut-dip
+tags: [quick]
+spice: mild
+kidNote: "Blend the child's share of the dip before adding the chilli."
+packable: false
+prepMinutes: 10
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 125, carbs: 9, fibre: 4, protein: 6, satFat: 1, sugar: 0 }
+components:
+  - "Primary: Peanut-lime dip (roasted peanuts, lime, fish sauce, garlic, a little chilli)"
+  - "Snow peas and carrot sticks for dipping"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: snow peas, qty: 50, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Dry-roast the peanuts 3-4 minutes; pound in a mortar with the garlic and chilli to a coarse paste."
+  - "Work in the lime juice, fish sauce and 1-2 tbsp warm water to a dipping consistency."
+  - "Trim the snow peas and cut the carrot into sticks."
+  - "Serve with green tea brewed 2 minutes."
+source: "A nam jim-style peanut dip without palm sugar, for raw vegetables."

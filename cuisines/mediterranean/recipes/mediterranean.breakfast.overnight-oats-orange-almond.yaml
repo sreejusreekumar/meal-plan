@@ -1,0 +1,35 @@
+id: mediterranean.breakfast.overnight-oats-orange-almond
+name: Overnight oats with yoghurt, orange and almonds
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: dairy
+family: oats
+tags: [quick, no-cook]
+spice: medium
+packable: false
+prepMinutes: 5
+cookMinutes: 0
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 379, carbs: 43, fibre: 7, protein: 19, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 jar overnight oats soaked in yoghurt and milk with cinnamon"
+  - "Half an orange in segments and toasted almonds on top"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: rolled oats, qty: 40, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: low-fat milk, qty: 50, unit: ml }
+  - { item: orange, qty: 0.5, unit: pc }
+  - { item: almonds, qty: 15, unit: g }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "The night before, stir the oats into the yoghurt and milk in a jar with a little finely grated cinnamon and the zest of the orange half; cover and refrigerate."
+  - "In the morning, toast the almonds in a dry pan 2-3 minutes and chop roughly."
+  - "Peel and segment the half orange over the jar so the juice drips in."
+  - "Top the oats with the orange segments and almonds; brew the tea leaves 3 minutes, strain, no sugar."
+source: "Adapted from the Mediterranean breakfast of oats, yoghurt and seasonal fruit"

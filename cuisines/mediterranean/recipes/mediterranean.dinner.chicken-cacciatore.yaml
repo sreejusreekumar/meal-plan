@@ -1,0 +1,46 @@
+id: mediterranean.dinner.chicken-cacciatore
+name: Chicken cacciatore with a small portion of wholemeal pasta
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: chicken
+family: cacciatore
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pollo alla cacciatora, the Italian hunter's-style chicken braised with tomato, onion, capsicum, mushrooms, rosemary and olives."
+nutrition: { kcal: 490, carbs: 41, fibre: 9, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 140 g chicken thigh braised cacciatore-style with capsicum, mushrooms, tomato, rosemary and olives"
+  - "40 g wholemeal pasta (a small nest)"
+  - "Salad leaves with balsamic; 5 g parmesan over the pasta"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 140, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: canned tomatoes, qty: 150, unit: g }
+  - { item: rosemary, qty: 1, unit: sprig }
+  - { item: olives, qty: 15, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: wholemeal pasta, qty: 40, unit: g }
+  - { item: parmesan, qty: 5, unit: g }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: balsamic vinegar, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Season the chicken thigh pieces with salt and pepper; brown in the olive oil in a wide pan 3 minutes a side and set aside."
+  - "In the same pan soften the sliced onion, capsicum, mushrooms and garlic with the rosemary 6-8 minutes."
+  - "Add the canned tomatoes and olives, return the chicken, cover and simmer 25 minutes until the chicken is tender and the sauce thick."
+  - "Boil the pasta in salted water until al dente; drain."
+  - "Serve the cacciatore over the pasta with the parmesan grated over; salad leaves dressed with balsamic on the side."
+swaps:
+  - { for: chicken thigh (boneless), use: chicken (bone-in curry cut), note: "180 g, simmer 35 minutes" }
+source: "Adapted from the traditional Italian pollo alla cacciatora"

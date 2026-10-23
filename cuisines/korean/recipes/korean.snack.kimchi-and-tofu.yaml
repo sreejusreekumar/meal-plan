@@ -1,0 +1,40 @@
+id: korean.snack.kimchi-and-tofu
+name: Kimchi with Warm Tofu Cubes & Green Tea
+slot: [snack]
+role: main
+cuisine: korean
+protein: legume
+family: kimchi-tofu
+tags: [quick]
+spice: mild
+kidNote: "Rinse the child's kimchi under the tap, or give them the tofu with cucumber and a dab of soy instead."
+packable: true
+prepMinutes: 5
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dubu kimchi in its simplest form, warm tofu with kimchi, a Korean anju and after-school plate."
+nutrition: { kcal: 119, carbs: 6, fibre: 3, protein: 10, satFat: 1, sugar: 0 }
+components:
+  - "Primary: warm tofu cubes (80 g) with sesame oil, soy and spring onion"
+  - "Kimchi (80 g) and cucumber slices"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: kimchi, qty: 80, unit: g }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: sesame oil, qty: 0.25, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cut the tofu into cubes and warm 2-3 minutes in simmering water (or 1 minute in the microwave); drain."
+  - "Drizzle the tofu with the sesame oil and soy sauce, scatter the sesame seeds and sliced spring onion."
+  - "Chop the kimchi, slice the cucumber and arrange beside the tofu."
+  - "Brew the green tea for 2 minutes and serve alongside."
+swaps:
+  - { for: kimchi, use: "cucumber", note: "0.5 pc dressed with rice vinegar and sesame for a mild version" }
+source: "Adapted from the traditional dubu kimchi"

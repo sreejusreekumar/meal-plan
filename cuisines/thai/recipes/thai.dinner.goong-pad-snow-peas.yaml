@@ -1,0 +1,47 @@
+id: thai.dinner.goong-pad-snow-peas
+name: Prawn & snow pea stir-fry with cashews & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: fish
+family: prawn-stir-fry
+tags: [quick]
+spice: medium
+kidNote: "Add the sliced chilli in the last 30 seconds, after the child's portion is plated."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 480, carbs: 49, fibre: 8, protein: 37, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 plate prawns stir-fried with snow peas, shiitake, ginger and garlic"
+  - "Bok choy tossed through, toasted cashews on top"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: prawns (chemmeen), qty: 150, unit: g }
+  - { item: snow peas, qty: 80, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: cashews, qty: 15, unit: g }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: spring onion, qty: 0.2, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: oyster sauce, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: brown jasmine rice, qty: 45, unit: g }
+steps:
+  - "Cook the brown jasmine rice (45 g with 1 cup water, 30-35 minutes). Toast the cashews in a dry wok and set aside."
+  - "Pat the prawns dry. Slice the shiitake, string the snow peas, cut the bok choy into quarters."
+  - "Heat the oil in the wok, fry the garlic, ginger and spring onion whites 20 seconds, add the prawns and toss 1 minute."
+  - "Add the shiitake, snow peas and bok choy with the soy, oyster sauce, fish sauce and 2 tbsp water; stir-fry 2 minutes until the prawns are pink and the peas bright."
+  - "Finish with chilli, black pepper, spring onion greens and the cashews. Serve with 3/4 cup rice."
+swaps:
+  - { for: prawns (chemmeen), use: "squid", note: "150 g scored, 1 minute" }
+source: "Adapted from the Thai-Chinese goong pad tua lan tao, no sugar."

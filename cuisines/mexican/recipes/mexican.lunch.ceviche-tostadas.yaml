@@ -1,0 +1,49 @@
+id: mexican.lunch.ceviche-tostadas
+name: Fish ceviche with baked corn tostadas & avocado
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: fish
+family: ceviche
+tags: [quick]
+spice: medium
+kidNote: "Set aside a portion of ceviche before the jalapeno goes in."
+packable: false
+prepMinutes: 25
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Ceviche, the Pacific-coast Mexican dish of raw white fish cured in lime juice with tomato, onion, chilli and coriander, eaten on crisp tostadas."
+nutrition: { kcal: 540, carbs: 54, fibre: 15, protein: 39, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 140 g lime-cured white fish ceviche with tomato, cucumber and coriander"
+  - "2 baked corn tostadas and a quarter avocado"
+  - "Black beans and cos lettuce"
+ingredients:
+  - { item: firm white fish fillet, qty: 140, unit: g }
+  - { item: lime, qty: 1, unit: pc }
+  - { item: orange, qty: 0.25, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: black beans (dried), qty: 40, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Use the freshest sashimi-grade white fish; dice into 1 cm cubes, salt lightly and cover with the lime and orange juice. Chill 20 minutes until opaque."
+  - "Cook the soaked black beans with salt until soft and let them cool."
+  - "Brush the tortillas with the half teaspoon of oil and bake at 200 C for 6-8 minutes until crisp."
+  - "Drain most of the juice from the fish; fold in diced tomato, cucumber, red onion, jalapeno, coriander, oregano and pepper."
+  - "Serve the ceviche piled on the tostadas with sliced avocado, lettuce leaves and the beans alongside. Eat the same day; not for the lunchbox."
+swaps:
+  - { for: firm white fish fillet, use: "prawns (chemmeen)", note: "blanch 1 minute first, then cure" }
+source: "Adapted from the traditional ceviche"

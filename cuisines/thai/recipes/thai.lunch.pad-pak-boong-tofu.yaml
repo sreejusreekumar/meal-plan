@@ -1,0 +1,44 @@
+id: thai.lunch.pad-pak-boong-tofu
+name: Pad Pak Boong (stir-fried morning glory) with tofu & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: legume
+family: morning-glory
+tags: [quick]
+spice: medium
+kidNote: "Keep the chilli whole and lift it out before serving the child's portion."
+packable: true
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 534, carbs: 57, fibre: 10, protein: 31, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 plate morning glory stir-fried with garlic, chilli and seared tofu"
+  - "Mushrooms and bean sprouts tossed through"
+  - "Crushed peanuts on top"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: morning glory (water spinach), qty: 1, unit: bunch }
+  - { item: mushrooms, qty: 80, unit: g }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes)."
+  - "Press the tofu dry and cut into 2 cm cubes. Wash the morning glory and cut into 5 cm lengths, stems and leaves."
+  - "Heat the oil in a wok and sear the tofu until golden on two sides; push to the side."
+  - "Add the crushed garlic, the whole chilli and the mushrooms; stir-fry 2 minutes."
+  - "Add the morning glory stems, then leaves, with the soy sauce and 2 tbsp water; toss over high heat 1-2 minutes until just wilted. Add the bean sprouts for 20 seconds."
+  - "Serve with crushed peanuts and 1 level cup rice."
+swaps:
+  - { for: morning glory (water spinach), use: "chinese broccoli (gai lan)", note: "0.5 bunch, 1 minute longer" }
+source: "Adapted from the traditional pad pak boong fai daeng, oyster sauce swapped for soy to keep it vegetarian."

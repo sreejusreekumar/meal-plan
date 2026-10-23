@@ -1,0 +1,49 @@
+id: korean.lunch.bibimbap
+name: Bibimbap with Namul, Fried Egg & Gochujang
+slot: [lunch]
+role: main
+cuisine: korean
+protein: egg
+family: bibimbap
+tags: [packable]
+spice: medium
+kidNote: "Leave the gochujang off the child's bowl and let them stir in the soy and sesame instead; the kimchi goes on the side."
+packable: true
+prepMinutes: 20
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Bibimbap, the Korean mixed-rice bowl of seasoned vegetables (namul), egg and gochujang stirred together at the table."
+nutrition: { kcal: 530, carbs: 55, fibre: 10, protein: 29, satFat: 4, sugar: 1 }
+components:
+  - "Primary: 2/3 bowl brown rice topped with spinach, bean sprout, carrot and zucchini namul"
+  - "2 fried eggs and 30 g edamame"
+  - "1 tsp gochujang, sesame oil and sesame seeds"
+  - "Kimchi on the side"
+ingredients:
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: edamame (frozen), qty: 30, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: gochujang, qty: 0.33, unit: tbsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: kimchi, qty: 40, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Rinse the brown rice and cook it with 1.5 times its volume of water, covered, for 35 minutes; rest 10 minutes."
+  - "Blanch the spinach 30 seconds and the bean sprouts 2 minutes; squeeze dry and season each with a pinch of salt, a little crushed garlic and a few drops of the sesame oil."
+  - "Cut the carrot and zucchini into matchsticks and soften them in a dry non-stick pan with a pinch of salt for 3 minutes; boil the edamame 3 minutes."
+  - "Fry the eggs in the remaining sesame oil until the whites are set and the yolk is still soft."
+  - "Arrange the namul and edamame over the rice in sections, top with the eggs, and add 1 tsp gochujang mixed with the soy sauce; scatter the sesame seeds."
+  - "Serve the kimchi alongside and stir everything together before eating; for a lunchbox, pack the egg hard-fried and the gochujang in a small pot."
+swaps:
+  - { for: eggs, use: "tofu (firm)", note: "120 g pan-seared, see the tofu bibimbap" }
+source: "Adapted from the traditional bibimbap"

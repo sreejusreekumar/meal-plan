@@ -1,0 +1,48 @@
+id: vietnamese.breakfast.chao-ca
+name: Chao ca (fish and ginger brown rice congee)
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: fish
+family: fish-congee
+tags: [soup, one-pot]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chao ca, the Vietnamese fish congee: rice porridge finished with poached white fish, plenty of ginger, spring onion and pepper, a northern Vietnamese breakfast and sickbed staple."
+nutrition: { kcal: 345, carbs: 42, fibre: 6, protein: 22, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 1 bowl chao ca - brown rice congee with poached white fish and ginger"
+  - "Mushrooms, bean sprouts, spring onion and coriander"
+  - "Lime and black pepper"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: brown rice, qty: 55, unit: g }
+  - { item: firm white fish fillet, qty: 80, unit: g }
+  - { item: ginger, qty: 6, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown rice and simmer it with 650 ml water and half the ginger (sliced) for 35 minutes until the grains burst and the congee is loose."
+  - "Meanwhile heat the oil, soften the shallot with the rest of the ginger (finely julienned), add the sliced mushrooms and cook 3 minutes."
+  - "Cut the fish into 2 cm pieces, season with fish sauce and pepper and slide them into the congee for the last 5 minutes; they should just flake."
+  - "Stir in the mushroom mixture and salt to taste."
+  - "Serve topped with bean sprouts, spring onion, coriander, more pepper and a squeeze of lime."
+  - "Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: firm white fish fillet, use: "prawns (chemmeen)", note: "add for the last 3 minutes only" }
+source: "Adapted from the traditional chao ca, made with brown rice"

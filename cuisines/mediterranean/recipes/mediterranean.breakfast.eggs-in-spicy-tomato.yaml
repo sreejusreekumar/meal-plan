@@ -1,0 +1,44 @@
+id: mediterranean.breakfast.eggs-in-spicy-tomato
+name: Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: egg
+family: eggs-tomato
+tags: [one-pan]
+spice: medium
+kidNote: "Leave the chilli flakes out of the pan and sprinkle them on the adults' portions at the table."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Huevos a la flamenca and Greek avga me domates, eggs poached in a paprika-tomato and capsicum sauce, a one-pan breakfast from Andalusia and the Greek islands."
+nutrition: { kcal: 380, carbs: 37, fibre: 7, protein: 20, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 eggs poached in tomato, capsicum and paprika sauce"
+  - "1 wholemeal pita, warmed, for dipping"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: capsicum, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Heat the olive oil in a small frying pan; soften the chopped onion, capsicum and garlic 4-5 minutes."
+  - "Stir in the paprika, chilli flakes and oregano, then the chopped tomato with salt and pepper; simmer 5 minutes to a thick sauce, adding a splash of water if it catches."
+  - "Make two hollows, crack in the eggs, cover and cook 4-5 minutes until the whites set and the yolks are still soft."
+  - "Warm the pita in a dry pan or toaster and cut into quarters."
+  - "Scatter parsley over the eggs and serve straight from the pan with the pita for dipping and black coffee or tea."
+source: "Adapted from the traditional huevos a la flamenca"

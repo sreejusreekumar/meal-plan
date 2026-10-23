@@ -1,0 +1,41 @@
+id: thai.breakfast.mushroom-tofu-congee
+name: Mushroom and tofu congee with ginger and sesame
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: legume
+family: congee
+tags: [vegetarian, comfort]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 355, carbs: 43, fibre: 6, protein: 20, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl brown jasmine rice congee with shiitake, mushrooms and tofu cubes"
+  - "Ginger, spring onion, coriander and a few drops of sesame oil on top"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: brown jasmine rice, qty: 50, unit: g }
+  - { item: tofu (firm), qty: 100, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: ginger, qty: 6, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Rinse the rice and simmer in 4 cups of water with the garlic and half the ginger for 30 minutes, stirring occasionally, until the grains burst into a thick congee."
+  - "Add the sliced shiitake and mushrooms and simmer 5 minutes more."
+  - "Add the tofu in 1.5 cm cubes and the soy sauce; heat through 2 minutes."
+  - "Top with shredded ginger, spring onion, coriander, pepper and the sesame oil."
+  - "Bruise the lemongrass and steep in boiling water 5 minutes for the tea."
+source: "Adapted from the Thai-Chinese breakfast jok, vegetarian version."

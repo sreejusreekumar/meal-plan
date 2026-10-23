@@ -1,0 +1,50 @@
+id: mexican.dinner.huevos-divorciados
+name: Huevos divorciados (eggs with red & green salsas), black beans & a corn tortilla
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: egg
+family: divorciados
+tags: [quick]
+spice: medium
+kidNote: "Give the child the red salsa made before the dried chilli goes in, and skip the green salsa, which is chilli-led."
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 485, carbs: 47, fibre: 12, protein: 28, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 2 fried eggs, one under tomato salsa roja, one under green chilli salsa verde"
+  - "Black beans with a spoon of yoghurt"
+  - "1 corn tortilla and a cos lettuce, cucumber and radish salad"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 1, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: black beans (dried), qty: 40, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: radish, qty: 2, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the soaked black beans with salt and cumin until soft; keep warm."
+  - "Salsa roja: blister the tomato, half the onion and the garlic in a dry pan; blend with the soaked dried chilli and salt, then simmer 3 minutes."
+  - "Salsa verde: blend the green chilli, jalapeno, the rest of the onion, coriander, lime juice and salt with a splash of water (raw, bright and sharp)."
+  - "Fry the eggs in the oil until the whites set. Warm the tortilla."
+  - "Plate the eggs side by side, red salsa over one and green over the other, beans with yoghurt alongside, the salad vegetables sliced with lime and salt."
+swaps:
+  - { for: eggs, use: "tofu (firm)", note: "150 g sliced and pan-fried, same salsas" }
+source: "Adapted from the traditional huevos divorciados"

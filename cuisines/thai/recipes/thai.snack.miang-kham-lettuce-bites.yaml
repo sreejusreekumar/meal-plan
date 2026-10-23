@@ -1,0 +1,39 @@
+id: thai.snack.miang-kham-lettuce-bites
+name: Miang kham-style lettuce bites with peanuts, prawns and lime, green tea
+slot: [snack]
+role: main
+cuisine: thai
+protein: fish
+family: miang
+tags: [quick]
+spice: mild
+kidNote: "Leave the chilli out of the child's leaves."
+packable: false
+prepMinutes: 15
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Miang kham, the Thai one-bite leaf wrap of roasted coconut, peanuts, dried shrimp, lime, ginger, shallot and chilli, usually with a palm-sugar sauce; here with cos lettuce, fresh prawns and no sugar."
+nutrition: { kcal: 120, carbs: 7, fibre: 3, protein: 8, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 4 cos lettuce leaves filled with peanuts, toasted coconut, chopped prawns, lime, ginger, shallot and chilli"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: peanuts, qty: 12, unit: g }
+  - { item: grated coconut, qty: 4, unit: g }
+  - { item: prawns (chemmeen), qty: 20, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 0.5, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Dry-toast the grated coconut in a small pan until golden; roast the peanuts alongside and crush coarsely."
+  - "Boil the prawns 2 minutes, cool and chop; dice the lime (with a little peel), ginger and shallot very finely, slice the chilli."
+  - "Separate 4 small cos leaves; put a little of each filling in each leaf and sprinkle with a drop of fish sauce."
+  - "Fold each leaf into a single bite. Brew the green tea 2 minutes and serve alongside."
+source: "Adapted from the traditional miang kham."

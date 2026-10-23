@@ -1,0 +1,45 @@
+id: thai.breakfast.khai-jiao
+name: Khai jiao (Thai omelette) with brown rice and cucumber
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: egg
+family: omelette
+tags: [quick]
+spice: medium
+kidNote: "Fold the omelette without the chilli for the child; serve the chilli slices on the side."
+packable: false
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Khai jiao, the fluffy Thai omelette seasoned with fish sauce and usually deep-fried over rice; here pan-cooked in 1 tsp of oil."
+nutrition: { kcal: 350, carbs: 34, fibre: 3, protein: 17, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2-egg khai jiao with spring onion and shallots, pan-cooked in 1 tsp oil"
+  - "2/3 cup brown jasmine rice"
+  - "Cucumber and tomato slices with coriander"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 40, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown jasmine rice and cook it with 1.5 times its volume of water, 25 minutes, lid on; rest 5 minutes."
+  - "Beat the eggs hard with the fish sauce, pepper, a splash of water, sliced spring onion, shallots and chilli until frothy."
+  - "Heat 1 tsp rice bran oil in a small non-stick pan until very hot; pour in the eggs so they puff, cook 1 minute, flip and cook 30 seconds more."
+  - "Slice the cucumber and tomato, squeeze a little lime over and scatter coriander."
+  - "Serve the omelette over the rice with the salad alongside, and lemongrass tea steeped 5 minutes."
+source: "Adapted from the traditional khai jiao."

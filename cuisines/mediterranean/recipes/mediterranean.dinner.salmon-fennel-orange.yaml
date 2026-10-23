@@ -1,0 +1,43 @@
+id: mediterranean.dinner.salmon-fennel-orange
+name: Baked salmon with fennel & orange salad and bulgur
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: fish
+family: salmon-fennel
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 505, carbs: 35, fibre: 11, protein: 33, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 120 g baked salmon with lemon and dill"
+  - "Sicilian-style shaved fennel, orange, red onion and olive salad on salad leaves"
+  - "1/2 cup bulgur"
+ingredients:
+  - { item: salmon fillet, qty: 120, unit: g }
+  - { item: fennel bulb, qty: 0.5, unit: pc }
+  - { item: orange, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: olives, qty: 15, unit: g }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: bulgur wheat, qty: 35, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the bulgur in 1/2 cup boiling water with a pinch of salt, covered, 15 minutes."
+  - "Season the salmon with salt, pepper and lemon zest; bake at 200 C for 12 minutes until just cooked."
+  - "Shave the fennel very thinly, segment the orange, sliver the red onion; toss with the olives, salad leaves, olive oil, lemon juice, the fennel fronds and pepper."
+  - "Flake the dill over the salmon and serve with the salad and bulgur."
+swaps:
+  - { for: salmon fillet, use: firm white fish fillet, note: "150 g" }
+  - { for: bulgur wheat, use: pearl barley, note: "35 g, boil 30 minutes" }
+source: "Adapted from the Sicilian insalata di finocchi e arance"

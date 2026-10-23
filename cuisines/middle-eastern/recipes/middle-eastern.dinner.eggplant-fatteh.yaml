@@ -1,0 +1,42 @@
+id: middle-eastern.dinner.eggplant-fatteh
+name: Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: fatteh
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 505, carbs: 53, fibre: 14, protein: 24, satFat: 2.5, sugar: 0 }
+components:
+  - "Primary: roasted eggplant and warm chickpeas layered over baked pita shards"
+  - "Garlic yoghurt-tahini sauce (150 g yoghurt, 1 tbsp tahini)"
+  - "Toasted pine nuts, parsley and paprika to finish"
+ingredients:
+  - { item: brinjal (eggplant), qty: 150, unit: g }
+  - { item: white chickpeas (chana), qty: 40, unit: g }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: tahini, qty: 1, unit: tbsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: pine nuts, qty: 5, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: paprika, qty: 0.25, unit: tsp }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the chickpeas overnight and simmer 45 minutes until soft (or use a batch cooked for the week); keep warm in a little of their liquid with the crushed cumin and a pinch of salt."
+  - "Cube the eggplant, salt lightly and roast on a lined tray at 220C for 20-25 minutes until browned and soft, with no oil."
+  - "Tear the half pita into shards and bake alongside for the last 8 minutes until crisp."
+  - "Whisk the yoghurt with the tahini, crushed garlic, lemon juice and salt to a thick sauce; toast the pine nuts in a dry pan."
+  - "Layer the pita shards in a wide bowl, spoon over the warm chickpeas and eggplant, pour on the yoghurt-tahini and finish with pine nuts, parsley and paprika. Eat straight away while the bread is still crisp."
+swaps:
+  - { for: brinjal (eggplant), use: cauliflower, note: "150 g florets, roasted the same way" }
+source: "Adapted from the traditional Levantine fatteh batinjan"

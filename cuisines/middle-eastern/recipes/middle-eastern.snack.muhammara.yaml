@@ -1,0 +1,40 @@
+id: middle-eastern.snack.muhammara
+name: Muhammara (roasted capsicum & walnut dip) with cucumber sticks
+slot: [snack]
+role: main
+cuisine: middle-eastern
+protein: none
+family: muhammara
+spice: mild
+packable: true
+prepMinutes: 8
+cookMinutes: 12
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Muhammara, the roasted red capsicum and walnut dip of Aleppo, Syria, sharpened with lemon and cumin."
+nutrition: { kcal: 175, carbs: 13, fibre: 4, protein: 4, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 3 tbsp muhammara (roasted capsicum and walnut dip)"
+  - "Cucumber sticks for dipping"
+  - "Black tea, unsweetened"
+ingredients:
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: walnuts, qty: 12, unit: g }
+  - { item: wholemeal bread, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: paprika, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Grill the capsicum half under a hot grill or over a gas flame until blistered (about 10 minutes), then peel off the skin."
+  - "Blend the capsicum with the walnuts, torn wholemeal bread, garlic, crushed cumin, paprika, lemon juice, olive oil and salt to a coarse paste."
+  - "Cut the cucumber into sticks and serve alongside; brew the black tea unsweetened."
+swaps:
+  - { for: walnuts, use: almonds, note: same weight }
+source: "Adapted from the traditional Syrian muhammara (lemon in place of pomegranate molasses)"

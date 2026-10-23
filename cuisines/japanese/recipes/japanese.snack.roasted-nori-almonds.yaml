@@ -1,0 +1,34 @@
+id: japanese.snack.roasted-nori-almonds
+name: Roasted Nori with Almonds & Green Tea
+slot: [snack]
+role: main
+cuisine: japanese
+protein: none
+family: nori
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 3
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Yaki nori, Japanese roasted seaweed sheets lightly brushed with sesame oil and salt, eaten as a crisp snack."
+nutrition: { kcal: 146, carbs: 4, fibre: 4, protein: 6, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 2 sheets roasted nori, cut into crisps, with sesame oil and salt"
+  - "20 g almonds"
+  - "Green tea"
+ingredients:
+  - { item: nori sheets, qty: 2, unit: pc }
+  - { item: sesame oil, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: almonds, qty: 20, unit: g }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Brush the nori sheets very lightly with the sesame oil and sprinkle with a few grains of salt."
+  - "Toast in a dry pan or under the grill 20-30 seconds a side until crisp and fragrant; cut into squares with scissors."
+  - "Toast the almonds in the same pan 2 minutes."
+  - "Serve the nori crisps and almonds with a cup of green tea."
+source: "Adapted from the traditional yaki nori"

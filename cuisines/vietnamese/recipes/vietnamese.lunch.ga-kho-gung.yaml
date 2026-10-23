@@ -1,0 +1,48 @@
+id: vietnamese.lunch.ga-kho-gung
+name: Ga Kho Gung Ginger Chicken & Bok Choy
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: ga-kho
+spice: medium
+kidNote: "No chilli in this dish; the ginger is mild once braised."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Ga kho gung, chicken braised with plenty of ginger, fish sauce and black pepper, a northern Vietnamese home dish."
+nutrition: { kcal: 525, carbs: 58, fibre: 9, protein: 35, satFat: 4, sugar: 2 }
+components:
+  - "Primary: 150 g ginger-braised chicken thigh"
+  - "1 level cup brown rice"
+  - "Blanched bok choy"
+  - "Cucumber and tomato with coriander"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: ginger, qty: 10, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: sugar, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.5, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: cucumber, qty: 1, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+steps:
+  - "Cook the brown rice with 1.5 cups water, covered, 35 minutes."
+  - "Cut the chicken into bite-sized pieces; toss with fish sauce, black pepper and half the ginger (julienned) for 10 minutes."
+  - "Heat the rice bran oil, melt the sugar until amber, add shallots, garlic and the rest of the ginger and fry 1 minute."
+  - "Add the chicken, brown 3 minutes, pour in 100 ml water, cover and simmer 15 minutes until the sauce clings; finish with spring onion."
+  - "Blanch the bok choy 1 minute in salted water; slice the cucumber and tomato and scatter with coriander."
+  - "Plate the rice with the chicken, bok choy and the fresh vegetables."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "simmer 10 minutes only" }
+source: "Adapted from the traditional ga kho gung"

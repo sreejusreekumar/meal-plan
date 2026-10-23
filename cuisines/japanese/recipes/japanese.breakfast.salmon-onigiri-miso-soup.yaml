@@ -1,0 +1,43 @@
+id: japanese.breakfast.salmon-onigiri-miso-soup
+name: Salmon Onigiri with Miso Soup
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: fish
+family: onigiri
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Sake onigiri, the Japanese rice ball filled with flaked grilled salmon and wrapped in nori, here made with brown rice."
+nutrition: { kcal: 367, carbs: 44, fibre: 7, protein: 20, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 2 brown-rice onigiri (50 g uncooked) filled with flaked baked salmon, wrapped in nori"
+  - "Miso soup with wakame and spinach"
+  - "Green tea"
+ingredients:
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: salmon fillet, qty: 50, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water until tender and slightly sticky, about 30 minutes; keep warm."
+  - "Salt the salmon and bake or pan-grill 8 minutes; flake with a fork, discarding the skin."
+  - "Make dashi from the kombu and bonito in 300 ml water; strain."
+  - "With wet, lightly salted hands, shape the warm rice into two triangles, pressing a spoon of salmon into the centre of each; roll the edges in toasted sesame and wrap a half sheet of nori around each."
+  - "Soak the wakame in the dashi, add the chopped spinach and warm 1 minute; dissolve the miso off the heat and add spring onion."
+  - "Serve the onigiri with the soup and a cup of green tea."
+source: "Adapted from the traditional sake onigiri"

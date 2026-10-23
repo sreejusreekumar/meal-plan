@@ -1,0 +1,48 @@
+id: vietnamese.lunch.goi-ga
+name: Goi Ga Chicken & Cabbage Salad with Brown Rice
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: goi-ga
+tags: [quick]
+spice: medium
+kidNote: "Dress the child's salad before adding the chilli to the bowl."
+packable: true
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Goi ga bap cai, the Vietnamese shredded chicken and cabbage salad tossed with herbs, peanuts and a lime-fish sauce dressing."
+nutrition: { kcal: 520, carbs: 57, fibre: 10, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 2 cups chicken and cabbage salad with mint, coriander and peanuts"
+  - "1 level cup brown rice"
+  - "Lime and fish sauce dressing (no sugar)"
+ingredients:
+  - { item: chicken breast, qty: 130, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: cabbage, qty: 120, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: thai basil, qty: 0.1, unit: bunch }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice with 1.5 cups water, covered, 35 minutes; cool for a lunchbox."
+  - "Poach the chicken breast in simmering salted water 12 minutes; rest, then shred by hand."
+  - "Shred the cabbage and carrot finely; slice the onion paper-thin and soak in the rice vinegar 5 minutes."
+  - "Whisk the dressing: fish sauce, lime juice, minced garlic, chilli and black pepper with 2 tbsp water."
+  - "Toss the chicken, vegetables and herbs with the dressing; top with toasted, crushed peanuts. Serve with the rice (pack the dressing separately if travelling)."
+swaps:
+  - { for: chicken breast, use: "prawns (chemmeen)", note: "poach 2 minutes" }
+source: "Adapted from the traditional goi ga bap cai"

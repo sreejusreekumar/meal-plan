@@ -1,0 +1,50 @@
+id: vietnamese.lunch.bun-ga-nuong
+name: Bun Ga Nuong Lemongrass Chicken Noodle Bowl
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: bun-chicken
+tags: [grill]
+spice: medium
+kidNote: "Serve the child's nuoc cham without the chilli slices."
+packable: true
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 58, fibre: 9, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 130 g grilled lemongrass chicken, sliced"
+  - "1 level cup brown rice vermicelli"
+  - "Cos lettuce, cucumber, bean sprouts, carrot, mint and coriander"
+  - "Nuoc cham and crushed peanuts"
+ingredients:
+  - { item: chicken breast, qty: 130, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice noodles, qty: 60, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+steps:
+  - "Pound the lemongrass (tender inner part), garlic and shallot to a paste; rub into the chicken with 1 tsp fish sauce, black pepper and the rice bran oil. Marinate 15 minutes or overnight."
+  - "Cook the brown rice noodles per packet, rinse under cold water and drain."
+  - "Grill or griddle the chicken 5-6 minutes a side until charred and cooked through; rest 3 minutes and slice."
+  - "Nuoc cham: 1 tsp fish sauce, lime juice, 3 tbsp water, sliced chilli."
+  - "Layer lettuce, noodles, cucumber, shredded carrot, bean sprouts and herbs in a bowl; top with chicken and crushed peanuts; pour the sauce over at the table."
+swaps:
+  - { for: chicken breast, use: "pork tenderloin (lean)", note: "counts as red meat" }
+source: "Adapted from the traditional bun thit nuong, made with chicken"

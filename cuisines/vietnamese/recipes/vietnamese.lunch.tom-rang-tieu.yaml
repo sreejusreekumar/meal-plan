@@ -1,0 +1,50 @@
+id: vietnamese.lunch.tom-rang-tieu
+name: Tom Rang Tieu Pepper Prawns & Gai Lan
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: fish
+family: prawns
+tags: [quick]
+spice: medium
+kidNote: "Use half the black pepper and leave out the chilli for the child's prawns."
+packable: true
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 61, fibre: 9, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 170 g prawns stir-fried with black pepper and shallot"
+  - "1 level cup brown rice"
+  - "Garlic-ginger gai lan"
+  - "Cucumber, tomato and pineapple salad with lime"
+ingredients:
+  - { item: prawns (chemmeen), qty: 170, unit: g }
+  - { item: black pepper, qty: 0.5, unit: tsp }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: garlic, qty: 8, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: fish sauce, qty: 1.5, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 2, unit: tsp }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: chinese broccoli (gai lan), qty: 0.5, unit: bunch }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: pineapple, qty: 50, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 cups water, covered, 35 minutes."
+  - "Peel and devein the prawns; toss with fish sauce and the coarsely cracked black pepper."
+  - "Heat 1 tsp rice bran oil, fry sliced shallots and half the garlic until golden, add the prawns and stir-fry 3 minutes until pink and glossy; finish with spring onion."
+  - "In the same pan heat 1 tsp oil, fry the remaining garlic and ginger, add the gai lan cut into lengths, splash with soy sauce and 2 tbsp water and cook 3 minutes."
+  - "Toss cucumber, tomato and pineapple with lime juice and the sliced chilli."
+  - "Plate the rice with the prawns, greens and salad."
+swaps:
+  - { for: prawns (chemmeen), use: "squid", note: "stir-fry 2 minutes only" }
+source: "Adapted from the traditional tom rang tieu"

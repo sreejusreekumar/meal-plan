@@ -1,0 +1,38 @@
+id: korean.snack.gyeran-with-sesame-salt
+name: Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea
+slot: [snack]
+role: main
+cuisine: korean
+protein: egg
+family: eggs
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 5
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Gyeran, the boiled egg sold warm at every Korean bathhouse and train station, eaten with a dip of sesame salt."
+nutrition: { kcal: 123, carbs: 6, fibre: 3, protein: 9, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 boiled egg with a dip of toasted sesame salt"
+  - "Carrot and cucumber sticks with a sheet of gim"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Boil the egg 9-10 minutes, cool under the tap and peel."
+  - "Toast the sesame seeds in a dry pan 1 minute, then crush with the salt to make sesame salt."
+  - "Cut the carrot and cucumber into sticks; toast the nori sheet briefly and cut into strips."
+  - "Steep the barley tea bag in hot water and serve everything together."
+swaps:
+  - { for: carrot, use: "daikon radish", note: "0.25 pc in sticks" }
+source: "Adapted from the Korean boiled-egg snack (gyeran)"

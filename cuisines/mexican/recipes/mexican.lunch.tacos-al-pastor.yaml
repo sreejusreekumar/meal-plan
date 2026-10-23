@@ -1,0 +1,52 @@
+id: mexican.lunch.tacos-al-pastor
+name: Tacos al pastor with pork tenderloin & pineapple
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: pork
+lean: true
+family: al-pastor
+spice: medium
+kidNote: "Marinate a few slices of pork separately with only orange, garlic and paprika, no dried chilli or chipotle."
+packable: true
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tacos al pastor, Mexico City's chilli-and-achiote marinated pork carved from a vertical spit with pineapple, onion and coriander on small corn tortillas."
+nutrition: { kcal: 530, carbs: 57, fibre: 12, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 2 corn tortillas with 120 g chilli-orange pork tenderloin and charred pineapple"
+  - "Onion, coriander and lime toppings"
+  - "Black beans and a cos lettuce and cucumber salad"
+ingredients:
+  - { item: pork tenderloin (lean), qty: 120, unit: g }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: pineapple, qty: 60, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: chipotle in adobo, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: orange, qty: 0.25, unit: pc }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: cloves, qty: 1, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: black beans (dried), qty: 35, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the dried chilli in hot water 10 minutes; blend with chipotle, garlic, orange juice, smoked paprika, oregano, cumin, the clove and salt into a marinade."
+  - "Slice the pork tenderloin thinly, coat in the marinade and rest 15 minutes (or overnight)."
+  - "Cook the soaked black beans with salt until soft. Slice the lettuce and cucumber for the salad."
+  - "Sear the pork in 1 tsp oil on a very hot pan 2 minutes a side; in the same pan char the pineapple pieces and half the onion, sliced."
+  - "Warm the tortillas; top with pork, pineapple, raw onion, coriander and lime. Beans and salad go first on the plate."
+swaps:
+  - { for: pork tenderloin (lean), use: "chicken thigh (boneless)", note: "same marinade, cook 4 minutes a side" }
+source: "Adapted from the traditional tacos al pastor"

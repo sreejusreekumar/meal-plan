@@ -1,0 +1,39 @@
+id: thai.dinner.pad-see-ew-gai
+name: Pad See Ew with chicken & gai lan (brown rice noodles)
+slot: [dinner]
+role: main
+cuisine: thai
+protein: chicken
+family: pad-see-ew
+spice: medium
+kidNote: "The dish itself is not hot; chilli flakes go on the adult plates at the table."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekend
+treat: true
+refinedCarb: false
+signature: true
+basedOn: "Pad see ew, the Thai-Chinese stir-fry of wide rice noodles with soy, egg, chicken and gai lan, charred in a hot wok."
+nutrition: { kcal: 505, carbs: 52, fibre: 8, protein: 37, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 plate pad see ew: brown rice noodles, chicken, egg and gai lan in soy"
+  - "Chilli flakes and black pepper at the table"
+ingredients:
+  - { item: brown rice noodles, qty: 60, unit: g }
+  - { item: chicken breast, qty: 100, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: chinese broccoli (gai lan), qty: 0.75, unit: bunch }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: oyster sauce, qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the brown rice noodles in hot water 8-10 minutes until pliable; drain well."
+  - "Slice the chicken thinly. Cut the gai lan into 5 cm pieces, stems split lengthways."
+  - "Heat the oil in a wok until smoking; fry the garlic 15 seconds, add the chicken and stir-fry 3 minutes."
+  - "Crack in the egg, scramble, then add the noodles with the soy and oyster sauce; press against the wok and let them char for 30 seconds before tossing."
+  - "Add the gai lan and toss 1-2 minutes until just tender. Serve with black pepper and chilli flakes."
+source: "The pack treat: pad see ew on brown rice noodles with no sugar or dark sweet soy."

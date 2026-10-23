@@ -1,0 +1,45 @@
+id: thai.lunch.gaeng-keow-wan-gai
+name: Gaeng Keow Wan Gai (green curry chicken) & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: chicken
+family: green-curry
+spice: medium
+kidNote: "Ladle out the child's portion before adding the fresh chilli; a spoon of extra thin coconut milk softens the heat."
+packable: true
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Gaeng keow wan gai, the central Thai green curry of chicken, eggplant and Thai basil in coconut milk."
+nutrition: { kcal: 530, carbs: 60, fibre: 9, protein: 40, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 bowl green curry chicken with eggplant, beans and pumpkin (thin coconut milk)"
+  - "1 level cup brown jasmine rice"
+  - "Thai basil leaves to finish"
+ingredients:
+  - { item: chicken breast, qty: 150, unit: g }
+  - { item: thai green curry paste, qty: 1, unit: tbsp }
+  - { item: coconut milk (canned), qty: 20, unit: ml }
+  - { item: brinjal (eggplant), qty: 100, unit: g }
+  - { item: french beans, qty: 60, unit: g }
+  - { item: pumpkin, qty: 60, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: kaffir lime leaves, qty: 2, unit: pc }
+  - { item: thai basil, qty: 0.15, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Rinse the brown jasmine rice and cook it with 1.5 cups water for 30-35 minutes until tender; rest covered."
+  - "Dilute the coconut milk with 150 ml water to make thin coconut milk."
+  - "In a dry pan, fry the curry paste with the shallots and 2 tbsp of the thin coconut milk until fragrant."
+  - "Add the sliced chicken breast and coat; pour in the rest of the thin coconut milk, add the torn lime leaves and simmer 5 minutes."
+  - "Add the eggplant, pumpkin and beans; simmer 8-10 minutes until tender. Season with fish sauce (no sugar)."
+  - "Stir in the basil and chilli; serve with 1 level cup rice."
+swaps:
+  - { for: chicken breast, use: "tofu (firm)", note: "150 g, add with the vegetables" }
+source: "Adapted from the traditional gaeng keow wan gai, with thin coconut milk and no palm sugar."

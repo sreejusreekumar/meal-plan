@@ -1,0 +1,45 @@
+id: mediterranean.dinner.chicken-capsicum-couscous
+name: Grilled chicken with roasted capsicum & wholemeal couscous
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: chicken
+family: chicken-couscous
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 460, carbs: 50, fibre: 12, protein: 39, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 120 g grilled chicken breast with smoked paprika, thyme and lemon"
+  - "Roasted capsicum, red onion, zucchini and cherry tomatoes"
+  - "3/4 cup wholemeal couscous with parsley; salad leaves with lemon"
+ingredients:
+  - { item: chicken breast, qty: 120, unit: g }
+  - { item: capsicum, qty: 1, unit: pc }
+  - { item: red onion, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: wholemeal couscous, qty: 55, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: dried thyme, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Heat the oven to 220 C. Cut the capsicum, red onion and zucchini into chunks, toss with the cherry tomatoes, olive oil, thyme, salt and pepper and roast 20 minutes until the edges char."
+  - "Rub the chicken breast with smoked paprika, crushed garlic, half the lemon juice, salt and pepper; grill or pan-sear 6-7 minutes a side, rest and slice."
+  - "Pour 1/2 cup boiling water over the couscous with a pinch of salt, cover 5 minutes, then fork through with the parsley."
+  - "Dress the salad leaves with the remaining lemon. Plate the vegetables and salad first, then the chicken over the couscous."
+swaps:
+  - { for: wholemeal couscous, use: bulgur wheat, note: "soak 15 minutes" }
+source: "Mediterranean home cooking, grill-and-tray style"

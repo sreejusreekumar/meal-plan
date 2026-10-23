@@ -1,0 +1,49 @@
+id: japanese.dinner.shabu-shabu
+name: Shabu-Shabu (Beef & Vegetable Hot Pot) with Ponzu
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: beef
+lean: true
+family: shabu-shabu
+spice: mild
+kidNote: "Leave the chilli flakes out of the child's dipping sauce."
+packable: false
+prepMinutes: 20
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Shabu-shabu, the Japanese table-top hot pot in which thin beef slices and vegetables are swished through kombu broth and dipped in ponzu or sesame sauce."
+nutrition: { kcal: 493, carbs: 50, fibre: 10, protein: 39, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 80 g lean beef strips swished in kombu broth"
+  - "Napa cabbage, tofu, shiitake, mushrooms and spring onion from the pot"
+  - "Ponzu-style lemon-soy with grated daikon, and a sesame dip"
+  - "Small bowl brown rice (50 g uncooked)"
+ingredients:
+  - { item: lean beef strips, qty: 80, unit: g }
+  - { item: napa cabbage (wombok), qty: 150, unit: g }
+  - { item: tofu (firm), qty: 50, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: kombu, qty: 3, unit: g }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 2, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown rice (50 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Soak the kombu in 1 litre of water in a wide pot for 20 minutes, then bring just to a simmer."
+  - "Make the ponzu: lemon juice, soy, rice vinegar and 1 tablespoon water, with the grated daikon and chilli flakes stirred in. For the sesame dip, grind the toasted sesame seeds and loosen with a spoonful of the ponzu."
+  - "Cut the napa cabbage into 4 cm pieces, the tofu into cubes, halve the shiitake and mushrooms, and cut the spring onion into 3 cm lengths. Arrange on a platter with the beef slices."
+  - "At the table, add the vegetables and tofu to the simmering broth for 3-4 minutes, then swish each beef slice 10-15 seconds until just coloured; dip and eat."
+  - "Finish with the small bowl of rice and a cup of the broth seasoned with a few drops of soy."
+swaps:
+  - { for: lean beef strips, use: chicken breast, note: "100 g sliced very thin; simmer 1 minute" }
+source: "Adapted from the traditional shabu-shabu"

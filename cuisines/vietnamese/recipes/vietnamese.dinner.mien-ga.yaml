@@ -1,0 +1,45 @@
+id: vietnamese.dinner.mien-ga
+name: Mien Ga-style Chicken & Mushroom Noodle Soup
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: mien-ga
+spice: medium
+kidNote: "No chilli in this bowl; pepper only."
+packable: false
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 465, carbs: 49, fibre: 8, protein: 35, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 bowl chicken, shiitake and mushroom soup over 3/4 cup brown rice noodles"
+  - "Bok choy, spring onion and coriander"
+  - "Crisp fried shallots"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: brown rice noodles, qty: 50, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+steps:
+  - "Simmer the chicken with the onion, sliced ginger, salt and 600 ml water for 25 minutes; lift out and shred the chicken."
+  - "Add the sliced shiitake and mushrooms to the broth and simmer 8 minutes; season with fish sauce and black pepper."
+  - "Fry the thinly sliced shallots in the rice bran oil until crisp and golden; drain on paper."
+  - "Cook the brown rice noodles per packet and drain; blanch the bok choy 1 minute in the broth."
+  - "Bowl the noodles, chicken and bok choy, ladle over the mushroom broth and top with spring onion, coriander and the crisp shallots."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "simmer 18 minutes" }
+source: "Adapted from the traditional mien ga, made with brown rice noodles"

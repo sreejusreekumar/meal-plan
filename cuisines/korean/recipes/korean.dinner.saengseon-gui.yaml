@@ -1,0 +1,51 @@
+id: korean.dinner.saengseon-gui
+name: Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: fish
+family: grilled-fish
+tags: [quick]
+spice: medium
+kidNote: "The fish and namul carry no chilli; give the child plain grated daikon instead of the gochugaru salad and kimchi."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Saengseon gui, Korean simply grilled fish seasoned with salt and served with rice and banchan."
+nutrition: { kcal: 500, carbs: 46, fibre: 9, protein: 39, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g grilled white fish with lemon"
+  - "Spinach namul and bean sprout namul"
+  - "Daikon salad (musaengchae) with gochugaru and kimchi"
+  - "Small bowl brown rice"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: brown rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Salt the fish and leave 10 minutes; pat dry and grind over black pepper."
+  - "Blanch the spinach 30 seconds and the bean sprouts 2 minutes; squeeze and dress with crushed garlic, soy sauce, sesame oil and sesame seeds."
+  - "Cut the daikon into fine matchsticks, salt lightly, squeeze after 5 minutes and toss with rice vinegar and gochugaru."
+  - "Brush the fish with the rice bran oil and grill or pan-grill over medium-high heat 4 minutes a side until the edges crisp; squeeze the lemon over."
+  - "Plate the kimchi, daikon salad and namul first, then the fish and the small bowl of rice."
+swaps:
+  - { for: firm white fish fillet, use: "mackerel (ayala)", note: "1 fish, 6 minutes a side" }
+source: "Adapted from the traditional saengseon gui"

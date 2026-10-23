@@ -1,0 +1,40 @@
+id: thai.snack.som-tam-small
+name: Small som tam (green papaya salad, no sugar) with peanuts, black tea
+slot: [snack]
+role: main
+cuisine: thai
+protein: none
+family: som-tam
+tags: [quick]
+spice: mild
+kidNote: "Pound the child's share without the chilli; keep it to lime, garlic and fish sauce."
+packable: false
+prepMinutes: 15
+cookMinutes: 0
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Som tam, the pounded green papaya salad of Isan and Laos with lime, fish sauce, chilli, garlic and peanuts; here a small bowl with no palm sugar."
+nutrition: { kcal: 145, carbs: 13, fibre: 5, protein: 6, satFat: 1, sugar: 0 }
+components:
+  - "Primary: Small bowl of shredded green papaya pounded with cherry tomatoes, snow peas, garlic, chilli, lime and fish sauce"
+  - "Roasted peanuts crushed on top"
+  - "Black tea, unsweetened"
+ingredients:
+  - { item: green papaya, qty: 80, unit: g }
+  - { item: cherry tomatoes, qty: 40, unit: g }
+  - { item: snow peas, qty: 20, unit: g }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Peel and shred the green papaya and carrot into long fine strands; halve the cherry tomatoes and cut the snow peas into 2 cm pieces."
+  - "In a mortar pound the garlic and chilli, add the snow peas and tomatoes and bruise lightly."
+  - "Add the papaya, carrot, lime juice and fish sauce; pound and turn with a spoon until just softened."
+  - "Dry-roast the peanuts 3 minutes, crush and scatter on top. Brew the black tea 3 minutes."
+source: "Adapted from the traditional som tam Thai."

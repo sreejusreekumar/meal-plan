@@ -1,0 +1,46 @@
+id: vietnamese.dinner.rau-muong-xao-toi-ca-nuong
+name: Rau Muong Xao Toi with Grilled Mackerel
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: fish
+family: morning-glory
+tags: [grill, quick]
+spice: medium
+kidNote: "No chilli in this plate; keep the pepper light on the child's fish."
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Rau muong xao toi, morning glory flash-fried with garlic, the most common green on a Vietnamese dinner table, here with a grilled turmeric mackerel."
+nutrition: { kcal: 500, carbs: 46, fibre: 8, protein: 30, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 grilled mackerel with turmeric, lemongrass and lime"
+  - "A heap of garlic-fried morning glory"
+  - "3/4 cup brown rice"
+  - "Tomato wedges"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: lemongrass, qty: 0.5, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: morning glory (water spinach), qty: 0.75, unit: bunch }
+  - { item: garlic, qty: 8, unit: g }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: tomato, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.25 cups water, covered, 35 minutes."
+  - "Score the cleaned mackerel on both sides; rub with turmeric, minced lemongrass, black pepper, salt and lime juice. Rest 10 minutes."
+  - "Grill the mackerel on a hot griddle or under the grill 5-6 minutes a side until the skin blisters and the flesh flakes."
+  - "Wash the morning glory and cut into finger lengths. Heat the rice bran oil until very hot, add the sliced garlic, then the greens; toss 2 minutes with the fish sauce and 1 tbsp water until just wilted."
+  - "Serve the fish with the greens, rice and tomato wedges, with the rest of the lime."
+swaps:
+  - { for: mackerel (ayala), use: "salmon fillet", note: "120 g, grill 4 minutes a side" }
+source: "Adapted from the traditional rau muong xao toi and ca nuong"

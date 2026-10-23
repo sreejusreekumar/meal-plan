@@ -1,0 +1,38 @@
+id: korean.snack.gim-and-edamame
+name: Gim (roasted nori) with Edamame & Barley Tea
+slot: [snack]
+role: main
+cuisine: korean
+protein: legume
+family: gim
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 5
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Gim, Korean roasted and lightly salted seaweed sheets, the everyday nibble eaten on their own or wrapped around rice."
+nutrition: { kcal: 119, carbs: 6, fibre: 5, protein: 10, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 2 sheets gim, brushed with sesame oil, salted and toasted, torn into squares"
+  - "Edamame (60 g) with sesame seeds and cucumber sticks"
+  - "Roasted barley tea (boricha), hot or iced"
+ingredients:
+  - { item: nori sheets, qty: 2, unit: pc }
+  - { item: sesame oil, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: edamame (frozen), qty: 60, unit: g }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Boil the edamame 4 minutes in lightly salted water, drain and toss with the sesame seeds."
+  - "Brush the nori sheets with the sesame oil, sprinkle a few grains of salt and toast 20 seconds a side in a dry pan until crisp; snip into squares."
+  - "Cut the cucumber into sticks and steep the barley tea bag in hot water (or pour over ice)."
+  - "Serve the gim, edamame and cucumber together with the tea."
+swaps:
+  - { for: edamame (frozen), use: "tofu (firm)", note: "80 g cubes with a dab of soy" }
+source: "Adapted from the Korean gim and edamame nibble"

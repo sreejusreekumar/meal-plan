@@ -1,0 +1,40 @@
+id: middle-eastern.breakfast.zaatar-manakish
+name: Zaatar manakish on wholemeal pita with tomato & boiled egg
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: egg
+family: manakish
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekend
+treat: true
+refinedCarb: false
+signature: true
+basedOn: "Manakish zaatar, flatbread spread with zaatar and olive oil and baked, the Lebanese and Palestinian bakery breakfast."
+nutrition: { kcal: 385, carbs: 36, fibre: 7, protein: 18, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 wholemeal pita baked with zaatar and olive oil (manakish)"
+  - "1 hard-boiled egg"
+  - "Tomato, cucumber, olives and mint"
+  - "100 g low-fat yoghurt"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: zaatar, qty: 2, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1.5, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: olives, qty: 15, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Heat the oven to 220C and put the egg on to boil for 10 minutes."
+  - "Mix the zaatar with the olive oil into a loose paste and spread it over the pita, leaving a thin rim."
+  - "Bake the manakish 6-8 minutes until the edges crisp and the zaatar smells toasty."
+  - "Cut into wedges and serve with the halved egg, tomato wedges, cucumber, olives, mint and the yoghurt; brew the tea unsweetened."
+source: "Adapted from the traditional Lebanese manakish zaatar"

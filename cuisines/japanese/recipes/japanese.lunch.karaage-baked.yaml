@@ -1,0 +1,45 @@
+id: japanese.lunch.karaage-baked
+name: Baked Karaage-Style Chicken with Cabbage Salad & Brown Rice
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: chicken
+family: karaage
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 538, carbs: 58, fibre: 10, protein: 33, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 110 g ginger-garlic-soy marinated chicken thigh, baked (karaage-style, no frying)"
+  - "Shredded cabbage and carrot salad with rice vinegar, sesame and lemon"
+  - "Edamame, 30 g"
+  - "1 small bowl brown rice (60 g uncooked)"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 110, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cabbage, qty: 150, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: edamame (frozen), qty: 30, unit: g }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Trim the chicken thigh of visible fat and cut into 4 cm pieces. Marinate 15 minutes in the soy, grated ginger, garlic and pepper."
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Toss the chicken with the rice bran oil, spread on a lined tray and bake at 220 C for 18-20 minutes, turning once, until browned at the edges."
+  - "Shred the cabbage finely and cut the carrot into matchsticks; dress with the rice vinegar, a squeeze of lemon and the toasted sesame seeds."
+  - "Boil the edamame 4 minutes; drain."
+  - "Box the rice, salad and edamame with the chicken pieces and a lemon wedge."
+swaps:
+  - { for: chicken thigh (boneless), use: chicken breast, note: "bake 15 minutes" }
+source: "Adapted from the traditional tori no karaage, oven-baked without batter or frying"

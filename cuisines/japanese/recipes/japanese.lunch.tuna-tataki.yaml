@@ -1,0 +1,48 @@
+id: japanese.lunch.tuna-tataki
+name: Tuna Tataki with Daikon Salad & Brown Rice
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: fish
+family: tuna-tataki
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 528, carbs: 60, fibre: 10, protein: 40, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 120 g seared tuna with ginger-lemon soy"
+  - "Daikon, cucumber, carrot and wakame salad with sesame"
+  - "Edamame, 40 g"
+  - "1 small bowl brown rice (60 g uncooked)"
+ingredients:
+  - { item: tuna (choora), qty: 120, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: edamame (frozen), qty: 40, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest) and let it cool."
+  - "Soak the wakame 5 minutes. Cut the daikon, cucumber and carrot into fine matchsticks and toss with the wakame, half the soy and the sesame seeds."
+  - "Boil the edamame 4 minutes; drain."
+  - "Season the tuna with pepper. Heat the sesame oil until very hot and sear the tuna 1 minute a side (for a lunchbox, cook it through, about 2 minutes a side). Rest and slice."
+  - "Mix the remaining soy with lemon juice, grated ginger and garlic and spoon over the tuna; scatter spring onion."
+  - "Pack the salad, edamame and rice with the tuna slices on top; keep the box cool."
+swaps:
+  - { for: tuna (choora), use: salmon fillet, note: "110 g, cook through" }
+source: "Adapted from the traditional maguro no tataki"

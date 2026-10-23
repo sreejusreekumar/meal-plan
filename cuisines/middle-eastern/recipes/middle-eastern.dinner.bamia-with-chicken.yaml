@@ -1,0 +1,48 @@
+id: middle-eastern.dinner.bamia-with-chicken
+name: Bamia (okra stew) with chicken & brown rice
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: chicken
+family: bamia
+spice: medium
+kidNote: "Add the chilli flakes at the table, not to the pot."
+packable: false
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Bamia, the okra and tomato stew cooked with meat and garlic-coriander across Egypt, Iraq and the Levant."
+nutrition: { kcal: 490, carbs: 49, fibre: 9, protein: 37, satFat: 3, sugar: 0 }
+components:
+  - "Primary: okra and chicken stew in tomato with garlic and coriander"
+  - "2/3 cup brown rice"
+  - "Lemon wedge"
+ingredients:
+  - { item: okra (bhindi), qty: 150, unit: g }
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: canned tomatoes, qty: 150, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: baharat, qty: 0.5, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+steps:
+  - "Cook the brown rice in 3/4 cup salted water, covered, for 30 minutes."
+  - "Trim the okra stems without cutting into the pods. Cut the chicken into chunks and brown in the olive oil with the chopped onion."
+  - "Add the baharat, coriander powder, crushed cumin, pepper and salt, then the canned tomatoes, tomato paste and 1/2 cup water; simmer 15 minutes."
+  - "Add the okra, cover and cook 15 minutes until tender but still whole. Stir in the garlic crushed with the chopped coriander leaves and cook 2 minutes more."
+  - "Serve over the rice with lemon to squeeze and chilli flakes on the side."
+swaps:
+  - { for: chicken thigh (boneless), use: chicken (bone-in curry cut), note: "180 g; simmer 10 minutes longer" }
+source: "Adapted from the traditional Egyptian and Levantine bamia"

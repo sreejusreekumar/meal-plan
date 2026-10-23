@@ -1,0 +1,53 @@
+id: vietnamese.dinner.ga-nuong-sa
+name: Ga Nuong Sa Grilled Lemongrass Chicken & Herb Salad
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: ga-nuong
+tags: [grill]
+spice: medium
+kidNote: "Keep the chilli out of the child's salad dressing."
+packable: false
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Ga nuong sa, chicken marinated in pounded lemongrass, garlic and fish sauce and grilled over charcoal, found at street grills across Vietnam."
+nutrition: { kcal: 485, carbs: 49, fibre: 8, protein: 34, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 150 g grilled lemongrass chicken thigh"
+  - "3/4 cup brown rice"
+  - "Cucumber, cabbage and tomato salad with mint, coriander and thai basil"
+  - "Lime-fish sauce dressing"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: cucumber, qty: 1, unit: pc }
+  - { item: cabbage, qty: 80, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: thai basil, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+steps:
+  - "Pound the lemongrass heart, garlic and shallot to a paste; mix with 1 tsp fish sauce, turmeric, black pepper and the rice bran oil and rub into the chicken. Marinate 15 minutes or overnight."
+  - "Cook the brown rice with 1.25 cups water, covered, 35 minutes."
+  - "Slice the cucumber, shred the cabbage and cut the tomato; toss with the torn herbs."
+  - "Dressing: 1 tsp fish sauce, lime juice, rice vinegar, 2 tbsp water and sliced chilli."
+  - "Grill the chicken 6 minutes a side until charred and cooked through; rest 3 minutes and slice."
+  - "Plate the rice, chicken and dressed salad."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "grill 5 minutes a side" }
+source: "Adapted from the traditional ga nuong sa"

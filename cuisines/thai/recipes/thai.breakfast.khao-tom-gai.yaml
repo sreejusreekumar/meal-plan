@@ -1,0 +1,45 @@
+id: thai.breakfast.khao-tom-gai
+name: Chicken and ginger rice soup with galangal and morning glory
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: chicken
+family: chicken-soup
+tags: [light]
+spice: medium
+kidNote: "Skip the chilli and pepper on the child's bowl."
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 345, carbs: 42, fibre: 4, protein: 23, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl brown jasmine rice soup with shredded chicken, ginger, galangal and kaffir lime"
+  - "Fried garlic, coriander and spring onion on top"
+  - "Wilted morning glory"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: brown jasmine rice, qty: 55, unit: g }
+  - { item: chicken breast, qty: 70, unit: g }
+  - { item: ginger, qty: 8, unit: g }
+  - { item: galangal, qty: 5, unit: g }
+  - { item: kaffir lime leaves, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: morning glory (water spinach), qty: 0.5, unit: bunch }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Simmer the chicken breast in 4 cups of water with the galangal, kaffir lime leaf and half the ginger for 12 minutes; lift out and shred."
+  - "Add the rinsed rice to the broth and simmer 25 minutes until tender and soupy; return the chicken with the fish sauce."
+  - "Fry the sliced garlic in 1 tsp rice bran oil until golden; in the same pan wilt the morning glory with a splash of water, 1 minute."
+  - "Serve the soup topped with shredded ginger, fried garlic, spring onion, coriander, pepper and chilli, greens alongside."
+  - "Bruise the lemongrass and steep in boiling water 5 minutes for the tea."
+source: "Adapted from the traditional khao tom gai."

@@ -1,0 +1,47 @@
+id: middle-eastern.lunch.koshari-bowl
+name: Koshari-style bowl (lentils, brown rice, tomato sauce, crispy onion)
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: koshari
+spice: medium
+kidNote: "Serve the child's bowl with the plain tomato sauce; keep the chilli-garlic dakka for the adults' portions."
+packable: true
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Koshari, Egypt's national street dish of lentils, rice, pasta, spiced tomato sauce and crisp onions, here without the pasta and on brown rice."
+nutrition: { kcal: 535, carbs: 74, fibre: 15, protein: 24, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 1 bowl koshari (brown lentils, brown rice, chickpeas, cumin tomato sauce)"
+  - "Crispy oven-baked onion and chilli-vinegar dakka"
+  - "Cucumber, tomato and parsley salad"
+ingredients:
+  - { item: brown lentils, qty: 50, unit: g }
+  - { item: brown rice, qty: 30, unit: g }
+  - { item: white chickpeas (chana), qty: 25, unit: g }
+  - { item: canned tomatoes, qty: 150, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+steps:
+  - "Soak the chickpeas overnight and simmer 45 minutes until soft (or use a batch cooked earlier in the week). Cook the brown rice in 3/4 cup water for 30 minutes; simmer the lentils separately 15-18 minutes until tender."
+  - "Slice the onion thinly, toss with half the olive oil and a pinch of salt and bake at 200C for 15-20 minutes, stirring once, until crisp and brown."
+  - "Soften half the garlic in the remaining oil, add the canned tomatoes, tomato paste, half the cumin and the coriander powder; simmer 10 minutes to a thick sauce."
+  - "Dakka: mix the vinegar with 2 tbsp water, the rest of the garlic and cumin, the chilli flakes and a pinch of salt."
+  - "Dice the cucumber and tomato with the parsley and lemon juice. Layer rice, lentils and chickpeas in a bowl, spoon over the sauce, top with the crispy onion and serve the dakka and salad alongside."
+source: "Adapted from the traditional Egyptian koshari"

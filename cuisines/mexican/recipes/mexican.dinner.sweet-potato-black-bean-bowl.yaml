@@ -1,0 +1,47 @@
+id: mexican.dinner.sweet-potato-black-bean-bowl
+name: Sweet potato & black bean bowl with lime, pumpkin seeds & a boiled egg
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: legume
+family: sweet-potato-bowl
+spice: medium
+kidNote: "Roast a few sweet potato pieces with only cumin and smoked paprika, no chilli powder."
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 505, carbs: 49, fibre: 14, protein: 28, satFat: 4, sugar: 0 }
+components:
+  - "Primary: Roasted chilli-lime sweet potato with 50 g (dry) black beans and toasted pumpkin seeds"
+  - "Baby spinach, red onion and cherry tomato with a halved boiled egg"
+  - "Yoghurt-lime crema and coriander"
+ingredients:
+  - { item: sweet potato, qty: 0.5, unit: pc }
+  - { item: black beans (dried), qty: 50, unit: g }
+  - { item: pumpkin seeds, qty: 15, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 40, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the soaked black beans with salt and crushed garlic until soft; drain and toss with ground cumin and a squeeze of lime."
+  - "Cube the sweet potato (skin on), toss with the oil, chilli powder, smoked paprika and salt, and roast at 220 C for 25 minutes until browned."
+  - "Hard-boil the egg (10 minutes), peel and halve. Toast the pumpkin seeds in a dry pan."
+  - "Whisk the yoghurt with lime, salt and chopped coriander."
+  - "Build the bowl: spinach leaves, beans, sweet potato, halved cherry tomatoes and sliced red onion; top with the egg, pumpkin seeds and the crema."
+swaps:
+  - { for: sweet potato, use: "pumpkin", note: "200 g, roast 20 minutes" }
+source: "Adapted from the Mexican-inspired camote and frijol bowl"

@@ -1,0 +1,47 @@
+id: korean.breakfast.gyeran-mari
+name: Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: egg
+family: gyeran-mari
+tags: [quick]
+spice: medium
+kidNote: "Only the kimchi is spicy; give the child extra bean sprout namul and a rinsed spoon of kimchi."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Gyeran mari, the Korean rolled omelette flecked with carrot and spring onion, a lunchbox and breakfast staple."
+nutrition: { kcal: 375, carbs: 37, fibre: 6, protein: 21, satFat: 3, sugar: 0 }
+components:
+  - "Primary: gyeran mari (2-egg rolled omelette with carrot, spring onion and nori), sliced"
+  - "1 small bowl brown rice (40 g uncooked)"
+  - "Kongnamul muchim (sesame bean sprouts) and kimchi (60 g)"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: bean sprouts, qty: 80, unit: g }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice (40 g uncooked per person) or use rice cooked the night before."
+  - "Blanch the bean sprouts 3 minutes, drain and toss with crushed garlic, soy sauce, sesame seeds and a pinch of salt."
+  - "Beat the eggs with salt, finely diced carrot and sliced spring onion."
+  - "Wipe a non-stick pan with the rice bran oil over low heat; pour in a thin layer of egg, lay the nori sheet on top, and when just set roll it from one side. Pour the remaining egg beside the roll and roll again to build the log."
+  - "Rest the omelette 2 minutes, slice into rounds and serve with the rice, bean sprouts and kimchi; pour the barley tea."
+swaps:
+  - { for: bean sprouts, use: "spinach", note: "0.5 bunch, blanch 30 seconds" }
+source: "Adapted from the traditional gyeran mari"

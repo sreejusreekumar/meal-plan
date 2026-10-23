@@ -82,8 +82,10 @@ The token cache lives in `~/.config/meal-plan/ms_token_cache.json`, never in the
 
 Each cuisine is a **pack**: a folder under `cuisines/` holding `pack.yaml` (name, slot labels,
 the "Every day" guardrails shown on the page) and `recipes/<id>.yaml`, one file per dish.
-`uv run mealplan cuisines` lists the packs you have and whether each is ready. Packs today: Kerala,
-North Indian, Sri Lankan; the rotation cycles through them by ISO week number.
+`uv run mealplan cuisines` lists the packs you have and whether each is ready. Ten packs today:
+Kerala, North Indian, Sri Lankan, Thai, Mediterranean, Japanese, Middle Eastern, Korean, Mexican,
+Vietnamese; the rotation cycles through them by ISO week number. Every dish is listed in
+[docs/packs.md](docs/packs.md).
 
 Pick the cuisine for a week in one of two ways:
 
@@ -111,6 +113,7 @@ To add a country, scaffold it and then write the recipes following
 ```
 uv run mealplan add-cuisine thai
 uv run mealplan validate -c thai
+uv run mealplan trial -c thai        # can it build 8 weeks inside the health windows?
 ```
 
 A pack is usable once it has at least 10 breakfast, 10 lunch, 7 snack and 10 dinner mains, with
@@ -129,6 +132,7 @@ A pack is usable once it has at least 10 breakfast, 10 lunch, 7 snack and 10 din
 | `mealplan build [--check]` | Regenerate `index.html`; `--check` fails if it is stale |
 | `mealplan validate [-c <id>]` | Validate config, packs and committed plans |
 | `mealplan cuisines` | List packs and recipe counts |
+| `mealplan trial -c <id> [--weeks N]` | Dry-run a pack over N weeks; nothing written |
 | `mealplan add-cuisine <id>` | Scaffold a new pack |
 
 ## Layout

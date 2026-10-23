@@ -1,0 +1,38 @@
+id: mexican.snack.guacamole-with-crudites
+name: Guacamole with capsicum and cucumber sticks, lime water
+slot: [snack]
+role: main
+cuisine: mexican
+protein: none
+family: guacamole
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 2
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Guacamole, the Mexican mash of avocado with lime, onion, coriander and tomato, scooped here with vegetable sticks instead of chips."
+nutrition: { kcal: 160, carbs: 8, fibre: 6, protein: 5, satFat: 1.8, sugar: 0 }
+components:
+  - "Primary: 1/4 avocado guacamole with toasted pepitas on top"
+  - "Capsicum and cucumber sticks for scooping"
+  - "Agua de limón, unsweetened (lime water)"
+ingredients:
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.1, unit: pc }
+  - { item: tomato, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: pumpkin seeds, qty: 10, unit: g }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Toast the pumpkin seeds in a dry pan for 2 minutes until they pop."
+  - "Mash the avocado with the juice of a quarter lime and salt; fold in finely chopped red onion, tomato and coriander."
+  - "Cut the capsicum and cucumber into sticks."
+  - "Squeeze the other quarter lime into a glass of cold water; serve with the guacamole topped with the seeds."
+source: "Adapted from the traditional guacamole"

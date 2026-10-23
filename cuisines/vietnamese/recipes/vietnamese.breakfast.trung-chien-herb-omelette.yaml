@@ -1,0 +1,43 @@
+id: vietnamese.breakfast.trung-chien-herb-omelette
+name: Trung chien (herb and bean sprout omelette) with brown rice and cucumber
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: egg
+family: omelette
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 375, carbs: 37, fibre: 6, protein: 18, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2-egg omelette folded with bean sprouts, spring onion and coriander"
+  - "45 g brown rice (3/4 cup cooked)"
+  - "Cucumber and tomato slices with mint and a squeeze of lime"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water, covered, 30 minutes (or use rice made ahead)."
+  - "Beat the eggs with the fish sauce and pepper; stir in the bean sprouts, sliced spring onion and chopped coriander."
+  - "Heat the oil in a non-stick pan, pour in the egg mixture and cook over medium heat until nearly set, then fold in half and cook 1 minute more."
+  - "Slice the cucumber and tomato, scatter with mint and squeeze over the lime."
+  - "Serve the omelette with the rice and the salad. Brew the green tea, cool and pour over ice."
+source: "Adapted from the traditional Vietnamese trung chien, with brown rice"

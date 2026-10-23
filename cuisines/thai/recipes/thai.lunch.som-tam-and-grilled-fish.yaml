@@ -1,0 +1,46 @@
+id: thai.lunch.som-tam-and-grilled-fish
+name: Som Tam (green papaya salad) & grilled fish with brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: fish
+family: som-tam
+spice: medium
+kidNote: "Pound the dressing without the chilli and add it to the adult plates only; the child's som tam is lime, garlic and peanuts."
+packable: true
+prepMinutes: 20
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Som tam, the Isaan green papaya salad pounded with lime, chilli, garlic, fish sauce, tomato and peanuts."
+nutrition: { kcal: 545, carbs: 64, fibre: 9, protein: 39, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g grilled fish with garlic and black pepper"
+  - "Som tam: green papaya, cherry tomatoes, beans and peanuts in lime-chilli dressing (no sugar)"
+  - "Cabbage wedges"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: green papaya, qty: 150, unit: g }
+  - { item: cherry tomatoes, qty: 60, unit: g }
+  - { item: french beans, qty: 40, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: cabbage, qty: 40, unit: g }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes)."
+  - "Rub the fish with half the garlic, black pepper and the oil; grill or pan-grill 4 minutes a side."
+  - "Shred the green papaya finely. In a mortar, pound the rest of the garlic with the chilli, then bruise the beans (cut in 3 cm pieces)."
+  - "Add the tomatoes, lime juice and fish sauce; bruise, then toss in the papaya and peanuts with a few light pounds so it stays crunchy."
+  - "Serve the fish with the som tam, cabbage wedges and 1 level cup rice."
+swaps:
+  - { for: green papaya, use: "carrot", note: "1.5 pc, shredded (som tam carrot)" }
+source: "Adapted from the traditional som tam Thai, with no palm sugar."

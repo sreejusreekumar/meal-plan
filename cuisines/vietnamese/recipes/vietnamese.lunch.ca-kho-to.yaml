@@ -1,0 +1,46 @@
+id: vietnamese.lunch.ca-kho-to
+name: Ca Kho To Caramelised Fish & Morning Glory
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: fish
+family: ca-kho
+spice: medium
+kidNote: "Skip the chilli slices on the child's piece of fish."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Ca kho to, the clay-pot fish braised in caramel and fish sauce with black pepper, a home staple across Vietnam."
+nutrition: { kcal: 530, carbs: 59, fibre: 9, protein: 36, satFat: 3, sugar: 4 }
+components:
+  - "Primary: 150 g fish braised in a 1-tsp caramel with fish sauce and pepper"
+  - "1 level cup brown rice"
+  - "Stir-fried morning glory with garlic"
+  - "Cucumber and tomato slices"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: sugar, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: garlic, qty: 8, unit: g }
+  - { item: black pepper, qty: 0.5, unit: tsp }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: rice bran oil, qty: 2, unit: tsp }
+  - { item: morning glory (water spinach), qty: 0.5, unit: bunch }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+steps:
+  - "Rinse the brown rice and cook with 1.5 cups water, covered, 35 minutes; rest 5 minutes."
+  - "Melt the sugar with 1 tsp water in a small heavy pot until deep amber, then add 100 ml water, the fish sauce, half the garlic, sliced shallots and black pepper."
+  - "Lay the fish pieces in the sauce, add the chilli, cover and simmer 15 minutes, turning once, until the sauce is glossy and reduced; finish with spring onion."
+  - "Heat 1 tsp rice bran oil, fry the remaining garlic 20 seconds, add the morning glory and stir-fry 2 minutes with a pinch of salt."
+  - "Plate the rice with the fish and its sauce, the greens and the cucumber and tomato slices."
+swaps:
+  - { for: firm white fish fillet, use: "salmon fillet", note: "richer; braise 12 minutes" }
+source: "Adapted from the traditional ca kho to"

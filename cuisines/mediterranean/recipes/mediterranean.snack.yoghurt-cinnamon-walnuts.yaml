@@ -1,0 +1,31 @@
+id: mediterranean.snack.yoghurt-cinnamon-walnuts
+name: Yoghurt with cinnamon, walnuts and berries, black tea
+slot: [snack]
+role: main
+cuisine: mediterranean
+protein: dairy
+family: yoghurt
+tags: [quick, no-cook]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 3
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 159, carbs: 12, fibre: 2, protein: 8, satFat: 1, sugar: 0 }
+components:
+  - "Small bowl of yoghurt with grated cinnamon, broken walnuts and a spoon of berries"
+  - "Black tea (unsweetened)"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 120, unit: g }
+  - { item: walnuts, qty: 10, unit: g }
+  - { item: mixed berries (frozen), qty: 50, unit: g }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Thaw the berries a few minutes (or 20 seconds in the microwave)."
+  - "Spoon the yoghurt into a bowl, grate the cinnamon stick over it and add the berries and broken walnuts; no honey."
+  - "Brew the tea leaves 3 minutes in a cup of boiling water, strain."
+source: "Adapted from the Greek yoghurt-and-walnut dessert, unsweetened"

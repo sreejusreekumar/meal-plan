@@ -1,0 +1,42 @@
+id: thai.lunch.red-curry-salmon-pumpkin
+name: Red curry salmon with pumpkin & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: fish
+family: red-curry
+spice: medium
+kidNote: "Red curry paste carries heat; take out the child's salmon and pumpkin before stirring in the fresh chilli, and thin their sauce with a spoon of water."
+packable: true
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 537, carbs: 57, fibre: 8, protein: 30, satFat: 6, sugar: 0 }
+components:
+  - "Primary: 1 bowl red curry with salmon, pumpkin and beans (thin coconut milk)"
+  - "Bok choy wilted into the curry"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: salmon fillet, qty: 110, unit: g }
+  - { item: thai red curry paste, qty: 1, unit: tbsp }
+  - { item: coconut milk (canned), qty: 15, unit: ml }
+  - { item: pumpkin, qty: 80, unit: g }
+  - { item: french beans, qty: 60, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: kaffir lime leaves, qty: 2, unit: pc }
+  - { item: thai basil, qty: 0.15, unit: bunch }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes)."
+  - "Mix the coconut milk with 150 ml water. Fry the red curry paste in 2 tbsp of it until fragrant."
+  - "Add the rest of the thin coconut milk, the pumpkin cubes and torn lime leaves; simmer 8 minutes."
+  - "Add the beans and the salmon in 3 cm pieces; simmer gently 5 minutes. Season with fish sauce."
+  - "Wilt in the bok choy for 1 minute; finish with basil and sliced chilli. Serve with 1 level cup rice."
+swaps:
+  - { for: salmon fillet, use: "firm white fish fillet", note: "150 g, cuts the saturated fat" }
+source: "Adapted from the traditional gaeng phed, with salmon, thin coconut milk and no palm sugar."

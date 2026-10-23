@@ -1,0 +1,47 @@
+id: korean.breakfast.kimchi-bokkeumbap
+name: Kimchi Bokkeumbap (brown rice) with Tofu & Fried Egg
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: egg
+family: kimchi-rice
+tags: [quick]
+spice: medium
+kidNote: "Rinse the child's share of kimchi before chopping, or fry their portion with half the kimchi and more carrot."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kimchi bokkeumbap, Korea's kimchi fried rice, made at home from yesterday's rice and well-fermented kimchi, topped with a fried egg."
+nutrition: { kcal: 383, carbs: 39, fibre: 6, protein: 19, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl kimchi fried brown rice (45 g uncooked) with crumbled tofu and carrot"
+  - "1 fried egg on top"
+  - "Crumbled gim (roasted nori) and sesame seeds"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: kimchi, qty: 100, unit: g }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: nori sheets, qty: 0.5, unit: pc }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Use brown rice cooked the day before (45 g uncooked per person) so it fries dry; chop the kimchi, finely dice the carrot and crumble the tofu."
+  - "Heat the rice bran oil in a non-stick pan, fry garlic and the white part of the spring onion 30 seconds, add kimchi and carrot and fry 3 minutes."
+  - "Add the crumbled tofu and the rice, press flat and let it catch slightly, then toss with the soy sauce and a spoon of kimchi juice; fry 3-4 minutes."
+  - "Push the rice to one side, wipe the pan with the sesame oil and fry the egg sunny-side up in the same pan."
+  - "Serve the rice topped with the egg, crumbled nori, sesame seeds and green spring onion; pour the barley tea."
+swaps:
+  - { for: tofu (firm), use: "edamame (frozen)", note: "40 g, stir in with the rice" }
+source: "Adapted from the traditional kimchi bokkeumbap"

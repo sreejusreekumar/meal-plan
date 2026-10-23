@@ -1,0 +1,51 @@
+id: mexican.lunch.carne-asada-salad
+name: Carne asada salad with cos lettuce, beans, corn & a corn tortilla
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: beef
+lean: true
+family: carne-asada
+tags: [quick]
+spice: medium
+kidNote: "Leave the chilli powder out of a few strips of beef and skip the jalapeno in the child's bowl."
+packable: true
+prepMinutes: 15
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 535, carbs: 48, fibre: 15, protein: 40, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 120 g lime-cumin grilled lean beef strips (carne asada)"
+  - "Cos lettuce, black bean, charred corn and tomato salad with a quarter avocado"
+  - "1 corn tortilla, warmed"
+ingredients:
+  - { item: lean beef strips, qty: 120, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: sweet corn (frozen), qty: 60, unit: g }
+  - { item: black beans (dried), qty: 40, unit: g }
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the soaked black beans with salt until soft; cool. Char the thawed corn in a dry pan."
+  - "Marinate the beef strips 10 minutes with crushed garlic, ground cumin, chilli powder, oregano, pepper, half the lime and salt."
+  - "Sear the beef on a very hot dry pan 1-2 minutes a side so it stays pink; rest and slice across the grain."
+  - "Toss the chopped lettuce, tomato, red onion, jalapeno, beans and corn with the remaining lime, the half teaspoon of oil and coriander."
+  - "Top the salad with the beef and sliced avocado; warm the corn tortilla and serve on the side. Pack the beef and dressing separately for a lunchbox."
+swaps:
+  - { for: lean beef strips, use: "chicken breast", note: "120 g, same marinade" }
+source: "Adapted from the traditional carne asada from northern Mexico"

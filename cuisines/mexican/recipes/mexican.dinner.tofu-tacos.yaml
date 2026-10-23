@@ -1,0 +1,46 @@
+id: mexican.dinner.tofu-tacos
+name: Chipotle tofu tacos with cabbage slaw & black beans
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: legume
+family: tofu-tacos
+tags: [quick]
+spice: medium
+kidNote: "Coat a few tofu pieces with only smoked paprika, cumin and lime, no chipotle."
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 490, carbs: 49, fibre: 11, protein: 31, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 2 corn tortillas with 180 g crisp chipotle-roasted tofu"
+  - "Cabbage, red onion and cherry tomato slaw with yoghurt-lime dressing"
+  - "Small bowl of black beans"
+ingredients:
+  - { item: tofu (firm), qty: 180, unit: g }
+  - { item: chipotle in adobo, qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: cabbage, qty: 80, unit: g }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 40, unit: g }
+  - { item: black beans (dried), qty: 25, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the soaked black beans with salt until soft. Press the tofu 10 minutes between paper towels and tear into rough chunks."
+  - "Toss the tofu with chipotle, crushed garlic, smoked paprika, ground cumin, half the lime, the oil and salt; roast on a tray at 220 C for 18-20 minutes until the edges crisp."
+  - "Shred the cabbage and red onion, halve the cherry tomatoes; dress with the yoghurt whisked with the rest of the lime, coriander and salt."
+  - "Warm the tortillas on a dry pan; fill with slaw and tofu. Eat the beans and a spoon of slaw first."
+swaps:
+  - { for: tofu (firm), use: "pinto beans (dried)", note: "60 g dry, mashed and crisped in the pan" }
+source: "Adapted from the traditional tacos with a tofu filling"

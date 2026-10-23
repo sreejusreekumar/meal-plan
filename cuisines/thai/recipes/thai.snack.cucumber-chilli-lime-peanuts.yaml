@@ -1,0 +1,36 @@
+id: thai.snack.cucumber-chilli-lime-peanuts
+name: Cucumber with chilli, lime, mint and roasted peanuts, black tea
+slot: [snack]
+role: main
+cuisine: thai
+protein: none
+family: cucumber
+tags: [quick]
+spice: mild
+kidNote: "Leave the chilli flakes off the child's cucumber; lime and salt only."
+packable: false
+prepMinutes: 10
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 135, carbs: 7, fibre: 3, protein: 6, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 cucumber in batons with lime, a pinch of salt, chilli flakes and torn mint"
+  - "20 g roasted peanuts"
+  - "Black tea, unsweetened"
+ingredients:
+  - { item: cucumber, qty: 1, unit: pc }
+  - { item: peanuts, qty: 20, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: chilli flakes, qty: 0.2, unit: tsp }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Dry-roast the peanuts in a small pan for 3-4 minutes until fragrant."
+  - "Cut the cucumber into batons; squeeze the lime over and sprinkle with salt and chilli flakes."
+  - "Tear the mint leaves over and serve with the peanuts alongside."
+  - "Brew the black tea 3 minutes."
+source: "A Thai-style fruit-stall snack (ponlamai prik kleua) made with cucumber and no sugar."

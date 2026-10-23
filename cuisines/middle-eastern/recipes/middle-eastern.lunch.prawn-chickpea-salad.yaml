@@ -1,0 +1,49 @@
+id: middle-eastern.lunch.prawn-chickpea-salad
+name: Prawn & chickpea salad with lemon-tahini & half pita
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: fish
+family: prawn-salad
+tags: [quick]
+spice: medium
+packable: true
+prepMinutes: 15
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 48, fibre: 12, protein: 39, satFat: 2.5, sugar: 0 }
+components:
+  - "Primary: 150 g paprika-garlic seared prawns"
+  - "Chickpea, cherry tomato, cucumber and herb salad on cos lettuce"
+  - "Lemon-tahini dressing (1 tbsp tahini)"
+  - "Half a wholemeal pita"
+ingredients:
+  - { item: prawns (chemmeen), qty: 150, unit: g }
+  - { item: white chickpeas (chana), qty: 40, unit: g }
+  - { item: tahini, qty: 1, unit: tbsp }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: sumac, qty: 0.5, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the chickpeas overnight and simmer 45 minutes until soft (cook a batch for the week); cool."
+  - "Whisk the tahini with half the lemon juice, half the garlic, a pinch of salt and water to a pourable dressing."
+  - "Toss the prawns with the paprika, remaining garlic, salt and pepper; sear in the olive oil 1-2 minutes a side until pink."
+  - "Halve the cherry tomatoes, dice the cucumber and red onion, chop the parsley and dill; mix with the chickpeas, sumac and remaining lemon juice."
+  - "Pile the salad on torn cos leaves, top with the prawns, drizzle the tahini dressing and serve with half a warm pita."
+swaps:
+  - { for: prawns (chemmeen), use: firm white fish fillet, note: "150 g, flaked after pan-frying" }
+source: "Adapted from Levantine mezze salads with tahini"

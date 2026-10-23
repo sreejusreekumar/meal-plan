@@ -1,0 +1,49 @@
+id: vietnamese.lunch.dau-hu-sa-ot
+name: Dau Hu Sa Ot Lemongrass-Chilli Tofu & Bok Choy
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: legume
+family: tofu-lemongrass
+tags: [vegetarian, quick]
+spice: medium
+kidNote: "Fry the child's tofu pieces before the chilli goes into the pan, or use half the chilli."
+packable: true
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 525, carbs: 56, fibre: 9, protein: 30, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g tofu stir-fried with lemongrass, chilli and soy"
+  - "1 level cup brown rice"
+  - "Ginger bok choy"
+  - "Tomato and cucumber with lime and coriander"
+ingredients:
+  - { item: tofu (firm), qty: 150, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: red chilli (fresh), qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice with 1.5 cups water, covered, 35 minutes."
+  - "Press the tofu 10 minutes and cut into 2 cm cubes; finely mince the lemongrass heart, chilli, garlic and shallot."
+  - "Heat the rice bran oil in a non-stick pan and brown the tofu on all sides, 6-8 minutes."
+  - "Add the lemongrass mix and fry 1 minute, then the soy sauce, black pepper and 2 tbsp water; toss until the tofu is coated and glossy."
+  - "Steam or blanch the bok choy 2 minutes with the sliced ginger; dress tomato and cucumber with lime and coriander."
+  - "Plate the rice with the tofu, bok choy and salad."
+swaps:
+  - { for: tofu (firm), use: "chicken breast", note: "cut small, cook 8 minutes" }
+source: "Adapted from the traditional dau hu xao sa ot"

@@ -1,0 +1,40 @@
+id: middle-eastern.breakfast.menemen
+name: Turkish menemen with wholemeal bread
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: egg
+family: menemen
+tags: [quick]
+spice: medium
+kidNote: "Scramble the child's portion first, before the chilli flakes go in."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Menemen, eggs softly scrambled into tomato and green capsicum, the classic Turkish breakfast served straight from the pan."
+nutrition: { kcal: 385, carbs: 33, fibre: 7, protein: 22, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 eggs scrambled into tomato and capsicum (menemen)"
+  - "2 slices wholemeal bread"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: wholemeal bread, qty: 2, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Heat the olive oil in a small pan and soften the finely diced capsicum for 4 minutes."
+  - "Add the grated or finely chopped tomato with salt and cook 5 minutes until it collapses into a thick sauce."
+  - "Pour in the beaten eggs, season with pepper and chilli flakes and stir gently over low heat until just set and creamy."
+  - "Scatter with parsley and serve with the toasted wholemeal bread and unsweetened black tea."
+source: "Adapted from the traditional Turkish menemen"

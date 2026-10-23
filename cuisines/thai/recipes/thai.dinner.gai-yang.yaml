@@ -1,0 +1,49 @@
+id: thai.dinner.gai-yang
+name: Gai Yang (grilled lemongrass chicken) with cucumber salad & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: chicken
+family: gai-yang
+spice: medium
+kidNote: "Dress the child's cucumber salad before the chilli goes in; the chicken marinade itself is not hot."
+packable: false
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Gai yang, the Isaan grilled chicken marinated with lemongrass, garlic, coriander root and pepper."
+nutrition: { kcal: 505, carbs: 50, fibre: 8, protein: 33, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 130 g grilled lemongrass chicken thigh (skin removed)"
+  - "Cucumber, shallot and mint salad with peanuts"
+  - "Cabbage wedges"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 130, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cucumber, qty: 1, unit: pc }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: cabbage, qty: 80, unit: g }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Pound the lemongrass (tender part), garlic, coriander stems and black pepper to a paste; mix with 1 tsp fish sauce and the soy. Rub into the skinless chicken thigh and marinate 30 minutes or overnight."
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Brush the chicken with the oil and grill or griddle 6-7 minutes a side until charred and cooked through; rest and slice."
+  - "Slice the cucumber and shallots thinly; toss with lime juice, 1 tsp fish sauce, chilli and mint; scatter with crushed peanuts."
+  - "Serve the chicken with the cucumber salad, cabbage wedges and 3/4 cup rice."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "130 g, 5 minutes a side" }
+source: "Adapted from the traditional gai yang, no sugar in the marinade."

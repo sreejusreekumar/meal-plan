@@ -1,0 +1,37 @@
+id: middle-eastern.snack.cucumber-mint-egg-salad
+name: Cucumber-mint salad with boiled egg & sumac, black tea
+slot: [snack]
+role: main
+cuisine: middle-eastern
+protein: egg
+family: egg-salad
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 8
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 140, carbs: 7, fibre: 3, protein: 8, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 hard-boiled egg, quartered, dusted with sumac"
+  - "Cucumber, cherry tomato and mint salad with lemon and a little olive oil"
+  - "Black tea, unsweetened"
+ingredients:
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cucumber, qty: 1, unit: pc }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: red onion, qty: 0.1, unit: pc }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: sumac, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Boil the egg for 10 minutes, cool in cold water, peel and quarter."
+  - "Dice the cucumber, halve the cherry tomatoes, slice the red onion thinly and tear in the mint; dress with lemon juice, olive oil and salt."
+  - "Sit the egg on the salad, dust with sumac and serve with unsweetened black tea."
+source: "Inspired by the Levantine salata and sumac eggs"

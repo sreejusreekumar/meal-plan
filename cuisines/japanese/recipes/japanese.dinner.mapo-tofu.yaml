@@ -1,0 +1,45 @@
+id: japanese.dinner.mapo-tofu
+name: Japanese-Style Mapo Tofu with Chicken Mince on Brown Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: chicken
+family: mapo-tofu
+tags: [quick]
+spice: medium
+kidNote: "Stir the chilli flakes in at the end, after taking out the child's portion."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 502, carbs: 45, fibre: 9, protein: 34, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 120 g tofu and 40 g chicken mince in miso-soy-ginger sauce with shiitake and chilli (mabo dofu)"
+  - "Ginger-steamed cabbage"
+  - "Small bowl brown rice (40 g uncooked)"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: chicken mince, qty: 40, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Cook the brown rice (40 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Cut the tofu into 2 cm cubes and blanch 2 minutes in salted water so it holds together; drain."
+  - "Heat the sesame oil and fry the grated ginger, garlic and the spring onion whites 1 minute, add the chicken mince and diced shiitake and stir 3 minutes."
+  - "Loosen the miso and soy in 120 ml water, pour in, add the tofu and simmer 5 minutes until the sauce thickens slightly around the cubes."
+  - "Steam the cabbage with a few slices of ginger for 4 minutes."
+  - "Finish the mapo tofu with the chilli flakes and spring onion greens; serve over the small bowl of rice with the cabbage on the side."
+swaps:
+  - { for: chicken mince, use: "tofu (firm)", note: "all-tofu version, 160 g" }
+source: "Adapted from the Japanese home-style mabo dofu, thickened by simmering rather than with starch"

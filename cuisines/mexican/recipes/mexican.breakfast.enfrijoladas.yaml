@@ -1,0 +1,43 @@
+id: mexican.breakfast.enfrijoladas
+name: Enfrijoladas with spinach and egg
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: legume
+family: enfrijoladas
+spice: medium
+kidNote: "Blend the bean sauce before adding the chipotle; set the child's share aside, then stir the chipotle into the rest."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 350, carbs: 33, fibre: 11, protein: 19, satFat: 3.3, sugar: 0 }
+components:
+  - "Primary: 1 corn tortilla rolled around wilted spinach and drowned in smoky black bean sauce"
+  - "1 boiled egg, sliced over"
+  - "A sprinkle of low-fat cheese, red onion and coriander"
+ingredients:
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: black beans (dried), qty: 40, unit: g }
+  - { item: canned tomatoes, qty: 50, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: chipotle in adobo, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: low-fat cheese (grated), qty: 10, unit: g }
+  - { item: red onion, qty: 0.1, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the black beans overnight and pressure-cook with salt until very soft (or use beans cooked ahead)."
+  - "Bean sauce: soften the onion, garlic and cumin in the oil, add the beans with their broth, the canned tomatoes and chipotle; simmer 5 minutes and blend to a smooth, pourable sauce."
+  - "Boil the egg 8 minutes, peel and slice. Wilt the spinach in a dry pan 1 minute."
+  - "Warm the tortilla on a dry pan, dip it in the hot bean sauce, fill with the spinach and roll."
+  - "Spoon more sauce over, top with the egg, cheese, thin red onion rings and coriander."
+source: "Adapted from the traditional enfrijoladas"

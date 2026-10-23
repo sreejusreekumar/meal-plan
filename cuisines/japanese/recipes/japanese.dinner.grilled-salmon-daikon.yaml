@@ -1,0 +1,47 @@
+id: japanese.dinner.grilled-salmon-daikon
+name: Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: fish
+family: grilled-salmon
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Shake no shioyaki, salt-grilled salmon served with grated daikon, miso soup and rice, the archetypal Japanese home dinner."
+nutrition: { kcal: 482, carbs: 43, fibre: 9, protein: 34, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 110 g salt-grilled salmon with grated daikon, lemon and soy"
+  - "Miso soup with wakame and spring onion"
+  - "Spinach ohitashi with sesame"
+  - "Small bowl brown rice (45 g uncooked)"
+ingredients:
+  - { item: salmon fillet, qty: 110, unit: g }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+steps:
+  - "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Salt the salmon on both sides and leave 10 minutes; pat dry."
+  - "Make 200 ml dashi with the kombu and bonito flakes; add the soaked wakame, dissolve the miso in off the boil and finish with sliced spring onion."
+  - "Blanch the spinach 30 seconds, squeeze, cut into lengths and dress with a few drops of the soy and the toasted sesame seeds."
+  - "Grill the salmon skin side up under a hot grill 5 minutes, turn and grill 3 minutes, or pan-grill in a dry non-stick pan."
+  - "Serve with a mound of grated daikon, a lemon wedge and the remaining soy to drizzle; soup and spinach first, rice last."
+swaps:
+  - { for: salmon fillet, use: "mackerel (ayala)", note: "1 fish, grill 5 minutes a side" }
+source: "Adapted from the traditional shake no shioyaki teishoku"

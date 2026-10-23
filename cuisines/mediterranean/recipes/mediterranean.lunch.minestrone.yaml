@@ -1,0 +1,46 @@
+id: mediterranean.lunch.minestrone
+name: Minestrone with cannellini beans & wholemeal pasta
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: legume
+family: minestrone
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 67, fibre: 18, protein: 28, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 large bowl minestrone with cannellini beans, cabbage, zucchini, carrot and celery"
+  - "40 g wholemeal pasta cooked in the soup"
+  - "15 g parmesan and torn basil over"
+ingredients:
+  - { item: cannellini beans, qty: 60, unit: g }
+  - { item: wholemeal pasta, qty: 40, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: celery, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: cabbage, qty: 50, unit: g }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rosemary, qty: 1, unit: sprig }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: parmesan, qty: 15, unit: g }
+  - { item: basil, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the cannellini beans overnight; boil in fresh water 40-50 minutes until tender (or pressure-cook 15 minutes). Keep their liquid."
+  - "Heat the olive oil and soften the diced onion, carrot and celery with the garlic and rosemary 8 minutes."
+  - "Add the canned tomatoes, the beans with their liquid and water to make a soupy pot; simmer 15 minutes."
+  - "Add the diced zucchini, shredded cabbage and the pasta; cook 10 minutes until the pasta is done. Season with salt and pepper."
+  - "Serve with the parmesan grated over and basil torn on top. Reheats well; carry in a thermos."
+swaps:
+  - { for: cannellini beans, use: white chickpeas (chana) }
+  - { for: cabbage, use: kale, note: "stripped leaves, same timing" }
+source: "Adapted from the traditional Italian minestrone"

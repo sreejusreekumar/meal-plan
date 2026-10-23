@@ -1,0 +1,42 @@
+id: middle-eastern.breakfast.shakshuka
+name: Shakshuka with wholemeal pita
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: egg
+family: shakshuka
+tags: [quick]
+spice: medium
+kidNote: "Add the chilli flakes to one side of the pan only and crack the child's egg on the plain side."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Shakshuka, eggs poached in a cumin and paprika tomato-capsicum sauce, the shared breakfast of the Levant and North Africa."
+nutrition: { kcal: 380, carbs: 35, fibre: 7, protein: 21, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 eggs poached in spiced tomato and capsicum sauce"
+  - "1 wholemeal pita, warmed"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Warm the olive oil in a small frying pan, soften the diced capsicum and sliced garlic for 4 minutes, then add the crushed cumin seeds, paprika and chilli flakes."
+  - "Add the chopped tomato with a splash of water and salt; simmer 6-8 minutes until thick and saucy."
+  - "Make two hollows, crack in the eggs, cover and cook 4-5 minutes until the whites are set and the yolks still soft."
+  - "Warm the pita in a dry pan, scatter parsley over the eggs and brew the tea without sugar."
+source: "Adapted from the traditional Levantine shakshuka"

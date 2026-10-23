@@ -1,0 +1,47 @@
+id: thai.breakfast.jok-gai
+name: Jok gai (brown rice congee with chicken, ginger and a soft egg)
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: chicken
+family: jok
+tags: [comfort]
+spice: medium
+kidNote: "Leave the fresh chilli and pepper off the child's bowl; the ginger and egg are mild."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Jok, the thick Thai rice porridge sold at dawn with minced pork or chicken balls, a soft egg, ginger and fried garlic; here made with brown jasmine rice and chicken."
+nutrition: { kcal: 350, carbs: 36, fibre: 4, protein: 22, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl jok (brown jasmine rice congee) with chicken mince balls and a soft egg"
+  - "Ginger shreds, spring onion, coriander and fried garlic on top"
+  - "Blanched bok choy with a few drops of soy"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: brown jasmine rice, qty: 45, unit: g }
+  - { item: chicken mince, qty: 50, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown jasmine rice and simmer it in 4 cups of water with a pinch of salt for 30 minutes, stirring now and then, until the grains burst and the congee is thick."
+  - "Season the chicken mince with a little pepper and fish sauce; roll into small balls and drop them into the simmering congee for the last 8 minutes."
+  - "Crack the egg into the hot congee, cover and leave 3 minutes so the white sets and the yolk stays soft."
+  - "Fry the sliced garlic in 1 tsp rice bran oil until golden; blanch the bok choy for 1 minute and toss with the soy sauce."
+  - "Ladle into a bowl; top with ginger shreds, spring onion, coriander, fried garlic, chilli slices and pepper. Serve the bok choy alongside."
+  - "Bruise the lemongrass stalk and steep in boiling water for 5 minutes for the tea."
+source: "Adapted from the Bangkok street breakfast jok, made with brown jasmine rice."

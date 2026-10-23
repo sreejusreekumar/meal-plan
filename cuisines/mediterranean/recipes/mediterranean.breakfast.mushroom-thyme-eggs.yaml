@@ -1,0 +1,38 @@
+id: mediterranean.breakfast.mushroom-thyme-eggs
+name: Mushroom and thyme eggs on wholemeal toast
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: egg
+family: mushroom-eggs
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 5
+cookMinutes: 12
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 379, carbs: 30, fibre: 6, protein: 23, satFat: 4, sugar: 0 }
+components:
+  - "Primary: garlic and thyme mushrooms with 2 soft scrambled eggs"
+  - "2 slices wholemeal toast"
+  - "Sliced tomato"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: mushrooms, qty: 100, unit: g }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried thyme, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 2, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Slice the mushrooms; heat the olive oil in a pan and cook them on high 5-6 minutes until browned and dry."
+  - "Add the chopped garlic and thyme, cook 1 minute, season and push to one side of the pan."
+  - "Beat the eggs with pepper and a pinch of salt, pour into the empty side and stir gently on low until softly set."
+  - "Toast the bread, top with the mushrooms and eggs, and serve with sliced tomato and black coffee or tea."
+source: "Adapted from the Italian funghi trifolati with eggs"

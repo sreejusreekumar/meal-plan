@@ -1,0 +1,46 @@
+id: thai.breakfast.khao-tom-pla
+name: Khao tom pla (rice soup with fish, ginger and coriander)
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: fish
+family: khao-tom
+tags: [light]
+spice: medium
+kidNote: "Skip the pepper and fresh chilli on the child's bowl."
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Khao tom pla, the clear Thai rice soup with poached fish, ginger and celery eaten for breakfast across central Thailand; here with brown jasmine rice."
+nutrition: { kcal: 355, carbs: 42, fibre: 5, protein: 27, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl khao tom (brown jasmine rice soup) with poached white fish and mushrooms"
+  - "Ginger, coriander, spring onion and fried garlic on top"
+  - "Blanched Chinese broccoli (gai lan)"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: brown jasmine rice, qty: 55, unit: g }
+  - { item: firm white fish fillet, qty: 100, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: ginger, qty: 6, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: chinese broccoli (gai lan), qty: 0.5, unit: bunch }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Rinse the rice and simmer in 3.5 cups water for 25 minutes until tender but still in whole grains (khao tom is soupy, not porridge-like)."
+  - "Add the sliced mushrooms, half the ginger and the fish sauce; simmer 3 minutes."
+  - "Cut the fish into 3 cm pieces, slide into the soup and poach 3-4 minutes until just opaque."
+  - "Fry the sliced garlic in 1 tsp rice bran oil until golden. Blanch the gai lan 1-2 minutes."
+  - "Serve the soup topped with the rest of the ginger shredded, coriander, spring onion, fried garlic, pepper and chilli slices, with the greens on the side."
+  - "Bruise the lemongrass and steep in boiling water 5 minutes for the tea."
+source: "Adapted from the traditional khao tom pla."

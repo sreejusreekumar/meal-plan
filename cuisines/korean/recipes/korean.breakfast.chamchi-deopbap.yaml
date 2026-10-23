@@ -1,0 +1,47 @@
+id: korean.breakfast.chamchi-deopbap
+name: Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: fish
+family: tuna-rice
+tags: [quick]
+spice: medium
+kidNote: "Leave the gochugaru out of the child's tuna and give their kimchi rinsed."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 354, carbs: 40, fibre: 6, protein: 22, satFat: 2, sugar: 0 }
+components:
+  - "Primary: brown rice bowl (45 g uncooked) topped with tuna (35 g) dressed in soy, sesame and gochugaru, and a fried egg"
+  - "Cucumber and daikon slices with rice vinegar"
+  - "Kimchi (60 g) and crumbled gim"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: tuna (canned in springwater), qty: 35, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: nori sheets, qty: 0.5, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: gochugaru (korean chilli flakes), qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice (45 g uncooked) or reheat rice from the night before."
+  - "Drain the tuna and flake it with the soy sauce, sesame oil, half the sesame seeds, sliced spring onion and gochugaru."
+  - "Slice the cucumber and daikon thinly and toss with the rice vinegar and a pinch of salt."
+  - "Fry the egg in a non-stick pan with no extra oil (or a wipe of the sesame-oil spoon), keeping the yolk soft."
+  - "Spoon the tuna over the rice, set the egg on top, scatter crumbled nori and the rest of the sesame seeds, and serve with the pickled cucumber, kimchi and barley tea."
+swaps:
+  - { for: tuna (canned in springwater), use: "tofu (firm)", note: "60 g crumbled and warmed" }
+source: "Adapted from chamchi deopbap (Korean tuna rice bowl)"

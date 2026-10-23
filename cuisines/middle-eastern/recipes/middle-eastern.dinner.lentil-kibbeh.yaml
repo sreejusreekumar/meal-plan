@@ -1,0 +1,49 @@
+id: middle-eastern.dinner.lentil-kibbeh
+name: Baked lentil kibbeh with salad & yoghurt
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: kibbeh
+spice: medium
+packable: false
+prepMinutes: 25
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 500, carbs: 61, fibre: 15, protein: 25, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 2 wedges baked kibbet adas (brown lentil and bulgur) with a walnut-onion layer"
+  - "Chopped salad with lemon and mint"
+  - "Yoghurt (100 g)"
+ingredients:
+  - { item: brown lentils, qty: 50, unit: g }
+  - { item: bulgur wheat, qty: 20, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: baharat, qty: 0.5, unit: tsp }
+  - { item: allspice, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: walnuts, qty: 10, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: parsley, qty: 0.15, unit: bunch }
+steps:
+  - "Simmer the lentils in 1.5 cups water for 20 minutes until very soft; stir in the bulgur, cover and rest 15 minutes so it swells and the mix thickens."
+  - "Cook half the chopped onion in the olive oil until golden; add the crushed cumin, baharat, allspice, pepper and the chopped walnuts for the filling."
+  - "Mash the lentil-bulgur mix with the remaining raw onion (grated), salt and the chopped spring onion to a firm dough."
+  - "Press half the dough into a small oiled dish, spread the onion-walnut filling, top with the rest, score into wedges and bake at 200C for 30-35 minutes until the top is crisp."
+  - "Chop the lettuce, tomato, cucumber, red onion, parsley and mint; dress with lemon juice and salt. Serve the kibbeh warm with the salad and yoghurt."
+swaps:
+  - { for: walnuts, use: pine nuts, note: "same weight, toasted" }
+source: "Adapted from the traditional Lebanese kibbet adas"

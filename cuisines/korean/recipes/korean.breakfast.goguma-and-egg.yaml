@@ -1,0 +1,39 @@
+id: korean.breakfast.goguma-and-egg
+name: Goguma (steamed sweet potato) with Egg, Edamame & Yoghurt
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: egg
+family: sweet-potato
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 369, carbs: 35, fibre: 7, protein: 21, satFat: 3, sugar: 0 }
+components:
+  - "Primary: half a steamed sweet potato (goguma, about 125 g) with a boiled egg"
+  - "Edamame (40 g) with sesame salt"
+  - "Low-fat yoghurt (100 g) and cucumber sticks"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: sweet potato, qty: 0.5, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: edamame (frozen), qty: 40, unit: g }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Scrub the sweet potato, halve it and steam (or microwave) until a skewer slides through, 20-25 minutes steaming."
+  - "Boil the egg 9 minutes, cool under the tap and peel; boil the edamame in the same pot for the last 4 minutes."
+  - "Crush the sesame seeds with the salt and toss through the edamame; cut the cucumber into sticks."
+  - "Serve the sweet potato in its skin with the egg, edamame, yoghurt and cucumber; pour the barley tea."
+swaps:
+  - { for: edamame (frozen), use: "tofu (firm)", note: "50 g cubes, warmed" }
+source: "Adapted from the Korean goguma breakfast"

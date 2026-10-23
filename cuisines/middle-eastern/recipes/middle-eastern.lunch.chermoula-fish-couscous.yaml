@@ -1,0 +1,51 @@
+id: middle-eastern.lunch.chermoula-fish-couscous
+name: Chermoula grilled fish with wholemeal couscous & salad
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: fish
+family: chermoula
+spice: medium
+kidNote: "Set aside a spoon of chermoula before the chilli flakes go in and marinate one piece of fish in that."
+packable: true
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chermoula, the North African (Moroccan and Tunisian) herb, garlic, cumin and lemon marinade classically used on grilled fish."
+nutrition: { kcal: 525, carbs: 59, fibre: 9, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g chermoula-marinated grilled white fish"
+  - "1 level cup wholemeal couscous"
+  - "Grilled zucchini and tomato-cucumber salad"
+  - "Yoghurt (100 g)"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: wholemeal couscous, qty: 60, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+steps:
+  - "Blend the coriander leaves, parsley, garlic, crushed cumin, paprika, coriander powder, chilli flakes, lemon juice, olive oil and salt into a rough chermoula paste."
+  - "Coat the fish in two-thirds of the chermoula and marinate 15 minutes."
+  - "Pour 3/4 cup boiling water over the couscous with a pinch of salt; cover 10 minutes, then fork through the remaining chermoula."
+  - "Slice the zucchini into long strips and grill 2 minutes a side; grill the fish 3-4 minutes a side on the same pan."
+  - "Dice the tomato, cucumber and red onion with the mint. Plate couscous, fish, zucchini, salad and the yoghurt."
+swaps:
+  - { for: wholemeal couscous, use: bulgur wheat, note: "same soak-and-steam method, 15 minutes" }
+source: "Adapted from the traditional Moroccan chermoula fish"

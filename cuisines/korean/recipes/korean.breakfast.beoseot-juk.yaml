@@ -1,0 +1,46 @@
+id: korean.breakfast.beoseot-juk
+name: Beoseot Juk (mushroom porridge) with Egg & Tofu
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: egg
+family: mushroom-juk
+spice: medium
+kidNote: "The porridge is mild; serve the child's kimchi rinsed or leave it off."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 349, carbs: 40, fibre: 7, protein: 20, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl beoseot juk (brown rice and barley porridge with mushrooms, shiitake and tofu, egg swirled in)"
+  - "Kimchi (50 g)"
+  - "Sesame seeds and spring onion to finish"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: brown rice, qty: 30, unit: g }
+  - { item: pearl barley, qty: 15, unit: g }
+  - { item: mushrooms, qty: 80, unit: g }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown rice and barley and soak 20 minutes (or overnight) so they cook faster."
+  - "Warm the sesame oil in a pot, add crushed garlic and the sliced mushrooms and shiitake, and cook 3 minutes until they release their juices."
+  - "Add the drained grains and 450 ml water; simmer 25-30 minutes, stirring now and then, until the grains burst and the porridge is thick."
+  - "Add the diced tofu and soy sauce, simmer 3 minutes, then stir in the beaten egg in a thin stream so it sets in ribbons; season with salt."
+  - "Finish with spring onion and sesame seeds; serve with kimchi and the barley tea."
+swaps:
+  - { for: shiitake mushrooms, use: "mushrooms", note: "use 110 g button mushrooms in total" }
+source: "Adapted from the traditional beoseot juk"

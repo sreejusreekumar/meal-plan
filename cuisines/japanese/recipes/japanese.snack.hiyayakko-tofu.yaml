@@ -1,0 +1,38 @@
+id: japanese.snack.hiyayakko-tofu
+name: Hiyayakko Tofu with Ginger-Soy & Barley Tea
+slot: [snack]
+role: main
+cuisine: japanese
+protein: legume
+family: tofu-snack
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 8
+cookMinutes: 0
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Hiyayakko, the Japanese chilled tofu topped with grated ginger, spring onion, bonito flakes and soy."
+nutrition: { kcal: 112, carbs: 4, fibre: 2, protein: 10, satFat: 0.8, sugar: 0 }
+components:
+  - "Primary: 80 g chilled tofu cubes with grated ginger, spring onion, bonito flakes and soy"
+  - "Cucumber and wakame on the side with sesame"
+  - "Roasted barley tea (mugicha)"
+ingredients:
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: bonito flakes, qty: 1, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Drain the tofu on paper towel 5 minutes and cut into cubes; soak the wakame 3 minutes and squeeze."
+  - "Top the tofu with finely grated ginger, sliced spring onion and bonito flakes; pour the soy over just before eating."
+  - "Slice the cucumber, toss with the wakame and toasted sesame and set beside the tofu."
+  - "Serve with a glass of barley tea."
+source: "Adapted from the traditional hiyayakko"

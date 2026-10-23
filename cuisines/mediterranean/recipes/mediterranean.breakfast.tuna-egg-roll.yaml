@@ -1,0 +1,41 @@
+id: mediterranean.breakfast.tuna-egg-roll
+name: Tuna and egg wholemeal roll with cucumber and tomatoes
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: fish
+family: tuna
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 364, carbs: 31, fibre: 8, protein: 27, satFat: 3, sugar: 0 }
+components:
+  - "Primary: half a wholemeal roll filled with tuna, sliced egg, avocado and yoghurt-dill dressing"
+  - "Cucumber and cherry tomatoes"
+  - "Half an orange"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: tuna (canned in springwater), qty: 60, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: wholemeal bread roll, qty: 0.5, unit: pc }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 30, unit: g }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cherry tomatoes, qty: 100, unit: g }
+  - { item: orange, qty: 0.5, unit: pc }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Boil the egg 9 minutes, cool and slice."
+  - "Drain the tuna and mix with the yoghurt, chopped dill, finely chopped red onion, lemon juice and pepper."
+  - "Split the half roll, spread the mashed avocado on it, fill with the tuna and the sliced egg."
+  - "Serve with cucumber slices, cherry tomatoes, half an orange and black coffee or tea."
+source: "Adapted from the Nicoise pan bagnat"

@@ -1,0 +1,25 @@
+id: mexican
+name: Mexican
+version: 1
+description: "Mexican home cooking for a pre-diabetic household: beans and vegetables first, grilled fish and chicken, corn or wholemeal tortillas counted, avocado and cheese measured."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · salad first
+  snack: 4 pm
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: "Salad or beans first, then the fish, chicken or egg dish, then one or two corn tortillas last."
+  - title: Walk after meals
+    text: "10–15 minutes of brisk walking right after lunch and dinner."
+  - title: Fat is measured
+    text: "Avocado a quarter per person; cheese a sprinkle; nothing deep-fried, tortilla chips baked."
+  - title: Skip completely
+    text: "Flour tortillas (white), refried beans in lard, sugary salsas and soft drinks."

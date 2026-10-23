@@ -1,0 +1,41 @@
+id: japanese.breakfast.iri-dofu
+name: Iri Dofu with Brown Rice
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: legume
+family: iri-dofu
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Iri dofu, the Japanese home-style scrambled tofu with carrot, shiitake and egg, seasoned with soy and a little mirin."
+nutrition: { kcal: 388, carbs: 40, fibre: 6, protein: 22, satFat: 2.6, sugar: 2 }
+components:
+  - "Primary: 1 bowl iri dofu (tofu scramble with carrot, shiitake, edamame and egg)"
+  - "Small bowl brown rice (40 g uncooked)"
+  - "Green tea"
+ingredients:
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: edamame (frozen), qty: 30, unit: g }
+  - { item: sesame oil, qty: 0.25, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water, about 30 minutes."
+  - "Press the tofu between paper towels for 5 minutes, then crumble it. Dice the carrot finely and slice the shiitake; thaw the edamame in hot water."
+  - "Heat the sesame oil in a non-stick pan, cook the carrot and shiitake 3 minutes, then add the crumbled tofu and stir over medium-high heat until the moisture cooks off."
+  - "Season with the soy and mirin, add the edamame, then pour the beaten egg over and stir until just set."
+  - "Serve over the rice with sliced spring onion and a cup of green tea."
+source: "Adapted from the traditional iri dofu"

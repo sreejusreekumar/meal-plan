@@ -1,0 +1,50 @@
+id: middle-eastern.lunch.fattoush-with-grilled-fish
+name: Fattoush with grilled zaatar fish
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: fish
+family: fattoush
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Fattoush, the Lebanese bread salad of chopped vegetables, toasted pita and a sumac-lemon dressing."
+nutrition: { kcal: 520, carbs: 58, fibre: 12, protein: 39, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g grilled zaatar white fish"
+  - "Big bowl of fattoush with half a toasted wholemeal pita"
+  - "Other half pita, warmed"
+  - "Minted yoghurt (100 g)"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: zaatar, qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: cos lettuce, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: sumac, qty: 1, unit: tsp }
+  - { item: pomegranate molasses, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: dried mint, qty: 0.5, unit: tsp }
+steps:
+  - "Rub the fish with the zaatar, crushed garlic, salt, pepper and half the olive oil; grill or pan-sear 3-4 minutes a side."
+  - "Tear half the pita into shards and toast dry in the oven or a pan until crisp."
+  - "Chop the lettuce, tomato, cucumber, red onion, capsicum, parsley and mint into a bowl."
+  - "Whisk the lemon juice, sumac, pomegranate molasses, remaining olive oil and a pinch of salt; toss through the salad with the pita shards just before eating."
+  - "Stir dried mint into the yoghurt. Serve the fish on the fattoush with the yoghurt and the remaining warm half pita."
+source: "Adapted from the traditional Lebanese fattoush"

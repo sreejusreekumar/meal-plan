@@ -1,0 +1,50 @@
+id: middle-eastern.dinner.chicken-tagine
+name: Chicken tagine with olives & lemon on wholemeal couscous
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: chicken
+family: tagine
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 45
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chicken tagine with preserved lemon and olives, the Moroccan slow-braised dish named after its conical clay pot."
+nutrition: { kcal: 505, carbs: 47, fibre: 9, protein: 36, satFat: 3, sugar: 0 }
+components:
+  - "Primary: chicken tagine with olives, lemon, zucchini and carrot"
+  - "2/3 cup wholemeal couscous"
+  - "Chopped coriander to finish"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: olives, qty: 20, unit: g }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: wholemeal couscous, qty: 40, unit: g }
+steps:
+  - "Trim the thigh and cut into 3 pieces. Brown in the olive oil in a lidded pan, then add the sliced onion, garlic and grated ginger and soften 5 minutes."
+  - "Stir in the turmeric, crushed cumin, coriander powder, paprika, cinnamon stick, pepper and salt; add the canned tomatoes, the carrot in chunks and 1/2 cup water."
+  - "Cover and simmer gently 25 minutes; add the zucchini chunks, the olives and the lemon cut in wedges (rind on) and cook 10 minutes more until the sauce is thick."
+  - "Pour 1/2 cup boiling water over the couscous with a pinch of salt; cover 10 minutes and fork through."
+  - "Serve the tagine over the couscous, scattered with coriander leaves."
+swaps:
+  - { for: wholemeal couscous, use: bulgur wheat, note: "same quantity, soak 15 minutes" }
+source: "Adapted from the traditional Moroccan chicken tagine"

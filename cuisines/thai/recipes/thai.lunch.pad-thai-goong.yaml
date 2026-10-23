@@ -1,0 +1,48 @@
+id: thai.lunch.pad-thai-goong
+name: Pad Thai with prawns (brown rice noodles)
+slot: [lunch]
+role: main
+cuisine: thai
+protein: fish
+family: pad-thai
+tags: [quick]
+spice: medium
+kidNote: "Leave the chilli flakes off the child's portion; add a squeeze of lime instead."
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pad thai, the stir-fried rice-noodle dish with prawns, egg, bean sprouts and tamarind that is Thailand's best-known street food."
+nutrition: { kcal: 545, carbs: 59, fibre: 8, protein: 36, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 plate pad thai with prawns and egg (60 g brown rice noodles)"
+  - "Bean sprouts, carrot and spring onion tossed through"
+  - "Crushed peanuts, chilli flakes and a lime wedge"
+ingredients:
+  - { item: brown rice noodles, qty: 60, unit: g }
+  - { item: prawns (chemmeen), qty: 120, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: bean sprouts, qty: 80, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: tamarind, qty: 10, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+steps:
+  - "Soak the brown rice noodles in hot water for 8-10 minutes until pliable but still firm; drain."
+  - "Soak the tamarind in 3 tbsp hot water, mash and strain; mix the pulp with the fish sauce for the sauce (no sugar)."
+  - "Heat the oil in a wok, fry the shallots and garlic 30 seconds, add the prawns and toss until pink."
+  - "Push to the side, crack in the egg and scramble, then add the noodles and the tamarind sauce; toss over high heat 2 minutes."
+  - "Add the bean sprouts, julienned carrot and spring onion; toss 30 seconds so they stay crisp."
+  - "Serve with crushed peanuts, chilli flakes and a lime wedge."
+swaps:
+  - { for: prawns (chemmeen), use: "tofu (firm)", note: "150 g, pan-seared first" }
+source: "Adapted from the traditional pad thai, sugar left out and brown rice noodles used."

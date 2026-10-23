@@ -1,0 +1,25 @@
+id: mediterranean
+name: Mediterranean
+version: 1
+description: "Greek, Italian and Spanish home cooking for a pre-diabetic household: vegetables and legumes first, grilled fish, olive oil measured, whole grains only."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · salad first
+  snack: 4 pm
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: "Salad or vegetables first, then fish, legumes or chicken, then a measured portion of bulgur, brown rice or wholemeal pasta last."
+  - title: Walk after meals
+    text: "10–15 minutes of brisk walking right after lunch and dinner."
+  - title: Fat is measured
+    text: "Olive oil is 1 teaspoon per dish; cheese is a seasoning, not a portion."
+  - title: Skip completely
+    text: "White bread, white pasta, pastries, fried calamari and sweetened drinks."

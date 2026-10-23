@@ -1,0 +1,47 @@
+id: middle-eastern.lunch.shish-tawook
+name: Shish tawook (chicken skewers) with tabbouleh & half pita
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: chicken
+family: tawook
+spice: medium
+packable: true
+prepMinutes: 20
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 525, carbs: 52, fibre: 12, protein: 40, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 150 g yoghurt-garlic marinated chicken skewers with capsicum"
+  - "Parsley-heavy tabbouleh (35 g bulgur)"
+  - "Half a wholemeal pita"
+ingredients:
+  - { item: chicken breast, qty: 150, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: allspice, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: bulgur wheat, qty: 35, unit: g }
+  - { item: parsley, qty: 0.5, unit: bunch }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+steps:
+  - "Cube the chicken. Mix the yoghurt, half the lemon juice, crushed garlic, tomato paste, paprika, allspice, pepper and salt; marinate the chicken 30 minutes or overnight."
+  - "Soak the bulgur in 1/3 cup boiling water for 15 minutes until swollen; drain any excess."
+  - "Chop the parsley and mint finely, dice the tomato and spring onion; fold through the bulgur with the remaining lemon juice, the olive oil and a pinch of salt."
+  - "Thread the chicken onto skewers with chunks of capsicum; grill or griddle 10-12 minutes, turning, until charred at the edges and cooked through."
+  - "Serve the skewers with the tabbouleh and half a warm pita."
+swaps:
+  - { for: chicken breast, use: chicken thigh (boneless), note: "juicier; grill 2 minutes longer" }
+source: "Adapted from the traditional Lebanese shish tawook"

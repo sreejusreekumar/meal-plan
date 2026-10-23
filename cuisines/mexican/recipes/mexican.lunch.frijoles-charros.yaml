@@ -1,0 +1,49 @@
+id: mexican.lunch.frijoles-charros
+name: Frijoles charros-style pinto bean stew with brown rice & salad
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: legume
+family: charros
+spice: medium
+kidNote: "Add the jalapeno whole and lift it out before serving the child's bowl."
+packable: true
+prepMinutes: 10
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 535, carbs: 65, fibre: 15, protein: 28, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 bowl smoky pinto bean stew (frijoles charros, vegetarian) with a poached egg and a cheese sprinkle"
+  - "Half cup brown rice"
+  - "Cos lettuce, tomato and cucumber salad with lime"
+ingredients:
+  - { item: pinto beans (dried), qty: 60, unit: g }
+  - { item: brown rice, qty: 30, unit: g }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: low-fat cheese (grated), qty: 15, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Soak the pinto beans overnight; pressure-cook with salt until soft, keeping the liquid."
+  - "Rinse the brown rice and simmer in plenty of water 30 minutes; drain."
+  - "Soften the chopped onion and garlic in the half teaspoon of oil; add smoked paprika (for the smoky bacon note), cumin, oregano, the whole jalapeno and the canned tomatoes. Simmer 5 minutes."
+  - "Tip in the beans with their liquid and simmer 10 minutes until brothy and thick; crack the egg into a dip in the stew, cover and poach 4 minutes."
+  - "Finish with coriander and the cheese sprinkle. Slice the salad vegetables and dress with lime and salt; salad first, then stew over the rice."
+swaps:
+  - { for: pinto beans (dried), use: "black beans (dried)", note: "same timing" }
+source: "Adapted from the traditional frijoles charros from northern Mexico"

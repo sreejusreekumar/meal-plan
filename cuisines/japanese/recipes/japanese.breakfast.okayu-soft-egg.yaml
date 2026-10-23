@@ -1,0 +1,45 @@
+id: japanese.breakfast.okayu-soft-egg
+name: Okayu with Tofu, Soft Egg & Nori
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: egg
+family: okayu
+tags: [comfort]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Okayu, the gentle Japanese rice porridge eaten for breakfast and on sick days, here cooked with brown rice and dashi."
+nutrition: { kcal: 381, carbs: 37, fibre: 6, protein: 22, satFat: 2.6, sugar: 0 }
+components:
+  - "Primary: 1 bowl brown-rice okayu (45 g uncooked) with tofu and shiitake"
+  - "1 soft-boiled egg, halved"
+  - "Spinach, spring onion, shredded nori and sesame on top"
+  - "Green tea"
+ingredients:
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the rice and soak it 20 minutes if you have time. Make dashi from the kombu and bonito in 500 ml water."
+  - "Simmer the rice in the dashi with the sliced shiitake and grated ginger, lid ajar, 35-40 minutes, stirring now and then, until the grains burst and the porridge is loose."
+  - "Lower the egg into boiling water for 6.5 minutes, cool under the tap and peel."
+  - "Stir the cubed tofu and chopped spinach into the okayu for the last 3 minutes; season with the soy and salt."
+  - "Ladle into a bowl, halve the egg on top and finish with sliced spring onion, shredded nori and toasted sesame. Serve with green tea."
+source: "Adapted from the traditional okayu"

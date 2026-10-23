@@ -1,0 +1,44 @@
+id: thai.breakfast.kai-krata
+name: Kai krata (pan-baked eggs with spring onion and chicken) with brown rice
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: egg
+family: kai-krata
+tags: [quick]
+spice: medium
+kidNote: "Leave the pepper and chilli off the child's pan; the eggs and chicken are mild."
+packable: false
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kai krata, the Isan and Udon Thani breakfast of eggs baked in a small brass pan with Chinese sausage and minced pork; here with chicken mince and brown rice instead of bread."
+nutrition: { kcal: 365, carbs: 28, fibre: 4, protein: 24, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 eggs pan-baked with chicken mince, spring onion and pepper"
+  - "1/2 cup brown jasmine rice"
+  - "Tomato wedges and wilted bok choy"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: chicken mince, qty: 30, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 35, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Cook the brown jasmine rice (1.5 times its volume of water, 25 minutes, lid on)."
+  - "Season the chicken mince with half the soy sauce and the pepper; brown it in a small pan with half the oil, 3 minutes."
+  - "Crack the two eggs over the chicken, scatter spring onion and chilli, cover and cook on low 4-5 minutes until the whites set and the yolks are still soft."
+  - "In the same minute, wilt the bok choy with the garlic and the rest of the oil; splash with the remaining soy."
+  - "Serve the eggs in their pan with tomato wedges, the bok choy and the rice, with lemongrass tea steeped 5 minutes."
+source: "Adapted from the traditional kai krata of north-east Thailand."

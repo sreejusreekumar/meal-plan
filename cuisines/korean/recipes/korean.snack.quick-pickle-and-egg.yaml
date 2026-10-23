@@ -1,0 +1,39 @@
+id: korean.snack.quick-pickle-and-egg
+name: Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea
+slot: [snack]
+role: main
+cuisine: korean
+protein: egg
+family: pickle
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 111, carbs: 6, fibre: 3, protein: 7, satFat: 2, sugar: 0 }
+components:
+  - "Primary: quick pickle (jangajji-style) of cucumber, daikon and carrot in rice vinegar, garlic and salt"
+  - "1 boiled egg with sesame seeds"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: rice vinegar, qty: 2, unit: tsp }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: salt, qty: 0.15, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cut the cucumber, daikon and carrot into thin batons; toss with the rice vinegar, sliced garlic, salt and 2 tablespoons water, and leave to pickle 15 minutes."
+  - "Meanwhile boil the egg 9-10 minutes, cool under the tap, peel and halve; sprinkle with the sesame seeds."
+  - "Brew the green tea for 2 minutes."
+  - "Drain the pickle and serve with the egg and the tea."
+swaps:
+  - { for: daikon radish, use: "napa cabbage (wombok)", note: "50 g shredded" }
+source: "Adapted from Korean quick pickles (jangajji)"

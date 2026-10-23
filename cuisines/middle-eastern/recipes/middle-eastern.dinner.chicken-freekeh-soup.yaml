@@ -1,0 +1,50 @@
+id: middle-eastern.dinner.chicken-freekeh-soup
+name: Chicken & freekeh soup with herbs (shorbat freekeh)
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: chicken
+family: freekeh-soup
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 45
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 465, carbs: 48, fibre: 12, protein: 35, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 large bowl chicken, freekeh and vegetable soup with cinnamon and cardamom"
+  - "Parsley, coriander and lemon to finish"
+  - "Cucumber-mint side salad"
+ingredients:
+  - { item: chicken (bone-in curry cut), qty: 180, unit: g }
+  - { item: freekeh, qty: 45, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: celery, qty: 1, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: cardamom pods, qty: 2, unit: pc }
+  - { item: bay leaf, qty: 1, unit: pc }
+  - { item: allspice, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.25, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+steps:
+  - "Remove the skin from the chicken pieces. Brown them in the olive oil with the chopped onion, garlic, carrot and celery for 5 minutes."
+  - "Add the cinnamon stick, cardamom, bay leaf, allspice, crushed cumin, pepper and 3 cups water; bring to a simmer and cook 20 minutes."
+  - "Rinse the freekeh and add it with the salt; simmer 20 minutes more until the grain is tender. Add the diced zucchini for the last 8 minutes."
+  - "Lift out the chicken, pull the meat from the bones and return it to the pot; discard bones, bay leaf and cinnamon."
+  - "Stir in the chopped parsley and coriander and a squeeze of lemon. Serve with sliced cucumber tossed with mint and a pinch of salt."
+swaps:
+  - { for: freekeh, use: bulgur wheat, note: "add for the last 12 minutes only" }
+source: "Adapted from the traditional Palestinian shorbat freekeh"

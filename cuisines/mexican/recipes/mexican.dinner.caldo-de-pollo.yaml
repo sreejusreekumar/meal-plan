@@ -1,0 +1,50 @@
+id: mexican.dinner.caldo-de-pollo
+name: Caldo de pollo (chicken & vegetable soup) with brown rice
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: chicken
+family: caldo
+spice: medium
+kidNote: "Serve the jalapeno chopped at the table for the adults instead of simmering it in the pot."
+packable: false
+prepMinutes: 15
+cookMinutes: 45
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Caldo de pollo, the Mexican home remedy soup of bone-in chicken simmered with chunky vegetables, served with rice, lime and coriander."
+nutrition: { kcal: 495, carbs: 49, fibre: 11, protein: 36, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 large bowl chicken broth with 180 g bone-in chicken, zucchini, pumpkin, cabbage and corn"
+  - "Half cup brown rice stirred into the bowl"
+  - "Quarter avocado, coriander, jalapeno and lime to finish"
+ingredients:
+  - { item: chicken (bone-in curry cut), qty: 180, unit: g }
+  - { item: brown rice, qty: 35, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: pumpkin, qty: 100, unit: g }
+  - { item: cabbage, qty: 80, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: sweet corn (frozen), qty: 30, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Trim visible fat and skin from the chicken; cover with 600 ml water, the onion, garlic, tomato, cumin, oregano, pepper and salt, and simmer 25 minutes, skimming."
+  - "Rinse the brown rice and simmer separately in plenty of water 30 minutes; drain."
+  - "Add the pumpkin chunks, zucchini, cabbage wedges and corn to the broth; simmer 12 minutes until tender."
+  - "Spoon the rice into bowls, ladle over the soup with a piece of chicken and plenty of vegetables."
+  - "Finish with coriander, chopped jalapeno, lime and a quarter avocado diced; the half teaspoon of oil goes over the vegetables if the broth is very lean."
+swaps:
+  - { for: chicken (bone-in curry cut), use: "chicken thigh (boneless)", note: "130 g, simmer 20 minutes" }
+source: "Adapted from the traditional caldo de pollo"

@@ -1,0 +1,43 @@
+id: thai.lunch.gai-pad-med-mamuang
+name: Gai Pad Med Mamuang (chicken & cashew stir-fry) & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: chicken
+family: cashew-chicken
+tags: [quick]
+spice: medium
+kidNote: "Fry the dried chillies whole and lift them out before plating the child's portion."
+packable: true
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 550, carbs: 62, fibre: 8, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 plate chicken stir-fried with cashews, capsicum, beans and dried chilli"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: chicken breast, qty: 120, unit: g }
+  - { item: cashews, qty: 15, unit: g }
+  - { item: capsicum, qty: 1, unit: pc }
+  - { item: french beans, qty: 60, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried red chillies, qty: 2, unit: pc }
+  - { item: oyster sauce, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes)."
+  - "Toast the cashews in a dry wok until golden; set aside. Slice the chicken thinly across the grain."
+  - "Heat the oil, fry the dried chillies and garlic 20 seconds, then the chicken over high heat 3 minutes."
+  - "Add the shallots, capsicum chunks and beans; stir-fry 3 minutes with a splash of water."
+  - "Season with oyster sauce and soy, toss in the cashews and spring onion. Serve with 1 level cup rice."
+swaps:
+  - { for: chicken breast, use: "tofu (firm)", note: "150 g, sear first" }
+source: "Adapted from the traditional gai pad med mamuang himmaphan, no sugar."

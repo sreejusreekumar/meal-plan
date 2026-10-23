@@ -1,0 +1,37 @@
+id: middle-eastern.snack.labneh-olives-zaatar
+name: Labneh with olives, zaatar & black tea
+slot: [snack]
+role: main
+cuisine: middle-eastern
+protein: dairy
+family: labneh
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Labneh, strained yoghurt eaten as a thick dip with olive oil, zaatar and olives, a Levantine staple at any hour."
+nutrition: { kcal: 155, carbs: 12, fibre: 2, protein: 8, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 75 g labneh with zaatar and a drizzle of olive oil"
+  - "Olives, cucumber slices and cherry tomatoes"
+  - "Black tea, unsweetened"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: zaatar, qty: 0.5, unit: tsp }
+  - { item: olives, qty: 15, unit: g }
+  - { item: extra virgin olive oil, qty: 0.5, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Strain the salted yoghurt overnight in a muslin or coffee filter in the fridge to make labneh (do a few days' worth at once)."
+  - "Spread the labneh in a small bowl, sprinkle with zaatar and drizzle with olive oil."
+  - "Serve with the olives, cucumber slices and halved cherry tomatoes for scooping."
+  - "Brew the black tea and drink it unsweetened."
+source: "Adapted from the traditional Levantine labneh"

@@ -1,0 +1,43 @@
+id: middle-eastern.breakfast.hummus-plate
+name: Hummus plate with boiled egg, cucumber & half pita
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: hummus
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 45
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 380, carbs: 33, fibre: 10, protein: 18, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 small bowl hummus with a drizzle of olive oil and paprika"
+  - "1 hard-boiled egg"
+  - "Cucumber and tomato wedges"
+  - "Half a wholemeal pita"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: white chickpeas (chana), qty: 35, unit: g }
+  - { item: tahini, qty: 0.5, unit: tbsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: paprika, qty: 0.25, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: parsley, qty: 0.05, unit: bunch }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Soak the chickpeas overnight and boil until very soft, about 45 minutes (cook a week's batch at once and keep it in the fridge)."
+  - "Blend the hot chickpeas with tahini, lemon juice, garlic, crushed cumin, salt and a little cooking water until smooth."
+  - "Boil the egg for 10 minutes, cool, peel and halve."
+  - "Spoon the hummus onto the plate, drizzle with olive oil and paprika, scatter parsley, and serve with the egg, cucumber, tomato and half a warmed pita; brew the tea unsweetened."
+source: "Adapted from the traditional Levantine hummus bi tahini"

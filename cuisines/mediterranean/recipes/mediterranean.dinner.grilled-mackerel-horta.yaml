@@ -1,0 +1,44 @@
+id: mediterranean.dinner.grilled-mackerel-horta
+name: Whole grilled mackerel with lemon, oregano & horta greens
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: fish
+family: grilled-fish
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Psari sta karvouna, the Greek island way with a whole fish: grilled over coals and finished with ladolemono (olive oil, lemon and oregano)."
+nutrition: { kcal: 485, carbs: 40, fibre: 12, protein: 40, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 whole grilled mackerel with ladolemono (lemon, olive oil, oregano)"
+  - "Horta-style boiled kale with lemon"
+  - "3/4 cup bulgur with cherry tomatoes, red onion and olives"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: kale, qty: 0.5, unit: bunch }
+  - { item: bulgur wheat, qty: 50, unit: g }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: olives, qty: 15, unit: g }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried oregano, qty: 1, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the bulgur in 3/4 cup boiling water with a pinch of salt, covered, 15 minutes; fork through with halved cherry tomatoes, slivered red onion, olives and parsley."
+  - "Clean the mackerel, score the sides twice, season inside and out with salt, pepper, half the oregano and a slice of lemon in the belly."
+  - "Grill on a hot grill pan or under the oven grill 5-6 minutes a side until the skin chars and the flesh flakes at the bone."
+  - "Boil the kale leaves in salted water 5-6 minutes, drain well, dress with half the lemon juice."
+  - "Whisk the olive oil, remaining lemon juice, crushed garlic and oregano into ladolemono and spoon over the fish. Greens first, then fish and bulgur."
+swaps:
+  - { for: mackerel (ayala), use: sardines (mathi), note: "4 fish, 3 minutes a side" }
+source: "Adapted from the traditional Greek grilled whole fish with horta"

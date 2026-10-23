@@ -1,0 +1,40 @@
+id: mexican.snack.totopos-con-pico
+name: Baked totopos with pico de gallo and yoghurt-lime crema
+slot: [snack]
+role: main
+cuisine: mexican
+protein: dairy
+family: chips
+tags: [quick]
+spice: mild
+kidNote: "Make the child's pico de gallo without the jalapeno."
+packable: false
+prepMinutes: 8
+cookMinutes: 12
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Totopos con pico de gallo, Mexican tortilla chips with the fresh chopped salsa of tomato, onion, chilli, coriander and lime; here one tortilla, baked not fried."
+nutrition: { kcal: 135, carbs: 18, fibre: 3, protein: 5, satFat: 0.9, sugar: 0 }
+components:
+  - "Primary: 1 corn tortilla cut into 8 wedges and baked crisp"
+  - "Pico de gallo"
+  - "1/4 cup yoghurt whisked with lime as crema"
+  - "Agua de limón, unsweetened"
+ingredients:
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 60, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cut the tortilla into 8 wedges, brush very lightly with the oil, salt and bake at 200 C for 10-12 minutes until crisp."
+  - "Pico de gallo: dice the tomato, onion and jalapeno; mix with coriander, a squeeze of lime and salt."
+  - "Whisk the yoghurt with a squeeze of lime and a pinch of salt for the crema."
+  - "Squeeze the rest of the lime into a glass of cold water; serve the totopos with the pico and crema."
+source: "Adapted from the traditional totopos con pico de gallo"

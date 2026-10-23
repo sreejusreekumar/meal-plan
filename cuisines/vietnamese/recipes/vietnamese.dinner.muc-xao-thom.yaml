@@ -1,0 +1,48 @@
+id: vietnamese.dinner.muc-xao-thom
+name: Muc Xao Thom Squid with Pineapple & Tomato
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: fish
+family: squid
+tags: [quick]
+spice: medium
+kidNote: "Add the chilli at the very end, after the child's portion is out of the wok."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 485, carbs: 50, fibre: 8, protein: 33, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 160 g squid stir-fried with pineapple, tomato, onion and bean sprouts"
+  - "3/4 cup brown rice"
+  - "Cos lettuce leaves and thai basil"
+ingredients:
+  - { item: squid, qty: 160, unit: g }
+  - { item: pineapple, qty: 30, unit: g }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: fish sauce, qty: 1.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: thai basil, qty: 0.1, unit: bunch }
+  - { item: rice bran oil, qty: 2, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+steps:
+  - "Cook the brown rice with 1.25 cups water, covered, 35 minutes."
+  - "Clean the squid, score the inside in a diamond pattern and cut into 3 cm pieces; pat dry and toss with fish sauce and black pepper."
+  - "Heat 1 tsp rice bran oil in a very hot wok and sear the squid 1 minute until it curls; remove."
+  - "Add the remaining oil, fry garlic and ginger, then onion wedges and tomato 2 minutes; add the pineapple chunks and bean sprouts, toss 1 minute."
+  - "Return the squid, add spring onion lengths and chilli and toss 30 seconds; finish with thai basil."
+  - "Serve with the rice and crisp lettuce leaves for wrapping."
+swaps:
+  - { for: squid, use: "prawns (chemmeen)", note: "sear 2 minutes" }
+source: "Adapted from the traditional muc xao thom"

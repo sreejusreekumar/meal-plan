@@ -1,0 +1,48 @@
+id: mexican.lunch.chicken-tinga-tostadas
+name: Chicken tinga tostadas with corn salad
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: chicken
+family: tinga
+spice: medium
+kidNote: "Pull out the child's chicken before the chipotle goes in and sauce it with the plain tomato-onion base."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 535, carbs: 52, fibre: 12, protein: 36, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 2 baked corn tostadas topped with 110 g chipotle-tomato shredded chicken (tinga)"
+  - "Shredded cos lettuce, radish, yoghurt and a quarter avocado"
+  - "Esquites-style sweet corn salad with lime and coriander"
+ingredients:
+  - { item: chicken breast, qty: 110, unit: g }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: chipotle in adobo, qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: radish, qty: 2, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 40, unit: g }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: sweet corn (frozen), qty: 80, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Poach the chicken breast in salted water 15 minutes; shred with two forks and keep a splash of the stock."
+  - "Soften the sliced onion and garlic in 1 tsp oil; add the canned tomatoes, chipotle, oregano and salt and simmer 10 minutes to a thick sauce. Stir in the chicken and a little stock."
+  - "Bake the corn tortillas at 200 C for 6-8 minutes until crisp."
+  - "Char the thawed corn in a dry pan; toss with lime juice, chilli powder, coriander and salt for the corn salad."
+  - "Spread the tostadas with tinga, top with lettuce, radish slices, a spoon of yoghurt and avocado. Serve the corn salad first."
+swaps:
+  - { for: chicken breast, use: "chicken thigh (boneless)", note: "poach 20 minutes" }
+source: "Adapted from the traditional tinga de pollo from Puebla"

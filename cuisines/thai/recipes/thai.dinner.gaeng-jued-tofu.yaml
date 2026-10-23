@@ -1,0 +1,44 @@
+id: thai.dinner.gaeng-jued-tofu
+name: Gaeng Jued (clear soup with tofu, egg & vegetables) & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: legume
+family: clear-soup
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Gaeng jued, the mild Thai clear soup of tofu, vegetables and pepper that balances a spicy table."
+nutrition: { kcal: 475, carbs: 50, fibre: 8, protein: 31, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 large bowl clear soup with tofu, egg ribbons, cabbage, carrot and shiitake"
+  - "White pepper-style heat from black pepper, spring onion and coriander"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spring onion, qty: 0.2, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Bring 500 ml water to the boil with the crushed garlic, ginger slices and the white parts of the spring onion; simmer 5 minutes."
+  - "Add the sliced shiitake, carrot and cabbage; simmer 5 minutes until the cabbage is tender."
+  - "Add the tofu cubes and soy sauce; simmer 2 minutes. Beat the egg and pour it in a thin stream, stirring once so it sets in ribbons."
+  - "Season with black pepper, top with spring onion greens and coriander. Serve with 3/4 cup rice."
+swaps:
+  - { for: tofu (firm), use: "chicken mince", note: "80 g rolled into small balls, add before the vegetables" }
+source: "Adapted from the traditional gaeng jued tao hoo, made with tofu and egg."

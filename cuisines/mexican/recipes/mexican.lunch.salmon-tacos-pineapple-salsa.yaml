@@ -1,0 +1,48 @@
+id: mexican.lunch.salmon-tacos-pineapple-salsa
+name: Salmon tacos with pineapple salsa & cabbage slaw
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: fish
+family: salmon-tacos
+tags: [quick]
+spice: medium
+kidNote: "Keep the jalapeno out of the child's share of the pineapple salsa."
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 52, fibre: 12, protein: 31, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 corn tortillas with 100 g paprika-seared salmon"
+  - "Pineapple, red onion and jalapeno salsa"
+  - "Cabbage and cucumber slaw with lime"
+  - "Small bowl of black beans with cherry tomatoes"
+ingredients:
+  - { item: salmon fillet, qty: 100, unit: g }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: pineapple, qty: 60, unit: g }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: cabbage, qty: 80, unit: g }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: black beans (dried), qty: 30, unit: g }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the soaked black beans with salt until soft; toss with halved cherry tomatoes and a squeeze of lime."
+  - "Dice the pineapple, red onion and jalapeno; mix with coriander, lime and a pinch of salt for the salsa."
+  - "Shred the cabbage and slice the cucumber thinly; dress with lime and salt."
+  - "Rub the salmon with smoked paprika, ground cumin and salt; sear skin-side down in the half teaspoon of oil 4 minutes, turn for 2 minutes, then flake."
+  - "Warm the tortillas and fill with slaw, salmon and pineapple salsa; beans on the side. Pack separately for a lunchbox."
+swaps:
+  - { for: salmon fillet, use: "mackerel (ayala)", note: "1 fish, fillet and sear the same way" }
+source: "Adapted from the traditional Baja-style tacos with fruit salsa"

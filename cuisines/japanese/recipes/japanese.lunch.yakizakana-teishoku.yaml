@@ -1,0 +1,51 @@
+id: japanese.lunch.yakizakana-teishoku
+name: Yakizakana Teishoku (Grilled Fish Set with Miso Soup)
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: fish
+family: teishoku
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Yakizakana teishoku, the Japanese set meal of salt-grilled fish with miso soup, rice, pickles and a vegetable side."
+nutrition: { kcal: 539, carbs: 61, fibre: 12, protein: 39, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 130 g salt-grilled white fish with lemon"
+  - "Miso soup with wakame and spring onion"
+  - "French bean gomaae and edamame"
+  - "Quick cucumber and daikon pickles"
+  - "1 small bowl brown rice (60 g uncooked)"
+ingredients:
+  - { item: firm white fish fillet, qty: 130, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: french beans, qty: 80, unit: g }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: edamame (frozen), qty: 30, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+steps:
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Slice the cucumber and daikon thinly, toss with a pinch of salt and the rice vinegar and leave to pickle 15 minutes."
+  - "Make 200 ml dashi with the kombu and bonito flakes. Add the soaked wakame, loosen the miso into it off the boil and finish with sliced spring onion."
+  - "Blanch the french beans and edamame 3 minutes; toss the beans in toasted crushed sesame and the soy."
+  - "Salt the fish 10 minutes ahead, pat dry, brush with the oil and grill or pan-fry 3-4 minutes a side until the skin crisps. Serve with a lemon wedge."
+  - "Lay out the set: soup and vegetables first, then the fish, then the small bowl of rice."
+swaps:
+  - { for: firm white fish fillet, use: "mackerel (ayala)", note: "1 fish, grill 5 minutes a side" }
+source: "Adapted from the traditional yakizakana teishoku"

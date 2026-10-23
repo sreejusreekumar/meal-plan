@@ -1,0 +1,44 @@
+id: middle-eastern.breakfast.chickpea-spinach-scramble
+name: Chickpea & spinach scramble with sumac
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: chickpea-scramble
+tags: [quick]
+spice: medium
+kidNote: "Leave the chilli flakes out and let adults add them at the table."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 370, carbs: 35, fibre: 10, protein: 22, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl chickpeas and spinach scrambled with an egg, cumin and sumac"
+  - "Half a wholemeal pita"
+  - "50 g low-fat yoghurt"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: white chickpeas (chana), qty: 30, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: sumac, qty: 1, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Use chickpeas soaked and boiled in a batch earlier in the week (30 g dry gives about 3/4 cup cooked)."
+  - "Heat the olive oil, soften the sliced onion and garlic for 4 minutes, add the crushed cumin and chilli flakes, then the chickpeas and crush some of them lightly with the back of a spoon."
+  - "Add the chopped spinach and cook 2 minutes until wilted, then pour in the beaten egg and stir until just set."
+  - "Finish with sumac, lemon juice and salt; serve with half a warmed pita, the yoghurt and unsweetened tea."
+source: "Inspired by Levantine chickpea and egg skillet breakfasts"

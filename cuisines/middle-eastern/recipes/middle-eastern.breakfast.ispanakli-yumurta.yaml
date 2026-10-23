@@ -1,0 +1,41 @@
+id: middle-eastern.breakfast.ispanakli-yumurta
+name: Turkish egg & spinach (ispanakli yumurta) with yoghurt
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: egg
+family: spinach-eggs
+tags: [quick]
+spice: medium
+kidNote: "Leave the chilli flakes off the child's egg; sprinkle on the adults' plates at the table."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 360, carbs: 37, fibre: 8, protein: 21, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 egg baked on a bed of garlicky sauteed spinach and onion"
+  - "100 g low-fat yoghurt with garlic"
+  - "1 wholemeal pita"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Heat the olive oil and soften the sliced onion for 5 minutes, then add half the crushed garlic and the chopped spinach and cook until wilted and the pan is dry."
+  - "Season with salt and pepper, make a hollow, crack in the egg, cover and cook on low 4-5 minutes until the white is set."
+  - "Stir the rest of the garlic into the yoghurt."
+  - "Sprinkle chilli flakes over the egg and serve with the garlic yoghurt, a warmed pita and unsweetened tea."
+source: "Adapted from the traditional Turkish ispanakli yumurta"

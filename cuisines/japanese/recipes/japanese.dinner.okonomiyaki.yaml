@@ -1,0 +1,47 @@
+id: japanese.dinner.okonomiyaki
+name: Okonomiyaki (Cabbage & Egg Pancake with Prawns) with Edamame
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: fish
+family: okonomiyaki
+spice: mild
+packable: false
+prepMinutes: 20
+cookMinutes: 25
+effort: weekend
+treat: true
+refinedCarb: false
+signature: false
+nutrition: { kcal: 467, carbs: 40, fibre: 12, protein: 37, satFat: 3, sugar: 2 }
+components:
+  - "Primary: 1 large okonomiyaki, mostly cabbage, bound with egg and 35 g whole-wheat atta, with prawns"
+  - "Soy-vinegar-miso 'okonomi' sauce (no sugar), nori and bonito flakes on top"
+  - "Edamame, 50 g, and cucumber sunomono with ginger"
+ingredients:
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cabbage, qty: 130, unit: g }
+  - { item: prawns (chemmeen), qty: 80, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: miso paste, qty: 0.5, unit: tbsp }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: edamame (frozen), qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+steps:
+  - "Steep the kombu in 60 ml warm water 10 minutes for a quick dashi; remove the kombu."
+  - "Whisk the atta with the kombu dashi and the egg into a thick batter. Fold in the finely shredded cabbage, sliced spring onion and chopped prawns; it should look like dressed cabbage, not a batter."
+  - "Make the sauce: simmer the soy, rice vinegar, miso, mirin and 1 tablespoon water for 1 minute until glossy."
+  - "Slice the cucumber thinly, salt and squeeze, and toss with a few drops of the vinegar and slivers of ginger. Boil the edamame 4 minutes."
+  - "Heat the oil in a non-stick pan, pile in the mixture as a 2 cm thick round, cover and cook 6 minutes over medium heat; flip and cook 5 minutes more until cooked through."
+  - "Brush with the sauce, scatter the bonito flakes and shredded nori; serve with the edamame and sunomono."
+swaps:
+  - { for: prawns (chemmeen), use: squid, note: "80 g, chopped small" }
+source: "Adapted from the traditional Osaka okonomiyaki, with whole-wheat flour and a sugar-free sauce"

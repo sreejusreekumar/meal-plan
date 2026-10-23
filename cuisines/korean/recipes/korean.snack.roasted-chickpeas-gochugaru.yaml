@@ -1,0 +1,37 @@
+id: korean.snack.roasted-chickpeas-gochugaru
+name: Gochugaru Roasted Chickpeas with Green Tea
+slot: [snack]
+role: main
+cuisine: korean
+protein: legume
+family: chickpeas
+spice: mild
+kidNote: "Roast the child's share plain with salt and sesame, no gochugaru."
+packable: true
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 138, carbs: 16, fibre: 5, protein: 6, satFat: 1, sugar: 0 }
+components:
+  - "Primary: crunchy roasted chickpeas (30 g dry weight) with gochugaru, sesame and salt"
+  - "Cucumber slices"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: white chickpeas (chana), qty: 30, unit: g }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: gochugaru (korean chilli flakes), qty: 0.25, unit: tsp }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Use chickpeas soaked and boiled in a batch earlier in the week (30 g dry per person, about 75 g cooked); pat them completely dry."
+  - "Toss with the rice bran oil, gochugaru and salt; spread on a tray."
+  - "Roast in an air fryer or hot oven (220 C) for 12-15 minutes, shaking once, until crisp; scatter the sesame seeds for the last minute."
+  - "Brew the green tea and serve the chickpeas warm with cucumber slices."
+swaps:
+  - { for: white chickpeas (chana), use: "edamame (frozen)", note: "60 g, roast 10 minutes" }
+source: "Household roasted-chickpea snack with Korean seasoning"

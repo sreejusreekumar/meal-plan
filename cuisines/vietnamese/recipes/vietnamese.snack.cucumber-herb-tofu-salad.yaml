@@ -1,0 +1,39 @@
+id: vietnamese.snack.cucumber-herb-tofu-salad
+name: Cucumber and herb salad with seared tofu cubes and peanuts
+slot: [snack]
+role: main
+cuisine: vietnamese
+protein: legume
+family: cucumber-salad
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 130, carbs: 6, fibre: 3, protein: 10, satFat: 1, sugar: 0 }
+components:
+  - "Primary: cucumber, mint and coriander salad with 60 g seared tofu cubes"
+  - "Crushed peanuts, shallot and a lime-fish-sauce dressing"
+  - "Hot green tea (unsweetened)"
+ingredients:
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+  - { item: coriander leaves, qty: 0.05, unit: bunch }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: peanuts, qty: 8, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Pat the tofu dry, cut into 1.5 cm cubes and sear in a dry non-stick pan 4-5 minutes, turning, until golden."
+  - "Halve the cucumber lengthways, scoop out the seeds and slice on the diagonal; slice the shallot paper-thin."
+  - "Whisk the lime juice with the fish sauce and 1 tsp water; toss with the cucumber, shallot, torn mint and coriander."
+  - "Top with the tofu and crushed roasted peanuts. Brew the green tea."
+swaps:
+  - { for: tofu (firm), use: "prawns (chemmeen)", note: "40 g, boiled 2 minutes" }
+source: "A Vietnamese-style goi (herb salad) scaled to a snack"

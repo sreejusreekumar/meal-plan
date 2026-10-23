@@ -1,0 +1,41 @@
+id: thai.breakfast.khai-toon
+name: Khai toon (steamed egg) with mushrooms, brown rice and bok choy
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: egg
+family: steamed-egg
+tags: [no-chilli, comfort]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 355, carbs: 37, fibre: 4, protein: 20, satFat: 3.5, sugar: 0 }
+components:
+  - "Primary: Silky steamed egg (khai toon) with mushrooms, spring onion and a few drops of sesame oil"
+  - "3/4 cup brown jasmine rice"
+  - "Blanched bok choy with soy"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.2, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: brown jasmine rice, qty: 45, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Cook the brown jasmine rice (1.5 times its volume of water, 25 minutes, lid on)."
+  - "Beat the eggs with 150 ml warm water, fish sauce and pepper; strain into a heatproof bowl, add the sliced mushrooms and most of the spring onion."
+  - "Cover the bowl with a plate and steam over gently simmering water for 12-14 minutes until just set and wobbly."
+  - "Blanch the bok choy 1 minute and dress with the soy sauce."
+  - "Finish the egg with sesame oil, coriander and the remaining spring onion; serve with rice, bok choy and lemongrass tea steeped 5 minutes."
+source: "Adapted from the traditional Thai khai toon."

@@ -1,0 +1,47 @@
+id: mediterranean.dinner.keftedes
+name: Keftedes (baked lean beef meatballs) in tomato sauce with zucchini & bulgur
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: beef
+lean: true
+family: meatballs
+spice: mild
+packable: false
+prepMinutes: 20
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Keftedes, the Greek herbed meatballs, usually fried and served with tomato sauce; here baked lean beef mince with oregano, parsley and onion."
+nutrition: { kcal: 470, carbs: 48, fibre: 10, protein: 38, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 120 g lean beef keftedes, baked, in garlic-tomato sauce"
+  - "Pan-cooked zucchini with lemon"
+  - "3/4 cup bulgur; 60 g yoghurt on the side"
+ingredients:
+  - { item: lean beef mince, qty: 120, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: dried oregano, qty: 1, unit: tsp }
+  - { item: bulgur wheat, qty: 50, unit: g }
+  - { item: canned tomatoes, qty: 150, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: zucchini, qty: 1, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 60, unit: g }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the bulgur in 3/4 cup boiling water with a pinch of salt, covered, 15 minutes. Take 1 tablespoon of it for the meatballs."
+  - "Mix the mince with the grated onion, half the garlic, chopped parsley, oregano, the spoon of soaked bulgur, salt and pepper; roll into 8 small balls."
+  - "Bake the keftedes on a lined tray at 200 C for 15 minutes until browned."
+  - "Simmer the canned tomatoes with the remaining garlic, tomato paste, salt and pepper 10 minutes; drop in the baked meatballs and simmer 5 minutes more."
+  - "Slice the zucchini into coins and cook in the olive oil over high heat 5 minutes until browned; finish with lemon juice."
+  - "Serve the keftedes and sauce with the bulgur, zucchini and a spoon of yoghurt."
+swaps:
+  - { for: lean beef mince, use: chicken breast, note: "140 g minced; then protein is chicken" }
+source: "Adapted from the traditional Greek keftedes me saltsa"

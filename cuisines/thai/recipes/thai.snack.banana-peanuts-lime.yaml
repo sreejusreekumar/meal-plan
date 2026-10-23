@@ -1,0 +1,31 @@
+id: thai.snack.banana-peanuts-lime
+name: Banana with roasted peanuts, lime and a pinch of salt, black tea
+slot: [snack]
+role: main
+cuisine: thai
+protein: none
+family: banana
+tags: [quick, no-chilli]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 135, carbs: 12, fibre: 3, protein: 5, satFat: 1, sugar: 0 }
+components:
+  - "Primary: Half a banana sliced, with lime juice, a pinch of salt and crushed roasted peanuts"
+  - "Black tea, unsweetened"
+ingredients:
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.05, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Dry-roast the peanuts 3-4 minutes until fragrant; crush coarsely."
+  - "Slice the banana, squeeze the lime over and add a tiny pinch of salt."
+  - "Scatter the peanuts on top. Brew the black tea 3 minutes."
+source: "A Thai fruit-cart style snack (kluai with prik kleua minus the sugar and chilli)."

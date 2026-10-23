@@ -1,0 +1,44 @@
+id: japanese.lunch.salmon-teriyaki
+name: Salmon Teriyaki with Brown Rice & Carrot Gomae
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: fish
+family: salmon-teriyaki
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Sake no teriyaki, pan-grilled salmon glazed with soy and mirin, a staple of Japanese home cooking and bento boxes."
+nutrition: { kcal: 545, carbs: 57, fibre: 9, protein: 36, satFat: 4, sugar: 2 }
+components:
+  - "Primary: 110 g salmon teriyaki (soy, 1 tsp mirin, ginger; no sugar)"
+  - "Spinach and carrot gomae (sesame dressing)"
+  - "Edamame, 40 g"
+  - "1 small bowl brown rice (60 g uncooked)"
+ingredients:
+  - { item: salmon fillet, qty: 110, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: edamame (frozen), qty: 40, unit: g }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Rinse the brown rice, soak 20 minutes, then cook in 1.5 times its volume of water, covered, 35 minutes; rest 10 minutes."
+  - "Blanch the spinach 30 seconds and the carrot matchsticks 2 minutes; squeeze the spinach dry. Toast and crush the sesame seeds, mix with half a teaspoon of soy and toss through the vegetables."
+  - "Boil the edamame 4 minutes in salted water, drain."
+  - "Pat the salmon dry and pan-grill skin side down in a dry non-stick pan 4 minutes, turn and cook 2 minutes more."
+  - "Mix the remaining soy, the mirin and grated ginger with 1 tablespoon water, pour over the salmon and let it bubble and glaze for 1 minute, spooning it over the fish."
+  - "Pack the rice, gomae and edamame in separate corners of the box with the salmon on top; it is good at room temperature."
+swaps:
+  - { for: salmon fillet, use: "firm white fish fillet", note: "150 g, glaze 2 minutes longer" }
+source: "Adapted from the traditional sake no teriyaki, with mirin measured and no sugar"

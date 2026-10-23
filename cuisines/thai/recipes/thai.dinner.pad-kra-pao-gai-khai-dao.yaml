@@ -1,0 +1,47 @@
+id: thai.dinner.pad-kra-pao-gai-khai-dao
+name: Pad Kra Pao Gai with a fried egg & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: chicken
+family: kra-pao
+tags: [quick]
+spice: medium
+kidNote: "Fry the garlic without the chillies, plate the child's portion, then add the pounded chillies to the adults' pan."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pad kra pao gai khai dao, the everyday Thai stir-fry of minced chicken with holy basil, garlic and chilli, topped with a fried egg."
+nutrition: { kcal: 505, carbs: 49, fibre: 8, protein: 32, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 plate minced chicken stir-fried with holy basil, chilli and french beans"
+  - "1 fried egg (1 tsp oil)"
+  - "Crisp cabbage wedges"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: chicken mince, qty: 100, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: thai basil, qty: 0.25, unit: bunch }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 100, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: cabbage, qty: 60, unit: g }
+  - { item: oyster sauce, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Pound the garlic and chillies roughly. Cut the beans into 2 cm pieces."
+  - "Heat the oil in a wok and fry the egg until the edge is crisp and the yolk still soft; lift out onto a plate."
+  - "In the same wok, fry the garlic-chilli paste and shallots 30 seconds, add the chicken mince and break it up over high heat 3 minutes."
+  - "Add the beans with the oyster sauce, fish sauce and soy and 2 tbsp water; stir-fry 3 minutes. Fold in the basil off the heat."
+  - "Serve with the egg on top, cabbage wedges on the side and 3/4 cup rice."
+source: "Adapted from the traditional pad kra pao gai, no sugar and a measured teaspoon of oil."

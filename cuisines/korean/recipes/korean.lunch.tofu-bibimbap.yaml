@@ -1,0 +1,47 @@
+id: korean.lunch.tofu-bibimbap
+name: Tofu Bibimbap with Shiitake & Namul
+slot: [lunch]
+role: main
+cuisine: korean
+protein: legume
+family: tofu-bibimbap
+tags: [packable]
+spice: medium
+kidNote: "Leave the gochujang off the child's bowl and let them mix in soy and sesame oil instead; kimchi on the side."
+packable: true
+prepMinutes: 20
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 55, fibre: 12, protein: 30, satFat: 3, sugar: 1 }
+components:
+  - "Primary: 2/3 bowl brown rice topped with seared tofu, shiitake and spinach, bean sprout, carrot and zucchini namul"
+  - "1 tsp gochujang with soy and sesame oil"
+  - "Crumbled nori and kimchi"
+ingredients:
+  - { item: tofu (firm), qty: 100, unit: g }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: gochujang, qty: 0.33, unit: tbsp }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: kimchi, qty: 40, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Press the tofu dry, cut into thick fingers and sear in the rice bran oil until golden on two sides; splash with half the soy sauce."
+  - "Blanch the spinach 30 seconds and the bean sprouts 2 minutes; squeeze and season with crushed garlic, salt and a few drops of sesame oil."
+  - "Soften the carrot and zucchini matchsticks and the sliced shiitake in the same dry pan for 3-4 minutes with a pinch of salt."
+  - "Arrange everything over the rice, add the gochujang mixed with the remaining soy sauce and sesame oil, crumble the nori over and serve the kimchi alongside; stir before eating."
+swaps:
+  - { for: tofu (firm), use: "eggs", note: "2 fried eggs, see the bibimbap" }
+source: "Adapted from the traditional bibimbap"

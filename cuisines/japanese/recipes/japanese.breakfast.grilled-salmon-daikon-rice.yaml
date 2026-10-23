@@ -1,0 +1,44 @@
+id: japanese.breakfast.grilled-salmon-daikon-rice
+name: Grilled Salmon with Daikon & Brown Rice
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: fish
+family: salmon
+tags: [high-protein]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 373, carbs: 34, fibre: 6, protein: 22, satFat: 2.2, sugar: 0 }
+components:
+  - "Primary: 80 g grilled salted salmon (shiozake) with grilled shiitake"
+  - "Small bowl brown rice (40 g uncooked)"
+  - "Grated daikon and wakame with rice vinegar and soy"
+  - "Bok choy ohitashi with bonito flakes and sesame"
+  - "Green tea"
+ingredients:
+  - { item: salmon fillet, qty: 80, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: bonito flakes, qty: 1, unit: g }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water, about 30 minutes."
+  - "Salt the salmon lightly and rest 10 minutes; grill or pan-grill skin side down 5 minutes, turn and give it 3 minutes more, with the whole shiitake alongside."
+  - "Soak the wakame 3 minutes, squeeze, and mix with the grated daikon, rice vinegar and half the soy."
+  - "Blanch the bok choy 1 minute, squeeze, cut into 3 cm pieces and dress with the remaining soy; top with bonito flakes and toasted sesame."
+  - "Serve the salmon and shiitake with the rice, the daikon-wakame, the bok choy, sliced spring onion and a cup of green tea."
+source: "Adapted from the traditional shiozake breakfast"

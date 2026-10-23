@@ -1,0 +1,35 @@
+id: mediterranean.snack.olives-feta-cucumber
+name: Olives, feta and cucumber meze plate, black tea
+slot: [snack]
+role: main
+cuisine: mediterranean
+protein: dairy
+family: olives
+tags: [quick, no-cook]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 3
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Elies kai feta, the small Greek meze plate of olives, a sliver of feta and raw cucumber and tomato."
+nutrition: { kcal: 148, carbs: 7, fibre: 4, protein: 5, satFat: 2, sugar: 0 }
+components:
+  - "Small plate of olives, a sliver of feta, cucumber and cherry tomatoes with oregano and a few almonds"
+  - "Black tea (unsweetened)"
+ingredients:
+  - { item: olives, qty: 20, unit: g }
+  - { item: feta, qty: 10, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cherry tomatoes, qty: 100, unit: g }
+  - { item: almonds, qty: 10, unit: g }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Slice the cucumber thickly and halve the cherry tomatoes; arrange on a small plate with the olives and the sliver of feta."
+  - "Squeeze the lemon over, dust with oregano and add the almonds."
+  - "Brew the tea leaves in a cup of boiling water 3 minutes, strain; no sugar."
+source: "Adapted from the traditional Greek meze plate"

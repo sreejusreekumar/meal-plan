@@ -1,0 +1,45 @@
+id: middle-eastern.lunch.grilled-sardines-sumac-onion
+name: Grilled sardines with sumac onion salad & bulgur
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: fish
+family: sardines
+tags: [quick]
+spice: medium
+kidNote: "Grill one sardine without the chilli flakes; lemon and cumin only."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 48, fibre: 12, protein: 38, satFat: 3.5, sugar: 0 }
+components:
+  - "Primary: 3 grilled sardines with cumin, chilli and lemon"
+  - "Sumac red onion, tomato and parsley salad"
+  - "1 level cup bulgur"
+ingredients:
+  - { item: sardines (mathi), qty: 3, unit: pc }
+  - { item: bulgur wheat, qty: 60, unit: g }
+  - { item: red onion, qty: 0.5, unit: pc }
+  - { item: sumac, qty: 1, unit: tsp }
+  - { item: parsley, qty: 0.25, unit: bunch }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Simmer the bulgur in 1 cup salted water for 12 minutes; rest covered 5 minutes and fork through."
+  - "Slice the red onion very thinly, rub with sumac and a pinch of salt and leave 10 minutes to soften; add the chopped parsley, tomato and cucumber."
+  - "Gut and rinse the sardines; pat dry and rub with the olive oil, crushed cumin, chilli flakes, salt and pepper."
+  - "Grill or griddle on high heat 3 minutes a side until the skin blisters; squeeze lemon over."
+  - "Serve the sardines over the bulgur with the sumac onion salad heaped alongside."
+swaps:
+  - { for: sardines (mathi), use: firm white fish fillet, note: "150 g, 3-4 minutes a side" }
+source: "Adapted from the traditional Turkish grilled sardines (sardalya izgara)"

@@ -1,0 +1,45 @@
+id: korean.lunch.godeungeo-gui
+name: Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice
+slot: [lunch]
+role: main
+cuisine: korean
+protein: fish
+family: grilled-mackerel
+spice: medium
+kidNote: "The fish and namul are not hot; give the child plain grated carrot instead of kimchi."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Godeungeo gui, Korean salt-grilled mackerel, a staple of home meals and market canteens."
+nutrition: { kcal: 540, carbs: 55, fibre: 9, protein: 35, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 grilled mackerel with lemon"
+  - "Spinach namul and bean sprout namul"
+  - "1 small bowl brown rice"
+  - "Kimchi and grated carrot"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Butterfly or fillet the mackerel, score the skin, salt it and leave 10 minutes; pat dry."
+  - "Blanch the spinach 30 seconds and the bean sprouts 2 minutes; squeeze dry and dress each with crushed garlic, a few drops of sesame oil, soy sauce and sesame seeds."
+  - "Grill or pan-grill the mackerel skin-side down over medium-high heat for 5-6 minutes, turn and give it 3 more; squeeze the lemon over."
+  - "Plate the kimchi and grated carrot, the two namul, the mackerel and the small bowl of rice; eat vegetables first, rice last."
+swaps:
+  - { for: mackerel (ayala), use: "salmon fillet", note: "100 g, grill 4 minutes a side" }
+source: "Adapted from the traditional godeungeo gui"

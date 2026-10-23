@@ -1,0 +1,48 @@
+id: vietnamese.breakfast.op-la-on-wholemeal
+name: Op la on wholemeal (fried eggs with tomato, cucumber and do chua)
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: egg
+family: op-la
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Trung op la, the Vietnamese street breakfast of eggs fried sunny-side up in a small pan and eaten with a baguette, pickles and soy or Maggi sauce, here on half a wholemeal roll instead of banh mi."
+nutrition: { kcal: 355, carbs: 35, fibre: 7, protein: 18, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 eggs op la (fried sunny-side up) with spring onion, soy and pepper"
+  - "Half a wholemeal roll, tomato and cucumber slices"
+  - "Do chua (quick pickled carrot and daikon, no sugar) and half a banana"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread roll, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: carrot, qty: 0.25, unit: pc }
+  - { item: daikon radish, qty: 0.1, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Make the do chua first: cut the carrot and daikon into matchsticks, toss with the rice vinegar and salt and leave 10 minutes (no sugar)."
+  - "Slice the tomato and cucumber; split and lightly toast the half roll."
+  - "Heat the oil in a small pan, crack in the eggs and fry gently until the whites set and the yolks are still soft; scatter with sliced spring onion and pepper."
+  - "Slide the eggs onto the plate with the toast, tomato, cucumber and drained do chua; drizzle the soy sauce over the eggs and top with coriander."
+  - "Finish with half a banana. Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: wholemeal bread roll, use: "wholemeal bread", note: "1 slice, toasted" }
+source: "Adapted from the traditional banh mi op la, on wholemeal instead of a white baguette"

@@ -1,6 +1,6 @@
 # Family Meal Planner — Specification
 
-Status: v0.7 (2026-10-23). Phases 0 to 4 are implemented; phase 5 has Kerala, North Indian and Sri Lankan (section 15). All open
+Status: v0.8 (2026-10-23). Phases 0 to 5 are implemented: ten cuisine packs (section 15). All open
 questions were settled in review 3 (section 16); section 17 is empty.
 
 ## 1. Goal
@@ -475,7 +475,7 @@ git add -A && git commit -m "Plan 2026-W45 (Thai)" && git push
 | 2 ✅ | Recipe panel in the page, recipe CLI | Every meal opens a recipe |
 | 3 ✅ | Microsoft To Do push into the "Weekly Basket" list (ADR 0003) | `--todo` fills the list on the phone |
 | 4 ✅ | Saturday automation (Actions cron, manual dispatch, rotation) and local launchd To Do job (ADR 0004) | A week appears on the tablet with no manual step |
-| 5 | Five cuisine packs via `add-cuisine` + agent authoring: North Indian, Sri Lankan, Thai, Mediterranean, Middle Eastern (Mexican, Japanese, Italian, Chinese, Vietnamese, Korean on request). Signature dishes tagged and badged; `signatureDishesMin` rule | Each pack passes `validate`, produces a valid week, and you have skimmed it |
+| 5 ✅ | Ten cuisine packs (Kerala, North Indian, Sri Lankan, Thai, Mediterranean, Japanese, Middle Eastern, Korean, Mexican, Vietnamese), 44 recipes each except Kerala's 108, authored against the catalogue with signature dishes badged; `mealplan trial` dry-runs a pack. Italian and Chinese remain on request | Each pack passes `validate` and `trial` over 8 weeks |
 | 6 | Kids' lunchbox slot, mixed-by-meal weeks, leftover-driven lunches, nutrition summary chart, print view | — |
 
 ## 16. Decisions log

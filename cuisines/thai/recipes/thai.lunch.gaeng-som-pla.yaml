@@ -1,0 +1,45 @@
+id: thai.lunch.gaeng-som-pla
+name: Gaeng Som Pla (sour tamarind curry with fish & vegetables) & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: fish
+family: gaeng-som
+spice: medium
+kidNote: "Use 1 dried chilli in the paste for the pot and keep the second for grinding over the adult bowls."
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 537, carbs: 63, fibre: 10, protein: 42, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl gaeng som with fish, cabbage, beans and carrot in a tamarind broth (no coconut)"
+  - "A halved boiled egg in the bowl"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cabbage, qty: 80, unit: g }
+  - { item: french beans, qty: 60, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: tamarind, qty: 15, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried red chillies, qty: 2, unit: pc }
+  - { item: galangal, qty: 5, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes). Boil the egg 8 minutes, peel and halve."
+  - "Soak the dried chillies 10 minutes, then pound with the shallots, garlic and galangal to a rough paste. Soak the tamarind in 4 tbsp hot water and strain."
+  - "Bring 400 ml water to the boil, stir in the paste and simmer 3 minutes. Poach 30 g of the fish, mash it into the broth (this thickens gaeng som)."
+  - "Add the carrot, beans and cabbage; simmer 6-8 minutes. Add the tamarind water and fish sauce."
+  - "Slide in the rest of the fish in chunks; simmer 4 minutes until just cooked. Finish with lime if more sourness is needed."
+  - "Serve in a bowl with the egg halves and 1 level cup rice."
+swaps:
+  - { for: firm white fish fillet, use: "prawns (chemmeen)", note: "150 g, 2 minutes at the end" }
+source: "Adapted from the traditional gaeng som (southern/central Thai sour curry), with no sugar."

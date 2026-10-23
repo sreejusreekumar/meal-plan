@@ -1,0 +1,46 @@
+id: korean.lunch.kimchi-jjigae
+name: Kimchi Jjigae with Pork Tenderloin, Tofu & Brown Rice
+slot: [lunch]
+role: main
+cuisine: korean
+protein: pork
+lean: true
+family: kimchi-jjigae
+tags: [packable]
+spice: medium
+kidNote: "Rinse a little of the kimchi for the child's share and simmer it separately without gochugaru or gochujang."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 535, carbs: 59, fibre: 9, protein: 36, satFat: 2, sugar: 1 }
+components:
+  - "Primary: 1 bowl kimchi jjigae (aged kimchi, lean pork tenderloin and tofu)"
+  - "Bean sprout namul"
+  - "1 small bowl brown rice"
+ingredients:
+  - { item: pork tenderloin (lean), qty: 80, unit: g }
+  - { item: tofu (firm), qty: 50, unit: g }
+  - { item: kimchi, qty: 100, unit: g }
+  - { item: gochugaru (korean chilli flakes), qty: 1, unit: tsp }
+  - { item: gochujang, qty: 0.33, unit: tbsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: bean sprouts, qty: 80, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Slice the pork tenderloin thinly. In a pot, cook the chopped kimchi with its juice, the pork, sliced onion and garlic in half the sesame oil for 4 minutes."
+  - "Stir in the gochugaru and gochujang, add 350 ml water and simmer 15 minutes until the kimchi is soft and the broth is red."
+  - "Add the tofu in slabs and simmer 5 more minutes; finish with spring onion."
+  - "Blanch the bean sprouts 2 minutes, squeeze and dress with the rest of the sesame oil and a pinch of salt."
+  - "Serve the jjigae with the namul and the small bowl of rice; it reheats well from a lunchbox thermos."
+swaps:
+  - { for: pork tenderloin (lean), use: "tofu (firm)", note: "150 g in total for a vegetarian stew" }
+source: "Adapted from the traditional kimchi jjigae"

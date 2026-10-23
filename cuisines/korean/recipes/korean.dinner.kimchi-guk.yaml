@@ -1,0 +1,43 @@
+id: korean.dinner.kimchi-guk
+name: Kimchi Guk with Tofu, Boiled Egg & Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: legume
+family: kimchi-guk
+tags: [quick]
+spice: medium
+kidNote: "Rinse the child's share of kimchi and simmer it separately in the doenjang broth without gochugaru; the egg and tofu are mild."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 500, carbs: 49, fibre: 9, protein: 30, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl kimchi guk (kimchi, tofu, zucchini and bean sprouts in a light doenjang broth)"
+  - "1 boiled egg"
+  - "Small bowl brown rice"
+ingredients:
+  - { item: kimchi, qty: 100, unit: g }
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: doenjang, qty: 0.5, unit: tbsp }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: brown rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10. Boil the egg 9 minutes, cool and halve."
+  - "Warm the sesame oil in a pot and stir the chopped kimchi with its juice, the crushed garlic and gochugaru for 3 minutes."
+  - "Add 400 ml water and the doenjang; simmer 10 minutes until the kimchi softens and the broth is light red."
+  - "Add the zucchini in chunks and simmer 4 minutes, then the tofu cubes and bean sprouts for 3 more; finish with spring onion."
+  - "Serve the soup with the egg halves and the small bowl of rice."
+swaps:
+  - { for: tofu (firm), use: "prawns (chemmeen)", note: "100 g, last 3 minutes" }
+source: "Adapted from the traditional kimchi guk"

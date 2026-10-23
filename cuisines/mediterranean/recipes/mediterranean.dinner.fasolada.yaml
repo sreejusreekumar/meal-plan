@@ -1,0 +1,47 @@
+id: mediterranean.dinner.fasolada
+name: Fasolada (white bean stew) with wholemeal bread & feta
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: legume
+family: fasolada
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 50
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Fasolada, often called the national dish of Greece: white beans simmered with carrot, celery, onion and tomato in olive oil."
+nutrition: { kcal: 475, carbs: 53, fibre: 16, protein: 24, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 large bowl fasolada (cannellini beans, carrot, celery, onion, tomato)"
+  - "1 slice wholemeal bread"
+  - "25 g feta, crumbled; salad leaves with lemon"
+ingredients:
+  - { item: cannellini beans, qty: 60, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: celery, qty: 1, unit: pc }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: bay leaf, qty: 1, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: feta, qty: 25, unit: g }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the cannellini beans overnight; drain, cover with fresh water and boil 10 minutes, then drain again."
+  - "Return the beans to the pot with the diced onion, carrot, celery, garlic, bay leaf, canned tomatoes and tomato paste and water to cover by 3 cm."
+  - "Simmer gently 40-45 minutes until the beans are creamy and the broth has thickened; season with salt and pepper and stir in the olive oil and parsley."
+  - "Dress the salad leaves with lemon juice."
+  - "Serve the stew with the feta crumbled over, the bread and the salad."
+swaps:
+  - { for: cannellini beans, use: white chickpeas (chana), note: "simmer 10 minutes longer" }
+source: "Adapted from the traditional Greek fasolada"

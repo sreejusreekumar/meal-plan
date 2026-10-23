@@ -1,0 +1,48 @@
+id: korean.lunch.kongbap-doenjang-jjigae
+name: Kongbap (Barley & Edamame Rice) with Doenjang Jjigae
+slot: [lunch]
+role: main
+cuisine: korean
+protein: legume
+family: kongbap
+tags: [packable]
+spice: medium
+kidNote: "Leave the gochugaru out of the child's ladle of stew; doenjang itself is mild and savoury."
+packable: true
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 545, carbs: 63, fibre: 13, protein: 30, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl doenjang jjigae (soybean-paste stew with tofu, zucchini, mushrooms and onion)"
+  - "1 small bowl kongbap: brown rice cooked with pearl barley and edamame"
+  - "Cucumber in rice vinegar and sesame oil"
+  - "Kimchi"
+ingredients:
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: pearl barley, qty: 15, unit: g }
+  - { item: edamame (frozen), qty: 40, unit: g }
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: doenjang, qty: 1, unit: tbsp }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 60, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+steps:
+  - "Soak the pearl barley 30 minutes if you can; rinse with the brown rice, add the edamame and 1.6 times the volume of water, cover and simmer 35-40 minutes, then rest."
+  - "Dissolve the doenjang in 350 ml water in a pot with the crushed garlic; add the diced onion and simmer 5 minutes."
+  - "Add the diced zucchini and sliced mushrooms, simmer 5 minutes, then the tofu in cubes and the gochugaru for 3 more; finish with spring onion."
+  - "Slice the cucumber thinly and toss with rice vinegar, a few drops of the sesame oil and a pinch of salt."
+  - "Serve the kongbap with the stew, cucumber and kimchi; drizzle the remaining sesame oil over the rice."
+swaps:
+  - { for: pearl barley, use: "brown rice", note: "use 60 g rice in total" }
+source: "Adapted from the traditional kongbap and doenjang jjigae"

@@ -1,0 +1,45 @@
+id: thai.dinner.tom-kha-gai
+name: Tom Kha Gai (lighter coconut-galangal chicken soup) & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: chicken
+family: tom-kha
+spice: medium
+kidNote: "Bruise the chilli and add it whole; lift it out before serving the child's bowl."
+packable: false
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 462, carbs: 50, fibre: 8, protein: 40, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 large bowl tom kha gai with mushrooms, pumpkin, cherry tomatoes and bok choy (thin coconut milk)"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: chicken breast, qty: 140, unit: g }
+  - { item: coconut milk (canned), qty: 25, unit: ml }
+  - { item: galangal, qty: 10, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: kaffir lime leaves, qty: 3, unit: pc }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: mushrooms, qty: 100, unit: g }
+  - { item: pumpkin, qty: 60, unit: g }
+  - { item: cherry tomatoes, qty: 60, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Simmer 450 ml water with the sliced galangal, bruised lemongrass, torn lime leaves and shallots for 5 minutes."
+  - "Add the pumpkin cubes and sliced chicken; simmer 6 minutes. Add the mushrooms and tomatoes for 3 minutes more."
+  - "Stir in the coconut milk, bok choy and the bruised chilli; heat through 1 minute without boiling hard."
+  - "Off the heat, season with fish sauce and lime juice; top with coriander. Serve with 3/4 cup rice."
+swaps:
+  - { for: chicken breast, use: "tofu (firm)", note: "150 g (tom kha tao hoo)" }
+source: "Adapted from the traditional tom kha gai, with 25 ml coconut milk in a stock base and no sugar."

@@ -1,0 +1,33 @@
+id: mediterranean.snack.pistachios-and-cucumber
+name: Pistachios with cucumber and cherry tomatoes, black tea
+slot: [snack]
+role: main
+cuisine: mediterranean
+protein: none
+family: pistachios
+tags: [quick, no-cook]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 3
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 167, carbs: 8, fibre: 4, protein: 6, satFat: 1, sugar: 0 }
+components:
+  - "25 g pistachios in the shell (about 35)"
+  - "Cucumber and cherry tomatoes with lemon and pepper"
+  - "Black tea (unsweetened)"
+ingredients:
+  - { item: pistachios, qty: 25, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Weigh out the pistachios (shelling them yourself slows the snack down)."
+  - "Cut the cucumber into batons and halve the tomatoes; squeeze the lemon over and grind on pepper."
+  - "Brew the tea leaves 3 minutes in a cup of boiling water, strain; no sugar."
+source: "Adapted from the Greek fistikia Aeginis nibble"

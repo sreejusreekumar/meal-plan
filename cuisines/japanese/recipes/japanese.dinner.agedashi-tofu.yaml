@@ -1,0 +1,44 @@
+id: japanese.dinner.agedashi-tofu
+name: Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: legume
+family: agedashi
+tags: [quick, vegetarian]
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Agedashi dofu, fried tofu in a hot dashi-soy sauce with grated daikon and ginger, a Japanese izakaya and home classic; here pan-fried in a teaspoon of oil."
+nutrition: { kcal: 495, carbs: 45, fibre: 10, protein: 32, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g pan-crisped tofu in dashi-soy sauce with shiitake, grated daikon and ginger"
+  - "Spinach ohitashi"
+  - "Small bowl brown rice (45 g uncooked)"
+ingredients:
+  - { item: tofu (firm), qty: 150, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: brown rice, qty: 45, unit: g }
+steps:
+  - "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Press the tofu between paper towels under a plate for 10 minutes and cut into 4 thick blocks."
+  - "Make 150 ml dashi with the kombu and bonito flakes; add the soy and the sliced shiitake and simmer 3 minutes."
+  - "Heat the rice bran oil in a non-stick pan and fry the tofu blocks over medium-high heat 3 minutes a side until golden and crisp-edged."
+  - "Blanch the spinach 30 seconds, squeeze and cut; dress with a spoonful of the dashi sauce."
+  - "Set the tofu in bowls, pour the hot shiitake sauce around, top with grated daikon, grated ginger and spring onion. Serve with the spinach and the small bowl of rice."
+swaps:
+  - { for: shiitake mushrooms, use: mushrooms, note: same timing }
+source: "Adapted from the traditional agedashi dofu, pan-fried rather than deep-fried and without mirin"

@@ -1,0 +1,25 @@
+id: vietnamese
+name: Vietnamese
+version: 1
+description: "Vietnamese home cooking for a pre-diabetic household: herbs and raw vegetables with every plate, grilled fish and chicken, brown rice or measured brown rice noodles, fish sauce dressings without sugar."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · herbs first
+  snack: 4 pm tea
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: "Herbs and raw vegetables first, then fish, chicken or tofu, then measured brown rice or brown rice noodles."
+  - title: Walk after meals
+    text: "10–15 minutes of brisk walking right after lunch and dinner."
+  - title: Sugar is measured
+    text: "Nuoc cham made with lime and fish sauce only; caramel sauces kept to 1 teaspoon sugar."
+  - title: Skip completely
+    text: "White rice, fried spring rolls, banh mi on white rolls and sweetened Vietnamese coffee."

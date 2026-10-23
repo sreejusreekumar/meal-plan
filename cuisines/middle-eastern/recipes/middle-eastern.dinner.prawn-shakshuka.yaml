@@ -1,0 +1,51 @@
+id: middle-eastern.dinner.prawn-shakshuka
+name: Shakshuka-style prawns in spicy tomato with half pita
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: fish
+family: prawn-shakshuka
+tags: [quick]
+spice: medium
+kidNote: "Lift out the child's prawns and sauce before the harissa and chilli flakes go in."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 485, carbs: 50, fibre: 12, protein: 37, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g prawns simmered in harissa-cumin tomato and capsicum sauce with chickpeas"
+  - "Half a wholemeal pita for dipping"
+  - "Cucumber and mint yoghurt (50 g)"
+ingredients:
+  - { item: prawns (chemmeen), qty: 150, unit: g }
+  - { item: canned tomatoes, qty: 200, unit: g }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: white chickpeas (chana), qty: 25, unit: g }
+  - { item: harissa, qty: 1, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+steps:
+  - "Soak the chickpeas overnight and simmer 45 minutes until soft (or use a batch cooked for the week)."
+  - "Soften the sliced onion, capsicum and garlic in the olive oil 8 minutes; stir in the paprika, crushed cumin, harissa and chilli flakes."
+  - "Add the canned tomatoes, chickpeas and salt; simmer 8 minutes to a thick sauce."
+  - "Nestle the prawns into the sauce, cover and cook 3-4 minutes until just pink. Scatter with parsley and coriander and a squeeze of lemon."
+  - "Grate the cucumber into the yoghurt with torn mint and a pinch of salt. Serve the pan with the warm half pita and the yoghurt."
+swaps:
+  - { for: prawns (chemmeen), use: eggs, note: "crack 2 eggs into the sauce instead and cover 6 minutes" }
+source: "Adapted from the Tunisian and Israeli shakshuka"

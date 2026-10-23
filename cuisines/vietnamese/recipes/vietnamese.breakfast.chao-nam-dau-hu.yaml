@@ -1,0 +1,45 @@
+id: vietnamese.breakfast.chao-nam-dau-hu
+name: Chao nam dau hu (shiitake and tofu brown rice congee)
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: legume
+family: mushroom-congee
+tags: [vegetarian, one-pot]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 365, carbs: 42, fibre: 6, protein: 19, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl brown rice congee with shiitake, tofu and ginger (chao chay)"
+  - "Bean sprouts, spring onion and coriander on top"
+  - "Sesame oil, soy and black pepper"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: tofu (firm), qty: 100, unit: g }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: bean sprouts, qty: 40, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown rice and simmer it with 650 ml water, the sliced shallot and half the ginger for 30 minutes, stirring now and then."
+  - "Slice the shiitake and add them with the tofu cut into 1.5 cm cubes; simmer 10 minutes more until the congee is loose and creamy."
+  - "Season with soy sauce, salt and pepper."
+  - "Serve topped with bean sprouts, spring onion, coriander, the rest of the ginger in fine threads and the sesame oil."
+  - "Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: shiitake mushrooms, use: "mushrooms", note: same timing }
+source: "Adapted from the Vietnamese vegetarian congee (chao chay), made with brown rice"

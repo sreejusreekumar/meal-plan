@@ -1,0 +1,53 @@
+id: vietnamese.lunch.goi-cuon
+name: Goi Cuon Prawn Rolls & Canh Vegetable Soup
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: fish
+family: goi-cuon
+tags: [no-cook-main]
+spice: medium
+kidNote: "Keep the chilli out of one portion of dipping sauce; the rolls themselves are mild."
+packable: true
+prepMinutes: 25
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Goi cuon, the fresh rice-paper summer rolls of southern Vietnam filled with prawns, herbs and vermicelli."
+nutrition: { kcal: 525, carbs: 61, fibre: 11, protein: 35, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 3 fresh rice-paper rolls with prawns, brown rice vermicelli, lettuce and herbs"
+  - "Lime-fish sauce dip with crushed peanuts"
+  - "1 bowl canh (cabbage, tomato and ginger soup)"
+ingredients:
+  - { item: prawns (chemmeen), qty: 120, unit: g }
+  - { item: rice paper, qty: 3, unit: pc }
+  - { item: brown rice noodles, qty: 35, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: bean sprouts, qty: 50, unit: g }
+  - { item: peanuts, qty: 20, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Poach the prawns 2 minutes in salted water, drain, peel and halve lengthways. Cook the brown rice noodles, rinse cold and drain."
+  - "Make the canh: simmer shredded cabbage, tomato wedges and sliced ginger in 300 ml water with 1 tsp fish sauce and salt for 10 minutes; finish with spring onion."
+  - "Dip each rice paper briefly in warm water, lay on a damp board; add lettuce, a little noodle, cucumber and carrot sticks, bean sprouts, mint and coriander, then 3 prawn halves."
+  - "Fold the sides in and roll tightly; repeat for 3 rolls."
+  - "Dip: 1 tsp fish sauce, lime juice, 3 tbsp water, minced garlic, chilli and the crushed peanuts."
+  - "Serve the rolls with the dip and the soup; for a lunchbox wrap the rolls in damp paper and carry the soup in a flask."
+swaps:
+  - { for: prawns (chemmeen), use: "chicken breast", note: "poach 8 minutes and shred" }
+source: "Adapted from the traditional goi cuon"

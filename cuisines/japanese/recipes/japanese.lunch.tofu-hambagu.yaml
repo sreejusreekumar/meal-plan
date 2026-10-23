@@ -1,0 +1,44 @@
+id: japanese.lunch.tofu-hambagu
+name: Tofu Hambagu (Tofu-Chicken Patty) with Brown Rice & Vegetables
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: chicken
+family: hambagu
+spice: mild
+packable: true
+prepMinutes: 20
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 545, carbs: 61, fibre: 10, protein: 31, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 2 tofu-chicken hambagu patties with grated daikon and lemon-soy"
+  - "Steamed cabbage and carrot with soy"
+  - "1 small bowl brown rice (60 g uncooked)"
+ingredients:
+  - { item: tofu (firm), qty: 80, unit: g }
+  - { item: chicken mince, qty: 60, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Press the tofu well in paper towel and crumble it. Finely dice the onion and soften it 3 minutes in a dry pan or microwave."
+  - "Knead the tofu, chicken mince, onion, grated ginger, salt and pepper until sticky; shape into two oval patties."
+  - "Heat the oil in a non-stick pan, cook the patties 4 minutes a side, add 2 tablespoons water, cover and steam 3 minutes to cook through."
+  - "Steam the cabbage and carrot 4 minutes and season with half the soy."
+  - "Top the patties with grated daikon and the remaining soy mixed with lemon juice. Box with the rice and vegetables."
+swaps:
+  - { for: chicken mince, use: "tofu (firm)", note: "all-tofu patties, 150 g, add 1 egg to bind" }
+source: "Adapted from the traditional tofu hambagu, a lighter Japanese take on the hamburger steak"

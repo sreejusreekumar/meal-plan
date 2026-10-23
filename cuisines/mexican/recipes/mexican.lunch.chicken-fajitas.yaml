@@ -1,0 +1,51 @@
+id: mexican.lunch.chicken-fajitas
+name: Chicken fajitas with capsicum, onion & a wholemeal tortilla
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: chicken
+family: fajitas
+tags: [quick]
+spice: medium
+kidNote: "Use only a pinch of chilli powder in the child's share of the spice rub and skip the jalapeno in the salsa."
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Fajitas, the Tex-Mex and northern Mexican dish of strips of marinated meat seared with capsicum and onion and rolled into a tortilla."
+nutrition: { kcal: 520, carbs: 53, fibre: 14, protein: 42, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 120 g chicken fajita strips with seared capsicum and onion"
+  - "1 wholemeal tortilla"
+  - "Small bowl of black beans"
+  - "Shredded cos lettuce and tomato salsa with yoghurt"
+ingredients:
+  - { item: chicken breast, qty: 120, unit: g }
+  - { item: wholemeal tortilla, qty: 1, unit: pc }
+  - { item: capsicum, qty: 0.75, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 40, unit: g }
+  - { item: black beans (dried), qty: 30, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: smoked paprika, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the soaked black beans with salt and a little cumin until soft; keep them whole, not refried."
+  - "Slice the chicken into finger strips and toss with smoked paprika, ground cumin, oregano, chilli powder, crushed garlic, lime juice and salt."
+  - "Heat 1 tsp oil in a wide pan until smoking; sear the chicken 4-5 minutes, then push aside and sear the sliced capsicum and onion until charred at the edges but still crisp."
+  - "Dice the tomato with coriander and a squeeze of lime for a quick salsa; shred the lettuce."
+  - "Warm the tortilla on a dry pan. Eat the beans and salad first, then roll the chicken and vegetables into the tortilla with the salsa and yoghurt."
+swaps:
+  - { for: chicken breast, use: "prawns (chemmeen)", note: "sear 2 minutes only" }
+source: "Adapted from the traditional fajitas"

@@ -1,0 +1,41 @@
+id: thai.breakfast.pad-pak-khai
+name: Pad pak khai (egg and vegetable stir-fry) on brown rice
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: egg
+family: stir-fry-egg
+tags: [quick]
+spice: medium
+kidNote: "Add the chilli after taking the child's portion out of the wok."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 375, carbs: 38, fibre: 6, protein: 20, satFat: 4, sugar: 0 }
+components:
+  - "Primary: Scrambled eggs stir-fried with gai lan, carrot, mushrooms, garlic and oyster sauce"
+  - "2/3 cup brown jasmine rice"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: chinese broccoli (gai lan), qty: 0.5, unit: bunch }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: oyster sauce, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 40, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Cook the brown jasmine rice (1.5 times its volume of water, 25 minutes, lid on)."
+  - "Cut the gai lan into 4 cm lengths, the carrot into thin matchsticks, slice the mushrooms."
+  - "Heat 1 tsp rice bran oil in a wok; fry the garlic 20 seconds, add carrot and mushrooms, 2 minutes, then the gai lan with a splash of water, 2 minutes."
+  - "Push the vegetables aside, pour in the beaten eggs, let them set 30 seconds and fold through; add oyster sauce, soy and chilli and toss."
+  - "Serve over the rice with lemongrass tea steeped 5 minutes."
+source: "Adapted from the everyday Thai pad pak (stir-fried greens) with egg."

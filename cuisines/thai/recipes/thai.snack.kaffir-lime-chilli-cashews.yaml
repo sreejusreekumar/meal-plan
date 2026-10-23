@@ -1,0 +1,36 @@
+id: thai.snack.kaffir-lime-chilli-cashews
+name: Roasted cashews with kaffir lime leaf and chilli, carrot sticks, lemongrass tea
+slot: [snack]
+role: main
+cuisine: thai
+protein: none
+family: cashews
+tags: [quick]
+spice: mild
+kidNote: "Set aside a few plain roasted cashews for the child before adding the chilli."
+packable: false
+prepMinutes: 5
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 140, carbs: 8, fibre: 2, protein: 4, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 20 g cashews roasted with shredded kaffir lime leaf, sliced red chilli and salt"
+  - "Carrot sticks"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: cashews, qty: 20, unit: g }
+  - { item: kaffir lime leaves, qty: 2, unit: pc }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Toast the cashews in a dry pan over medium heat 5-6 minutes, shaking, until golden."
+  - "Add the oil, finely shredded kaffir lime leaves, sliced chilli and salt; toss 1 minute until the leaves are crisp."
+  - "Cut the carrot into sticks to eat alongside."
+  - "Bruise the lemongrass and steep in boiling water 5 minutes."
+source: "Adapted from the Thai bar snack met mamuang himmaphan khua (roasted cashews with kaffir lime and chilli)."

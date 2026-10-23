@@ -1,0 +1,45 @@
+id: middle-eastern.lunch.mujadara
+name: Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: mujadara
+spice: medium
+packable: true
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Mujadara, the Levantine pilaf of lentils and grain topped with deeply browned onions, a weekday staple across Lebanon, Syria and Palestine."
+nutrition: { kcal: 515, carbs: 67, fibre: 15, protein: 28, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl mujadara (brown lentils, bulgur, caramelised onion)"
+  - "Minted yoghurt (150 g)"
+  - "Tomato, cucumber and parsley salad"
+ingredients:
+  - { item: brown lentils, qty: 55, unit: g }
+  - { item: bulgur wheat, qty: 30, unit: g }
+  - { item: onion, qty: 0.75, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: dried mint, qty: 0.5, unit: tsp }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+steps:
+  - "Rinse the lentils and simmer in 2 cups water for 15 minutes until just tender but whole."
+  - "Slice the onion thinly; cook slowly in the olive oil with a pinch of salt, stirring, for 15-20 minutes until deep brown and partly crisp. Set a third aside for the top."
+  - "Stir the cumin, remaining onions, bulgur, salt and pepper into the lentils with half a cup of water; cover and cook 10 minutes, then rest 5 minutes off the heat."
+  - "Stir dried mint into the yoghurt. Chop the tomato, cucumber, lettuce and parsley; dress with lemon juice and salt."
+  - "Pile the mujadara in a bowl, top with the reserved crisp onions, and serve the yoghurt and salad alongside."
+swaps:
+  - { for: bulgur wheat, use: brown rice, note: "cook the rice separately 30 minutes and fold in" }
+source: "Adapted from the traditional Lebanese mujadara"

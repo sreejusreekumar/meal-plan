@@ -1,0 +1,45 @@
+id: japanese.lunch.oyakodon
+name: Oyakodon (Chicken & Egg) on Brown Rice with Spinach Ohitashi
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: chicken
+family: oyakodon
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Oyakodon, the Tokyo rice bowl of chicken and egg simmered in dashi and soy, named for the parent-and-child pairing."
+nutrition: { kcal: 533, carbs: 60, fibre: 10, protein: 35, satFat: 4, sugar: 2 }
+components:
+  - "Primary: chicken (80 g) and egg simmered in dashi-soy with onion, over 1 small bowl brown rice (60 g uncooked)"
+  - "Spinach and carrot ohitashi (dashi-soaked greens)"
+  - "Edamame, 30 g"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 80, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: edamame (frozen), qty: 30, unit: g }
+steps:
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Make 200 ml dashi with the kombu and bonito flakes (steep, simmer, strain). Keep 50 ml for the ohitashi."
+  - "Blanch the spinach 30 seconds and the carrot matchsticks 2 minutes with the edamame; squeeze the spinach, cut it into 4 cm lengths and soak the greens and carrot in the reserved dashi with a few drops of soy."
+  - "Trim the chicken thigh of visible fat and cut into 2 cm pieces. Simmer the sliced onion in 150 ml dashi with the soy and mirin for 4 minutes, add the chicken and simmer 6-7 minutes until cooked."
+  - "Beat the egg loosely, pour over the chicken, cover and cook 1 minute until just set but still soft."
+  - "Spoon the chicken and egg over the rice, scatter spring onion; pack the ohitashi and edamame alongside."
+swaps:
+  - { for: chicken thigh (boneless), use: chicken breast, note: "simmer 5 minutes only" }
+source: "Adapted from the traditional oyakodon, without the usual sugar"

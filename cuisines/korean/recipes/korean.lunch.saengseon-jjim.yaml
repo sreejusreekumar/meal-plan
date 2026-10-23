@@ -1,0 +1,49 @@
+id: korean.lunch.saengseon-jjim
+name: Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice
+slot: [lunch]
+role: main
+cuisine: korean
+protein: fish
+family: steamed-fish
+tags: [packable]
+spice: medium
+kidNote: "Hold back the gochugaru from the steaming sauce and serve the child's kimchi as a tiny taste only."
+packable: true
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Saengseon jjim, Korean steamed fish finished with soy, ginger, spring onion and a little chilli."
+nutrition: { kcal: 520, carbs: 60, fibre: 11, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g steamed white fish with soy, ginger, shiitake and spring onion"
+  - "Bean sprout and zucchini namul with carrot"
+  - "1 small bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: bean sprouts, qty: 80, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Lay the fish on a heatproof plate with the sliced shiitake, julienned ginger and half the spring onion; spoon over the soy sauce mixed with rice vinegar, garlic and gochugaru."
+  - "Steam the plate over boiling water, covered, for 10-12 minutes until the fish flakes."
+  - "Meanwhile blanch the bean sprouts 2 minutes; cut the zucchini and carrot into matchsticks and soften them in a dry pan 3 minutes; dress all with the sesame oil, sesame seeds and a pinch of salt."
+  - "Finish the fish with the rest of the spring onion and serve with the namul, kimchi and the small bowl of rice. Packs well cold."
+swaps:
+  - { for: firm white fish fillet, use: "salmon fillet", note: "100 g, steam 8 minutes" }
+source: "Adapted from the traditional saengseon jjim"

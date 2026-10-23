@@ -1,0 +1,31 @@
+id: middle-eastern.snack.pumpkin-seeds-pomegranate
+name: Toasted pumpkin seeds with pomegranate & green tea
+slot: [snack]
+role: main
+cuisine: middle-eastern
+protein: none
+family: seeds
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 5
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 145, carbs: 8, fibre: 3, protein: 6, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 20 g toasted pumpkin seeds"
+  - "Seeds of a quarter pomegranate"
+  - "Green tea with mint, unsweetened"
+ingredients:
+  - { item: pumpkin seeds, qty: 20, unit: g }
+  - { item: pomegranate, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+steps:
+  - "Toast the pumpkin seeds in a dry pan 3-4 minutes until they pop and smell nutty."
+  - "Knock the seeds out of the pomegranate quarter over a bowl and pick out the pith."
+  - "Steep the green tea with the mint for 3 minutes; mix seeds and pomegranate and eat with a spoon."
+source: "Inspired by Persian ajil (mixed seeds and fruit) at tea time"

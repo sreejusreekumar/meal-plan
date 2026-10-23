@@ -1,0 +1,49 @@
+id: korean.lunch.bulgogi
+name: Bulgogi Lettuce Wraps with Brown Rice & Kimchi
+slot: [lunch]
+role: main
+cuisine: korean
+protein: beef
+lean: true
+family: bulgogi
+tags: [packable]
+spice: medium
+kidNote: "The bulgogi itself is not hot; serve the child's plate with a little plain cucumber instead of kimchi."
+packable: true
+prepMinutes: 20
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Bulgogi, Korea's thin-sliced marinated beef grilled hot and fast, usually eaten wrapped in lettuce leaves."
+nutrition: { kcal: 520, carbs: 61, fibre: 10, protein: 34, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 120 g bulgogi (lean beef strips in nashi pear, soy, garlic and sesame marinade) with onion and mushrooms"
+  - "Cos lettuce leaves and carrot sticks for wrapping"
+  - "1 small bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: lean beef strips, qty: 120, unit: g }
+  - { item: nashi pear, qty: 0.25, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 60, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: kimchi, qty: 50, unit: g }
+steps:
+  - "Grate the nashi pear, garlic and ginger; mix with the soy sauce, sesame oil and black pepper and marinate the beef strips at least 30 minutes (the pear tenderises and sweetens without sugar)."
+  - "Cook the brown rice: rinse, add 1.5 times its volume of water, cover and simmer 35 minutes, then rest."
+  - "Slice the onion and mushrooms; cut the carrot into sticks and wash and separate the lettuce leaves."
+  - "Heat a heavy pan or grill plate very hot; sear the beef with the onion and mushrooms in a single layer for 3-4 minutes, tossing once, so it chars rather than stews."
+  - "Finish with the sliced spring onion and serve with the lettuce leaves, carrot, kimchi and 1 small bowl of rice; wrap a little beef and rice in each leaf."
+swaps:
+  - { for: lean beef strips, use: "chicken thigh (boneless)", note: "same marinade, cook 6-8 minutes" }
+source: "Adapted from the traditional bulgogi"

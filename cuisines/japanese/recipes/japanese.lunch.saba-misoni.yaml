@@ -1,0 +1,40 @@
+id: japanese.lunch.saba-misoni
+name: Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: fish
+family: saba-miso
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Saba no misoni, mackerel simmered in miso and ginger, a classic of Japanese home cooking and set lunches."
+nutrition: { kcal: 541, carbs: 57, fibre: 9, protein: 32, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 mackerel simmered in miso and ginger with daikon and shiitake"
+  - "Spinach ohitashi with soy"
+  - "1 small bowl brown rice (60 g uncooked)"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+steps:
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Clean the mackerel, cut into two steaks and score the skin. Pour boiling water over the pieces for 10 seconds to tame the oiliness, then drain."
+  - "Cut the daikon into 1 cm half-moons; slice the shiitake. Lay them in a wide pan with 200 ml water and julienned ginger and simmer 5 minutes."
+  - "Add the mackerel skin up, cover with a lid resting on the fish and simmer 8 minutes."
+  - "Loosen the miso in a ladle of the cooking liquid, stir it in and simmer uncovered 5 minutes more until the sauce is glossy and coats the fish."
+  - "Blanch the spinach 30 seconds, squeeze, cut and dress with the soy. Serve with the rice; in a lunchbox the misoni is good at room temperature."
+swaps:
+  - { for: mackerel (ayala), use: salmon fillet, note: "120 g, simmer 6 minutes" }
+source: "Adapted from the traditional saba no misoni, without sugar or mirin"

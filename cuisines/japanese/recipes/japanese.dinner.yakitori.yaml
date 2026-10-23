@@ -1,0 +1,46 @@
+id: japanese.dinner.yakitori
+name: Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: chicken
+family: yakitori
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Yakitori, Japanese skewers of chicken and spring onion grilled over charcoal with a soy-mirin tare glaze."
+nutrition: { kcal: 488, carbs: 49, fibre: 10, protein: 37, satFat: 3, sugar: 2 }
+components:
+  - "Primary: 120 g chicken and spring onion skewers (negima) with soy-mirin glaze, plus shiitake skewers"
+  - "Shredded cabbage with lemon and sesame"
+  - "Edamame, 50 g"
+  - "Small bowl brown rice (45 g uncooked)"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 120, unit: g }
+  - { item: spring onion, qty: 0.5, unit: bunch }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: edamame (frozen), qty: 50, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Trim the chicken thigh of visible fat and cut into 3 cm pieces; cut the spring onion whites into 3 cm lengths. Thread chicken and spring onion alternately on skewers, and the shiitake on a separate skewer."
+  - "Simmer the soy, mirin, grated ginger and 2 tablespoons water for 2 minutes to make a light tare."
+  - "Grill the skewers under a hot grill or on a griddle pan 4 minutes a side with a pinch of salt; brush with the tare in the last 2 minutes and once more off the heat."
+  - "Boil the edamame 4 minutes. Shred the cabbage and toss with lemon juice and toasted sesame seeds."
+  - "Serve the cabbage and edamame first, then the skewers, with the small bowl of rice."
+swaps:
+  - { for: chicken thigh (boneless), use: chicken breast, note: "grill 3 minutes a side" }
+source: "Adapted from the traditional yakitori negima, with mirin measured and no sugar in the tare"

@@ -1,0 +1,48 @@
+id: vietnamese.lunch.bo-luc-lac
+name: Bo Luc Lac Shaking Beef with Salad & Brown Rice
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: beef
+lean: true
+family: bo-luc-lac
+tags: [quick]
+spice: medium
+kidNote: "No chilli in this dish; go light on the black pepper for the child's portion."
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 57, fibre: 9, protein: 39, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 150 g seared lean beef strips with garlic, pepper and onion"
+  - "1 level cup brown rice"
+  - "Cos lettuce, tomato and cucumber salad with rice vinegar dressing"
+  - "Lime, salt and pepper dip"
+ingredients:
+  - { item: lean beef strips, qty: 150, unit: g }
+  - { item: garlic, qty: 8, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.5, unit: tsp }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: cos lettuce, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 2, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice with 1.5 cups water, covered, 35 minutes."
+  - "Toss the beef strips with minced garlic, soy sauce, fish sauce and half the black pepper; marinate 10 minutes."
+  - "Tear the lettuce, slice the tomato and cucumber and lay on the plate; whisk rice vinegar with a pinch of salt and spoon over."
+  - "Heat a wok until smoking with the rice bran oil; add the beef in one layer, leave 1 minute, then shake and toss 2 minutes with the onion wedges until browned but still pink inside."
+  - "Tip the beef and onion over the salad; serve with the rice and a dip of lime juice, salt and the remaining pepper."
+swaps:
+  - { for: lean beef strips, use: "chicken breast", note: "slice thin, cook 4 minutes" }
+source: "Adapted from the traditional bo luc lac"

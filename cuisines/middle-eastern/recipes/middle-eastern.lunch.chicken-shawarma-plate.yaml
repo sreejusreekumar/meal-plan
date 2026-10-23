@@ -1,0 +1,52 @@
+id: middle-eastern.lunch.chicken-shawarma-plate
+name: Chicken shawarma plate with salad, tahini sauce & pita
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: chicken
+family: shawarma
+spice: medium
+kidNote: "Leave the chilli flakes out of one strip of the marinade bowl; the paprika and baharat alone are mild."
+packable: true
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chicken shawarma, the Levantine street classic of spice-marinated chicken shaved from a spit, here oven-roasted thigh served as a plate."
+nutrition: { kcal: 535, carbs: 46, fibre: 10, protein: 39, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 150 g oven-roasted shawarma-spiced chicken thigh"
+  - "Chopped salad with sumac onion"
+  - "Tahini-yoghurt sauce (1 tbsp tahini)"
+  - "1 wholemeal pita"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: baharat, qty: 0.5, unit: tsp }
+  - { item: paprika, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: allspice, qty: 0.25, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: tahini, qty: 1, unit: tbsp }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: sumac, qty: 0.5, unit: tsp }
+steps:
+  - "Trim the thigh of visible fat and slice into thick strips. Mix half the yoghurt with half the lemon juice, half the garlic, baharat, paprika, crushed cumin, allspice, chilli flakes, pepper and half the salt; coat the chicken and marinate 20 minutes or overnight."
+  - "Spread the strips on a lined tray and roast at 220C for 20-25 minutes until the edges char; rest 5 minutes and slice thinner."
+  - "Whisk the tahini with the remaining yoghurt, lemon juice and garlic and enough water to make a pourable sauce; season."
+  - "Toss the sliced red onion with sumac and a pinch of salt; chop the tomato, cucumber, lettuce and parsley and combine."
+  - "Warm the pita. Plate salad first, then the chicken with the tahini sauce spooned over, and the pita for scooping."
+swaps:
+  - { for: chicken thigh (boneless), use: chicken breast, note: "roast 15 minutes only; leaner, drier" }
+source: "Adapted from the traditional Levantine chicken shawarma"

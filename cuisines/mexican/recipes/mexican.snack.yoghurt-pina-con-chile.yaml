@@ -1,0 +1,35 @@
+id: mexican.snack.yoghurt-pina-con-chile
+name: Yoghurt with pineapple, chilli-lime and pepitas
+slot: [snack]
+role: main
+cuisine: mexican
+protein: dairy
+family: yoghurt
+tags: [quick]
+spice: mild
+kidNote: "Leave the chilli powder off the child's pineapple; lime only."
+packable: false
+prepMinutes: 8
+cookMinutes: 2
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 140, carbs: 15, fibre: 2, protein: 8, satFat: 1.2, sugar: 0 }
+components:
+  - "Primary: 1/2 cup yoghurt"
+  - "Pineapple pieces with lime and chilli powder, as from a fruit cart"
+  - "Toasted pepitas on top"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: pineapple, qty: 70, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: pumpkin seeds, qty: 8, unit: g }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Toast the pumpkin seeds in a dry pan for 2 minutes."
+  - "Cut the pineapple into small pieces, squeeze the lime over and dust with chilli powder."
+  - "Spoon the yoghurt into a bowl, pile the pineapple on and scatter the seeds; steep the green tea 2 minutes, no sugar."
+source: "Mexican fruit-cart piña con chile y limón over yoghurt"

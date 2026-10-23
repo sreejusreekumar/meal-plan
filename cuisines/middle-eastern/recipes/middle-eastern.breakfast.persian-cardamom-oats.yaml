@@ -1,0 +1,38 @@
+id: middle-eastern.breakfast.persian-cardamom-oats
+name: Persian-style cardamom oats with pistachios & a date
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: dairy
+family: oats
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 5
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 375, carbs: 44, fibre: 6, protein: 16, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl oats cooked in low-fat milk with cardamom and cinnamon"
+  - "20 g pistachios and 1 chopped date on top (the date is the only sweetness, natural sugar)"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: rolled oats, qty: 35, unit: g }
+  - { item: low-fat milk, qty: 200, unit: ml }
+  - { item: cardamom pods, qty: 2, unit: pc }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: pistachios, qty: 20, unit: g }
+  - { item: dates, qty: 1, unit: pc }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Crush the cardamom pods and warm them with the cinnamon in the milk."
+  - "Stir in the oats and a pinch of salt and simmer 6-8 minutes, stirring, until thick and creamy."
+  - "Fish out the cinnamon and cardamom husks, top with the chopped date and roughly chopped pistachios."
+  - "Brew the tea unsweetened; no sugar or honey on the oats, the date is the sweetness."
+swaps:
+  - { for: pistachios, use: walnuts, note: same weight }
+source: "Inspired by Persian sheer berenj flavours, made with oats"

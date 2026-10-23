@@ -1,0 +1,51 @@
+id: mexican.dinner.sopa-de-frijol-negro
+name: Sopa de frijol negro (black bean soup) with a corn tortilla & egg salad
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: legume
+family: bean-soup
+spice: medium
+kidNote: "Stir the chipotle into the adults' bowls at the table rather than into the pot."
+packable: false
+prepMinutes: 10
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Sopa de frijol negro, the everyday black bean soup of southern Mexico, blended smooth and finished with crema, cheese and tortilla."
+nutrition: { kcal: 470, carbs: 51, fibre: 14, protein: 28, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 bowl blended black bean soup with cumin and chipotle, topped with yoghurt and a cheese sprinkle"
+  - "1 corn tortilla, warmed"
+  - "Cos lettuce, cucumber, radish and cherry tomato salad with a halved boiled egg"
+ingredients:
+  - { item: black beans (dried), qty: 50, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: chipotle in adobo, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 40, unit: g }
+  - { item: low-fat cheese (grated), qty: 15, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: radish, qty: 2, unit: pc }
+  - { item: cherry tomatoes, qty: 50, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Soak the black beans overnight; pressure-cook with half the onion and salt until very soft, keeping the liquid."
+  - "Soften the rest of the onion, the garlic and chopped tomato in the half teaspoon of oil with cumin and oregano; add the beans and their liquid and simmer 10 minutes."
+  - "Blend smooth (leave a few beans whole), season, and thin with water to a soup. Add the chipotle."
+  - "Hard-boil the egg (10 minutes); slice the lettuce, cucumber, radish and cherry tomatoes and dress with lime and salt. Halve the egg over the salad."
+  - "Serve the soup topped with yoghurt, cheese and coriander, with the warm tortilla for dipping. Salad first."
+swaps:
+  - { for: black beans (dried), use: "pinto beans (dried)", note: "same timing" }
+source: "Adapted from the traditional sopa de frijol negro"

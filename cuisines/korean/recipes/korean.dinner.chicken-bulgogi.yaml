@@ -1,0 +1,46 @@
+id: korean.dinner.chicken-bulgogi
+name: Chicken Bulgogi Lettuce Wraps with Ssamjang & Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: chicken
+family: chicken-bulgogi
+spice: medium
+kidNote: "The chicken is not hot; give the child the doenjang on its own instead of the gochugaru ssamjang, and cucumber instead of kimchi."
+packable: false
+prepMinutes: 20
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 470, carbs: 43, fibre: 9, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g dak bulgogi (chicken thigh in nashi pear, soy, garlic and sesame marinade) with mushrooms"
+  - "Cos lettuce leaves and cucumber for wrapping, with a doenjang-gochugaru ssamjang"
+  - "2/3 bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: nashi pear, qty: 0.25, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: cos lettuce, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: doenjang, qty: 0.5, unit: tbsp }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: brown rice, qty: 40, unit: g }
+steps:
+  - "Grate the nashi pear, garlic and ginger; mix with the soy sauce, sesame oil and black pepper and marinate the chicken thigh, cut into thin strips, for at least 30 minutes."
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Mix the doenjang with the gochugaru and a teaspoon of water for a quick ssamjang; wash the lettuce leaves and slice the cucumber into sticks."
+  - "Heat a heavy non-stick pan very hot and sear the chicken with the sliced mushrooms in a single layer, 6-8 minutes, turning once, until charred at the edges and cooked through."
+  - "Serve the chicken with the lettuce, cucumber, ssamjang, kimchi and rice; wrap a little chicken and rice in each leaf with a dab of ssamjang."
+swaps:
+  - { for: chicken thigh (boneless), use: "lean beef strips", note: "120 g, sear 3-4 minutes" }
+source: "Adapted from the traditional dak bulgogi"

@@ -1,0 +1,52 @@
+id: middle-eastern.lunch.baked-falafel
+name: Baked falafel with tahini, salad & half pita
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: falafel
+spice: medium
+kidNote: "Shape two or three falafel from the mix before the chilli flakes go in."
+packable: true
+prepMinutes: 20
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Falafel, the Egyptian and Levantine chickpea and herb fritter, baked here instead of deep-fried."
+nutrition: { kcal: 530, carbs: 58, fibre: 14, protein: 25, satFat: 3.5, sugar: 0 }
+components:
+  - "Primary: 6 baked chickpea falafel"
+  - "Tahini-lemon sauce (1 tbsp tahini)"
+  - "Chopped salad with sumac"
+  - "Half a wholemeal pita"
+ingredients:
+  - { item: white chickpeas (chana), qty: 55, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: tahini, qty: 1, unit: tbsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: sumac, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the dried chickpeas 12-24 hours in plenty of water; drain well. Do not cook them."
+  - "Blitz the soaked chickpeas with the onion, garlic, parsley, coriander leaves, crushed cumin, coriander powder, chilli flakes, salt and pepper to a coarse, sandy paste; mix in the egg to bind."
+  - "Shape into 6 small patties, set on a lined tray and bake at 220C for 20-25 minutes, turning once, until crisp and browned."
+  - "Whisk the tahini with the lemon juice, a pinch of salt and water to a drizzling sauce."
+  - "Chop the tomato, cucumber, lettuce and red onion; toss with sumac. Serve the falafel on the salad with the sauce and half a warm pita."
+swaps:
+  - { for: eggs, use: "1 tbsp wholemeal flour", note: "vegan binder; shape firmly" }
+source: "Adapted from the traditional Levantine falafel"

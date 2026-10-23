@@ -1,0 +1,49 @@
+id: middle-eastern.dinner.kousa-mahshi
+name: Kousa mahshi (stuffed zucchini with brown rice & lean beef) in tomato, with yoghurt
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: beef
+lean: true
+family: kousa
+spice: medium
+packable: false
+prepMinutes: 25
+cookMinutes: 40
+effort: weekend
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kousa mahshi, the Levantine stuffed zucchini filled with spiced rice and meat and simmered in tomato broth, a Sunday-lunch classic in Lebanon and Syria."
+nutrition: { kcal: 490, carbs: 50, fibre: 8, protein: 34, satFat: 3.5, sugar: 0 }
+components:
+  - "Primary: 2 stuffed zucchini (brown rice, lean beef mince, allspice, mint) simmered in tomato"
+  - "Tomato-garlic broth with the zucchini pulp"
+  - "Yoghurt (100 g) with dried mint"
+ingredients:
+  - { item: zucchini, qty: 2, unit: pc }
+  - { item: lean beef mince, qty: 100, unit: g }
+  - { item: brown rice, qty: 30, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: canned tomatoes, qty: 150, unit: g }
+  - { item: tomato paste, qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried mint, qty: 0.5, unit: tsp }
+  - { item: allspice, qty: 0.25, unit: tsp }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: parsley, qty: 0.15, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+steps:
+  - "Parboil the brown rice 15 minutes and drain. Trim the zucchini tops and hollow them out with a corer or teaspoon, keeping the pulp."
+  - "Mix the rice with the beef mince, finely chopped onion, half the dried mint, allspice, pepper, half the salt and half the olive oil; stuff the zucchini loosely, three-quarters full."
+  - "Soften the garlic and the chopped zucchini pulp in the remaining oil; add the canned tomatoes, tomato paste, cinnamon stick, remaining salt and 1 cup water."
+  - "Lay the stuffed zucchini in the sauce, cover and simmer gently 35-40 minutes until the rice is tender and the zucchini soft, turning once."
+  - "Stir the remaining dried mint into the yoghurt. Serve the zucchini with the broth spooned over, parsley and a squeeze of lemon, and the yoghurt alongside."
+swaps:
+  - { for: lean beef mince, use: chicken mince, note: "same method" }
+  - { for: lean beef mince, use: "white chickpeas (chana)", note: "40 g dry, soaked and chopped, for a vegetarian bi zeit version" }
+source: "Adapted from the traditional Lebanese kousa mahshi"

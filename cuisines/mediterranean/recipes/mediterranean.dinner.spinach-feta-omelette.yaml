@@ -1,0 +1,47 @@
+id: mediterranean.dinner.spinach-feta-omelette
+name: Spinach & feta omelette with chickpea salad and wholemeal bread
+slot: [dinner]
+role: main
+cuisine: mediterranean
+protein: egg
+family: omelette
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 475, carbs: 34, fibre: 11, protein: 28, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 2-egg omelette folded over wilted spinach with 10 g feta and dill"
+  - "Tomato, cucumber, red onion and olive salad with chickpeas"
+  - "1 slice wholemeal bread"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: feta, qty: 10, unit: g }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: white chickpeas (chana), qty: 25, unit: g }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: olives, qty: 10, unit: g }
+  - { item: red wine vinegar, qty: 1, unit: tsp }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Toss the cooked chickpeas (from the week's batch) with the diced tomato, cucumber, slivered red onion, olives, vinegar, oregano and a pinch of salt."
+  - "Wilt the washed spinach with the garlic in a dry non-stick pan 2 minutes; squeeze out the water and chop."
+  - "Beat the eggs with salt, pepper and the dill. Heat the olive oil in the pan, pour in the eggs and cook over medium heat until nearly set."
+  - "Spoon the spinach and crumbled feta over one half, fold and slide onto the plate."
+  - "Serve with the salad and the slice of bread."
+swaps:
+  - { for: spinach, use: kale, note: "boil 4 minutes first, then chop" }
+source: "Greek home cooking, spanakopita flavours without the pastry"

@@ -1,0 +1,47 @@
+id: vietnamese.breakfast.mien-ga-style-soup
+name: Mien ga-style chicken and shiitake soup on brown rice noodles
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: mien-ga
+tags: [soup]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Mien ga, the northern Vietnamese chicken soup with glass noodles, shiitake and wood-ear mushrooms, here on brown rice noodles."
+nutrition: { kcal: 345, carbs: 42, fibre: 6, protein: 22, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 1 bowl chicken, shiitake and bok choy soup with ginger"
+  - "50 g brown rice noodles (about 3/4 cup cooked)"
+  - "Spring onion, coriander, lime and a drop of sesame oil"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: chicken breast, qty: 50, unit: g }
+  - { item: shiitake mushrooms, qty: 40, unit: g }
+  - { item: brown rice noodles, qty: 50, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: ginger, qty: 4, unit: g }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Bring 500 ml water to a simmer with the sliced shallot and ginger; poach the chicken breast 12 minutes, lift out and shred."
+  - "Slice the shiitake and simmer them in the broth 8 minutes; season with fish sauce, salt and pepper."
+  - "Cook the brown rice noodles in boiling water about 6 minutes, rinse and drain; blanch the bok choy in the broth for the last 2 minutes."
+  - "Put the noodles in a bowl, add the chicken, mushrooms and bok choy, pour over the hot broth."
+  - "Top with spring onion, coriander, a squeeze of lime and the sesame oil. Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: shiitake mushrooms, use: "mushrooms", note: same timing }
+source: "Adapted from the traditional mien ga, on brown rice noodles instead of glass noodles"

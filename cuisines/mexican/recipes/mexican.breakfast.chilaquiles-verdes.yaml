@@ -1,0 +1,51 @@
+id: mexican.breakfast.chilaquiles-verdes
+name: Baked chilaquiles verdes with egg
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: egg
+family: chilaquiles
+tags: [weekend]
+spice: medium
+kidNote: "Use half the green chilli in the salsa and toss the child's tortilla pieces in the mildest spoonful; add the egg and cheese as usual."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekend
+treat: true
+refinedCarb: false
+signature: true
+basedOn: "Chilaquiles verdes, the Mexican breakfast of fried tortilla pieces simmered in green salsa; here the tortillas are baked and the salsa is made without tomatillos."
+nutrition: { kcal: 355, carbs: 36, fibre: 9, protein: 18, satFat: 3.4, sugar: 0 }
+components:
+  - "Primary: 2 corn tortillas, cut and baked crisp, tossed in warm green salsa"
+  - "1 fried egg and a sprinkle of low-fat cheese"
+  - "1/4 cup black beans"
+  - "Red onion, coriander and a little yoghurt"
+  - "Café de olla, unsweetened (coffee with cinnamon)"
+ingredients:
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 1, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: coriander leaves, qty: 0.25, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: low-fat cheese (grated), qty: 10, unit: g }
+  - { item: black beans (dried), qty: 25, unit: g }
+  - { item: red onion, qty: 0.1, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 20, unit: g }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+steps:
+  - "Soak and pressure-cook the black beans with salt (or use beans from earlier in the week); keep warm."
+  - "Cut each tortilla into 8 wedges, brush very lightly with the oil and bake at 200 C for 10-12 minutes until crisp (no frying)."
+  - "Green salsa: simmer the chopped zucchini, green chilli, onion and garlic in 1/2 cup water for 6 minutes; blend with most of the coriander, lime juice and salt to a pourable sauce and return to the pan."
+  - "Fry the egg in the same non-stick pan with no extra oil, or poach it."
+  - "Toss the baked tortilla pieces in the hot salsa for 1 minute so they soften at the edges but stay crisp inside."
+  - "Plate with the egg on top, the cheese sprinkled over, a spoon of yoghurt, sliced red onion and the rest of the coriander; beans alongside."
+  - "Café de olla: simmer a cup of water with the cinnamon stick for 3 minutes, stir in the coffee powder, steep, strain; no sugar or piloncillo."
+source: "Adapted from the traditional chilaquiles verdes"

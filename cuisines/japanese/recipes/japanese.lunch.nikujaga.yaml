@@ -1,0 +1,45 @@
+id: japanese.lunch.nikujaga
+name: Nikujaga (Beef, Potato & Onion Stew) with Brown Rice
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: beef
+lean: true
+family: nikujaga
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 526, carbs: 60, fibre: 10, protein: 38, satFat: 4, sugar: 2 }
+components:
+  - "Primary: nikujaga of 100 g lean beef strips, potato, onion, carrot and french beans in dashi-soy (1 tsp mirin)"
+  - "Spinach ohitashi with sesame"
+  - "2/3 bowl brown rice (45 g uncooked; the potato carries the rest)"
+ingredients:
+  - { item: lean beef strips, qty: 100, unit: g }
+  - { item: potato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 50, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+steps:
+  - "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Make 250 ml dashi with the kombu and bonito flakes."
+  - "Cut the potato and carrot into 3 cm chunks and the onion into wedges. Heat the oil and brown the beef strips 1 minute, then add the onion and stir 2 minutes."
+  - "Add the potato, carrot, dashi, soy and mirin; cover with a lid resting on the food and simmer 15 minutes until the potato is tender."
+  - "Add the french beans for the last 4 minutes and finish uncovered so the liquid reduces to a few spoonfuls."
+  - "Blanch the spinach 30 seconds, squeeze, cut and toss with the toasted sesame seeds. Box with the rice; nikujaga is a classic bento dish and good at room temperature."
+swaps:
+  - { for: lean beef strips, use: "pork tenderloin (lean)", note: "100 g sliced thin, same timing" }
+source: "Adapted from the traditional nikujaga, with mirin measured and no sugar"

@@ -1,0 +1,46 @@
+id: vietnamese.dinner.dau-hu-sot-ca-chua
+name: Dau Hu Sot Ca Chua Tofu in Tomato & Gai Lan
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: legume
+family: tofu-tomato
+tags: [vegetarian, quick]
+spice: medium
+kidNote: "No chilli in this dish; the black pepper is mild."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dau hu sot ca chua, pan-fried tofu simmered in a shallot and tomato sauce, the classic Vietnamese vegetarian weeknight dish."
+nutrition: { kcal: 485, carbs: 49, fibre: 9, protein: 29, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 140 g pan-fried tofu simmered in tomato and shallot sauce"
+  - "3/4 cup brown rice"
+  - "Steamed gai lan with soy"
+ingredients:
+  - { item: tofu (firm), qty: 140, unit: g }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: chinese broccoli (gai lan), qty: 0.5, unit: bunch }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice with 1.25 cups water, covered, 35 minutes."
+  - "Press the tofu 10 minutes and cut into thick slabs. Heat the rice bran oil in a non-stick pan and brown the tofu 3 minutes a side; set aside."
+  - "In the same pan fry the sliced shallots and garlic 1 minute, add the diced tomato, 1 tsp soy sauce, salt and 100 ml water; simmer 8 minutes to a loose sauce."
+  - "Return the tofu, spoon the sauce over and simmer 5 minutes; finish with black pepper and spring onion."
+  - "Steam the gai lan 3 minutes with the sliced ginger and drizzle with the remaining soy sauce."
+  - "Serve with the rice."
+swaps:
+  - { for: tofu (firm), use: "eggs", note: "2 eggs, pan-fried then simmered 3 minutes" }
+source: "Adapted from the traditional dau hu sot ca chua"

@@ -1,0 +1,45 @@
+id: mediterranean.lunch.tabbouleh-grilled-fish
+name: Bulgur tabbouleh with grilled fish & pine nuts
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: fish
+family: bulgur-salad
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tabbouleh, the eastern Mediterranean bulgur salad heavy with parsley, tomato, lemon and olive oil, served here with grilled fish."
+nutrition: { kcal: 510, carbs: 48, fibre: 12, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g grilled white fish with lemon, garlic and oregano"
+  - "Tabbouleh of bulgur, parsley, tomato, cucumber and red onion"
+  - "10 g toasted pine nuts over the salad"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: bulgur wheat, qty: 60, unit: g }
+  - { item: parsley, qty: 0.3, unit: bunch }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: pine nuts, qty: 10, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Pour 1 cup boiling water over the bulgur with a pinch of salt, cover and stand 15 minutes, then fluff and cool."
+  - "Finely chop the parsley, dice the tomato and cucumber and sliver the red onion; fold into the bulgur with the olive oil, juice of half the lemon, salt and pepper."
+  - "Toast the pine nuts in a dry pan 2 minutes until golden."
+  - "Rub the fish with crushed garlic, oregano, salt, pepper and the remaining lemon; grill or pan-sear 3-4 minutes a side."
+  - "Plate the tabbouleh with the pine nuts over and the fish alongside. Packs cold; the fish is good at room temperature."
+swaps:
+  - { for: firm white fish fillet, use: salmon fillet, note: "120 g" }
+source: "Adapted from the traditional tabbouleh"

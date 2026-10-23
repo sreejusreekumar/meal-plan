@@ -1,0 +1,48 @@
+id: middle-eastern.lunch.samak-harra
+name: Samak harra (spicy baked fish with tahini-chilli sauce) with freekeh & salad
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: fish
+family: samak-harra
+spice: medium
+kidNote: "Spoon the child's sauce out before the chilli flakes are stirred in; the tahini and lemon alone are plenty."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Samak harra, the Tripoli (Lebanon) baked whole fish smothered in a hot tahini, coriander and capsicum sauce."
+nutrition: { kcal: 550, carbs: 55, fibre: 13, protein: 39, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g baked white fish with tahini-chilli-coriander sauce"
+  - "1 level cup freekeh"
+  - "Cucumber, lettuce and parsley salad"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: freekeh, qty: 60, unit: g }
+  - { item: tahini, qty: 1, unit: tbsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.15, unit: bunch }
+steps:
+  - "Rinse the freekeh and simmer in 2 cups salted water for 25-30 minutes until tender; drain."
+  - "Season the fish with salt and half the cumin; bake on a lined tray at 200C for 12-15 minutes."
+  - "Soften the onion, garlic, diced capsicum and tomato in the olive oil for 6-8 minutes; add the remaining cumin and the chilli flakes."
+  - "Whisk the tahini with lemon juice and 4 tbsp water, stir into the pan with the chopped coriander, and warm 2 minutes to a thick sauce."
+  - "Chop the cucumber, lettuce and parsley for the salad. Plate the fish with the harra sauce over it, the freekeh and the salad."
+swaps:
+  - { for: freekeh, use: bulgur wheat, note: "cook 12 minutes" }
+source: "Adapted from the traditional Lebanese samak harra"

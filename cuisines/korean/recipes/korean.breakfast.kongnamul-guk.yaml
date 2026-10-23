@@ -1,0 +1,47 @@
+id: korean.breakfast.kongnamul-guk
+name: Kongnamul Guk (bean sprout soup) with Brown Rice, Tofu & Egg
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: egg
+family: kongnamul
+tags: [quick]
+spice: medium
+kidNote: "Add the gochugaru only to the adults' bowls; serve the child's kimchi rinsed."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kongnamul guk, the clear Korean bean sprout soup with garlic and spring onion, a classic morning restorative."
+nutrition: { kcal: 345, carbs: 40, fibre: 6, protein: 21, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl kongnamul guk (bean sprout soup) with tofu cubes"
+  - "1 small bowl brown rice (45 g uncooked)"
+  - "1 boiled egg, kimchi (60 g) and gim (roasted nori)"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: bean sprouts, qty: 100, unit: g }
+  - { item: tofu (firm), qty: 50, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: gochugaru (korean chilli flakes), qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: kimchi, qty: 60, unit: g }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice (45 g uncooked) or reheat rice from the night before; boil the egg 9 minutes, cool and peel."
+  - "Rinse the bean sprouts and put them in a pot with 350 ml water, crushed garlic and salt; cover and bring to the boil (keep the lid on to avoid the raw-bean smell)."
+  - "Simmer 5 minutes, add the tofu cubes and soy sauce and simmer 3 minutes more; finish with sliced spring onion."
+  - "Toast the nori briefly over a flame or in a dry pan and tear into pieces; sprinkle gochugaru over the adults' soup."
+  - "Serve the soup with the rice, halved egg, kimchi, nori and sesame seeds; pour the barley tea."
+swaps:
+  - { for: tofu (firm), use: "edamame (frozen)", note: "40 g, add with the sprouts" }
+source: "Adapted from the traditional kongnamul guk"

@@ -1,0 +1,44 @@
+id: middle-eastern.breakfast.kuku-sabzi
+name: Persian kuku sabzi with yoghurt
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: egg
+family: kuku
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kuku sabzi, the Persian herb frittata packed with parsley, coriander and dill, eaten at Nowruz and for everyday breakfasts in Iran."
+nutrition: { kcal: 385, carbs: 32, fibre: 8, protein: 22, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 wedge kuku sabzi (herb and spinach frittata, 2 eggs)"
+  - "50 g low-fat yoghurt"
+  - "1 wholemeal pita"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: parsley, qty: 0.3, unit: bunch }
+  - { item: coriander leaves, qty: 0.3, unit: bunch }
+  - { item: dill, qty: 0.2, unit: bunch }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Wash and finely chop the parsley, coriander, dill, spring onion and spinach; squeeze out excess water."
+  - "Beat the eggs with salt, pepper and crushed garlic, then fold in the herbs so the mix is mostly green with just enough egg to bind."
+  - "Heat the olive oil in a small non-stick pan, pour in the mix, cover and cook on low for 8 minutes until set underneath."
+  - "Flip (or finish under the grill) for 3 minutes, cut into wedges and serve with the yoghurt, a warmed pita and unsweetened tea."
+swaps:
+  - { for: dill, use: mint leaves, note: smaller amount }
+source: "Adapted from the traditional Persian kuku sabzi"

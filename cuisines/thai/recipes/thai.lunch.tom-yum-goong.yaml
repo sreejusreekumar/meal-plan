@@ -1,0 +1,49 @@
+id: thai.lunch.tom-yum-goong
+name: Tom Yum Goong (hot & sour prawn soup) & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: fish
+family: tom-yum
+spice: medium
+kidNote: "Add the fresh chilli as a whole piece and lift it out of the child's bowl; the lemongrass and lime carry the flavour."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tom yum goong, Thailand's hot and sour prawn soup with lemongrass, galangal, kaffir lime and chilli."
+nutrition: { kcal: 525, carbs: 54, fibre: 9, protein: 40, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 large bowl tom yum goong with mushrooms, cherry tomatoes and a halved boiled egg"
+  - "Garlic stir-fried gai lan"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: prawns (chemmeen), qty: 150, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: mushrooms, qty: 100, unit: g }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: galangal, qty: 10, unit: g }
+  - { item: kaffir lime leaves, qty: 3, unit: pc }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: chinese broccoli (gai lan), qty: 0.5, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes). Boil the egg 8 minutes, peel and halve."
+  - "Bring 500 ml water to the boil with the bruised lemongrass, sliced galangal, torn lime leaves and shallots; simmer 5 minutes."
+  - "Add the mushrooms and halved cherry tomatoes; simmer 3 minutes, then the prawns for 2 minutes until just pink."
+  - "Turn off the heat; season with fish sauce, lime juice and the bruised chilli. Add the egg halves and coriander."
+  - "Stir-fry the gai lan with the garlic in 1 tsp oil over high heat for 2 minutes with a splash of water."
+  - "Serve the soup with the greens and 1 level cup rice on the side."
+swaps:
+  - { for: prawns (chemmeen), use: "firm white fish fillet", note: "150 g in chunks, same timing" }
+source: "Adapted from the traditional tom yum goong (clear style, no evaporated milk or sugar)."

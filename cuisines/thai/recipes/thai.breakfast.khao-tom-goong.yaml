@@ -1,0 +1,44 @@
+id: thai.breakfast.khao-tom-goong
+name: Khao tom goong (prawn rice soup with garlic and ginger)
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: fish
+family: khao-tom-goong
+tags: [light]
+spice: medium
+kidNote: "Skip the pepper and chilli on the child's bowl."
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Khao tom goong, the Thai breakfast rice soup with prawns, fried garlic and ginger, a staple of morning stalls; here with brown jasmine rice."
+nutrition: { kcal: 350, carbs: 42, fibre: 4, protein: 26, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl khao tom (brown jasmine rice soup) with prawns"
+  - "Fried garlic, ginger, spring onion and coriander on top"
+  - "Wilted bok choy"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: brown jasmine rice, qty: 55, unit: g }
+  - { item: prawns (chemmeen), qty: 100, unit: g }
+  - { item: ginger, qty: 6, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Rinse the rice and simmer it in 3.5 cups of water for 25 minutes until tender and soupy."
+  - "Add half the ginger and the fish sauce; drop in the peeled prawns and simmer 2-3 minutes until pink."
+  - "Fry the sliced garlic in 1 tsp rice bran oil until golden; lift out and wilt the bok choy in the same pan with a splash of water."
+  - "Serve the soup topped with ginger shreds, fried garlic, spring onion, coriander, pepper and chilli, with the bok choy alongside."
+  - "Bruise the lemongrass stalk and steep in boiling water 5 minutes for the tea."
+source: "Adapted from the traditional khao tom goong."

@@ -1,0 +1,25 @@
+id: korean
+name: Korean
+version: 1
+description: "Korean home cooking for a pre-diabetic household: brown rice measured, kimchi and namul vegetables, tofu stews, grilled fish, gochujang measured."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · namul first
+  snack: 4 pm
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: "Kimchi and namul first, then the stew, fish or tofu, then a small bowl of brown rice last."
+  - title: Walk after meals
+    text: "10–15 minutes of brisk walking right after lunch and dinner."
+  - title: Sauce is measured
+    text: "Gochujang and soy 1 teaspoon per person; no sugar or corn syrup in marinades, nashi pear instead."
+  - title: Skip completely
+    text: "White rice, fried chicken, tteokbokki on weekdays, instant noodles and sweetened drinks."

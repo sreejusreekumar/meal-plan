@@ -1,0 +1,44 @@
+id: japanese.dinner.chawanmushi
+name: Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: egg
+family: chawanmushi
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 494, carbs: 46, fibre: 12, protein: 37, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2-egg chawanmushi steamed with dashi, prawns and shiitake"
+  - "French beans and spinach with sesame"
+  - "Edamame, 50 g"
+  - "Small bowl brown rice (45 g uncooked)"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: prawns (chemmeen), qty: 40, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: french beans, qty: 80, unit: g }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: edamame (frozen), qty: 50, unit: g }
+  - { item: brown rice, qty: 45, unit: g }
+steps:
+  - "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Make 200 ml dashi with the kombu and bonito flakes and let it cool to warm; season with the soy and salt."
+  - "Beat the eggs gently, stir in the dashi (about 2.5 parts dashi to 1 part egg) and strain through a sieve."
+  - "Put the peeled prawns and sliced shiitake into two cups or ramekins, pour in the egg mixture and cover with foil."
+  - "Steam over gently simmering water 12-15 minutes until just set; a skewer should come out clean. Rest 2 minutes."
+  - "Blanch the french beans and edamame 3 minutes, and the spinach 30 seconds; dress the beans and spinach with toasted sesame. Serve with the small bowl of rice."
+swaps:
+  - { for: prawns (chemmeen), use: chicken breast, note: "40 g diced small" }
+source: "Adapted from the traditional chawanmushi"

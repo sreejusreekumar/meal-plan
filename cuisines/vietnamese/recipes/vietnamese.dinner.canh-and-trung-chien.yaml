@@ -1,0 +1,48 @@
+id: vietnamese.dinner.canh-and-trung-chien
+name: Canh Cu Cai Tofu Soup & Trung Chien Herb Omelette
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: egg
+family: canh-omelette
+tags: [vegetarian, quick]
+spice: medium
+kidNote: "No chilli in this meal; black pepper only."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Canh and trung chien, the everyday Vietnamese family dinner of a light vegetable soup with a herb omelette and rice."
+nutrition: { kcal: 500, carbs: 47, fibre: 8, protein: 29, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 2-egg omelette with dill and spring onion"
+  - "1 bowl canh (daikon, shiitake and tofu soup with ginger)"
+  - "3/4 cup brown rice"
+  - "Tomato wedges"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: daikon radish, qty: 0.5, unit: pc }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+steps:
+  - "Cook the brown rice with 1.25 cups water, covered, 35 minutes."
+  - "Canh: simmer sliced daikon and shiitake with the ginger in 350 ml water for 12 minutes; add the tofu cubes, 1 tsp soy sauce and salt and cook 3 more minutes. Finish with coriander and half the spring onion."
+  - "Beat the eggs with 1 tsp soy sauce, black pepper, chopped dill and the rest of the spring onion."
+  - "Heat the rice bran oil in a small non-stick pan and cook the omelette over medium heat 2 minutes a side until golden and just set."
+  - "Serve the omelette and tomato wedges with the rice, the soup in a bowl alongside."
+swaps:
+  - { for: daikon radish, use: "cabbage", note: "100 g, same timing" }
+source: "Adapted from the traditional canh cu cai and trung chien"

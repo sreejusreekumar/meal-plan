@@ -1,0 +1,43 @@
+id: mexican.breakfast.breakfast-burrito
+name: Breakfast burrito with black beans and spinach
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: egg
+family: burrito
+tags: [quick]
+spice: medium
+kidNote: "Make the child's salsa without jalapeno; roll the burrito the same way."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Burrito de desayuno, the northern Mexican and border breakfast of eggs and beans rolled in a wheat tortilla; here one wholemeal tortilla."
+nutrition: { kcal: 350, carbs: 37, fibre: 11, protein: 18, satFat: 2.8, sugar: 0 }
+components:
+  - "Primary: 1 wholemeal tortilla rolled around scrambled egg and 1/3 cup black beans"
+  - "Wilted spinach inside the roll"
+  - "Fresh salsa (tomato, onion, jalapeno, coriander, lime)"
+ingredients:
+  - { item: wholemeal tortilla, qty: 1, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: black beans (dried), qty: 30, unit: g }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the black beans overnight; pressure-cook with salt and cumin until soft (or use beans cooked ahead). Mash roughly."
+  - "Salsa: dice the tomato, onion and jalapeno, mix with chopped coriander, lime juice and a pinch of salt."
+  - "Heat the oil in a non-stick pan, wilt the spinach 1 minute, then push aside and scramble the beaten egg softly."
+  - "Warm the tortilla on a dry pan for 20 seconds a side so it rolls without cracking."
+  - "Spread the beans down the middle, add the egg, spinach and half the salsa, fold in the ends and roll tightly; serve with the rest of the salsa."
+source: "Adapted from the northern Mexican burrito de desayuno"

@@ -1,0 +1,50 @@
+id: mexican.dinner.enchiladas-verdes
+name: Baked chicken enchiladas verdes with salad & black beans
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: chicken
+family: enchiladas
+spice: medium
+kidNote: "Blend the green sauce without the jalapeno, then stir chopped jalapeno into the adults' share only."
+packable: false
+prepMinutes: 20
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Enchiladas verdes, the central Mexican dish of corn tortillas rolled around shredded chicken, covered in green tomatillo-chilli sauce and baked with cheese and crema."
+nutrition: { kcal: 500, carbs: 49, fibre: 12, protein: 39, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 corn tortillas rolled with 100 g shredded chicken and zucchini, baked in green chilli-tomato sauce with 15 g cheese"
+  - "Cos lettuce, radish and cucumber salad with lime"
+  - "Small spoon of black beans"
+ingredients:
+  - { item: chicken breast, qty: 100, unit: g }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: green chilli, qty: 1, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: low-fat cheese (grated), qty: 15, unit: g }
+  - { item: black beans (dried), qty: 25, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: radish, qty: 2, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Poach the chicken in salted water 15 minutes and shred. Cook the soaked black beans with salt until soft."
+  - "Blister the tomato, green chilli and jalapeno under the grill; blend with half the onion, garlic, most of the coriander, cumin, lime juice and salt into a green sauce. Simmer 5 minutes in the oil."
+  - "Mix the chicken with grated zucchini, the rest of the onion (finely chopped) and a spoon of sauce."
+  - "Soften the tortillas on a dry pan, fill and roll, lay seam-down in a small dish, pour over the sauce and sprinkle the cheese. Bake at 200 C for 15 minutes."
+  - "Shred the lettuce with radish and cucumber, dress with lime. Serve the enchiladas with the salad and beans, coriander on top."
+swaps:
+  - { for: chicken breast, use: "tofu (firm)", note: "150 g crumbled and seasoned, no poaching" }
+source: "Adapted from the traditional enchiladas verdes"

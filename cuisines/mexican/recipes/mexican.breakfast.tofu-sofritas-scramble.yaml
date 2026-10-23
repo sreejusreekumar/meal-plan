@@ -1,0 +1,44 @@
+id: mexican.breakfast.tofu-sofritas-scramble
+name: Tofu sofritas scramble with black beans and a corn tortilla
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: legume
+family: tofu-scramble
+tags: [quick]
+spice: medium
+kidNote: "Take out the child's tofu before the chipotle goes in, or use half the chipotle."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 350, carbs: 34, fibre: 10, protein: 22, satFat: 2.3, sugar: 0 }
+components:
+  - "Primary: crumbled firm tofu braised with chipotle, tomato, capsicum and cumin"
+  - "1/3 cup black beans"
+  - "1 warm corn tortilla, coriander and lime"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: chipotle in adobo, qty: 1, unit: tsp }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: smoked paprika, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: black beans (dried), qty: 30, unit: g }
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Soak the black beans overnight; pressure-cook with salt until soft (or use beans cooked ahead)."
+  - "Press the tofu in a tea towel for 5 minutes and crumble it coarsely."
+  - "Heat the oil, soften the onion, capsicum and garlic 3 minutes, add the cumin and smoked paprika, then the tomato and chipotle; cook 2 minutes."
+  - "Add the tofu with a splash of water and salt; simmer 5 minutes so it soaks up the sauce and browns a little at the edges."
+  - "Warm the tortilla on a dry pan and serve with the sofritas, beans, coriander and lime."
+source: "Adapted from Mexican-American sofritas and tofu a la mexicana"

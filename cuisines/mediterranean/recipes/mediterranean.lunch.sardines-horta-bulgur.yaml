@@ -1,0 +1,44 @@
+id: mediterranean.lunch.sardines-horta-bulgur
+name: Grilled sardines with lemon, horta greens & bulgur
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: fish
+family: sardines
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Sardeles sta karvouna with horta, the Greek taverna plate of grilled sardines next to boiled wild greens dressed with lemon and olive oil."
+nutrition: { kcal: 515, carbs: 47, fibre: 12, protein: 36, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 4 grilled sardines with lemon, oregano and garlic"
+  - "Horta-style kale, boiled and dressed with lemon"
+  - "1 level cup bulgur with cherry tomatoes and red onion"
+ingredients:
+  - { item: sardines (mathi), qty: 4, unit: pc }
+  - { item: kale, qty: 0.5, unit: bunch }
+  - { item: bulgur wheat, qty: 60, unit: g }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried oregano, qty: 1, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Pour 1 cup boiling water over the bulgur with a pinch of salt, cover and stand 15 minutes; fork through with the halved cherry tomatoes, slivered red onion and parsley."
+  - "Gut and rinse the sardines; season with salt, pepper, oregano and crushed garlic and leave 10 minutes."
+  - "Boil the stripped kale leaves in salted water 5-6 minutes until tender, drain well and dress with half the lemon juice and half the olive oil."
+  - "Grill the sardines on a hot grill pan or under a hot oven grill 3 minutes a side until the skin blisters."
+  - "Finish the sardines with the rest of the lemon and olive oil; serve the horta first, then sardines and bulgur."
+swaps:
+  - { for: sardines (mathi), use: mackerel (ayala), note: "1 whole fish, 5 minutes a side" }
+  - { for: kale, use: spinach, note: "boil 2 minutes only" }
+source: "Adapted from the traditional Greek grilled sardines with horta"

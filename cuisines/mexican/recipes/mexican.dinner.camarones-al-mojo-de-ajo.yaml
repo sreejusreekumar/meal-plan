@@ -1,0 +1,49 @@
+id: mexican.dinner.camarones-al-mojo-de-ajo
+name: Camarones al mojo de ajo (garlic prawns) with brown rice & salad
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: fish
+family: mojo-prawns
+tags: [quick]
+spice: medium
+kidNote: "Crumble the dried chilli over the adults' prawns at the end instead of frying it with the garlic."
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Camarones al mojo de ajo, the coastal Mexican dish of prawns cooked in slow-fried garlic with lime and chilli."
+nutrition: { kcal: 505, carbs: 47, fibre: 10, protein: 33, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 150 g prawns in garlic, lime and chilli (mojo de ajo)"
+  - "Half cup brown rice with wilted spinach"
+  - "Cos lettuce, tomato, cucumber and red onion salad with a quarter avocado, grilled zucchini"
+ingredients:
+  - { item: prawns (chemmeen), qty: 150, unit: g }
+  - { item: garlic, qty: 8, unit: g }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 2, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Rinse the brown rice and simmer in plenty of water 30 minutes; drain and fold through the spinach so it wilts in the heat."
+  - "Slice the garlic thinly and fry very gently in 1.5 tsp oil with the crumbled dried chilli until pale gold, not brown."
+  - "Add the cleaned prawns, salt and pepper; cook 2-3 minutes until pink, then squeeze in the lime."
+  - "Grill the zucchini slices with the remaining half teaspoon of oil; toss the lettuce, tomato, cucumber and red onion with lime and salt, avocado on top."
+  - "Serve the salad first, then the prawns with their garlic oil over the spinach rice, coriander scattered."
+swaps:
+  - { for: prawns (chemmeen), use: "squid", note: "150 g rings, cook 2 minutes" }
+source: "Adapted from the traditional camarones al mojo de ajo"

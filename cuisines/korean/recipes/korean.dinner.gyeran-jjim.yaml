@@ -1,0 +1,45 @@
+id: korean.dinner.gyeran-jjim
+name: Gyeran Jjim (Steamed Egg) with Namul, Edamame & Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: egg
+family: gyeran-jjim
+tags: [quick]
+spice: medium
+kidNote: "The steamed egg, namul and edamame are mild; leave the kimchi off the child's tray."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 500, carbs: 45, fibre: 11, protein: 31, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2-egg gyeran jjim (fluffy steamed egg) with mushrooms and spring onion"
+  - "Spinach namul and bean sprout namul"
+  - "50 g edamame with salt"
+  - "Small bowl brown rice and kimchi"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: bean sprouts, qty: 80, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: edamame (frozen), qty: 50, unit: g }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Beat the eggs with 150 ml water, the soy sauce and a pinch of salt; stir in the finely diced mushrooms and half the spring onion."
+  - "Pour into a small heatproof bowl or stone pot, cover and steam over gently boiling water 12-15 minutes until just set and puffed; top with the rest of the spring onion."
+  - "Blanch the spinach 30 seconds and the bean sprouts 2 minutes; squeeze and dress each with crushed garlic, sesame oil and salt."
+  - "Boil the edamame 3 minutes and salt lightly. Serve the egg with the namul, edamame, kimchi and the small bowl of rice."
+swaps:
+  - { for: edamame (frozen), use: "tofu (firm)", note: "60 g seared cubes" }
+source: "Adapted from the traditional gyeran jjim"

@@ -1,0 +1,49 @@
+id: vietnamese.dinner.ca-hap-gung
+name: Ca Hap Gung Steamed Fish with Ginger & Gai Lan
+slot: [dinner]
+role: main
+cuisine: vietnamese
+protein: fish
+family: steamed-fish
+tags: [quick]
+spice: medium
+kidNote: "Add the chilli slices only to the adults' fish after steaming."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 480, carbs: 47, fibre: 8, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 160 g fish steamed with ginger, shiitake and spring onion"
+  - "3/4 cup brown rice"
+  - "Garlic gai lan"
+  - "Cucumber and tomato slices"
+ingredients:
+  - { item: firm white fish fillet, qty: 160, unit: g }
+  - { item: ginger, qty: 8, unit: g }
+  - { item: spring onion, qty: 0.2, unit: bunch }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: chinese broccoli (gai lan), qty: 0.5, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+steps:
+  - "Cook the brown rice with 1.25 cups water, covered, 35 minutes."
+  - "Lay the fish on a heatproof plate; scatter with julienned ginger, sliced shiitake and the white parts of the spring onion; spoon over soy sauce, fish sauce and black pepper."
+  - "Steam over boiling water 10-12 minutes until the fish flakes. Drizzle with the sesame oil and top with spring onion greens, coriander and chilli."
+  - "Heat the rice bran oil, fry the garlic 20 seconds, add the gai lan and 2 tbsp water and stir-fry 3 minutes."
+  - "Serve the fish with its juices, the rice, greens and sliced cucumber and tomato."
+swaps:
+  - { for: firm white fish fillet, use: "salmon fillet", note: "steam 8 minutes" }
+source: "Adapted from the traditional ca hap gung hanh"

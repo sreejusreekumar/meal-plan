@@ -1,0 +1,48 @@
+id: mexican.lunch.camarones-a-la-diabla
+name: Camarones a la diabla (chilli prawns) with brown rice & salad
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: fish
+family: diabla
+tags: [quick]
+spice: medium
+kidNote: "Hold back a few prawns and cook them in the plain tomato-garlic base before the chipotle and dried chilli go in."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 63, fibre: 10, protein: 33, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g prawns in a fiery chipotle-tomato sauce (a la diabla)"
+  - "1 level cup brown rice"
+  - "Cos lettuce, cucumber, zucchini and tomato salad with a quarter avocado"
+ingredients:
+  - { item: prawns (chemmeen), qty: 150, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: canned tomatoes, qty: 100, unit: g }
+  - { item: chipotle in adobo, qty: 1, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: avocado, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Rinse the brown rice and simmer in plenty of water 30 minutes; drain."
+  - "Soak the dried chilli in hot water 10 minutes; blend with the canned tomatoes, chipotle and half the onion to a smooth red sauce."
+  - "Fry the remaining onion and garlic in 1 tsp oil, pour in the sauce and simmer 8 minutes until thick; season."
+  - "Add the cleaned prawns and cook 3 minutes until just pink; finish with lime juice and coriander."
+  - "Slice the lettuce, cucumber, raw zucchini and tomato for the salad; top with avocado. Salad first, then prawns over rice."
+swaps:
+  - { for: prawns (chemmeen), use: "firm white fish fillet", note: "150 g in chunks, simmer 5 minutes" }
+source: "Adapted from the traditional camarones a la diabla"

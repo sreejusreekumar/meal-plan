@@ -1,0 +1,39 @@
+id: middle-eastern.snack.hummus-with-veg-sticks
+name: Hummus with cucumber & capsicum sticks, mint tea
+slot: [snack]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: hummus
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Hummus bi tahini, chickpeas pureed with tahini, lemon and garlic, the best-known mezze of the Levant."
+nutrition: { kcal: 160, carbs: 15, fibre: 6, protein: 7, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 3 tbsp hummus"
+  - "Cucumber and capsicum sticks for dipping"
+  - "Mint tea (green tea with fresh mint), unsweetened"
+ingredients:
+  - { item: white chickpeas (chana), qty: 25, unit: g }
+  - { item: tahini, qty: 0.5, unit: tbsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+steps:
+  - "Use chickpeas soaked and boiled in a batch earlier in the week (25 g dry is about 1/2 cup cooked)."
+  - "Blend the chickpeas with tahini, lemon juice, garlic, crushed cumin, salt and a spoon of water until smooth."
+  - "Cut the cucumber and capsicum into sticks."
+  - "Steep the green tea with the mint leaves for 3 minutes and serve unsweetened."
+source: "Adapted from the traditional Levantine hummus"

@@ -1,0 +1,47 @@
+id: korean.lunch.salmon-gui
+name: Salmon Gui with Daikon Salad & Brown Rice
+slot: [lunch]
+role: main
+cuisine: korean
+protein: fish
+family: salmon
+tags: [packable]
+spice: medium
+kidNote: "Dress the child's daikon salad with vinegar and sesame only; keep the gochugaru for the adults."
+packable: true
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 535, carbs: 55, fibre: 9, protein: 31, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 100 g pan-grilled salmon with lemon and soy"
+  - "Daikon, carrot and cucumber salad (musaengchae-style) with gochugaru and sesame"
+  - "Spinach namul"
+  - "1 small bowl brown rice"
+ingredients:
+  - { item: salmon fillet, qty: 100, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: gochugaru (korean chilli flakes), qty: 0.5, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: brown rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Cut the daikon, carrot and cucumber into fine matchsticks; salt lightly, leave 10 minutes, squeeze, then toss with rice vinegar, gochugaru and half the sesame seeds."
+  - "Blanch the spinach 30 seconds, squeeze and dress with crushed garlic, a pinch of salt and the rest of the sesame seeds."
+  - "Season the salmon with black pepper; grill or pan-grill skin-side down on a dry non-stick pan 4 minutes, turn for 2 more, then splash with the soy sauce and lemon juice."
+  - "Plate the salad, namul, salmon and the small bowl of rice; eat the vegetables first."
+swaps:
+  - { for: salmon fillet, use: "mackerel (ayala)", note: "1 fish, grill 6 minutes a side" }
+source: "Adapted from the traditional yeoneo gui and musaengchae"

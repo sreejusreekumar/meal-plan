@@ -1,0 +1,43 @@
+id: middle-eastern.breakfast.ful-medames
+name: Ful medames with boiled egg & half pita
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: ful
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Ful medames, slow-stewed fava beans mashed with cumin, lemon, garlic and olive oil, the national breakfast of Egypt eaten across the Levant."
+nutrition: { kcal: 355, carbs: 33, fibre: 10, protein: 20, satFat: 2.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl ful medames (fava beans with cumin, lemon and olive oil)"
+  - "1 hard-boiled egg, halved"
+  - "Half a wholemeal pita with diced tomato and parsley"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: fava beans (canned), qty: 200, unit: g }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Put the egg on to boil (10 minutes), then cool, peel and halve."
+  - "Tip the fava beans with their liquid into a small pan, add the crushed garlic and toasted, crushed cumin seeds and simmer 8 minutes until the liquid thickens."
+  - "Mash roughly with a fork, season with salt and lemon juice and finish with the olive oil."
+  - "Serve with the diced tomato, chopped parsley, the egg and half a warmed wholemeal pita; brew the tea unsweetened."
+swaps:
+  - { for: fava beans (canned), use: white chickpeas (chana), note: "40 g dry, soaked and boiled, same seasoning" }
+source: "Adapted from the traditional Egyptian and Levantine ful medames"

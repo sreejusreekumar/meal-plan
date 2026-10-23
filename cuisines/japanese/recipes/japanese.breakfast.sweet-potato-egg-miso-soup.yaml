@@ -1,0 +1,41 @@
+id: japanese.breakfast.sweet-potato-egg-miso-soup
+name: Steamed Sweet Potato with Boiled Egg & Miso Soup
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: egg
+family: sweet-potato
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 5
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 350, carbs: 31, fibre: 8, protein: 22, satFat: 2.4, sugar: 0 }
+components:
+  - "Primary: Half a steamed sweet potato (satsumaimo style) with 1 boiled egg"
+  - "Miso soup with tofu, wakame and spring onion"
+  - "Edamame with toasted sesame"
+  - "Green tea"
+ingredients:
+  - { item: sweet potato, qty: 0.5, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: wakame (dried), qty: 2, unit: g }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: edamame (frozen), qty: 30, unit: g }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Scrub the sweet potato and steam the half, skin on, 15-18 minutes until a skewer slides in; cut into thick rounds and sprinkle with a little salt."
+  - "Boil the egg 9 minutes, cool under the tap, peel and halve. Boil the edamame 4 minutes in the same pot."
+  - "Make dashi from the kombu and bonito in 300 ml water; add the cubed tofu and wakame, warm 2 minutes, dissolve the miso off the heat and add spring onion."
+  - "Serve the sweet potato and egg with the soup, the edamame tossed with toasted sesame, and a cup of green tea."
+source: "Japanese home breakfast of mushi-imo (steamed sweet potato) with miso soup"

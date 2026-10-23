@@ -1,0 +1,47 @@
+id: mediterranean.lunch.nicoise
+name: Salade Niçoise with tuna, egg & wholemeal pita
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: fish
+family: nicoise
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Salade Niçoise, the composed salad of tuna, egg, green beans, tomato and olives from Nice on the Mediterranean coast of France."
+nutrition: { kcal: 515, carbs: 51, fibre: 12, protein: 39, satFat: 3, sugar: 0 }
+components:
+  - "Primary: Niçoise salad of canned tuna, 1 boiled egg, french beans, boiled potato, cherry tomatoes and olives on cos lettuce"
+  - "1 wholemeal pita"
+ingredients:
+  - { item: tuna (canned in springwater), qty: 95, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: french beans, qty: 80, unit: g }
+  - { item: potato, qty: 0.5, unit: pc }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: olives, qty: 15, unit: g }
+  - { item: capers, qty: 1, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: red wine vinegar, qty: 1, unit: tsp }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Boil the potato in its skin until tender (about 15 minutes); boil the egg in the same pot for 9 minutes, then cool both."
+  - "Blanch the trimmed french beans 3 minutes in salted water and refresh in cold water."
+  - "Whisk the olive oil, vinegar, crushed garlic, capers, salt and pepper into a dressing."
+  - "Tear the cos lettuce onto the plate; arrange the drained tuna, sliced potato, beans, halved cherry tomatoes, red onion slivers, olives and the halved egg on top."
+  - "Spoon over the dressing, scatter parsley and serve with the pita. For a lunchbox keep the dressing in a small pot."
+swaps:
+  - { for: potato, use: cannellini beans, note: "30 g dry, cooked" }
+source: "Adapted from the traditional salade Niçoise"

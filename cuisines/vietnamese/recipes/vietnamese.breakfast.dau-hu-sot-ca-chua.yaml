@@ -1,0 +1,45 @@
+id: vietnamese.breakfast.dau-hu-sot-ca-chua
+name: Dau hu sot ca chua (tofu in tomato sauce) with brown rice
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: legume
+family: tofu-tomato
+tags: [vegetarian]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dau hu sot ca chua, the everyday Vietnamese home dish of fried tofu simmered in a shallot, garlic and tomato sauce seasoned with fish sauce, served with rice."
+nutrition: { kcal: 385, carbs: 40, fibre: 6, protein: 20, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 120 g tofu in tomato, shallot and spring onion sauce"
+  - "45 g brown rice (3/4 cup cooked)"
+  - "Cucumber slices and coriander"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Rinse the brown rice and cook it with 1.5 times its volume of water, covered, 30 minutes (or make ahead)."
+  - "Pat the tofu dry, cut into 2 cm cubes and sear in a non-stick pan with the oil until golden on two sides; set aside."
+  - "In the same pan soften the sliced shallots and garlic, add the chopped tomato with a splash of water and cook 5 minutes to a loose sauce."
+  - "Return the tofu, season with fish sauce and pepper, simmer 3 minutes, then stir in the spring onion."
+  - "Serve over the rice with cucumber slices and coriander. Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: fish sauce, use: "soy sauce (low-sodium)", note: "for a fully vegetarian version" }
+source: "Adapted from the traditional dau hu sot ca chua, with brown rice and no sugar in the sauce"

@@ -1,0 +1,33 @@
+id: vietnamese.snack.banana-cashews
+name: Banana with lime and roasted cashews, green tea
+slot: [snack]
+role: main
+cuisine: vietnamese
+protein: none
+family: banana
+tags: [quick, no-cook]
+spice: mild
+packable: true
+prepMinutes: 3
+cookMinutes: 4
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 165, carbs: 18, fibre: 2, protein: 4, satFat: 2, sugar: 0 }
+components:
+  - "Primary: half a banana, sliced, with a squeeze of lime"
+  - "20 g roasted cashews"
+  - "Hot green tea (unsweetened)"
+ingredients:
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: cashews, qty: 20, unit: g }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Dry-roast the cashews in a small pan 3-4 minutes until lightly golden; cool."
+  - "Slice the banana and squeeze the lime over it so it does not brown and tastes less sweet."
+  - "Serve the banana with the cashews alongside and a cup of green tea."
+swaps:
+  - { for: cashews, use: "peanuts", note: same quantity }
+source: "A simple Vietnamese-style fruit and nut snack; fruit with lime is common at Vietnamese street fruit stalls"

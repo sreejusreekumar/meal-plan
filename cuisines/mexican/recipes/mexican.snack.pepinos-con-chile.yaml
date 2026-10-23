@@ -1,0 +1,36 @@
+id: mexican.snack.pepinos-con-chile
+name: Cucumber and capsicum with chilli-lime, peanuts and black tea
+slot: [snack]
+role: main
+cuisine: mexican
+protein: none
+family: cucumber
+tags: [quick]
+spice: mild
+kidNote: "Dress the child's cucumber with lime and salt only, no chilli powder."
+packable: false
+prepMinutes: 8
+cookMinutes: 3
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pepinos con chile y limón, the Mexican street-cart cup of cucumber sticks dusted with chilli, lime and salt."
+nutrition: { kcal: 140, carbs: 7, fibre: 3, protein: 5, satFat: 1.4, sugar: 0 }
+components:
+  - "Primary: cucumber and capsicum sticks with lime, salt and chilli powder"
+  - "20 g dry-roasted peanuts"
+  - "Black tea, unsweetened"
+ingredients:
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: peanuts, qty: 20, unit: g }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Dry-roast the peanuts in a pan for 3 minutes until fragrant; salt lightly."
+  - "Cut the cucumber and capsicum into long sticks, squeeze the lime over and dust with chilli powder and salt."
+  - "Brew the tea 3 minutes in boiling water, strain; no sugar."
+source: "Adapted from Mexican street-cart pepinos con chile y limón"

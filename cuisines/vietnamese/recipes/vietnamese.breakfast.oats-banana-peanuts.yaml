@@ -1,0 +1,39 @@
+id: vietnamese.breakfast.oats-banana-peanuts
+name: Oats with banana, roasted peanuts and a boiled egg
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: egg
+family: oats
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 12
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 355, carbs: 38, fibre: 7, protein: 16, satFat: 3.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl rolled oats cooked with a cinnamon stick, topped with sliced banana"
+  - "15 g roasted peanuts, crushed, with a pinch of salt (muoi dau phong)"
+  - "1 boiled egg"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: rolled oats, qty: 40, unit: g }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Boil the egg 8 minutes, cool under the tap and peel."
+  - "Simmer the oats with 250 ml water and the piece of cinnamon stick for 5-6 minutes, stirring, until thick; discard the cinnamon. No sugar."
+  - "Dry-roast the peanuts in a small pan 3 minutes, cool, crush with the salt."
+  - "Top the oats with sliced banana and the peanut salt; serve the egg alongside."
+  - "Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: peanuts, use: "cashews", note: same quantity }
+source: "A Vietnamese-leaning oat breakfast using the peanut-salt (muoi dau phong) usually served with boiled sweet potato"

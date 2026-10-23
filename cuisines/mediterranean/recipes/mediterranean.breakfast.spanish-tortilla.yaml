@@ -1,0 +1,42 @@
+id: mediterranean.breakfast.spanish-tortilla
+name: Spanish tortilla with tomato and olive salad
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: egg
+family: tortilla
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tortilla espanola, the thick potato and onion omelette eaten at any hour across Spain."
+nutrition: { kcal: 376, carbs: 32, fibre: 6, protein: 18, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 wedge Spanish tortilla (2 eggs, half a potato)"
+  - "Tomato, capsicum and olive salad with lemon"
+  - "1 slice wholemeal bread"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: potato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.25, unit: pc }
+  - { item: olives, qty: 15, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Peel and thinly slice the potato and onion; steam or microwave the potato 4-5 minutes until just tender (this replaces the usual deep oil bath)."
+  - "Heat the olive oil in a small non-stick pan, soften the onion 3 minutes, then add the potato slices."
+  - "Beat the eggs with salt, pepper and parsley, pour over, and cook on low 6-8 minutes until nearly set; slide onto a plate, flip back into the pan and give it 2 more minutes."
+  - "Chop the tomato and capsicum, add the olives, squeeze over the lemon and season with pepper."
+  - "Cut a wedge of tortilla, serve with the salad, a slice of wholemeal bread and black coffee or tea."
+source: "Adapted from the traditional tortilla espanola"

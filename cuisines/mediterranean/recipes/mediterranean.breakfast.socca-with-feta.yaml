@@ -1,0 +1,40 @@
+id: mediterranean.breakfast.socca-with-feta
+name: Socca (chickpea pancake) with salad leaves, feta and yoghurt
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: legume
+family: socca
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Socca, the thin chickpea-flour pancake of Nice, known as farinata along the Ligurian coast."
+nutrition: { kcal: 356, carbs: 39, fibre: 7, protein: 20, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 large socca (chickpea-flour pancake) with thyme and pepper"
+  - "Salad leaves and cherry tomatoes with crumbled feta and lemon"
+  - "Small dollop of yoghurt"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: besan (chickpea flour), qty: 50, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: dried thyme, qty: 0.25, unit: tsp }
+  - { item: salad leaves (mixed), qty: 40, unit: g }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: feta, qty: 15, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Whisk the besan with 100 ml water, salt, pepper and thyme to a thin batter; rest 10 minutes (or overnight in the fridge)."
+  - "Heat a non-stick pan with the olive oil until very hot, pour in the batter and cook 4-5 minutes until the edges crisp, then flip and cook 3 minutes more (or finish under a hot grill)."
+  - "Toss the salad leaves and halved cherry tomatoes with lemon juice and pepper; crumble the feta over."
+  - "Tear the socca into pieces, pile the salad on top and add a spoon of yoghurt on the side."
+  - "Serve with black coffee or unsweetened tea."
+source: "Adapted from the traditional socca of Nice"

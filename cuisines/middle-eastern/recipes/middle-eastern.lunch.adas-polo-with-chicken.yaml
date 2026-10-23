@@ -1,0 +1,45 @@
+id: middle-eastern.lunch.adas-polo-with-chicken
+name: Persian adas polo (lentil brown rice) with spiced chicken & shirazi salad
+slot: [lunch]
+role: main
+cuisine: middle-eastern
+protein: chicken
+family: adas-polo
+spice: medium
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 545, carbs: 61, fibre: 9, protein: 40, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 150 g turmeric-cinnamon grilled chicken breast"
+  - "1 cup adas polo (brown rice layered with brown lentils and fried onion)"
+  - "Salad shirazi (cucumber, tomato, red onion, dried mint, lemon)"
+ingredients:
+  - { item: brown rice, qty: 40, unit: g }
+  - { item: brown lentils, qty: 35, unit: g }
+  - { item: chicken breast, qty: 150, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: dried mint, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+steps:
+  - "Cook the brown rice in 3/4 cup salted water with the cinnamon stick, covered, 30 minutes. Simmer the lentils separately 15 minutes until tender; drain."
+  - "Fry the sliced onion in the olive oil until golden; stir in the cumin and half the turmeric, then fold the onion and lentils through the cooked rice. Cover and steam 5 minutes."
+  - "Rub the chicken with the remaining turmeric, pepper, salt and a squeeze of lemon; grill or pan-cook 6 minutes a side and rest before slicing."
+  - "Dice the cucumber, tomato and red onion finely; dress with lemon juice, dried mint and a pinch of salt for the shirazi salad."
+  - "Serve the adas polo with the sliced chicken and the salad."
+swaps:
+  - { for: chicken breast, use: firm white fish fillet, note: "pan-fry 3-4 minutes a side" }
+source: "Adapted from the traditional Persian adas polo"

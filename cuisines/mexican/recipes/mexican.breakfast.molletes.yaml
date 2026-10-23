@@ -1,0 +1,45 @@
+id: mexican.breakfast.molletes
+name: Molletes on wholemeal bread with pico de gallo
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: legume
+family: molletes
+tags: [quick]
+spice: medium
+kidNote: "Keep the jalapeno out of the child's pico de gallo."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Molletes, the Mexico City breakfast of a halved bolillo roll spread with refried beans, topped with cheese, grilled and served with pico de gallo; here on wholemeal bread."
+nutrition: { kcal: 345, carbs: 42, fibre: 11, protein: 20, satFat: 2.3, sugar: 0 }
+components:
+  - "Primary: 2 slices wholemeal bread spread with mashed pinto beans, cheese sprinkled and grilled"
+  - "Pico de gallo (tomato, onion, jalapeno, coriander, lime)"
+  - "Café de olla, unsweetened (coffee with cinnamon)"
+ingredients:
+  - { item: wholemeal bread, qty: 2, unit: pc }
+  - { item: pinto beans (dried), qty: 30, unit: g }
+  - { item: low-fat cheese (grated), qty: 15, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+steps:
+  - "Soak the pinto beans overnight and pressure-cook with salt until very soft (or use beans cooked ahead)."
+  - "Refry lightly: warm the oil, soften half the onion and the garlic, add the beans with a little broth and mash to a thick spread."
+  - "Pico de gallo: dice the tomato, the rest of the onion and the jalapeno; mix with coriander, lime juice and salt."
+  - "Toast the bread, spread thickly with the beans, sprinkle the cheese over and grill 3-4 minutes until it melts."
+  - "Serve the molletes with the pico de gallo spooned on top."
+  - "Café de olla: simmer a cup of water with the cinnamon stick for 3 minutes, stir in the coffee powder, steep, strain; no sugar or piloncillo."
+source: "Adapted from the traditional molletes"

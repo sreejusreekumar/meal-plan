@@ -1,0 +1,45 @@
+id: thai.dinner.khai-toon
+name: Khai Toon (steamed egg & tofu with mushrooms) & bok choy with brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: egg
+family: steamed-egg
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 496, carbs: 47, fibre: 8, protein: 30, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 bowl silky steamed egg with tofu, shiitake and mushrooms"
+  - "Garlic stir-fried bok choy and steamed cabbage"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: tofu (firm), qty: 50, unit: g }
+  - { item: shiitake mushrooms, qty: 50, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spring onion, qty: 0.2, unit: bunch }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: cabbage, qty: 60, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Beat the eggs with 150 ml water, the fish sauce, soy and grated ginger; stir in the small tofu cubes and sliced mushrooms."
+  - "Pour into a heatproof bowl, cover with foil and steam over gentle heat 15-18 minutes until just set."
+  - "Stir-fry the bok choy with the garlic in the oil for 2 minutes; steam the cabbage alongside the egg for the last 5 minutes."
+  - "Top the egg with black pepper, spring onion and coriander. Serve with the greens and 3/4 cup rice."
+swaps:
+  - { for: tofu (firm), use: "prawns (chemmeen)", note: "50 g chopped into the egg" }
+source: "Adapted from the traditional khai toon (Thai steamed egg)."

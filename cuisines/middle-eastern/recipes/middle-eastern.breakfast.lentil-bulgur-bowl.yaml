@@ -1,0 +1,42 @@
+id: middle-eastern.breakfast.lentil-bulgur-bowl
+name: Lentil & bulgur breakfast bowl with a fried egg
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: legume
+family: lentil-bowl
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 365, carbs: 37, fibre: 10, protein: 22, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl brown lentils and bulgur with cumin, baharat and wilted spinach"
+  - "1 egg fried in 1 tsp olive oil"
+  - "50 g low-fat yoghurt and lemon"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: brown lentils, qty: 30, unit: g }
+  - { item: bulgur wheat, qty: 25, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: baharat, qty: 0.25, unit: tsp }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.1, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Rinse the lentils and simmer in water for 15 minutes, then add the bulgur and salt, cover and cook 10 more minutes until both are tender and the water is absorbed."
+  - "Meanwhile, dry-toast the sliced onion in a non-stick pan with a splash of water until browned, then stir in the crushed cumin and baharat and the chopped spinach to wilt."
+  - "Fold the onion and spinach into the lentils and bulgur, season with pepper and lemon juice."
+  - "Fry the egg in the olive oil, sit it on top, add the yoghurt and parsley and serve with unsweetened tea."
+source: "Adapted from the traditional Levantine mujadara"

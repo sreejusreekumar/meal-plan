@@ -1,0 +1,35 @@
+id: mediterranean.snack.pita-triangles-hummus
+name: Toasted wholemeal pita triangles with hummus, green tea
+slot: [snack]
+role: main
+cuisine: mediterranean
+protein: legume
+family: hummus
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 8
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 161, carbs: 21, fibre: 5, protein: 7, satFat: 1, sugar: 0 }
+components:
+  - "Half a wholemeal pita, dry-toasted and cut into triangles"
+  - "2 tablespoons hummus (chickpeas, tahini, lemon, garlic) dusted with paprika"
+  - "Green tea (unsweetened)"
+ingredients:
+  - { item: white chickpeas (chana), qty: 15, unit: g }
+  - { item: tahini, qty: 0.25, unit: tbsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: paprika, qty: 0.1, unit: tsp }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Use chickpeas soaked and boiled earlier in the week (15 g dry gives about 40 g cooked); blend or mash them with the tahini, lemon juice, garlic, salt and a spoon of water to a smooth hummus."
+  - "Toast the half pita in a dry pan or toaster until crisp, cut into triangles."
+  - "Dust the hummus with paprika; steep the green tea bag 2-3 minutes in hot water and serve."
+source: "Adapted from the traditional hummus bi tahini"

@@ -1,0 +1,39 @@
+id: mexican.snack.esquites
+name: Esquites (elote-style corn cup) with lime, chilli and feta
+slot: [snack]
+role: main
+cuisine: mexican
+protein: dairy
+family: elote
+tags: [quick]
+spice: mild
+kidNote: "Serve the child's corn with lime and feta only, no chilli powder."
+packable: false
+prepMinutes: 5
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Esquites, the Mexican street cup of sauteed corn kernels dressed with lime, chilli, crema and crumbled cheese."
+nutrition: { kcal: 135, carbs: 12, fibre: 3, protein: 7, satFat: 1.9, sugar: 0 }
+components:
+  - "Primary: 60 g sweet corn, pan-toasted, with lime, chilli powder and a sprinkle of feta"
+  - "A spoon of yoghurt and toasted pepitas"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: sweet corn (frozen), qty: 60, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: feta, qty: 8, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 20, unit: g }
+  - { item: pumpkin seeds, qty: 8, unit: g }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: green tea bags, qty: 1, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Toast the pumpkin seeds in a dry pan for 2 minutes; set aside."
+  - "In the same dry pan, toast the corn over high heat for 5 minutes until it chars a little at the edges."
+  - "Tip into a cup, stir in the yoghurt, lime juice and salt; top with crumbled feta, chilli powder, coriander and the seeds."
+  - "Steep the green tea 2 minutes; no sugar."
+source: "Adapted from the traditional esquites"

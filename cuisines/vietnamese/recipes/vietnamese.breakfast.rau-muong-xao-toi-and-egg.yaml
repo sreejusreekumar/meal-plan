@@ -1,0 +1,43 @@
+id: vietnamese.breakfast.rau-muong-xao-toi-and-egg
+name: Rau muong xao toi (garlic morning glory) with a boiled egg, tofu and brown rice
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: egg
+family: morning-glory
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 378, carbs: 42, fibre: 6, protein: 20, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 cup morning glory stir-fried with garlic and fish sauce"
+  - "1 boiled egg and 50 g seared tofu"
+  - "50 g brown rice (just under 1 cup cooked) with tomato slices"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: morning glory (water spinach), qty: 0.5, unit: bunch }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: tofu (firm), qty: 50, unit: g }
+  - { item: soy sauce (low-sodium), qty: 0.5, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water, covered, 30 minutes (or make ahead). Boil the egg 8 minutes, cool and peel."
+  - "Wash the morning glory well, trim the tough bottoms and cut the stems and leaves into 8 cm lengths."
+  - "Pat the tofu dry, cut into two slabs and sear in a dry non-stick pan until golden; brush with the soy sauce."
+  - "Heat the oil in a wok until very hot, add the crushed garlic for 10 seconds, then the morning glory; toss 2 minutes until the stems are just tender and still bright green, season with fish sauce."
+  - "Plate the rice with the greens, halved egg, tofu, tomato slices and black pepper. Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: morning glory (water spinach), use: "bok choy", note: "cut into quarters, same timing" }
+source: "Adapted from the traditional rau muong xao toi, with brown rice"

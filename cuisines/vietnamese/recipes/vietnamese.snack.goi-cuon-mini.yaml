@@ -1,0 +1,46 @@
+id: vietnamese.snack.goi-cuon-mini
+name: Goi cuon mini (1 prawn and herb rice paper roll) with lime-fish-sauce dip
+slot: [snack]
+role: main
+cuisine: vietnamese
+protein: fish
+family: goi-cuon
+tags: [quick, no-cook]
+spice: mild
+kidNote: "Serve the child's dip without the chilli slices."
+packable: true
+prepMinutes: 15
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Goi cuon, the southern Vietnamese fresh summer roll: prawn, herbs, lettuce and a little rice vermicelli wrapped in soft rice paper and dipped in nuoc cham."
+nutrition: { kcal: 105, carbs: 17, fibre: 2, protein: 8, satFat: 0, sugar: 0 }
+components:
+  - "Primary: 1 goi cuon - rice paper roll with prawns, lettuce, mint, coriander, cucumber and 10 g brown rice noodles"
+  - "Nuoc cham dip: lime, fish sauce, garlic and chilli, no sugar"
+  - "Hot green tea (unsweetened)"
+ingredients:
+  - { item: rice paper, qty: 1, unit: pc }
+  - { item: prawns (chemmeen), qty: 30, unit: g }
+  - { item: brown rice noodles, qty: 10, unit: g }
+  - { item: cos lettuce, qty: 0.1, unit: pc }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+  - { item: coriander leaves, qty: 0.05, unit: bunch }
+  - { item: cucumber, qty: 0.1, unit: pc }
+  - { item: carrot, qty: 0.1, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: garlic, qty: 2, unit: g }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Boil the prawns 2 minutes, cool and halve lengthways; cook the brown rice noodles 5 minutes, rinse and drain."
+  - "Cut the cucumber and carrot into matchsticks; tear the lettuce leaf to fit."
+  - "Dip the rice paper in warm water for a few seconds and lay it on a damp board. Layer lettuce, noodles, cucumber, carrot, mint and coriander near the bottom, fold the sides in, roll halfway, lay the prawn halves on and finish rolling tightly."
+  - "Mix lime juice, fish sauce, 1 tbsp water, crushed garlic and sliced chilli for the dip (no sugar)."
+  - "Brew the green tea and serve the roll cut in half with the dip."
+swaps:
+  - { for: prawns (chemmeen), use: "tofu (firm)", note: "30 g, seared in strips" }
+source: "Adapted from the traditional goi cuon, with brown rice noodles and a sugar-free nuoc cham"

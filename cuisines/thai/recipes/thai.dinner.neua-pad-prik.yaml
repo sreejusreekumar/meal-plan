@@ -1,0 +1,48 @@
+id: thai.dinner.neua-pad-prik
+name: Neua Pad Prik (lean beef with capsicum & basil) & brown jasmine rice
+slot: [dinner]
+role: main
+cuisine: thai
+protein: beef
+lean: true
+family: beef-basil
+tags: [quick]
+spice: medium
+kidNote: "Stir-fry the beef and vegetables first, plate the child's share, then toss the chillies through for the adults."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 467, carbs: 49, fibre: 8, protein: 38, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 plate lean beef strips stir-fried with capsicum, chilli and Thai basil"
+  - "French beans and mushrooms in the stir-fry"
+  - "3/4 cup brown jasmine rice"
+ingredients:
+  - { item: lean beef strips, qty: 130, unit: g }
+  - { item: capsicum, qty: 0.75, unit: pc }
+  - { item: french beans, qty: 70, unit: g }
+  - { item: mushrooms, qty: 60, unit: g }
+  - { item: thai basil, qty: 0.25, unit: bunch }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: oyster sauce, qty: 1, unit: tsp }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown jasmine rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown jasmine rice (50 g with 1.25 cups water, 30-35 minutes)."
+  - "Toss the beef strips with the soy and black pepper. Slice the capsicum and chillies, cut the beans in 3 cm pieces."
+  - "Heat the oil in a wok until very hot; sear the beef 1-2 minutes and lift out."
+  - "Fry the garlic 20 seconds, add the capsicum, beans and mushrooms; stir-fry 3 minutes with a splash of water."
+  - "Return the beef with the oyster sauce, fish sauce and chillies; toss 1 minute. Fold in the basil and spring onion off the heat; serve with 3/4 cup rice."
+swaps:
+  - { for: lean beef strips, use: "pork tenderloin (lean)", note: "130 g in strips, same timing" }
+source: "Adapted from the traditional neua pad prik / pad kra pao neua, no sugar."

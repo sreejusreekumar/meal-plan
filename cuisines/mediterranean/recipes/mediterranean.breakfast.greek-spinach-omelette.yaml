@@ -1,0 +1,42 @@
+id: mediterranean.breakfast.greek-spinach-omelette
+name: Greek omelette with spinach, olives and feta
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: egg
+family: omelette
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 382, carbs: 25, fibre: 7, protein: 21, satFat: 6, sugar: 0 }
+components:
+  - "Primary: 2-egg omelette folded over spinach, olives, feta and oregano"
+  - "1 slice wholemeal toast"
+  - "Sliced tomato and half an orange"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: olives, qty: 15, unit: g }
+  - { item: feta, qty: 10, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: orange, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.2, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Wash and chop the spinach; slice the onion and olives; crumble the feta."
+  - "Heat the olive oil in a small non-stick pan, soften the onion 2 minutes, add the spinach and wilt it down, then push to one side."
+  - "Beat the eggs with pepper, oregano and a pinch of salt (the feta and olives are salty), pour into the pan and cook on medium-low until nearly set."
+  - "Scatter the spinach, olives and feta over one half, fold and slide onto the plate."
+  - "Serve with the toast, sliced tomato, half an orange and black coffee or tea."
+source: "Adapted from the Greek omeleta me spanaki kai feta"

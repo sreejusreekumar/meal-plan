@@ -1,0 +1,38 @@
+id: mediterranean.breakfast.tomato-basil-bruschetta
+name: Tomato and basil bruschetta on wholemeal with boiled eggs
+slot: [breakfast]
+role: main
+cuisine: mediterranean
+protein: egg
+family: bruschetta
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Bruschetta al pomodoro, grilled bread rubbed with garlic and topped with chopped tomato, basil and olive oil, from central Italy."
+nutrition: { kcal: 380, carbs: 33, fibre: 6, protein: 21, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 2 slices wholemeal bruschetta with tomato, basil and garlic"
+  - "2 boiled eggs"
+  - "Black coffee or unsweetened tea"
+ingredients:
+  - { item: wholemeal bread, qty: 2, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: basil, qty: 0.1, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+steps:
+  - "Boil the eggs 8-9 minutes, cool under the tap and peel."
+  - "Dice the tomato and red onion, tear the basil, and mix with half the olive oil, salt and pepper; let it sit 5 minutes."
+  - "Toast or grill the bread until crisp, then rub one side with the cut garlic clove."
+  - "Pile the tomato mixture onto the toast, drizzle the rest of the oil over and serve with the halved eggs and black coffee or tea."
+source: "Adapted from the traditional bruschetta al pomodoro"

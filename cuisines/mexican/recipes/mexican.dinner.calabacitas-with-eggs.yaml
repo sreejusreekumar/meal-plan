@@ -1,0 +1,47 @@
+id: mexican.dinner.calabacitas-with-eggs
+name: Calabacitas (zucchini, corn & tomato) with eggs, black beans & a corn tortilla
+slot: [dinner]
+role: main
+cuisine: mexican
+protein: egg
+family: calabacitas
+tags: [quick]
+spice: medium
+kidNote: "Leave the jalapeno out of the child's side of the pan; it goes in with the onion, so cook theirs first."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 505, carbs: 51, fibre: 13, protein: 28, satFat: 4, sugar: 0 }
+components:
+  - "Primary: Calabacitas (zucchini, sweet corn, tomato and onion) with 2 eggs cooked into it"
+  - "Black beans with cumin"
+  - "1 corn tortilla, warmed"
+ingredients:
+  - { item: zucchini, qty: 1, unit: pc }
+  - { item: sweet corn (frozen), qty: 50, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: jalapeno, qty: 0.5, unit: pc }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: black beans (dried), qty: 40, unit: g }
+  - { item: corn tortilla, qty: 1, unit: pc }
+  - { item: dried oregano, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the soaked black beans with salt and half the cumin until soft; keep warm in a little of their liquid."
+  - "Soften the chopped onion, garlic and jalapeno in the oil; add the diced zucchini, corn and tomato with oregano, the rest of the cumin, salt and pepper. Cook 8 minutes until the zucchini is tender."
+  - "Make two hollows in the vegetables, crack in the eggs, cover and cook 4-5 minutes until the whites set."
+  - "Warm the tortilla on a dry pan. Serve the beans and calabacitas with the eggs, coriander and lime on top, tortilla alongside."
+swaps:
+  - { for: zucchini, use: "pumpkin", note: "200 g diced, cook 5 minutes longer" }
+source: "Adapted from the traditional calabacitas con elote"

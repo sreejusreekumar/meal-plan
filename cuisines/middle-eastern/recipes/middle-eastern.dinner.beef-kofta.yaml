@@ -1,0 +1,52 @@
+id: middle-eastern.dinner.beef-kofta
+name: Baked beef kofta with salad, minted yoghurt & pita
+slot: [dinner]
+role: main
+cuisine: middle-eastern
+protein: beef
+lean: true
+family: kofta
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kofta, the Levantine and Turkish spiced minced-meat skewers, made here with lean beef and baked rather than grilled over fat."
+nutrition: { kcal: 485, carbs: 47, fibre: 10, protein: 39, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 3 baked lean beef kofta with parsley and baharat"
+  - "Chopped salad with sumac"
+  - "Minted yoghurt (50 g)"
+  - "1 wholemeal pita"
+ingredients:
+  - { item: lean beef mince, qty: 150, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: parsley, qty: 0.25, unit: bunch }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: baharat, qty: 0.5, unit: tsp }
+  - { item: allspice, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: sumac, qty: 0.5, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: dried mint, qty: 0.25, unit: tsp }
+steps:
+  - "Grate the onion and squeeze out the juice; knead into the beef mince with most of the chopped parsley, crushed garlic, baharat, allspice, crushed cumin, pepper and salt until sticky."
+  - "Shape into 3 oval kofta around skewers (or free-form); rest 10 minutes in the fridge."
+  - "Bake on a lined tray at 220C for 15-18 minutes, turning once, until browned and cooked through."
+  - "Chop the tomato, cucumber, red onion, lettuce, mint and remaining parsley; dress with lemon juice, sumac and a pinch of salt. Stir the dried mint into the yoghurt."
+  - "Warm the pita and serve the kofta on the salad with the yoghurt alongside."
+swaps:
+  - { for: lean beef mince, use: chicken mince, note: "add 1 tsp olive oil to the mix so it stays moist" }
+source: "Adapted from the traditional Levantine kofta"

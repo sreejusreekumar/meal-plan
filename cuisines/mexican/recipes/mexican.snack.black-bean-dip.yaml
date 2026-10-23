@@ -1,0 +1,38 @@
+id: mexican.snack.black-bean-dip
+name: Black bean dip with capsicum sticks and green tea
+slot: [snack]
+role: main
+cuisine: mexican
+protein: legume
+family: bean-dip
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 120, carbs: 13, fibre: 6, protein: 7, satFat: 0.6, sugar: 0 }
+components:
+  - "Primary: 1/4 cup smoky black bean dip with cumin, garlic and lime"
+  - "Capsicum sticks for scooping"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: black beans (dried), qty: 25, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: smoked paprika, qty: 0.25, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Use 1/4 cup of beans cooked earlier in the week (frijoles de la olla); if cooking fresh, soak overnight and pressure-cook ahead."
+  - "Warm the oil with the cumin and garlic for 1 minute, add the beans with a splash of their broth and the smoked paprika; heat 3 minutes."
+  - "Mash or blend with lime juice and salt to a thick dip; stir in the coriander."
+  - "Cut the capsicum into sticks; steep the green tea 2 minutes, no sugar."
+source: "Adapted from Mexican frijoles machacados"

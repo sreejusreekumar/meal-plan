@@ -1,0 +1,46 @@
+id: korean.dinner.haemul-tang
+name: Haemul Tang (Spicy Seafood Soup) with Daikon & Brown Rice
+slot: [dinner]
+role: main
+cuisine: korean
+protein: fish
+family: haemul-tang
+spice: medium
+kidNote: "Ladle the child's prawns, fish and vegetables out of the doenjang broth before the gochugaru is added."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 475, carbs: 50, fibre: 10, protein: 39, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl haemul tang (prawns, white fish, daikon, napa cabbage, zucchini and bean sprouts in gochugaru-doenjang broth)"
+  - "Small bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: prawns (chemmeen), qty: 80, unit: g }
+  - { item: firm white fish fillet, qty: 80, unit: g }
+  - { item: daikon radish, qty: 0.25, unit: pc }
+  - { item: napa cabbage (wombok), qty: 100, unit: g }
+  - { item: zucchini, qty: 0.5, unit: pc }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: gochugaru (korean chilli flakes), qty: 1, unit: tsp }
+  - { item: doenjang, qty: 0.5, unit: tbsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: kimchi, qty: 40, unit: g }
+  - { item: brown rice, qty: 50, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Bring 400 ml water to a boil with the daikon in thin half-moons, the crushed garlic, ginger and the doenjang; simmer 8 minutes until the daikon is translucent."
+  - "Add the napa cabbage in wide pieces, the zucchini in chunks, the gochugaru and soy sauce; simmer 4 minutes."
+  - "Add the fish in large pieces, then the prawns and bean sprouts; simmer 3-4 minutes until just cooked. Do not stir hard or the fish breaks."
+  - "Finish with spring onion and the sesame oil; serve with the kimchi and the small bowl of rice."
+swaps:
+  - { for: firm white fish fillet, use: "squid", note: "80 g rings, last 2 minutes" }
+source: "Adapted from the traditional haemul tang"

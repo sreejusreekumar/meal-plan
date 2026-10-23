@@ -1,0 +1,47 @@
+id: mexican.lunch.pozole-verde
+name: Pozole-style green chicken soup with corn, cabbage & radish
+slot: [lunch]
+role: main
+cuisine: mexican
+protein: chicken
+family: pozole
+spice: medium
+kidNote: "Blend the green chilli separately and stir it into the adults' bowls only."
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pozole verde, the Guerrero-style celebration soup of hominy corn and chicken in a green chilli and pumpkin seed broth, topped with cabbage, radish and lime."
+nutrition: { kcal: 535, carbs: 50, fibre: 11, protein: 36, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 large bowl green chicken and sweet corn pozole"
+  - "Shredded cabbage, radish, coriander and lime toppings"
+  - "2 corn tortillas, baked crisp"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 130, unit: g }
+  - { item: sweet corn (frozen), qty: 100, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: radish, qty: 2, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 1, unit: pc }
+  - { item: pumpkin seeds, qty: 10, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: dried oregano, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: corn tortilla, qty: 2, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Simmer the chicken thigh in 500 ml water with half the onion, the garlic, oregano and salt for 20 minutes; lift out, shred, and keep the broth."
+  - "Toast the pumpkin seeds and cumin in a dry pan; blend with the green chilli, the rest of the onion, half the coriander and a ladle of broth to a smooth green paste."
+  - "Fry the paste in 1 tsp oil 3 minutes, pour in the broth, add the sweet corn and shredded chicken and simmer 10 minutes."
+  - "Bake the corn tortillas at 200 C for 6-8 minutes until crisp (tostadas)."
+  - "Serve the soup topped with finely shredded cabbage, sliced radish, coriander and a wedge of lime, tostadas alongside. For a lunchbox carry the soup hot in a flask and the toppings separately."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: "simmer 15 minutes only" }
+source: "Adapted from the traditional pozole verde"

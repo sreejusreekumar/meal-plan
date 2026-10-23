@@ -1,0 +1,44 @@
+id: korean.breakfast.dubu-kimchi
+name: Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: legume
+family: dubu-kimchi
+tags: [quick]
+spice: medium
+kidNote: "Stir-fry a spoon of rinsed kimchi separately for the child, or give them the tofu with bean sprouts and a dab of soy."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 369, carbs: 41, fibre: 6, protein: 19, satFat: 2, sugar: 0 }
+components:
+  - "Primary: dubu kimchi (warm tofu slices with stir-fried kimchi and spring onion)"
+  - "1 small bowl brown rice (45 g uncooked)"
+  - "Blanched bean sprouts with sesame"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: kimchi, qty: 100, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: spring onion, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: sesame seeds, qty: 0.5, unit: tsp }
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice (45 g uncooked) or reheat rice from the night before."
+  - "Slice the tofu into thick slabs and warm them 3 minutes in simmering salted water; drain on a plate."
+  - "Blanch the bean sprouts 3 minutes in the same water, drain and toss with a pinch of salt and the sesame seeds."
+  - "Heat the rice bran oil, fry the garlic and sliced spring onion 30 seconds, add the chopped kimchi with a spoon of its juice and stir-fry 4-5 minutes until glossy; finish with the sesame oil."
+  - "Pile the kimchi beside the tofu and serve with the rice and bean sprouts; pour the barley tea."
+swaps:
+  - { for: bean sprouts, use: "cucumber", note: "0.5 pc sliced, dressed with rice vinegar" }
+source: "Adapted from the traditional dubu kimchi"

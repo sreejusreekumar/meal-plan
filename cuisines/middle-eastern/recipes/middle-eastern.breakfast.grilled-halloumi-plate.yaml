@@ -1,0 +1,43 @@
+id: middle-eastern.breakfast.grilled-halloumi-plate
+name: Grilled halloumi with tomato, cucumber & boiled egg
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: dairy
+family: halloumi
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 370, carbs: 32, fibre: 7, protein: 20, satFat: 7, sugar: 0 }
+components:
+  - "Primary: 30 g halloumi, dry-grilled, with zaatar and lemon"
+  - "1 hard-boiled egg"
+  - "Tomato, cucumber, olives and mint"
+  - "1 wholemeal pita"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: halloumi, qty: 30, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: olives, qty: 15, unit: g }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: zaatar, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+  - { item: black pepper, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Boil the egg for 10 minutes, cool, peel and halve."
+  - "Slice the halloumi thinly and grill it in a dry non-stick pan 1-2 minutes a side until golden."
+  - "Slice the tomato and cucumber, add the olives and mint, and season with pepper and a squeeze of lemon."
+  - "Sprinkle the halloumi with zaatar and serve with the egg, salad and a warmed pita; brew the tea unsweetened."
+swaps:
+  - { for: halloumi, use: feta, note: "25 g, crumbled, not grilled" }
+source: "Adapted from the Cypriot and Levantine halloumi breakfast"

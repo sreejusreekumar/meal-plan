@@ -1,0 +1,40 @@
+id: japanese.breakfast.edamame-egg-soy-bowl
+name: Edamame & Egg Soy Bowl on Brown Rice
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: legume
+family: edamame-bowl
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 372, carbs: 41, fibre: 7, protein: 19, satFat: 2.4, sugar: 0 }
+components:
+  - "Primary: Edamame and a soft-boiled egg on brown rice (45 g uncooked) with ginger-soy and sesame oil"
+  - "Cucumber slices, spring onion and shredded nori"
+  - "Green tea"
+ingredients:
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: edamame (frozen), qty: 70, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water, about 30 minutes."
+  - "Boil the edamame 4 minutes, drain and pop the beans from the pods. Soft-boil the egg 6.5 minutes, cool and peel."
+  - "Mix the soy, sesame oil and grated ginger for the dressing."
+  - "Pile the edamame on the rice, halve the egg on top, spoon over the dressing and scatter with toasted sesame, sliced cucumber, spring onion and shredded nori."
+  - "Serve with a cup of green tea."
+source: "A Japanese-style home breakfast bowl in place of natto gohan"

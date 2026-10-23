@@ -1,0 +1,42 @@
+id: middle-eastern.breakfast.labneh-plate
+name: Labneh plate with zaatar, olives & half pita
+slot: [breakfast]
+role: main
+cuisine: middle-eastern
+protein: dairy
+family: labneh
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Labneh, yoghurt strained overnight into a thick, tangy spread eaten with zaatar and olive oil, the everyday Levantine breakfast."
+nutrition: { kcal: 365, carbs: 30, fibre: 5, protein: 21, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 100 g labneh (strained low-fat yoghurt) with zaatar and a drizzle of olive oil"
+  - "1 hard-boiled egg"
+  - "Olives, cucumber and tomato"
+  - "Half a wholemeal pita"
+  - "Black tea or Turkish-style unsweetened tea"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 200, unit: g }
+  - { item: zaatar, qty: 1, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: olives, qty: 20, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: wholemeal pita, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.05, unit: bunch }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "The night before, stir a pinch of salt into the yoghurt and hang it in a muslin or coffee filter over a bowl in the fridge; by morning it is thick labneh."
+  - "Boil the egg for 10 minutes, cool and peel."
+  - "Spread the labneh on the plate, sprinkle with zaatar and drizzle with the olive oil."
+  - "Arrange the olives, cucumber slices, tomato wedges and mint around it with the halved egg and half a warmed pita; brew the tea unsweetened."
+source: "Adapted from the traditional Levantine labneh breakfast"

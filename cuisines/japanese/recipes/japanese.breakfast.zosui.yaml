@@ -1,0 +1,43 @@
+id: japanese.breakfast.zosui
+name: Zosui (Rice & Egg Soup with Vegetables)
+slot: [breakfast]
+role: main
+cuisine: japanese
+protein: egg
+family: zosui
+tags: [comfort]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 354, carbs: 39, fibre: 6, protein: 20, satFat: 2.2, sugar: 0 }
+components:
+  - "Primary: 1 bowl zosui (brown rice, 45 g uncooked, simmered in dashi with carrot, shiitake, spinach and tofu, finished with egg)"
+  - "Shredded nori and spring onion on top"
+  - "Green tea"
+ingredients:
+  - { item: brown rice, qty: 45, unit: g }
+  - { item: kombu, qty: 2, unit: g }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: shiitake mushrooms, qty: 30, unit: g }
+  - { item: tofu (firm), qty: 60, unit: g }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: spring onion, qty: 0.1, unit: bunch }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Cook the brown rice with 1.5 times its volume of water, about 30 minutes (leftover cooked brown rice works best)."
+  - "Make dashi from the kombu and bonito in 450 ml water; strain and return to the pot."
+  - "Simmer the diced carrot, sliced shiitake and grated ginger in the dashi 5 minutes; add the cooked rice and cubed tofu and simmer 5 minutes more until soupy."
+  - "Season with soy and salt, add the chopped spinach, then drizzle in the beaten egg and let it set for 1 minute without stirring."
+  - "Serve topped with spring onion and shredded nori, with a cup of green tea."
+source: "Adapted from the traditional zosui"

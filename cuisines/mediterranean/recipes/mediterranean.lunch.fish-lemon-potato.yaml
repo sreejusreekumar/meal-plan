@@ -1,0 +1,46 @@
+id: mediterranean.lunch.fish-lemon-potato
+name: Grilled fish with Greek lemon potato & chickpea salad
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: fish
+family: fish-potato
+spice: mild
+packable: false
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 525, carbs: 54, fibre: 11, protein: 39, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 130 g grilled white fish with lemon, garlic and oregano"
+  - "1 potato roasted Greek-style with lemon and oregano"
+  - "Chickpea, cos, tomato and cucumber salad with 20 g feta"
+ingredients:
+  - { item: firm white fish fillet, qty: 130, unit: g }
+  - { item: potato, qty: 1, unit: pc }
+  - { item: white chickpeas (chana), qty: 40, unit: g }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: dried oregano, qty: 1, unit: tsp }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: feta, qty: 20, unit: g }
+  - { item: red wine vinegar, qty: 1, unit: tsp }
+  - { item: dill, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Heat the oven to 200 C. Cut the potato into wedges and toss with half the olive oil, half the lemon juice, half the oregano, the garlic, salt and a splash of water; roast 30-35 minutes until golden and the lemony liquid has gone."
+  - "Cook the chickpeas from the week's soaked batch until tender; drain."
+  - "Toss the chickpeas with shredded cos, diced tomato, cucumber and red onion, the vinegar, dill and pepper; crumble the feta over."
+  - "Rub the fish with the remaining oregano, lemon and olive oil, salt and pepper; grill or pan-sear 3-4 minutes a side."
+  - "Plate salad first, then fish and the lemon potatoes."
+swaps:
+  - { for: firm white fish fillet, use: mackerel (ayala), note: "1 whole fish, grilled" }
+source: "Adapted from Greek patates lemonates with grilled fish"

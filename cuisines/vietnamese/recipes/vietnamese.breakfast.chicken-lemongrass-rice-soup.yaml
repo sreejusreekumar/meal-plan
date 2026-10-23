@@ -1,0 +1,49 @@
+id: vietnamese.breakfast.chicken-lemongrass-rice-soup
+name: Chicken and lemongrass rice soup with bok choy
+slot: [breakfast]
+role: main
+cuisine: vietnamese
+protein: chicken
+family: lemongrass-soup
+tags: [soup, one-pot]
+spice: medium
+kidNote: "Keep the red chilli out of the pot and offer it on the side; the child's bowl gets lemongrass and lime only."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 345, carbs: 42, fibre: 7, protein: 22, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl lemongrass, ginger and chicken broth with brown rice"
+  - "Bok choy, mushrooms and tomato in the soup"
+  - "Coriander, chilli and lime to finish"
+  - "Tra da (iced green tea, unsweetened)"
+ingredients:
+  - { item: chicken breast, qty: 50, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: ginger, qty: 4, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: brown rice, qty: 50, unit: g }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: bok choy, qty: 0.5, unit: bunch }
+  - { item: fish sauce, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: red chilli (fresh), qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Bruise the lemongrass stalk and cut it into 5 cm pieces; slice the ginger, garlic and shallots."
+  - "Heat the oil in a pot, soften the shallots, garlic and ginger 2 minutes, add the lemongrass, rinsed brown rice and 600 ml water; simmer 25 minutes."
+  - "Add the diced chicken, chopped tomato and sliced mushrooms; simmer 8 minutes until the chicken is cooked and the rice tender."
+  - "Add the bok choy (quartered) for the last 2 minutes; season with fish sauce and salt, fish out the lemongrass."
+  - "Serve with coriander, sliced red chilli and a squeeze of lime. Brew the green tea, cool and pour over ice."
+swaps:
+  - { for: chicken breast, use: "prawns (chemmeen)", note: "add for the last 3 minutes" }
+source: "A home-style Vietnamese chicken and lemongrass soup (canh ga sa) thickened with brown rice"

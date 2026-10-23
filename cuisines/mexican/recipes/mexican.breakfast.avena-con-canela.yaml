@@ -1,0 +1,36 @@
+id: mexican.breakfast.avena-con-canela
+name: Avena (oats) with cinnamon, banana and pepitas
+slot: [breakfast]
+role: main
+cuisine: mexican
+protein: dairy
+family: oats
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 370, carbs: 43, fibre: 7, protein: 17, satFat: 2.6, sugar: 0 }
+components:
+  - "Primary: 1 bowl rolled oats cooked with a cinnamon stick"
+  - "1/2 cup yoghurt stirred through"
+  - "Half a banana and toasted pumpkin seeds on top"
+  - "Café de olla, unsweetened (coffee with cinnamon)"
+ingredients:
+  - { item: rolled oats, qty: 40, unit: g }
+  - { item: cinnamon stick, qty: 0.75, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: pumpkin seeds, qty: 20, unit: g }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: coffee powder, qty: 1, unit: tsp }
+steps:
+  - "Simmer the oats with half the cinnamon stick, a pinch of salt and 1 cup water for 6-8 minutes, stirring, until thick."
+  - "Toast the pumpkin seeds in a dry pan for 2 minutes."
+  - "Take the oats off the heat, stir in the yoghurt and top with sliced banana and the seeds; no sugar, the banana is the sweetness."
+  - "Café de olla: simmer a cup of water with the rest of the cinnamon stick for 3 minutes, stir in the coffee, steep and strain; no sugar."
+source: "Adapted from Mexican avena con canela"

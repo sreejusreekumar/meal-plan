@@ -1,0 +1,42 @@
+id: japanese.lunch.salmon-edamame-bowl
+name: Grilled Salmon Flake Bowl with Edamame & Cucumber
+slot: [lunch]
+role: main
+cuisine: japanese
+protein: fish
+family: salmon-bowl
+tags: [quick, no-reheat]
+spice: mild
+packable: true
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 537, carbs: 57, fibre: 9, protein: 34, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 100 g grilled salmon, flaked, over 1 small bowl brown rice (60 g uncooked)"
+  - "Edamame, cucumber and carrot with pickled-style ginger"
+  - "Nori, sesame and soy-vinegar dressing"
+ingredients:
+  - { item: salmon fillet, qty: 100, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: edamame (frozen), qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: nori sheets, qty: 1, unit: pc }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 2, unit: tsp }
+  - { item: rice vinegar, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest) and season while warm with half the rice vinegar."
+  - "Salt the salmon lightly and grill or pan-grill in a dry non-stick pan 4 minutes skin side, 2 minutes flesh side; cool and flake, discarding the skin if you prefer."
+  - "Boil the edamame 4 minutes. Dice the cucumber, cut the carrot into matchsticks and slice the ginger paper-thin, tossing it in the remaining vinegar."
+  - "Mix the soy with 1 teaspoon water for the dressing."
+  - "Build the bowl: rice, then the vegetables and edamame in sections, salmon flakes in the middle, shredded nori and toasted sesame on top; pack the dressing separately."
+swaps:
+  - { for: salmon fillet, use: "tuna (choora)", note: "120 g, sear and flake" }
+source: "Inspired by the Japanese sake flake donburi, built as a lunchbox bowl"

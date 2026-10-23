@@ -1,0 +1,43 @@
+id: japanese.dinner.nasu-dengaku
+name: Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice
+slot: [dinner]
+role: main
+cuisine: japanese
+protein: legume
+family: dengaku
+tags: [vegetarian]
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 498, carbs: 47, fibre: 12, protein: 30, satFat: 3, sugar: 2 }
+components:
+  - "Primary: 150 g eggplant grilled with miso-mirin glaze and sesame, and 120 g seared tofu"
+  - "Spinach ohitashi with bonito"
+  - "Small bowl brown rice (45 g uncooked)"
+ingredients:
+  - { item: brinjal (eggplant), qty: 150, unit: g }
+  - { item: miso paste, qty: 1, unit: tbsp }
+  - { item: mirin, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 1, unit: tsp }
+  - { item: sesame seeds, qty: 1, unit: tsp }
+  - { item: tofu (firm), qty: 120, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: bonito flakes, qty: 2, unit: g }
+  - { item: brown rice, qty: 45, unit: g }
+steps:
+  - "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest)."
+  - "Halve the eggplant lengthwise, score the flesh in a diamond pattern, brush with the sesame oil and grill or bake at 220 C for 15 minutes until soft."
+  - "Mix the miso with the mirin and 1 teaspoon water, spread over the eggplant and grill 3 minutes more until bubbling; scatter the sesame seeds."
+  - "Press the tofu, cut into two slabs and sear in the dry non-stick pan (the eggplant's oil is enough) 4 minutes a side; top with grated ginger."
+  - "Blanch the spinach 30 seconds, squeeze, cut and dress with the soy and bonito flakes."
+  - "Serve the spinach first, then the eggplant and tofu, with the small bowl of rice."
+swaps:
+  - { for: brinjal (eggplant), use: pumpkin, note: "150 g slices, bake 20 minutes" }
+source: "Adapted from the traditional nasu dengaku, with mirin measured and no sugar"

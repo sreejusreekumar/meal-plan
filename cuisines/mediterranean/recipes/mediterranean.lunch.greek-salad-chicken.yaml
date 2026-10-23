@@ -1,0 +1,49 @@
+id: mediterranean.lunch.greek-salad-chicken
+name: Greek salad with grilled chicken & wholemeal pita
+slot: [lunch]
+role: main
+cuisine: mediterranean
+protein: chicken
+family: greek-salad
+tags: [quick]
+spice: mild
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Horiatiki, the Greek village salad of tomato, cucumber, onion, olives and feta dressed with olive oil and oregano."
+nutrition: { kcal: 545, carbs: 55, fibre: 13, protein: 38, satFat: 4, sugar: 0 }
+components:
+  - "Primary: Horiatiki salad with chickpeas (tomato, cucumber, capsicum, red onion, olives, 15 g feta)"
+  - "100 g grilled oregano-lemon chicken breast, sliced"
+  - "1 wholemeal pita, warmed"
+ingredients:
+  - { item: chicken breast, qty: 100, unit: g }
+  - { item: white chickpeas (chana), qty: 30, unit: g }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: red onion, qty: 0.25, unit: pc }
+  - { item: olives, qty: 15, unit: g }
+  - { item: feta, qty: 15, unit: g }
+  - { item: extra virgin olive oil, qty: 1, unit: tsp }
+  - { item: red wine vinegar, qty: 1, unit: tsp }
+  - { item: dried oregano, qty: 1, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: wholemeal pita, qty: 1, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+steps:
+  - "Soak the chickpeas overnight and boil until tender (or use the week's batch); drain and cool."
+  - "Rub the chicken breast with lemon juice, crushed garlic, half the oregano, salt and pepper; grill or pan-sear 6-7 minutes a side until cooked through, rest and slice."
+  - "Cut the tomato into wedges, the cucumber and capsicum into chunks and the red onion into thin slivers; toss with the chickpeas and olives."
+  - "Dress with the olive oil, red wine vinegar, the remaining oregano and a pinch of salt; crumble the feta over."
+  - "Warm the pita. Plate the salad first, the sliced chicken on top, pita on the side. For a lunchbox pack the dressing and pita separately."
+swaps:
+  - { for: chicken breast, use: "chicken thigh (boneless)", note: "same timing" }
+  - { for: white chickpeas (chana), use: cannellini beans }
+source: "Adapted from the traditional Greek horiatiki with grilled chicken"

@@ -1,0 +1,35 @@
+id: vietnamese.snack.khoai-lang-nuong-lime
+name: Khoai lang nuong (roasted sweet potato) with lime and peanut salt, black tea
+slot: [snack]
+role: main
+cuisine: vietnamese
+protein: legume
+family: sweet-potato
+tags: []
+spice: mild
+packable: true
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 165, carbs: 24, fibre: 5, protein: 5, satFat: 1, sugar: 0 }
+components:
+  - "Primary: half a sweet potato roasted in wedges with lime"
+  - "10 g peanut salt (muoi dau phong) for dipping"
+  - "Hot black tea (unsweetened)"
+ingredients:
+  - { item: sweet potato, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Scrub the sweet potato, cut the half into wedges and roast on a tray at 220 C (or in an air fryer) for 15 minutes until soft and lightly charred, no oil."
+  - "Dry-roast the peanuts 3 minutes, cool and crush with the salt."
+  - "Squeeze the lime over the hot wedges and dip them in the peanut salt."
+  - "Brew the black tea and serve it hot, unsweetened."
+swaps:
+  - { for: peanuts, use: "cashews", note: same quantity }
+source: "Adapted from khoai lang nuong, the Vietnamese winter street snack of sweet potato roasted over coals"

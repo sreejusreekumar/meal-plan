@@ -1,0 +1,31 @@
+id: mexican.snack.almendras-con-canela
+name: Almonds with half a banana and cinnamon tea
+slot: [snack]
+role: main
+cuisine: mexican
+protein: none
+family: almonds
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 2
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 160, carbs: 13, fibre: 4, protein: 5, satFat: 0.9, sugar: 0 }
+components:
+  - "Primary: 20 g dry-roasted almonds"
+  - "Half a banana"
+  - "Té de canela (cinnamon tea), unsweetened"
+ingredients:
+  - { item: almonds, qty: 20, unit: g }
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.1, unit: tsp }
+steps:
+  - "Simmer the cinnamon stick in a cup of water for 5 minutes; no sugar."
+  - "Dry-roast the almonds in a pan for 3 minutes until fragrant; a pinch of salt."
+  - "Serve with half a banana, sliced."
+source: "Mexican-style té de canela with nuts"

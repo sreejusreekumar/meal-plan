@@ -1,0 +1,46 @@
+id: korean.lunch.ojingeo-bokkeum
+name: Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice
+slot: [lunch]
+role: main
+cuisine: korean
+protein: fish
+family: squid
+tags: [quick, packable]
+spice: medium
+kidNote: "Stir-fry a few squid rings and vegetables with soy and garlic only before the gochujang and gochugaru go into the pan."
+packable: true
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 64, fibre: 9, protein: 32, satFat: 2, sugar: 1 }
+components:
+  - "Primary: 150 g spicy squid stir-fry with onion, carrot and cabbage"
+  - "1 small bowl brown rice"
+  - "Kimchi"
+ingredients:
+  - { item: squid, qty: 150, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: cabbage, qty: 80, unit: g }
+  - { item: gochujang, qty: 0.33, unit: tbsp }
+  - { item: gochugaru (korean chilli flakes), qty: 1, unit: tsp }
+  - { item: soy sauce (low-sodium), qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: sesame oil, qty: 0.5, unit: tsp }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: kimchi, qty: 50, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10."
+  - "Score the squid body in a diamond pattern and cut into bite-size pieces; pat very dry. Mix the gochujang, gochugaru, soy sauce, crushed garlic and ginger into a paste."
+  - "Heat the rice bran oil in a wide pan until smoking; stir-fry the onion, carrot and cabbage 3 minutes."
+  - "Add the squid and the paste and toss over the highest heat for 2-3 minutes only, until the squid curls and turns opaque."
+  - "Finish with spring onion and the sesame oil; serve with kimchi and the small bowl of rice."
+swaps:
+  - { for: squid, use: "prawns (chemmeen)", note: "same timing" }
+source: "Adapted from the traditional ojingeo bokkeum"

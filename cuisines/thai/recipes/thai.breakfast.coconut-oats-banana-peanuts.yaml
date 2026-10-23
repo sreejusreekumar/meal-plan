@@ -1,0 +1,38 @@
+id: thai.breakfast.coconut-oats-banana-peanuts
+name: Oats in thin coconut milk with banana and peanuts, boiled egg
+slot: [breakfast]
+role: main
+cuisine: thai
+protein: egg
+family: oats
+tags: [quick, no-chilli]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 370, carbs: 37, fibre: 7, protein: 16, satFat: 4.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl rolled oats cooked in water with a spoon of coconut milk, pinch of salt"
+  - "Half a banana sliced on top with roasted peanuts"
+  - "1 hard-boiled egg"
+  - "Hot lemongrass tea, unsweetened"
+ingredients:
+  - { item: rolled oats, qty: 40, unit: g }
+  - { item: coconut milk (canned), qty: 10, unit: ml }
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: lemongrass, qty: 1, unit: pc }
+steps:
+  - "Put the egg in boiling water for 9 minutes; cool, peel and halve."
+  - "Simmer the oats in 1 cup of water with the salt for 5 minutes, stirring; stir in the coconut milk at the end so it stays thin and fragrant, not rich."
+  - "Dry-roast the peanuts in a small pan 3 minutes and crush them coarsely."
+  - "Top the oats with sliced banana and the peanuts; serve the egg alongside with lemongrass tea steeped 5 minutes."
+swaps:
+  - { for: banana, use: "green papaya", note: "shredded raw, for a lower-sugar bowl" }
+source: "A Thai-flavoured oat bowl: coconut, banana and peanuts without palm sugar."

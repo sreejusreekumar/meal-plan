@@ -1,0 +1,39 @@
+id: korean.breakfast.oats-with-nashi-and-walnuts
+name: Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg
+slot: [breakfast]
+role: main
+cuisine: korean
+protein: dairy
+family: oats
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 378, carbs: 39, fibre: 8, protein: 18, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl rolled oats (35 g) simmered with a cinnamon stick, topped with low-fat yoghurt"
+  - "Half a nashi pear, sliced, and walnuts (10 g)"
+  - "1 boiled egg"
+  - "Roasted barley tea (boricha)"
+ingredients:
+  - { item: rolled oats, qty: 35, unit: g }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: nashi pear, qty: 0.5, unit: pc }
+  - { item: walnuts, qty: 10, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: salt, qty: 0.1, unit: tsp }
+  - { item: roasted barley tea bags, qty: 1, unit: pc }
+steps:
+  - "Boil the egg 9 minutes, cool under the tap and peel."
+  - "Simmer the oats with 200 ml water, the piece of cinnamon stick and a pinch of salt for 6-8 minutes, stirring, until creamy; remove the cinnamon."
+  - "Slice the nashi pear thinly and roughly chop the walnuts."
+  - "Spoon the yoghurt over the oats, top with the pear and walnuts, and serve with the egg and the barley tea."
+swaps:
+  - { for: walnuts, use: "almonds", note: "same weight" }
+source: "Household oats breakfast with the Korean nashi-pear-and-cinnamon pairing (sujeonggwa flavours)"

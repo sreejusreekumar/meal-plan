@@ -1,0 +1,36 @@
+id: mexican.snack.pepitas-con-limon
+name: Roasted pepitas with lime and chilli, cinnamon tea
+slot: [snack]
+role: main
+cuisine: mexican
+protein: none
+family: pepitas
+tags: [quick]
+spice: mild
+kidNote: "Roast a spoonful of the child's pepitas with lime and salt only, no chilli powder."
+packable: false
+prepMinutes: 5
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pepitas, the toasted pumpkin seeds eaten as a snack across Mexico, often with lime and chilli."
+nutrition: { kcal: 140, carbs: 8, fibre: 2, protein: 6, satFat: 1.8, sugar: 0 }
+components:
+  - "Primary: 20 g pumpkin seeds toasted with lime, chilli and salt"
+  - "A few pineapple pieces"
+  - "Té de canela (cinnamon tea), unsweetened"
+ingredients:
+  - { item: pumpkin seeds, qty: 20, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: pineapple, qty: 50, unit: g }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+steps:
+  - "Simmer the cinnamon stick in a cup of water for 5 minutes for the tea; no sugar."
+  - "Toast the pumpkin seeds in a dry pan over medium heat for 3-4 minutes until they puff and pop."
+  - "Off the heat, squeeze the lime over, sprinkle with chilli powder and salt and toss until dry."
+  - "Serve with the pineapple cut into small pieces."
+source: "Adapted from Mexican pepitas con limón y chile"

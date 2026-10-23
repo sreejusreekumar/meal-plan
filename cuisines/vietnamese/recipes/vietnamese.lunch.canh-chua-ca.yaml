@@ -1,0 +1,48 @@
+id: vietnamese.lunch.canh-chua-ca
+name: Canh Chua Ca Sour Fish Soup & Brown Rice
+slot: [lunch]
+role: main
+cuisine: vietnamese
+protein: fish
+family: canh-chua
+spice: medium
+kidNote: "Lift the child's bowl out before the sliced chilli goes in."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Canh chua ca, the sweet-sour fish soup of the Mekong Delta with pineapple, tomato, tamarind and bean sprouts."
+nutrition: { kcal: 530, carbs: 63, fibre: 10, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 large bowl sour fish soup (160 g fish, pineapple, tomato, bean sprouts)"
+  - "1 level cup brown rice"
+  - "Blanched morning glory with a squeeze of lime"
+ingredients:
+  - { item: firm white fish fillet, qty: 160, unit: g }
+  - { item: brown rice, qty: 60, unit: g }
+  - { item: pineapple, qty: 50, unit: g }
+  - { item: tomato, qty: 1, unit: pc }
+  - { item: bean sprouts, qty: 60, unit: g }
+  - { item: tamarind, qty: 5, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: thai basil, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: morning glory (water spinach), qty: 0.5, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+steps:
+  - "Cook the brown rice with 1.5 cups water, covered, 35 minutes."
+  - "Soak the tamarind in 3 tbsp hot water and press through a sieve."
+  - "Fry the shallots and garlic in the rice bran oil 1 minute, add 400 ml water, the tamarind, pineapple chunks and tomato wedges; simmer 8 minutes."
+  - "Add the fish pieces and fish sauce, simmer 5 minutes until just cooked; add the bean sprouts and chilli for the last minute. Season with salt and finish with torn thai basil."
+  - "Blanch the morning glory 1 minute, drain and squeeze lime over."
+  - "Serve the soup with the rice and greens alongside."
+swaps:
+  - { for: firm white fish fillet, use: "salmon fillet", note: "same timing" }
+source: "Adapted from the traditional canh chua ca"

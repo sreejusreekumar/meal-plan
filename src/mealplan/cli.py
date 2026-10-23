@@ -316,6 +316,74 @@ def weekly(
     console.print(f"[green]Built index.html[/] · current {man['current']} · next {man['next']}")
 
 
+@app.command()
+def trial(
+    cuisine: str = typer.Option(..., "--cuisine", "-c", help="Pack id(s), comma-separated."),
+    weeks: int = typer.Option(8, help="How many consecutive weeks to try, starting next week."),
+) -> None:
+    """Dry-run a pack: generate several weeks in memory and report failures and extremes.
+    Nothing is written. Use it after authoring or editing a pack."""
+    from datetime import timedelta
+
+    from mealplan.weeks import week_id, week_start
+
+    p = paths()
+    household = load_household(p)
+    catalogue = load_catalogue(p)
+    ids = parse_cuisine_arg(cuisine)
+    try:
+        packs = load_packs(p.cuisines_dir, ids)
+    except PackError as exc:
+        _fail(str(exc))
+    for lp in packs:
+        problems = check_pack(lp, catalogue)
+        if problems:
+            _fail(f"pack {lp.pack.id} is not ready:\n  " + "\n  ".join(problems))
+    start = week_start(resolve_week("next", household.timezone))
+    table = Table(title=f"trial · {', '.join(ids)} · {weeks} weeks")
+    for col in (
+        "week",
+        "ok",
+        "sig",
+        "fish",
+        "chicken",
+        "veg dinners",
+        "max carbs",
+        "min fibre",
+        "min protein",
+        "max satFat",
+    ):
+        table.add_column(col, justify="right" if col not in ("week", "ok") else "left")
+    failed = 0
+    for i in range(weeks):
+        wk = week_id(start + timedelta(days=7 * i))
+        try:
+            pl = generate(wk, packs, household, catalogue=catalogue)
+        except GenerationError as exc:
+            failed += 1
+            reason = str(exc).split("Last problems: ")[-1][:90]
+            table.add_row(wk, "[red]no[/]", reason, "", "", "", "", "", "", "")
+            continue
+        c = pl.week_checks
+        t = [d.totals for d in pl.days]
+        table.add_row(
+            wk,
+            "[green]yes[/]",
+            str(c["signatureDishes"]),
+            str(c["fishLunches"]),
+            str(c["chicken"]),
+            str(c["vegDinners"]),
+            f"{max(x['carbs'] for x in t):g}",
+            f"{min(x['fibre'] for x in t):g}",
+            f"{min(x['protein'] for x in t):g}",
+            f"{max(x['satFat'] for x in t):g}",
+        )
+    console.print(table)
+    if failed:
+        _fail(f"{failed}/{weeks} weeks could not be built; see the reasons above.")
+    console.print(f"[green]{weeks}/{weeks} weeks build[/]")
+
+
 @app.command("add-cuisine")
 def add_cuisine(
     pack_id: str = typer.Argument(..., help="lowercase id, e.g. thai"),

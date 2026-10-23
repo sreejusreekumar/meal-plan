@@ -1,0 +1,30 @@
+id: mediterranean.snack.almonds-and-orange
+name: Almonds and an orange, black coffee
+slot: [snack]
+role: main
+cuisine: mediterranean
+protein: none
+family: almonds
+tags: [quick, no-cook]
+spice: mild
+packable: false
+prepMinutes: 3
+cookMinutes: 3
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 176, carbs: 14, fibre: 5, protein: 5, satFat: 1, sugar: 0 }
+components:
+  - "20 g natural almonds (about 15)"
+  - "1 orange, segmented"
+  - "Black coffee (unsweetened)"
+ingredients:
+  - { item: almonds, qty: 20, unit: g }
+  - { item: orange, qty: 1, unit: pc }
+  - { item: coffee powder, qty: 1, unit: tsp }
+steps:
+  - "Count out the almonds into a small bowl; toast 2 minutes in a dry pan if you like them warm."
+  - "Peel and segment the orange."
+  - "Make a small black coffee; no sugar, a splash of milk at most."
+source: "Adapted from the Spanish merienda of nuts and fruit"

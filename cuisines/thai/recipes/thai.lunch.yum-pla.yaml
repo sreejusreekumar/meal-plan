@@ -1,0 +1,48 @@
+id: thai.lunch.yum-pla
+name: Yum Pla (grilled fish salad with herbs, lime & cashews) & brown jasmine rice
+slot: [lunch]
+role: main
+cuisine: thai
+protein: fish
+family: fish-salad
+tags: [quick]
+spice: medium
+kidNote: "Dress the child's fish and salad with lime and fish sauce only; add the sliced chilli to the adult bowls."
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 544, carbs: 59, fibre: 8, protein: 40, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl yum pla: flaked grilled fish with lemongrass, shallots, mint, coriander, lime and cashews"
+  - "Cos lettuce, cucumber and cherry tomatoes"
+  - "1 level cup brown jasmine rice"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: kaffir lime leaves, qty: 2, unit: pc }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: fish sauce, qty: 2, unit: tsp }
+  - { item: red chilli (fresh), qty: 0.5, unit: pc }
+  - { item: cashews, qty: 15, unit: g }
+  - { item: cos lettuce, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: cherry tomatoes, qty: 80, unit: g }
+  - { item: brown jasmine rice, qty: 60, unit: g }
+steps:
+  - "Cook the brown jasmine rice (60 g with 1.5 cups water, 30-35 minutes)."
+  - "Brush the fish with the oil and grill 4 minutes a side until it flakes; cool a little and break into chunks."
+  - "Slice the lemongrass (tender part), shallots, lime leaves and ginger very finely. Toast the cashews in a dry pan."
+  - "Whisk lime juice and fish sauce; toss with the fish, the aromatics, chilli, mint, coriander and halved tomatoes."
+  - "Serve on cos leaves with cucumber, scattered with the cashews, and 1 level cup rice."
+swaps:
+  - { for: firm white fish fillet, use: "squid", note: "150 g, blanched 1 minute (yum pla muek)" }
+source: "Adapted from the traditional yum pla / pla goong style salads, no sugar."
