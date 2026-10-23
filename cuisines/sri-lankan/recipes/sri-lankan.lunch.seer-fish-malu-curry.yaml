@@ -1,0 +1,57 @@
+id: sri-lankan.lunch.seer-fish-malu-curry
+name: "Malu Curry & Kale Mallung"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: fish
+family: fish-curry
+spice: medium
+kidNote: "Leave the green chilli and chilli powder out of the child's portion; add them to the pan after the child's share is set aside."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Malu kirata (red fish curry), the everyday Sri Lankan fish curry simmered in a thin coconut-milk gravy with roasted curry powder and goraka."
+nutrition: { kcal: 540, carbs: 55, fibre: 9, protein: 41, satFat: 5, sugar: 0 }
+components:
+  - "Kale mallung"
+  - "Primary: 140 g seer fish malu curry (thin coconut-milk red gravy)"
+  - "1 level cup red rice"
+  - "Lime wedge"
+ingredients:
+  - { item: seer fish (neymeen) steak, qty: 140, unit: g }
+  - { item: coconut milk (canned), qty: 8, unit: ml }
+  - { item: tamarind, qty: 5, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: sri lankan roasted curry powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: kale, qty: 0.5, unit: bunch }
+  - { item: grated coconut, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: maldive fish flakes, qty: 3, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Rub the fish with turmeric and salt. Soak the tamarind in 1/4 cup warm water and squeeze out the juice."
+  - "Heat the oil; fry the fenugreek, curry leaves, pandan and cinnamon 30 seconds, then the sliced onion, garlic, ginger and green chilli until soft."
+  - "Add the curry powder and chilli powder, the tamarind water and 3/4 cup water; simmer 5 minutes, then lay in the fish and cook 8-10 minutes."
+  - "Dilute the coconut milk with 1/2 cup water (thin milk), stir in and heat through without boiling; adjust salt."
+  - "Shred the kale finely; toss in a dry pan with the grated coconut, sliced shallots, maldive fish, a pinch of turmeric and salt for 3-4 minutes until just wilted; finish with lime."
+  - "Serve the mallung first, then the fish curry, with 1 level cup red rice last."
+swaps:
+  - { for: seer fish (neymeen) steak, use: "firm white fish fillet", note: "same timing" }
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

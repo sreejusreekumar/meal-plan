@@ -1,0 +1,48 @@
+id: north-indian.breakfast.paneer-and-vegetable-wholemeal-sandwich
+name: Paneer & vegetable wholemeal sandwich
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: dairy
+family: sandwich
+tags: [quick]
+spice: medium
+kidNote: "Make the child's chutney without the green chilli."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 355, carbs: 45, fibre: 8, protein: 22, satFat: 3.2, sugar: 0 }
+components:
+  - "Primary: dry-toasted wholemeal sandwich with low-fat paneer, cucumber, tomato and capsicum"
+  - "Green mint-coriander chutney"
+  - "Unsweetened masala chai with low-fat milk"
+ingredients:
+  - { item: wholemeal bread, qty: 2, unit: pc }
+  - { item: paneer, qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.25, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: mint leaves, qty: 0.15, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: chaat masala, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: low-fat milk, qty: 100, unit: ml }
+  - { item: cardamom pods, qty: 1, unit: pc }
+steps:
+  - "Grind the mint, coriander, green chilli, lemon juice and salt with a spoon of water into a thick green chutney."
+  - "Slice the low-fat paneer into thin slabs and dust with chaat masala and pepper; slice the cucumber, tomato, capsicum and onion thin."
+  - "Spread chutney on both slices, layer the paneer and vegetables, close the sandwich."
+  - "Toast dry on a hot tawa or sandwich press, pressing down, 3 minutes a side until crisp; no butter."
+  - "Brew the tea with cardamom, add the milk and bring back to the boil; strain, no sugar. Cut the sandwich and serve."
+swaps:
+  - { for: paneer, use: "light cheese slices, 2 pc", note: skip the chaat masala }
+source: "Adapted from the Bombay-style vegetable sandwich as made in Delhi homes"

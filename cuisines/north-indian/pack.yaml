@@ -1,0 +1,25 @@
+id: north-indian
+name: North Indian
+version: 1
+description: "Punjabi and Delhi home cooking adapted for a pre-diabetic household: whole-wheat rotis, brown basmati, dals, tandoor-style grills, measured ghee."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · sabzi first
+  snack: 4 pm chai
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: Sabzi or salad first, then dal or the protein, then one or two phulkas or a measured cup of brown basmati last.
+  - title: Walk after meals
+    text: 10–15 minutes of brisk walking right after lunch and dinner.
+  - title: Fat is measured
+    text: Ghee or oil is 1 teaspoon per dish; no cream in gravies, use yoghurt or cashew in small amounts.
+  - title: Skip completely
+    text: Naan, puri, bhature, deep-fried pakora, sweetened chai and mithai.

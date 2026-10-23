@@ -1,0 +1,49 @@
+id: sri-lankan.breakfast.pittu-pol-sambol-and-boiled-egg
+name: Red-rice pittu with pol sambol, thin kiri hodi & a boiled egg
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: pittu
+spice: medium
+kidNote: "Leave the chilli flakes out of the child's spoon of sambol; the kiri hodi carries no chilli."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pittu, the steamed crumbly cylinders of rice flour and grated coconut eaten across Sri Lanka with sambol and kiri hodi."
+nutrition: { kcal: 360, carbs: 45, fibre: 4, protein: 16, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 1 small cylinder red-rice pittu"
+  - "1 tbsp pol sambol"
+  - "1/2 cup thin kiri hodi (light milk and turmeric gravy)"
+  - "1 hard-boiled egg"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: red rice flour, qty: 45, unit: g }
+  - { item: grated coconut, qty: 9, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: low-fat milk, qty: 100, unit: ml }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: maldive fish flakes, qty: 3, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.125, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Mix the red rice flour with a pinch of salt and sprinkle in water a little at a time, rubbing until it forms coarse breadcrumbs; rub in 4 g of the grated coconut."
+  - "Pack the crumbs loosely into the pittu bambuwa (or a puttu cylinder) and steam 8-10 minutes until the steam comes through the top; turn out onto the plate."
+  - "For the thin kiri hodi, simmer the low-fat milk with a quarter of the onion sliced, the green chilli, fenugreek, turmeric, curry leaves, pandan, cinnamon and salt for 8 minutes; do not boil hard."
+  - "Hard-boil the egg 10 minutes, peel and halve."
+  - "Pound the remaining 5 g coconut with the rest of the onion, maldive fish, chilli flakes and salt; squeeze in the lime for the pol sambol."
+  - "Brew the tea 3 minutes and strain; serve the pittu with the sambol, kiri hodi and egg."
+source: "Adapted from the traditional Sri Lankan pittu with kiri hodi and pol sambol"

@@ -1,0 +1,37 @@
+id: north-indian.snack.cucumber-sprout-chaat-with-black-tea
+name: Cucumber-sprout chaat & ginger black tea
+slot: [snack]
+role: main
+cuisine: north-indian
+protein: legume
+family: sprouts
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 8
+cookMinutes: 6
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 112, carbs: 20, fibre: 5, protein: 7, satFat: 0.2, sugar: 0 }
+components:
+  - "Small bowl of moong sprouts and cucumber chaat with chaat masala and lemon"
+  - "Ginger black tea (unsweetened)"
+ingredients:
+  - { item: green gram (cherupayar), qty: 25, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: ginger, qty: 2, unit: g }
+steps:
+  - "Use sprouts made earlier in the week (soak the green gram overnight, then leave in a covered sieve 1-2 days, rinsing twice a day)."
+  - "Steam the sprouts 3-4 minutes so they are tender-crisp; cool briefly."
+  - "Toss with diced cucumber, onion, tomato, coriander, chaat masala, salt and lemon juice."
+  - "Boil a cup of water with the crushed ginger, add the tea leaves, steep 2 minutes and strain; no sugar. Serve together."
+source: "Adapted from the traditional moong sprout chaat"

@@ -1,0 +1,34 @@
+id: north-indian.snack.chaas-with-roasted-almonds
+name: Spiced chaas & roasted almonds
+slot: [snack]
+role: main
+cuisine: north-indian
+protein: dairy
+family: chaas
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chaas (masala chaas), the thin spiced buttermilk drunk in Punjabi and Gujarati homes to cool the afternoon."
+nutrition: { kcal: 140, carbs: 9, fibre: 2, protein: 8, satFat: 1.2, sugar: 0 }
+components:
+  - "1 glass chaas (spiced buttermilk from low-fat curd)"
+  - "12 roasted almonds"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: ginger, qty: 2, unit: g }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: almonds, qty: 15, unit: g }
+steps:
+  - "Dry-roast the cumin seeds 1 minute and crush; dry-roast the almonds 3 minutes in the same pan until fragrant."
+  - "Whisk the curd with 150 ml chilled water until frothy."
+  - "Stir in the roasted cumin, grated ginger, torn mint and salt; pour over ice if you like."
+  - "Serve the glass of chaas with the almonds."
+source: "Adapted from the traditional masala chaas"

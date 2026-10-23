@@ -1,0 +1,35 @@
+id: sri-lankan.snack.devilled-cashews-and-black-tea
+name: Spiced roasted cashews & black tea
+slot: [snack]
+role: main
+cuisine: sri-lankan
+protein: none
+family: cashews
+tags: [quick]
+spice: mild
+kidNote: "Set aside a few cashews for the child before the chilli flakes go on."
+packable: false
+prepMinutes: 2
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Devilled cashews, the chilli-and-curry-leaf roasted cashews served with drinks in Sri Lanka, here a measured 20 g with plain tea."
+nutrition: { kcal: 121, carbs: 6, fibre: 1, protein: 4, satFat: 1.8, sugar: 0 }
+components:
+  - "Primary: 20 g dry-roasted cashews with chilli flakes, pepper and curry leaves"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: cashews, qty: 20, unit: g }
+  - { item: rice bran oil, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: chilli flakes, qty: 0.125, unit: tsp }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Dry-roast the cashews in a small pan over medium heat 5-6 minutes, shaking, until pale gold."
+  - "Add the rice bran oil and curry leaves, toss 30 seconds, then take off the heat and toss with the chilli flakes, pepper and salt."
+  - "Brew the tea leaves in a cup of boiling water 3 minutes and strain; serve black and unsweetened with the cashews cooled."
+source: "Adapted from the Sri Lankan devilled cashews"

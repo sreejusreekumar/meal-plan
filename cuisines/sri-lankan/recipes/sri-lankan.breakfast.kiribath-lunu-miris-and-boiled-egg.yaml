@@ -1,0 +1,46 @@
+id: sri-lankan.breakfast.kiribath-lunu-miris-and-boiled-egg
+name: Red-rice kiribath with lunu miris, gotu kola sambol & a boiled egg
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: kiribath
+spice: medium
+kidNote: "Give the child a wedge of kiribath with the egg and gotu kola sambol only; keep the lunu miris on the adults' side."
+packable: false
+prepMinutes: 10
+cookMinutes: 40
+effort: weekend
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kiribath (milk rice), rice cooked thick with coconut milk and cut into diamonds, the dish Sri Lankans eat on the first of the month and at every celebration."
+nutrition: { kcal: 358, carbs: 46, fibre: 4, protein: 19, satFat: 4.5, sugar: 0 }
+components:
+  - "Primary: 2 small diamonds red-rice kiribath (thin coconut milk)"
+  - "1 tbsp lunu miris"
+  - "Gotu kola sambol with lime (no coconut)"
+  - "1 hard-boiled egg"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: red rice (Sri Lankan), qty: 55, unit: g }
+  - { item: coconut milk (canned), qty: 15, unit: ml }
+  - { item: low-fat milk, qty: 50, unit: ml }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: gotu kola (pennywort), qty: 0.25, unit: bunch }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: maldive fish flakes, qty: 8, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Rinse the red rice and cook it with 1 1/4 cups water and the pandan leaf, covered, for 25 minutes until almost dry."
+  - "Stir the coconut milk and low-fat milk together with the salt, pour over the rice and cook gently, stirring, another 8-10 minutes until thick and creamy; press into a shallow dish and cut into diamonds when set."
+  - "Hard-boil the egg 10 minutes, peel and halve."
+  - "Pound half the shallots with the chilli flakes, maldive fish and a pinch of salt; add half the lime for the lunu miris."
+  - "Shred the gotu kola finely, toss with the remaining shallots sliced, the rest of the lime, pepper and salt."
+  - "Brew the tea 3 minutes and strain; serve two small diamonds of kiribath with the lunu miris, gotu kola sambol and egg."
+source: "Adapted from the traditional Sri Lankan kiribath with lunu miris"

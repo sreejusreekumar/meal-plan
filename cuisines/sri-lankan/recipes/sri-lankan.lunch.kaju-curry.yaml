@@ -1,0 +1,52 @@
+id: sri-lankan.lunch.kaju-curry
+name: "Kaju Curry, Parippu & Snake Bean Curry"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: cashew-curry
+spice: medium
+kidNote: "Leave the green chilli and chilli powder out of the child's portion; add them to the pan after the child's share is set aside."
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 550, carbs: 74, fibre: 12, protein: 20, satFat: 4, sugar: 0 }
+components:
+  - "Snake bean curry"
+  - "Primary: Kaju (cashew) curry, 15 g cashews in thin coconut milk"
+  - "Small bowl parippu"
+  - "1 level cup red rice"
+ingredients:
+  - { item: cashews, qty: 15, unit: g }
+  - { item: coconut milk (canned), qty: 10, unit: ml }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: sri lankan roasted curry powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: masoor dal, qty: 30, unit: g }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: snake beans, qty: 100, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Soak the cashews in hot water 30 minutes (or overnight) so they cook soft."
+  - "Fry the cinnamon, curry leaves and pandan in half the oil, add the onion, garlic and green chilli until soft; add the curry powder, half the turmeric, the cashews, salt and 1/2 cup water; simmer 15 minutes."
+  - "Dilute the coconut milk with 1/4 cup water, stir in and simmer 3 minutes until the gravy is creamy but thin."
+  - "Simmer the masoor dal with the remaining turmeric, fenugreek and 1 cup water for 15 minutes; temper with the rest of the oil, mustard seeds and dried chilli."
+  - "Cut the snake beans into 2 cm lengths; cook with shallots, a pinch of turmeric, salt and 1/4 cup water for 8 minutes, uncovered at the end; finish with lime."
+  - "Serve the bean curry first, then the cashew curry and dhal, with 1 level cup red rice last."
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

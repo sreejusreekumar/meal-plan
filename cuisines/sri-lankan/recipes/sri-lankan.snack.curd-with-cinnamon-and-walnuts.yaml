@@ -1,0 +1,31 @@
+id: sri-lankan.snack.curd-with-cinnamon-and-walnuts
+name: Curd with cinnamon & walnuts, plain tea
+slot: [snack]
+role: main
+cuisine: sri-lankan
+protein: dairy
+family: curd
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 3
+cookMinutes: 4
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 138, carbs: 8, fibre: 1, protein: 7, satFat: 1.5, sugar: 0 }
+components:
+  - "Primary: 1/2 cup plain low-fat curd with ground Ceylon cinnamon"
+  - "12 g walnut pieces"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: walnuts, qty: 12, unit: g }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Pound a small piece of cinnamon stick to a powder (or use ready-ground Ceylon cinnamon)."
+  - "Spoon the curd into a bowl, dust with the cinnamon and top with the walnut pieces; no kithul or sugar."
+  - "Brew the tea leaves in a cup of boiling water 3 minutes and strain; serve unsweetened."
+source: "Household staple with Ceylon cinnamon, in place of curd and kithul treacle"

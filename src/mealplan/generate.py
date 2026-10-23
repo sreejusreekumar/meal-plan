@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import hashlib
 import random
+import statistics
 from collections import Counter
 from collections.abc import Sequence
 from dataclasses import dataclass, field
@@ -29,7 +30,7 @@ from mealplan.models import (
 from mealplan.validate import DayMeals, check_day, check_week, day_totals, week_checks
 from mealplan.weeks import dow_short, is_weekend, week_dates, week_start
 
-MAX_ATTEMPTS = 25
+MAX_ATTEMPTS = 60
 TOP_N = 3
 
 
@@ -54,6 +55,8 @@ class _WeekState:
     chosen: list[Recipe] = field(default_factory=list)
     counts: Counter[str] = field(default_factory=Counter)
     days: list[DayMeals] = field(default_factory=list)
+    medians: dict[str, dict[str, dict[str, float]]] = field(default_factory=dict)
+    """pack id -> slot -> metric -> median over that slot's mains; the lookahead estimate."""
 
     @property
     def rules(self):
@@ -62,6 +65,36 @@ class _WeekState:
 
 def _non_staple_items(r: Recipe, staples: set[str]) -> set[str]:
     return {i.item.lower() for i in r.ingredients if not i.staple and i.item.lower() not in staples}
+
+
+METRIC_ATTRS = {
+    "kcal": "kcal",
+    "carbs": "carbs",
+    "fibre": "fibre",
+    "protein": "protein",
+    "satFat": "sat_fat",
+    "sugar": "sugar",
+}
+
+
+def slot_medians(pack: LoadedPack) -> dict[str, dict[str, float]]:
+    out: dict[str, dict[str, float]] = {}
+    for slot in SLOTS:
+        mains = pack.candidates(slot, "main")
+        out[slot] = {}
+        for metric, attr in METRIC_ATTRS.items():
+            values = [getattr(r.nutrition, attr) for r in mains]
+            if mains and all(v is not None for v in values):
+                out[slot][metric] = statistics.median(values)
+    return out
+
+
+def _window_penalty(value: float, lo: float | None, hi: float | None, weight: float) -> float:
+    if lo is not None and value < lo:
+        return weight + (lo - value) / max(lo, 1) * 10
+    if hi is not None and value > hi:
+        return weight + (value - hi) / max(hi, 1) * 10
+    return 0.0
 
 
 def _eligible(
@@ -145,18 +178,26 @@ def _score(
     if mine:
         shared = sum(len(mine & _non_staple_items(x, staples)) for x in state.chosen)
         score += min(1.0, 0.2 * shared)
-    if slot == SLOTS[-1] and role == "main":
-        # Last slot of the day: steer every tracked metric into its window, not just kcal.
+    if role == "main":
+        # Steer every tracked metric into its day window. Earlier in the day the remaining
+        # slots are estimated with the pack's slot medians (lookahead); at the last slot the
+        # totals are exact and the penalty is stronger.
         totals = day_totals([*today, r])
+        remaining = SLOTS[SLOTS.index(slot) + 1 :]
+        medians = state.medians.get(r.cuisine, {})
+        last = not remaining
         for metric, (lo, hi) in state.household.targets_per_reference_day.items():
             value = totals.get(metric)
             if value is None:
                 continue
-            if lo is not None and value < lo:
-                score -= 5 + (lo - value) / max(lo, 1) * 10
-            if hi is not None and value > hi:
-                score -= 5 + (value - hi) / max(hi, 1) * 10
-            if metric == "kcal" and lo is not None and hi is not None:
+            if not last:
+                if metric == "refinedCarbDishes":
+                    continue
+                if not all(metric in medians.get(s, {}) for s in remaining):
+                    continue
+                value += sum(medians[s][metric] for s in remaining)
+            score -= _window_penalty(value, lo, hi, 5 if last else 2)
+            if last and metric == "kcal" and lo is not None and hi is not None:
                 score -= abs(value - (lo + hi) / 2) / 50
     return score
 
@@ -187,6 +228,7 @@ def _build_week(
     history: Counter[str],
 ) -> tuple[list[DayMeals], list[str], list[dict[str, float]]]:
     state = _WeekState(household=household, history=history)
+    state.medians = {p.pack.id: slot_medians(p) for p in packs}
     problems: list[str] = []
     totals_out: list[dict[str, float]] = []
     for i, day in enumerate(dates):

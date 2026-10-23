@@ -143,7 +143,6 @@ items:
   - { item: green peas (frozen), unit: g, aisle: frozen, packSize: 100 }
   - { item: potato, unit: pc, aisle: produce }
   - { item: spring onion, unit: bunch, aisle: produce }
-  - { item: lamb leg (lean), unit: g, aisle: meat, packSize: 50 }
 
   # ---------------------------------------------------------------- Sri Lankan additions
   - { item: red rice (Sri Lankan), unit: g, aisle: grains, packSize: 100 }

@@ -1,0 +1,42 @@
+id: sri-lankan.breakfast.kola-kenda-and-boiled-eggs
+name: Kola kenda (gotu kola herbal porridge) with boiled eggs
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: kenda
+spice: mild
+packable: false
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kola kenda, the green herbal rice porridge of gotu kola, garlic and coconut milk that Sri Lankans drink warm as a healing breakfast."
+nutrition: { kcal: 368, carbs: 40, fibre: 3, protein: 19, satFat: 5.5, sugar: 0 }
+components:
+  - "Primary: 1 small bowl kola kenda (red rice, gotu kola, garlic, a spoon of coconut milk)"
+  - "2 hard-boiled eggs with black pepper"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: red rice (Sri Lankan), qty: 45, unit: g }
+  - { item: gotu kola (pennywort), qty: 0.5, unit: bunch }
+  - { item: low-fat milk, qty: 80, unit: ml }
+  - { item: coconut milk (canned), qty: 10, unit: ml }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Rinse the red rice and simmer it with 2 cups water, the pandan leaf and garlic for 25 minutes until very soft and the grains start to break."
+  - "Wash the gotu kola well, blend it with the ginger and the low-fat milk until smooth, and strain if you prefer a thinner kenda."
+  - "Stir the green milk and the coconut milk into the rice, season with salt and simmer gently 3-4 minutes; do not boil hard or it loses its colour."
+  - "Hard-boil the eggs 10 minutes, peel, halve and dust with black pepper."
+  - "Brew the tea 3 minutes and strain; drink the kenda warm from a bowl with the eggs alongside."
+swaps:
+  - { for: gotu kola (pennywort), use: "spinach", note: same method }
+source: "Adapted from the traditional Sri Lankan kola kenda"

@@ -1,0 +1,35 @@
+id: north-indian.snack.peanut-chaat-with-green-tea
+name: Boiled peanut chaat & green tea
+slot: [snack]
+role: main
+cuisine: north-indian
+protein: legume
+family: peanuts
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 135, carbs: 8, fibre: 3, protein: 6, satFat: 1.4, sugar: 0 }
+components:
+  - "Small bowl of boiled peanut chaat with onion, tomato, cucumber and lemon"
+  - "Green tea (unsweetened)"
+ingredients:
+  - { item: peanuts, qty: 20, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.25, unit: pc }
+  - { item: cucumber, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Pressure-cook the raw peanuts with salt and water for 2 whistles (about 12 minutes), or simmer 15 minutes; drain."
+  - "Toss the warm peanuts with finely chopped onion, tomato, cucumber, coriander, chaat masala and lemon juice."
+  - "Steep the green tea bag in hot (not boiling) water for 2 minutes."
+  - "Serve together."
+source: "Adapted from the traditional boiled peanut chaat"

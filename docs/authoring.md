@@ -27,7 +27,7 @@ treat: false
 refinedCarb: false                      # white rice, noodles, pastry... max 1 dish/day
 signature: true                         # one of the cuisine's best-known dishes (a week needs 3+)
 basedOn: "Pla neung manao, the Thai steamed fish with lime and chilli."  # shown on the page
-nutrition: { kcal: 520, carbs: 48, fibre: 7, protein: 38, satFat: 3, sugar: 4 }
+nutrition: { kcal: 520, carbs: 48, fibre: 7, protein: 38, satFat: 3, sugar: 4 }   # carbs = available carbohydrate (fibre NOT included, as on Australian labels); sugar = added sugar
 components:                             # what is on the plate, shown on the page
   - "Primary: 150 g steamed barramundi with lime, garlic and chilli"
   - 1 cup stir-fried morning glory or bok choy

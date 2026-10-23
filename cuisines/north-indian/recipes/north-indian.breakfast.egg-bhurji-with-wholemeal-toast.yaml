@@ -1,0 +1,47 @@
+id: north-indian.breakfast.egg-bhurji-with-wholemeal-toast
+name: Egg bhurji & wholemeal toast
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: egg
+family: egg-bhurji
+tags: [quick]
+spice: medium
+kidNote: "Scramble the child's egg first in the corner of the pan before the green chilli and chilli powder go in."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 380, carbs: 34, fibre: 6, protein: 22, satFat: 5, sugar: 0 }
+components:
+  - "Primary: 2-egg bhurji with onion, tomato, capsicum and peas"
+  - "1 slice wholemeal toast (dry)"
+  - "Unsweetened masala chai with low-fat milk"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.25, unit: pc }
+  - { item: green peas (frozen), qty: 30, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 1, unit: pc }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: low-fat milk, qty: 100, unit: ml }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: cardamom pods, qty: 1, unit: pc }
+steps:
+  - "Heat the oil and saute the onion and green chilli until soft; add the tomato, capsicum, peas, turmeric and salt and cook until the tomato breaks down."
+  - "Beat the eggs, pour into the pan and scramble on low heat with the chilli powder and garam masala until just set; finish with coriander."
+  - "Toast the bread dry on the tawa."
+  - "Simmer the tea leaves with crushed ginger and cardamom in water 2 minutes, add the milk, bring back to a boil and strain; no sugar."
+  - "Serve the bhurji on or beside the toast with the chai."
+source: "Adapted from the traditional anda bhurji"

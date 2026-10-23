@@ -1,0 +1,37 @@
+id: sri-lankan.breakfast.oats-with-banana-cinnamon-and-boiled-egg
+name: Oats with banana & cinnamon, a boiled egg
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: dairy
+family: oats
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 12
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 351, carbs: 43, fibre: 5, protein: 17, satFat: 3.2, sugar: 0 }
+components:
+  - "Primary: 1 bowl rolled oats cooked in low-fat milk with Ceylon cinnamon"
+  - "1/2 banana sliced on top, a few walnut pieces"
+  - "1 hard-boiled egg"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: rolled oats, qty: 35, unit: g }
+  - { item: low-fat milk, qty: 150, unit: ml }
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: walnuts, qty: 5, unit: g }
+  - { item: cinnamon stick, qty: 0.5, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Hard-boil the egg 10 minutes, peel and halve."
+  - "Simmer the oats in the low-fat milk with the cinnamon stick and a pinch of salt for 5-6 minutes, stirring, until thick; take out the cinnamon."
+  - "Slice the half banana over the oats and scatter the walnuts; no sugar, honey or kithul."
+  - "Brew the tea 3 minutes and strain; serve with the egg."
+source: "Household staple with Ceylon cinnamon"

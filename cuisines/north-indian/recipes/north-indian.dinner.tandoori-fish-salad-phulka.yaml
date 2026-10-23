@@ -1,0 +1,52 @@
+id: north-indian.dinner.tandoori-fish-salad-phulka
+name: Tandoori Fish, Kachumber & Phulka
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: fish
+family: fish-tandoori
+tags: [quick, high-protein]
+spice: medium
+kidNote: "Marinate the child's piece without the chilli powder; the yoghurt and garam masala carry the flavour."
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Tandoori machhi, yoghurt-and-spice marinated fish from the Punjabi tandoor, here baked in a hot oven."
+nutrition: { kcal: 470, carbs: 32, fibre: 8, protein: 38, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g tandoori-marinated fish fillet, oven-baked"
+  - "Kachumber salad with cucumber, onion, tomato and lemon"
+  - "1 whole-wheat phulka"
+  - "Mint-coriander chutney"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.5, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: salad leaves (mixed), qty: 50, unit: g }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+steps:
+  - "Mix the yoghurt with ginger, garlic, kashmiri chilli, turmeric, garam masala, kasuri methi, salt and half the lemon; coat the fish and rest it 15 minutes."
+  - "Knead the atta with water into a soft dough and rest it while the fish marinates."
+  - "Bake the fish on a lined tray at 220 C for 12-15 minutes, brushing with the oil, until it flakes and the edges char."
+  - "Dice cucumber, onion and tomato with the remaining lemon and salt for the kachumber; blend the coriander and mint with a spoon of yoghurt for the chutney."
+  - "Roll and cook one phulka on a dry tawa; serve the fish on the salad leaves with the kachumber, chutney and phulka."
+swaps:
+  - { for: firm white fish fillet, use: "seer fish (neymeen) steak", note: "same timing" }
+source: "Adapted from the traditional tandoori machhi"

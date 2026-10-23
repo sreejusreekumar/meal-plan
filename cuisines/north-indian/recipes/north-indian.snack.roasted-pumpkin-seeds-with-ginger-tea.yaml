@@ -1,0 +1,32 @@
+id: north-indian.snack.roasted-pumpkin-seeds-with-ginger-tea
+name: Roasted pumpkin seeds & ginger tea
+slot: [snack]
+role: main
+cuisine: north-indian
+protein: none
+family: seeds
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 2
+cookMinutes: 6
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 115, carbs: 4, fibre: 1.5, protein: 6, satFat: 1.7, sugar: 0 }
+components:
+  - "Small handful of pumpkin seeds roasted with salt and pepper"
+  - "Ginger-lemon black tea (unsweetened)"
+ingredients:
+  - { item: pumpkin seeds, qty: 20, unit: g }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+steps:
+  - "Dry-roast the pumpkin seeds in a pan on medium heat 3-4 minutes, stirring, until they pop and turn golden; toss with salt and pepper."
+  - "Boil a cup of water with the crushed ginger for 2 minutes, add the tea leaves, steep 2 minutes and strain."
+  - "Squeeze in the lemon; no sugar. Serve the warm seeds beside the tea."
+source: "Adapted from the traditional roasted seed nibble with adrak chai"

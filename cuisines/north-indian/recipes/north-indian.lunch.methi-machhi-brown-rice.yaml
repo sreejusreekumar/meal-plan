@@ -1,0 +1,53 @@
+id: north-indian.lunch.methi-machhi-brown-rice
+name: "Methi Machhi & Brown Basmati"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: fish
+family: fish-methi
+tags: [high-protein]
+spice: medium
+kidNote: "Lift out the child's fish and a ladle of gravy before the green chilli and chilli powder are added."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 60, fibre: 9, protein: 44, satFat: 2, sugar: 0 }
+components:
+  - "Cucumber and carrot salad with lemon"
+  - "Primary: 150 g methi machhi (fish in fenugreek-leaf and yoghurt gravy, no cream)"
+  - "1 level cup brown basmati rice"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: fenugreek leaves (methi), qty: 0.5, unit: bunch }
+  - { item: brown basmati rice, qty: 60, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Cut the fish into large pieces and rub with half the turmeric, half the lemon juice and salt. Pick the methi leaves off the stalks, wash well and chop."
+  - "Soak the brown basmati 20 minutes, then cook with 1.5 cups water and a pinch of salt until tender; fluff."
+  - "Heat the oil, crackle the cumin, fry the onion with ginger and garlic until golden, then add the tomato, coriander, kashmiri chilli and the remaining turmeric; cook until thick."
+  - "Add the chopped methi and green chilli and cook 3 minutes until wilted. Whisk the yoghurt with 100 ml water, lower the heat and stir it in slowly so it does not split."
+  - "Slide in the fish, cover and simmer 8 minutes until it flakes. Finish with garam masala and crushed kasuri methi."
+  - "Slice cucumber and carrot, dress with the rest of the lemon and salt. Pack rice and fish in separate compartments."
+swaps:
+  - { for: fenugreek leaves (methi), use: "spinach", note: milder; add 1 tsp extra kasuri methi }
+source: "Adapted from the traditional Punjabi methi machhi"

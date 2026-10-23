@@ -1,6 +1,6 @@
 # Family Meal Planner — Specification
 
-Status: v0.6 (2026-10-23). Phases 0 to 4 are implemented (section 15). All open
+Status: v0.7 (2026-10-23). Phases 0 to 4 are implemented; phase 5 has Kerala, North Indian and Sri Lankan (section 15). All open
 questions were settled in review 3 (section 16); section 17 is empty.
 
 ## 1. Goal
@@ -501,6 +501,7 @@ git add -A && git commit -m "Plan 2026-W45 (Thai)" && git push
 | 17 | Automation: GitHub Actions, Saturday 06:00 Australia/Melbourne, for the week starting Monday | Review 3 |
 | 18 | Lunches stay separate dishes (no doubled dinners); kids' lunchbox slot is a later phase | Review 3 |
 | 19 | Phase 5 authors five packs: North Indian, Sri Lankan, Thai, Mediterranean, Middle Eastern; the rest on request. Agents write from their own knowledge (no fetching); gates are schema check, pack validation, a generated week, and a skim | Review 3 |
+| 21 | `carbs` means available carbohydrate (fibre excluded) and `sugar` added sugar; the planner steers all metrics from breakfast onward using slot medians as a lookahead | Phase 5 |
 | 20 | Every pack carries the cuisine's signature dishes, tagged `signature` with the traditional dish recorded; weekly rule `signatureDishesMin: 3`; iconic dishes that cannot be adapted are the week's single treat; the page badges them with one sentence | Review 3 |
 
 ## 17. Open questions

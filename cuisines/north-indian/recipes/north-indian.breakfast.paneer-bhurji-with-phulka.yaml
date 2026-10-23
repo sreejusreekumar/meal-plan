@@ -1,0 +1,50 @@
+id: north-indian.breakfast.paneer-bhurji-with-phulka
+name: Paneer bhurji & phulka
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: dairy
+family: bhurji
+tags: [quick]
+spice: medium
+kidNote: "Take out the child's portion before adding the chilli powder; the green chilli goes in whole and is easy to lift out."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Paneer bhurji, the Punjabi scramble of crumbled paneer with onion, tomato and spices."
+nutrition: { kcal: 350, carbs: 40, fibre: 8, protein: 21, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 bowl paneer bhurji with peas and capsicum"
+  - "1 whole-wheat phulka"
+  - "Unsweetened masala chai"
+ingredients:
+  - { item: paneer, qty: 70, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.25, unit: pc }
+  - { item: green peas (frozen), qty: 30, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: cardamom pods, qty: 1, unit: pc }
+steps:
+  - "Knead the atta with a pinch of salt and water into a soft dough; rest while you cook the bhurji."
+  - "Heat the oil, saute the onion, ginger and whole green chilli until soft, then add the tomato, capsicum and turmeric and cook until pulpy."
+  - "Stir in the peas, chilli powder, garam masala and salt; cook 2 minutes, then fold in the crumbled low-fat paneer and the kasuri methi. Warm through 2 minutes, finish with coriander."
+  - "Roll one thin phulka, cook on a dry tawa until spotted, then puff it over the flame; no ghee."
+  - "Brew the tea with the crushed cardamom, no sugar; serve the bhurji with the phulka."
+swaps:
+  - { for: paneer, use: "tofu (firm), crumbled", note: same timing }
+source: "Adapted from the traditional paneer bhurji"

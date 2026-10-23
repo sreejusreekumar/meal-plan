@@ -1,0 +1,52 @@
+id: north-indian.lunch.dal-tadka-jeera-rice-bhindi
+name: "Dal Tadka, Jeera Brown Rice & Bhindi"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: legume
+family: dal
+tags: [lunchbox-classic]
+spice: medium
+kidNote: "Spoon out the child's dal before the tadka with the dried red chilli is poured on; give that bowl plain ghee instead."
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dal tadka, the dhaba staple of toor dal finished with a sizzling tempering of ghee, cumin, garlic and dried chilli, served across Punjab and Delhi."
+nutrition: { kcal: 515, carbs: 74, fibre: 13, protein: 19, satFat: 4, sugar: 0 }
+components:
+  - "1 cup bhindi (okra) sabzi, dry-fried"
+  - "Primary: 1 bowl dal tadka (toor dal with ghee-garlic tempering)"
+  - "1 level cup jeera brown basmati rice"
+ingredients:
+  - { item: toor dal, qty: 45, unit: g }
+  - { item: brown basmati rice, qty: 60, unit: g }
+  - { item: okra (bhindi), qty: 100, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: ghee, qty: 1, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 1, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: asafoetida, qty: 0.25, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Rinse the toor dal and pressure-cook with turmeric, salt, half the ginger and the tomato for 4 whistles; whisk smooth and keep it pouring-thick."
+  - "Soak the brown basmati 20 minutes. Heat half the oil, crackle half the cumin, add the rice and 1.5 cups water with salt and cook covered until the grains are tender; fluff."
+  - "Wipe the okra completely dry and cut into 1 cm rounds. Heat the remaining oil, add the okra with salt and fry uncovered on medium heat, stirring only now and then, until no longer slimy and lightly browned; add the onion and coriander powder for the last 3 minutes."
+  - "For the tadka, heat the ghee, crackle the remaining cumin, add the garlic, green chilli, dried red chilli and asafoetida; when the garlic is golden, add the chilli powder and pour it over the dal. Stir in lemon and coriander leaves."
+  - "Pack rice and dal in separate compartments with the bhindi; the dal thickens as it cools, so loosen with a splash of water before packing."
+swaps:
+  - { for: toor dal, use: "yellow moong dal", note: cooks in 3 whistles }
+source: "Adapted from the traditional Punjabi dhaba dal tadka"

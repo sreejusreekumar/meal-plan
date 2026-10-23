@@ -1,0 +1,56 @@
+id: sri-lankan.lunch.mackerel-miris-malu
+name: "Mackerel Miris Malu & Gotu Kola Sambol"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: fish
+family: mackerel
+spice: medium
+kidNote: "Leave the green chilli and chilli powder out of the child's portion; add them to the pan after the child's share is set aside."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 550, carbs: 55, fibre: 11, protein: 37, satFat: 4, sugar: 0 }
+components:
+  - "Gotu kola sambol"
+  - "Primary: 1 mackerel in miris malu (red chilli-tamarind gravy, no coconut milk)"
+  - "Snake gourd curry"
+  - "1 level cup red rice"
+ingredients:
+  - { item: mackerel (ayala), qty: 1, unit: pc }
+  - { item: tamarind, qty: 5, unit: g }
+  - { item: chilli powder, qty: 1, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: gotu kola (pennywort), qty: 0.5, unit: bunch }
+  - { item: grated coconut, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: maldive fish flakes, qty: 3, unit: g }
+  - { item: snake gourd (padavalanga), qty: 100, unit: g }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Cut the mackerel into 3 pieces; rub with turmeric and salt. Soak the tamarind in 1/2 cup warm water and squeeze out the juice."
+  - "Heat the oil; fry the fenugreek, curry leaves and pandan, then the onion, garlic, ginger and green chilli until soft."
+  - "Add the chilli and coriander powders, the tamarind water and 1/2 cup water; simmer 5 minutes, lay in the fish and cook 10 minutes until the gravy is thick and red."
+  - "Shred the gotu kola and toss with the grated coconut, shallots, maldive fish, lime juice and salt."
+  - "Slice the snake gourd; cook with mustard seeds, a pinch of turmeric, salt and 1/4 cup water for 8 minutes."
+  - "Serve the sambol first, then the fish and snake gourd, with 1 level cup red rice last."
+swaps:
+  - { for: mackerel (ayala), use: "sardines (mathi)", note: "3 pc, same gravy" }
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

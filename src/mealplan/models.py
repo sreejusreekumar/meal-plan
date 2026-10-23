@@ -13,9 +13,19 @@ from pydantic.alias_generators import to_camel
 
 SLOTS: tuple[str, ...] = ("breakfast", "lunch", "snack", "dinner")
 ROLES: tuple[str, ...] = ("main", "side", "carb", "drink", "treat")
-PROTEINS: tuple[str, ...] = ("fish", "chicken", "beef", "pork", "egg", "legume", "dairy", "none")
-RED_MEAT: frozenset[str] = frozenset({"beef", "pork"})
-NON_VEG: frozenset[str] = frozenset({"fish", "chicken", "beef", "pork"})
+PROTEINS: tuple[str, ...] = (
+    "fish",
+    "chicken",
+    "beef",
+    "pork",
+    "lamb",
+    "egg",
+    "legume",
+    "dairy",
+    "none",
+)
+RED_MEAT: frozenset[str] = frozenset({"beef", "pork", "lamb"})
+NON_VEG: frozenset[str] = frozenset({"fish", "chicken", "beef", "pork", "lamb"})
 AISLES: tuple[str, ...] = (
     "produce",
     "fish",
@@ -31,7 +41,7 @@ DOWS: tuple[str, ...] = ("mon", "tue", "wed", "thu", "fri", "sat", "sun")
 
 Slot = Literal["breakfast", "lunch", "snack", "dinner"]
 Role = Literal["main", "side", "carb", "drink", "treat"]
-Protein = Literal["fish", "chicken", "beef", "pork", "egg", "legume", "dairy", "none"]
+Protein = Literal["fish", "chicken", "beef", "pork", "lamb", "egg", "legume", "dairy", "none"]
 Spice = Literal["mild", "medium", "hot"]
 Effort = Literal["weekday", "weekend"]
 
@@ -172,7 +182,7 @@ class Recipe(CamelModel):
     @model_validator(mode="after")
     def _rules(self) -> Recipe:
         if self.protein in RED_MEAT and not self.lean:
-            raise ValueError(f"{self.id}: red meat recipes must be tagged lean: true")
+            raise ValueError(f"{self.id}: red meat (beef/pork/lamb) must be tagged lean: true")
         if self.role == "treat":
             self.treat = True
         if not self.components and not self.ingredients:

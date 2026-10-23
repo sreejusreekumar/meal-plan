@@ -1,0 +1,46 @@
+id: north-indian.breakfast.poha-with-peanuts-and-peas
+name: Poha with peanuts & peas
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: legume
+family: poha
+tags: [quick]
+spice: medium
+kidNote: "Leave the green chilli whole so it can be lifted out of the child's portion."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kanda poha, the flattened-rice breakfast with onion, peanuts and curry leaves eaten across north and west India."
+nutrition: { kcal: 380, carbs: 44, fibre: 6, protein: 15, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 1 bowl poha with peanuts, peas and onion"
+  - "Small bowl of low-fat curd"
+  - "Lemon wedge and coriander"
+ingredients:
+  - { item: poha (flattened rice), qty: 35, unit: g }
+  - { item: peanuts, qty: 20, unit: g }
+  - { item: green peas (frozen), qty: 30, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+steps:
+  - "Rinse the poha in a sieve under running water, drain and leave 5 minutes to soften; sprinkle with salt and turmeric."
+  - "Heat the oil in a kadai, pop the mustard seeds, then add the curry leaves and the peanuts; fry 2 minutes until the peanuts crackle."
+  - "Add the sliced onion and the whole green chilli, saute until translucent, then stir in the peas and cook 2 minutes."
+  - "Fold in the softened poha, cover and steam on low heat for 3 minutes."
+  - "Finish with lemon juice and coriander; serve with a small bowl of curd on the side."
+swaps:
+  - { for: green peas (frozen), use: "carrot, finely diced", note: same timing }
+source: "Adapted from the traditional kanda poha"

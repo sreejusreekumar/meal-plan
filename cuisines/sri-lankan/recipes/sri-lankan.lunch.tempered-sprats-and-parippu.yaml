@@ -1,0 +1,51 @@
+id: sri-lankan.lunch.tempered-sprats-and-parippu
+name: "Tempered Sprats & Parippu"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: fish
+family: sprats
+spice: medium
+kidNote: "Set aside the child's share of sprats before the chilli flakes and green chilli go in."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 67, fibre: 9, protein: 34, satFat: 2, sugar: 0 }
+components:
+  - "Cucumber-tomato salad with lime"
+  - "Primary: 100 g tempered sprats (haalmasso) with onion and chilli"
+  - "Small bowl parippu"
+  - "1 level cup red rice"
+ingredients:
+  - { item: anchovies (netholi), qty: 100, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: masoor dal, qty: 25, unit: g }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Clean the sprats, rub with turmeric, pepper and salt and dry-roast in a hot non-stick pan 6-8 minutes, turning once, until crisp at the edges (no deep-frying)."
+  - "Push the sprats aside; add the oil, sliced onion, garlic, green chilli and curry leaves and fry until soft, add chilli flakes and toss everything together 2 minutes."
+  - "Simmer the masoor dal with turmeric, fenugreek, pandan and 1 cup water for 15 minutes; temper with mustard seeds."
+  - "Dice the cucumber and tomato, season with lime and salt."
+  - "Serve the salad first, then the sprats and dhal, with 1 level cup red rice last."
+swaps:
+  - { for: anchovies (netholi), use: "sardines (mathi)", note: "2 pc, split and dry-roasted" }
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

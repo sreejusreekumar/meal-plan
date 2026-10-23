@@ -1,0 +1,45 @@
+id: north-indian.breakfast.aloo-paratha
+name: Aloo paratha with curd (weekend treat)
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: dairy
+family: paratha
+spice: medium
+kidNote: "Mash a little potato without the green chilli for the child's paratha."
+packable: false
+prepMinutes: 20
+cookMinutes: 20
+effort: weekend
+treat: true
+refinedCarb: false
+signature: true
+basedOn: "Aloo paratha, the spiced potato-stuffed whole-wheat flatbread that is the Punjabi weekend breakfast."
+nutrition: { kcal: 360, carbs: 56, fibre: 8, protein: 16, satFat: 3.4, sugar: 0 }
+components:
+  - "Primary: 1 aloo paratha (whole-wheat, 1 tsp ghee)"
+  - "Bowl of low-fat curd"
+  - "Cucumber and onion salad"
+ingredients:
+  - { item: whole-wheat atta, qty: 45, unit: g }
+  - { item: potato, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: ajwain (carom seeds), qty: 0.25, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: dry ginger powder (chukku), qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: ghee, qty: 1, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+steps:
+  - "Knead the atta with ajwain, a pinch of salt and water into a soft dough; rest 15 minutes."
+  - "Boil and mash the potato; mix with half the onion finely chopped, green chilli, coriander leaves, coriander powder, chilli powder, garam masala, dry ginger powder and salt."
+  - "Roll the dough into a disc, enclose the filling, seal and roll gently into one thick paratha."
+  - "Cook on a hot tawa 2 minutes a side until spotted, brushing the single teaspoon of ghee over the surface at the end."
+  - "Slice the cucumber and the remaining onion, squeeze the lemon over for the salad; serve with the curd."
+source: "Adapted from the traditional aloo paratha"

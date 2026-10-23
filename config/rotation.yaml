@@ -1,4 +1,6 @@
 # Cuisine order used when `mealplan plan` is run without --cuisine (the Saturday automation).
-# An entry may be a single pack id or a comma-separated list for a mixed week.
+# Picked by ISO week number, cycling. An entry may be a comma-separated list for a mixed week.
 rotation:
   - kerala
+  - north-indian
+  - sri-lankan

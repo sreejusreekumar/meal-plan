@@ -1,0 +1,55 @@
+id: north-indian.lunch.rajma-chawal
+name: "Rajma Chawal & Kachumber"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: legume
+family: rajma
+tags: [lunchbox-classic]
+spice: medium
+kidNote: "Ladle the child's rajma out before the chilli powder goes in, or stir a spoon of curd into the portion."
+packable: true
+prepMinutes: 15
+cookMinutes: 45
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Rajma chawal, the Punjabi kidney-bean curry over rice that is the Sunday lunch of every Delhi and Punjab household."
+nutrition: { kcal: 515, carbs: 72, fibre: 11, protein: 22, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl rajma (kidney beans in onion-tomato gravy)"
+  - "1 level cup brown basmati rice"
+  - "Kachumber (cucumber, onion, tomato, lime)"
+  - "1 glass chaas (spiced buttermilk)"
+ingredients:
+  - { item: rajma (kidney beans), qty: 45, unit: g }
+  - { item: brown basmati rice, qty: 60, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: ghee, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: bay leaf, qty: 1, unit: pc }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Soak the rajma overnight. Pressure-cook with the bay leaf and salt for 6-7 whistles (or 25 minutes on low) until a bean mashes easily between two fingers."
+  - "Rinse the brown basmati, soak 20 minutes, then cook with 1.5 cups water and a pinch of salt until the grains are tender; fluff with the ghee."
+  - "Heat the oil, crackle the cumin, then fry the onion with ginger and garlic until deep golden. Add the tomato, coriander, chilli and turmeric powders and cook until the masala releases oil."
+  - "Tip in the rajma with its cooking water, mash a spoonful of beans against the pan to thicken, and simmer 15 minutes. Finish with garam masala and coriander leaves."
+  - "Dice cucumber, the remaining onion and tomato for the kachumber; dress with lime and salt. Whisk the yoghurt with 150 ml cold water, a pinch of salt and the green chilli for the chaas."
+  - "Pack the rice and rajma in separate compartments with the kachumber; keep the chaas in a flask."
+swaps:
+  - { for: rajma (kidney beans), use: "white chickpeas (chana)", note: same soak and cooking time }
+source: "Adapted from the traditional Punjabi rajma chawal"

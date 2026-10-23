@@ -1,0 +1,31 @@
+id: sri-lankan.snack.banana-roasted-peanuts-and-plain-tea
+name: Banana & roasted peanuts with plain tea
+slot: [snack]
+role: main
+cuisine: sri-lankan
+protein: none
+family: banana
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 2
+cookMinutes: 6
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 130, carbs: 14, fibre: 3, protein: 4, satFat: 1, sugar: 0 }
+components:
+  - "Primary: 1/2 small banana"
+  - "15 g dry-roasted peanuts with a pinch of salt"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: banana, qty: 0.5, unit: pc }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Dry-roast the peanuts in a pan over medium heat 5-6 minutes, stirring, until they crackle; rub off the skins and salt lightly."
+  - "Brew the tea leaves in a cup of boiling water 3 minutes and strain; serve unsweetened."
+  - "Eat half a banana (save the other half for the next day) with the peanuts and tea."
+source: "Household staple, Sri Lankan plain tea"

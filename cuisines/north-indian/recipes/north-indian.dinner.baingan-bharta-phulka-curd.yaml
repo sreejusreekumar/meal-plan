@@ -1,0 +1,55 @@
+id: north-indian.dinner.baingan-bharta-phulka-curd
+name: "Baingan Bharta, Phulka, Sprout Salad & Curd"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: dairy
+family: bharta
+tags: [vegetarian]
+spice: medium
+kidNote: "Take the child's portion of bharta out before the green chilli and chilli powder go in; the curd cools the rest."
+packable: false
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Baingan bharta, the Punjabi dish of whole eggplant charred over a flame, mashed and cooked with onion, tomato and green chilli."
+nutrition: { kcal: 475, carbs: 60, fibre: 17, protein: 24, satFat: 3, sugar: 0 }
+components:
+  - "Moong sprout salad with lemon and chaat masala"
+  - "Primary: 1 bowl baingan bharta (fire-roasted eggplant with peas)"
+  - "1 whole-wheat phulka (35 g atta)"
+  - "1 bowl curd (150 g)"
+ingredients:
+  - { item: brinjal (eggplant), qty: 200, unit: g }
+  - { item: green peas (frozen), qty: 50, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: green gram (cherupayar), qty: 25, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Soak the green gram overnight, drain and leave covered in a sieve to sprout for a day (or use fridge sprouts)."
+  - "Rub the eggplant with a little oil, pierce it, and roast directly over the gas flame or under a hot grill, turning, until the skin blisters and the flesh collapses. Cool, peel and mash the flesh."
+  - "Heat the oil, crackle the cumin, fry the onion with ginger, garlic and green chilli until golden, then add the tomato, coriander, chilli and turmeric powders and cook until thick."
+  - "Add the mashed eggplant and peas with salt and cook on medium heat, stirring, for 10 minutes until the bharta dries out and tastes smoky. Finish with garam masala and coriander leaves."
+  - "Knead the atta with water and a pinch of salt, roll one thin round and cook on a hot tawa, puffing over the flame."
+  - "Toss the sprouts with lemon, chaat masala and a pinch of salt. Serve the salad first, then the bharta with the phulka and a bowl of curd."
+swaps:
+  - { for: brinjal (eggplant), use: "capsicum", note: "2 pc, charred and chopped; a lighter bharta" }
+source: "Adapted from the traditional Punjabi baingan bharta"

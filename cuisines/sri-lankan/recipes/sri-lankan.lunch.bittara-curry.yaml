@@ -1,0 +1,52 @@
+id: sri-lankan.lunch.bittara-curry
+name: "Bittara (Egg) Curry & Beetroot Curry"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: egg-curry
+spice: medium
+kidNote: "Leave the green chilli and chilli powder out of the child's portion; add them to the pan after the child's share is set aside."
+packable: true
+prepMinutes: 10
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 62, fibre: 9, protein: 24, satFat: 5, sugar: 0 }
+components:
+  - "Beetroot curry"
+  - "Primary: 2-egg bittara curry (thin coconut-milk gravy)"
+  - "Small bowl parippu"
+  - "1 level cup red rice"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: coconut milk (canned), qty: 6, unit: ml }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: sri lankan roasted curry powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: beetroot, qty: 0.5, unit: pc }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: masoor dal, qty: 15, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Hard-boil the eggs 10 minutes, peel and prick with a fork; cook the masoor dal with a pinch of turmeric and 3/4 cup water for 15 minutes."
+  - "Heat the oil; fry the fenugreek, cinnamon, curry leaves and pandan, then the onion, garlic, ginger and green chilli until soft; add the curry powder, chilli powder and turmeric."
+  - "Add 3/4 cup water and salt, simmer 5 minutes, add the eggs and simmer 5 minutes more; stir in the coconut milk diluted with 1/4 cup water and warm through."
+  - "Cut the beetroot into batons; cook with the shallots, mustard seeds, a pinch of turmeric, salt and 1/2 cup water for 15 minutes until tender; finish the dhal with lime."
+  - "Serve the beetroot curry first, then the egg curry and dhal, with 1 level cup red rice last."
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

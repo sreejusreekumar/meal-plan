@@ -1,0 +1,32 @@
+id: sri-lankan.snack.green-gram-with-coconut-and-black-tea
+name: Green gram with coconut & black tea
+slot: [snack]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: mung
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 109, carbs: 17, fibre: 5, protein: 6, satFat: 1.6, sugar: 0 }
+components:
+  - "Primary: 1/3 cup boiled green gram with grated coconut, shallot and lime"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: green gram (cherupayar), qty: 25, unit: g }
+  - { item: grated coconut, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Soak the green gram overnight; boil in salted water 12-15 minutes until tender but whole and drain."
+  - "Toss warm with the grated coconut, sliced shallot, pepper, salt and a squeeze of lime."
+  - "Brew the tea leaves in a cup of boiling water 3 minutes and strain; serve unsweetened."
+source: "Adapted from the Sri Lankan mung ata with pol"

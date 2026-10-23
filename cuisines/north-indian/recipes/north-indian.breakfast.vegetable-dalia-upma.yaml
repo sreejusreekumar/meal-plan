@@ -1,0 +1,47 @@
+id: north-indian.breakfast.vegetable-dalia-upma
+name: Vegetable dalia upma with moong dal
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: legume
+family: dalia
+spice: medium
+kidNote: "Leave the green chilli whole so it can be lifted out of the child's bowl."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 380, carbs: 50, fibre: 10, protein: 18, satFat: 2.5, sugar: 0 }
+components:
+  - "Primary: 1 bowl dalia (broken wheat) upma with moong dal, carrot and beans"
+  - "Roasted peanuts on top"
+  - "Small bowl of low-fat curd"
+ingredients:
+  - { item: dalia (broken wheat), qty: 30, unit: g }
+  - { item: yellow moong dal, qty: 20, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 50, unit: g }
+  - { item: peanuts, qty: 10, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+steps:
+  - "Dry-roast the dalia and moong dal together in the pan for 3 minutes until fragrant; set aside."
+  - "Heat the oil, pop the mustard and cumin seeds, then fry the peanuts 1 minute and add the onion, ginger, whole green chilli and curry leaves; saute until soft."
+  - "Add the diced carrot, beans, turmeric and salt; cook 2 minutes."
+  - "Stir in the roasted dalia and dal with 1.5 cups hot water; cover and simmer on low 12 minutes until the grains are tender and the water absorbed."
+  - "Finish with lemon juice; serve with the curd."
+swaps:
+  - { for: dalia (broken wheat), use: "quinoa", note: "rinse well, same water" }
+source: "Adapted from the traditional vegetable dalia"

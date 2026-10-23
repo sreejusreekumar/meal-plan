@@ -1,0 +1,46 @@
+id: sri-lankan.breakfast.hoppers-with-egg-hopper-and-lunu-miris
+name: Hoppers (appa) with an egg hopper & lunu miris
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: hoppers
+tags: [treat]
+spice: medium
+kidNote: "Serve the child's hopper with a little salt and lime instead of the lunu miris."
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekend
+treat: true
+refinedCarb: true
+signature: true
+basedOn: "Appa (hoppers), the bowl-shaped fermented rice-flour and coconut-milk pancakes that are Sri Lanka's best-known breakfast, one of them cooked with an egg in the centre."
+nutrition: { kcal: 360, carbs: 46, fibre: 2, protein: 17, satFat: 4.7, sugar: 2 }
+components:
+  - "Primary: 1 egg hopper (bittara appa)"
+  - "1 plain hopper (strictly 2 hoppers in all)"
+  - "1 tbsp lunu miris (onion, chilli flakes, maldive fish, lime)"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: rice flour, qty: 50, unit: g }
+  - { item: coconut milk (canned), qty: 15, unit: ml }
+  - { item: low-fat milk, qty: 30, unit: ml }
+  - { item: yeast (instant), qty: 0.25, unit: tsp }
+  - { item: sugar, qty: 0.5, unit: tsp }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: maldive fish flakes, qty: 8, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "The night before, whisk the rice flour with the yeast, sugar, a pinch of salt, the coconut milk, low-fat milk and enough warm water for a thin pouring batter; cover and leave to ferment 6-8 hours."
+  - "Pound the shallots with the chilli flakes, maldive fish and salt, then squeeze in the lime for the lunu miris."
+  - "Heat a small hopper pan (appachatti) over medium heat and wipe it with a little rice bran oil; pour in half the batter, swirl so it climbs the sides, cover and cook 3-4 minutes until the edges are lacy and crisp."
+  - "For the second hopper, swirl the remaining batter, crack the egg into the centre, season with pepper and salt, cover and cook until the white is set."
+  - "Brew the tea 3 minutes and strain; serve both hoppers with 1 tablespoon of lunu miris and nothing else."
+source: "Adapted from the traditional Sri Lankan appa and bittara appa"

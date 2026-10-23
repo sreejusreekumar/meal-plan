@@ -1,0 +1,55 @@
+id: north-indian.dinner.tofu-bhurji-phulka-salad
+name: "Tofu Bhurji, Phulka & Salad"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: legume
+family: tofu
+tags: [quick, vegetarian]
+spice: medium
+kidNote: "Scoop out the child's bhurji before the green chilli and chilli powder are added."
+packable: false
+prepMinutes: 10
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 490, carbs: 42, fibre: 13, protein: 35, satFat: 3, sugar: 0 }
+components:
+  - "Salad of cucumber, carrot and mixed leaves with lemon"
+  - "Primary: 1 bowl tofu bhurji (crumbled firm tofu with onion, tomato, capsicum and peas, paneer-bhurji style)"
+  - "1 whole-wheat phulka (35 g atta)"
+ingredients:
+  - { item: tofu (firm), qty: 150, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: green peas (frozen), qty: 30, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: salad leaves (mixed), qty: 50, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Press the tofu between two plates for 10 minutes to drain, then crumble it coarsely with your fingers."
+  - "Heat the oil, crackle the cumin, fry the onion with ginger, garlic and green chilli until golden, then the capsicum and tomato with turmeric, coriander and chilli powders until soft."
+  - "Add the peas and the crumbled tofu with salt and cook on high heat 5 minutes, stirring, until the moisture is gone and the bhurji is lightly browned. Finish with garam masala, crushed kasuri methi and coriander leaves."
+  - "Slice cucumber and carrot, toss with the salad leaves, lemon, chaat masala and a pinch of salt."
+  - "Cook one phulka on a hot tawa. Serve the salad first, then the bhurji with the phulka."
+swaps:
+  - { for: tofu (firm), use: "paneer", note: "80 g; the classic paneer bhurji, higher in saturated fat" }
+source: "Adapted from the traditional Punjabi paneer bhurji"

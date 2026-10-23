@@ -1,0 +1,54 @@
+id: north-indian.dinner.kadhi-brown-rice
+name: "Palak Kadhi & Brown Basmati"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: dairy
+family: kadhi
+tags: [vegetarian, comfort]
+spice: medium
+kidNote: "Serve the child's kadhi before the tadka with the dried red chilli is poured on top."
+packable: false
+prepMinutes: 10
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Punjabi kadhi, a tangy yoghurt and besan curry simmered slowly and finished with a ghee tempering, usually eaten with rice."
+nutrition: { kcal: 490, carbs: 68, fibre: 10, protein: 26, satFat: 5, sugar: 0 }
+components:
+  - "Cucumber slices with salt and lemon"
+  - "Primary: 1 big bowl palak kadhi (yoghurt-besan curry with wilted spinach, no pakoras)"
+  - "3/4 cup brown basmati rice (45 g uncooked)"
+ingredients:
+  - { item: low-fat yoghurt (curd), qty: 200, unit: g }
+  - { item: besan (chickpea flour), qty: 30, unit: g }
+  - { item: brown basmati rice, qty: 45, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: ghee, qty: 1, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: kashmiri chilli powder, qty: 0.25, unit: tsp }
+  - { item: asafoetida, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Whisk the yoghurt (a day old is best, for sourness) with the besan, turmeric and 500 ml water until lump-free."
+  - "Heat half the ghee, crackle the fenugreek, cumin and mustard seeds with the asafoetida, then fry the onion, ginger, garlic and green chilli until soft."
+  - "Pour in the yoghurt mixture, bring to a boil stirring constantly so it does not split, then simmer uncovered on low for 25 minutes, stirring now and then, until thick and no longer raw-tasting. Add salt."
+  - "Wash and chop the spinach; stir into the kadhi for the last 5 minutes until wilted."
+  - "Soak the brown basmati 20 minutes and cook with a scant cup of water and a pinch of salt until tender; fluff."
+  - "Heat the remaining ghee, add the dried red chilli and the kashmiri chilli powder off the heat, and pour over the kadhi. Scatter coriander leaves. Serve the cucumber first, then the kadhi over the rice."
+swaps:
+  - { for: spinach, use: "fenugreek leaves (methi)", note: "methi kadhi; slightly bitter, very Punjabi" }
+source: "Adapted from the traditional Punjabi kadhi"

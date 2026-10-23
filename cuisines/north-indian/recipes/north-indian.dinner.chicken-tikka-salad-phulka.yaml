@@ -1,0 +1,55 @@
+id: north-indian.dinner.chicken-tikka-salad-phulka
+name: "Chicken Tikka, Green Salad & Phulka"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: chicken
+family: chicken-tikka
+tags: [high-protein]
+spice: medium
+kidNote: "Marinate three cubes with only yoghurt, turmeric, lemon and salt for the child, skipping the kashmiri chilli."
+packable: false
+prepMinutes: 20
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chicken tikka, boneless chicken in a spiced yoghurt marinade grilled on skewers in a tandoor, the Punjabi restaurant classic."
+nutrition: { kcal: 480, carbs: 39, fibre: 8, protein: 43, satFat: 5, sugar: 0 }
+components:
+  - "Green salad with cucumber, tomato and onion rings"
+  - "Primary: 150 g chicken tikka with capsicum, oven-grilled"
+  - "1 whole-wheat phulka (35 g atta)"
+  - "Mint raita"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: salad leaves (mixed), qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: kashmiri chilli powder, qty: 1, unit: tsp }
+  - { item: garam masala, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Cut the chicken into 3 cm cubes. Mix half the yoghurt with crushed ginger and garlic, kashmiri chilli, garam masala, toasted crushed cumin, kasuri methi, pepper, half the lemon juice, the oil and salt; coat the chicken and marinate 1 hour or overnight."
+  - "Thread the chicken on skewers with chunks of capsicum and a few onion petals. Grill at 230 C for 15-18 minutes, turning once, until charred at the edges and cooked through. Dust with chaat masala."
+  - "Stir chopped mint and coriander into the remaining yoghurt with a pinch of salt for the raita."
+  - "Toss the salad leaves with sliced cucumber, tomato and the rest of the onion in rings; squeeze over the remaining lemon."
+  - "Cook one phulka on a hot tawa. Serve the salad first, then the tikka with raita and the phulka."
+swaps:
+  - { for: chicken thigh (boneless), use: "chicken breast", note: grill 12 minutes only so it stays juicy }
+source: "Adapted from the traditional Punjabi murgh tikka"

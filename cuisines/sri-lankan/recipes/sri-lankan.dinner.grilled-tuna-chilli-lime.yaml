@@ -1,0 +1,54 @@
+id: sri-lankan.dinner.grilled-tuna-chilli-lime
+name: "Grilled Tuna with Chilli-Lime & Kale Mallung"
+slot: [dinner]
+role: main
+cuisine: sri-lankan
+protein: fish
+family: tuna-steak
+tags: [quick]
+spice: medium
+kidNote: "Leave the green chilli and chilli flakes out of the child's portion; add them after the child's share is set aside."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 470, carbs: 41, fibre: 13, protein: 43, satFat: 4, sugar: 0 }
+components:
+  - "Kale mallung"
+  - "Primary: 130 g grilled tuna steak with chilli-lime dressing"
+  - "1 whole-wheat roti"
+  - "Beetroot-carrot salad"
+ingredients:
+  - { item: tuna (choora), qty: 130, unit: g }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.5, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: kale, qty: 0.5, unit: bunch }
+  - { item: grated coconut, qty: 8, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: maldive fish flakes, qty: 3, unit: g }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: beetroot, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 50, unit: g }
+steps:
+  - "Rub the tuna with half the oil, pepper, crushed garlic, ginger and salt; rest 10 minutes."
+  - "Whisk the lime juice with the chilli flakes, a little salt and the rest of the oil for the dressing."
+  - "Grill or griddle the tuna 2-3 minutes a side so the centre stays just pink; spoon the chilli-lime dressing over."
+  - "Shred the kale; toss in a dry pan with grated coconut, shallots, green chilli, maldive fish, turmeric, curry leaves and salt 3-4 minutes until wilted."
+  - "Roti: knead the atta with salt and water, rest 10 minutes, roll one thin round and cook on a dry pan 1-2 minutes a side."
+  - "Grate the beetroot and carrot, slice the cucumber and blanched beans and toss with a squeeze of lime; serve the mallung and salad first."
+swaps:
+  - { for: tuna (choora), use: "seer fish (neymeen) steak", note: "grill 4 minutes a side" }
+source: "Adapted from traditional Sri Lankan home cooking"

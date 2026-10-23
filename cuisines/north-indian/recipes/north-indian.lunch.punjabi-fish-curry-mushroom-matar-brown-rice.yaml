@@ -1,0 +1,53 @@
+id: north-indian.lunch.punjabi-fish-curry-mushroom-matar-brown-rice
+name: "Punjabi Fish Curry, Mushroom Matar & Brown Rice"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: fish
+family: fish-curry
+tags: [high-protein]
+spice: medium
+kidNote: "Lift out the child's fish and a ladle of gravy before the green chilli and kashmiri chilli are added; the mushroom matar is mild."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 540, carbs: 59, fibre: 8, protein: 44, satFat: 2, sugar: 0 }
+components:
+  - "1 cup mushroom matar (mushrooms and peas, dry sabzi)"
+  - "Primary: 150 g grouper in Punjabi yoghurt-tomato fish curry with ajwain and methi seeds"
+  - "1 level cup brown basmati rice"
+ingredients:
+  - { item: grouper (kalava) fillet, qty: 150, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: brown basmati rice, qty: 60, unit: g }
+  - { item: mushrooms, qty: 80, unit: g }
+  - { item: green peas (frozen), qty: 50, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: ajwain (carom seeds), qty: 0.25, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Cut the fish into large pieces and rub with half the turmeric, lemon juice and salt. Soak the brown basmati 20 minutes, then cook with 1.5 cups water and a pinch of salt until tender."
+  - "Heat 1 tsp oil, crackle the fenugreek seeds and ajwain, fry the onion with ginger and garlic until golden, then the tomato with coriander, kashmiri chilli and the remaining turmeric until the masala thickens."
+  - "Whisk the yoghurt with 150 ml water and stir in over low heat. Add the fish and green chilli, cover and simmer 8 minutes until it flakes. Finish with garam masala and coriander leaves."
+  - "Heat the remaining oil, crackle the cumin, add the quartered mushrooms on high heat until they brown and their water evaporates, then the peas with salt for 3 minutes."
+  - "Pack the rice, fish curry and mushroom matar in separate compartments."
+swaps:
+  - { for: grouper (kalava) fillet, use: "firm white fish fillet", note: same timing }
+source: "Adapted from the traditional Punjabi machhli ka salan"

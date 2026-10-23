@@ -1,0 +1,51 @@
+id: north-indian.lunch.fish-tikka-brown-rice-lauki
+name: "Fish Tikka, Brown Rice & Lauki-Matar Sabzi"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: fish
+family: fish-tikka
+tags: [high-protein]
+spice: medium
+kidNote: "Keep two cubes of fish in a plain yoghurt-turmeric marinade without the chilli for the child."
+packable: true
+prepMinutes: 20
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 58, fibre: 8, protein: 42, satFat: 3, sugar: 0 }
+components:
+  - "1 cup lauki-matar sabzi (bottle gourd with peas)"
+  - "Primary: 150 g seer fish tikka, yoghurt-marinated, oven-grilled"
+  - "1 level cup brown basmati rice"
+ingredients:
+  - { item: seer fish (neymeen) steak, qty: 150, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 40, unit: g }
+  - { item: brown basmati rice, qty: 60, unit: g }
+  - { item: bottle gourd (lauki), qty: 100, unit: g }
+  - { item: green peas (frozen), qty: 30, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: ajwain (carom seeds), qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Cut the seer fish into 3 cm cubes. Mix the yoghurt with crushed ginger and garlic, kashmiri chilli, garam masala, ajwain, half the turmeric, lemon juice and salt; coat the fish and rest 20 minutes."
+  - "Soak the brown basmati 20 minutes, then cook with 1.5 cups water and a pinch of salt until tender; fluff."
+  - "Heat the oil, crackle the cumin, soften the onion, then add the tomato, remaining turmeric and coriander powder. Add the diced lauki and peas with salt, cover and cook 12 minutes until the gourd is soft and the sabzi is dry."
+  - "Thread the fish on skewers or lay on a lined tray; grill at 230 C for 10-12 minutes, turning once, until the edges char. Squeeze lemon and scatter coriander."
+  - "Pack the rice, sabzi and tikka in separate compartments."
+swaps:
+  - { for: seer fish (neymeen) steak, use: "grouper (kalava) fillet", note: grill 8 minutes only }
+source: "Adapted from the traditional Punjabi machhi tikka"

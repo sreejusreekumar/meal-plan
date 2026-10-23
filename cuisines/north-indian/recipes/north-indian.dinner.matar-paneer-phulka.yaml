@@ -1,0 +1,53 @@
+id: north-indian.dinner.matar-paneer-phulka
+name: "Matar Paneer & Phulka"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: dairy
+family: paneer
+tags: [vegetarian]
+spice: medium
+kidNote: "Ladle out the child's portion before the kashmiri chilli and green chilli go in."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 490, carbs: 42, fibre: 9, protein: 28, satFat: 8, sugar: 0 }
+components:
+  - "Cucumber slices with lemon and salt"
+  - "Primary: 1 bowl matar paneer (80 g low-fat paneer and peas in onion-tomato gravy, no cream)"
+  - "1 whole-wheat phulka (35 g atta)"
+ingredients:
+  - { item: paneer, qty: 80, unit: g }
+  - { item: green peas (frozen), qty: 60, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: cashews, qty: 8, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Soak the cashews in hot water 10 minutes and grind with the tomato, ginger and garlic to a smooth paste. Cut the low-fat paneer into 2 cm cubes."
+  - "Heat the oil, crackle the cumin, fry the onion until golden, then add the tomato-cashew paste with coriander, kashmiri chilli and turmeric powders; cook until the masala thickens and darkens."
+  - "Whisk the yoghurt with 150 ml water and stir in over low heat. Add the peas and green chilli, simmer 5 minutes, then the paneer for 3 minutes more."
+  - "Finish with garam masala, crushed kasuri methi and coriander leaves."
+  - "Cook one phulka on a hot tawa. Slice the cucumber with lemon and salt; serve it first, then the matar paneer with the phulka."
+swaps:
+  - { for: paneer, use: "tofu (firm)", note: 120 g; lower saturated fat }
+source: "Adapted from the traditional Punjabi matar paneer"

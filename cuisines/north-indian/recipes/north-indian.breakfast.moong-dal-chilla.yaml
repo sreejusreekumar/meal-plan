@@ -1,0 +1,45 @@
+id: north-indian.breakfast.moong-dal-chilla
+name: Moong dal chilla with spinach & paneer crumble
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: legume
+family: moong-chilla
+spice: medium
+kidNote: "Keep the green chilli out of the batter and chop it over the adults' chillas instead."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Moong dal chilla, the soaked-and-ground yellow lentil pancake served as a protein-rich breakfast in north India."
+nutrition: { kcal: 355, carbs: 42, fibre: 10, protein: 22, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 2 moong dal chillas with spinach"
+  - "Low-fat paneer crumble filling"
+  - "Small bowl of low-fat curd"
+ingredients:
+  - { item: yellow moong dal, qty: 50, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: asafoetida, qty: 0.125, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: spinach, qty: 0.25, unit: bunch }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: paneer, qty: 25, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+steps:
+  - "Soak the moong dal 3-4 hours (or overnight); drain and grind with ginger, green chilli, cumin, asafoetida, turmeric and salt to a smooth batter."
+  - "Stir finely chopped spinach and half the onion into the batter."
+  - "Crumble the paneer with the remaining onion and the coriander for the filling."
+  - "Heat a non-stick tawa, brush with half the oil, spread a ladle of batter thin and cook 2 minutes; flip, scatter half the paneer crumble on top, fold and cook 1 minute more. Repeat."
+  - "Serve with a small bowl of curd."
+swaps:
+  - { for: paneer, use: "tofu (firm), crumbled", note: same amount }
+source: "Adapted from the traditional moong dal chilla"

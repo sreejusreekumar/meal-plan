@@ -1,0 +1,53 @@
+id: sri-lankan.dinner.parippu-with-spinach-and-roti
+name: "Parippu with Spinach & Roti"
+slot: [dinner]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: dhal
+tags: [quick]
+spice: medium
+kidNote: "Leave the green chilli and chilli flakes out of the child's portion; add them after the child's share is set aside."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 490, carbs: 63, fibre: 14, protein: 27, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 bowl parippu with spinach (thin coconut milk)"
+  - "1 whole-wheat roti"
+  - "100 g curd (low-fat yoghurt)"
+  - "Cucumber salad with lime"
+ingredients:
+  - { item: masoor dal, qty: 50, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: coconut milk (canned), qty: 10, unit: ml }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Simmer the masoor dal with turmeric, sliced onion, half the garlic, green chilli, pandan and 1.5 cups water for 12 minutes."
+  - "Add the chopped spinach and salt and cook 3 minutes; stir in the coconut milk diluted with 1/4 cup water and warm through."
+  - "Temper the oil with mustard, cumin, fenugreek, dried chilli, curry leaves and the rest of the garlic; pour over the dhal."
+  - "Roti: knead the atta with salt and water, rest 10 minutes, roll one thin round and cook on a dry pan 1-2 minutes a side."
+  - "Slice the cucumber with lime and salt; serve the salad first, then the dhal with the roti and a bowl of curd."
+swaps:
+  - { for: spinach, use: "amaranth leaves (cheera)", note: "same timing" }
+  - { for: spinach, use: "gotu kola (pennywort)", note: "chop finely" }
+source: "Adapted from traditional Sri Lankan home cooking"

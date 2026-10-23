@@ -1,0 +1,42 @@
+id: sri-lankan.breakfast.egg-roti-and-tomato-onion-sambol
+name: Whole-wheat egg roti & tomato-onion sambol
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: roti
+spice: medium
+kidNote: "Fold the child's roti without the green chilli, and make their sambol without chilli flakes."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 387, carbs: 43, fibre: 7, protein: 20, satFat: 4.3, sugar: 0 }
+components:
+  - "Primary: 1 whole-wheat egg roti (two eggs folded inside)"
+  - "Tomato-onion sambol with lime and coriander"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: whole-wheat atta, qty: 50, unit: g }
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Knead the atta with a pinch of salt and water into a soft dough; rest 10 minutes, then roll one large thin roti."
+  - "Beat the eggs with a quarter of the onion chopped, the green chilli, shredded curry leaves, pepper and salt."
+  - "Cook the roti on a hot griddle 1 minute, flip, spread the egg over it, drizzle the rice bran oil around the edge and fold the sides in to make a square parcel; cook 2 minutes a side until the egg is set."
+  - "Dice the tomato and remaining onion, toss with chilli flakes, coriander leaves, salt and lime for the sambol."
+  - "Brew the tea 3 minutes and strain; serve the egg roti cut in half with the sambol."
+source: "Adapted from the Sri Lankan street-side egg roti, made with whole-wheat atta"

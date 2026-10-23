@@ -1,0 +1,56 @@
+id: sri-lankan.lunch.parippu-pol-sambol-brinjal-moju
+name: "Parippu, Pol Sambol & Brinjal Moju"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: dhal
+spice: medium
+kidNote: "Make the child's pol sambol with a pinch of paprika-style kashmiri chilli instead of chilli flakes, and leave the green chilli out of the dhal portion."
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Parippu with pol sambol, the Sri Lankan red-lentil curry and coconut-chilli sambol that anchor almost every rice-and-curry table."
+nutrition: { kcal: 530, carbs: 77, fibre: 15, protein: 18, satFat: 5, sugar: 0 }
+components:
+  - "Pol sambol (8 g coconut)"
+  - "Primary: 1 bowl parippu (masoor dhal, thin coconut milk)"
+  - "Baked brinjal moju (no sugar)"
+  - "1 level cup red rice"
+ingredients:
+  - { item: masoor dal, qty: 40, unit: g }
+  - { item: coconut milk (canned), qty: 10, unit: ml }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: grated coconut, qty: 8, unit: g }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: brinjal (eggplant), qty: 100, unit: g }
+  - { item: tamarind, qty: 5, unit: g }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Rinse the masoor dal; simmer with turmeric, sliced onion, half the garlic, green chilli, curry leaves, pandan and 1.5 cups water for 15 minutes until soft."
+  - "Dilute the coconut milk with 1/4 cup water and stir into the dhal with salt; simmer 2 minutes."
+  - "Temper 1/2 tsp oil with the mustard, cumin, fenugreek, dried chilli and the rest of the garlic; pour over the dhal."
+  - "Brinjal moju: cut the eggplant into batons, toss with 1/2 tsp oil, turmeric and salt and bake at 220 C for 20 minutes; toss with sliced shallots, tamarind water, mustard seeds, lime and a pinch of chilli flakes."
+  - "Pol sambol: crush the grated coconut with the rest of the shallots, chilli flakes, salt and lime juice."
+  - "Plate the sambol and moju first, then the dhal, with 1 level cup red rice last."
+swaps:
+  - { for: masoor dal, use: "yellow moong dal", note: "same timing" }
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

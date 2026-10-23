@@ -1,0 +1,44 @@
+id: north-indian.breakfast.sprouts-chaat-with-lemon
+name: Moong sprouts chaat with lemon & boiled egg
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: legume
+family: sprouts
+tags: [quick]
+spice: medium
+kidNote: "Mix the child's bowl before adding the chopped green chilli."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 375, carbs: 42, fibre: 10, protein: 22, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl steamed moong sprouts chaat with onion, tomato and cucumber"
+  - "Roasted peanuts tossed in"
+  - "1 hard-boiled egg"
+ingredients:
+  - { item: green gram (cherupayar), qty: 50, unit: g }
+  - { item: peanuts, qty: 15, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: chaat masala, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: eggs, qty: 1, unit: pc }
+steps:
+  - "Two days ahead: soak the green gram overnight, drain, and leave in a covered sieve to sprout, rinsing twice a day."
+  - "Steam the sprouts 5 minutes so they are tender but still crisp; hard-boil the egg alongside (10 minutes)."
+  - "Dry-roast the peanuts 3 minutes and rub off the skins."
+  - "Toss the warm sprouts with diced onion, tomato, cucumber, chopped green chilli, chaat masala, pepper, salt and lemon juice."
+  - "Top with the peanuts and coriander; serve the halved egg on the side."
+swaps:
+  - { for: eggs, use: "paneer, 40 g, cubed", note: toss in raw }
+source: "Adapted from the traditional moong sprouts chaat"

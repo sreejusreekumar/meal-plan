@@ -1,0 +1,52 @@
+id: sri-lankan.lunch.devilled-chicken
+name: "Devilled Chicken & Cucumber Salad"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: chicken
+family: devilled-chicken
+tags: [quick]
+spice: medium
+kidNote: "Cook the child's share of chicken with the onion and capsicum only, before the chilli flakes and chilli powder go in."
+packable: true
+prepMinutes: 20
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 510, carbs: 62, fibre: 8, protein: 41, satFat: 2, sugar: 0 }
+components:
+  - "Cucumber-shallot salad with lime"
+  - "Primary: 140 g devilled chicken with onion and capsicum (no sugar, no ketchup)"
+  - "1 level cup red rice"
+ingredients:
+  - { item: chicken breast, qty: 140, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: tamarind, qty: 3, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Cut the chicken into 3 cm pieces; marinate 15 minutes with chilli powder, pepper, half the garlic, ginger and salt."
+  - "Sear the chicken in the oil over high heat 5-6 minutes until browned; remove."
+  - "In the same pan toss the onion wedges, capsicum, the rest of the garlic, green chilli and curry leaves 3 minutes; add the chilli flakes, chopped tomato and tamarind water and cook to a sticky glaze."
+  - "Return the chicken, toss 2 minutes to coat; no sugar or ketchup is added, the sourness comes from the tamarind."
+  - "Slice the cucumber and shallots thinly; dress with lime juice, salt and a grind of pepper."
+  - "Serve the salad first, then the devilled chicken, with 1 level cup red rice last."
+swaps:
+  - { for: chicken breast, use: "tofu (firm)", note: "150 g, pressed and cubed" }
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

@@ -82,8 +82,8 @@ The token cache lives in `~/.config/meal-plan/ms_token_cache.json`, never in the
 
 Each cuisine is a **pack**: a folder under `cuisines/` holding `pack.yaml` (name, slot labels,
 the "Every day" guardrails shown on the page) and `recipes/<id>.yaml`, one file per dish.
-`uv run mealplan cuisines` lists the packs you have and whether each is ready. Only Kerala
-exists today.
+`uv run mealplan cuisines` lists the packs you have and whether each is ready. Packs today: Kerala,
+North Indian, Sri Lankan; the rotation cycles through them by ISO week number.
 
 Pick the cuisine for a week in one of two ways:
 

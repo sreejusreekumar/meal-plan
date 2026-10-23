@@ -1,0 +1,55 @@
+id: north-indian.lunch.lauki-chana-dal-brown-rice-salad
+name: "Lauki Chana Dal, Brown Rice & Salad"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: legume
+family: chana-dal
+tags: [lunchbox-classic]
+spice: medium
+kidNote: "Ladle the child's dal out before the chilli powder is stirred in."
+packable: true
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 520, carbs: 78, fibre: 13, protein: 21, satFat: 4, sugar: 0 }
+components:
+  - "Cucumber-carrot salad with lemon"
+  - "Primary: 1 bowl lauki chana dal (bottle gourd cooked into split chickpeas)"
+  - "1 level cup brown basmati rice"
+  - "1 small glass chaas"
+ingredients:
+  - { item: chana dal, qty: 45, unit: g }
+  - { item: bottle gourd (lauki), qty: 100, unit: g }
+  - { item: brown basmati rice, qty: 60, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: ghee, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: asafoetida, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Soak the chana dal 1 hour. Pressure-cook with the diced lauki, turmeric and salt for 4 whistles until the dal is soft but still holds its shape."
+  - "Soak the brown basmati 20 minutes, then cook with 1.5 cups water and a pinch of salt until tender; fluff."
+  - "Heat the ghee, crackle the cumin and asafoetida, fry the onion with ginger, garlic and green chilli until golden, then the tomato with coriander and chilli powders until thick."
+  - "Pour the masala into the dal, simmer 5 minutes, and finish with garam masala and coriander leaves."
+  - "Dice cucumber and carrot and dress with lemon and salt. Whisk the yoghurt with 100 ml water and a pinch of salt for the chaas."
+  - "Pack the rice and dal separately; the salad and chaas go in their own pots."
+swaps:
+  - { for: bottle gourd (lauki), use: "ash gourd", note: same cooking time }
+source: "Adapted from the traditional Punjabi lauki chana dal"

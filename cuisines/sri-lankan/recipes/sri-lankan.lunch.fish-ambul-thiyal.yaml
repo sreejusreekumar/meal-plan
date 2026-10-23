@@ -1,0 +1,58 @@
+id: sri-lankan.lunch.fish-ambul-thiyal
+name: "Fish Ambul Thiyal & Gotu Kola Sambol"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: fish
+family: ambul-thiyal
+spice: medium
+kidNote: "Leave the green chilli and chilli powder out of the child's portion; add them to the pan after the child's share is set aside."
+packable: true
+prepMinutes: 20
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Ambul thiyal, the sour dry tuna curry of southern Sri Lanka, cooked with goraka and black pepper until the fish is coated and almost dry."
+nutrition: { kcal: 510, carbs: 50, fibre: 12, protein: 40, satFat: 5, sugar: 0 }
+components:
+  - "Gotu kola sambol"
+  - "Primary: 130 g tuna ambul thiyal (sour dry curry)"
+  - "Ash gourd curry (no coconut milk)"
+  - "1 level cup red rice"
+ingredients:
+  - { item: tuna (choora), qty: 130, unit: g }
+  - { item: kudampuli (Malabar tamarind), qty: 2, unit: pc }
+  - { item: black pepper, qty: 1, unit: tsp }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: gotu kola (pennywort), qty: 0.5, unit: bunch }
+  - { item: grated coconut, qty: 10, unit: g }
+  - { item: shallots (small onions), qty: 15, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: maldive fish flakes, qty: 3, unit: g }
+  - { item: ash gourd, qty: 100, unit: g }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Soak the goraka (kudampuli) in 1/4 cup hot water for 10 minutes; grind it with the pepper, garlic, ginger, turmeric, chilli powder and salt to a paste."
+  - "Cut the tuna into 3 cm cubes, coat in the paste and arrange in a single layer in a clay or heavy pan with the curry leaves, pandan, cinnamon, oil and 1/2 cup water."
+  - "Cover and simmer gently 20-25 minutes, shaking rather than stirring, until the liquid has reduced to a dark coating on the fish."
+  - "Shred the gotu kola finely and toss with the grated coconut, sliced shallots, green chilli, maldive fish, lime juice and a pinch of salt."
+  - "Dice the ash gourd; simmer with turmeric, fenugreek, mustard seeds, curry leaves and salt in 1/2 cup water for 10 minutes until tender."
+  - "Plate the sambol first, then the ambul thiyal and ash gourd curry, with 1 level cup red rice last."
+swaps:
+  - { for: tuna (choora), use: "seer fish (neymeen) steak", note: "cut into cubes, same timing" }
+  - { for: gotu kola (pennywort), use: "kale", note: "shred finely, same sambol" }
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

@@ -93,3 +93,30 @@ def test_impossible_pack_fails_loudly(household):
     with pytest.raises(GenerationError) as exc:
         generate("2026-W44", [_tiny_pack()], household, now=NOW)
     assert "lunch" in str(exc.value)
+
+
+def test_every_pack_on_disk_builds_a_valid_week(root_paths, household):
+    from mealplan.config import load_catalogue
+    from mealplan.packs import check_pack, list_pack_ids, load_pack
+
+    cat = load_catalogue(root_paths)
+    for pid in list_pack_ids(root_paths.cuisines_dir):
+        lp = load_pack(root_paths.cuisines_dir, pid)
+        assert check_pack(lp, cat) == [], pid
+        plan = generate("2026-W47", [lp], household, catalogue=cat, now=NOW)
+        assert validate_plan(plan, household) == [], pid
+        assert plan.week_checks["signatureDishes"] >= household.weekly_rules.signature_dishes_min
+
+
+def test_mixed_week_alternates_cuisines(root_paths, household):
+    from mealplan.config import load_catalogue
+    from mealplan.packs import load_pack
+
+    cat = load_catalogue(root_paths)
+    packs = [
+        load_pack(root_paths.cuisines_dir, "kerala"),
+        load_pack(root_paths.cuisines_dir, "sri-lankan"),
+    ]
+    plan = generate("2026-W48", packs, household, catalogue=cat, now=NOW)
+    assert [d.cuisine for d in plan.days] == ["kerala", "sri-lankan"] * 3 + ["kerala"]
+    assert validate_plan(plan, household) == []

@@ -1,0 +1,39 @@
+id: sri-lankan.breakfast.mung-ata-with-coconut-and-boiled-egg
+name: Boiled green gram (mung ata) with coconut, chilli & a boiled egg
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: mung
+spice: medium
+kidNote: "Serve the child's mung with the coconut but without the green chilli and chilli flakes."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 347, carbs: 44, fibre: 11, protein: 25, satFat: 4.2, sugar: 0 }
+components:
+  - "Primary: 1 bowl boiled mung ata with grated coconut and onion"
+  - "1 hard-boiled egg"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: green gram (cherupayar), qty: 60, unit: g }
+  - { item: grated coconut, qty: 8, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: maldive fish flakes, qty: 5, unit: g }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Soak the green gram overnight; drain and boil in fresh water with salt and the curry leaves for 20-25 minutes until tender but whole, then drain."
+  - "Hard-boil the egg 10 minutes, peel and halve."
+  - "Toss the warm mung with the grated coconut, finely sliced onion, green chilli, chilli flakes, maldive fish and a squeeze of lime."
+  - "Brew the tea 3 minutes and strain; serve the mung warm with the egg."
+source: "Adapted from the traditional Sri Lankan mung ata breakfast"

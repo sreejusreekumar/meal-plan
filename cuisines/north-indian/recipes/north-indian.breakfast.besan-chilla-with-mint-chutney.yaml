@@ -1,0 +1,47 @@
+id: north-indian.breakfast.besan-chilla-with-mint-chutney
+name: Besan chilla & mint-curd chutney
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: legume
+family: chilla
+tags: [quick]
+spice: medium
+kidNote: "Pour the child's chilla before stirring the chopped green chilli into the batter."
+packable: false
+prepMinutes: 10
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Besan chilla, the savoury chickpea-flour pancake that is a weekday breakfast in Punjabi and Delhi homes."
+nutrition: { kcal: 350, carbs: 44, fibre: 8, protein: 18, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 2 besan chillas with onion and tomato"
+  - "Mint-curd chutney"
+  - "Unsweetened masala chai"
+ingredients:
+  - { item: besan (chickpea flour), qty: 55, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: ajwain (carom seeds), qty: 0.25, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: mint leaves, qty: 0.25, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Whisk the besan with water to a pouring batter; stir in finely chopped onion, tomato, half the coriander, ajwain, turmeric and salt. Rest 5 minutes."
+  - "Blend the mint, the rest of the coriander, lemon juice and roasted cumin into the curd for the chutney; season."
+  - "Heat a non-stick tawa, brush with half the oil, pour a ladle of batter and spread thin; cook 2 minutes each side until golden. Repeat for the second chilla."
+  - "Brew the tea leaves in water with a pinch of the ajwain for the chai if you like; no sugar, no milk needed."
+  - "Serve the chillas hot with the chutney."
+swaps:
+  - { for: besan (chickpea flour), use: "yellow moong dal, soaked and ground", note: rest the batter 10 minutes }
+source: "Adapted from the traditional besan chilla"

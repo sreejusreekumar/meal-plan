@@ -1,0 +1,35 @@
+id: sri-lankan.snack.cucumber-onion-sambol-boiled-egg-and-green-tea
+name: Cucumber & onion sambol-salad with a boiled egg and green tea
+slot: [snack]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: egg
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 109, carbs: 8, fibre: 2, protein: 8, satFat: 1.6, sugar: 0 }
+components:
+  - "Primary: 1 hard-boiled egg"
+  - "Cucumber, onion and tomato sambol-salad with lime and pepper"
+  - "Green tea, unsweetened"
+ingredients:
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: green tea bags, qty: 1, unit: pc }
+steps:
+  - "Hard-boil the egg 10 minutes, peel and quarter."
+  - "Dice the cucumber, onion and tomato, toss with chopped coriander, lime, pepper and salt."
+  - "Steep the green tea bag in hot (not boiling) water 2-3 minutes; serve unsweetened with the salad and egg."
+source: "Sri Lankan home-style cucumber sambol, without chilli"

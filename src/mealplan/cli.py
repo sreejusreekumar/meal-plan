@@ -297,9 +297,20 @@ def weekly(
     if exists and not force:
         console.print(f"plan {wk} already exists; keeping it (use --force to replace).")
     else:
-        ctx_args = ["--week", wk, "--salt", str(salt)] + (["--cuisine", cuisine] if cuisine else [])
-        plan(cuisine=cuisine, week=wk, salt=salt, force=force)
-        console.print(f"[dim]planned with {' '.join(ctx_args)}[/]")
+        # A rare week cannot be built with a given salt; the Saturday job must not stop on it.
+        for attempt_salt in range(salt, salt + 4):
+            try:
+                plan(
+                    cuisine=cuisine, week=wk, salt=attempt_salt, force=force or attempt_salt > salt
+                )
+                break
+            except typer.Exit:
+                if attempt_salt == salt + 3:
+                    raise
+                console.print(
+                    f"[yellow]salt {attempt_salt} failed; trying salt {attempt_salt + 1}[/]"
+                )
+        console.print(f"[dim]planned {wk} with salt {attempt_salt}[/]")
     shop(week=wk, todo=todo)
     _, man = build_mod.build(p)
     console.print(f"[green]Built index.html[/] · current {man['current']} · next {man['next']}")

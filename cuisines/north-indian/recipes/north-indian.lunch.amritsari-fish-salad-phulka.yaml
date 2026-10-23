@@ -1,0 +1,53 @@
+id: north-indian.lunch.amritsari-fish-salad-phulka
+name: "Amritsari Baked Fish, Salad & Phulka"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: fish
+family: fish-baked
+tags: [high-protein]
+spice: medium
+kidNote: "Coat one fillet with only turmeric and ajwain, leaving out the kashmiri chilli, for the child."
+packable: true
+prepMinutes: 20
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Amritsari machhi, the Punjabi street classic of fish in a spiced besan and ajwain batter, deep-fried in Amritsar; here it is baked."
+nutrition: { kcal: 530, carbs: 61, fibre: 12, protein: 46, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 150 g Amritsari-style fish, besan-ajwain crust, oven-baked"
+  - "Green salad with onion rings and mint-coriander chutney"
+  - "2 whole-wheat phulkas (70 g atta)"
+ingredients:
+  - { item: firm white fish fillet, qty: 150, unit: g }
+  - { item: besan (chickpea flour), qty: 15, unit: g }
+  - { item: whole-wheat atta, qty: 70, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ajwain (carom seeds), qty: 0.5, unit: tsp }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salad leaves (mixed), qty: 50, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: mint leaves, qty: 0.1, unit: bunch }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Cut the fish into 4 cm pieces and pat dry. Whisk half the yoghurt with crushed ginger and garlic, the besan, ajwain, kashmiri chilli, turmeric, half the lemon juice and salt into a thick coating; turn the fish in it and rest 15 minutes."
+  - "Heat the oven to 220 C. Lay the fish on a lined tray, brush with the oil and bake 12-14 minutes until the crust is crisp at the edges and the fish flakes. Dust with chaat masala."
+  - "Blend mint, coriander, green chilli, the rest of the yoghurt and lemon with a pinch of salt for the chutney."
+  - "Toss the salad leaves with sliced cucumber and thin onion rings."
+  - "Knead the atta with water and a pinch of salt, roll two thin rounds and cook on a hot tawa, puffing over the flame."
+  - "Pack the fish on top of the salad with chutney in a small pot; wrap the phulkas separately."
+swaps:
+  - { for: firm white fish fillet, use: "grouper (kalava) fillet", note: same baking time }
+source: "Adapted from the traditional Amritsari machhi"

@@ -1,0 +1,53 @@
+id: north-indian.dinner.methi-chicken-phulka-cucumber
+name: "Methi Chicken, Phulka & Cucumber Salad"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: chicken
+family: methi-chicken
+tags: [high-protein]
+spice: medium
+kidNote: "Lift the child's chicken out before the green chilli and kashmiri chilli go in; the methi is bitter for some children, so offer extra cucumber."
+packable: false
+prepMinutes: 15
+cookMinutes: 35
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 500, carbs: 39, fibre: 8, protein: 44, satFat: 5, sugar: 0 }
+components:
+  - "Cucumber and radish salad with lemon"
+  - "Primary: 150 g methi chicken (fenugreek-leaf chicken in yoghurt gravy, no cream)"
+  - "1 whole-wheat phulka (35 g atta)"
+ingredients:
+  - { item: chicken thigh (boneless), qty: 150, unit: g }
+  - { item: fenugreek leaves (methi), qty: 0.5, unit: bunch }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: radish, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+steps:
+  - "Cut the chicken into 3 cm pieces and marinate in half the yoghurt with turmeric, crushed ginger and garlic and salt for 30 minutes. Pick the methi leaves off the stalks, wash well, chop, and toss with a pinch of salt to draw out some bitterness; squeeze dry after 10 minutes."
+  - "Heat the oil, crackle the cumin, fry the onion until golden, then the tomato with coriander and kashmiri chilli powders until the masala thickens."
+  - "Add the chicken with its marinade and sear 5 minutes on high heat. Whisk the remaining yoghurt with 100 ml water and stir in over low heat with the green chilli; cover and simmer 15 minutes."
+  - "Stir in the methi leaves and cook uncovered 5 minutes until the gravy clings to the chicken. Finish with garam masala, crushed kasuri methi and pepper."
+  - "Slice cucumber and radish and dress with lemon and salt. Cook one phulka on a hot tawa. Serve the salad first, then the methi chicken with the phulka."
+swaps:
+  - { for: fenugreek leaves (methi), use: "spinach", note: palak chicken; no need to salt the leaves }
+source: "Adapted from the traditional Punjabi methi murgh"

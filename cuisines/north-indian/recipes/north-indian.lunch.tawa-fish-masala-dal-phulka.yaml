@@ -1,0 +1,54 @@
+id: north-indian.lunch.tawa-fish-masala-dal-phulka
+name: "Tawa Fish Masala, Masoor Dal & Phulka"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: fish
+family: fish-tawa
+tags: [omega-3]
+spice: medium
+kidNote: "Rub one sardine with only turmeric, lemon and salt, skipping the chilli powder, for the child."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 525, carbs: 51, fibre: 11, protein: 37, satFat: 5, sugar: 0 }
+components:
+  - "Cucumber and onion salad with lemon"
+  - "Primary: 2 sardines, tawa-fried in a thin ajwain-chilli masala"
+  - "1 bowl masoor dal with ghee tadka"
+  - "1 whole-wheat phulka (35 g atta)"
+ingredients:
+  - { item: sardines (mathi), qty: 2, unit: pc }
+  - { item: masoor dal, qty: 40, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: ghee, qty: 0.5, unit: tsp }
+  - { item: ajwain (carom seeds), qty: 0.25, unit: tsp }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Clean and scale the sardines, score each side. Rub with kashmiri chilli, half the turmeric, coriander powder, ajwain, crushed garlic, half the lemon juice and salt; rest 15 minutes."
+  - "Pressure-cook the masoor dal with the remaining turmeric, the tomato, half the ginger and salt for 3 whistles; whisk smooth."
+  - "Heat the ghee, crackle the cumin, fry the rest of the ginger and the green chilli for a minute, add garam masala and pour over the dal. Stir in coriander leaves."
+  - "Heat the oil on a tawa and lay the sardines down; cook 4 minutes a side on medium heat until the masala crusts and the fish is cooked through. Scatter half the onion, sliced, over the fish for the last minute."
+  - "Slice the cucumber and the remaining onion, dress with the rest of the lemon and salt."
+  - "Cook the phulka on a hot tawa, puffing over the flame. Serve the salad first, then the fish, dal and phulka."
+swaps:
+  - { for: sardines (mathi), use: "mackerel (ayala)", note: 1 fish; 6 minutes a side }
+source: "Adapted from the traditional Punjabi tawa machhi"

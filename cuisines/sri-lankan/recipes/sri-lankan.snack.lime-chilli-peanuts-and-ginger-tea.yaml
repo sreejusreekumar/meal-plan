@@ -1,0 +1,35 @@
+id: sri-lankan.snack.lime-chilli-peanuts-and-ginger-tea
+name: Roasted peanuts with lime & chilli flakes, ginger tea
+slot: [snack]
+role: main
+cuisine: sri-lankan
+protein: none
+family: peanuts
+tags: [quick]
+spice: mild
+kidNote: "Keep a few plain roasted peanuts aside for the child before tossing in the chilli flakes."
+packable: false
+prepMinutes: 3
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 125, carbs: 6, fibre: 2, protein: 6, satFat: 1.3, sugar: 0 }
+components:
+  - "Primary: 20 g roasted peanuts tossed with onion, lime and chilli flakes"
+  - "Ginger plain tea, unsweetened"
+ingredients:
+  - { item: peanuts, qty: 20, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: chilli flakes, qty: 0.125, unit: tsp }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Dry-roast the peanuts with the curry leaves in a pan over medium heat 5-6 minutes, stirring, until they crackle; cool a minute."
+  - "Toss with the finely chopped onion, chilli flakes, salt and a squeeze of lime."
+  - "Crush the ginger, boil it in a cup of water 3 minutes, add the tea leaves, steep 2 minutes and strain; serve unsweetened."
+source: "Adapted from the Sri Lankan street-side peanut sambol (rata kaju)"

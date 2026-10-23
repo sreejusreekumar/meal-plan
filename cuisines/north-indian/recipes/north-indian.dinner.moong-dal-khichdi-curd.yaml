@@ -1,0 +1,50 @@
+id: north-indian.dinner.moong-dal-khichdi-curd
+name: "Moong Dal Khichdi & Curd"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: legume
+family: khichdi
+tags: [comfort, quick]
+spice: medium
+kidNote: "Leave the green chilli out of the child's tadka; the khichdi is otherwise gentle and the curd cools it."
+packable: false
+prepMinutes: 10
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Moong dal khichdi, the one-pot rice and lentil comfort dish of every North Indian home, eaten on sick days and lazy nights alike."
+nutrition: { kcal: 485, carbs: 66, fibre: 11, protein: 25, satFat: 4, sugar: 0 }
+components:
+  - "Cucumber salad with lemon"
+  - "Primary: 1 big bowl moong dal khichdi with carrot, beans and peas (dal and brown basmati 1:1)"
+  - "1 bowl curd (150 g)"
+ingredients:
+  - { item: yellow moong dal, qty: 40, unit: g }
+  - { item: brown basmati rice, qty: 40, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 50, unit: g }
+  - { item: green peas (frozen), qty: 30, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: ghee, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: asafoetida, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Rinse the moong dal and brown basmati together and soak 20 minutes."
+  - "Heat the ghee in the pressure cooker, crackle the cumin with the asafoetida, add the ginger and green chilli, then the diced carrot, beans and peas with turmeric."
+  - "Add the drained dal and rice with 3 cups water and salt; pressure-cook 4 whistles and let the pressure drop on its own."
+  - "Stir, loosening with hot water to a soft, spoonable khichdi, and finish with pepper, lemon and coriander leaves."
+  - "Slice the cucumber and dress with a squeeze of lemon and salt. Serve the salad, then the khichdi with a bowl of curd on the side."
+swaps:
+  - { for: brown basmati rice, use: "dalia (broken wheat)", note: dalia khichdi; same water and whistles }
+source: "Adapted from the traditional North Indian moong dal khichdi"

@@ -1,0 +1,50 @@
+id: sri-lankan.dinner.devilled-tofu
+name: "Devilled Tofu & Vegetables with Roti"
+slot: [dinner]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: tofu
+tags: [quick]
+spice: medium
+kidNote: "Cook the child's tofu with the onion and capsicum only, before the chilli flakes and chilli powder go in."
+packable: false
+prepMinutes: 15
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 470, carbs: 44, fibre: 12, protein: 30, satFat: 3, sugar: 0 }
+components:
+  - "Cucumber salad with lime"
+  - "Primary: 150 g devilled tofu with onion, capsicum and beans (no sugar)"
+  - "1 whole-wheat roti"
+ingredients:
+  - { item: tofu (firm), qty: 150, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 50, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: tamarind, qty: 5, unit: g }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Press the tofu 10 minutes, cut into 2 cm cubes and toss with chilli powder, pepper, salt and half the garlic."
+  - "Sear the tofu in the oil on a hot pan 5 minutes until golden on two sides; remove."
+  - "Toss the onion wedges, capsicum, beans, mushrooms, the rest of the garlic, ginger, green chilli and curry leaves 4 minutes; add chilli flakes, chopped tomato and tamarind water and cook to a glaze."
+  - "Return the tofu and toss 2 minutes to coat; no sugar or ketchup, the tamarind gives the tang."
+  - "Roti: knead the atta with salt and water, rest 10 minutes, roll one thin round and cook on a dry pan 1-2 minutes a side."
+  - "Slice the cucumber with lime and salt and serve first, then the devilled tofu with the roti."
+source: "Adapted from traditional Sri Lankan home cooking"

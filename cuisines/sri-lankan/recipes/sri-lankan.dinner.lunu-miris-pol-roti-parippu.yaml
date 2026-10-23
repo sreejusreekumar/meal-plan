@@ -1,0 +1,52 @@
+id: sri-lankan.dinner.lunu-miris-pol-roti-parippu
+name: "Lunu Miris, Pol Roti & Parippu"
+slot: [dinner]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: roti
+spice: medium
+kidNote: "Give the child plain sliced shallots with lime instead of lunu miris, and leave the green chilli out of the dhal portion."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pol roti with lunu miris, the Sri Lankan coconut flatbread eaten with a crushed shallot-chilli-lime relish and dhal."
+nutrition: { kcal: 490, carbs: 58, fibre: 14, protein: 26, satFat: 4, sugar: 0 }
+components:
+  - "Lunu miris (shallot-chilli-lime relish)"
+  - "Primary: 1 pol roti with 1 bowl tempered parippu (no coconut milk)"
+  - "1 boiled egg"
+  - "Cucumber salad"
+ingredients:
+  - { item: masoor dal, qty: 45, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: cumin seeds, qty: 0.25, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: grated coconut, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 20, unit: g }
+  - { item: chilli flakes, qty: 1, unit: tsp }
+  - { item: lime, qty: 0.5, unit: pc }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+steps:
+  - "Simmer the masoor dal with turmeric, sliced onion, half the garlic, green chilli, pandan and 1.5 cups water for 15 minutes until soft; season with salt and half the lime."
+  - "Temper the oil with mustard, cumin, fenugreek, dried chilli, curry leaves and the rest of the garlic; pour over the dhal."
+  - "Pol roti: mix the atta with the grated coconut, a little chopped onion and green chilli, salt and water into a soft dough; pat into one thick round and cook on a dry pan 3 minutes a side."
+  - "Lunu miris: pound the shallots with the chilli flakes, a pinch of salt and the rest of the lime juice to a coarse relish."
+  - "Hard-boil the egg 10 minutes; slice the cucumber with salt."
+  - "Serve the cucumber and lunu miris first, then the dhal, roti and egg."
+source: "Adapted from traditional Sri Lankan home cooking"

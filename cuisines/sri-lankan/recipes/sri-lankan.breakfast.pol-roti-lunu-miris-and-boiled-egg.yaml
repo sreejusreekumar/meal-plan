@@ -1,0 +1,44 @@
+id: sri-lankan.breakfast.pol-roti-lunu-miris-and-boiled-egg
+name: Whole-wheat pol roti with lunu miris & a boiled egg
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: pol-roti
+spice: medium
+kidNote: "Make the child's roti from the dough before the green chilli goes in, and skip the lunu miris."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pol roti, the thick griddle flatbread of flour and grated coconut eaten for breakfast across Sri Lanka with lunu miris."
+nutrition: { kcal: 346, carbs: 45, fibre: 8, protein: 18, satFat: 4.6, sugar: 0 }
+components:
+  - "Primary: 2 small whole-wheat pol rotis"
+  - "1 tbsp lunu miris"
+  - "1 hard-boiled egg"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: whole-wheat atta, qty: 55, unit: g }
+  - { item: grated coconut, qty: 8, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: maldive fish flakes, qty: 5, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Mix the atta with the grated coconut, a quarter of the onion finely chopped, the green chilli, shredded curry leaves and salt; add water a little at a time to make a firm dough and rest it 10 minutes."
+  - "Divide into two balls and pat each out by hand into a thick 10 cm round."
+  - "Cook on a hot dry griddle 3-4 minutes a side until speckled brown, brushing the pan with the rice bran oil once."
+  - "Hard-boil the egg 10 minutes, peel and halve."
+  - "Pound the remaining onion with the chilli flakes, maldive fish and a pinch of salt and squeeze in the lime for the lunu miris."
+  - "Brew the tea 3 minutes and strain; serve the rotis with the lunu miris and egg."
+source: "Adapted from the traditional Sri Lankan pol roti and lunu miris, made with whole-wheat atta"

@@ -1,0 +1,56 @@
+id: north-indian.lunch.chole-phulka-kachumber
+name: "Chole, Phulka & Kachumber"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: legume
+family: chole
+tags: [lunchbox-classic]
+spice: medium
+kidNote: "Set aside the child's chole before the chilli powder and chaat masala go in; a squeeze of lime is enough for that bowl."
+packable: true
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Chole (chana masala), the dark, tangy Punjabi chickpea curry that Delhi serves with bhature; here it comes with phulkas instead."
+nutrition: { kcal: 520, carbs: 78, fibre: 19, protein: 21, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl Punjabi chole (chickpeas in dark onion-tomato masala)"
+  - "2 whole-wheat phulkas (70 g atta)"
+  - "Kachumber (cucumber, onion, tomato, lime)"
+ingredients:
+  - { item: white chickpeas (chana), qty: 55, unit: g }
+  - { item: whole-wheat atta, qty: 70, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: ghee, qty: 0.5, unit: tsp }
+  - { item: black tea leaves, qty: 0.5, unit: tsp }
+  - { item: black cardamom, qty: 1, unit: pc }
+  - { item: bay leaf, qty: 1, unit: pc }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: dry ginger powder (chukku), qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.5, unit: tsp }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Soak the chickpeas overnight. Tie the tea leaves in a scrap of muslin and pressure-cook the chickpeas with it, the black cardamom, bay leaf and salt for 6 whistles; discard the tea bundle. The tea gives the dark Delhi colour."
+  - "Heat the oil, crackle the cumin, and fry the onion with ginger and garlic until well browned. Add the tomato, coriander, chilli and dry ginger powders and cook until thick."
+  - "Add the chickpeas with their stock, crush a few against the pan, and simmer 15 minutes until the gravy clings. Finish with garam masala, chaat masala and coriander leaves."
+  - "Knead the atta with water and a pinch of salt, rest 10 minutes, roll two thin rounds and cook on a hot tawa, puffing each over the flame; brush with the ghee."
+  - "Dice cucumber with the rest of the onion and tomato; dress with lime, salt and the green chilli for the kachumber."
+  - "Pack the chole and kachumber separately; wrap the phulkas in foil so they stay soft."
+swaps:
+  - { for: white chickpeas (chana), use: "black chickpeas (kadala)", note: pindi-style; cook 2 more whistles }
+source: "Adapted from the traditional Punjabi chole"

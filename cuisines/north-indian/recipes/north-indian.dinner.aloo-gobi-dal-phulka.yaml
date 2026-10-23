@@ -1,0 +1,56 @@
+id: north-indian.dinner.aloo-gobi-dal-phulka
+name: "Aloo Gobi, Toor Dal & Phulka"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: legume
+family: gobi
+tags: [vegetarian]
+spice: medium
+kidNote: "Keep the child's dal aside before the dried red chilli tadka goes in; the aloo gobi itself has only a pinch of chilli powder."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 470, carbs: 65, fibre: 15, protein: 22, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 bowl aloo gobi (cauliflower-forward, half a potato)"
+  - "1 bowl toor dal with ghee tadka"
+  - "1 whole-wheat phulka (35 g atta)"
+  - "Small bowl of curd"
+ingredients:
+  - { item: cauliflower, qty: 150, unit: g }
+  - { item: potato, qty: 0.5, unit: pc }
+  - { item: toor dal, qty: 40, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: ghee, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.75, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: asafoetida, qty: 0.25, unit: tsp }
+  - { item: dried red chillies, qty: 1, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Pressure-cook the toor dal with half the turmeric, the tomato and salt for 4 whistles; whisk smooth."
+  - "Heat the oil, crackle half the cumin, add the ginger and green chilli, then the potato cut into small dice and the cauliflower florets with the remaining turmeric, coriander powder, chilli powder and salt."
+  - "Cover and cook on low for 12 minutes, shaking the pan rather than stirring, until the vegetables are tender and lightly browned; finish with garam masala, crushed kasuri methi and lemon."
+  - "For the tadka, heat the ghee, crackle the remaining cumin with the asafoetida, the garlic, onion and dried red chilli until golden, and pour over the dal; stir in coriander leaves."
+  - "Cook one phulka on a hot tawa. Serve the aloo gobi first, then the dal with the phulka and the curd."
+swaps:
+  - { for: cauliflower, use: "cabbage", note: aloo patta gobi; cook 8 minutes only }
+source: "Adapted from the traditional Punjabi aloo gobi"

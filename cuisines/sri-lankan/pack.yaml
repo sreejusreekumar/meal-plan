@@ -1,0 +1,25 @@
+id: sri-lankan
+name: Sri Lankan
+version: 1
+description: "Sri Lankan rice-and-curry home cooking adapted for a pre-diabetic household: red rice measured, light coconut milk, mallung greens, fish and dhal, pol sambol."
+slots:
+  breakfast: { compose: [main] }
+  lunch:     { compose: [main] }
+  snack:     { compose: [main] }
+  dinner:    { compose: [main] }
+minimumRecipes: { breakfast: 10, lunch: 10, snack: 7, dinner: 10 }
+minimumPackableLunches: 5
+slotLabels:
+  breakfast: Breakfast
+  lunch: Lunch · mallung first
+  snack: 4 pm tea
+  dinner: Dinner
+rules:
+  - title: Plate order
+    text: Mallung or salad first, then fish, chicken, dhal or eggs, then one level cup of red rice last.
+  - title: Walk after meals
+    text: 10–15 minutes of brisk walking right after lunch and dinner.
+  - title: Coconut is measured
+    text: Thin coconut milk only, and no more than 1 tablespoon grated coconut per person in a sambol or mallung.
+  - title: Skip completely
+    text: Deep-fried short eats, kottu made with white roti, sweetened milk tea and kithul-syrup desserts.

@@ -1,0 +1,50 @@
+id: sri-lankan.breakfast.string-hoppers-pol-sambol-and-dhal
+name: String hoppers with pol sambol & dhal
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: string-hoppers
+spice: medium
+kidNote: "Make the child's spoon of pol sambol without chilli flakes; the dhal is mild."
+packable: false
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Idiyappam (string hoppers), the steamed red-rice-flour noodle nests eaten all over Sri Lanka with pol sambol and dhal."
+nutrition: { kcal: 375, carbs: 49, fibre: 7, protein: 16, satFat: 3.7, sugar: 0 }
+components:
+  - "Primary: 2 small red-rice string hopper nests"
+  - "1 tbsp pol sambol (grated coconut, onion, chilli, lime)"
+  - "1/2 cup parippu (masoor dhal) with curry leaves"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: red rice flour, qty: 45, unit: g }
+  - { item: masoor dal, qty: 30, unit: g }
+  - { item: grated coconut, qty: 8, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: maldive fish flakes, qty: 5, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 0.75, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Rinse the masoor dal and simmer it with turmeric, half the garlic, a piece of pandan leaf and a pinch of salt in 1 cup water for 15 minutes until soft."
+  - "Heat the rice bran oil, pop the mustard seeds and curry leaves, add a quarter of the onion sliced and the rest of the garlic, fry until golden and stir into the dhal."
+  - "Mix the red rice flour with a pinch of salt and enough hot water to make a soft, pliable dough; press it through the string hopper mould onto two small mats and steam 6-8 minutes."
+  - "Pound the grated coconut with the remaining onion, maldive fish, chilli flakes, green chilli and salt; squeeze in the lime for the pol sambol."
+  - "Brew the tea leaves in a cup of boiling water for 3 minutes and strain; serve black, unsweetened."
+  - "Plate the two nests with 1 tablespoon of pol sambol and half a cup of dhal."
+swaps:
+  - { for: masoor dal, use: "yellow moong dal", note: same timing }
+source: "Adapted from the traditional Sri Lankan idiyappam breakfast with parippu and pol sambol"

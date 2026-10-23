@@ -1,0 +1,55 @@
+id: north-indian.dinner.bhindi-masala-masoor-dal-phulka
+name: "Bhindi Masala, Masoor Dal & Phulka"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: legume
+family: bhindi
+tags: [vegetarian]
+spice: medium
+kidNote: "Set aside the child's bhindi before the chilli powder goes in, and give the plain dal without the tadka."
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 475, carbs: 63, fibre: 15, protein: 26, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 cup bhindi masala (okra with onion and tomato)"
+  - "1 bowl masoor dal with ghee tadka"
+  - "1 whole-wheat phulka (35 g atta)"
+  - "1 glass chaas"
+ingredients:
+  - { item: okra (bhindi), qty: 120, unit: g }
+  - { item: masoor dal, qty: 50, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: ghee, qty: 0.5, unit: tsp }
+  - { item: cumin seeds, qty: 0.75, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: asafoetida, qty: 0.25, unit: tsp }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Pressure-cook the masoor dal with half the turmeric, the tomato and salt for 3 whistles; whisk smooth."
+  - "Wipe the okra dry and cut into 2 cm pieces. Heat the oil, add the okra and fry uncovered on medium heat 8 minutes, stirring only occasionally, until no longer slimy."
+  - "Add the sliced onion, ginger and green chilli and fry 4 minutes, then the coriander, chilli and remaining turmeric powders with salt; finish with garam masala, chaat masala and a squeeze of lemon in place of dried mango powder."
+  - "For the tadka, heat the ghee, crackle the cumin with the asafoetida and the garlic until golden, and pour over the dal; stir in coriander leaves."
+  - "Whisk the yoghurt with 150 ml cold water, salt and roasted cumin for the chaas."
+  - "Cook one phulka on a hot tawa. Serve the bhindi first, then the dal with the phulka and the chaas."
+swaps:
+  - { for: okra (bhindi), use: "french beans", note: beans masala; same timing }
+source: "Adapted from the traditional Punjabi bhindi masala"

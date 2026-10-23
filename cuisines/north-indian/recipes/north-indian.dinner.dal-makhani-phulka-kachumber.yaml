@@ -1,0 +1,54 @@
+id: north-indian.dinner.dal-makhani-phulka-kachumber
+name: "Dal Makhani, Phulka & Cucumber Raita"
+slot: [dinner]
+role: main
+cuisine: north-indian
+protein: legume
+family: dal-makhani
+tags: [slow-cook]
+spice: medium
+kidNote: "Ladle out the child's dal before the kashmiri chilli goes into the tadka."
+packable: false
+prepMinutes: 15
+cookMinutes: 75
+effort: weekend
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Dal makhani, the slow-simmered black urad and rajma of Punjab, made famous in Delhi; this version uses one teaspoon of ghee and yoghurt instead of butter and cream."
+nutrition: { kcal: 465, carbs: 62, fibre: 16, protein: 26, satFat: 4, sugar: 0 }
+components:
+  - "Kachumber (cucumber, onion, tomato, lemon)"
+  - "Primary: 1 bowl dal makhani (black urad and rajma, 1 tsp ghee, no cream)"
+  - "1 whole-wheat phulka (35 g atta)"
+  - "Cucumber raita"
+ingredients:
+  - { item: black urad (whole), qty: 45, unit: g }
+  - { item: rajma (kidney beans), qty: 20, unit: g }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: ghee, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: black cardamom, qty: 1, unit: pc }
+  - { item: bay leaf, qty: 1, unit: pc }
+  - { item: kashmiri chilli powder, qty: 0.5, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Soak the black urad and rajma together overnight. Pressure-cook with the black cardamom, bay leaf and salt for 8 whistles, then simmer on low for 30 minutes, mashing some of the dal against the pan until it is thick and creamy."
+  - "Heat the ghee, crackle the cumin, and fry the onion with ginger and garlic until deep golden. Add the tomato and kashmiri chilli and cook until the masala releases ghee."
+  - "Stir the masala into the dal and simmer 15 more minutes. Off the heat, whisk in 30 g of the yoghurt, the garam masala and crushed kasuri methi."
+  - "Knead the atta with water and a pinch of salt, roll one thin round and cook on a hot tawa, puffing over the flame."
+  - "Dice half the cucumber with the remaining onion and tomato; dress with lemon and salt for the kachumber. Grate the rest of the cucumber into the remaining yoghurt with a pinch of salt and roasted cumin for the raita."
+  - "Serve the kachumber first, then the dal with the phulka and raita."
+swaps:
+  - { for: black urad (whole), use: "rajma (kidney beans)", note: all-rajma; cook 6 whistles }
+source: "Adapted from the traditional Punjabi dal makhani"

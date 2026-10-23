@@ -1,0 +1,56 @@
+id: sri-lankan.lunch.polos-curry
+name: "Polos Curry, Parippu & Cabbage Mallung"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: jackfruit
+spice: medium
+kidNote: "Leave the green chilli and chilli powder out of the child's portion; add them to the pan after the child's share is set aside."
+packable: true
+prepMinutes: 15
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Polos curry, the young green jackfruit curry of Sri Lanka, cooked dark with roasted curry powder and goraka."
+nutrition: { kcal: 525, carbs: 76, fibre: 15, protein: 18, satFat: 5, sugar: 0 }
+components:
+  - "Cabbage mallung"
+  - "Primary: 1 bowl polos (young jackfruit) curry"
+  - "Small bowl parippu"
+  - "1 level cup red rice"
+ingredients:
+  - { item: young jackfruit (canned), qty: 120, unit: g }
+  - { item: coconut milk (canned), qty: 12, unit: ml }
+  - { item: sri lankan roasted curry powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: kudampuli (Malabar tamarind), qty: 1, unit: pc }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: masoor dal, qty: 35, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: grated coconut, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Drain and rinse the jackfruit; cut into bite-size chunks."
+  - "Heat the oil; fry the cinnamon, curry leaves and pandan, then the onion, garlic and ginger until golden; add the curry powder, chilli powder and half the turmeric."
+  - "Add the jackfruit, goraka, salt and 1 cup water; cover and simmer 25 minutes, then stir in the coconut milk diluted with 1/4 cup water and cook uncovered until the gravy is thick and dark."
+  - "Simmer the masoor dal with the remaining turmeric, green chilli, fenugreek and 1 cup water for 15 minutes; temper with mustard seeds."
+  - "Shred the cabbage finely; toss in a dry pan with the grated coconut, shallots, a pinch of turmeric and salt until just wilted; finish with lime."
+  - "Serve the mallung first, then the polos curry and dhal, with 1 level cup red rice last."
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

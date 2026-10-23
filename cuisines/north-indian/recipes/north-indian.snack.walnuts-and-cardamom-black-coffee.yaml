@@ -1,0 +1,30 @@
+id: north-indian.snack.walnuts-and-cardamom-black-coffee
+name: Walnuts & cardamom black coffee
+slot: [snack]
+role: main
+cuisine: north-indian
+protein: none
+family: nuts
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 2
+cookMinutes: 5
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 130, carbs: 3, fibre: 1.5, protein: 3, satFat: 1.2, sugar: 0 }
+components:
+  - "Cardamom and cinnamon black coffee (unsweetened)"
+  - "5-6 walnut halves"
+ingredients:
+  - { item: coffee powder, qty: 1, unit: tsp }
+  - { item: cardamom pods, qty: 1, unit: pc }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: walnuts, qty: 20, unit: g }
+steps:
+  - "Boil a cup of water with the crushed cardamom pod and the piece of cinnamon for 2 minutes."
+  - "Stir in the coffee powder, steep 1 minute and strain; no sugar, no milk."
+  - "Warm the walnuts in a dry pan for 2 minutes and serve beside the coffee."
+source: "Adapted from the north Indian habit of black coffee with dry fruit"

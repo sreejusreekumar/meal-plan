@@ -1,0 +1,51 @@
+id: sri-lankan.dinner.prawn-vegetable-stir-fry
+name: "Prawn & Vegetable Stir-fry with Roti"
+slot: [dinner]
+role: main
+cuisine: sri-lankan
+protein: fish
+family: prawns
+tags: [quick]
+spice: medium
+kidNote: "Leave the green chilli and chilli flakes out of the child's portion; add them after the child's share is set aside."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 470, carbs: 38, fibre: 11, protein: 44, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 140 g prawn stir-fry with capsicum, beans, cabbage and egg"
+  - "1 whole-wheat roti"
+  - "Lime wedge"
+ingredients:
+  - { item: prawns (chemmeen), qty: 140, unit: g }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: capsicum, qty: 0.5, unit: pc }
+  - { item: french beans, qty: 50, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: cabbage, qty: 50, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: chilli flakes, qty: 0.5, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+steps:
+  - "Peel and devein the prawns; toss with turmeric, pepper and salt."
+  - "Roti: knead the atta with salt and water, rest 10 minutes, roll one thin round and cook on a dry pan 1-2 minutes a side."
+  - "Heat the oil in a wide pan; fry the garlic, ginger, green chilli and curry leaves 30 seconds, then the prawns 2 minutes; push to one side and scramble the egg."
+  - "Add the onion, capsicum, beans, carrot, cabbage and mushrooms and stir-fry on high heat 4-5 minutes so they stay crisp; add chilli flakes and salt."
+  - "Finish with lime and serve with the roti."
+swaps:
+  - { for: prawns (chemmeen), use: "tofu (firm)", note: "150 g, cubed; fry first until golden" }
+source: "Adapted from traditional Sri Lankan home cooking"

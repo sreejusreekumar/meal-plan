@@ -1,0 +1,35 @@
+id: north-indian.snack.masala-chai-with-roasted-chana
+name: Masala chai & roasted chana
+slot: [snack]
+role: main
+cuisine: north-indian
+protein: legume
+family: chai
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 2
+cookMinutes: 12
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Masala chai with bhuna chana, the 4 pm cup of spiced milky tea with roasted black chickpeas sold on every north Indian street corner."
+nutrition: { kcal: 135, carbs: 19, fibre: 4, protein: 8, satFat: 1, sugar: 0 }
+components:
+  - "Unsweetened masala chai (100 ml low-fat milk)"
+  - "Small handful of roasted black chana"
+ingredients:
+  - { item: black tea leaves, qty: 1, unit: tsp }
+  - { item: low-fat milk, qty: 100, unit: ml }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: cardamom pods, qty: 1, unit: pc }
+  - { item: cloves, qty: 1, unit: pc }
+  - { item: black chickpeas (kadala), qty: 25, unit: g }
+  - { item: salt, qty: 0.125, unit: tsp }
+steps:
+  - "Dry-roast the black chana in a heavy pan on medium-low heat 8-10 minutes, stirring, until they crack and turn crunchy; sprinkle with salt. (Store-bought bhuna chana saves this step.)"
+  - "Simmer the tea leaves with crushed ginger, cardamom and the clove in 100 ml water for 2 minutes."
+  - "Add the milk, bring back to a rolling boil once, strain into a cup; no sugar."
+  - "Serve the chana warm beside the chai."
+source: "Adapted from the traditional masala chai and bhuna chana"

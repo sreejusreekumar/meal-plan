@@ -1,0 +1,34 @@
+id: sri-lankan.snack.kadala-with-coconut-and-ginger-tea
+name: Boiled kadala with grated coconut & ginger tea
+slot: [snack]
+role: main
+cuisine: sri-lankan
+protein: legume
+family: kadala
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 8
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kadala and pol, boiled chickpeas tossed with fresh grated coconut, the plain afternoon snack of Sri Lankan homes, with inguru (ginger) plain tea."
+nutrition: { kcal: 113, carbs: 16, fibre: 4, protein: 5, satFat: 1.7, sugar: 0 }
+components:
+  - "Primary: 1/3 cup boiled kadala with grated coconut, shallot and pepper"
+  - "Ginger plain tea, unsweetened"
+ingredients:
+  - { item: white chickpeas (chana), qty: 25, unit: g }
+  - { item: grated coconut, qty: 5, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: black pepper, qty: 0.125, unit: tsp }
+  - { item: salt, qty: 0.125, unit: tsp }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Use chickpeas soaked and boiled ahead with the week's batch (25 g dry makes about 1/3 cup cooked); warm them 3 minutes in a dry pan."
+  - "Toss the warm chickpeas with the grated coconut, finely sliced shallot, pepper and salt."
+  - "Crush the ginger, boil it in a cup of water 3 minutes, add the tea leaves, steep 2 minutes and strain; serve unsweetened."
+source: "Adapted from the traditional Sri Lankan kadala and pol"

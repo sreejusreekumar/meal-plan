@@ -1,0 +1,55 @@
+id: sri-lankan.dinner.pittu-and-chicken-curry
+name: "Red Rice Pittu & Chicken Curry"
+slot: [dinner]
+role: main
+cuisine: sri-lankan
+protein: chicken
+family: pittu
+spice: medium
+kidNote: "Leave the green chilli and chilli flakes out of the child's portion; add them after the child's share is set aside."
+packable: false
+prepMinutes: 20
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Pittu, the Sri Lankan steamed cylinder of rice flour and coconut, served with chicken curry and a vegetable."
+nutrition: { kcal: 475, carbs: 45, fibre: 9, protein: 33, satFat: 5, sugar: 0 }
+components:
+  - "Cabbage mallung (no coconut, maldive fish)"
+  - "Primary: 1 small cylinder red-rice pittu"
+  - "Small portion chicken curry (180 g bone-in, thin milk)"
+  - "Snake bean curry"
+ingredients:
+  - { item: red rice flour, qty: 45, unit: g }
+  - { item: grated coconut, qty: 5, unit: g }
+  - { item: chicken (bone-in curry cut), qty: 180, unit: g }
+  - { item: coconut milk (canned), qty: 6, unit: ml }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: sri lankan roasted curry powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: cardamom pods, qty: 1, unit: pc }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: snake beans, qty: 60, unit: g }
+  - { item: cabbage, qty: 60, unit: g }
+  - { item: maldive fish flakes, qty: 3, unit: g }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: lime, qty: 0.25, unit: pc }
+steps:
+  - "Skin the chicken; rub with curry powder, chilli powder, turmeric and salt and rest 10 minutes."
+  - "Heat the oil; fry the fenugreek, cardamom, cinnamon, curry leaves and pandan, then the onion, garlic, ginger and green chilli; add the chicken, sear, add 3/4 cup water and simmer covered 25 minutes."
+  - "Dilute the coconut milk with 1/4 cup water, stir in and heat through."
+  - "Pittu: sprinkle salted water into the red rice flour until it clumps, mix in the grated coconut, pack loosely into the pittu cylinder and steam 8 minutes."
+  - "Cook the snake beans with mustard seeds, a pinch of turmeric, salt and 1/4 cup water for 8 minutes; toss the shredded cabbage with maldive fish, salt and lime in a dry pan 3 minutes."
+  - "Serve the vegetables first, then the pittu with a small ladle of chicken curry."
+source: "Adapted from traditional Sri Lankan home cooking"

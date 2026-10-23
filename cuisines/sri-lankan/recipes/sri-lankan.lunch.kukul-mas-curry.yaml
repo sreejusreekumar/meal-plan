@@ -1,0 +1,57 @@
+id: sri-lankan.lunch.kukul-mas-curry
+name: "Kukul Mas Curry & Snake Bean Curry"
+slot: [lunch]
+role: main
+cuisine: sri-lankan
+protein: chicken
+family: chicken-curry
+spice: medium
+kidNote: "Leave the green chilli and chilli powder out of the child's portion; add them to the pan after the child's share is set aside."
+packable: true
+prepMinutes: 20
+cookMinutes: 40
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Kukul mas curry, the Sri Lankan chicken curry made with dark roasted curry powder, bone-in chicken and a thin coconut-milk gravy."
+nutrition: { kcal: 530, carbs: 56, fibre: 9, protein: 35, satFat: 5, sugar: 0 }
+components:
+  - "Snake bean curry"
+  - "Primary: 180 g bone-in chicken curry (roasted curry powder, thin milk)"
+  - "1 level cup red rice"
+ingredients:
+  - { item: chicken (bone-in curry cut), qty: 180, unit: g }
+  - { item: coconut milk (canned), qty: 12, unit: ml }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: sri lankan roasted curry powder, qty: 1.5, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: fenugreek seeds, qty: 0.25, unit: tsp }
+  - { item: cardamom pods, qty: 2, unit: pc }
+  - { item: cloves, qty: 2, unit: pc }
+  - { item: cinnamon stick, qty: 0.25, unit: pc }
+  - { item: lemongrass, qty: 0.5, unit: pc }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: red rice (Sri Lankan), qty: 60, unit: g }
+  - { item: snake beans, qty: 100, unit: g }
+  - { item: shallots (small onions), qty: 10, unit: g }
+  - { item: mustard seeds, qty: 0.25, unit: tsp }
+  - { item: maldive fish flakes, qty: 3, unit: g }
+steps:
+  - "Rinse the red rice, cook it in 2 cups water with a piece of pandan for 25-30 minutes until just soft, and measure 1 level cup per person."
+  - "Skin the chicken pieces and marinate 15 minutes with the curry powder, chilli powder, turmeric and salt."
+  - "Heat the oil; fry the fenugreek, cardamom, cloves, cinnamon, lemongrass, curry leaves and pandan, then the onion, garlic, ginger and green chilli until golden."
+  - "Add the chicken and sear 5 minutes, add 1 cup water, cover and simmer 25 minutes until tender and the gravy has reduced."
+  - "Dilute the coconut milk with 1/2 cup water, stir in and heat through gently."
+  - "Cut the snake beans into 2 cm lengths; cook with mustard seeds, shallots, maldive fish, a pinch of turmeric and salt in 1/4 cup water for 8 minutes, uncovered at the end."
+  - "Serve the bean curry first, then the chicken curry, with 1 level cup red rice last."
+swaps:
+  - { for: chicken (bone-in curry cut), use: "chicken thigh (boneless)", note: "use 130 g; simmer 15 minutes" }
+source: "Adapted from the traditional Sri Lankan rice-and-curry plate"

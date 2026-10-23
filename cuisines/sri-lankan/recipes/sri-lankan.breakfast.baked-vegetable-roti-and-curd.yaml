@@ -1,0 +1,43 @@
+id: sri-lankan.breakfast.baked-vegetable-roti-and-curd
+name: Baked whole-wheat vegetable roti & curd
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: dairy
+family: roti
+spice: medium
+kidNote: "Fill the child's roti from the filling before the green chilli and chilli flakes are added."
+packable: false
+prepMinutes: 20
+cookMinutes: 20
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 361, carbs: 46, fibre: 7, protein: 18, satFat: 3.5, sugar: 0 }
+components:
+  - "Primary: 1 baked whole-wheat vegetable roti (carrot, cabbage, onion, egg)"
+  - "1/2 cup plain low-fat curd"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: whole-wheat atta, qty: 45, unit: g }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: cabbage, qty: 40, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: eggs, qty: 1, unit: pc }
+  - { item: chilli flakes, qty: 0.25, unit: tsp }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: turmeric powder, qty: 0.125, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Knead the atta with a pinch of salt and water into a soft dough and rest it 10 minutes."
+  - "Heat half the rice bran oil, fry the chopped onion, green chilli and curry leaves 2 minutes, add grated carrot and shredded cabbage with turmeric, chilli flakes, pepper and salt and cook 4 minutes until just soft; stir in the beaten egg and scramble until set."
+  - "Roll the dough into one thin rectangle, spoon the filling along the middle and fold into a triangle, pressing the edges closed."
+  - "Brush with the remaining oil and bake at 200 C for 15-18 minutes until golden (no deep frying)."
+  - "Brew the tea 3 minutes and strain; serve the roti warm with half a cup of plain curd."
+source: "Adapted from the Sri Lankan short-eat vegetable roti, baked instead of fried"

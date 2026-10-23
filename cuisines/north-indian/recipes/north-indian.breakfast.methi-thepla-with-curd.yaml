@@ -1,0 +1,45 @@
+id: north-indian.breakfast.methi-thepla-with-curd
+name: Methi thepla & curd
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: dairy
+family: thepla
+spice: medium
+kidNote: "Halve the chilli powder in the dough, or pinch off the child's thepla before adding the green chilli."
+packable: false
+prepMinutes: 15
+cookMinutes: 15
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Methi thepla, the thin fenugreek-leaf flatbread of western and northern India, a travel and breakfast staple."
+nutrition: { kcal: 345, carbs: 48, fibre: 9, protein: 18, satFat: 2, sugar: 0 }
+components:
+  - "Primary: 2 thin methi theplas"
+  - "Bowl of low-fat curd"
+  - "Cucumber and tomato slices"
+ingredients:
+  - { item: whole-wheat atta, qty: 40, unit: g }
+  - { item: besan (chickpea flour), qty: 10, unit: g }
+  - { item: fenugreek leaves (methi), qty: 0.5, unit: bunch }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: coriander powder, qty: 0.5, unit: tsp }
+  - { item: ajwain (carom seeds), qty: 0.25, unit: tsp }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 150, unit: g }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+steps:
+  - "Wash and finely chop the methi leaves; mix with the atta, besan, chopped green chilli, grated ginger, turmeric, chilli powder, coriander powder, ajwain and salt."
+  - "Add 2 tablespoons of the curd and enough water to knead a soft dough; rest 10 minutes."
+  - "Divide in two and roll each thin; cook on a hot tawa about 1 minute a side, brushing with half the oil, until spotted."
+  - "Slice the cucumber and tomato; serve the theplas with the rest of the curd."
+swaps:
+  - { for: fenugreek leaves (methi), use: "spinach", note: squeeze out the water first }
+source: "Adapted from the traditional methi thepla"

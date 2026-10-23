@@ -1,0 +1,43 @@
+id: sri-lankan.breakfast.gotu-kola-omelette-and-wholemeal-toast
+name: Gotu kola omelette & wholemeal toast
+slot: [breakfast]
+role: main
+cuisine: sri-lankan
+protein: egg
+family: omelette
+tags: [quick]
+spice: medium
+kidNote: "Cook the child's share of the omelette first, before the green chilli goes into the egg."
+packable: false
+prepMinutes: 10
+cookMinutes: 10
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 387, carbs: 38, fibre: 7, protein: 22, satFat: 4.7, sugar: 0 }
+components:
+  - "Primary: 2-egg omelette with gotu kola, onion, tomato and green chilli"
+  - "2 slices wholemeal toast, no butter"
+  - "Plain Ceylon tea, unsweetened"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: gotu kola (pennywort), qty: 0.5, unit: bunch }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: curry leaves, qty: 1, unit: sprig }
+  - { item: black pepper, qty: 0.25, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: wholemeal bread, qty: 2, unit: pc }
+  - { item: salt, qty: 0.25, unit: tsp }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Wash and finely shred the gotu kola; chop the onion, tomato, green chilli and curry leaves."
+  - "Beat the eggs with pepper and salt and fold in the gotu kola and vegetables."
+  - "Heat the rice bran oil in a small pan, pour in the egg and cook over medium heat 3 minutes, fold and cook 1 minute more."
+  - "Toast the bread; brew the tea 3 minutes and strain."
+  - "Serve the omelette on the toast with the tea."
+swaps:
+  - { for: gotu kola (pennywort), use: "spinach", note: same method }
+source: "Sri Lankan home-style omelette with gotu kola"

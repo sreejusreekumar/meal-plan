@@ -1,0 +1,52 @@
+id: north-indian.lunch.punjabi-egg-curry-phulka-cabbage
+name: "Punjabi Egg Curry, Phulka & Cabbage-Matar Sabzi"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: egg
+family: egg-curry
+tags: [lunchbox-classic]
+spice: medium
+kidNote: "Take the child's egg and gravy out before the chilli powder and green chilli go in; the cabbage sabzi is already mild."
+packable: true
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 530, carbs: 62, fibre: 13, protein: 28, satFat: 5, sugar: 0 }
+components:
+  - "1 cup cabbage-matar sabzi (cabbage with peas)"
+  - "Primary: 2 eggs in Punjabi onion-tomato-yoghurt curry"
+  - "2 whole-wheat phulkas (70 g atta)"
+ingredients:
+  - { item: eggs, qty: 2, unit: pc }
+  - { item: whole-wheat atta, qty: 70, unit: g }
+  - { item: cabbage, qty: 100, unit: g }
+  - { item: green peas (frozen), qty: 30, unit: g }
+  - { item: low-fat yoghurt (curd), qty: 50, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: turmeric powder, qty: 0.5, unit: tsp }
+  - { item: coriander powder, qty: 1, unit: tsp }
+  - { item: chilli powder, qty: 0.5, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Hard-boil the eggs 10 minutes, peel and prick with a fork so the gravy gets in."
+  - "Heat half the oil, crackle the cumin, fry the onion with ginger and garlic until golden, then the tomato with coriander, turmeric and chilli powders until the masala thickens."
+  - "Whisk the yoghurt with 150 ml water and stir into the masala over low heat. Add the eggs and green chilli, simmer 8 minutes, then finish with garam masala, kasuri methi and coriander leaves."
+  - "Heat the remaining oil, add the shredded cabbage and peas with a pinch of turmeric and salt, cover 5 minutes, then uncover and cook until just tender."
+  - "Knead the atta with water and a pinch of salt, roll two thin rounds and cook on a hot tawa, puffing over the flame."
+  - "Pack the curry and sabzi in separate compartments; wrap the phulkas in foil."
+swaps:
+  - { for: cabbage, use: "french beans", note: cook 3 minutes longer }
+source: "Adapted from the traditional Punjabi anda curry"

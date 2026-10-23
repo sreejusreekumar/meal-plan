@@ -23,6 +23,7 @@ Python 3.12 project managed with **uv**. Package in `src/mealplan/`; CLI entry p
 - **Rules are data.** Health constraints live in `config/household.yaml`; cuisine-specific
   guardrails in `cuisines/<id>/pack.yaml`. Don't hardcode them in Python or JS.
 - Recipe quantities are **per adult reference serving**; scaling happens in `shopping.py`.
+- Nutrition `carbs` = available carbohydrate (fibre excluded, as on Australian labels); `sugar` = added sugar.
 - camelCase in YAML/JSON, snake_case in Python (`CamelModel` handles both).
 
 ## Layers

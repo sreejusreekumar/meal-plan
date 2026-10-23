@@ -1,0 +1,48 @@
+id: north-indian.lunch.palak-paneer-phulka
+name: "Palak Paneer & Phulkas"
+slot: [lunch]
+role: main
+cuisine: north-indian
+protein: dairy
+family: paneer
+tags: [vegetarian]
+spice: medium
+kidNote: "Blend the spinach without the green chilli and keep the child's portion aside before the garam masala; it is a mild dish otherwise."
+packable: true
+prepMinutes: 15
+cookMinutes: 25
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 545, carbs: 58, fibre: 12, protein: 31, satFat: 8, sugar: 0 }
+components:
+  - "Cucumber salad with lemon"
+  - "Primary: 1 bowl palak paneer (100 g low-fat paneer in spinach gravy, no cream)"
+  - "2 whole-wheat phulkas (70 g atta)"
+ingredients:
+  - { item: paneer, qty: 100, unit: g }
+  - { item: spinach, qty: 0.5, unit: bunch }
+  - { item: whole-wheat atta, qty: 70, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: tomato, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: cucumber, qty: 0.5, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: cumin seeds, qty: 0.5, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: kasuri methi, qty: 0.5, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+steps:
+  - "Wash the spinach, blanch 1 minute in boiling water, plunge into cold water and blend with the green chilli to a coarse puree."
+  - "Cut the paneer (use the low-fat kind) into 2 cm cubes and soak in hot salted water while you cook the masala."
+  - "Heat the oil, crackle the cumin, fry the onion with ginger and garlic until soft and golden, then the tomato until it breaks down."
+  - "Add the spinach puree and salt, simmer 5 minutes, then fold in the drained paneer, garam masala and crushed kasuri methi; 2 more minutes and off the heat so the colour stays bright."
+  - "Knead the atta with water and a pinch of salt, roll two thin rounds and cook on a hot tawa, puffing over the flame."
+  - "Slice the cucumber and dress with lemon and salt. Pack the palak paneer with the phulkas wrapped separately."
+swaps:
+  - { for: paneer, use: "tofu (firm)", note: 150 g; much lower saturated fat }
+source: "Adapted from the traditional Punjabi palak paneer"

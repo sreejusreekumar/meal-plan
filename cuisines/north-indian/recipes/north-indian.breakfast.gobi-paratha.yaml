@@ -1,0 +1,43 @@
+id: north-indian.breakfast.gobi-paratha
+name: Gobi-paneer paratha with curd
+slot: [breakfast]
+role: main
+cuisine: north-indian
+protein: dairy
+family: paratha
+spice: medium
+kidNote: "Fill the child's paratha from the cauliflower mix before the green chilli and chilli powder go in."
+packable: false
+prepMinutes: 25
+cookMinutes: 20
+effort: weekend
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 350, carbs: 48, fibre: 8, protein: 19, satFat: 3, sugar: 0 }
+components:
+  - "Primary: 1 gobi paratha (whole-wheat) with paneer in the stuffing"
+  - "Bowl of low-fat curd"
+  - "Sliced onion with lemon"
+ingredients:
+  - { item: whole-wheat atta, qty: 45, unit: g }
+  - { item: cauliflower, qty: 100, unit: g }
+  - { item: paneer, qty: 30, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: green chilli, qty: 0.5, unit: pc }
+  - { item: ginger, qty: 3, unit: g }
+  - { item: ajwain (carom seeds), qty: 0.25, unit: tsp }
+  - { item: chilli powder, qty: 0.25, unit: tsp }
+  - { item: garam masala, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: salt, qty: 0.5, unit: tsp }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: low-fat yoghurt (curd), qty: 100, unit: g }
+  - { item: lemon, qty: 0.25, unit: pc }
+steps:
+  - "Knead the atta with ajwain, a pinch of salt and water into a soft dough; rest 15 minutes."
+  - "Grate the cauliflower, salt it and leave 10 minutes, then squeeze out the water. Mix with crumbled paneer, grated ginger, chopped green chilli, half the onion, chilli powder, garam masala and coriander."
+  - "Roll the dough into a disc, enclose the filling, seal and roll gently into one paratha."
+  - "Cook on a hot tawa 2 minutes a side, brushing with the oil, until spotted and crisp."
+  - "Slice the remaining onion and squeeze the lemon over; serve with the curd."
+source: "Adapted from the traditional gobi paratha"

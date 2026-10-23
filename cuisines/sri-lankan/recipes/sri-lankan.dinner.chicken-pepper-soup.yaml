@@ -1,0 +1,51 @@
+id: sri-lankan.dinner.chicken-pepper-soup
+name: "Chicken & Vegetable Pepper Soup with Pol Roti"
+slot: [dinner]
+role: main
+cuisine: sri-lankan
+protein: chicken
+family: soup
+tags: [quick]
+spice: medium
+packable: false
+prepMinutes: 15
+cookMinutes: 30
+effort: weekday
+treat: false
+refinedCarb: false
+signature: false
+nutrition: { kcal: 480, carbs: 46, fibre: 14, protein: 40, satFat: 4, sugar: 0 }
+components:
+  - "Primary: 1 large bowl chicken, lemongrass and pepper soup with vegetables"
+  - "1 pol roti (whole-wheat, 8 g coconut)"
+  - "Lime wedge"
+ingredients:
+  - { item: chicken breast, qty: 120, unit: g }
+  - { item: lemongrass, qty: 1, unit: pc }
+  - { item: black pepper, qty: 1, unit: tsp }
+  - { item: ginger, qty: 5, unit: g }
+  - { item: garlic, qty: 6, unit: g }
+  - { item: onion, qty: 0.5, unit: pc }
+  - { item: carrot, qty: 0.5, unit: pc }
+  - { item: cabbage, qty: 50, unit: g }
+  - { item: french beans, qty: 50, unit: g }
+  - { item: mushrooms, qty: 50, unit: g }
+  - { item: green peas (frozen), qty: 30, unit: g }
+  - { item: potato, qty: 0.25, unit: pc }
+  - { item: spring onion, qty: 0.25, unit: bunch }
+  - { item: curry leaves, qty: 2, unit: sprig }
+  - { item: pandan leaf (rampe), qty: 1, unit: pc }
+  - { item: turmeric powder, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.15, unit: bunch }
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: rice bran oil, qty: 1, unit: tsp }
+  - { item: salt, qty: 1, unit: tsp }
+  - { item: whole-wheat atta, qty: 35, unit: g }
+  - { item: grated coconut, qty: 8, unit: g }
+steps:
+  - "Bruise the lemongrass; sweat the onion, garlic and ginger in the oil 3 minutes with the curry leaves and pandan."
+  - "Add the chicken (cut small), lemongrass, turmeric, crushed black pepper, salt and 3 cups water; simmer 12 minutes."
+  - "Add the diced potato, carrot, beans, cabbage, mushrooms and peas and simmer 8 minutes until tender; finish with spring onion, coriander and lime."
+  - "Pol roti: mix the atta with the grated coconut, a little chopped onion and green chilli, salt and water into a soft dough; pat into one thick round and cook on a dry pan 3 minutes a side."
+  - "Serve the soup in a big bowl with the roti torn alongside."
+source: "Adapted from traditional Sri Lankan home cooking"

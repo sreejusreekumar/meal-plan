@@ -1,0 +1,35 @@
+id: north-indian.snack.bhuna-chana-with-lemon-and-onion
+name: Bhuna chana with lemon & onion, black tea
+slot: [snack]
+role: main
+cuisine: north-indian
+protein: legume
+family: chana
+tags: [quick]
+spice: mild
+packable: false
+prepMinutes: 5
+cookMinutes: 12
+effort: weekday
+treat: false
+refinedCarb: false
+signature: true
+basedOn: "Bhuna chana chaat, roasted black chickpeas tossed with onion, lemon and chaat masala, the classic Delhi street nibble."
+nutrition: { kcal: 110, carbs: 17, fibre: 5, protein: 6, satFat: 0.4, sugar: 0 }
+components:
+  - "Small bowl of bhuna chana with onion, tomato, lemon and chaat masala"
+  - "Black tea with lemon (unsweetened)"
+ingredients:
+  - { item: black chickpeas (kadala), qty: 25, unit: g }
+  - { item: onion, qty: 0.25, unit: pc }
+  - { item: tomato, qty: 0.25, unit: pc }
+  - { item: lemon, qty: 0.25, unit: pc }
+  - { item: chaat masala, qty: 0.25, unit: tsp }
+  - { item: coriander leaves, qty: 0.1, unit: bunch }
+  - { item: black tea leaves, qty: 1, unit: tsp }
+steps:
+  - "Dry-roast the black chana in a heavy pan on medium-low heat 8-10 minutes until they crack and are crunchy (or use store-bought bhuna chana)."
+  - "Toss the warm chana with finely chopped onion, tomato, coriander, chaat masala and half the lemon's juice."
+  - "Brew the tea leaves in a cup of boiling water 2 minutes, strain and add the rest of the lemon juice; no sugar."
+  - "Serve together."
+source: "Adapted from the traditional bhuna chana chaat"
