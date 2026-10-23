@@ -10,7 +10,7 @@ from rich.console import Console
 from rich.table import Table
 
 from mealplan import build as build_mod
-from mealplan.config import load_catalogue, load_household, load_rotation, paths
+from mealplan.config import load_catalogue, load_household, load_rotation, load_settings, paths
 from mealplan.generate import GenerationError, generate
 from mealplan.models import SLOTS, Plan, Recipe
 from mealplan.packs import (
@@ -26,7 +26,7 @@ from mealplan.validate import validate_plan
 from mealplan.weeks import resolve_week, week_start
 
 app = typer.Typer(no_args_is_help=True, help="Deterministic weekly family meal planner.")
-todo_app = typer.Typer(help="Microsoft To Do (phase 3).")
+todo_app = typer.Typer(help="Microsoft To Do: login, status, push.")
 app.add_typer(todo_app, name="todo")
 console = Console()
 err = Console(stderr=True, style="bold red")
@@ -254,7 +254,55 @@ def shop(
     console.print(to_markdown(sl))
     console.print(f"[green]Wrote {md} and {js}[/]")
     if todo:
-        _fail("Microsoft To Do push arrives in phase 3; the list files above are ready.")
+        _push(p, sl)
+
+
+def _client(p):
+    from mealplan.integrations.mstodo import GraphTodoClient
+
+    settings = load_settings(p.root)
+    return GraphTodoClient(
+        settings.ms_client_id, settings.ms_tenant, cache_path=settings.token_cache_path
+    )
+
+
+def _push(p, sl) -> None:
+    from mealplan.integrations.mstodo import NotLoggedIn, push_shopping
+
+    household = load_household(p)
+    try:
+        result = push_shopping(_client(p), sl, household.todo.list_name)
+    except NotLoggedIn as exc:
+        _fail(str(exc))
+    console.print(
+        f"[green]Microsoft To Do · {result.list_name}[/]: removed {result.removed} old task(s), "
+        f"created {len(result.created)} for {result.week}."
+    )
+
+
+@app.command()
+def weekly(
+    week: str = typer.Option("next", "--week", "-w", help="this | next | YYYY-Www"),
+    cuisine: str | None = typer.Option(None, "--cuisine", "-c", help="Pack id(s)"),
+    salt: int = typer.Option(0, help="Reroll knob."),
+    force: bool = typer.Option(False, "--force", help="Replace an existing plan for that week."),
+    todo: bool = typer.Option(False, "--todo", help="Also push the list to Microsoft To Do."),
+) -> None:
+    """The Saturday routine: plan (unless the week exists), shop, build. Used by the GitHub
+    Action and by the local To Do job."""
+    p = paths()
+    household = load_household(p)
+    wk = resolve_week(week, household.timezone)
+    exists = build_mod.plan_path(p, wk).exists()
+    if exists and not force:
+        console.print(f"plan {wk} already exists; keeping it (use --force to replace).")
+    else:
+        ctx_args = ["--week", wk, "--salt", str(salt)] + (["--cuisine", cuisine] if cuisine else [])
+        plan(cuisine=cuisine, week=wk, salt=salt, force=force)
+        console.print(f"[dim]planned with {' '.join(ctx_args)}[/]")
+    shop(week=wk, todo=todo)
+    _, man = build_mod.build(p)
+    console.print(f"[green]Built index.html[/] · current {man['current']} · next {man['next']}")
 
 
 @app.command("add-cuisine")
@@ -313,8 +361,55 @@ def add_cuisine(
 
 @todo_app.command("login")
 def todo_login() -> None:
-    """Sign in to Microsoft once (phase 3)."""
-    _fail("Microsoft To Do integration arrives in phase 3.")
+    """Sign in to Microsoft once (device code); the refresh token is cached outside the repo."""
+    from mealplan.integrations.mstodo import NotLoggedIn
+
+    p = paths()
+    try:
+        user = _client(p).login(prompt=console.print)
+    except NotLoggedIn as exc:
+        _fail(str(exc))
+    console.print(
+        f"[green]Signed in as {user}[/]. Token cache: {load_settings(p.root).token_cache_path}"
+    )
+
+
+@todo_app.command("status")
+def todo_status() -> None:
+    """Show the signed-in account and whether the Weekly Basket list exists."""
+    from mealplan.integrations.mstodo import NotLoggedIn
+
+    p = paths()
+    household = load_household(p)
+    client = _client(p)
+    try:
+        user = client.account()
+        if not user:
+            _fail("Not signed in; run `mealplan todo login`.")
+        names = [lst.get("displayName", "") for lst in client.lists()]
+    except NotLoggedIn as exc:
+        _fail(str(exc))
+    has = household.todo.list_name in names
+    console.print(f"account: {user}")
+    console.print(
+        f"list '{household.todo.list_name}': {'exists' if has else 'will be created on first push'}"
+    )
+    console.print(f"{len(names)} lists in To Do")
+
+
+@todo_app.command("push")
+def todo_push(week: str = typer.Option("next", "--week", "-w")) -> None:
+    """Push an already generated week's shopping list to Microsoft To Do."""
+    p = paths()
+    household = load_household(p)
+    wk = resolve_week(week, household.timezone)
+    f = build_mod.plan_path(p, wk)
+    if not f.exists():
+        _fail(f"no plan for {wk}")
+    sl = shopping_list(build_mod.load_plan(f), household, load_catalogue(p))
+    if not sl.buy:
+        _fail(f"plan {wk} has no ingredient data")
+    _push(p, sl)
 
 
 def main() -> None:  # pragma: no cover

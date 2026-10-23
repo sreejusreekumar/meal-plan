@@ -1,0 +1,84 @@
+name: Weekly plan
+
+# Saturday 06:00 Australia/Melbourne. GitHub cron is UTC and has no DST, so two triggers cover
+# AEDT (UTC+11 → Fri 19:00 UTC) and AEST (UTC+10 → Fri 20:00 UTC); the guard step keeps only the
+# one that is 06:00 local. The manual button (workflow_dispatch) skips the guard.
+on:
+  schedule:
+    - cron: "0 19 * * 5"
+    - cron: "0 20 * * 5"
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "Week to plan: next | this | YYYY-Www"
+        default: "next"
+      cuisine:
+        description: "Pack id(s), comma-separated. Empty = config/rotation.yaml"
+        default: ""
+      salt:
+        description: "Reroll knob (integer)"
+        default: "0"
+      force:
+        description: "Replace an existing plan for that week"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-plan
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Only run at 06:00 Melbourne time (scheduled runs)
+        id: guard
+        if: github.event_name == 'schedule'
+        run: |
+          now=$(TZ=Australia/Melbourne date +%H%u)   # hour + ISO weekday (6 = Saturday)
+          echo "melbourne=$now"
+          if [ "$now" != "066" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+
+      - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
+
+      - uses: astral-sh/setup-uv@v5
+        if: steps.guard.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        if: steps.guard.outputs.skip != 'true'
+        run: uv sync --all-groups
+
+      - name: Plan, shop, build
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          WEEK: ${{ github.event.inputs.week || 'next' }}
+          CUISINE: ${{ github.event.inputs.cuisine }}
+          SALT: ${{ github.event.inputs.salt || '0' }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          args=(--week "$WEEK" --salt "$SALT")
+          [ -n "$CUISINE" ] && args+=(--cuisine "$CUISINE")
+          [ "$FORCE" = "true" ] && args+=(--force)
+          uv run mealplan weekly "${args[@]}"
+          uv run mealplan validate
+          uv run mealplan build --check
+
+      - name: Commit and push
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "meal-plan bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A plans shopping index.html
+          if git diff --cached --quiet; then
+            echo "Nothing new to publish."
+            exit 0
+          fi
+          week=$(python3 -c 'import json;print(json.load(open("plans/manifest.json"))["next"] or json.load(open("plans/manifest.json"))["current"])')
+          git commit -m "Plan ${week} [auto]"
+          git push

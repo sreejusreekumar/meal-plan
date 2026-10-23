@@ -37,6 +37,45 @@ Tap any meal card on the page for the recipe: ingredients scaled to the househol
 Microsoft To Do push (`--todo`, into a dedicated "Weekly Basket" list) arrives in phase 3;
 Saturday automation in phase 4.
 
+## Saturday automation
+
+Two jobs, no secrets in GitHub (ADR 0004):
+
+- **GitHub Actions** (`.github/workflows/weekly.yml`): Saturday 06:00 Melbourne, runs
+  `mealplan weekly --week next`, validates, and commits `plans/`, `shopping/` and `index.html`.
+  Pages serves the commit, and the kitchen tablet reloads itself within 15 minutes.
+  Run it by hand from the repo's **Actions** tab ("Run workflow", with week/cuisine/salt/force) or
+  with `gh workflow run weekly.yml -f cuisine=thai -f salt=1 -f force=true`.
+- **This Mac** (`scripts/weekly-todo.sh` via launchd, Saturday 06:30): `git pull`, then
+  `mealplan todo push --week next`. Install or reinstall with `./scripts/install-launchd.sh`;
+  log at `~/Library/Logs/meal-plan.log`; run it now with
+  `launchctl kickstart -k gui/$(id -u)/com.mealplan.todo`.
+
+The same routine by hand: `uv run mealplan weekly --week next --todo`, then commit and push.
+
+## Microsoft To Do
+
+The shopping list is pushed to one dedicated To Do list, **Weekly Basket** (name in
+`config/household.yaml`), created on the first push. One task per item in store-walk order, with
+the recipes in the note; pantry staples as one "Check pantry" task with sub-items. Re-running for
+the same week replaces the planner's tasks; anything you typed by hand is left alone.
+
+One-time setup:
+
+```
+cp .env.example .env            # then fill MEALPLAN_MS_CLIENT_ID (same app as shopping-assistant)
+uv run mealplan todo login      # device code: open the link, enter the code, done
+uv run mealplan todo status
+```
+
+Weekly:
+
+```
+uv run mealplan shop --week next --todo     # or: uv run mealplan todo push --week next
+```
+
+The token cache lives in `~/.config/meal-plan/ms_token_cache.json`, never in the repo.
+
 ## Cuisines: where they live and how to pick one
 
 Each cuisine is a **pack**: a folder under `cuisines/` holding `pack.yaml` (name, slot labels,
@@ -82,6 +121,8 @@ A pack is usable once it has at least 10 breakfast, 10 lunch, 7 snack and 10 din
 | `mealplan plan -c <id[,id]> -w <this\|next\|YYYY-Www> [--salt N] [--force]` | Generate and validate a week |
 | `mealplan show -w <week>` | Print a week |
 | `mealplan shop -w <week> [--todo]` | Write the shopping list for a week |
+| `mealplan todo login` / `status` / `push -w <week>` | Microsoft To Do sign-in, check, push |
+| `mealplan weekly [-w <week>] [-c <id>] [--salt N] [--force] [--todo]` | plan (if missing) + shop + build |
 | `mealplan recipe <id>` | Print a recipe scaled to the household |
 | `mealplan build [--check]` | Regenerate `index.html`; `--check` fails if it is stale |
 | `mealplan validate [-c <id>]` | Validate config, packs and committed plans |

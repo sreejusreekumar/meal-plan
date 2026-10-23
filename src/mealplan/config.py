@@ -8,6 +8,7 @@ from importlib import resources
 from pathlib import Path
 
 import yaml
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from mealplan.models import Catalogue, Household
 
@@ -55,6 +56,25 @@ class Paths:
     @property
     def template_file(self) -> Path:
         return Path(str(resources.files("mealplan") / "web" / "template.html"))
+
+
+class Settings(BaseSettings):
+    """Environment-only settings (secrets and machine-specific paths). Read from the process
+    environment and from `.env` in the repo root, which is gitignored."""
+
+    model_config = SettingsConfigDict(env_prefix="MEALPLAN_", env_file=".env", extra="ignore")
+
+    ms_client_id: str | None = None
+    ms_tenant: str = "consumers"
+    ms_token_cache: Path = Path("~/.config/meal-plan/ms_token_cache.json")
+
+    @property
+    def token_cache_path(self) -> Path:
+        return self.ms_token_cache.expanduser()
+
+
+def load_settings(root: Path) -> Settings:
+    return Settings(_env_file=root / ".env")
 
 
 def find_root(start: Path | None = None) -> Path:

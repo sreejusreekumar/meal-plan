@@ -1,6 +1,6 @@
 # Family Meal Planner — Specification
 
-Status: v0.4 (2026-10-23). Phases 0 to 2 are implemented (section 15). All open
+Status: v0.6 (2026-10-23). Phases 0 to 4 are implemented (section 15). All open
 questions were settled in review 3 (section 16); section 17 is empty.
 
 ## 1. Goal
@@ -473,8 +473,8 @@ git add -A && git commit -m "Plan 2026-W45 (Thai)" && git push
 | 0 ✅ | uv project, models, validator, Kerala pack migrated from the 28 hardcoded days (108 recipes), generator, build, CI | `index.html` is regenerated from data and looks like today |
 | 1 ✅ | Ingredient catalogue, quantities + nutrition + steps for all Kerala recipes, shopping list (md + json), in-page list with tick boxes | A week's list prints grouped by aisle |
 | 2 ✅ | Recipe panel in the page, recipe CLI | Every meal opens a recipe |
-| 3 | Microsoft To Do push into the "Weekly Basket" list | `--todo` fills the list on the phone |
-| 4 | Saturday automation (Actions cron, manual dispatch, rotation) and local To Do job | A week appears on the tablet with no manual step |
+| 3 ✅ | Microsoft To Do push into the "Weekly Basket" list (ADR 0003) | `--todo` fills the list on the phone |
+| 4 ✅ | Saturday automation (Actions cron, manual dispatch, rotation) and local launchd To Do job (ADR 0004) | A week appears on the tablet with no manual step |
 | 5 | Five cuisine packs via `add-cuisine` + agent authoring: North Indian, Sri Lankan, Thai, Mediterranean, Middle Eastern (Mexican, Japanese, Italian, Chinese, Vietnamese, Korean on request). Signature dishes tagged and badged; `signatureDishesMin` rule | Each pack passes `validate`, produces a valid week, and you have skimmed it |
 | 6 | Kids' lunchbox slot, mixed-by-meal weeks, leftover-driven lunches, nutrition summary chart, print view | — |
 
