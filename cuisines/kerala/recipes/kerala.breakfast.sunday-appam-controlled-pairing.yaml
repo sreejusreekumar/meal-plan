@@ -13,6 +13,8 @@ refinedCarb: true
 family: appam
 prepMinutes: 15
 cookMinutes: 30
+signature: true
+basedOn: "Appam with stew, the Syrian Christian Sunday breakfast of Kerala."
 nutrition:
   kcal: 380
   carbs: 45

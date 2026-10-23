@@ -151,6 +151,10 @@ class Recipe(CamelModel):
     effort: Effort = "weekday"
     treat: bool = False
     refined_carb: bool = False
+    signature: bool = False
+    """One of the cuisine's best-known dishes; weeks must carry a minimum of these."""
+    based_on: str | None = None
+    """The traditional dish this adapts, one sentence shown on the page."""
     leftover_of: str | None = None
     family: str | None = None
     """Variety key finer than protein: the fish (mathi, ayala...) or the dish form (puttu,
@@ -254,6 +258,7 @@ class WeeklyRules(CamelModel):
     egg_mains_max: int = 5
     treats_max: int = 1
     veg_dinners_min: int = 2
+    signature_dishes_min: int = 0
 
 
 class TodoConfig(CamelModel):

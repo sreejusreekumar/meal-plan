@@ -25,16 +25,18 @@ cookMinutes: 15
 effort: weekday                         # weekend = long cook or treat; never picked Mon–Fri
 treat: false
 refinedCarb: false                      # white rice, noodles, pastry... max 1 dish/day
+signature: true                         # one of the cuisine's best-known dishes (a week needs 3+)
+basedOn: "Pla neung manao, the Thai steamed fish with lime and chilli."  # shown on the page
 nutrition: { kcal: 520, carbs: 48, fibre: 7, protein: 38, satFat: 3, sugar: 4 }
 components:                             # what is on the plate, shown on the page
   - "Primary: 150 g steamed barramundi with lime, garlic and chilli"
   - 1 cup stir-fried morning glory or bok choy
   - 3/4 cup brown jasmine rice
-ingredients:                            # per adult reference serving (~1550 kcal/day)
-  - { item: barramundi fillet, qty: 150, unit: g, aisle: fish, packSize: 50 }
-  - { item: lime, qty: 1, unit: pc, aisle: produce }
-  - { item: garlic, qty: 2, unit: pc, aisle: produce, staple: true }
-  - { item: brown jasmine rice, qty: 60, unit: g, aisle: grains }
+ingredients:                            # per adult reference serving; aisle/staple come from the catalogue
+  - { item: firm white fish fillet, qty: 150, unit: g }   # names and units from config/ingredients.yaml
+  - { item: lime, qty: 0.25, unit: pc }
+  - { item: garlic, qty: 4, unit: g }
+  - { item: brown basmati rice, qty: 60, unit: g }
 steps:
   - Season the fish, steam 10 minutes.
   - Whisk lime, garlic, chilli, fish sauce; spoon over.
@@ -42,6 +44,11 @@ swaps:
   - { for: barramundi fillet, use: snapper or ling, note: same timing }
 source: family recipe / adapted from ...
 ```
+
+Signature dishes: every pack tags its best-known dishes (`signature: true` plus a one-sentence
+`basedOn`). The planner guarantees at least `signatureDishesMin` of them a week, so trying the
+country's food is built in. An iconic dish that only works as the real thing (white-noodle pad
+thai, biryani on white basmati) is allowed as a `treat` with `effort: weekend`, one a week.
 
 Rules of thumb for this household (pre-diabetic, borderline LDL/TG):
 

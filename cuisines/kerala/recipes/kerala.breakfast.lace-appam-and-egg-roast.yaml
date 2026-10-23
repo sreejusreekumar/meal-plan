@@ -13,6 +13,8 @@ refinedCarb: true
 family: egg-roast
 prepMinutes: 15
 cookMinutes: 20
+signature: true
+basedOn: "Appam with stew, the Syrian Christian Sunday breakfast of Kerala."
 nutrition:
   kcal: 370
   carbs: 46

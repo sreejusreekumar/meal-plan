@@ -9,6 +9,8 @@ spice: medium
 packable: true
 effort: weekday
 family: chicken-roast
+signature: true
+basedOn: "Nadan kozhi roast, dry chicken roast with curry leaves and shallots."
 nutrition:
   kcal: 550
   carbs: 59

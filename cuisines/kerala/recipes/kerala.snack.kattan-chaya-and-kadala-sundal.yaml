@@ -11,6 +11,8 @@ spice: mild
 packable: false
 effort: weekday
 family: chickpeas
+signature: true
+basedOn: "Kadala sundal, tempered black chickpeas, the classic evening nibble."
 nutrition:
   kcal: 175
   carbs: 18

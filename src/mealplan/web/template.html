@@ -152,6 +152,9 @@ footer { color: var(--muted); font-size: 0.75em; text-align: center; }
 .aisle label.done { opacity: 0.5; text-decoration: line-through; }
 .aisle.pantry { background: var(--turmeric-soft); border-color: var(--turmeric); }
 .empty { color: var(--muted); }
+.badge { display: inline-block; background: var(--turmeric); color: #fff; font-size: 0.68em; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; border-radius: 999px; padding: 1px 8px; vertical-align: middle; margin-right: 6px; }
+.sig { margin: 0; font-size: 0.85em; color: var(--muted); }
+.chip { background: var(--sea-soft); color: var(--sea); border-radius: 999px; padding: 1px 8px; font-size: 0.85em; letter-spacing: 0; text-transform: none; }
 
 /* Recipe panel */
 .meal[data-slot] { cursor: pointer; }
@@ -271,6 +274,8 @@ function currentMealKey() {
 /* ---------- state ---------- */
 let todayLoc = locate(todayISO());
 let sel = todayLoc ? { ...todayLoc } : (weeks.length ? { wi: weeks.length - 1, di: 0 } : null);
+const dayHash = location.hash.match(/^#day-(\d{4}-\d{2}-\d{2})$/);
+if (dayHash && locate(dayHash[1])) sel = locate(dayHash[1]);
 let lastTouch = Date.now();
 let view = location.hash === "#shopping" ? "shopping" : "menu";
 function store(k, v) { try { if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) {} }
@@ -371,6 +376,7 @@ function renderRecipe(week, day, slot) {
     return `<section class="recipe">
       ${i === 0 ? `<h2 id="recipeTitle">${esc(r.name)}</h2>` : `<h2>${esc(r.name)}</h2>`}
       <div class="meta">${esc(meta)}${nutri ? "<br>" + esc(nutri) : ""}</div>
+      ${r.signature ? `<p class="sig"><span class="badge">Signature</span>${esc(r.basedOn || "")}</p>` : ""}
       ${r.kidNote ? `<p class="kid">Kid: ${esc(r.kidNote)}</p>` : ""}
       ${ings ? `<h3>Ingredients for the household · ${servings} servings</h3><ul class="ings">${ings}</ul>` : ""}
       ${steps ? `<h3>Method</h3><ol>${steps}</ol>` : ""}
@@ -429,6 +435,7 @@ function render() {
   const nowIdx = SLOTS.indexOf(nowKey);
   if (nowIdx > -1) order = SLOTS.slice(nowIdx).concat(SLOTS.slice(0, nowIdx));
 
+  const mixed = new Set(week.days.map(d => d.cuisine)).size > 1;
   $("meals").innerHTML = order.map(slot => {
     const past = nowIdx > -1 && SLOTS.indexOf(slot) < nowIdx;
     const recipes = (day.meals[slot] || []).map(id => week.recipes[id]).filter(Boolean);
@@ -450,10 +457,11 @@ function render() {
     const label = (pack.slotLabels || {})[slot] || DEFAULT_LABELS[slot];
     return `<article class="meal${slot === nowKey ? " now" : ""}${past ? " past" : ""}" data-slot="${slot}" tabindex="0" role="button" aria-haspopup="dialog">
       <div class="meal-top">
-        <span class="meal-label">${esc(label)}${slot === nowKey ? '<span class="now-pill">Now</span>' : ""}${past ? '<span class="done-pill">Earlier</span>' : ""}</span>
+        <span class="meal-label">${esc(label)}${mixed ? `<span class="chip">${esc(pack.name)}</span>` : ""}${slot === nowKey ? '<span class="now-pill">Now</span>' : ""}${past ? '<span class="done-pill">Earlier</span>' : ""}</span>
         <span class="meal-kcal">~${cal} kcal</span>
       </div>
       <h3>${esc(title)}</h3>
+      ${recipes.filter(r => r.signature).map(r => `<p class="sig"><span class="badge">Signature</span>${esc(r.basedOn || "")}</p>`).join("")}
       <ul>${items}</ul>
       ${kid.length ? `<p class="kid">Kid: ${esc(kid[0])}</p>` : ""}
       ${swap}

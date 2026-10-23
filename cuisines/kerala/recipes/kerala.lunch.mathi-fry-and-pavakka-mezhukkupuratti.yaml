@@ -9,6 +9,8 @@ spice: medium
 packable: true
 effort: weekday
 family: mathi
+signature: true
+basedOn: "Mathi fry, pan-seared sardines, a Kerala lunch staple."
 nutrition:
   kcal: 540
   carbs: 58

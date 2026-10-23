@@ -40,6 +40,7 @@ def test_generated_weeks_obey_the_rules(kerala, household, week):
     assert c["redMeat"] <= rules.red_meat_max
     assert c["treats"] <= rules.treats_max
     assert c["vegDinners"] >= rules.veg_dinners_min
+    assert c["signatureDishes"] >= rules.signature_dishes_min
     mains = [rid for d in plan.days for ids in d.meals.values() for rid in ids]
     assert len(mains) == len(set(mains)), "no main repeats within a week"
     for day, d in zip(week_dates(week), plan.days, strict=True):

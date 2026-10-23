@@ -9,6 +9,8 @@ spice: medium
 packable: true
 effort: weekday
 family: netholi
+signature: true
+basedOn: "Netholi peera, anchovies cooked dry with grated coconut and kudampuli."
 nutrition:
   kcal: 540
   carbs: 58

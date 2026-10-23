@@ -9,6 +9,8 @@ spice: medium
 packable: true
 effort: weekday
 family: neymeen
+signature: true
+basedOn: "Meen vevichathu, the red kudampuli fish curry of Kottayam, here with seer fish."
 nutrition:
   kcal: 530
   carbs: 58

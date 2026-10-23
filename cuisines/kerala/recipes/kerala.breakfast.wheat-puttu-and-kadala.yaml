@@ -11,6 +11,8 @@ effort: weekday
 family: puttu
 prepMinutes: 10
 cookMinutes: 30
+signature: true
+basedOn: "Puttu and kadala curry, Kerala's classic steamed breakfast."
 nutrition:
   kcal: 380
   carbs: 45

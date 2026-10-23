@@ -119,3 +119,43 @@ items:
   - { item: cloves, unit: pc, aisle: spices, staple: true }
   - { item: cinnamon stick, unit: pc, aisle: spices, staple: true }
   - { item: dried red chillies, unit: pc, aisle: spices, staple: true }
+
+  # ---------------------------------------------------------------- North Indian additions
+  - { item: brown basmati rice, unit: g, aisle: grains, packSize: 100 }
+  - { item: besan (chickpea flour), unit: g, aisle: grains, packSize: 100 }
+  - { item: rajma (kidney beans), unit: g, aisle: grains, packSize: 100 }
+  - { item: black urad (whole), unit: g, aisle: grains, packSize: 100 }
+  - { item: masoor dal, unit: g, aisle: grains, packSize: 100 }
+  - { item: poha (flattened rice), unit: g, aisle: grains, packSize: 100 }
+  - { item: dalia (broken wheat), unit: g, aisle: grains, packSize: 100 }
+  - { item: low-fat milk, unit: ml, aisle: dairy, packSize: 500 }
+  - { item: tofu (firm), unit: g, aisle: dairy, packSize: 100 }
+  - { item: ghee, unit: tsp, aisle: pantry, staple: true }
+  - { item: kasuri methi, unit: tsp, aisle: spices, staple: true }
+  - { item: chaat masala, unit: tsp, aisle: spices, staple: true }
+  - { item: black cardamom, unit: pc, aisle: spices, staple: true }
+  - { item: bay leaf, unit: pc, aisle: spices, staple: true }
+  - { item: fennel seeds, unit: tsp, aisle: spices, staple: true }
+  - { item: ajwain (carom seeds), unit: tsp, aisle: spices, staple: true }
+  - { item: fenugreek leaves (methi), unit: bunch, aisle: produce }
+  - { item: bottle gourd (lauki), unit: g, aisle: produce, packSize: 100 }
+  - { item: okra (bhindi), unit: g, aisle: produce, packSize: 100 }
+  - { item: green peas (frozen), unit: g, aisle: frozen, packSize: 100 }
+  - { item: potato, unit: pc, aisle: produce }
+  - { item: spring onion, unit: bunch, aisle: produce }
+  - { item: lamb leg (lean), unit: g, aisle: meat, packSize: 50 }
+
+  # ---------------------------------------------------------------- Sri Lankan additions
+  - { item: red rice (Sri Lankan), unit: g, aisle: grains, packSize: 100 }
+  - { item: red rice flour, unit: g, aisle: grains, packSize: 100 }
+  - { item: maldive fish flakes, unit: g, aisle: pantry, staple: true }
+  - { item: pandan leaf (rampe), unit: pc, aisle: produce, staple: true }
+  - { item: lemongrass, unit: pc, aisle: produce }
+  - { item: sri lankan roasted curry powder, unit: tsp, aisle: spices, staple: true }
+  - { item: chilli flakes, unit: tsp, aisle: spices, staple: true }
+  - { item: young jackfruit (canned), unit: g, aisle: pantry, packSize: 400 }
+  - { item: beetroot, unit: pc, aisle: produce }
+  - { item: gotu kola (pennywort), unit: bunch, aisle: produce }
+  - { item: kale, unit: bunch, aisle: produce }
+  - { item: snake beans, unit: g, aisle: produce, packSize: 100 }
+  - { item: banana, unit: pc, aisle: produce }

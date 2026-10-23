@@ -34,6 +34,8 @@ uv run mealplan shop --week next                        # shopping/<week>.md + .
 
 The page's **Shopping** tab shows the same list with tick boxes (per device) and a copy button.
 Tap any meal card on the page for the recipe: ingredients scaled to the household, method, swaps.
+Deep links: `#shopping` opens the list, `#day-2026-10-19` opens a day, `#recipe-lunch` opens the
+selected day's lunch recipe. Signature dishes of a cuisine carry a badge and a one-line note.
 Microsoft To Do push (`--todo`, into a dedicated "Weekly Basket" list) arrives in phase 3;
 Saturday automation in phase 4.
 

@@ -11,6 +11,8 @@ spice: medium
 packable: true
 effort: weekday
 family: ayala
+signature: true
+basedOn: "Ayala pollichathu, mackerel in banana leaf with a spicy shallot masala."
 nutrition:
   kcal: 550
   carbs: 59

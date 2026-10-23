@@ -12,6 +12,8 @@ packable: false
 effort: weekday
 prepMinutes: 15
 cookMinutes: 35
+signature: true
+basedOn: "Nadan chicken curry, the homestyle black-pepper chicken curry."
 nutrition:
   kcal: 500
   carbs: 46

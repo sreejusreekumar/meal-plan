@@ -9,6 +9,8 @@ spice: medium
 packable: true
 effort: weekday
 family: chicken-curry
+signature: true
+basedOn: "Kerala chicken stew in thin coconut milk with whole spices."
 nutrition:
   kcal: 520
   carbs: 60

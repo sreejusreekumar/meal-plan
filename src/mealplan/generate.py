@@ -96,6 +96,9 @@ def _eligible(
             veg_needed = rules.veg_dinners_min - state.counts["vegDinners"]
             if veg_needed >= remaining_days and not r.is_vegetarian:
                 return False
+            sig_needed = rules.signature_dishes_min - state.counts["signatureDishes"]
+            if sig_needed >= remaining_days and not r.signature:
+                return False
     return True
 
 
@@ -130,6 +133,8 @@ def _score(
         score += 1.5
     if r.protein == "legume" and state.counts["legumeDishes"] < rules.legume_dishes_min:
         score += 1
+    if r.signature and state.counts["signatureDishes"] < rules.signature_dishes_min:
+        score += 1.5
     if slot == "dinner" and r.is_vegetarian and state.counts["vegDinners"] < rules.veg_dinners_min:
         score += 1
     if slot == "lunch" and yesterday and r.leftover_of:
@@ -169,6 +174,7 @@ def _record(state: _WeekState, slot: str, recipes: list[Recipe]) -> None:
     if any(r.protein == "egg" for r in mains):
         state.counts["eggMains"] += 1
     state.counts["treats"] += sum(1 for r in recipes if r.treat)
+    state.counts["signatureDishes"] += sum(1 for r in recipes if r.signature)
     if slot == "dinner" and recipes and all(r.is_vegetarian for r in recipes):
         state.counts["vegDinners"] += 1
 

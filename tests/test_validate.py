@@ -54,3 +54,17 @@ def test_week_checks_and_rules():
     assert "week: vegDinners 1 is below 2" in problems
     assert "week: legumeDishes 1 is below 3" in problems
     assert not any("fishLunches" in p for p in problems)
+
+
+def test_signature_dishes_are_counted_and_required():
+    sig = rec("t.lunch.s", "lunch", "fish", 530, signature=True, based_on="A famous dish.")
+    plain = rec("t.dinner.p", "dinner", "legume", 480)
+    c = week_checks([{"lunch": [sig], "dinner": [plain]}, {"lunch": [sig]}])
+    assert c["signatureDishes"] == 2
+    problems = check_week(
+        c,
+        WeeklyRules(
+            signature_dishes_min=3, fish_lunches_min=0, legume_dishes_min=0, veg_dinners_min=0
+        ),
+    )
+    assert "week: signatureDishes 2 is below 3" in problems

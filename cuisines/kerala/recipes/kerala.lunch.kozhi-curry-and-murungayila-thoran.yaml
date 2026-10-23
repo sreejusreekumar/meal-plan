@@ -9,6 +9,8 @@ spice: medium
 packable: true
 effort: weekday
 family: chicken-curry
+signature: true
+basedOn: "Nadan kozhi curry, the homestyle black-pepper chicken curry."
 nutrition:
   kcal: 550
   carbs: 60

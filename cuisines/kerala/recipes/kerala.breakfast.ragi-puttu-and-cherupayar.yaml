@@ -11,6 +11,8 @@ effort: weekday
 family: puttu
 prepMinutes: 10
 cookMinutes: 25
+signature: true
+basedOn: "Puttu with cherupayar curry, the lighter cousin of puttu-kadala."
 nutrition:
   kcal: 370
   carbs: 44

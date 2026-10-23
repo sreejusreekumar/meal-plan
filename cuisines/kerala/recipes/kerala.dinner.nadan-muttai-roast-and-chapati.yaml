@@ -11,6 +11,8 @@ effort: weekday
 prepMinutes: 10
 cookMinutes: 30
 family: egg-roast
+signature: true
+basedOn: "Mutta roast, eggs in a thick shallot-tomato masala."
 nutrition:
   kcal: 500
   carbs: 50

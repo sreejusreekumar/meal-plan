@@ -11,6 +11,8 @@ effort: weekday
 prepMinutes: 15
 cookMinutes: 25
 family: dal
+signature: true
+basedOn: "Cheera parippu, dal with amaranth leaves as served at a sadya."
 nutrition:
   kcal: 490
   carbs: 48

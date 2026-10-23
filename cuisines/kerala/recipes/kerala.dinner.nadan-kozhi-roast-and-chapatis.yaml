@@ -11,6 +11,8 @@ effort: weekday
 prepMinutes: 15
 cookMinutes: 40
 family: chicken-roast
+signature: true
+basedOn: "Nadan kozhi roast, dry chicken roast with curry leaves and shallots."
 nutrition:
   kcal: 490
   carbs: 44

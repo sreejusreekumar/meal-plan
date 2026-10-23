@@ -28,6 +28,7 @@ weeklyRules:
   eggMainsMax: 5       # meals whose main protein is egg
   treatsMax: 1
   vegDinnersMin: 2
+  signatureDishesMin: 3   # the cuisine's best-known dishes, tagged `signature` in the pack
 pantryStaples:
   - salt
   - turmeric

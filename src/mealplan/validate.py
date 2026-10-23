@@ -54,6 +54,7 @@ def week_checks(days: list[DayMeals]) -> dict[str, int]:
         "eggMains": 0,
         "treats": 0,
         "vegDinners": 0,
+        "signatureDishes": 0,
     }
     for day in days:
         for slot in SLOTS:
@@ -72,6 +73,7 @@ def week_checks(days: list[DayMeals]) -> dict[str, int]:
             if any(r.protein == "egg" for r in mains):
                 checks["eggMains"] += 1
             checks["treats"] += sum(1 for r in recipes if r.treat)
+            checks["signatureDishes"] += sum(1 for r in recipes if r.signature)
             if slot == "dinner" and all(r.is_vegetarian for r in recipes):
                 checks["vegDinners"] += 1
     return checks
@@ -95,6 +97,7 @@ def check_week(checks: dict[str, int], rules: WeeklyRules) -> list[str]:
     at_most("eggMains", rules.egg_mains_max)
     at_most("treats", rules.treats_max)
     at_least("vegDinners", rules.veg_dinners_min)
+    at_least("signatureDishes", rules.signature_dishes_min)
     return problems
 
 
