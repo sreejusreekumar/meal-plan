@@ -1,7 +1,7 @@
 {
-  "version": "4041abb2aeae",
-  "current": "2026-W43",
-  "next": "2026-W44",
+  "version": "daa926f1e450",
+  "current": "2026-W44",
+  "next": "2026-W45",
   "weeks": [
     {
       "week": "2026-W43",
@@ -18,6 +18,14 @@
         "kerala"
       ],
       "file": "2026-W44.json"
+    },
+    {
+      "week": "2026-W45",
+      "startDate": "2026-11-02",
+      "cuisines": [
+        "mediterranean"
+      ],
+      "file": "2026-W45.json"
     }
   ]
 }

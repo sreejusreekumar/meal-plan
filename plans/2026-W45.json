@@ -1,0 +1,3991 @@
+{
+  "week": "2026-W45",
+  "startDate": "2026-11-02",
+  "cuisines": [
+    "mediterranean"
+  ],
+  "packVersions": {
+    "mediterranean": 1
+  },
+  "seed": "mediterranean:2026-W45:mediterranean=1:0",
+  "salt": 0,
+  "generatedAt": "2026-10-28T18:11:44+11:00",
+  "generator": "0.1.0",
+  "days": [
+    {
+      "date": "2026-11-02",
+      "dow": "Mon",
+      "cuisine": "mediterranean",
+      "meals": {
+        "breakfast": [
+          "mediterranean.breakfast.greek-yoghurt-bowl"
+        ],
+        "lunch": [
+          "mediterranean.lunch.fakes-lentil-soup"
+        ],
+        "snack": [
+          "mediterranean.snack.tzatziki-with-veg-sticks"
+        ],
+        "dinner": [
+          "mediterranean.dinner.salmon-fennel-orange"
+        ]
+      },
+      "totals": {
+        "kcal": 1524.0,
+        "carbs": 148.0,
+        "fibre": 34.0,
+        "protein": 88.0,
+        "satFat": 12.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "dow": "Tue",
+      "cuisine": "mediterranean",
+      "meals": {
+        "breakfast": [
+          "mediterranean.breakfast.socca-with-feta"
+        ],
+        "lunch": [
+          "mediterranean.lunch.nicoise"
+        ],
+        "snack": [
+          "mediterranean.snack.cherry-tomatoes-boiled-egg"
+        ],
+        "dinner": [
+          "mediterranean.dinner.fasolada"
+        ]
+      },
+      "totals": {
+        "kcal": 1506.0,
+        "carbs": 154.0,
+        "fibre": 38.0,
+        "protein": 92.0,
+        "satFat": 13.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "dow": "Wed",
+      "cuisine": "mediterranean",
+      "meals": {
+        "breakfast": [
+          "mediterranean.breakfast.greek-spinach-omelette"
+        ],
+        "lunch": [
+          "mediterranean.lunch.salmon-roast-veg-bulgur"
+        ],
+        "snack": [
+          "mediterranean.snack.pita-triangles-hummus"
+        ],
+        "dinner": [
+          "mediterranean.dinner.chicken-capsicum-couscous"
+        ]
+      },
+      "totals": {
+        "kcal": 1513.0,
+        "carbs": 138.0,
+        "fibre": 34.0,
+        "protein": 100.0,
+        "satFat": 12.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "dow": "Thu",
+      "cuisine": "mediterranean",
+      "meals": {
+        "breakfast": [
+          "mediterranean.breakfast.smashed-cannellini-toast"
+        ],
+        "lunch": [
+          "mediterranean.lunch.chicken-souvlaki"
+        ],
+        "snack": [
+          "mediterranean.snack.olives-feta-cucumber"
+        ],
+        "dinner": [
+          "mediterranean.dinner.grilled-mackerel-horta"
+        ]
+      },
+      "totals": {
+        "kcal": 1480.0,
+        "carbs": 125.0,
+        "fibre": 34.0,
+        "protein": 105.0,
+        "satFat": 11.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "dow": "Fri",
+      "cuisine": "mediterranean",
+      "meals": {
+        "breakfast": [
+          "mediterranean.breakfast.overnight-oats-orange-almond"
+        ],
+        "lunch": [
+          "mediterranean.lunch.tabbouleh-grilled-fish"
+        ],
+        "snack": [
+          "mediterranean.snack.roasted-paprika-chickpeas"
+        ],
+        "dinner": [
+          "mediterranean.dinner.spinach-feta-omelette"
+        ]
+      },
+      "totals": {
+        "kcal": 1494.0,
+        "carbs": 138.0,
+        "fibre": 35.0,
+        "protein": 91.0,
+        "satFat": 10.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "dow": "Sat",
+      "cuisine": "mediterranean",
+      "meals": {
+        "breakfast": [
+          "mediterranean.breakfast.eggs-in-spicy-tomato"
+        ],
+        "lunch": [
+          "mediterranean.lunch.ratatouille-chickpeas"
+        ],
+        "snack": [
+          "mediterranean.snack.almonds-and-orange"
+        ],
+        "dinner": [
+          "mediterranean.dinner.prawn-zucchini-spaghetti"
+        ]
+      },
+      "totals": {
+        "kcal": 1586.0,
+        "carbs": 158.0,
+        "fibre": 35.0,
+        "protein": 87.0,
+        "satFat": 11.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "dow": "Sun",
+      "cuisine": "mediterranean",
+      "meals": {
+        "breakfast": [
+          "mediterranean.breakfast.spanakopita-pita-pocket"
+        ],
+        "lunch": [
+          "mediterranean.lunch.brown-rice-paella"
+        ],
+        "snack": [
+          "mediterranean.snack.yoghurt-cinnamon-walnuts"
+        ],
+        "dinner": [
+          "mediterranean.dinner.chicken-cacciatore"
+        ]
+      },
+      "totals": {
+        "kcal": 1541.0,
+        "carbs": 147.0,
+        "fibre": 28.0,
+        "protein": 104.0,
+        "satFat": 12.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    }
+  ],
+  "weekChecks": {
+    "fishLunches": 4,
+    "chicken": 3,
+    "redMeat": 0,
+    "legumeDishes": 7,
+    "eggMains": 4,
+    "treats": 1,
+    "vegDinners": 2,
+    "signatureDishes": 14
+  },
+  "recipes": {
+    "mediterranean.breakfast.eggs-in-spicy-tomato": {
+      "id": "mediterranean.breakfast.eggs-in-spicy-tomato",
+      "name": "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "one-pan"
+      ],
+      "spice": "medium",
+      "kidNote": "Leave the chilli flakes out of the pan and sprinkle them on the adults' portions at the table.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Huevos a la flamenca and Greek avga me domates, eggs poached in a paprika-tomato and capsicum sauce, a one-pan breakfast from Andalusia and the Greek islands.",
+      "family": "eggs-tomato",
+      "nutrition": {
+        "kcal": 380,
+        "carbs": 37.0,
+        "fibre": 7.0,
+        "protein": 20.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2 eggs poached in tomato, capsicum and paprika sauce",
+        "1 wholemeal pita, warmed, for dipping",
+        "Black coffee or unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "tomato",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Heat the olive oil in a small frying pan; soften the chopped onion, capsicum and garlic 4-5 minutes.",
+        "Stir in the paprika, chilli flakes and oregano, then the chopped tomato with salt and pepper; simmer 5 minutes to a thick sauce, adding a splash of water if it catches.",
+        "Make two hollows, crack in the eggs, cover and cook 4-5 minutes until the whites set and the yolks are still soft.",
+        "Warm the pita in a dry pan or toaster and cut into quarters.",
+        "Scatter parsley over the eggs and serve straight from the pan with the pita for dipping and black coffee or tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional huevos a la flamenca"
+    },
+    "mediterranean.breakfast.greek-spinach-omelette": {
+      "id": "mediterranean.breakfast.greek-spinach-omelette",
+      "name": "Greek omelette with spinach, olives and feta",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "omelette",
+      "nutrition": {
+        "kcal": 382,
+        "carbs": 25.0,
+        "fibre": 7.0,
+        "protein": 21.0,
+        "satFat": 6.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2-egg omelette folded over spinach, olives, feta and oregano",
+        "1 slice wholemeal toast",
+        "Sliced tomato and half an orange",
+        "Black coffee or unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "olives",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "feta",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "orange",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.2,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Wash and chop the spinach; slice the onion and olives; crumble the feta.",
+        "Heat the olive oil in a small non-stick pan, soften the onion 2 minutes, add the spinach and wilt it down, then push to one side.",
+        "Beat the eggs with pepper, oregano and a pinch of salt (the feta and olives are salty), pour into the pan and cook on medium-low until nearly set.",
+        "Scatter the spinach, olives and feta over one half, fold and slide onto the plate.",
+        "Serve with the toast, sliced tomato, half an orange and black coffee or tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the Greek omeleta me spanaki kai feta"
+    },
+    "mediterranean.breakfast.greek-yoghurt-bowl": {
+      "id": "mediterranean.breakfast.greek-yoghurt-bowl",
+      "name": "Greek yoghurt bowl with walnuts, berries and cinnamon",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick",
+        "no-cook"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Yiaourti me karydia, the Greek bowl of thick yoghurt with walnuts and honey, here sweetened only with berries and cinnamon.",
+      "family": "yoghurt-bowl",
+      "nutrition": {
+        "kcal": 357,
+        "carbs": 36.0,
+        "fibre": 7.0,
+        "protein": 17.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl thick strained yoghurt with walnuts and berries",
+        "Toasted oats and cinnamon on top",
+        "Black coffee or unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 200.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "walnuts",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "mixed berries (frozen)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "rolled oats",
+          "qty": 25.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cinnamon stick",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coffee powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "The night before, hang the yoghurt in a muslin or coffee filter over a bowl in the fridge so it thickens Greek-style (or just use it as is).",
+        "Toast the oats in a dry pan 3-4 minutes until fragrant; grate the cinnamon stick finely over them.",
+        "Thaw the berries 5 minutes at room temperature or 30 seconds in the microwave.",
+        "Spoon the yoghurt into a bowl, top with the berries and their juice, the roughly broken walnuts and the cinnamon oats; no honey.",
+        "Serve with black coffee or unsweetened tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional yiaourti me karydia kai meli"
+    },
+    "mediterranean.breakfast.overnight-oats-orange-almond": {
+      "id": "mediterranean.breakfast.overnight-oats-orange-almond",
+      "name": "Overnight oats with yoghurt, orange and almonds",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick",
+        "no-cook"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "oats",
+      "nutrition": {
+        "kcal": 379,
+        "carbs": 43.0,
+        "fibre": 7.0,
+        "protein": 19.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 jar overnight oats soaked in yoghurt and milk with cinnamon",
+        "Half an orange in segments and toasted almonds on top",
+        "Black coffee or unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "rolled oats",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "low-fat milk",
+          "qty": 50.0,
+          "unit": "ml",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 500.0
+        },
+        {
+          "item": "orange",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "almonds",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cinnamon stick",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "The night before, stir the oats into the yoghurt and milk in a jar with a little finely grated cinnamon and the zest of the orange half; cover and refrigerate.",
+        "In the morning, toast the almonds in a dry pan 2-3 minutes and chop roughly.",
+        "Peel and segment the half orange over the jar so the juice drips in.",
+        "Top the oats with the orange segments and almonds; brew the tea leaves 3 minutes, strain, no sugar."
+      ],
+      "swaps": [],
+      "source": "Adapted from the Mediterranean breakfast of oats, yoghurt and seasonal fruit"
+    },
+    "mediterranean.breakfast.smashed-cannellini-toast": {
+      "id": "mediterranean.breakfast.smashed-cannellini-toast",
+      "name": "Smashed cannellini beans on wholemeal toast with a fried egg",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Leave the chilli flakes off the child's toast; a squeeze of lemon and parsley is enough.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "beans-toast",
+      "nutrition": {
+        "kcal": 342,
+        "carbs": 33.0,
+        "fibre": 10.0,
+        "protein": 20.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 slice wholemeal toast heaped with lemon-garlic smashed cannellini beans",
+        "1 fried egg on top",
+        "Cherry tomatoes on the side",
+        "Black coffee or unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "cannellini beans",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the cannellini beans overnight and simmer 45-60 minutes until soft, or cook a batch on the weekend and keep in the fridge (about 100 g cooked per serving).",
+        "Warm half the olive oil with the chopped garlic in a pan 1 minute, add the beans with a splash of their liquid, salt and pepper, and crush roughly with a fork; finish with lemon juice and parsley.",
+        "Toast the bread; fry the egg in the rest of the oil until the white sets.",
+        "Pile the beans on the toast, top with the egg and a pinch of chilli flakes; serve with cherry tomatoes and black coffee or tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the Tuscan fagioli all'olio on bread"
+    },
+    "mediterranean.breakfast.socca-with-feta": {
+      "id": "mediterranean.breakfast.socca-with-feta",
+      "name": "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Socca, the thin chickpea-flour pancake of Nice, known as farinata along the Ligurian coast.",
+      "family": "socca",
+      "nutrition": {
+        "kcal": 356,
+        "carbs": 39.0,
+        "fibre": 7.0,
+        "protein": 20.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 large socca (chickpea-flour pancake) with thyme and pepper",
+        "Salad leaves and cherry tomatoes with crumbled feta and lemon",
+        "Small dollop of yoghurt",
+        "Black coffee or unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "besan (chickpea flour)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "dried thyme",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salad leaves (mixed)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "feta",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Whisk the besan with 100 ml water, salt, pepper and thyme to a thin batter; rest 10 minutes (or overnight in the fridge).",
+        "Heat a non-stick pan with the olive oil until very hot, pour in the batter and cook 4-5 minutes until the edges crisp, then flip and cook 3 minutes more (or finish under a hot grill).",
+        "Toss the salad leaves and halved cherry tomatoes with lemon juice and pepper; crumble the feta over.",
+        "Tear the socca into pieces, pile the salad on top and add a spoon of yoghurt on the side.",
+        "Serve with black coffee or unsweetened tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional socca of Nice"
+    },
+    "mediterranean.breakfast.spanakopita-pita-pocket": {
+      "id": "mediterranean.breakfast.spanakopita-pita-pocket",
+      "name": "Spanakopita-style spinach and feta wholemeal pita pocket, baked",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "weekend"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekend",
+      "treat": true,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Spanakopita, the Greek spinach and feta pie in filo pastry, here baked as a filling inside a wholemeal pita instead of pastry.",
+      "family": "pita-pocket",
+      "nutrition": {
+        "kcal": 372,
+        "carbs": 34.0,
+        "fibre": 8.0,
+        "protein": 19.0,
+        "satFat": 6.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 wholemeal pita pocket stuffed with spinach, feta, egg and dill, baked crisp",
+        "Cherry tomatoes with lemon",
+        "Black coffee or unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "feta",
+          "qty": 25.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dill",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.2,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Heat the oven to 200 C. Wash and chop the spinach; soften the chopped onion in half the olive oil 3 minutes, add the spinach and cook until wilted and dry; cool slightly.",
+        "Mix in the crumbled feta, beaten egg, chopped dill, pepper and a small pinch of salt.",
+        "Cut the pita in half, open the pockets and fill each with the spinach mixture; brush the outside with the rest of the oil.",
+        "Bake 15-18 minutes on a tray until the pita is crisp and the filling set.",
+        "Serve with cherry tomatoes squeezed with lemon and black coffee or tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional spanakopita"
+    },
+    "mediterranean.dinner.chicken-cacciatore": {
+      "id": "mediterranean.dinner.chicken-cacciatore",
+      "name": "Chicken cacciatore with a small portion of wholemeal pasta",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 40,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Pollo alla cacciatora, the Italian hunter's-style chicken braised with tomato, onion, capsicum, mushrooms, rosemary and olives.",
+      "family": "cacciatore",
+      "nutrition": {
+        "kcal": 490,
+        "carbs": 41.0,
+        "fibre": 9.0,
+        "protein": 38.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 140 g chicken thigh braised cacciatore-style with capsicum, mushrooms, tomato, rosemary and olives",
+        "40 g wholemeal pasta (a small nest)",
+        "Salad leaves with balsamic; 5 g parmesan over the pasta"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken thigh (boneless)",
+          "qty": 140.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "canned tomatoes",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 400.0
+        },
+        {
+          "item": "rosemary",
+          "qty": 1.0,
+          "unit": "sprig",
+          "aisle": "produce",
+          "staple": true
+        },
+        {
+          "item": "olives",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wholemeal pasta",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "parmesan",
+          "qty": 5.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "salad leaves (mixed)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "balsamic vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Season the chicken thigh pieces with salt and pepper; brown in the olive oil in a wide pan 3 minutes a side and set aside.",
+        "In the same pan soften the sliced onion, capsicum, mushrooms and garlic with the rosemary 6-8 minutes.",
+        "Add the canned tomatoes and olives, return the chicken, cover and simmer 25 minutes until the chicken is tender and the sauce thick.",
+        "Boil the pasta in salted water until al dente; drain.",
+        "Serve the cacciatore over the pasta with the parmesan grated over; salad leaves dressed with balsamic on the side."
+      ],
+      "swaps": [
+        {
+          "for": "chicken thigh (boneless)",
+          "use": "chicken (bone-in curry cut)",
+          "note": "180 g, simmer 35 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional Italian pollo alla cacciatora"
+    },
+    "mediterranean.dinner.chicken-capsicum-couscous": {
+      "id": "mediterranean.dinner.chicken-capsicum-couscous",
+      "name": "Grilled chicken with roasted capsicum & wholemeal couscous",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "chicken-couscous",
+      "nutrition": {
+        "kcal": 460,
+        "carbs": 50.0,
+        "fibre": 12.0,
+        "protein": 39.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 120 g grilled chicken breast with smoked paprika, thyme and lemon",
+        "Roasted capsicum, red onion, zucchini and cherry tomatoes",
+        "3/4 cup wholemeal couscous with parsley; salad leaves with lemon"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken breast",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "capsicum",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "wholemeal couscous",
+          "qty": 55.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "smoked paprika",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "dried thyme",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salad leaves (mixed)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Heat the oven to 220 C. Cut the capsicum, red onion and zucchini into chunks, toss with the cherry tomatoes, olive oil, thyme, salt and pepper and roast 20 minutes until the edges char.",
+        "Rub the chicken breast with smoked paprika, crushed garlic, half the lemon juice, salt and pepper; grill or pan-sear 6-7 minutes a side, rest and slice.",
+        "Pour 1/2 cup boiling water over the couscous with a pinch of salt, cover 5 minutes, then fork through with the parsley.",
+        "Dress the salad leaves with the remaining lemon. Plate the vegetables and salad first, then the chicken over the couscous."
+      ],
+      "swaps": [
+        {
+          "for": "wholemeal couscous",
+          "use": "bulgur wheat",
+          "note": "soak 15 minutes"
+        }
+      ],
+      "source": "Mediterranean home cooking, grill-and-tray style"
+    },
+    "mediterranean.dinner.fasolada": {
+      "id": "mediterranean.dinner.fasolada",
+      "name": "Fasolada (white bean stew) with wholemeal bread & feta",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 50,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Fasolada, often called the national dish of Greece: white beans simmered with carrot, celery, onion and tomato in olive oil.",
+      "family": "fasolada",
+      "nutrition": {
+        "kcal": 475,
+        "carbs": 53.0,
+        "fibre": 16.0,
+        "protein": 24.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 large bowl fasolada (cannellini beans, carrot, celery, onion, tomato)",
+        "1 slice wholemeal bread",
+        "25 g feta, crumbled; salad leaves with lemon"
+      ],
+      "ingredients": [
+        {
+          "item": "cannellini beans",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "celery",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "canned tomatoes",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 400.0
+        },
+        {
+          "item": "tomato paste",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "bay leaf",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "feta",
+          "qty": 25.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        },
+        {
+          "item": "salad leaves (mixed)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the cannellini beans overnight; drain, cover with fresh water and boil 10 minutes, then drain again.",
+        "Return the beans to the pot with the diced onion, carrot, celery, garlic, bay leaf, canned tomatoes and tomato paste and water to cover by 3 cm.",
+        "Simmer gently 40-45 minutes until the beans are creamy and the broth has thickened; season with salt and pepper and stir in the olive oil and parsley.",
+        "Dress the salad leaves with lemon juice.",
+        "Serve the stew with the feta crumbled over, the bread and the salad."
+      ],
+      "swaps": [
+        {
+          "for": "cannellini beans",
+          "use": "white chickpeas (chana)",
+          "note": "simmer 10 minutes longer"
+        }
+      ],
+      "source": "Adapted from the traditional Greek fasolada"
+    },
+    "mediterranean.dinner.grilled-mackerel-horta": {
+      "id": "mediterranean.dinner.grilled-mackerel-horta",
+      "name": "Whole grilled mackerel with lemon, oregano & horta greens",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Psari sta karvouna, the Greek island way with a whole fish: grilled over coals and finished with ladolemono (olive oil, lemon and oregano).",
+      "family": "grilled-fish",
+      "nutrition": {
+        "kcal": 485,
+        "carbs": 40.0,
+        "fibre": 12.0,
+        "protein": 40.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 whole grilled mackerel with ladolemono (lemon, olive oil, oregano)",
+        "Horta-style boiled kale with lemon",
+        "3/4 cup bulgur with cherry tomatoes, red onion and olives"
+      ],
+      "ingredients": [
+        {
+          "item": "mackerel (ayala)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "kale",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "olives",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "dried oregano",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the bulgur in 3/4 cup boiling water with a pinch of salt, covered, 15 minutes; fork through with halved cherry tomatoes, slivered red onion, olives and parsley.",
+        "Clean the mackerel, score the sides twice, season inside and out with salt, pepper, half the oregano and a slice of lemon in the belly.",
+        "Grill on a hot grill pan or under the oven grill 5-6 minutes a side until the skin chars and the flesh flakes at the bone.",
+        "Boil the kale leaves in salted water 5-6 minutes, drain well, dress with half the lemon juice.",
+        "Whisk the olive oil, remaining lemon juice, crushed garlic and oregano into ladolemono and spoon over the fish. Greens first, then fish and bulgur."
+      ],
+      "swaps": [
+        {
+          "for": "mackerel (ayala)",
+          "use": "sardines (mathi)",
+          "note": "4 fish, 3 minutes a side"
+        }
+      ],
+      "source": "Adapted from the traditional Greek grilled whole fish with horta"
+    },
+    "mediterranean.dinner.prawn-zucchini-spaghetti": {
+      "id": "mediterranean.dinner.prawn-zucchini-spaghetti",
+      "name": "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Leave the chilli flakes out of the pan and sprinkle them on the adults' plates only.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "prawn-pasta",
+      "nutrition": {
+        "kcal": 480,
+        "carbs": 44.0,
+        "fibre": 9.0,
+        "protein": 38.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 130 g prawns tossed with garlic, lemon, chilli and parsley",
+        "60 g wholemeal spaghetti with zucchini ribbons and cherry tomatoes",
+        "10 g toasted pine nuts; salad leaves with balsamic"
+      ],
+      "ingredients": [
+        {
+          "item": "prawns (chemmeen)",
+          "qty": 130.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "wholemeal pasta",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "zucchini",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "garlic",
+          "qty": 6.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capers",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "pine nuts",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salad leaves (mixed)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "balsamic vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the spaghetti in salted water until al dente; keep a cup of the water.",
+        "Shave the zucchini into ribbons with a peeler; toast the pine nuts in a dry pan and set aside.",
+        "Heat the olive oil, add the sliced garlic and chilli flakes for 30 seconds, then the prawns; cook 2 minutes a side until pink.",
+        "Add the zucchini ribbons, halved cherry tomatoes and capers with a splash of pasta water; toss 2 minutes.",
+        "Toss in the drained spaghetti, lemon zest and juice, parsley and pepper; top with the pine nuts. Salad leaves with balsamic alongside."
+      ],
+      "swaps": [
+        {
+          "for": "prawns (chemmeen)",
+          "use": "squid",
+          "note": "rings, 2 minutes only"
+        }
+      ],
+      "source": "Adapted from the Italian spaghetti con gamberi e zucchine"
+    },
+    "mediterranean.dinner.salmon-fennel-orange": {
+      "id": "mediterranean.dinner.salmon-fennel-orange",
+      "name": "Baked salmon with fennel & orange salad and bulgur",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "salmon-fennel",
+      "nutrition": {
+        "kcal": 505,
+        "carbs": 35.0,
+        "fibre": 11.0,
+        "protein": 33.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 120 g baked salmon with lemon and dill",
+        "Sicilian-style shaved fennel, orange, red onion and olive salad on salad leaves",
+        "1/2 cup bulgur"
+      ],
+      "ingredients": [
+        {
+          "item": "salmon fillet",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "fennel bulb",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "orange",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "olives",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "salad leaves (mixed)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dill",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the bulgur in 1/2 cup boiling water with a pinch of salt, covered, 15 minutes.",
+        "Season the salmon with salt, pepper and lemon zest; bake at 200 C for 12 minutes until just cooked.",
+        "Shave the fennel very thinly, segment the orange, sliver the red onion; toss with the olives, salad leaves, olive oil, lemon juice, the fennel fronds and pepper.",
+        "Flake the dill over the salmon and serve with the salad and bulgur."
+      ],
+      "swaps": [
+        {
+          "for": "salmon fillet",
+          "use": "firm white fish fillet",
+          "note": "150 g"
+        },
+        {
+          "for": "bulgur wheat",
+          "use": "pearl barley",
+          "note": "35 g, boil 30 minutes"
+        }
+      ],
+      "source": "Adapted from the Sicilian insalata di finocchi e arance"
+    },
+    "mediterranean.dinner.spinach-feta-omelette": {
+      "id": "mediterranean.dinner.spinach-feta-omelette",
+      "name": "Spinach & feta omelette with chickpea salad and wholemeal bread",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "omelette",
+      "nutrition": {
+        "kcal": 475,
+        "carbs": 34.0,
+        "fibre": 11.0,
+        "protein": 28.0,
+        "satFat": 5.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2-egg omelette folded over wilted spinach with 10 g feta and dill",
+        "Tomato, cucumber, red onion and olive salad with chickpeas",
+        "1 slice wholemeal bread"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "feta",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "dill",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 25.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tomato",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "olives",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "red wine vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Toss the cooked chickpeas (from the week's batch) with the diced tomato, cucumber, slivered red onion, olives, vinegar, oregano and a pinch of salt.",
+        "Wilt the washed spinach with the garlic in a dry non-stick pan 2 minutes; squeeze out the water and chop.",
+        "Beat the eggs with salt, pepper and the dill. Heat the olive oil in the pan, pour in the eggs and cook over medium heat until nearly set.",
+        "Spoon the spinach and crumbled feta over one half, fold and slide onto the plate.",
+        "Serve with the salad and the slice of bread."
+      ],
+      "swaps": [
+        {
+          "for": "spinach",
+          "use": "kale",
+          "note": "boil 4 minutes first, then chop"
+        }
+      ],
+      "source": "Greek home cooking, spanakopita flavours without the pastry"
+    },
+    "mediterranean.lunch.brown-rice-paella": {
+      "id": "mediterranean.lunch.brown-rice-paella",
+      "name": "Brown-rice paella with prawns, squid & capsicum",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 40,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Paella de marisco, the Valencian seafood rice cooked in a wide pan with sofrito, smoked paprika and stock, here on brown rice.",
+      "family": "paella",
+      "nutrition": {
+        "kcal": 520,
+        "carbs": 60.0,
+        "fibre": 9.0,
+        "protein": 39.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 heaped cup brown-rice paella with 100 g prawns, 80 g squid and capsicum",
+        "French beans cooked in the rice",
+        "Lemon wedge and parsley"
+      ],
+      "ingredients": [
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "prawns (chemmeen)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "squid",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "capsicum",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "french beans",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "smoked paprika",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the brown rice 30 minutes if you can; it shortens the cook.",
+        "Heat the olive oil in a wide shallow pan; soften the diced onion, garlic and half the capsicum, add the grated tomato and smoked paprika and cook to a thick sofrito.",
+        "Stir in the drained rice, 2 cups hot water and salt; simmer uncovered without stirring about 30 minutes until the rice is nearly tender.",
+        "Lay the remaining capsicum strips, french beans, prawns and squid rings on top, cover loosely and cook 6-8 minutes until the seafood is just opaque and the liquid is absorbed.",
+        "Rest 5 minutes off the heat for the socarrat crust; serve with lemon and parsley."
+      ],
+      "swaps": [
+        {
+          "for": "squid",
+          "use": "firm white fish fillet",
+          "note": "cubes, same timing"
+        }
+      ],
+      "source": "Adapted from the traditional Valencian paella de marisco"
+    },
+    "mediterranean.lunch.chicken-souvlaki": {
+      "id": "mediterranean.lunch.chicken-souvlaki",
+      "name": "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "souvlaki",
+      "nutrition": {
+        "kcal": 505,
+        "carbs": 45.0,
+        "fibre": 8.0,
+        "protein": 40.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 140 g chicken thigh souvlaki skewers with lemon and oregano",
+        "Tzatziki (100 g yoghurt, cucumber, garlic, dill)",
+        "Tomato, cos lettuce, red onion and olive salad",
+        "1 wholemeal pita"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken thigh (boneless)",
+          "qty": 140.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "dill",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dried oregano",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "tomato",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "olives",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cube the chicken thigh and marinate 15 minutes (or overnight) in the olive oil, lemon juice, oregano, half the garlic, salt and pepper.",
+        "Grate half the cucumber, squeeze out the water and stir into the yoghurt with the rest of the garlic, chopped dill and a pinch of salt for the tzatziki.",
+        "Thread the chicken onto skewers and grill or pan-sear on high 10-12 minutes, turning, until charred at the edges and cooked through.",
+        "Slice the tomato, remaining cucumber and red onion, shred the cos lettuce and toss with the olives.",
+        "Warm the pita and serve everything together; for a lunchbox pack the tzatziki separately."
+      ],
+      "swaps": [
+        {
+          "for": "chicken thigh (boneless)",
+          "use": "chicken breast",
+          "note": "cook 8-9 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional Greek souvlaki plate"
+    },
+    "mediterranean.lunch.fakes-lentil-soup": {
+      "id": "mediterranean.lunch.fakes-lentil-soup",
+      "name": "Fakes (Greek lentil soup) with wholemeal bread & feta",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Fakes, the everyday Greek brown lentil soup simmered with onion, carrot, garlic, bay and oregano and finished with red wine vinegar.",
+      "family": "lentil-soup",
+      "nutrition": {
+        "kcal": 525,
+        "carbs": 62.0,
+        "fibre": 13.0,
+        "protein": 30.0,
+        "satFat": 5.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 large bowl fakes (brown lentil soup) with a splash of red wine vinegar",
+        "1 slice wholemeal bread",
+        "30 g feta, crumbled over",
+        "Salad leaves with lemon"
+      ],
+      "ingredients": [
+        {
+          "item": "brown lentils",
+          "qty": 75.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tomato paste",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bay leaf",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "red wine vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "feta",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        },
+        {
+          "item": "salad leaves (mixed)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the lentils and bring to the boil in 3 cups water; drain, then return to the pot with fresh water to cover by 3 cm.",
+        "Add the diced onion, carrot, sliced garlic, tomato paste, bay leaf and oregano; simmer uncovered 30 minutes until the lentils are soft and the soup is thick.",
+        "Season with salt and pepper, stir in the olive oil and red wine vinegar and simmer 2 minutes more.",
+        "Dress the salad leaves with lemon juice.",
+        "Serve the soup with the feta crumbled over, the bread and the salad. Packs well in a thermos; carry the feta separately."
+      ],
+      "swaps": [
+        {
+          "for": "feta",
+          "use": "olives",
+          "note": "20 g, for a dairy-free plate"
+        }
+      ],
+      "source": "Adapted from the traditional Greek fakes"
+    },
+    "mediterranean.lunch.nicoise": {
+      "id": "mediterranean.lunch.nicoise",
+      "name": "Salade Niçoise with tuna, egg & wholemeal pita",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Salade Niçoise, the composed salad of tuna, egg, green beans, tomato and olives from Nice on the Mediterranean coast of France.",
+      "family": "nicoise",
+      "nutrition": {
+        "kcal": 515,
+        "carbs": 51.0,
+        "fibre": 12.0,
+        "protein": 39.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: Niçoise salad of canned tuna, 1 boiled egg, french beans, boiled potato, cherry tomatoes and olives on cos lettuce",
+        "1 wholemeal pita"
+      ],
+      "ingredients": [
+        {
+          "item": "tuna (canned in springwater)",
+          "qty": 95.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 95.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "french beans",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "potato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "olives",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "capers",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "red wine vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the potato in its skin until tender (about 15 minutes); boil the egg in the same pot for 9 minutes, then cool both.",
+        "Blanch the trimmed french beans 3 minutes in salted water and refresh in cold water.",
+        "Whisk the olive oil, vinegar, crushed garlic, capers, salt and pepper into a dressing.",
+        "Tear the cos lettuce onto the plate; arrange the drained tuna, sliced potato, beans, halved cherry tomatoes, red onion slivers, olives and the halved egg on top.",
+        "Spoon over the dressing, scatter parsley and serve with the pita. For a lunchbox keep the dressing in a small pot."
+      ],
+      "swaps": [
+        {
+          "for": "potato",
+          "use": "cannellini beans",
+          "note": "30 g dry, cooked"
+        }
+      ],
+      "source": "Adapted from the traditional salade Niçoise"
+    },
+    "mediterranean.lunch.ratatouille-chickpeas": {
+      "id": "mediterranean.lunch.ratatouille-chickpeas",
+      "name": "Ratatouille with chickpeas, baked egg & brown rice",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "ratatouille",
+      "nutrition": {
+        "kcal": 550,
+        "carbs": 63.0,
+        "fibre": 14.0,
+        "protein": 24.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 large bowl ratatouille (eggplant, zucchini, capsicum, onion, tomato, basil) with chickpeas and 1 baked egg",
+        "1/2 cup brown rice",
+        "15 g feta crumbled over"
+      ],
+      "ingredients": [
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "brinjal (eggplant)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "canned tomatoes",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 400.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "basil",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dried thyme",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "feta",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the soaked chickpeas until tender (or use the week's batch). Boil the brown rice in plenty of water 30 minutes and drain.",
+        "Heat the olive oil and soften the diced onion and garlic; add the diced eggplant, zucchini and capsicum and cook 10 minutes, stirring.",
+        "Add the canned tomatoes, thyme, salt and pepper and the chickpeas; simmer 15 minutes until thick.",
+        "Make a hollow, crack in the egg, cover and cook 5-6 minutes until the white is set.",
+        "Scatter basil and feta over; serve with the rice. For a lunchbox hard-boil the egg instead and pack it whole."
+      ],
+      "swaps": [
+        {
+          "for": "white chickpeas (chana)",
+          "use": "cannellini beans"
+        },
+        {
+          "for": "eggs",
+          "use": "feta",
+          "note": "15 g more feta instead of the egg"
+        }
+      ],
+      "source": "Adapted from the Provençal ratatouille"
+    },
+    "mediterranean.lunch.salmon-roast-veg-bulgur": {
+      "id": "mediterranean.lunch.salmon-roast-veg-bulgur",
+      "name": "Baked salmon with roasted vegetables & bulgur",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "salmon",
+      "nutrition": {
+        "kcal": 510,
+        "carbs": 42.0,
+        "fibre": 10.0,
+        "protein": 33.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 120 g baked salmon with lemon and dill",
+        "Tray-roasted zucchini, capsicum, red onion and cherry tomatoes with oregano",
+        "3/4 cup bulgur"
+      ],
+      "ingredients": [
+        {
+          "item": "salmon fillet",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dill",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Heat the oven to 200 C. Cut the zucchini, capsicum and red onion into chunks, toss with the cherry tomatoes, olive oil, oregano, sliced garlic, salt and pepper on a tray and roast 15 minutes.",
+        "Season the salmon with salt, pepper and lemon zest; lay it on the tray among the vegetables and roast a further 10-12 minutes until just cooked.",
+        "Meanwhile pour 3/4 cup boiling water over the bulgur with a pinch of salt, cover and stand 15 minutes; fluff.",
+        "Squeeze the lemon over the salmon, scatter dill and serve with the vegetables and bulgur. Cold the next day it is a good lunchbox."
+      ],
+      "swaps": [
+        {
+          "for": "salmon fillet",
+          "use": "firm white fish fillet",
+          "note": "150 g, same timing"
+        }
+      ],
+      "source": "Mediterranean home cooking, tray-bake style"
+    },
+    "mediterranean.lunch.tabbouleh-grilled-fish": {
+      "id": "mediterranean.lunch.tabbouleh-grilled-fish",
+      "name": "Bulgur tabbouleh with grilled fish & pine nuts",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Tabbouleh, the eastern Mediterranean bulgur salad heavy with parsley, tomato, lemon and olive oil, served here with grilled fish.",
+      "family": "bulgur-salad",
+      "nutrition": {
+        "kcal": 510,
+        "carbs": 48.0,
+        "fibre": 12.0,
+        "protein": 38.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g grilled white fish with lemon, garlic and oregano",
+        "Tabbouleh of bulgur, parsley, tomato, cucumber and red onion",
+        "10 g toasted pine nuts over the salad"
+      ],
+      "ingredients": [
+        {
+          "item": "firm white fish fillet",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "parsley",
+          "qty": 0.3,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "pine nuts",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.75,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Pour 1 cup boiling water over the bulgur with a pinch of salt, cover and stand 15 minutes, then fluff and cool.",
+        "Finely chop the parsley, dice the tomato and cucumber and sliver the red onion; fold into the bulgur with the olive oil, juice of half the lemon, salt and pepper.",
+        "Toast the pine nuts in a dry pan 2 minutes until golden.",
+        "Rub the fish with crushed garlic, oregano, salt, pepper and the remaining lemon; grill or pan-sear 3-4 minutes a side.",
+        "Plate the tabbouleh with the pine nuts over and the fish alongside. Packs cold; the fish is good at room temperature."
+      ],
+      "swaps": [
+        {
+          "for": "firm white fish fillet",
+          "use": "salmon fillet",
+          "note": "120 g"
+        }
+      ],
+      "source": "Adapted from the traditional tabbouleh"
+    },
+    "mediterranean.snack.almonds-and-orange": {
+      "id": "mediterranean.snack.almonds-and-orange",
+      "name": "Almonds and an orange, black coffee",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "quick",
+        "no-cook"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 3,
+      "cookMinutes": 3,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "almonds",
+      "nutrition": {
+        "kcal": 176,
+        "carbs": 14.0,
+        "fibre": 5.0,
+        "protein": 5.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "20 g natural almonds (about 15)",
+        "1 orange, segmented",
+        "Black coffee (unsweetened)"
+      ],
+      "ingredients": [
+        {
+          "item": "almonds",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "orange",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "coffee powder",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Count out the almonds into a small bowl; toast 2 minutes in a dry pan if you like them warm.",
+        "Peel and segment the orange.",
+        "Make a small black coffee; no sugar, a splash of milk at most."
+      ],
+      "swaps": [],
+      "source": "Adapted from the Spanish merienda of nuts and fruit"
+    },
+    "mediterranean.snack.cherry-tomatoes-boiled-egg": {
+      "id": "mediterranean.snack.cherry-tomatoes-boiled-egg",
+      "name": "Cherry tomatoes with a boiled egg and oregano, green tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 3,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "tomatoes",
+      "nutrition": {
+        "kcal": 160,
+        "carbs": 11.0,
+        "fibre": 3.0,
+        "protein": 9.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "1 boiled egg, halved, with cherry tomatoes, oregano, pepper and a thread of olive oil",
+        "Half a slice of wholemeal toast",
+        "Green tea (unsweetened)"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the egg 9 minutes, cool under the tap, peel and halve.",
+        "Halve the cherry tomatoes, toss with the oregano, salt, pepper and olive oil; toast the half slice of bread.",
+        "Steep the green tea bag 2-3 minutes in hot water and serve everything together."
+      ],
+      "swaps": [],
+      "source": "Adapted from the Greek village plate of egg and tomato"
+    },
+    "mediterranean.snack.olives-feta-cucumber": {
+      "id": "mediterranean.snack.olives-feta-cucumber",
+      "name": "Olives, feta and cucumber meze plate, black tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick",
+        "no-cook"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 5,
+      "cookMinutes": 3,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Elies kai feta, the small Greek meze plate of olives, a sliver of feta and raw cucumber and tomato.",
+      "family": "olives",
+      "nutrition": {
+        "kcal": 148,
+        "carbs": 7.0,
+        "fibre": 4.0,
+        "protein": 5.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Small plate of olives, a sliver of feta, cucumber and cherry tomatoes with oregano and a few almonds",
+        "Black tea (unsweetened)"
+      ],
+      "ingredients": [
+        {
+          "item": "olives",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "feta",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "almonds",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Slice the cucumber thickly and halve the cherry tomatoes; arrange on a small plate with the olives and the sliver of feta.",
+        "Squeeze the lemon over, dust with oregano and add the almonds.",
+        "Brew the tea leaves in a cup of boiling water 3 minutes, strain; no sugar."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Greek meze plate"
+    },
+    "mediterranean.snack.pita-triangles-hummus": {
+      "id": "mediterranean.snack.pita-triangles-hummus",
+      "name": "Toasted wholemeal pita triangles with hummus, green tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 8,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "hummus",
+      "nutrition": {
+        "kcal": 161,
+        "carbs": 21.0,
+        "fibre": 5.0,
+        "protein": 7.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Half a wholemeal pita, dry-toasted and cut into triangles",
+        "2 tablespoons hummus (chickpeas, tahini, lemon, garlic) dusted with paprika",
+        "Green tea (unsweetened)"
+      ],
+      "ingredients": [
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tahini",
+          "qty": 0.25,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "paprika",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Use chickpeas soaked and boiled earlier in the week (15 g dry gives about 40 g cooked); blend or mash them with the tahini, lemon juice, garlic, salt and a spoon of water to a smooth hummus.",
+        "Toast the half pita in a dry pan or toaster until crisp, cut into triangles.",
+        "Dust the hummus with paprika; steep the green tea bag 2-3 minutes in hot water and serve."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional hummus bi tahini"
+    },
+    "mediterranean.snack.roasted-paprika-chickpeas": {
+      "id": "mediterranean.snack.roasted-paprika-chickpeas",
+      "name": "Roasted chickpeas with paprika and oregano, green tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Garbanzos tostados, the crunchy paprika-roasted chickpeas served as a tapa in Spain and, with oregano, as a Greek meze.",
+      "family": "chickpeas",
+      "nutrition": {
+        "kcal": 130,
+        "carbs": 13.0,
+        "fibre": 5.0,
+        "protein": 6.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Small handful of crunchy roasted chickpeas with smoked paprika and oregano",
+        "Green tea (unsweetened)"
+      ],
+      "ingredients": [
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "dried oregano",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Use chickpeas soaked and boiled earlier in the week (30 g dry gives about 75 g cooked); pat them completely dry on a towel.",
+        "Toss with the olive oil, paprika, oregano and salt.",
+        "Spread on a tray and roast at 220 C for 15 minutes (or 10 minutes in an air fryer), shaking once, until crunchy; cool 2 minutes so they crisp.",
+        "Steep the green tea bag 2-3 minutes in hot water and serve with the warm chickpeas."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional garbanzos tostados"
+    },
+    "mediterranean.snack.tzatziki-with-veg-sticks": {
+      "id": "mediterranean.snack.tzatziki-with-veg-sticks",
+      "name": "Tzatziki with carrot and capsicum sticks, green tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick",
+        "no-cook"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 3,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Tzatziki, the Greek dip of strained yoghurt, grated cucumber, garlic and dill.",
+      "family": "tzatziki",
+      "nutrition": {
+        "kcal": 137,
+        "carbs": 15.0,
+        "fibre": 3.0,
+        "protein": 8.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Small bowl of tzatziki (yoghurt, cucumber, dill, garlic)",
+        "Carrot and capsicum sticks for dipping",
+        "Green tea (unsweetened)"
+      ],
+      "ingredients": [
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "dill",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Grate the cucumber, salt it and squeeze out the water in your fist.",
+        "Stir the cucumber into the yoghurt with the crushed garlic, chopped dill, lemon juice and olive oil.",
+        "Cut the carrot and capsicum into sticks.",
+        "Steep the green tea bag 2-3 minutes in hot (not boiling) water; serve with the dip and sticks."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional tzatziki"
+    },
+    "mediterranean.snack.yoghurt-cinnamon-walnuts": {
+      "id": "mediterranean.snack.yoghurt-cinnamon-walnuts",
+      "name": "Yoghurt with cinnamon, walnuts and berries, black tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "mediterranean",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick",
+        "no-cook"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 5,
+      "cookMinutes": 3,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "yoghurt",
+      "nutrition": {
+        "kcal": 159,
+        "carbs": 12.0,
+        "fibre": 2.0,
+        "protein": 8.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Small bowl of yoghurt with grated cinnamon, broken walnuts and a spoon of berries",
+        "Black tea (unsweetened)"
+      ],
+      "ingredients": [
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "walnuts",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "mixed berries (frozen)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cinnamon stick",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Thaw the berries a few minutes (or 20 seconds in the microwave).",
+        "Spoon the yoghurt into a bowl, grate the cinnamon stick over it and add the berries and broken walnuts; no honey.",
+        "Brew the tea leaves 3 minutes in a cup of boiling water, strain."
+      ],
+      "swaps": [],
+      "source": "Adapted from the Greek yoghurt-and-walnut dessert, unsweetened"
+    }
+  }
+}
