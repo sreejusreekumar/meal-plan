@@ -1,0 +1,812 @@
+{
+  "week": "2026-W46",
+  "servings": 4.59,
+  "buy": [
+    {
+      "item": "banana",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Oats with Yoghurt, Banana, Walnuts & Black Sesame"
+      ]
+    },
+    {
+      "item": "bok choy",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Grilled Salmon with Daikon & Brown Rice"
+      ]
+    },
+    {
+      "item": "brinjal (eggplant)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "cabbage",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice"
+      ]
+    },
+    {
+      "item": "carrot",
+      "qty": 23.0,
+      "exact": 22.95,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Boiled Egg with Soy & Wasabi, Green Tea",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Iri Dofu with Brown Rice",
+        "Daikon & Carrot Quick Pickle with Walnuts"
+      ]
+    },
+    {
+      "item": "cucumber",
+      "qty": 18.0,
+      "exact": 17.21,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Boiled Egg with Soy & Wasabi, Green Tea",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    },
+    {
+      "item": "daikon radish",
+      "qty": 10.0,
+      "exact": 9.64,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+        "Daikon & Carrot Quick Pickle with Walnuts"
+      ]
+    },
+    {
+      "item": "french beans",
+      "qty": 1600.0,
+      "exact": 1560.6,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    },
+    {
+      "item": "garlic",
+      "qty": 50.0,
+      "exact": 18.36,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono"
+      ]
+    },
+    {
+      "item": "ginger",
+      "qty": 175.0,
+      "exact": 156.06,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Daikon & Carrot Quick Pickle with Walnuts",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "lemon",
+      "qty": 6.0,
+      "exact": 5.74,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    },
+    {
+      "item": "napa cabbage (wombok)",
+      "qty": 800.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice"
+      ]
+    },
+    {
+      "item": "onion",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice"
+      ]
+    },
+    {
+      "item": "potato",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice"
+      ]
+    },
+    {
+      "item": "shiitake mushrooms",
+      "qty": 1550.0,
+      "exact": 1514.7,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+        "Miso Soup Cup with Tofu & Barley Tea",
+        "Iri Dofu with Brown Rice"
+      ]
+    },
+    {
+      "item": "spinach",
+      "qty": 20.0,
+      "exact": 19.51,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+        "Salmon Onigiri with Miso Soup",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "spring onion",
+      "qty": 13.0,
+      "exact": 12.85,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Miso Soup Cup with Tofu & Barley Tea",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Salmon Onigiri with Miso Soup",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Iri Dofu with Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    },
+    {
+      "item": "sweet potato",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup"
+      ]
+    },
+    {
+      "item": "firm white fish fillet",
+      "qty": 600.0,
+      "exact": 596.7,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    },
+    {
+      "item": "mackerel (ayala)",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "pc",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice"
+      ]
+    },
+    {
+      "item": "prawns (chemmeen)",
+      "qty": 450.0,
+      "exact": 413.1,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice"
+      ]
+    },
+    {
+      "item": "salmon fillet",
+      "qty": 2100.0,
+      "exact": 2065.5,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Salmon Onigiri with Miso Soup",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice"
+      ]
+    },
+    {
+      "item": "chicken breast",
+      "qty": 600.0,
+      "exact": 550.8,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono"
+      ]
+    },
+    {
+      "item": "chicken thigh (boneless)",
+      "qty": 800.0,
+      "exact": 780.3,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice"
+      ]
+    },
+    {
+      "item": "lean beef strips",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice"
+      ]
+    },
+    {
+      "item": "eggs",
+      "qty": 36.0,
+      "exact": 32.13,
+      "unit": "pc",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Boiled Egg with Soy & Wasabi, Green Tea",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Iri Dofu with Brown Rice"
+      ]
+    },
+    {
+      "item": "low-fat yoghurt (curd)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Oats with Yoghurt, Banana, Walnuts & Black Sesame"
+      ]
+    },
+    {
+      "item": "tofu (firm)",
+      "qty": 3300.0,
+      "exact": 3258.9,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Miso Soup Cup with Tofu & Barley Tea",
+        "Iri Dofu with Brown Rice",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "almonds",
+      "qty": 100.0,
+      "exact": 91.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Roasted Nori with Almonds & Green Tea"
+      ]
+    },
+    {
+      "item": "brown rice",
+      "qty": 4000.0,
+      "exact": 3993.3,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Salmon Onigiri with Miso Soup",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Iri Dofu with Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "rolled oats",
+      "qty": 200.0,
+      "exact": 160.65,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Oats with Yoghurt, Banana, Walnuts & Black Sesame"
+      ]
+    },
+    {
+      "item": "soba noodles",
+      "qty": 300.0,
+      "exact": 275.4,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce"
+      ]
+    },
+    {
+      "item": "walnuts",
+      "qty": 150.0,
+      "exact": 137.7,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Oats with Yoghurt, Banana, Walnuts & Black Sesame",
+        "Daikon & Carrot Quick Pickle with Walnuts"
+      ]
+    },
+    {
+      "item": "nori sheets",
+      "qty": 33.0,
+      "exact": 32.13,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Boiled Egg with Soy & Wasabi, Green Tea",
+        "Roasted Nori with Almonds & Green Tea",
+        "Salmon Onigiri with Miso Soup"
+      ]
+    },
+    {
+      "item": "edamame (frozen)",
+      "qty": 2500.0,
+      "exact": 2432.7,
+      "unit": "g",
+      "aisle": "frozen",
+      "staple": false,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Edamame with Sea Salt & Green Tea",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Iri Dofu with Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    }
+  ],
+  "pantry": [
+    {
+      "item": "bonito flakes",
+      "qty": 150.0,
+      "exact": 123.93,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Miso Soup Cup with Tofu & Barley Tea",
+        "Salmon Onigiri with Miso Soup",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "green tea bags",
+      "qty": 46.0,
+      "exact": 45.9,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Boiled Egg with Soy & Wasabi, Green Tea",
+        "Oats with Yoghurt, Banana, Walnuts & Black Sesame",
+        "Edamame with Sea Salt & Green Tea",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Roasted Nori with Almonds & Green Tea",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Salmon Onigiri with Miso Soup",
+        "Iri Dofu with Brown Rice"
+      ]
+    },
+    {
+      "item": "kombu",
+      "qty": 150.0,
+      "exact": 105.57,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Miso Soup Cup with Tofu & Barley Tea",
+        "Salmon Onigiri with Miso Soup",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    },
+    {
+      "item": "mirin",
+      "qty": 28.0,
+      "exact": 27.54,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Iri Dofu with Brown Rice",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "miso paste",
+      "qty": 41.5,
+      "exact": 41.31,
+      "unit": "tbsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+        "Miso Soup Cup with Tofu & Barley Tea",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Salmon Onigiri with Miso Soup",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "rice bran oil",
+      "qty": 18.5,
+      "exact": 18.36,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    },
+    {
+      "item": "rice vinegar",
+      "qty": 41.5,
+      "exact": 41.31,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+        "Daikon & Carrot Quick Pickle with Walnuts"
+      ]
+    },
+    {
+      "item": "roasted barley tea bags",
+      "qty": 19.0,
+      "exact": 18.36,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Miso Soup Cup with Tofu & Barley Tea",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Daikon & Carrot Quick Pickle with Walnuts"
+      ]
+    },
+    {
+      "item": "salt",
+      "qty": 21.0,
+      "exact": 20.88,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Oats with Yoghurt, Banana, Walnuts & Black Sesame",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Edamame with Sea Salt & Green Tea",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Roasted Nori with Almonds & Green Tea",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Salmon Onigiri with Miso Soup",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+        "Daikon & Carrot Quick Pickle with Walnuts"
+      ]
+    },
+    {
+      "item": "sesame oil",
+      "qty": 21.0,
+      "exact": 20.65,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Roasted Nori with Almonds & Green Tea",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Iri Dofu with Brown Rice",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "sesame seeds",
+      "qty": 80.5,
+      "exact": 80.33,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Oats with Yoghurt, Banana, Walnuts & Black Sesame",
+        "Edamame with Sea Salt & Green Tea",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Salmon Onigiri with Miso Soup",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+        "Daikon & Carrot Quick Pickle with Walnuts",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "soy sauce (low-sodium)",
+      "qty": 133.5,
+      "exact": 133.11,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+        "Edamame & Egg Soy Bowl on Brown Rice",
+        "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+        "Boiled Egg with Soy & Wasabi, Green Tea",
+        "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+        "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+        "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Iri Dofu with Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+        "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice"
+      ]
+    },
+    {
+      "item": "wakame (dried)",
+      "qty": 150.0,
+      "exact": 100.98,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Saba Shioyaki Breakfast Set",
+        "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+        "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+        "Grilled Salmon with Daikon & Brown Rice",
+        "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+        "Miso Soup Cup with Tofu & Barley Tea",
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+        "Salmon Onigiri with Miso Soup",
+        "Cucumber Sunomono with Boiled Egg & Barley Tea",
+        "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+        "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)"
+      ]
+    },
+    {
+      "item": "wasabi",
+      "qty": 2.5,
+      "exact": 2.29,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+        "Boiled Egg with Soy & Wasabi, Green Tea"
+      ]
+    },
+    {
+      "item": "chilli flakes",
+      "qty": 1.5,
+      "exact": 1.15,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice"
+      ]
+    }
+  ]
+}

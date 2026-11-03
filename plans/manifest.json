@@ -1,7 +1,7 @@
 {
-  "version": "daa926f1e450",
-  "current": "2026-W44",
-  "next": "2026-W45",
+  "version": "a1d312eb4ff8",
+  "current": "2026-W45",
+  "next": "2026-W46",
   "weeks": [
     {
       "week": "2026-W43",
@@ -26,6 +26,14 @@
         "mediterranean"
       ],
       "file": "2026-W45.json"
+    },
+    {
+      "week": "2026-W46",
+      "startDate": "2026-11-09",
+      "cuisines": [
+        "japanese"
+      ],
+      "file": "2026-W46.json"
     }
   ]
 }

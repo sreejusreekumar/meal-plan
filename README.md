@@ -16,28 +16,44 @@ uv run mealplan --help
 Python 3.12 managed by [uv](https://docs.astral.sh/uv/). No other runtime is needed; the page is
 plain HTML/CSS/JS with no build tooling.
 
-## Weekly runbook (by hand)
+## Generating a week and refreshing the deployed page
+
+The site (https://sreejusreekumar.github.io/meal-plan/) is a static page built from the files in
+this repo. GitHub computes nothing: whatever `index.html` is on `main` is what every device shows.
+Publishing a week is therefore four steps.
 
 ```
-uv run mealplan plan --cuisine kerala --week next      # or omit --cuisine to follow config/rotation.yaml
-uv run mealplan show --week next
-uv run mealplan build                                  # regenerates index.html + plans/manifest.json
-git add -A && git commit -m "Plan 2026-W45 (Kerala)" && git push
+uv run mealplan plan --week next            # 1. plans/<week>.json (cuisine from config/rotation.yaml, or --cuisine thai)
+uv run mealplan shop --week next --todo     # 2. shopping/<week>.md + .json, and the Weekly Basket list in To Do
+uv run mealplan build                       # 3. bakes current + next week into index.html, writes plans/manifest.json
+git add -A && git commit -m "Plan 2026-W45" && git push   # 4. GitHub Pages redeploys within about a minute
 ```
 
-Don't like the week? `mealplan plan --week next --salt 1 --force`. The salt is recorded in the plan
-file, so the result is still reproducible.
+Or all of 1–3 in one go: `uv run mealplan weekly --week next --todo`, then commit and push.
 
-```
-uv run mealplan shop --week next                        # shopping/<week>.md + .json, grouped by aisle
-```
+**How the kitchen tablet refreshes.** The open page fetches `plans/manifest.json` every 15 minutes,
+and whenever it is brought back to the foreground. The manifest carries a version hash of all plan
+files; when it differs from the hash baked into the page, the page reloads itself. So after a push
+the new week appears on its own within 15 minutes, with no one touching the device. To see it
+immediately, pull the page down to refresh or press reload.
 
-The page's **Shopping** tab shows the same list with tick boxes (per device) and a copy button.
-Tap any meal card on the page for the recipe: ingredients scaled to the household, method, swaps.
-Deep links: `#shopping` opens the list, `#day-2026-10-19` opens a day, `#recipe-lunch` opens the
-selected day's lunch recipe. Signature dishes of a cuisine carry a badge and a one-line note.
-Microsoft To Do push (`--todo`, into a dedicated "Weekly Basket" list) arrives in phase 3;
-Saturday automation in phase 4.
+**Checks before you push.** `uv run mealplan validate` checks config, packs and every plan;
+`uv run mealplan build --check` fails if `index.html` is older than the plans (CI runs the same
+check, so a forgotten build fails the build on GitHub rather than silently publishing a stale page).
+
+**Changing your mind about a week.** `uv run mealplan plan --week next --salt 1 --force` rerolls it;
+the salt is recorded in the plan file, so the result is still reproducible. Then shop, build, commit,
+push again: the To Do push replaces the planner's tasks, and the page reloads.
+
+**If the page does not update.** In order: `git status` (did the plan and `index.html` get committed?),
+`git log origin/main -1` (did the push land?), the repo's Actions tab (did the Pages deployment run?),
+then a hard reload on the device. The footer of the page shows the plan week and the version hash,
+which should match `plans/manifest.json` on `main`.
+
+**On the page.** The **Shopping** tab shows the list with tick boxes (per device) and a copy button.
+Tap any meal card for the recipe: ingredients scaled to the household, method, swaps. Deep links:
+`#shopping` opens the list, `#day-2026-10-19` opens a day, `#recipe-lunch` opens the selected day's
+lunch recipe. Signature dishes of a cuisine carry a badge and a one-line note.
 
 ## Saturday automation
 

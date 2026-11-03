@@ -1,0 +1,1059 @@
+{
+  "week": "2026-W45",
+  "servings": 4.59,
+  "buy": [
+    {
+      "item": "basil",
+      "qty": 1.0,
+      "exact": 0.46,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ratatouille with chickpeas, baked egg & brown rice"
+      ]
+    },
+    {
+      "item": "brinjal (eggplant)",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ratatouille with chickpeas, baked egg & brown rice"
+      ]
+    },
+    {
+      "item": "capsicum",
+      "qty": 20.0,
+      "exact": 19.51,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Brown-rice paella with prawns, squid & capsicum",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "carrot",
+      "qty": 7.0,
+      "exact": 6.88,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Fasolada (white bean stew) with wholemeal bread & feta"
+      ]
+    },
+    {
+      "item": "celery",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fasolada (white bean stew) with wholemeal bread & feta"
+      ]
+    },
+    {
+      "item": "cherry tomatoes",
+      "qty": 3900.0,
+      "exact": 3855.6,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Cherry tomatoes with a boiled egg and oregano, green tea",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Olives, feta and cucumber meze plate, black tea",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked"
+      ]
+    },
+    {
+      "item": "cos lettuce",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita"
+      ]
+    },
+    {
+      "item": "cucumber",
+      "qty": 11.0,
+      "exact": 10.33,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Olives, feta and cucumber meze plate, black tea",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread"
+      ]
+    },
+    {
+      "item": "dill",
+      "qty": 3.0,
+      "exact": 2.75,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked"
+      ]
+    },
+    {
+      "item": "fennel bulb",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked salmon with fennel & orange salad and bulgur"
+      ]
+    },
+    {
+      "item": "french beans",
+      "qty": 600.0,
+      "exact": 596.7,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Brown-rice paella with prawns, squid & capsicum"
+      ]
+    },
+    {
+      "item": "garlic",
+      "qty": 300.0,
+      "exact": 284.58,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Toasted wholemeal pita triangles with hummus, green tea",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Brown-rice paella with prawns, squid & capsicum",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "kale",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Whole grilled mackerel with lemon, oregano & horta greens"
+      ]
+    },
+    {
+      "item": "lemon",
+      "qty": 22.0,
+      "exact": 21.8,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Toasted wholemeal pita triangles with hummus, green tea",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Olives, feta and cucumber meze plate, black tea",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked",
+        "Brown-rice paella with prawns, squid & capsicum"
+      ]
+    },
+    {
+      "item": "mushrooms",
+      "qty": 250.0,
+      "exact": 229.5,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "onion",
+      "qty": 15.0,
+      "exact": 14.92,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Greek omelette with spinach, olives and feta",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked",
+        "Brown-rice paella with prawns, squid & capsicum",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "orange",
+      "qty": 12.0,
+      "exact": 11.47,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Greek omelette with spinach, olives and feta",
+        "Overnight oats with yoghurt, orange and almonds",
+        "Almonds and an orange, black coffee"
+      ]
+    },
+    {
+      "item": "parsley",
+      "qty": 6.0,
+      "exact": 5.28,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Brown-rice paella with prawns, squid & capsicum"
+      ]
+    },
+    {
+      "item": "potato",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Salade Niçoise with tuna, egg & wholemeal pita"
+      ]
+    },
+    {
+      "item": "red onion",
+      "qty": 11.0,
+      "exact": 10.33,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread"
+      ]
+    },
+    {
+      "item": "salad leaves (mixed)",
+      "qty": 1300.0,
+      "exact": 1285.2,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "spinach",
+      "qty": 7.0,
+      "exact": 6.88,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Greek omelette with spinach, olives and feta",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked"
+      ]
+    },
+    {
+      "item": "tomato",
+      "qty": 23.0,
+      "exact": 22.95,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Greek omelette with spinach, olives and feta",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Brown-rice paella with prawns, squid & capsicum"
+      ]
+    },
+    {
+      "item": "zucchini",
+      "qty": 12.0,
+      "exact": 11.47,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked salmon with roasted vegetables & bulgur",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli"
+      ]
+    },
+    {
+      "item": "firm white fish fillet",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Bulgur tabbouleh with grilled fish & pine nuts"
+      ]
+    },
+    {
+      "item": "mackerel (ayala)",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Whole grilled mackerel with lemon, oregano & horta greens"
+      ]
+    },
+    {
+      "item": "prawns (chemmeen)",
+      "qty": 1100.0,
+      "exact": 1055.7,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Brown-rice paella with prawns, squid & capsicum"
+      ]
+    },
+    {
+      "item": "salmon fillet",
+      "qty": 1150.0,
+      "exact": 1101.6,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Baked salmon with roasted vegetables & bulgur"
+      ]
+    },
+    {
+      "item": "squid",
+      "qty": 400.0,
+      "exact": 367.2,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Brown-rice paella with prawns, squid & capsicum"
+      ]
+    },
+    {
+      "item": "chicken breast",
+      "qty": 600.0,
+      "exact": 550.8,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Grilled chicken with roasted capsicum & wholemeal couscous"
+      ]
+    },
+    {
+      "item": "chicken thigh (boneless)",
+      "qty": 1300.0,
+      "exact": 1285.2,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "eggs",
+      "qty": 60.0,
+      "exact": 50.49,
+      "unit": "pc",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Cherry tomatoes with a boiled egg and oregano, green tea",
+        "Greek omelette with spinach, olives and feta",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked"
+      ]
+    },
+    {
+      "item": "feta",
+      "qty": 700.0,
+      "exact": 642.6,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Greek omelette with spinach, olives and feta",
+        "Olives, feta and cucumber meze plate, black tea",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked"
+      ]
+    },
+    {
+      "item": "low-fat milk",
+      "qty": 500.0,
+      "exact": 229.5,
+      "unit": "ml",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Overnight oats with yoghurt, orange and almonds"
+      ]
+    },
+    {
+      "item": "low-fat yoghurt (curd)",
+      "qty": 3700.0,
+      "exact": 3626.1,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Greek yoghurt bowl with walnuts, berries and cinnamon",
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Overnight oats with yoghurt, orange and almonds",
+        "Yoghurt with cinnamon, walnuts and berries, black tea"
+      ]
+    },
+    {
+      "item": "parmesan",
+      "qty": 50.0,
+      "exact": 22.95,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "almonds",
+      "qty": 250.0,
+      "exact": 206.55,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Olives, feta and cucumber meze plate, black tea",
+        "Overnight oats with yoghurt, orange and almonds",
+        "Almonds and an orange, black coffee"
+      ]
+    },
+    {
+      "item": "besan (chickpea flour)",
+      "qty": 300.0,
+      "exact": 229.5,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt"
+      ]
+    },
+    {
+      "item": "brown lentils",
+      "qty": 400.0,
+      "exact": 344.25,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta"
+      ]
+    },
+    {
+      "item": "brown rice",
+      "qty": 500.0,
+      "exact": 413.1,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Brown-rice paella with prawns, squid & capsicum"
+      ]
+    },
+    {
+      "item": "bulgur wheat",
+      "qty": 900.0,
+      "exact": 895.05,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts"
+      ]
+    },
+    {
+      "item": "cannellini beans",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Smashed cannellini beans on wholemeal toast with a fried egg"
+      ]
+    },
+    {
+      "item": "pine nuts",
+      "qty": 100.0,
+      "exact": 91.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli"
+      ]
+    },
+    {
+      "item": "rolled oats",
+      "qty": 300.0,
+      "exact": 298.35,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Greek yoghurt bowl with walnuts, berries and cinnamon",
+        "Overnight oats with yoghurt, orange and almonds"
+      ]
+    },
+    {
+      "item": "walnuts",
+      "qty": 150.0,
+      "exact": 114.75,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Greek yoghurt bowl with walnuts, berries and cinnamon",
+        "Yoghurt with cinnamon, walnuts and berries, black tea"
+      ]
+    },
+    {
+      "item": "white chickpeas (chana)",
+      "qty": 600.0,
+      "exact": 550.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Toasted wholemeal pita triangles with hummus, green tea",
+        "Roasted chickpeas with paprika and oregano, green tea",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Ratatouille with chickpeas, baked egg & brown rice"
+      ]
+    },
+    {
+      "item": "wholemeal bread",
+      "qty": 32.0,
+      "exact": 25.24,
+      "unit": "pc",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Cherry tomatoes with a boiled egg and oregano, green tea",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Greek omelette with spinach, olives and feta",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread"
+      ]
+    },
+    {
+      "item": "wholemeal couscous",
+      "qty": 300.0,
+      "exact": 252.45,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Grilled chicken with roasted capsicum & wholemeal couscous"
+      ]
+    },
+    {
+      "item": "wholemeal pasta",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "wholemeal pita",
+      "qty": 24.0,
+      "exact": 20.65,
+      "unit": "pc",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Toasted wholemeal pita triangles with hummus, green tea",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked"
+      ]
+    },
+    {
+      "item": "canned tomatoes",
+      "qty": 2000.0,
+      "exact": 1606.5,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "olives",
+      "qty": 600.0,
+      "exact": 550.8,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Greek omelette with spinach, olives and feta",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Olives, feta and cucumber meze plate, black tea",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "tuna (canned in springwater)",
+      "qty": 475.0,
+      "exact": 436.05,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Salade Niçoise with tuna, egg & wholemeal pita"
+      ]
+    },
+    {
+      "item": "mixed berries (frozen)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "frozen",
+      "staple": false,
+      "recipes": [
+        "Greek yoghurt bowl with walnuts, berries and cinnamon",
+        "Yoghurt with cinnamon, walnuts and berries, black tea"
+      ]
+    }
+  ],
+  "pantry": [
+    {
+      "item": "rosemary",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "sprig",
+      "aisle": "produce",
+      "staple": true,
+      "recipes": [
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "balsamic vinegar",
+      "qty": 9.5,
+      "exact": 9.18,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "black tea leaves",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Olives, feta and cucumber meze plate, black tea",
+        "Overnight oats with yoghurt, orange and almonds",
+        "Yoghurt with cinnamon, walnuts and berries, black tea"
+      ]
+    },
+    {
+      "item": "capers",
+      "qty": 9.5,
+      "exact": 9.18,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli"
+      ]
+    },
+    {
+      "item": "coffee powder",
+      "qty": 9.5,
+      "exact": 9.18,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Greek yoghurt bowl with walnuts, berries and cinnamon",
+        "Almonds and an orange, black coffee"
+      ]
+    },
+    {
+      "item": "extra virgin olive oil",
+      "qty": 94.5,
+      "exact": 94.1,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Cherry tomatoes with a boiled egg and oregano, green tea",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Greek omelette with spinach, olives and feta",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Roasted chickpeas with paprika and oregano, green tea",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked",
+        "Brown-rice paella with prawns, squid & capsicum",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "green tea bags",
+      "qty": 19.0,
+      "exact": 18.36,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Cherry tomatoes with a boiled egg and oregano, green tea",
+        "Toasted wholemeal pita triangles with hummus, green tea",
+        "Roasted chickpeas with paprika and oregano, green tea"
+      ]
+    },
+    {
+      "item": "red wine vinegar",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread"
+      ]
+    },
+    {
+      "item": "salt",
+      "qty": 47.5,
+      "exact": 47.28,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Tzatziki with carrot and capsicum sticks, green tea",
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Cherry tomatoes with a boiled egg and oregano, green tea",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Greek omelette with spinach, olives and feta",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Toasted wholemeal pita triangles with hummus, green tea",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Roasted chickpeas with paprika and oregano, green tea",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked",
+        "Brown-rice paella with prawns, squid & capsicum",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "tahini",
+      "qty": 1.5,
+      "exact": 1.15,
+      "unit": "tbsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Toasted wholemeal pita triangles with hummus, green tea"
+      ]
+    },
+    {
+      "item": "tomato paste",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Fasolada (white bean stew) with wholemeal bread & feta"
+      ]
+    },
+    {
+      "item": "bay leaf",
+      "qty": 10.0,
+      "exact": 9.18,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Fasolada (white bean stew) with wholemeal bread & feta"
+      ]
+    },
+    {
+      "item": "black pepper",
+      "qty": 19.0,
+      "exact": 18.82,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Baked salmon with fennel & orange salad and bulgur",
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Salade Niçoise with tuna, egg & wholemeal pita",
+        "Cherry tomatoes with a boiled egg and oregano, green tea",
+        "Fasolada (white bean stew) with wholemeal bread & feta",
+        "Greek omelette with spinach, olives and feta",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Ratatouille with chickpeas, baked egg & brown rice",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli",
+        "Spanakopita-style spinach and feta wholemeal pita pocket, baked",
+        "Brown-rice paella with prawns, squid & capsicum",
+        "Chicken cacciatore with a small portion of wholemeal pasta"
+      ]
+    },
+    {
+      "item": "chilli flakes",
+      "qty": 3.5,
+      "exact": 3.44,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Smashed cannellini beans on wholemeal toast with a fried egg",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita",
+        "Prawn & zucchini wholemeal spaghetti with garlic, lemon & chilli"
+      ]
+    },
+    {
+      "item": "cinnamon stick",
+      "qty": 4.0,
+      "exact": 3.44,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Greek yoghurt bowl with walnuts, berries and cinnamon",
+        "Overnight oats with yoghurt, orange and almonds",
+        "Yoghurt with cinnamon, walnuts and berries, black tea"
+      ]
+    },
+    {
+      "item": "dried oregano",
+      "qty": 24.5,
+      "exact": 24.1,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Fakes (Greek lentil soup) with wholemeal bread & feta",
+        "Cherry tomatoes with a boiled egg and oregano, green tea",
+        "Greek omelette with spinach, olives and feta",
+        "Baked salmon with roasted vegetables & bulgur",
+        "Chicken souvlaki with tzatziki, salad & wholemeal pita",
+        "Olives, feta and cucumber meze plate, black tea",
+        "Whole grilled mackerel with lemon, oregano & horta greens",
+        "Bulgur tabbouleh with grilled fish & pine nuts",
+        "Roasted chickpeas with paprika and oregano, green tea",
+        "Spinach & feta omelette with chickpea salad and wholemeal bread",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita"
+      ]
+    },
+    {
+      "item": "dried thyme",
+      "qty": 6.0,
+      "exact": 5.74,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Socca (chickpea pancake) with salad leaves, feta and yoghurt",
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Ratatouille with chickpeas, baked egg & brown rice"
+      ]
+    },
+    {
+      "item": "paprika",
+      "qty": 5.5,
+      "exact": 5.05,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Toasted wholemeal pita triangles with hummus, green tea",
+        "Roasted chickpeas with paprika and oregano, green tea",
+        "Eggs in spicy tomato, Spanish-Greek style, with wholemeal pita"
+      ]
+    },
+    {
+      "item": "smoked paprika",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Grilled chicken with roasted capsicum & wholemeal couscous",
+        "Brown-rice paella with prawns, squid & capsicum"
+      ]
+    }
+  ]
+}

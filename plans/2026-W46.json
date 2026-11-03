@@ -1,0 +1,3872 @@
+{
+  "week": "2026-W46",
+  "startDate": "2026-11-09",
+  "cuisines": [
+    "japanese"
+  ],
+  "packVersions": {
+    "japanese": 1
+  },
+  "seed": "japanese:2026-W46:japanese=1:0",
+  "salt": 0,
+  "generatedAt": "2026-11-03T11:00:17+11:00",
+  "generator": "0.1.0",
+  "days": [
+    {
+      "date": "2026-11-09",
+      "dow": "Mon",
+      "cuisine": "japanese",
+      "meals": {
+        "breakfast": [
+          "japanese.breakfast.saba-shioyaki-set"
+        ],
+        "lunch": [
+          "japanese.lunch.zaru-soba-tofu"
+        ],
+        "snack": [
+          "japanese.snack.hiyayakko-tofu"
+        ],
+        "dinner": [
+          "japanese.dinner.agedashi-tofu"
+        ]
+      },
+      "totals": {
+        "kcal": 1506.0,
+        "carbs": 142.0,
+        "fibre": 28.0,
+        "protein": 95.0,
+        "satFat": 9.8,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "dow": "Tue",
+      "cuisine": "japanese",
+      "meals": {
+        "breakfast": [
+          "japanese.breakfast.edamame-egg-soy-bowl"
+        ],
+        "lunch": [
+          "japanese.lunch.salmon-edamame-bowl"
+        ],
+        "snack": [
+          "japanese.snack.boiled-egg-soy-wasabi"
+        ],
+        "dinner": [
+          "japanese.dinner.yosenabe"
+        ]
+      },
+      "totals": {
+        "kcal": 1513.0,
+        "carbs": 151.0,
+        "fibre": 29.0,
+        "protein": 101.0,
+        "satFat": 10.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "dow": "Wed",
+      "cuisine": "japanese",
+      "meals": {
+        "breakfast": [
+          "japanese.breakfast.oats-banana-walnuts"
+        ],
+        "lunch": [
+          "japanese.lunch.chicken-teriyaki"
+        ],
+        "snack": [
+          "japanese.snack.edamame-sea-salt"
+        ],
+        "dinner": [
+          "japanese.dinner.chawanmushi"
+        ]
+      },
+      "totals": {
+        "kcal": 1478.0,
+        "carbs": 157.0,
+        "fibre": 32.0,
+        "protein": 101.0,
+        "satFat": 9.7,
+        "sugar": 2.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "dow": "Thu",
+      "cuisine": "japanese",
+      "meals": {
+        "breakfast": [
+          "japanese.breakfast.grilled-salmon-daikon-rice"
+        ],
+        "lunch": [
+          "japanese.lunch.salmon-teriyaki"
+        ],
+        "snack": [
+          "japanese.snack.roasted-nori-almonds"
+        ],
+        "dinner": [
+          "japanese.dinner.yakitori"
+        ]
+      },
+      "totals": {
+        "kcal": 1552.0,
+        "carbs": 144.0,
+        "fibre": 29.0,
+        "protein": 101.0,
+        "satFat": 10.2,
+        "sugar": 4.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "dow": "Fri",
+      "cuisine": "japanese",
+      "meals": {
+        "breakfast": [
+          "japanese.breakfast.sweet-potato-egg-miso-soup"
+        ],
+        "lunch": [
+          "japanese.lunch.saba-misoni"
+        ],
+        "snack": [
+          "japanese.snack.miso-soup-cup"
+        ],
+        "dinner": [
+          "japanese.dinner.kinpira-mackerel"
+        ]
+      },
+      "totals": {
+        "kcal": 1507.0,
+        "carbs": 139.0,
+        "fibre": 29.0,
+        "protein": 94.0,
+        "satFat": 11.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "dow": "Sat",
+      "cuisine": "japanese",
+      "meals": {
+        "breakfast": [
+          "japanese.breakfast.salmon-onigiri-miso-soup"
+        ],
+        "lunch": [
+          "japanese.lunch.nikujaga"
+        ],
+        "snack": [
+          "japanese.snack.sunomono-boiled-egg"
+        ],
+        "dinner": [
+          "japanese.dinner.grilled-salmon-daikon"
+        ]
+      },
+      "totals": {
+        "kcal": 1520.0,
+        "carbs": 153.0,
+        "fibre": 30.0,
+        "protein": 102.0,
+        "satFat": 10.8,
+        "sugar": 2.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "dow": "Sun",
+      "cuisine": "japanese",
+      "meals": {
+        "breakfast": [
+          "japanese.breakfast.iri-dofu"
+        ],
+        "lunch": [
+          "japanese.lunch.yakizakana-teishoku"
+        ],
+        "snack": [
+          "japanese.snack.daikon-carrot-pickle-walnuts"
+        ],
+        "dinner": [
+          "japanese.dinner.nasu-dengaku"
+        ]
+      },
+      "totals": {
+        "kcal": 1593.0,
+        "carbs": 154.0,
+        "fibre": 34.0,
+        "protein": 95.0,
+        "satFat": 8.9,
+        "sugar": 4.0,
+        "refinedCarbDishes": 0.0
+      }
+    }
+  ],
+  "weekChecks": {
+    "fishLunches": 4,
+    "chicken": 3,
+    "redMeat": 1,
+    "legumeDishes": 8,
+    "eggMains": 4,
+    "treats": 0,
+    "vegDinners": 3,
+    "signatureDishes": 16
+  },
+  "recipes": {
+    "japanese.breakfast.edamame-egg-soy-bowl": {
+      "id": "japanese.breakfast.edamame-egg-soy-bowl",
+      "name": "Edamame & Egg Soy Bowl on Brown Rice",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "edamame-bowl",
+      "nutrition": {
+        "kcal": 372,
+        "carbs": 41.0,
+        "fibre": 7.0,
+        "protein": 19.0,
+        "satFat": 2.4,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: Edamame and a soft-boiled egg on brown rice (45 g uncooked) with ginger-soy and sesame oil",
+        "Cucumber slices, spring onion and shredded nori",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 70.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "nori sheets",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice with 1.5 times its volume of water, about 30 minutes.",
+        "Boil the edamame 4 minutes, drain and pop the beans from the pods. Soft-boil the egg 6.5 minutes, cool and peel.",
+        "Mix the soy, sesame oil and grated ginger for the dressing.",
+        "Pile the edamame on the rice, halve the egg on top, spoon over the dressing and scatter with toasted sesame, sliced cucumber, spring onion and shredded nori.",
+        "Serve with a cup of green tea."
+      ],
+      "swaps": [],
+      "source": "A Japanese-style home breakfast bowl in place of natto gohan"
+    },
+    "japanese.breakfast.grilled-salmon-daikon-rice": {
+      "id": "japanese.breakfast.grilled-salmon-daikon-rice",
+      "name": "Grilled Salmon with Daikon & Brown Rice",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "high-protein"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "salmon",
+      "nutrition": {
+        "kcal": 373,
+        "carbs": 34.0,
+        "fibre": 6.0,
+        "protein": 22.0,
+        "satFat": 2.2,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 80 g grilled salted salmon (shiozake) with grilled shiitake",
+        "Small bowl brown rice (40 g uncooked)",
+        "Grated daikon and wakame with rice vinegar and soy",
+        "Bok choy ohitashi with bonito flakes and sesame",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "salmon fillet",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bok choy",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 1.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice with 1.5 times its volume of water, about 30 minutes.",
+        "Salt the salmon lightly and rest 10 minutes; grill or pan-grill skin side down 5 minutes, turn and give it 3 minutes more, with the whole shiitake alongside.",
+        "Soak the wakame 3 minutes, squeeze, and mix with the grated daikon, rice vinegar and half the soy.",
+        "Blanch the bok choy 1 minute, squeeze, cut into 3 cm pieces and dress with the remaining soy; top with bonito flakes and toasted sesame.",
+        "Serve the salmon and shiitake with the rice, the daikon-wakame, the bok choy, sliced spring onion and a cup of green tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional shiozake breakfast"
+    },
+    "japanese.breakfast.iri-dofu": {
+      "id": "japanese.breakfast.iri-dofu",
+      "name": "Iri Dofu with Brown Rice",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Iri dofu, the Japanese home-style scrambled tofu with carrot, shiitake and egg, seasoned with soy and a little mirin.",
+      "family": "iri-dofu",
+      "nutrition": {
+        "kcal": 388,
+        "carbs": 40.0,
+        "fibre": 6.0,
+        "protein": 22.0,
+        "satFat": 2.6,
+        "sugar": 2.0
+      },
+      "components": [
+        "Primary: 1 bowl iri dofu (tofu scramble with carrot, shiitake, edamame and egg)",
+        "Small bowl brown rice (40 g uncooked)",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mirin",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice with 1.5 times its volume of water, about 30 minutes.",
+        "Press the tofu between paper towels for 5 minutes, then crumble it. Dice the carrot finely and slice the shiitake; thaw the edamame in hot water.",
+        "Heat the sesame oil in a non-stick pan, cook the carrot and shiitake 3 minutes, then add the crumbled tofu and stir over medium-high heat until the moisture cooks off.",
+        "Season with the soy and mirin, add the edamame, then pour the beaten egg over and stir until just set.",
+        "Serve over the rice with sliced spring onion and a cup of green tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional iri dofu"
+    },
+    "japanese.breakfast.oats-banana-walnuts": {
+      "id": "japanese.breakfast.oats-banana-walnuts",
+      "name": "Oats with Yoghurt, Banana, Walnuts & Black Sesame",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "oats",
+      "nutrition": {
+        "kcal": 355,
+        "carbs": 45.0,
+        "fibre": 6.0,
+        "protein": 15.0,
+        "satFat": 2.3,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl rolled oats (35 g) cooked in water, stirred with low-fat yoghurt",
+        "Half a banana, walnuts and toasted black sesame on top",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "rolled oats",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "banana",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "walnuts",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Simmer the oats in 200 ml water with a pinch of salt for 5-6 minutes until thick; cool 2 minutes.",
+        "Toast the sesame seeds in a dry pan 1 minute until they pop; roughly crush.",
+        "Stir the yoghurt through the oats, top with sliced banana, broken walnuts and the sesame.",
+        "Serve with a cup of green tea."
+      ],
+      "swaps": [],
+      "source": "A Western-Japanese home breakfast (yoghurt oats with kuro goma)"
+    },
+    "japanese.breakfast.saba-shioyaki-set": {
+      "id": "japanese.breakfast.saba-shioyaki-set",
+      "name": "Saba Shioyaki Breakfast Set",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "high-protein"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Saba shioyaki teishoku, the classic Japanese breakfast set of grilled salted mackerel with rice, miso soup and a small vegetable side.",
+      "family": "saba-set",
+      "nutrition": {
+        "kcal": 375,
+        "carbs": 36.0,
+        "fibre": 6.0,
+        "protein": 22.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 piece grilled salted mackerel (saba shioyaki) with grated daikon",
+        "Small bowl brown rice (40 g uncooked)",
+        "Miso soup with wakame and spring onion",
+        "Spinach ohitashi with sesame",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "mackerel (ayala)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.1,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the brown rice and cook it with 1.5 times its volume of water (about 30 minutes, or in the rice cooker).",
+        "Make dashi: steep the kombu in 300 ml water, bring almost to the boil, remove the kombu, add the bonito flakes, rest 2 minutes and strain.",
+        "Salt the mackerel lightly on both sides and rest 10 minutes; grill or pan-grill skin side first, 4-5 minutes a side, until the skin blisters.",
+        "Blanch the spinach 40 seconds, squeeze dry, cut into 3 cm lengths and dress with half the soy and 2 tablespoons of dashi; top with toasted sesame.",
+        "Soak the wakame in the remaining dashi for 3 minutes, warm gently and dissolve the miso off the heat; add sliced spring onion.",
+        "Serve the mackerel with grated daikon and the rest of the soy, alongside the rice, soup, spinach and a cup of green tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional saba shioyaki teishoku"
+    },
+    "japanese.breakfast.salmon-onigiri-miso-soup": {
+      "id": "japanese.breakfast.salmon-onigiri-miso-soup",
+      "name": "Salmon Onigiri with Miso Soup",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Sake onigiri, the Japanese rice ball filled with flaked grilled salmon and wrapped in nori, here made with brown rice.",
+      "family": "onigiri",
+      "nutrition": {
+        "kcal": 367,
+        "carbs": 44.0,
+        "fibre": 7.0,
+        "protein": 20.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2 brown-rice onigiri (50 g uncooked) filled with flaked baked salmon, wrapped in nori",
+        "Miso soup with wakame and spinach",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "brown rice",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salmon fillet",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "nori sheets",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spinach",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice with 1.5 times its volume of water until tender and slightly sticky, about 30 minutes; keep warm.",
+        "Salt the salmon and bake or pan-grill 8 minutes; flake with a fork, discarding the skin.",
+        "Make dashi from the kombu and bonito in 300 ml water; strain.",
+        "With wet, lightly salted hands, shape the warm rice into two triangles, pressing a spoon of salmon into the centre of each; roll the edges in toasted sesame and wrap a half sheet of nori around each.",
+        "Soak the wakame in the dashi, add the chopped spinach and warm 1 minute; dissolve the miso off the heat and add spring onion.",
+        "Serve the onigiri with the soup and a cup of green tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional sake onigiri"
+    },
+    "japanese.breakfast.sweet-potato-egg-miso-soup": {
+      "id": "japanese.breakfast.sweet-potato-egg-miso-soup",
+      "name": "Steamed Sweet Potato with Boiled Egg & Miso Soup",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "sweet-potato",
+      "nutrition": {
+        "kcal": 350,
+        "carbs": 31.0,
+        "fibre": 8.0,
+        "protein": 22.0,
+        "satFat": 2.4,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: Half a steamed sweet potato (satsumaimo style) with 1 boiled egg",
+        "Miso soup with tofu, wakame and spring onion",
+        "Edamame with toasted sesame",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "sweet potato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "tofu (firm)",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Scrub the sweet potato and steam the half, skin on, 15-18 minutes until a skewer slides in; cut into thick rounds and sprinkle with a little salt.",
+        "Boil the egg 9 minutes, cool under the tap, peel and halve. Boil the edamame 4 minutes in the same pot.",
+        "Make dashi from the kombu and bonito in 300 ml water; add the cubed tofu and wakame, warm 2 minutes, dissolve the miso off the heat and add spring onion.",
+        "Serve the sweet potato and egg with the soup, the edamame tossed with toasted sesame, and a cup of green tea."
+      ],
+      "swaps": [],
+      "source": "Japanese home breakfast of mushi-imo (steamed sweet potato) with miso soup"
+    },
+    "japanese.dinner.agedashi-tofu": {
+      "id": "japanese.dinner.agedashi-tofu",
+      "name": "Agedashi-Style Tofu in Dashi Sauce with Spinach & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick",
+        "vegetarian"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Agedashi dofu, fried tofu in a hot dashi-soy sauce with grated daikon and ginger, a Japanese izakaya and home classic; here pan-fried in a teaspoon of oil.",
+      "family": "agedashi",
+      "nutrition": {
+        "kcal": 495,
+        "carbs": 45.0,
+        "fibre": 10.0,
+        "protein": 32.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g pan-crisped tofu in dashi-soy sauce with shiitake, grated daikon and ginger",
+        "Spinach ohitashi",
+        "Small bowl brown rice (45 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Press the tofu between paper towels under a plate for 10 minutes and cut into 4 thick blocks.",
+        "Make 150 ml dashi with the kombu and bonito flakes; add the soy and the sliced shiitake and simmer 3 minutes.",
+        "Heat the rice bran oil in a non-stick pan and fry the tofu blocks over medium-high heat 3 minutes a side until golden and crisp-edged.",
+        "Blanch the spinach 30 seconds, squeeze and cut; dress with a spoonful of the dashi sauce.",
+        "Set the tofu in bowls, pour the hot shiitake sauce around, top with grated daikon, grated ginger and spring onion. Serve with the spinach and the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "shiitake mushrooms",
+          "use": "mushrooms",
+          "note": "same timing"
+        }
+      ],
+      "source": "Adapted from the traditional agedashi dofu, pan-fried rather than deep-fried and without mirin"
+    },
+    "japanese.dinner.chawanmushi": {
+      "id": "japanese.dinner.chawanmushi",
+      "name": "Chawanmushi (Savoury Egg Custard with Prawn & Shiitake) with Greens & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "chawanmushi",
+      "nutrition": {
+        "kcal": 494,
+        "carbs": 46.0,
+        "fibre": 12.0,
+        "protein": 37.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2-egg chawanmushi steamed with dashi, prawns and shiitake",
+        "French beans and spinach with sesame",
+        "Edamame, 50 g",
+        "Small bowl brown rice (45 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "prawns (chemmeen)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "french beans",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Make 200 ml dashi with the kombu and bonito flakes and let it cool to warm; season with the soy and salt.",
+        "Beat the eggs gently, stir in the dashi (about 2.5 parts dashi to 1 part egg) and strain through a sieve.",
+        "Put the peeled prawns and sliced shiitake into two cups or ramekins, pour in the egg mixture and cover with foil.",
+        "Steam over gently simmering water 12-15 minutes until just set; a skewer should come out clean. Rest 2 minutes.",
+        "Blanch the french beans and edamame 3 minutes, and the spinach 30 seconds; dress the beans and spinach with toasted sesame. Serve with the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "prawns (chemmeen)",
+          "use": "chicken breast",
+          "note": "40 g diced small"
+        }
+      ],
+      "source": "Adapted from the traditional chawanmushi"
+    },
+    "japanese.dinner.grilled-salmon-daikon": {
+      "id": "japanese.dinner.grilled-salmon-daikon",
+      "name": "Grilled Salmon with Grated Daikon, Miso Soup & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Shake no shioyaki, salt-grilled salmon served with grated daikon, miso soup and rice, the archetypal Japanese home dinner.",
+      "family": "grilled-salmon",
+      "nutrition": {
+        "kcal": 482,
+        "carbs": 43.0,
+        "fibre": 9.0,
+        "protein": 34.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 110 g salt-grilled salmon with grated daikon, lemon and soy",
+        "Miso soup with wakame and spring onion",
+        "Spinach ohitashi with sesame",
+        "Small bowl brown rice (45 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "salmon fillet",
+          "qty": 110.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Salt the salmon on both sides and leave 10 minutes; pat dry.",
+        "Make 200 ml dashi with the kombu and bonito flakes; add the soaked wakame, dissolve the miso in off the boil and finish with sliced spring onion.",
+        "Blanch the spinach 30 seconds, squeeze, cut into lengths and dress with a few drops of the soy and the toasted sesame seeds.",
+        "Grill the salmon skin side up under a hot grill 5 minutes, turn and grill 3 minutes, or pan-grill in a dry non-stick pan.",
+        "Serve with a mound of grated daikon, a lemon wedge and the remaining soy to drizzle; soup and spinach first, rice last."
+      ],
+      "swaps": [
+        {
+          "for": "salmon fillet",
+          "use": "mackerel (ayala)",
+          "note": "1 fish, grill 5 minutes a side"
+        }
+      ],
+      "source": "Adapted from the traditional shake no shioyaki teishoku"
+    },
+    "japanese.dinner.kinpira-mackerel": {
+      "id": "japanese.dinner.kinpira-mackerel",
+      "name": "Grilled Mackerel with Kinpira (Carrot & Daikon Stir-Fry), Miso Soup & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Add the chilli flakes to the kinpira after setting the child's portion aside.",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "kinpira",
+      "nutrition": {
+        "kcal": 495,
+        "carbs": 45.0,
+        "fibre": 9.0,
+        "protein": 30.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 salt-grilled mackerel with lemon",
+        "Kinpira of carrot, daikon and french beans with sesame oil, soy and chilli",
+        "Miso soup with wakame and spring onion",
+        "Small bowl brown rice (40 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "mackerel (ayala)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "french beans",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (40 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Clean and butterfly or fillet the mackerel, salt both sides and leave 10 minutes; pat dry.",
+        "Cut the carrot and daikon into thin matchsticks and the french beans into 3 cm pieces. Heat the sesame oil, stir-fry the vegetables 4 minutes, add the soy and 2 tablespoons water and cook until dry and glossy; finish with the chilli flakes.",
+        "Bring 200 ml water with the soaked wakame to a simmer, dissolve the miso in off the boil and add the spring onion.",
+        "Grill the mackerel skin side up under a hot grill 5 minutes, turn and grill 3-4 minutes until the skin blisters.",
+        "Serve the soup and kinpira first, the fish with a lemon wedge, and the small bowl of rice last."
+      ],
+      "swaps": [
+        {
+          "for": "mackerel (ayala)",
+          "use": "salmon fillet",
+          "note": "110 g, grill 4 minutes a side"
+        }
+      ],
+      "source": "Adapted from the traditional saba shioyaki with kinpira, without the usual sugar and mirin"
+    },
+    "japanese.dinner.nasu-dengaku": {
+      "id": "japanese.dinner.nasu-dengaku",
+      "name": "Nasu Dengaku (Miso-Glazed Eggplant) with Seared Tofu & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "vegetarian"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "dengaku",
+      "nutrition": {
+        "kcal": 498,
+        "carbs": 47.0,
+        "fibre": 12.0,
+        "protein": 30.0,
+        "satFat": 3.0,
+        "sugar": 2.0
+      },
+      "components": [
+        "Primary: 150 g eggplant grilled with miso-mirin glaze and sesame, and 120 g seared tofu",
+        "Spinach ohitashi with bonito",
+        "Small bowl brown rice (45 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "brinjal (eggplant)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mirin",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "tofu (firm)",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Halve the eggplant lengthwise, score the flesh in a diamond pattern, brush with the sesame oil and grill or bake at 220 C for 15 minutes until soft.",
+        "Mix the miso with the mirin and 1 teaspoon water, spread over the eggplant and grill 3 minutes more until bubbling; scatter the sesame seeds.",
+        "Press the tofu, cut into two slabs and sear in the dry non-stick pan (the eggplant's oil is enough) 4 minutes a side; top with grated ginger.",
+        "Blanch the spinach 30 seconds, squeeze, cut and dress with the soy and bonito flakes.",
+        "Serve the spinach first, then the eggplant and tofu, with the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "brinjal (eggplant)",
+          "use": "pumpkin",
+          "note": "150 g slices, bake 20 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional nasu dengaku, with mirin measured and no sugar"
+    },
+    "japanese.dinner.yakitori": {
+      "id": "japanese.dinner.yakitori",
+      "name": "Yakitori (Grilled Chicken & Spring Onion Skewers) with Edamame & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Yakitori, Japanese skewers of chicken and spring onion grilled over charcoal with a soy-mirin tare glaze.",
+      "family": "yakitori",
+      "nutrition": {
+        "kcal": 488,
+        "carbs": 49.0,
+        "fibre": 10.0,
+        "protein": 37.0,
+        "satFat": 3.0,
+        "sugar": 2.0
+      },
+      "components": [
+        "Primary: 120 g chicken and spring onion skewers (negima) with soy-mirin glaze, plus shiitake skewers",
+        "Shredded cabbage with lemon and sesame",
+        "Edamame, 50 g",
+        "Small bowl brown rice (45 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken thigh (boneless)",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mirin",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cabbage",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Trim the chicken thigh of visible fat and cut into 3 cm pieces; cut the spring onion whites into 3 cm lengths. Thread chicken and spring onion alternately on skewers, and the shiitake on a separate skewer.",
+        "Simmer the soy, mirin, grated ginger and 2 tablespoons water for 2 minutes to make a light tare.",
+        "Grill the skewers under a hot grill or on a griddle pan 4 minutes a side with a pinch of salt; brush with the tare in the last 2 minutes and once more off the heat.",
+        "Boil the edamame 4 minutes. Shred the cabbage and toss with lemon juice and toasted sesame seeds.",
+        "Serve the cabbage and edamame first, then the skewers, with the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "chicken thigh (boneless)",
+          "use": "chicken breast",
+          "note": "grill 3 minutes a side"
+        }
+      ],
+      "source": "Adapted from the traditional yakitori negima, with mirin measured and no sugar in the tare"
+    },
+    "japanese.dinner.yosenabe": {
+      "id": "japanese.dinner.yosenabe",
+      "name": "Yosenabe (Chicken, Prawn & Tofu Hot Pot) with Small Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Yosenabe, the Japanese 'gather-everything' hot pot of chicken, seafood, tofu and vegetables simmered in dashi at the table.",
+      "family": "nabe",
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 48.0,
+        "fibre": 10.0,
+        "protein": 39.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: hot pot of chicken (50 g), prawns (50 g) and tofu (60 g) in dashi-soy",
+        "Napa cabbage, shiitake, carrot and daikon from the pot",
+        "Lemon and a drizzle of sesame oil",
+        "Small bowl brown rice (45 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken thigh (boneless)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "prawns (chemmeen)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tofu (firm)",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "napa cabbage (wombok)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "kombu",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Make 600 ml dashi: soak the kombu 15 minutes, bring to a simmer, remove it, add the bonito flakes, rest 2 minutes and strain. Season with the soy.",
+        "Cut the napa cabbage into 4 cm pieces, the carrot and daikon into thin rounds, the tofu into cubes; halve the shiitake. Trim and cube the chicken; peel the prawns.",
+        "Simmer the daikon and carrot in the dashi 5 minutes, add the chicken and cabbage stalks for 5 minutes, then the cabbage leaves, shiitake and tofu for 3 minutes.",
+        "Add the prawns for the final 2 minutes and finish with spring onion, a squeeze of lemon and the sesame oil.",
+        "Eat the vegetables and broth first, then the chicken, prawns and tofu, with the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "prawns (chemmeen)",
+          "use": "firm white fish fillet",
+          "note": "60 g, add 3 minutes before the end"
+        }
+      ],
+      "source": "Adapted from the traditional yosenabe"
+    },
+    "japanese.lunch.chicken-teriyaki": {
+      "id": "japanese.lunch.chicken-teriyaki",
+      "name": "Chicken Teriyaki with Brown Rice & Cucumber Sunomono",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Tori no teriyaki, chicken glazed in soy and mirin, one of the best-known dishes of Japanese home cooking.",
+      "family": "chicken-teriyaki",
+      "nutrition": {
+        "kcal": 526,
+        "carbs": 60.0,
+        "fibre": 10.0,
+        "protein": 40.0,
+        "satFat": 3.0,
+        "sugar": 2.0
+      },
+      "components": [
+        "Primary: 120 g chicken teriyaki (soy, 1 tsp mirin, ginger, garlic; no sugar)",
+        "Cucumber and wakame sunomono (vinegar salad)",
+        "French beans and carrot, blanched, with edamame",
+        "1 small bowl brown rice (60 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken breast",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "french beans",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mirin",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Slice the cucumber thinly, salt lightly and squeeze after 5 minutes; soak the wakame 5 minutes, drain, and toss both with the rice vinegar.",
+        "Blanch the french beans and carrot batons 3 minutes with the edamame; drain.",
+        "Slice the chicken breast into 2 cm strips. Heat the rice bran oil in a non-stick pan and sear the chicken 3 minutes a side until just cooked through.",
+        "Add soy, mirin, grated ginger and garlic with 1 tablespoon water; toss 1 minute until the strips are glazed.",
+        "Box the rice, vegetables and sunomono with the chicken on top."
+      ],
+      "swaps": [
+        {
+          "for": "chicken breast",
+          "use": "chicken thigh (boneless)",
+          "note": "trim visible fat; 1 minute longer"
+        }
+      ],
+      "source": "Adapted from the traditional tori no teriyaki, with mirin measured and no sugar"
+    },
+    "japanese.lunch.nikujaga": {
+      "id": "japanese.lunch.nikujaga",
+      "name": "Nikujaga (Beef, Potato & Onion Stew) with Brown Rice",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "beef",
+      "lean": true,
+      "tags": [],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "nikujaga",
+      "nutrition": {
+        "kcal": 526,
+        "carbs": 60.0,
+        "fibre": 10.0,
+        "protein": 38.0,
+        "satFat": 4.0,
+        "sugar": 2.0
+      },
+      "components": [
+        "Primary: nikujaga of 100 g lean beef strips, potato, onion, carrot and french beans in dashi-soy (1 tsp mirin)",
+        "Spinach ohitashi with sesame",
+        "2/3 bowl brown rice (45 g uncooked; the potato carries the rest)"
+      ],
+      "ingredients": [
+        {
+          "item": "lean beef strips",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "potato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "french beans",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mirin",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Make 250 ml dashi with the kombu and bonito flakes.",
+        "Cut the potato and carrot into 3 cm chunks and the onion into wedges. Heat the oil and brown the beef strips 1 minute, then add the onion and stir 2 minutes.",
+        "Add the potato, carrot, dashi, soy and mirin; cover with a lid resting on the food and simmer 15 minutes until the potato is tender.",
+        "Add the french beans for the last 4 minutes and finish uncovered so the liquid reduces to a few spoonfuls.",
+        "Blanch the spinach 30 seconds, squeeze, cut and toss with the toasted sesame seeds. Box with the rice; nikujaga is a classic bento dish and good at room temperature."
+      ],
+      "swaps": [
+        {
+          "for": "lean beef strips",
+          "use": "pork tenderloin (lean)",
+          "note": "100 g sliced thin, same timing"
+        }
+      ],
+      "source": "Adapted from the traditional nikujaga, with mirin measured and no sugar"
+    },
+    "japanese.lunch.saba-misoni": {
+      "id": "japanese.lunch.saba-misoni",
+      "name": "Saba Misoni (Mackerel in Miso) with Brown Rice & Spinach",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Saba no misoni, mackerel simmered in miso and ginger, a classic of Japanese home cooking and set lunches.",
+      "family": "saba-miso",
+      "nutrition": {
+        "kcal": 541,
+        "carbs": 57.0,
+        "fibre": 9.0,
+        "protein": 32.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 mackerel simmered in miso and ginger with daikon and shiitake",
+        "Spinach ohitashi with soy",
+        "1 small bowl brown rice (60 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "mackerel (ayala)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Clean the mackerel, cut into two steaks and score the skin. Pour boiling water over the pieces for 10 seconds to tame the oiliness, then drain.",
+        "Cut the daikon into 1 cm half-moons; slice the shiitake. Lay them in a wide pan with 200 ml water and julienned ginger and simmer 5 minutes.",
+        "Add the mackerel skin up, cover with a lid resting on the fish and simmer 8 minutes.",
+        "Loosen the miso in a ladle of the cooking liquid, stir it in and simmer uncovered 5 minutes more until the sauce is glossy and coats the fish.",
+        "Blanch the spinach 30 seconds, squeeze, cut and dress with the soy. Serve with the rice; in a lunchbox the misoni is good at room temperature."
+      ],
+      "swaps": [
+        {
+          "for": "mackerel (ayala)",
+          "use": "salmon fillet",
+          "note": "120 g, simmer 6 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional saba no misoni, without sugar or mirin"
+    },
+    "japanese.lunch.salmon-edamame-bowl": {
+      "id": "japanese.lunch.salmon-edamame-bowl",
+      "name": "Grilled Salmon Flake Bowl with Edamame & Cucumber",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick",
+        "no-reheat"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "salmon-bowl",
+      "nutrition": {
+        "kcal": 537,
+        "carbs": 57.0,
+        "fibre": 9.0,
+        "protein": 34.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 100 g grilled salmon, flaked, over 1 small bowl brown rice (60 g uncooked)",
+        "Edamame, cucumber and carrot with pickled-style ginger",
+        "Nori, sesame and soy-vinegar dressing"
+      ],
+      "ingredients": [
+        {
+          "item": "salmon fillet",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "nori sheets",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest) and season while warm with half the rice vinegar.",
+        "Salt the salmon lightly and grill or pan-grill in a dry non-stick pan 4 minutes skin side, 2 minutes flesh side; cool and flake, discarding the skin if you prefer.",
+        "Boil the edamame 4 minutes. Dice the cucumber, cut the carrot into matchsticks and slice the ginger paper-thin, tossing it in the remaining vinegar.",
+        "Mix the soy with 1 teaspoon water for the dressing.",
+        "Build the bowl: rice, then the vegetables and edamame in sections, salmon flakes in the middle, shredded nori and toasted sesame on top; pack the dressing separately."
+      ],
+      "swaps": [
+        {
+          "for": "salmon fillet",
+          "use": "tuna (choora)",
+          "note": "120 g, sear and flake"
+        }
+      ],
+      "source": "Inspired by the Japanese sake flake donburi, built as a lunchbox bowl"
+    },
+    "japanese.lunch.salmon-teriyaki": {
+      "id": "japanese.lunch.salmon-teriyaki",
+      "name": "Salmon Teriyaki with Brown Rice & Carrot Gomae",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Sake no teriyaki, pan-grilled salmon glazed with soy and mirin, a staple of Japanese home cooking and bento boxes.",
+      "family": "salmon-teriyaki",
+      "nutrition": {
+        "kcal": 545,
+        "carbs": 57.0,
+        "fibre": 9.0,
+        "protein": 36.0,
+        "satFat": 4.0,
+        "sugar": 2.0
+      },
+      "components": [
+        "Primary: 110 g salmon teriyaki (soy, 1 tsp mirin, ginger; no sugar)",
+        "Spinach and carrot gomae (sesame dressing)",
+        "Edamame, 40 g",
+        "1 small bowl brown rice (60 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "salmon fillet",
+          "qty": 110.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mirin",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the brown rice, soak 20 minutes, then cook in 1.5 times its volume of water, covered, 35 minutes; rest 10 minutes.",
+        "Blanch the spinach 30 seconds and the carrot matchsticks 2 minutes; squeeze the spinach dry. Toast and crush the sesame seeds, mix with half a teaspoon of soy and toss through the vegetables.",
+        "Boil the edamame 4 minutes in salted water, drain.",
+        "Pat the salmon dry and pan-grill skin side down in a dry non-stick pan 4 minutes, turn and cook 2 minutes more.",
+        "Mix the remaining soy, the mirin and grated ginger with 1 tablespoon water, pour over the salmon and let it bubble and glaze for 1 minute, spooning it over the fish.",
+        "Pack the rice, gomae and edamame in separate corners of the box with the salmon on top; it is good at room temperature."
+      ],
+      "swaps": [
+        {
+          "for": "salmon fillet",
+          "use": "firm white fish fillet",
+          "note": "150 g, glaze 2 minutes longer"
+        }
+      ],
+      "source": "Adapted from the traditional sake no teriyaki, with mirin measured and no sugar"
+    },
+    "japanese.lunch.yakizakana-teishoku": {
+      "id": "japanese.lunch.yakizakana-teishoku",
+      "name": "Yakizakana Teishoku (Grilled Fish Set with Miso Soup)",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Yakizakana teishoku, the Japanese set meal of salt-grilled fish with miso soup, rice, pickles and a vegetable side.",
+      "family": "teishoku",
+      "nutrition": {
+        "kcal": 539,
+        "carbs": 61.0,
+        "fibre": 12.0,
+        "protein": 39.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 130 g salt-grilled white fish with lemon",
+        "Miso soup with wakame and spring onion",
+        "French bean gomaae and edamame",
+        "Quick cucumber and daikon pickles",
+        "1 small bowl brown rice (60 g uncooked)"
+      ],
+      "ingredients": [
+        {
+          "item": "firm white fish fillet",
+          "qty": 130.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "french beans",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (60 g rinsed, 1.5 times water, 35 minutes covered, 10 minutes rest).",
+        "Slice the cucumber and daikon thinly, toss with a pinch of salt and the rice vinegar and leave to pickle 15 minutes.",
+        "Make 200 ml dashi with the kombu and bonito flakes. Add the soaked wakame, loosen the miso into it off the boil and finish with sliced spring onion.",
+        "Blanch the french beans and edamame 3 minutes; toss the beans in toasted crushed sesame and the soy.",
+        "Salt the fish 10 minutes ahead, pat dry, brush with the oil and grill or pan-fry 3-4 minutes a side until the skin crisps. Serve with a lemon wedge.",
+        "Lay out the set: soup and vegetables first, then the fish, then the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "firm white fish fillet",
+          "use": "mackerel (ayala)",
+          "note": "1 fish, grill 5 minutes a side"
+        }
+      ],
+      "source": "Adapted from the traditional yakizakana teishoku"
+    },
+    "japanese.lunch.zaru-soba-tofu": {
+      "id": "japanese.lunch.zaru-soba-tofu",
+      "name": "Cold Soba Salad with Tofu, Cucumber & Dipping Sauce",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick",
+        "no-reheat"
+      ],
+      "spice": "mild",
+      "kidNote": "Leave the wasabi out of the child's dipping sauce.",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Zaru soba, chilled buckwheat noodles served with a dashi-soy dipping sauce (tsuyu), a Japanese summer classic.",
+      "family": "soba",
+      "nutrition": {
+        "kcal": 524,
+        "carbs": 57.0,
+        "fibre": 10.0,
+        "protein": 31.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 60 g soba noodles (dry), chilled, with 100 g seared tofu",
+        "Cucumber, carrot and edamame with nori and sesame",
+        "Dashi-soy dipping sauce (tsuyu) with ginger and wasabi, no sugar"
+      ],
+      "ingredients": [
+        {
+          "item": "soba noodles",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tofu (firm)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "nori sheets",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "wasabi",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Make the dashi: steep the kombu in 150 ml cold water 10 minutes, bring to a simmer, remove the kombu, add the bonito flakes, rest 2 minutes and strain. Stir in the soy, rice vinegar and grated ginger; chill. This is the tsuyu.",
+        "Boil the soba 4-5 minutes, drain, rinse under cold water until cool and drain well.",
+        "Press the tofu in paper towel, cut into 2 cm cubes and sear in the sesame oil until golden on two sides.",
+        "Boil the edamame 4 minutes. Cut the cucumber and carrot into fine matchsticks; slice the spring onion.",
+        "Toss the soba with the vegetables and sesame seeds; top with the tofu, shredded nori and spring onion.",
+        "Pack the tsuyu in a small pot (wasabi on the side) and pour over the noodles when eating; keep the box cool."
+      ],
+      "swaps": [
+        {
+          "for": "tofu (firm)",
+          "use": "eggs",
+          "note": "2 eggs as a thin rolled omelette, sliced"
+        }
+      ],
+      "source": "Adapted from the traditional zaru soba, built into a lunchbox salad"
+    },
+    "japanese.snack.boiled-egg-soy-wasabi": {
+      "id": "japanese.snack.boiled-egg-soy-wasabi",
+      "name": "Boiled Egg with Soy & Wasabi, Green Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 3,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "egg-snack",
+      "nutrition": {
+        "kcal": 104,
+        "carbs": 5.0,
+        "fibre": 3.0,
+        "protein": 9.0,
+        "satFat": 1.6,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 boiled egg with a soy-wasabi dip",
+        "Cucumber and carrot sticks, 1 sheet roasted nori",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wasabi",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "nori sheets",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the egg 9 minutes, cool under the tap, peel and halve.",
+        "Stir the wasabi into the soy for a dip; cut the cucumber and carrot into sticks.",
+        "Toast the nori sheet 20 seconds in a dry pan and cut into strips to wrap around the egg or vegetables.",
+        "Serve with a cup of green tea; leave the wasabi out of the child's dip."
+      ],
+      "swaps": [],
+      "source": "Japanese home snack of yude tamago with wasabi-joyu"
+    },
+    "japanese.snack.daikon-carrot-pickle-walnuts": {
+      "id": "japanese.snack.daikon-carrot-pickle-walnuts",
+      "name": "Daikon & Carrot Quick Pickle with Walnuts",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "pickle",
+      "nutrition": {
+        "kcal": 168,
+        "carbs": 6.0,
+        "fibre": 4.0,
+        "protein": 4.0,
+        "satFat": 1.3,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: Namasu-style daikon and carrot quick pickle with ginger and sesame",
+        "20 g walnuts",
+        "Roasted barley tea (mugicha)"
+      ],
+      "ingredients": [
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "walnuts",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cut the daikon and carrot into thin matchsticks, toss with the salt and rest 10 minutes; squeeze out the water.",
+        "Dress with the rice vinegar and finely grated ginger; scatter with toasted sesame.",
+        "Toast the walnuts in a dry pan 3 minutes.",
+        "Serve the pickle with the walnuts and a glass of barley tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional namasu, without sugar"
+    },
+    "japanese.snack.edamame-sea-salt": {
+      "id": "japanese.snack.edamame-sea-salt",
+      "name": "Edamame with Sea Salt & Green Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 2,
+      "cookMinutes": 6,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Shio edamame, boiled young soybeans in the pod with sea salt, Japan's everyday nibble with tea or beer.",
+      "family": "edamame",
+      "nutrition": {
+        "kcal": 103,
+        "carbs": 6.0,
+        "fibre": 4.0,
+        "protein": 9.0,
+        "satFat": 0.4,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 cup edamame in the pod (80 g) with sea salt and toasted sesame",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "edamame (frozen)",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the edamame pods in salted water 4-5 minutes; drain well.",
+        "Toss with a pinch of salt and the toasted sesame while hot.",
+        "Serve warm with a cup of green tea; squeeze the beans from the pods to eat."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional shio edamame"
+    },
+    "japanese.snack.hiyayakko-tofu": {
+      "id": "japanese.snack.hiyayakko-tofu",
+      "name": "Hiyayakko Tofu with Ginger-Soy & Barley Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 8,
+      "cookMinutes": 0,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Hiyayakko, the Japanese chilled tofu topped with grated ginger, spring onion, bonito flakes and soy.",
+      "family": "tofu-snack",
+      "nutrition": {
+        "kcal": 112,
+        "carbs": 4.0,
+        "fibre": 2.0,
+        "protein": 10.0,
+        "satFat": 0.8,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 80 g chilled tofu cubes with grated ginger, spring onion, bonito flakes and soy",
+        "Cucumber and wakame on the side with sesame",
+        "Roasted barley tea (mugicha)"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 1.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Drain the tofu on paper towel 5 minutes and cut into cubes; soak the wakame 3 minutes and squeeze.",
+        "Top the tofu with finely grated ginger, sliced spring onion and bonito flakes; pour the soy over just before eating.",
+        "Slice the cucumber, toss with the wakame and toasted sesame and set beside the tofu.",
+        "Serve with a glass of barley tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional hiyayakko"
+    },
+    "japanese.snack.miso-soup-cup": {
+      "id": "japanese.snack.miso-soup-cup",
+      "name": "Miso Soup Cup with Tofu & Barley Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "miso-cup",
+      "nutrition": {
+        "kcal": 121,
+        "carbs": 6.0,
+        "fibre": 3.0,
+        "protein": 10.0,
+        "satFat": 0.6,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 cup miso soup with tofu, wakame, shiitake and spring onion",
+        "Roasted barley tea (mugicha)"
+      ],
+      "ingredients": [
+        {
+          "item": "kombu",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bonito flakes",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "miso paste",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "tofu (firm)",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Make dashi: steep the kombu in 250 ml water, bring almost to the boil, remove it, add the bonito flakes, rest 2 minutes and strain.",
+        "Simmer the sliced shiitake in the dashi 3 minutes; add the cubed tofu and wakame for 2 minutes more.",
+        "Off the heat, dissolve the miso through a ladle and add sliced spring onion.",
+        "Serve in a cup with a glass of barley tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the everyday Japanese tofu and wakame miso soup"
+    },
+    "japanese.snack.roasted-nori-almonds": {
+      "id": "japanese.snack.roasted-nori-almonds",
+      "name": "Roasted Nori with Almonds & Green Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 3,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Yaki nori, Japanese roasted seaweed sheets lightly brushed with sesame oil and salt, eaten as a crisp snack.",
+      "family": "nori",
+      "nutrition": {
+        "kcal": 146,
+        "carbs": 4.0,
+        "fibre": 4.0,
+        "protein": 6.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2 sheets roasted nori, cut into crisps, with sesame oil and salt",
+        "20 g almonds",
+        "Green tea"
+      ],
+      "ingredients": [
+        {
+          "item": "nori sheets",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "almonds",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Brush the nori sheets very lightly with the sesame oil and sprinkle with a few grains of salt.",
+        "Toast in a dry pan or under the grill 20-30 seconds a side until crisp and fragrant; cut into squares with scissors.",
+        "Toast the almonds in the same pan 2 minutes.",
+        "Serve the nori crisps and almonds with a cup of green tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional yaki nori"
+    },
+    "japanese.snack.sunomono-boiled-egg": {
+      "id": "japanese.snack.sunomono-boiled-egg",
+      "name": "Cucumber Sunomono with Boiled Egg & Barley Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "japanese",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 8,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Sunomono, the Japanese vinegared cucumber and wakame salad served as a small refreshing side.",
+      "family": "sunomono",
+      "nutrition": {
+        "kcal": 145,
+        "carbs": 6.0,
+        "fibre": 4.0,
+        "protein": 10.0,
+        "satFat": 1.8,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: Cucumber and wakame sunomono with sesame",
+        "1 boiled egg",
+        "A small handful of edamame",
+        "Roasted barley tea (mugicha)"
+      ],
+      "ingredients": [
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wakame (dried)",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "ginger",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the egg 9 minutes; drop the edamame in for the last 4 minutes. Cool both under the tap and peel the egg.",
+        "Slice the cucumber thinly, salt lightly, rest 5 minutes and squeeze out the water. Soak the wakame 3 minutes and squeeze.",
+        "Toss the cucumber and wakame with the rice vinegar, soy, grated ginger and toasted sesame.",
+        "Serve with the halved egg, the edamame and a glass of barley tea (hot or chilled)."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional kyuri no sunomono"
+    }
+  }
+}
