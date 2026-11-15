@@ -1,14 +1,23 @@
 name: Weekly plan
 
-# Saturday morning, Australia/Melbourne. GitHub cron is UTC and has no DST, so two triggers cover
-# AEDT (UTC+11 → Fri 19:00 UTC) and AEST (UTC+10 → Fri 20:00 UTC). Scheduled runs often start
-# hours late, so the guard only checks that it is Saturday in Melbourne (an exact-hour check
-# skipped every run). Both triggers may fire; the second finds the plan already committed and
-# publishes nothing. The manual button (workflow_dispatch) skips the guard.
+# Plans next week on Saturday morning, Australia/Melbourne, and keeps the page fresh after that.
+# GitHub cron is UTC, has no DST, and scheduled runs start hours late or get dropped, so nothing
+# here depends on a run starting at a particular time. Every run is idempotent: it plans the
+# target week only if that plan is missing, rebuilds index.html, and commits only if something
+# changed. The target week comes from the Melbourne date when the run actually starts:
+#   Sat/Sun  -> the week starting the coming Monday (the normal Saturday plan, plus catch-ups)
+#   Mon-Fri  -> the week in progress (rebuilds the page after the Monday rollover, which changes
+#               the manifest's current/next; also plans the week if the whole weekend was missed)
+# The manual button (workflow_dispatch) uses its own inputs instead.
 on:
   schedule:
-    - cron: "0 19 * * 5"
-    - cron: "0 20 * * 5"
+    - cron: "0 19 * * 5"   # Sat 06:00 AEDT
+    - cron: "0 20 * * 5"   # Sat 06:00 AEST
+    - cron: "0 2 * * 6"    # Sat ~midday: catch-up
+    - cron: "0 9 * * 6"    # Sat evening: catch-up
+    - cron: "0 22 * * 6"   # Sun morning: catch-up
+    - cron: "0 14 * * 0"   # Mon ~00:00-01:00: rollover rebuild
+    - cron: "0 20 * * 0"   # Mon morning: rollover rebuild, second chance
   workflow_dispatch:
     inputs:
       week:
@@ -36,30 +45,33 @@ jobs:
   plan:
     runs-on: ubuntu-latest
     steps:
-      - name: Only run on Saturday, Melbourne time (scheduled runs)
-        id: guard
+      - name: Pick the target week from the Melbourne date (scheduled runs)
+        id: target
         if: github.event_name == 'schedule'
         run: |
-          now=$(TZ=Australia/Melbourne date '+%u %H:%M')   # ISO weekday (6 = Saturday) + time
-          echo "melbourne=$now"
-          if [ "${now%% *}" != "6" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+          python3 - <<'PY' | tee -a "$GITHUB_OUTPUT"
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+
+          today = datetime.now(ZoneInfo("Australia/Melbourne")).date()
+          ahead = {6: 2, 7: 1}.get(today.isoweekday(), 0)   # Sat/Sun -> the coming Monday
+          year, week, _ = (today + timedelta(days=ahead)).isocalendar()
+          print(f"melbourne={today:%F}")
+          print(f"week={year}-W{week:02d}")
+          PY
 
       - uses: actions/checkout@v4
-        if: steps.guard.outputs.skip != 'true'
 
       - uses: astral-sh/setup-uv@v5
-        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: "3.12"
 
       - name: Install
-        if: steps.guard.outputs.skip != 'true'
         run: uv sync --all-groups
 
       - name: Plan, shop, build
-        if: steps.guard.outputs.skip != 'true'
         env:
-          WEEK: ${{ github.event.inputs.week || 'next' }}
+          WEEK: ${{ steps.target.outputs.week || github.event.inputs.week || 'next' }}
           CUISINE: ${{ github.event.inputs.cuisine }}
           SALT: ${{ github.event.inputs.salt || '0' }}
           FORCE: ${{ github.event.inputs.force }}
@@ -72,7 +84,6 @@ jobs:
           uv run mealplan build --check
 
       - name: Commit and push
-        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "meal-plan bot"
           git config user.email "actions@users.noreply.github.com"
@@ -81,6 +92,7 @@ jobs:
             echo "Nothing new to publish."
             exit 0
           fi
-          week=$(python3 -c 'import json;print(json.load(open("plans/manifest.json"))["next"] or json.load(open("plans/manifest.json"))["current"])')
-          git commit -m "Plan ${week} [auto]"
+          new=$(git diff --cached --name-only --diff-filter=A -- plans | sed -n 's|^plans/\(.*\)\.json$|\1|p' | paste -sd' ' -)
+          if [ -n "$new" ]; then msg="Plan ${new} [auto]"; else msg="Rebuild page [auto]"; fi
+          git commit -m "$msg"
           git push
