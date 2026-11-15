@@ -1,0 +1,4331 @@
+{
+  "week": "2026-W47",
+  "startDate": "2026-11-16",
+  "cuisines": [
+    "middle-eastern"
+  ],
+  "packVersions": {
+    "middle-eastern": 1
+  },
+  "seed": "middle-eastern:2026-W47:middle-eastern=1:0",
+  "salt": 0,
+  "generatedAt": "2026-11-15T19:18:40+11:00",
+  "generator": "0.1.0",
+  "days": [
+    {
+      "date": "2026-11-16",
+      "dow": "Mon",
+      "cuisine": "middle-eastern",
+      "meals": {
+        "breakfast": [
+          "middle-eastern.breakfast.ful-medames"
+        ],
+        "lunch": [
+          "middle-eastern.lunch.baked-falafel"
+        ],
+        "snack": [
+          "middle-eastern.snack.hummus-with-veg-sticks"
+        ],
+        "dinner": [
+          "middle-eastern.dinner.halloumi-vegetable-skewers"
+        ]
+      },
+      "totals": {
+        "kcal": 1535.0,
+        "carbs": 160.0,
+        "fibre": 45.0,
+        "protein": 75.0,
+        "satFat": 13.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "dow": "Tue",
+      "cuisine": "middle-eastern",
+      "meals": {
+        "breakfast": [
+          "middle-eastern.breakfast.kuku-sabzi"
+        ],
+        "lunch": [
+          "middle-eastern.lunch.prawn-chickpea-salad"
+        ],
+        "snack": [
+          "middle-eastern.snack.labneh-olives-zaatar"
+        ],
+        "dinner": [
+          "middle-eastern.dinner.eggplant-fatteh"
+        ]
+      },
+      "totals": {
+        "kcal": 1585.0,
+        "carbs": 145.0,
+        "fibre": 36.0,
+        "protein": 93.0,
+        "satFat": 11.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "dow": "Wed",
+      "cuisine": "middle-eastern",
+      "meals": {
+        "breakfast": [
+          "middle-eastern.breakfast.persian-cardamom-oats"
+        ],
+        "lunch": [
+          "middle-eastern.lunch.chermoula-fish-couscous"
+        ],
+        "snack": [
+          "middle-eastern.snack.cucumber-mint-egg-salad"
+        ],
+        "dinner": [
+          "middle-eastern.dinner.chicken-tagine"
+        ]
+      },
+      "totals": {
+        "kcal": 1545.0,
+        "carbs": 157.0,
+        "fibre": 27.0,
+        "protein": 98.0,
+        "satFat": 10.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "dow": "Thu",
+      "cuisine": "middle-eastern",
+      "meals": {
+        "breakfast": [
+          "middle-eastern.breakfast.ispanakli-yumurta"
+        ],
+        "lunch": [
+          "middle-eastern.lunch.shish-tawook"
+        ],
+        "snack": [
+          "middle-eastern.snack.ayran-with-almonds"
+        ],
+        "dinner": [
+          "middle-eastern.dinner.zaatar-fish-fattoush"
+        ]
+      },
+      "totals": {
+        "kcal": 1515.0,
+        "carbs": 136.0,
+        "fibre": 32.0,
+        "protein": 104.0,
+        "satFat": 9.5,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "dow": "Fri",
+      "cuisine": "middle-eastern",
+      "meals": {
+        "breakfast": [
+          "middle-eastern.breakfast.lentil-bulgur-bowl"
+        ],
+        "lunch": [
+          "middle-eastern.lunch.mujadara"
+        ],
+        "snack": [
+          "middle-eastern.snack.pumpkin-seeds-pomegranate"
+        ],
+        "dinner": [
+          "middle-eastern.dinner.beef-kofta"
+        ]
+      },
+      "totals": {
+        "kcal": 1510.0,
+        "carbs": 159.0,
+        "fibre": 38.0,
+        "protein": 95.0,
+        "satFat": 11.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "dow": "Sat",
+      "cuisine": "middle-eastern",
+      "meals": {
+        "breakfast": [
+          "middle-eastern.breakfast.zaatar-manakish"
+        ],
+        "lunch": [
+          "middle-eastern.lunch.grilled-sardines-sumac-onion"
+        ],
+        "snack": [
+          "middle-eastern.snack.muhammara"
+        ],
+        "dinner": [
+          "middle-eastern.dinner.chicken-freekeh-soup"
+        ]
+      },
+      "totals": {
+        "kcal": 1565.0,
+        "carbs": 145.0,
+        "fibre": 35.0,
+        "protein": 95.0,
+        "satFat": 10.5,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "dow": "Sun",
+      "cuisine": "middle-eastern",
+      "meals": {
+        "breakfast": [
+          "middle-eastern.breakfast.hummus-plate"
+        ],
+        "lunch": [
+          "middle-eastern.lunch.fattoush-with-grilled-fish"
+        ],
+        "snack": [
+          "middle-eastern.snack.pistachios-date-cardamom-tea"
+        ],
+        "dinner": [
+          "middle-eastern.dinner.lentil-kibbeh"
+        ]
+      },
+      "totals": {
+        "kcal": 1560.0,
+        "carbs": 168.0,
+        "fibre": 40.0,
+        "protein": 86.0,
+        "satFat": 8.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    }
+  ],
+  "weekChecks": {
+    "fishLunches": 4,
+    "chicken": 3,
+    "redMeat": 1,
+    "legumeDishes": 8,
+    "eggMains": 4,
+    "treats": 1,
+    "vegDinners": 3,
+    "signatureDishes": 13
+  },
+  "recipes": {
+    "middle-eastern.breakfast.ful-medames": {
+      "id": "middle-eastern.breakfast.ful-medames",
+      "name": "Ful medames with boiled egg & half pita",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Ful medames, slow-stewed fava beans mashed with cumin, lemon, garlic and olive oil, the national breakfast of Egypt eaten across the Levant.",
+      "family": "ful",
+      "nutrition": {
+        "kcal": 355,
+        "carbs": 33.0,
+        "fibre": 10.0,
+        "protein": 20.0,
+        "satFat": 2.5,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl ful medames (fava beans with cumin, lemon and olive oil)",
+        "1 hard-boiled egg, halved",
+        "Half a wholemeal pita with diced tomato and parsley",
+        "Black tea or Turkish-style unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "fava beans (canned)",
+          "qty": 200.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 400.0
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Put the egg on to boil (10 minutes), then cool, peel and halve.",
+        "Tip the fava beans with their liquid into a small pan, add the crushed garlic and toasted, crushed cumin seeds and simmer 8 minutes until the liquid thickens.",
+        "Mash roughly with a fork, season with salt and lemon juice and finish with the olive oil.",
+        "Serve with the diced tomato, chopped parsley, the egg and half a warmed wholemeal pita; brew the tea unsweetened."
+      ],
+      "swaps": [
+        {
+          "for": "fava beans (canned)",
+          "use": "white chickpeas (chana)",
+          "note": "40 g dry, soaked and boiled, same seasoning"
+        }
+      ],
+      "source": "Adapted from the traditional Egyptian and Levantine ful medames"
+    },
+    "middle-eastern.breakfast.hummus-plate": {
+      "id": "middle-eastern.breakfast.hummus-plate",
+      "name": "Hummus plate with boiled egg, cucumber & half pita",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 45,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "hummus",
+      "nutrition": {
+        "kcal": 380,
+        "carbs": 33.0,
+        "fibre": 10.0,
+        "protein": 18.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 small bowl hummus with a drizzle of olive oil and paprika",
+        "1 hard-boiled egg",
+        "Cucumber and tomato wedges",
+        "Half a wholemeal pita",
+        "Black tea or Turkish-style unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tahini",
+          "qty": 0.5,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "parsley",
+          "qty": 0.05,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the chickpeas overnight and boil until very soft, about 45 minutes (cook a week's batch at once and keep it in the fridge).",
+        "Blend the hot chickpeas with tahini, lemon juice, garlic, crushed cumin, salt and a little cooking water until smooth.",
+        "Boil the egg for 10 minutes, cool, peel and halve.",
+        "Spoon the hummus onto the plate, drizzle with olive oil and paprika, scatter parsley, and serve with the egg, cucumber, tomato and half a warmed pita; brew the tea unsweetened."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Levantine hummus bi tahini"
+    },
+    "middle-eastern.breakfast.ispanakli-yumurta": {
+      "id": "middle-eastern.breakfast.ispanakli-yumurta",
+      "name": "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Leave the chilli flakes off the child's egg; sprinkle on the adults' plates at the table.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "spinach-eggs",
+      "nutrition": {
+        "kcal": 360,
+        "carbs": 37.0,
+        "fibre": 8.0,
+        "protein": 21.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 egg baked on a bed of garlicky sauteed spinach and onion",
+        "100 g low-fat yoghurt with garlic",
+        "1 wholemeal pita",
+        "Black tea or Turkish-style unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Heat the olive oil and soften the sliced onion for 5 minutes, then add half the crushed garlic and the chopped spinach and cook until wilted and the pan is dry.",
+        "Season with salt and pepper, make a hollow, crack in the egg, cover and cook on low 4-5 minutes until the white is set.",
+        "Stir the rest of the garlic into the yoghurt.",
+        "Sprinkle chilli flakes over the egg and serve with the garlic yoghurt, a warmed pita and unsweetened tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Turkish ispanakli yumurta"
+    },
+    "middle-eastern.breakfast.kuku-sabzi": {
+      "id": "middle-eastern.breakfast.kuku-sabzi",
+      "name": "Persian kuku sabzi with yoghurt",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Kuku sabzi, the Persian herb frittata packed with parsley, coriander and dill, eaten at Nowruz and for everyday breakfasts in Iran.",
+      "family": "kuku",
+      "nutrition": {
+        "kcal": 385,
+        "carbs": 32.0,
+        "fibre": 8.0,
+        "protein": 22.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 wedge kuku sabzi (herb and spinach frittata, 2 eggs)",
+        "50 g low-fat yoghurt",
+        "1 wholemeal pita",
+        "Black tea or Turkish-style unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "parsley",
+          "qty": 0.3,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.3,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dill",
+          "qty": 0.2,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spinach",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Wash and finely chop the parsley, coriander, dill, spring onion and spinach; squeeze out excess water.",
+        "Beat the eggs with salt, pepper and crushed garlic, then fold in the herbs so the mix is mostly green with just enough egg to bind.",
+        "Heat the olive oil in a small non-stick pan, pour in the mix, cover and cook on low for 8 minutes until set underneath.",
+        "Flip (or finish under the grill) for 3 minutes, cut into wedges and serve with the yoghurt, a warmed pita and unsweetened tea."
+      ],
+      "swaps": [
+        {
+          "for": "dill",
+          "use": "mint leaves",
+          "note": "smaller amount"
+        }
+      ],
+      "source": "Adapted from the traditional Persian kuku sabzi"
+    },
+    "middle-eastern.breakfast.lentil-bulgur-bowl": {
+      "id": "middle-eastern.breakfast.lentil-bulgur-bowl",
+      "name": "Lentil & bulgur breakfast bowl with a fried egg",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "lentil-bowl",
+      "nutrition": {
+        "kcal": 365,
+        "carbs": 37.0,
+        "fibre": 10.0,
+        "protein": 22.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl brown lentils and bulgur with cumin, baharat and wilted spinach",
+        "1 egg fried in 1 tsp olive oil",
+        "50 g low-fat yoghurt and lemon",
+        "Black tea or Turkish-style unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "brown lentils",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 25.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "baharat",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "spinach",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the lentils and simmer in water for 15 minutes, then add the bulgur and salt, cover and cook 10 more minutes until both are tender and the water is absorbed.",
+        "Meanwhile, dry-toast the sliced onion in a non-stick pan with a splash of water until browned, then stir in the crushed cumin and baharat and the chopped spinach to wilt.",
+        "Fold the onion and spinach into the lentils and bulgur, season with pepper and lemon juice.",
+        "Fry the egg in the olive oil, sit it on top, add the yoghurt and parsley and serve with unsweetened tea."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Levantine mujadara"
+    },
+    "middle-eastern.breakfast.persian-cardamom-oats": {
+      "id": "middle-eastern.breakfast.persian-cardamom-oats",
+      "name": "Persian-style cardamom oats with pistachios & a date",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "oats",
+      "nutrition": {
+        "kcal": 375,
+        "carbs": 44.0,
+        "fibre": 6.0,
+        "protein": 16.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl oats cooked in low-fat milk with cardamom and cinnamon",
+        "20 g pistachios and 1 chopped date on top (the date is the only sweetness, natural sugar)",
+        "Black tea or Turkish-style unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "rolled oats",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "low-fat milk",
+          "qty": 200.0,
+          "unit": "ml",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 500.0
+        },
+        {
+          "item": "cardamom pods",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cinnamon stick",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "pistachios",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "dates",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Crush the cardamom pods and warm them with the cinnamon in the milk.",
+        "Stir in the oats and a pinch of salt and simmer 6-8 minutes, stirring, until thick and creamy.",
+        "Fish out the cinnamon and cardamom husks, top with the chopped date and roughly chopped pistachios.",
+        "Brew the tea unsweetened; no sugar or honey on the oats, the date is the sweetness."
+      ],
+      "swaps": [
+        {
+          "for": "pistachios",
+          "use": "walnuts",
+          "note": "same weight"
+        }
+      ],
+      "source": "Inspired by Persian sheer berenj flavours, made with oats"
+    },
+    "middle-eastern.breakfast.zaatar-manakish": {
+      "id": "middle-eastern.breakfast.zaatar-manakish",
+      "name": "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "egg",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekend",
+      "treat": true,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Manakish zaatar, flatbread spread with zaatar and olive oil and baked, the Lebanese and Palestinian bakery breakfast.",
+      "family": "manakish",
+      "nutrition": {
+        "kcal": 385,
+        "carbs": 36.0,
+        "fibre": 7.0,
+        "protein": 18.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 wholemeal pita baked with zaatar and olive oil (manakish)",
+        "1 hard-boiled egg",
+        "Tomato, cucumber, olives and mint",
+        "100 g low-fat yoghurt",
+        "Black tea or Turkish-style unsweetened tea"
+      ],
+      "ingredients": [
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "zaatar",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "olives",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.05,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Heat the oven to 220C and put the egg on to boil for 10 minutes.",
+        "Mix the zaatar with the olive oil into a loose paste and spread it over the pita, leaving a thin rim.",
+        "Bake the manakish 6-8 minutes until the edges crisp and the zaatar smells toasty.",
+        "Cut into wedges and serve with the halved egg, tomato wedges, cucumber, olives, mint and the yoghurt; brew the tea unsweetened."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Lebanese manakish zaatar"
+    },
+    "middle-eastern.dinner.beef-kofta": {
+      "id": "middle-eastern.dinner.beef-kofta",
+      "name": "Baked beef kofta with salad, minted yoghurt & pita",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "beef",
+      "lean": true,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Kofta, the Levantine and Turkish spiced minced-meat skewers, made here with lean beef and baked rather than grilled over fat.",
+      "family": "kofta",
+      "nutrition": {
+        "kcal": 485,
+        "carbs": 47.0,
+        "fibre": 10.0,
+        "protein": 39.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 3 baked lean beef kofta with parsley and baharat",
+        "Chopped salad with sumac",
+        "Minted yoghurt (50 g)",
+        "1 wholemeal pita"
+      ],
+      "ingredients": [
+        {
+          "item": "lean beef mince",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "baharat",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "allspice",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sumac",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "dried mint",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Grate the onion and squeeze out the juice; knead into the beef mince with most of the chopped parsley, crushed garlic, baharat, allspice, crushed cumin, pepper and salt until sticky.",
+        "Shape into 3 oval kofta around skewers (or free-form); rest 10 minutes in the fridge.",
+        "Bake on a lined tray at 220C for 15-18 minutes, turning once, until browned and cooked through.",
+        "Chop the tomato, cucumber, red onion, lettuce, mint and remaining parsley; dress with lemon juice, sumac and a pinch of salt. Stir the dried mint into the yoghurt.",
+        "Warm the pita and serve the kofta on the salad with the yoghurt alongside."
+      ],
+      "swaps": [
+        {
+          "for": "lean beef mince",
+          "use": "chicken mince",
+          "note": "add 1 tsp olive oil to the mix so it stays moist"
+        }
+      ],
+      "source": "Adapted from the traditional Levantine kofta"
+    },
+    "middle-eastern.dinner.chicken-freekeh-soup": {
+      "id": "middle-eastern.dinner.chicken-freekeh-soup",
+      "name": "Chicken & freekeh soup with herbs (shorbat freekeh)",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 45,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "freekeh-soup",
+      "nutrition": {
+        "kcal": 465,
+        "carbs": 48.0,
+        "fibre": 12.0,
+        "protein": 35.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 large bowl chicken, freekeh and vegetable soup with cinnamon and cardamom",
+        "Parsley, coriander and lemon to finish",
+        "Cucumber-mint side salad"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken (bone-in curry cut)",
+          "qty": 180.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "freekeh",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "celery",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cinnamon stick",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cardamom pods",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "bay leaf",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "allspice",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Remove the skin from the chicken pieces. Brown them in the olive oil with the chopped onion, garlic, carrot and celery for 5 minutes.",
+        "Add the cinnamon stick, cardamom, bay leaf, allspice, crushed cumin, pepper and 3 cups water; bring to a simmer and cook 20 minutes.",
+        "Rinse the freekeh and add it with the salt; simmer 20 minutes more until the grain is tender. Add the diced zucchini for the last 8 minutes.",
+        "Lift out the chicken, pull the meat from the bones and return it to the pot; discard bones, bay leaf and cinnamon.",
+        "Stir in the chopped parsley and coriander and a squeeze of lemon. Serve with sliced cucumber tossed with mint and a pinch of salt."
+      ],
+      "swaps": [
+        {
+          "for": "freekeh",
+          "use": "bulgur wheat",
+          "note": "add for the last 12 minutes only"
+        }
+      ],
+      "source": "Adapted from the traditional Palestinian shorbat freekeh"
+    },
+    "middle-eastern.dinner.chicken-tagine": {
+      "id": "middle-eastern.dinner.chicken-tagine",
+      "name": "Chicken tagine with olives & lemon on wholemeal couscous",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 45,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Chicken tagine with preserved lemon and olives, the Moroccan slow-braised dish named after its conical clay pot.",
+      "family": "tagine",
+      "nutrition": {
+        "kcal": 505,
+        "carbs": 47.0,
+        "fibre": 9.0,
+        "protein": 36.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: chicken tagine with olives, lemon, zucchini and carrot",
+        "2/3 cup wholemeal couscous",
+        "Chopped coriander to finish"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken thigh (boneless)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "turmeric powder",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cinnamon stick",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "olives",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "canned tomatoes",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 400.0
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wholemeal couscous",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Trim the thigh and cut into 3 pieces. Brown in the olive oil in a lidded pan, then add the sliced onion, garlic and grated ginger and soften 5 minutes.",
+        "Stir in the turmeric, crushed cumin, coriander powder, paprika, cinnamon stick, pepper and salt; add the canned tomatoes, the carrot in chunks and 1/2 cup water.",
+        "Cover and simmer gently 25 minutes; add the zucchini chunks, the olives and the lemon cut in wedges (rind on) and cook 10 minutes more until the sauce is thick.",
+        "Pour 1/2 cup boiling water over the couscous with a pinch of salt; cover 10 minutes and fork through.",
+        "Serve the tagine over the couscous, scattered with coriander leaves."
+      ],
+      "swaps": [
+        {
+          "for": "wholemeal couscous",
+          "use": "bulgur wheat",
+          "note": "same quantity, soak 15 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional Moroccan chicken tagine"
+    },
+    "middle-eastern.dinner.eggplant-fatteh": {
+      "id": "middle-eastern.dinner.eggplant-fatteh",
+      "name": "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "fatteh",
+      "nutrition": {
+        "kcal": 505,
+        "carbs": 53.0,
+        "fibre": 14.0,
+        "protein": 24.0,
+        "satFat": 2.5,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: roasted eggplant and warm chickpeas layered over baked pita shards",
+        "Garlic yoghurt-tahini sauce (150 g yoghurt, 1 tbsp tahini)",
+        "Toasted pine nuts, parsley and paprika to finish"
+      ],
+      "ingredients": [
+        {
+          "item": "brinjal (eggplant)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tahini",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "pine nuts",
+          "qty": 5.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the chickpeas overnight and simmer 45 minutes until soft (or use a batch cooked for the week); keep warm in a little of their liquid with the crushed cumin and a pinch of salt.",
+        "Cube the eggplant, salt lightly and roast on a lined tray at 220C for 20-25 minutes until browned and soft, with no oil.",
+        "Tear the half pita into shards and bake alongside for the last 8 minutes until crisp.",
+        "Whisk the yoghurt with the tahini, crushed garlic, lemon juice and salt to a thick sauce; toast the pine nuts in a dry pan.",
+        "Layer the pita shards in a wide bowl, spoon over the warm chickpeas and eggplant, pour on the yoghurt-tahini and finish with pine nuts, parsley and paprika. Eat straight away while the bread is still crisp."
+      ],
+      "swaps": [
+        {
+          "for": "brinjal (eggplant)",
+          "use": "cauliflower",
+          "note": "150 g florets, roasted the same way"
+        }
+      ],
+      "source": "Adapted from the traditional Levantine fatteh batinjan"
+    },
+    "middle-eastern.dinner.halloumi-vegetable-skewers": {
+      "id": "middle-eastern.dinner.halloumi-vegetable-skewers",
+      "name": "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "halloumi",
+      "nutrition": {
+        "kcal": 490,
+        "carbs": 54.0,
+        "fibre": 15.0,
+        "protein": 23.0,
+        "satFat": 6.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2 skewers of grilled halloumi (30 g), capsicum, zucchini, red onion and cherry tomatoes with zaatar",
+        "Bulgur and chickpea salad with parsley, mint and lemon",
+        "Minted yoghurt dip (50 g) with pomegranate molasses"
+      ],
+      "ingredients": [
+        {
+          "item": "halloumi",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "zaatar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 25.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "parsley",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "dried mint",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "pomegranate molasses",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the chickpeas overnight and simmer 45 minutes until tender (use a batch cooked for the week). Simmer the bulgur in 2/3 cup salted water 12 minutes; rest covered 5 minutes.",
+        "Cut the halloumi into 4 cubes and the capsicum, zucchini and red onion into chunks; thread onto 2 skewers with the cherry tomatoes, brush with the olive oil and sprinkle with zaatar and pepper.",
+        "Grill or griddle the skewers 8-10 minutes, turning, until the vegetables char and the halloumi is golden.",
+        "Fold the chickpeas, chopped parsley, mint, lemon juice and a pinch of salt through the bulgur.",
+        "Stir the dried mint into the yoghurt and streak with the pomegranate molasses. Serve the skewers on the salad with the dip."
+      ],
+      "swaps": [
+        {
+          "for": "halloumi",
+          "use": "feta",
+          "note": "20 g, crumbled over the salad instead of grilled"
+        }
+      ],
+      "source": "Adapted from Cypriot and Levantine grilled halloumi mezze"
+    },
+    "middle-eastern.dinner.lentil-kibbeh": {
+      "id": "middle-eastern.dinner.lentil-kibbeh",
+      "name": "Baked lentil kibbeh with salad & yoghurt",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 25,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "kibbeh",
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 61.0,
+        "fibre": 15.0,
+        "protein": 25.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2 wedges baked kibbet adas (brown lentil and bulgur) with a walnut-onion layer",
+        "Chopped salad with lemon and mint",
+        "Yoghurt (100 g)"
+      ],
+      "ingredients": [
+        {
+          "item": "brown lentils",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "baharat",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "allspice",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "walnuts",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Simmer the lentils in 1.5 cups water for 20 minutes until very soft; stir in the bulgur, cover and rest 15 minutes so it swells and the mix thickens.",
+        "Cook half the chopped onion in the olive oil until golden; add the crushed cumin, baharat, allspice, pepper and the chopped walnuts for the filling.",
+        "Mash the lentil-bulgur mix with the remaining raw onion (grated), salt and the chopped spring onion to a firm dough.",
+        "Press half the dough into a small oiled dish, spread the onion-walnut filling, top with the rest, score into wedges and bake at 200C for 30-35 minutes until the top is crisp.",
+        "Chop the lettuce, tomato, cucumber, red onion, parsley and mint; dress with lemon juice and salt. Serve the kibbeh warm with the salad and yoghurt."
+      ],
+      "swaps": [
+        {
+          "for": "walnuts",
+          "use": "pine nuts",
+          "note": "same weight, toasted"
+        }
+      ],
+      "source": "Adapted from the traditional Lebanese kibbet adas"
+    },
+    "middle-eastern.dinner.zaatar-fish-fattoush": {
+      "id": "middle-eastern.dinner.zaatar-fish-fattoush",
+      "name": "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "zaatar-fish",
+      "nutrition": {
+        "kcal": 470,
+        "carbs": 38.0,
+        "fibre": 10.0,
+        "protein": 33.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g grilled white fish crusted with zaatar",
+        "Fattoush-style salad with half a toasted wholemeal pita and sumac-pomegranate dressing",
+        "Lemon-tahini drizzle (1 tbsp tahini)"
+      ],
+      "ingredients": [
+        {
+          "item": "firm white fish fillet",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "zaatar",
+          "qty": 1.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sumac",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "pomegranate molasses",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "tahini",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rub the fish with the zaatar, half the olive oil, salt and pepper; grill or pan-sear 3-4 minutes a side.",
+        "Tear the half pita into shards and toast dry until crisp.",
+        "Chop the lettuce, tomato, cucumber, red onion, capsicum, parsley and mint; whisk half the lemon juice with the sumac, pomegranate molasses, remaining oil and a pinch of salt and toss through with the pita shards.",
+        "Whisk the tahini with the remaining lemon juice, the crushed garlic and water to a drizzle.",
+        "Serve the fish on the fattoush with the tahini spooned over."
+      ],
+      "swaps": [
+        {
+          "for": "firm white fish fillet",
+          "use": "salmon fillet",
+          "note": "use 120 g"
+        }
+      ],
+      "source": "Adapted from Lebanese zaatar fish and fattoush"
+    },
+    "middle-eastern.lunch.baked-falafel": {
+      "id": "middle-eastern.lunch.baked-falafel",
+      "name": "Baked falafel with tahini, salad & half pita",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Shape two or three falafel from the mix before the chilli flakes go in.",
+      "packable": true,
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Falafel, the Egyptian and Levantine chickpea and herb fritter, baked here instead of deep-fried.",
+      "family": "falafel",
+      "nutrition": {
+        "kcal": 530,
+        "carbs": 58.0,
+        "fibre": 14.0,
+        "protein": 25.0,
+        "satFat": 3.5,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 6 baked chickpea falafel",
+        "Tahini-lemon sauce (1 tbsp tahini)",
+        "Chopped salad with sumac",
+        "Half a wholemeal pita"
+      ],
+      "ingredients": [
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 55.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "tahini",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sumac",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the dried chickpeas 12-24 hours in plenty of water; drain well. Do not cook them.",
+        "Blitz the soaked chickpeas with the onion, garlic, parsley, coriander leaves, crushed cumin, coriander powder, chilli flakes, salt and pepper to a coarse, sandy paste; mix in the egg to bind.",
+        "Shape into 6 small patties, set on a lined tray and bake at 220C for 20-25 minutes, turning once, until crisp and browned.",
+        "Whisk the tahini with the lemon juice, a pinch of salt and water to a drizzling sauce.",
+        "Chop the tomato, cucumber, lettuce and red onion; toss with sumac. Serve the falafel on the salad with the sauce and half a warm pita."
+      ],
+      "swaps": [
+        {
+          "for": "eggs",
+          "use": "1 tbsp wholemeal flour",
+          "note": "vegan binder; shape firmly"
+        }
+      ],
+      "source": "Adapted from the traditional Levantine falafel"
+    },
+    "middle-eastern.lunch.chermoula-fish-couscous": {
+      "id": "middle-eastern.lunch.chermoula-fish-couscous",
+      "name": "Chermoula grilled fish with wholemeal couscous & salad",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Set aside a spoon of chermoula before the chilli flakes go in and marinate one piece of fish in that.",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Chermoula, the North African (Moroccan and Tunisian) herb, garlic, cumin and lemon marinade classically used on grilled fish.",
+      "family": "chermoula",
+      "nutrition": {
+        "kcal": 525,
+        "carbs": 59.0,
+        "fibre": 9.0,
+        "protein": 38.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g chermoula-marinated grilled white fish",
+        "1 level cup wholemeal couscous",
+        "Grilled zucchini and tomato-cucumber salad",
+        "Yoghurt (100 g)"
+      ],
+      "ingredients": [
+        {
+          "item": "firm white fish fillet",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "wholemeal couscous",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "coriander leaves",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "coriander powder",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Blend the coriander leaves, parsley, garlic, crushed cumin, paprika, coriander powder, chilli flakes, lemon juice, olive oil and salt into a rough chermoula paste.",
+        "Coat the fish in two-thirds of the chermoula and marinate 15 minutes.",
+        "Pour 3/4 cup boiling water over the couscous with a pinch of salt; cover 10 minutes, then fork through the remaining chermoula.",
+        "Slice the zucchini into long strips and grill 2 minutes a side; grill the fish 3-4 minutes a side on the same pan.",
+        "Dice the tomato, cucumber and red onion with the mint. Plate couscous, fish, zucchini, salad and the yoghurt."
+      ],
+      "swaps": [
+        {
+          "for": "wholemeal couscous",
+          "use": "bulgur wheat",
+          "note": "same soak-and-steam method, 15 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional Moroccan chermoula fish"
+    },
+    "middle-eastern.lunch.fattoush-with-grilled-fish": {
+      "id": "middle-eastern.lunch.fattoush-with-grilled-fish",
+      "name": "Fattoush with grilled zaatar fish",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Fattoush, the Lebanese bread salad of chopped vegetables, toasted pita and a sumac-lemon dressing.",
+      "family": "fattoush",
+      "nutrition": {
+        "kcal": 520,
+        "carbs": 58.0,
+        "fibre": 12.0,
+        "protein": 39.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g grilled zaatar white fish",
+        "Big bowl of fattoush with half a toasted wholemeal pita",
+        "Other half pita, warmed",
+        "Minted yoghurt (100 g)"
+      ],
+      "ingredients": [
+        {
+          "item": "firm white fish fillet",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "zaatar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sumac",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "pomegranate molasses",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "dried mint",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rub the fish with the zaatar, crushed garlic, salt, pepper and half the olive oil; grill or pan-sear 3-4 minutes a side.",
+        "Tear half the pita into shards and toast dry in the oven or a pan until crisp.",
+        "Chop the lettuce, tomato, cucumber, red onion, capsicum, parsley and mint into a bowl.",
+        "Whisk the lemon juice, sumac, pomegranate molasses, remaining olive oil and a pinch of salt; toss through the salad with the pita shards just before eating.",
+        "Stir dried mint into the yoghurt. Serve the fish on the fattoush with the yoghurt and the remaining warm half pita."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Lebanese fattoush"
+    },
+    "middle-eastern.lunch.grilled-sardines-sumac-onion": {
+      "id": "middle-eastern.lunch.grilled-sardines-sumac-onion",
+      "name": "Grilled sardines with sumac onion salad & bulgur",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Grill one sardine without the chilli flakes; lemon and cumin only.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "sardines",
+      "nutrition": {
+        "kcal": 540,
+        "carbs": 48.0,
+        "fibre": 12.0,
+        "protein": 38.0,
+        "satFat": 3.5,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 3 grilled sardines with cumin, chilli and lemon",
+        "Sumac red onion, tomato and parsley salad",
+        "1 level cup bulgur"
+      ],
+      "ingredients": [
+        {
+          "item": "sardines (mathi)",
+          "qty": 3.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "red onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sumac",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "parsley",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "chilli flakes",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Simmer the bulgur in 1 cup salted water for 12 minutes; rest covered 5 minutes and fork through.",
+        "Slice the red onion very thinly, rub with sumac and a pinch of salt and leave 10 minutes to soften; add the chopped parsley, tomato and cucumber.",
+        "Gut and rinse the sardines; pat dry and rub with the olive oil, crushed cumin, chilli flakes, salt and pepper.",
+        "Grill or griddle on high heat 3 minutes a side until the skin blisters; squeeze lemon over.",
+        "Serve the sardines over the bulgur with the sumac onion salad heaped alongside."
+      ],
+      "swaps": [
+        {
+          "for": "sardines (mathi)",
+          "use": "firm white fish fillet",
+          "note": "150 g, 3-4 minutes a side"
+        }
+      ],
+      "source": "Adapted from the traditional Turkish grilled sardines (sardalya izgara)"
+    },
+    "middle-eastern.lunch.mujadara": {
+      "id": "middle-eastern.lunch.mujadara",
+      "name": "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Mujadara, the Levantine pilaf of lentils and grain topped with deeply browned onions, a weekday staple across Lebanon, Syria and Palestine.",
+      "family": "mujadara",
+      "nutrition": {
+        "kcal": 515,
+        "carbs": 67.0,
+        "fibre": 15.0,
+        "protein": 28.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl mujadara (brown lentils, bulgur, caramelised onion)",
+        "Minted yoghurt (150 g)",
+        "Tomato, cucumber and parsley salad"
+      ],
+      "ingredients": [
+        {
+          "item": "brown lentils",
+          "qty": 55.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.75,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "dried mint",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "tomato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Rinse the lentils and simmer in 2 cups water for 15 minutes until just tender but whole.",
+        "Slice the onion thinly; cook slowly in the olive oil with a pinch of salt, stirring, for 15-20 minutes until deep brown and partly crisp. Set a third aside for the top.",
+        "Stir the cumin, remaining onions, bulgur, salt and pepper into the lentils with half a cup of water; cover and cook 10 minutes, then rest 5 minutes off the heat.",
+        "Stir dried mint into the yoghurt. Chop the tomato, cucumber, lettuce and parsley; dress with lemon juice and salt.",
+        "Pile the mujadara in a bowl, top with the reserved crisp onions, and serve the yoghurt and salad alongside."
+      ],
+      "swaps": [
+        {
+          "for": "bulgur wheat",
+          "use": "brown rice",
+          "note": "cook the rice separately 30 minutes and fold in"
+        }
+      ],
+      "source": "Adapted from the traditional Lebanese mujadara"
+    },
+    "middle-eastern.lunch.prawn-chickpea-salad": {
+      "id": "middle-eastern.lunch.prawn-chickpea-salad",
+      "name": "Prawn & chickpea salad with lemon-tahini & half pita",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "prawn-salad",
+      "nutrition": {
+        "kcal": 540,
+        "carbs": 48.0,
+        "fibre": 12.0,
+        "protein": 39.0,
+        "satFat": 2.5,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g paprika-garlic seared prawns",
+        "Chickpea, cherry tomato, cucumber and herb salad on cos lettuce",
+        "Lemon-tahini dressing (1 tbsp tahini)",
+        "Half a wholemeal pita"
+      ],
+      "ingredients": [
+        {
+          "item": "prawns (chemmeen)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tahini",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "red onion",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "parsley",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "dill",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sumac",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Soak the chickpeas overnight and simmer 45 minutes until soft (cook a batch for the week); cool.",
+        "Whisk the tahini with half the lemon juice, half the garlic, a pinch of salt and water to a pourable dressing.",
+        "Toss the prawns with the paprika, remaining garlic, salt and pepper; sear in the olive oil 1-2 minutes a side until pink.",
+        "Halve the cherry tomatoes, dice the cucumber and red onion, chop the parsley and dill; mix with the chickpeas, sumac and remaining lemon juice.",
+        "Pile the salad on torn cos leaves, top with the prawns, drizzle the tahini dressing and serve with half a warm pita."
+      ],
+      "swaps": [
+        {
+          "for": "prawns (chemmeen)",
+          "use": "firm white fish fillet",
+          "note": "150 g, flaked after pan-frying"
+        }
+      ],
+      "source": "Adapted from Levantine mezze salads with tahini"
+    },
+    "middle-eastern.lunch.shish-tawook": {
+      "id": "middle-eastern.lunch.shish-tawook",
+      "name": "Shish tawook (chicken skewers) with tabbouleh & half pita",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "packable": true,
+      "prepMinutes": 20,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "tawook",
+      "nutrition": {
+        "kcal": 525,
+        "carbs": 52.0,
+        "fibre": 12.0,
+        "protein": 40.0,
+        "satFat": 1.5,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g yoghurt-garlic marinated chicken skewers with capsicum",
+        "Parsley-heavy tabbouleh (35 g bulgur)",
+        "Half a wholemeal pita"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken breast",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "lemon",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "tomato paste",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "allspice",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "bulgur wheat",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "parsley",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "tomato",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "wholemeal pita",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 6.0
+        }
+      ],
+      "steps": [
+        "Cube the chicken. Mix the yoghurt, half the lemon juice, crushed garlic, tomato paste, paprika, allspice, pepper and salt; marinate the chicken 30 minutes or overnight.",
+        "Soak the bulgur in 1/3 cup boiling water for 15 minutes until swollen; drain any excess.",
+        "Chop the parsley and mint finely, dice the tomato and spring onion; fold through the bulgur with the remaining lemon juice, the olive oil and a pinch of salt.",
+        "Thread the chicken onto skewers with chunks of capsicum; grill or griddle 10-12 minutes, turning, until charred at the edges and cooked through.",
+        "Serve the skewers with the tabbouleh and half a warm pita."
+      ],
+      "swaps": [
+        {
+          "for": "chicken breast",
+          "use": "chicken thigh (boneless)",
+          "note": "juicier; grill 2 minutes longer"
+        }
+      ],
+      "source": "Adapted from the traditional Lebanese shish tawook"
+    },
+    "middle-eastern.snack.ayran-with-almonds": {
+      "id": "middle-eastern.snack.ayran-with-almonds",
+      "name": "Ayran (salted mint yoghurt drink) with almonds",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Ayran, the cold salted yoghurt drink of Turkey, whisked frothy and often flavoured with dried mint.",
+      "family": "ayran",
+      "nutrition": {
+        "kcal": 160,
+        "carbs": 9.0,
+        "fibre": 2.0,
+        "protein": 10.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 glass ayran (low-fat yoghurt, cold water, salt, dried mint)",
+        "15 g almonds"
+      ],
+      "ingredients": [
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 125.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "dried mint",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "almonds",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        }
+      ],
+      "steps": [
+        "Whisk the yoghurt with 125 ml very cold water and the salt until frothy.",
+        "Rub the dried mint between your palms over the glass and stir.",
+        "Serve with the almonds counted out (about 12)."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Turkish ayran"
+    },
+    "middle-eastern.snack.cucumber-mint-egg-salad": {
+      "id": "middle-eastern.snack.cucumber-mint-egg-salad",
+      "name": "Cucumber-mint salad with boiled egg & sumac, black tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 8,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "egg-salad",
+      "nutrition": {
+        "kcal": 140,
+        "carbs": 7.0,
+        "fibre": 3.0,
+        "protein": 8.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 hard-boiled egg, quartered, dusted with sumac",
+        "Cucumber, cherry tomato and mint salad with lemon and a little olive oil",
+        "Black tea, unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "red onion",
+          "qty": 0.1,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.05,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sumac",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the egg for 10 minutes, cool in cold water, peel and quarter.",
+        "Dice the cucumber, halve the cherry tomatoes, slice the red onion thinly and tear in the mint; dress with lemon juice, olive oil and salt.",
+        "Sit the egg on the salad, dust with sumac and serve with unsweetened black tea."
+      ],
+      "swaps": [],
+      "source": "Inspired by the Levantine salata and sumac eggs"
+    },
+    "middle-eastern.snack.hummus-with-veg-sticks": {
+      "id": "middle-eastern.snack.hummus-with-veg-sticks",
+      "name": "Hummus with cucumber & capsicum sticks, mint tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Hummus bi tahini, chickpeas pureed with tahini, lemon and garlic, the best-known mezze of the Levant.",
+      "family": "hummus",
+      "nutrition": {
+        "kcal": 160,
+        "carbs": 15.0,
+        "fibre": 6.0,
+        "protein": 7.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 3 tbsp hummus",
+        "Cucumber and capsicum sticks for dipping",
+        "Mint tea (green tea with fresh mint), unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 25.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tahini",
+          "qty": 0.5,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "capsicum",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.05,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Use chickpeas soaked and boiled in a batch earlier in the week (25 g dry is about 1/2 cup cooked).",
+        "Blend the chickpeas with tahini, lemon juice, garlic, crushed cumin, salt and a spoon of water until smooth.",
+        "Cut the cucumber and capsicum into sticks.",
+        "Steep the green tea with the mint leaves for 3 minutes and serve unsweetened."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Levantine hummus"
+    },
+    "middle-eastern.snack.labneh-olives-zaatar": {
+      "id": "middle-eastern.snack.labneh-olives-zaatar",
+      "name": "Labneh with olives, zaatar & black tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Labneh, strained yoghurt eaten as a thick dip with olive oil, zaatar and olives, a Levantine staple at any hour.",
+      "family": "labneh",
+      "nutrition": {
+        "kcal": 155,
+        "carbs": 12.0,
+        "fibre": 2.0,
+        "protein": 8.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 75 g labneh with zaatar and a drizzle of olive oil",
+        "Olives, cucumber slices and cherry tomatoes",
+        "Black tea, unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "zaatar",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "olives",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cherry tomatoes",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Strain the salted yoghurt overnight in a muslin or coffee filter in the fridge to make labneh (do a few days' worth at once).",
+        "Spread the labneh in a small bowl, sprinkle with zaatar and drizzle with olive oil.",
+        "Serve with the olives, cucumber slices and halved cherry tomatoes for scooping.",
+        "Brew the black tea and drink it unsweetened."
+      ],
+      "swaps": [],
+      "source": "Adapted from the traditional Levantine labneh"
+    },
+    "middle-eastern.snack.muhammara": {
+      "id": "middle-eastern.snack.muhammara",
+      "name": "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "none",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 8,
+      "cookMinutes": 12,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Muhammara, the roasted red capsicum and walnut dip of Aleppo, Syria, sharpened with lemon and cumin.",
+      "family": "muhammara",
+      "nutrition": {
+        "kcal": 175,
+        "carbs": 13.0,
+        "fibre": 4.0,
+        "protein": 4.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 3 tbsp muhammara (roasted capsicum and walnut dip)",
+        "Cucumber sticks for dipping",
+        "Black tea, unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "capsicum",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "walnuts",
+          "qty": 12.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "wholemeal bread",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 16.0
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cumin seeds",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "paprika",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "extra virgin olive oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Grill the capsicum half under a hot grill or over a gas flame until blistered (about 10 minutes), then peel off the skin.",
+        "Blend the capsicum with the walnuts, torn wholemeal bread, garlic, crushed cumin, paprika, lemon juice, olive oil and salt to a coarse paste.",
+        "Cut the cucumber into sticks and serve alongside; brew the black tea unsweetened."
+      ],
+      "swaps": [
+        {
+          "for": "walnuts",
+          "use": "almonds",
+          "note": "same weight"
+        }
+      ],
+      "source": "Adapted from the traditional Syrian muhammara (lemon in place of pomegranate molasses)"
+    },
+    "middle-eastern.snack.pistachios-date-cardamom-tea": {
+      "id": "middle-eastern.snack.pistachios-date-cardamom-tea",
+      "name": "Pistachios & 1 date with cardamom black tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 2,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "pistachios",
+      "nutrition": {
+        "kcal": 160,
+        "carbs": 16.0,
+        "fibre": 3.0,
+        "protein": 4.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 20 g pistachios (a small handful, in shell)",
+        "1 date (natural sugar, the only sweetness)",
+        "Cardamom black tea, unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "pistachios",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "dates",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "black tea leaves",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cardamom pods",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Crack the cardamom pod and brew it with the black tea leaves for 3-4 minutes.",
+        "Weigh out the pistachios; shelling them yourself slows the eating.",
+        "Serve with the single date and drink the tea unsweetened."
+      ],
+      "swaps": [],
+      "source": "The everyday Persian and Gulf tea-time pairing"
+    },
+    "middle-eastern.snack.pumpkin-seeds-pomegranate": {
+      "id": "middle-eastern.snack.pumpkin-seeds-pomegranate",
+      "name": "Toasted pumpkin seeds with pomegranate & green tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "middle-eastern",
+      "protein": "none",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "seeds",
+      "nutrition": {
+        "kcal": 145,
+        "carbs": 8.0,
+        "fibre": 3.0,
+        "protein": 6.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 20 g toasted pumpkin seeds",
+        "Seeds of a quarter pomegranate",
+        "Green tea with mint, unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "pumpkin seeds",
+          "qty": 20.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "pomegranate",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "mint leaves",
+          "qty": 0.05,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Toast the pumpkin seeds in a dry pan 3-4 minutes until they pop and smell nutty.",
+        "Knock the seeds out of the pomegranate quarter over a bowl and pick out the pith.",
+        "Steep the green tea with the mint for 3 minutes; mix seeds and pomegranate and eat with a spoon."
+      ],
+      "swaps": [],
+      "source": "Inspired by Persian ajil (mixed seeds and fruit) at tea time"
+    }
+  }
+}

@@ -1,0 +1,1081 @@
+{
+  "week": "2026-W47",
+  "servings": 4.59,
+  "buy": [
+    {
+      "item": "brinjal (eggplant)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)"
+      ]
+    },
+    {
+      "item": "capsicum",
+      "qty": 13.0,
+      "exact": 12.62,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Fattoush with grilled zaatar fish"
+      ]
+    },
+    {
+      "item": "carrot",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)"
+      ]
+    },
+    {
+      "item": "celery",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken & freekeh soup with herbs (shorbat freekeh)"
+      ]
+    },
+    {
+      "item": "cherry tomatoes",
+      "qty": 1200.0,
+      "exact": 1193.4,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Labneh with olives, zaatar & black tea",
+        "Cucumber-mint salad with boiled egg & sumac, black tea"
+      ]
+    },
+    {
+      "item": "coriander leaves",
+      "qty": 5.0,
+      "exact": 4.13,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Persian kuku sabzi with yoghurt",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)"
+      ]
+    },
+    {
+      "item": "cos lettuce",
+      "qty": 11.0,
+      "exact": 10.33,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "cucumber",
+      "qty": 38.0,
+      "exact": 37.87,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Labneh with olives, zaatar & black tea",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "dill",
+      "qty": 2.0,
+      "exact": 1.38,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Persian kuku sabzi with yoghurt",
+        "Prawn & chickpea salad with lemon-tahini & half pita"
+      ]
+    },
+    {
+      "item": "garlic",
+      "qty": 300.0,
+      "exact": 275.4,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Baked falafel with tahini, salad & half pita",
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Persian kuku sabzi with yoghurt",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Fattoush with grilled zaatar fish"
+      ]
+    },
+    {
+      "item": "ginger",
+      "qty": 25.0,
+      "exact": 13.77,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Chicken tagine with olives & lemon on wholemeal couscous"
+      ]
+    },
+    {
+      "item": "lemon",
+      "qty": 28.0,
+      "exact": 27.54,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Baked falafel with tahini, salad & half pita",
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "mint leaves",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Toasted pumpkin seeds with pomegranate & green tea",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "onion",
+      "qty": 18.0,
+      "exact": 17.21,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "parsley",
+      "qty": 15.0,
+      "exact": 14.92,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Baked falafel with tahini, salad & half pita",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Persian kuku sabzi with yoghurt",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "pomegranate",
+      "qty": 2.0,
+      "exact": 1.15,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Toasted pumpkin seeds with pomegranate & green tea"
+      ]
+    },
+    {
+      "item": "red onion",
+      "qty": 12.0,
+      "exact": 11.93,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "spinach",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Persian kuku sabzi with yoghurt",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Lentil & bulgur breakfast bowl with a fried egg"
+      ]
+    },
+    {
+      "item": "spring onion",
+      "qty": 3.0,
+      "exact": 2.07,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Persian kuku sabzi with yoghurt",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "tomato",
+      "qty": 35.0,
+      "exact": 34.43,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Baked falafel with tahini, salad & half pita",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "zucchini",
+      "qty": 10.0,
+      "exact": 9.18,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)"
+      ]
+    },
+    {
+      "item": "firm white fish fillet",
+      "qty": 2100.0,
+      "exact": 2065.5,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Fattoush with grilled zaatar fish"
+      ]
+    },
+    {
+      "item": "prawns (chemmeen)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Prawn & chickpea salad with lemon-tahini & half pita"
+      ]
+    },
+    {
+      "item": "sardines (mathi)",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "pc",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Grilled sardines with sumac onion salad & bulgur"
+      ]
+    },
+    {
+      "item": "chicken (bone-in curry cut)",
+      "qty": 850.0,
+      "exact": 826.2,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Chicken & freekeh soup with herbs (shorbat freekeh)"
+      ]
+    },
+    {
+      "item": "chicken breast",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Shish tawook (chicken skewers) with tabbouleh & half pita"
+      ]
+    },
+    {
+      "item": "chicken thigh (boneless)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Chicken tagine with olives & lemon on wholemeal couscous"
+      ]
+    },
+    {
+      "item": "lean beef mince",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Baked beef kofta with salad, minted yoghurt & pita"
+      ]
+    },
+    {
+      "item": "eggs",
+      "qty": 48.0,
+      "exact": 41.31,
+      "unit": "pc",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Baked falafel with tahini, salad & half pita",
+        "Persian kuku sabzi with yoghurt",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Hummus plate with boiled egg, cucumber & half pita"
+      ]
+    },
+    {
+      "item": "halloumi",
+      "qty": 200.0,
+      "exact": 137.7,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad"
+      ]
+    },
+    {
+      "item": "low-fat milk",
+      "qty": 1000.0,
+      "exact": 918.0,
+      "unit": "ml",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Persian-style cardamom oats with pistachios & a date"
+      ]
+    },
+    {
+      "item": "low-fat yoghurt (curd)",
+      "qty": 6100.0,
+      "exact": 6081.75,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Persian kuku sabzi with yoghurt",
+        "Labneh with olives, zaatar & black tea",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Ayran (salted mint yoghurt drink) with almonds",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "almonds",
+      "qty": 100.0,
+      "exact": 68.85,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Ayran (salted mint yoghurt drink) with almonds"
+      ]
+    },
+    {
+      "item": "brown lentils",
+      "qty": 700.0,
+      "exact": 619.65,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "bulgur wheat",
+      "qty": 1000.0,
+      "exact": 963.9,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "freekeh",
+      "qty": 300.0,
+      "exact": 206.55,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Chicken & freekeh soup with herbs (shorbat freekeh)"
+      ]
+    },
+    {
+      "item": "pine nuts",
+      "qty": 50.0,
+      "exact": 22.95,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)"
+      ]
+    },
+    {
+      "item": "pistachios",
+      "qty": 200.0,
+      "exact": 183.6,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Persian-style cardamom oats with pistachios & a date",
+        "Pistachios & 1 date with cardamom black tea"
+      ]
+    },
+    {
+      "item": "pumpkin seeds",
+      "qty": 100.0,
+      "exact": 91.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Toasted pumpkin seeds with pomegranate & green tea"
+      ]
+    },
+    {
+      "item": "rolled oats",
+      "qty": 200.0,
+      "exact": 160.65,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Persian-style cardamom oats with pistachios & a date"
+      ]
+    },
+    {
+      "item": "walnuts",
+      "qty": 150.0,
+      "exact": 100.98,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "white chickpeas (chana)",
+      "qty": 1100.0,
+      "exact": 1009.8,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Hummus plate with boiled egg, cucumber & half pita"
+      ]
+    },
+    {
+      "item": "wholemeal bread",
+      "qty": 16.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks"
+      ]
+    },
+    {
+      "item": "wholemeal couscous",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Chicken tagine with olives & lemon on wholemeal couscous"
+      ]
+    },
+    {
+      "item": "wholemeal pita",
+      "qty": 42.0,
+      "exact": 39.02,
+      "unit": "pc",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Baked falafel with tahini, salad & half pita",
+        "Persian kuku sabzi with yoghurt",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Fattoush with grilled zaatar fish"
+      ]
+    },
+    {
+      "item": "canned tomatoes",
+      "qty": 800.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Chicken tagine with olives & lemon on wholemeal couscous"
+      ]
+    },
+    {
+      "item": "dates",
+      "qty": 10.0,
+      "exact": 9.18,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Persian-style cardamom oats with pistachios & a date",
+        "Pistachios & 1 date with cardamom black tea"
+      ]
+    },
+    {
+      "item": "fava beans (canned)",
+      "qty": 1200.0,
+      "exact": 918.0,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Ful medames with boiled egg & half pita"
+      ]
+    },
+    {
+      "item": "olives",
+      "qty": 250.0,
+      "exact": 229.5,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Labneh with olives, zaatar & black tea",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg"
+      ]
+    }
+  ],
+  "pantry": [
+    {
+      "item": "black tea leaves",
+      "qty": 50.5,
+      "exact": 50.49,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Persian kuku sabzi with yoghurt",
+        "Labneh with olives, zaatar & black tea",
+        "Persian-style cardamom oats with pistachios & a date",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Pistachios & 1 date with cardamom black tea"
+      ]
+    },
+    {
+      "item": "extra virgin olive oil",
+      "qty": 87.5,
+      "exact": 87.21,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Persian kuku sabzi with yoghurt",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Labneh with olives, zaatar & black tea",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "green tea bags",
+      "qty": 10.0,
+      "exact": 9.18,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Toasted pumpkin seeds with pomegranate & green tea"
+      ]
+    },
+    {
+      "item": "pomegranate molasses",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Fattoush with grilled zaatar fish"
+      ]
+    },
+    {
+      "item": "salt",
+      "qty": 41.0,
+      "exact": 40.62,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Baked falafel with tahini, salad & half pita",
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Persian kuku sabzi with yoghurt",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Labneh with olives, zaatar & black tea",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Persian-style cardamom oats with pistachios & a date",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Ayran (salted mint yoghurt drink) with almonds",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "tahini",
+      "qty": 23.0,
+      "exact": 22.95,
+      "unit": "tbsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Hummus plate with boiled egg, cucumber & half pita"
+      ]
+    },
+    {
+      "item": "tomato paste",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Shish tawook (chicken skewers) with tabbouleh & half pita"
+      ]
+    },
+    {
+      "item": "allspice",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "baharat",
+      "qty": 6.0,
+      "exact": 5.74,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "bay leaf",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Chicken & freekeh soup with herbs (shorbat freekeh)"
+      ]
+    },
+    {
+      "item": "black pepper",
+      "qty": 15.5,
+      "exact": 15.15,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Persian kuku sabzi with yoghurt",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Fattoush with grilled zaatar fish",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "cardamom pods",
+      "qty": 23.0,
+      "exact": 22.95,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Persian-style cardamom oats with pistachios & a date",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Pistachios & 1 date with cardamom black tea"
+      ]
+    },
+    {
+      "item": "chilli flakes",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Turkish egg & spinach (ispanakli yumurta) with yoghurt",
+        "Grilled sardines with sumac onion salad & bulgur"
+      ]
+    },
+    {
+      "item": "cinnamon stick",
+      "qty": 6.0,
+      "exact": 5.74,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Persian-style cardamom oats with pistachios & a date",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)"
+      ]
+    },
+    {
+      "item": "coriander powder",
+      "qty": 7.0,
+      "exact": 6.88,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Chicken tagine with olives & lemon on wholemeal couscous"
+      ]
+    },
+    {
+      "item": "cumin seeds",
+      "qty": 24.5,
+      "exact": 24.1,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Ful medames with boiled egg & half pita",
+        "Baked falafel with tahini, salad & half pita",
+        "Hummus with cucumber & capsicum sticks, mint tea",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Lentil & bulgur breakfast bowl with a fried egg",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Chicken & freekeh soup with herbs (shorbat freekeh)",
+        "Hummus plate with boiled egg, cucumber & half pita",
+        "Baked lentil kibbeh with salad & yoghurt"
+      ]
+    },
+    {
+      "item": "dried mint",
+      "qty": 9.5,
+      "exact": 9.18,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Ayran (salted mint yoghurt drink) with almonds",
+        "Mujadara (lentils & bulgur with caramelised onion) with yoghurt & salad",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Fattoush with grilled zaatar fish"
+      ]
+    },
+    {
+      "item": "paprika",
+      "qty": 13.0,
+      "exact": 12.62,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Eggplant fatteh (baked pita, chickpeas, yoghurt-tahini, pine nuts)",
+        "Chermoula grilled fish with wholemeal couscous & salad",
+        "Chicken tagine with olives & lemon on wholemeal couscous",
+        "Shish tawook (chicken skewers) with tabbouleh & half pita",
+        "Muhammara (roasted capsicum & walnut dip) with cucumber sticks",
+        "Hummus plate with boiled egg, cucumber & half pita"
+      ]
+    },
+    {
+      "item": "sumac",
+      "qty": 23.0,
+      "exact": 22.95,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Baked falafel with tahini, salad & half pita",
+        "Prawn & chickpea salad with lemon-tahini & half pita",
+        "Cucumber-mint salad with boiled egg & sumac, black tea",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Baked beef kofta with salad, minted yoghurt & pita",
+        "Grilled sardines with sumac onion salad & bulgur",
+        "Fattoush with grilled zaatar fish"
+      ]
+    },
+    {
+      "item": "turmeric powder",
+      "qty": 1.5,
+      "exact": 1.15,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Chicken tagine with olives & lemon on wholemeal couscous"
+      ]
+    },
+    {
+      "item": "zaatar",
+      "qty": 28.0,
+      "exact": 27.54,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Grilled halloumi & vegetable skewers with chickpea bulgur salad",
+        "Labneh with olives, zaatar & black tea",
+        "Grilled zaatar fish with fattoush-style salad & tahini drizzle",
+        "Zaatar manakish on wholemeal pita with tomato & boiled egg",
+        "Fattoush with grilled zaatar fish"
+      ]
+    }
+  ]
+}
