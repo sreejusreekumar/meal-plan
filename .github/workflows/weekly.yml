@@ -1,8 +1,10 @@
 name: Weekly plan
 
-# Saturday 06:00 Australia/Melbourne. GitHub cron is UTC and has no DST, so two triggers cover
-# AEDT (UTC+11 → Fri 19:00 UTC) and AEST (UTC+10 → Fri 20:00 UTC); the guard step keeps only the
-# one that is 06:00 local. The manual button (workflow_dispatch) skips the guard.
+# Saturday morning, Australia/Melbourne. GitHub cron is UTC and has no DST, so two triggers cover
+# AEDT (UTC+11 → Fri 19:00 UTC) and AEST (UTC+10 → Fri 20:00 UTC). Scheduled runs often start
+# hours late, so the guard only checks that it is Saturday in Melbourne (an exact-hour check
+# skipped every run). Both triggers may fire; the second finds the plan already committed and
+# publishes nothing. The manual button (workflow_dispatch) skips the guard.
 on:
   schedule:
     - cron: "0 19 * * 5"
@@ -34,13 +36,13 @@ jobs:
   plan:
     runs-on: ubuntu-latest
     steps:
-      - name: Only run at 06:00 Melbourne time (scheduled runs)
+      - name: Only run on Saturday, Melbourne time (scheduled runs)
         id: guard
         if: github.event_name == 'schedule'
         run: |
-          now=$(TZ=Australia/Melbourne date +%H%u)   # hour + ISO weekday (6 = Saturday)
+          now=$(TZ=Australia/Melbourne date '+%u %H:%M')   # ISO weekday (6 = Saturday) + time
           echo "melbourne=$now"
-          if [ "$now" != "066" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+          if [ "${now%% *}" != "6" ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
 
       - uses: actions/checkout@v4
         if: steps.guard.outputs.skip != 'true'
