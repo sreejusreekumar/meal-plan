@@ -14,6 +14,7 @@ created in reverse aisle order so the list reads top-to-bottom as the store walk
 from __future__ import annotations
 
 import time
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Protocol
@@ -25,6 +26,7 @@ from mealplan.shopping import Line, ShoppingList, fmt_qty
 GRAPH = "https://graph.microsoft.com/v1.0"
 SCOPES = ["Tasks.ReadWrite"]
 MARKER_PREFIX = "meal-plan:"
+ATTEMPTS = 5
 
 
 class NotLoggedIn(RuntimeError):
@@ -80,8 +82,10 @@ class GraphTodoClient:
         timeout: float = 30.0,
         transport: httpx.BaseTransport | None = None,
         token: str | None = None,
+        sleep: Callable[[float], None] = time.sleep,
     ) -> None:
         self.client_id = client_id
+        self._sleep = sleep
         self.tenant = tenant
         self.cache_path = (
             cache_path or Path.home() / ".config" / "meal-plan" / "ms_token_cache.json"
@@ -143,14 +147,22 @@ class GraphTodoClient:
             raise NotLoggedIn("No cached Microsoft login; run `mealplan todo login` first")
         return result["access_token"]
 
-    # ---- http with 429 back-off
+    # ---- http with retries: 429/503 honour Retry-After; timeouts and dropped connections
+    # (what the Saturday launchd job kept dying of) back off 1s, 2s, 4s, 8s before giving up.
     def _request(self, method: str, url: str, **kw: Any) -> httpx.Response:
-        for attempt in range(5):
-            resp = self.http.request(
-                method, url, headers={"Authorization": f"Bearer {self._token()}"}, **kw
-            )
-            if resp.status_code in (429, 503) and attempt < 4:
-                time.sleep(float(resp.headers.get("Retry-After", "2")))
+        for attempt in range(ATTEMPTS):
+            last = attempt == ATTEMPTS - 1
+            try:
+                resp = self.http.request(
+                    method, url, headers={"Authorization": f"Bearer {self._token()}"}, **kw
+                )
+            except httpx.TransportError:
+                if last:
+                    raise
+                self._sleep(float(2**attempt))
+                continue
+            if resp.status_code in (429, 503) and not last:
+                self._sleep(float(resp.headers.get("Retry-After", "2")))
                 continue
             resp.raise_for_status()
             return resp

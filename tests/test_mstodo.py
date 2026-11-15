@@ -1,6 +1,7 @@
 import json
 
 import httpx
+import pytest
 
 from mealplan.integrations.mstodo import (
     GraphTodoClient,
@@ -141,3 +142,34 @@ def test_graph_client_paths_and_pagination():
     assert client.create_task("L9", "x — 1 pc", "body", checklist=["a", "b"]) == "new"
     client.delete_task("L9", "t2")
     assert ("DELETE", "/v1.0/me/todo/lists/L9/tasks/t2", "") in calls
+
+
+def test_graph_client_retries_transient_network_errors():
+    attempts = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        attempts.append(request.method)
+        if len(attempts) == 1:
+            raise httpx.ReadTimeout("The read operation timed out", request=request)
+        if len(attempts) == 2:
+            raise httpx.RemoteProtocolError("Server disconnected", request=request)
+        return httpx.Response(204)
+
+    slept = []
+    client = GraphTodoClient(
+        None, transport=httpx.MockTransport(handler), token="tok", sleep=slept.append
+    )
+    client.delete_task("L9", "t2")
+    assert attempts == ["DELETE"] * 3
+    assert len(slept) == 2 and slept[0] < slept[1]  # backs off between attempts
+
+
+def test_graph_client_gives_up_after_repeated_network_errors():
+    def handler(request: httpx.Request) -> httpx.Response:
+        raise httpx.ReadTimeout("The read operation timed out", request=request)
+
+    client = GraphTodoClient(
+        None, transport=httpx.MockTransport(handler), token="tok", sleep=lambda _s: None
+    )
+    with pytest.raises(httpx.ReadTimeout):
+        client.delete_task("L9", "t2")
