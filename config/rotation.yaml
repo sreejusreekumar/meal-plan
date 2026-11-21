@@ -3,13 +3,12 @@
 # Repeat an entry to serve that cuisine more often.
 rotation:
   - kerala
-  - mediterranean
-  - north-indian
-  - sri-lankan
-  - thai
   - japanese
   - middle-eastern
   - korean
-  - mexican
   - vietnamese
+  - north-indian
+  - sri-lankan
+  - thai
+  - mexican
 
