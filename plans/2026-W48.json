@@ -1,0 +1,4134 @@
+{
+  "week": "2026-W48",
+  "startDate": "2026-11-23",
+  "cuisines": [
+    "korean"
+  ],
+  "packVersions": {
+    "korean": 1
+  },
+  "seed": "korean:2026-W48:korean=1:0",
+  "salt": 0,
+  "generatedAt": "2026-11-21T11:38:07+11:00",
+  "generator": "0.1.0",
+  "days": [
+    {
+      "date": "2026-11-23",
+      "dow": "Mon",
+      "cuisine": "korean",
+      "meals": {
+        "breakfast": [
+          "korean.breakfast.gyeran-jjim-and-brown-rice"
+        ],
+        "lunch": [
+          "korean.lunch.bulgogi"
+        ],
+        "snack": [
+          "korean.snack.gim-and-edamame"
+        ],
+        "dinner": [
+          "korean.dinner.dubu-jorim"
+        ]
+      },
+      "totals": {
+        "kcal": 1514.0,
+        "carbs": 147.0,
+        "fibre": 30.0,
+        "protein": 97.0,
+        "satFat": 10.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "dow": "Tue",
+      "cuisine": "korean",
+      "meals": {
+        "breakfast": [
+          "korean.breakfast.dubu-kimchi"
+        ],
+        "lunch": [
+          "korean.lunch.ojingeo-bokkeum"
+        ],
+        "snack": [
+          "korean.snack.quick-pickle-and-egg"
+        ],
+        "dinner": [
+          "korean.dinner.bibim-guksu"
+        ]
+      },
+      "totals": {
+        "kcal": 1510.0,
+        "carbs": 161.0,
+        "fibre": 27.0,
+        "protein": 90.0,
+        "satFat": 10.0,
+        "sugar": 2.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "dow": "Wed",
+      "cuisine": "korean",
+      "meals": {
+        "breakfast": [
+          "korean.breakfast.dak-juk"
+        ],
+        "lunch": [
+          "korean.lunch.haemul-pajeon"
+        ],
+        "snack": [
+          "korean.snack.kimchi-and-tofu"
+        ],
+        "dinner": [
+          "korean.dinner.kimchi-guk"
+        ]
+      },
+      "totals": {
+        "kcal": 1507.0,
+        "carbs": 151.0,
+        "fibre": 32.0,
+        "protein": 95.0,
+        "satFat": 9.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "dow": "Thu",
+      "cuisine": "korean",
+      "meals": {
+        "breakfast": [
+          "korean.breakfast.doenjang-jjigae-small"
+        ],
+        "lunch": [
+          "korean.lunch.saengseon-jjim"
+        ],
+        "snack": [
+          "korean.snack.gun-goguma"
+        ],
+        "dinner": [
+          "korean.dinner.saengseon-gui"
+        ]
+      },
+      "totals": {
+        "kcal": 1524.0,
+        "carbs": 167.0,
+        "fibre": 31.0,
+        "protein": 102.0,
+        "satFat": 7.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "dow": "Fri",
+      "cuisine": "korean",
+      "meals": {
+        "breakfast": [
+          "korean.breakfast.gyeran-mari"
+        ],
+        "lunch": [
+          "korean.lunch.dak-galbi"
+        ],
+        "snack": [
+          "korean.snack.roasted-chickpeas-gochugaru"
+        ],
+        "dinner": [
+          "korean.dinner.dak-gaejang"
+        ]
+      },
+      "totals": {
+        "kcal": 1543.0,
+        "carbs": 162.0,
+        "fibre": 32.0,
+        "protein": 103.0,
+        "satFat": 10.0,
+        "sugar": 1.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "dow": "Sat",
+      "cuisine": "korean",
+      "meals": {
+        "breakfast": [
+          "korean.breakfast.chamchi-deopbap"
+        ],
+        "lunch": [
+          "korean.lunch.kongbap-doenjang-jjigae"
+        ],
+        "snack": [
+          "korean.snack.gyeran-with-sesame-salt"
+        ],
+        "dinner": [
+          "korean.dinner.doenjang-jjigae"
+        ]
+      },
+      "totals": {
+        "kcal": 1522.0,
+        "carbs": 157.0,
+        "fibre": 34.0,
+        "protein": 94.0,
+        "satFat": 9.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    },
+    {
+      "date": "2026-11-29",
+      "dow": "Sun",
+      "cuisine": "korean",
+      "meals": {
+        "breakfast": [
+          "korean.breakfast.oats-with-nashi-and-walnuts"
+        ],
+        "lunch": [
+          "korean.lunch.godeungeo-gui"
+        ],
+        "snack": [
+          "korean.snack.walnuts-and-nashi-pear"
+        ],
+        "dinner": [
+          "korean.dinner.mushroom-tofu-jeongol"
+        ]
+      },
+      "totals": {
+        "kcal": 1586.0,
+        "carbs": 156.0,
+        "fibre": 33.0,
+        "protein": 90.0,
+        "satFat": 11.0,
+        "sugar": 0.0,
+        "refinedCarbDishes": 0.0
+      }
+    }
+  ],
+  "weekChecks": {
+    "fishLunches": 4,
+    "chicken": 3,
+    "redMeat": 1,
+    "legumeDishes": 10,
+    "eggMains": 5,
+    "treats": 0,
+    "vegDinners": 5,
+    "signatureDishes": 15
+  },
+  "recipes": {
+    "korean.breakfast.chamchi-deopbap": {
+      "id": "korean.breakfast.chamchi-deopbap",
+      "name": "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Leave the gochugaru out of the child's tuna and give their kimchi rinsed.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "tuna-rice",
+      "nutrition": {
+        "kcal": 354,
+        "carbs": 40.0,
+        "fibre": 6.0,
+        "protein": 22.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: brown rice bowl (45 g uncooked) topped with tuna (35 g) dressed in soy, sesame and gochugaru, and a fried egg",
+        "Cucumber and daikon slices with rice vinegar",
+        "Kimchi (60 g) and crumbled gim",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tuna (canned in springwater)",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 95.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "nori sheets",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g uncooked) or reheat rice from the night before.",
+        "Drain the tuna and flake it with the soy sauce, sesame oil, half the sesame seeds, sliced spring onion and gochugaru.",
+        "Slice the cucumber and daikon thinly and toss with the rice vinegar and a pinch of salt.",
+        "Fry the egg in a non-stick pan with no extra oil (or a wipe of the sesame-oil spoon), keeping the yolk soft.",
+        "Spoon the tuna over the rice, set the egg on top, scatter crumbled nori and the rest of the sesame seeds, and serve with the pickled cucumber, kimchi and barley tea."
+      ],
+      "swaps": [
+        {
+          "for": "tuna (canned in springwater)",
+          "use": "tofu (firm)",
+          "note": "60 g crumbled and warmed"
+        }
+      ],
+      "source": "Adapted from chamchi deopbap (Korean tuna rice bowl)"
+    },
+    "korean.breakfast.dak-juk": {
+      "id": "korean.breakfast.dak-juk",
+      "name": "Dak Juk (chicken & brown rice porridge) with Kimchi",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "The porridge itself is mild; serve the child's kimchi rinsed or leave it off.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Dak juk, the comforting Korean chicken and rice porridge simmered with garlic and ginger, often finished with egg and sesame.",
+      "family": "juk",
+      "nutrition": {
+        "kcal": 353,
+        "carbs": 41.0,
+        "fibre": 7.0,
+        "protein": 21.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl dak juk (brown rice and barley porridge with shredded chicken, carrot, shiitake and a swirled egg)",
+        "Kimchi (60 g)",
+        "Sesame seeds and spring onion to finish",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "brown rice",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "pearl barley",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "chicken breast",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "carrot",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the brown rice and barley; soak 20 minutes if there is time (or overnight).",
+        "Simmer the chicken breast with the ginger, garlic and the white of the spring onion in 500 ml water for 10 minutes; lift out the chicken and shred it.",
+        "Add the drained grains, diced carrot and sliced shiitake to the broth and simmer 25-30 minutes, stirring now and then, until the grains burst and the porridge is thick.",
+        "Return the shredded chicken, season with salt and pepper, then drizzle in the beaten egg while stirring so it sets in ribbons.",
+        "Finish with sesame oil, sesame seeds and green spring onion; serve with kimchi and the barley tea."
+      ],
+      "swaps": [
+        {
+          "for": "chicken breast",
+          "use": "tofu (firm)",
+          "note": "80 g diced, add in the last 5 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional dak juk"
+    },
+    "korean.breakfast.doenjang-jjigae-small": {
+      "id": "korean.breakfast.doenjang-jjigae-small",
+      "name": "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Leave the gochugaru out of the pot and sprinkle it on the adults' bowls; serve the child's kimchi rinsed.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Doenjang jjigae, the everyday Korean soybean-paste stew with tofu and vegetables that anchors a home breakfast table.",
+      "family": "doenjang",
+      "nutrition": {
+        "kcal": 352,
+        "carbs": 41.0,
+        "fibre": 6.0,
+        "protein": 21.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 small bowl doenjang jjigae with tofu, zucchini, mushroom and napa cabbage",
+        "1 small bowl brown rice (45 g uncooked)",
+        "1 boiled egg and kimchi (40 g)",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mushrooms",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "napa cabbage (wombok)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "doenjang",
+          "qty": 0.33,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "kimchi",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g uncooked, 1.5 times its volume of water, 35 minutes) or use rice from the night before; boil the egg 9 minutes and peel.",
+        "Bring 300 ml water to the boil in a small pot and dissolve the doenjang (1 teaspoon per person) through a sieve with the crushed garlic.",
+        "Add the sliced zucchini, mushrooms and shredded napa cabbage; simmer 6-7 minutes.",
+        "Add the tofu in cubes and simmer 3 minutes more; add the spring onion and the gochugaru for the adults.",
+        "Serve the stew with the rice, the halved egg and kimchi; pour the barley tea."
+      ],
+      "swaps": [
+        {
+          "for": "zucchini",
+          "use": "potato",
+          "note": "0.5 pc diced, add 5 minutes earlier"
+        }
+      ],
+      "source": "Adapted from the traditional doenjang jjigae"
+    },
+    "korean.breakfast.dubu-kimchi": {
+      "id": "korean.breakfast.dubu-kimchi",
+      "name": "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Stir-fry a spoon of rinsed kimchi separately for the child, or give them the tofu with bean sprouts and a dab of soy.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "dubu-kimchi",
+      "nutrition": {
+        "kcal": 369,
+        "carbs": 41.0,
+        "fibre": 6.0,
+        "protein": 19.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: dubu kimchi (warm tofu slices with stir-fried kimchi and spring onion)",
+        "1 small bowl brown rice (45 g uncooked)",
+        "Blanched bean sprouts with sesame",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "kimchi",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (45 g uncooked) or reheat rice from the night before.",
+        "Slice the tofu into thick slabs and warm them 3 minutes in simmering salted water; drain on a plate.",
+        "Blanch the bean sprouts 3 minutes in the same water, drain and toss with a pinch of salt and the sesame seeds.",
+        "Heat the rice bran oil, fry the garlic and sliced spring onion 30 seconds, add the chopped kimchi with a spoon of its juice and stir-fry 4-5 minutes until glossy; finish with the sesame oil.",
+        "Pile the kimchi beside the tofu and serve with the rice and bean sprouts; pour the barley tea."
+      ],
+      "swaps": [
+        {
+          "for": "bean sprouts",
+          "use": "cucumber",
+          "note": "0.5 pc sliced, dressed with rice vinegar"
+        }
+      ],
+      "source": "Adapted from the traditional dubu kimchi"
+    },
+    "korean.breakfast.gyeran-jjim-and-brown-rice": {
+      "id": "korean.breakfast.gyeran-jjim-and-brown-rice",
+      "name": "Gyeran Jjim & Brown Rice with Kimchi",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "The kimchi carries the chilli; give the child a small spoon of kimchi rinsed in water, or plain spinach namul instead.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Gyeran jjim, the Korean steamed egg custard, puffed up in a small pot and eaten with rice and kimchi.",
+      "family": "gyeran-jjim",
+      "nutrition": {
+        "kcal": 370,
+        "carbs": 37.0,
+        "fibre": 6.0,
+        "protein": 20.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 small pot gyeran jjim (steamed egg, 2 eggs) with spring onion",
+        "1 small bowl brown rice (45 g uncooked)",
+        "Kimchi (60 g) and sigeumchi namul (sesame spinach)",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "kimchi",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Rinse the brown rice and cook it in 1.5 times its volume of water, covered, for about 35 minutes (or use rice cooked the night before).",
+        "Whisk the eggs with 100 ml water, salt and most of the sliced spring onion until smooth.",
+        "Pour into a small lidded pot (a ttukbaegi or small saucepan), set it over low heat, and stir gently for 2-3 minutes as it thickens; then cover and leave 3-4 minutes until puffed and just set.",
+        "Blanch the spinach 30 seconds, squeeze dry, chop and toss with crushed garlic, soy sauce, sesame oil and sesame seeds.",
+        "Steep the barley tea bag in hot water; serve the gyeran jjim with the rice, kimchi and spinach namul alongside."
+      ],
+      "swaps": [
+        {
+          "for": "spinach",
+          "use": "bean sprouts",
+          "note": "blanch 3 minutes for kongnamul muchim"
+        }
+      ],
+      "source": "Adapted from the traditional gyeran jjim"
+    },
+    "korean.breakfast.gyeran-mari": {
+      "id": "korean.breakfast.gyeran-mari",
+      "name": "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Only the kimchi is spicy; give the child extra bean sprout namul and a rinsed spoon of kimchi.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Gyeran mari, the Korean rolled omelette flecked with carrot and spring onion, a lunchbox and breakfast staple.",
+      "family": "gyeran-mari",
+      "nutrition": {
+        "kcal": 375,
+        "carbs": 37.0,
+        "fibre": 6.0,
+        "protein": 21.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: gyeran mari (2-egg rolled omelette with carrot, spring onion and nori), sliced",
+        "1 small bowl brown rice (40 g uncooked)",
+        "Kongnamul muchim (sesame bean sprouts) and kimchi (60 g)",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "carrot",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.15,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "nori sheets",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (40 g uncooked per person) or use rice cooked the night before.",
+        "Blanch the bean sprouts 3 minutes, drain and toss with crushed garlic, soy sauce, sesame seeds and a pinch of salt.",
+        "Beat the eggs with salt, finely diced carrot and sliced spring onion.",
+        "Wipe a non-stick pan with the rice bran oil over low heat; pour in a thin layer of egg, lay the nori sheet on top, and when just set roll it from one side. Pour the remaining egg beside the roll and roll again to build the log.",
+        "Rest the omelette 2 minutes, slice into rounds and serve with the rice, bean sprouts and kimchi; pour the barley tea."
+      ],
+      "swaps": [
+        {
+          "for": "bean sprouts",
+          "use": "spinach",
+          "note": "0.5 bunch, blanch 30 seconds"
+        }
+      ],
+      "source": "Adapted from the traditional gyeran mari"
+    },
+    "korean.breakfast.oats-with-nashi-and-walnuts": {
+      "id": "korean.breakfast.oats-with-nashi-and-walnuts",
+      "name": "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg",
+      "slot": [
+        "breakfast"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": false,
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "oats",
+      "nutrition": {
+        "kcal": 378,
+        "carbs": 39.0,
+        "fibre": 8.0,
+        "protein": 18.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl rolled oats (35 g) simmered with a cinnamon stick, topped with low-fat yoghurt",
+        "Half a nashi pear, sliced, and walnuts (10 g)",
+        "1 boiled egg",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "rolled oats",
+          "qty": 35.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cinnamon stick",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "nashi pear",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "walnuts",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the egg 9 minutes, cool under the tap and peel.",
+        "Simmer the oats with 200 ml water, the piece of cinnamon stick and a pinch of salt for 6-8 minutes, stirring, until creamy; remove the cinnamon.",
+        "Slice the nashi pear thinly and roughly chop the walnuts.",
+        "Spoon the yoghurt over the oats, top with the pear and walnuts, and serve with the egg and the barley tea."
+      ],
+      "swaps": [
+        {
+          "for": "walnuts",
+          "use": "almonds",
+          "note": "same weight"
+        }
+      ],
+      "source": "Household oats breakfast with the Korean nashi-pear-and-cinnamon pairing (sujeonggwa flavours)"
+    },
+    "korean.dinner.bibim-guksu": {
+      "id": "korean.dinner.bibim-guksu",
+      "name": "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Toss the child's noodles with soy, vinegar and sesame oil only and leave the gochujang and kimchi for the adults.",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Bibim guksu, the Korean cold noodle dish tossed in a tangy gochujang dressing with cucumber, kimchi and a boiled egg.",
+      "family": "bibim-guksu",
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 50.0,
+        "fibre": 9.0,
+        "protein": 32.0,
+        "satFat": 4.0,
+        "sugar": 1.0
+      },
+      "components": [
+        "Primary: 50 g soba noodles tossed with 1 tsp gochujang, vinegar, soy and sesame dressing",
+        "2 boiled eggs and 50 g tofu cubes",
+        "Cucumber, shredded cabbage, bean sprouts and kimchi",
+        "Nori strips"
+      ],
+      "ingredients": [
+        {
+          "item": "soba noodles",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "tofu (firm)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "kimchi",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "cabbage",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "gochujang",
+          "qty": 0.33,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "nori sheets",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        }
+      ],
+      "steps": [
+        "Boil the eggs 9 minutes, cool in cold water and halve. Blanch the bean sprouts 2 minutes and drain.",
+        "Cook the soba in plenty of boiling water 4-5 minutes, then rinse under cold running water, rubbing the strands, and drain well.",
+        "Whisk the gochujang, gochugaru, soy sauce, rice vinegar, sesame oil, crushed garlic and 1 tablespoon of kimchi juice into a dressing.",
+        "Toss the noodles with the dressing, the sliced cucumber, finely shredded cabbage, bean sprouts and chopped kimchi.",
+        "Top with the eggs, tofu cubes and nori cut into strips; serve cold."
+      ],
+      "swaps": [
+        {
+          "for": "eggs",
+          "use": "chicken breast",
+          "note": "100 g poached and shredded"
+        }
+      ],
+      "source": "Adapted from the traditional bibim guksu"
+    },
+    "korean.dinner.dak-gaejang": {
+      "id": "korean.dinner.dak-gaejang",
+      "name": "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Take out the child's share of chicken and vegetables in the clear broth before the gochugaru oil goes in.",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 35,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "dak-gaejang",
+      "nutrition": {
+        "kcal": 480,
+        "carbs": 50.0,
+        "fibre": 11.0,
+        "protein": 39.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl dak gaejang (shredded chicken, bean sprouts, napa cabbage, mushrooms, zucchini and spring onion in a gochugaru broth)",
+        "Small bowl brown rice",
+        "Kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken breast",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "napa cabbage (wombok)",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 1.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10.",
+        "Simmer the chicken breast in 450 ml water with the ginger and half the spring onion for 15 minutes; lift out, shred, and keep the broth.",
+        "Stir the gochugaru into the sesame oil with the crushed garlic to make a chilli oil; add it to the broth with the soy sauce.",
+        "Add the napa cabbage in strips, the mushrooms and the zucchini in chunks and simmer 5 minutes; return the shredded chicken with the bean sprouts and the remaining spring onion in 5 cm lengths for 3 minutes.",
+        "Season with black pepper and serve with the kimchi and the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "chicken breast",
+          "use": "chicken thigh (boneless)",
+          "note": "simmer 20 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional dak gaejang"
+    },
+    "korean.dinner.doenjang-jjigae": {
+      "id": "korean.dinner.doenjang-jjigae",
+      "name": "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Doenjang is mild; skip the pinch of gochugaru in the child's bowl and give them a tiny taste of kimchi only.",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Doenjang jjigae, the everyday Korean fermented soybean-paste stew with tofu and vegetables.",
+      "family": "doenjang",
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 48.0,
+        "fibre": 12.0,
+        "protein": 33.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl doenjang jjigae (tofu, zucchini, mushrooms, shiitake and onion in soybean-paste broth)",
+        "Spinach namul with sesame oil",
+        "2/3 bowl brown rice",
+        "Kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "doenjang",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mushrooms",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10.",
+        "Dissolve the doenjang in 350 ml water with the crushed garlic; add the diced onion and the sliced shiitake and simmer 5 minutes.",
+        "Add the diced zucchini and sliced mushrooms and simmer 5 minutes more.",
+        "Slide in the tofu in cubes with the gochugaru; simmer gently 3-4 minutes and finish with spring onion.",
+        "Blanch the spinach 30 seconds, squeeze and dress with the sesame oil and a pinch of salt.",
+        "Serve the stew with the namul, kimchi and the rice; vegetables and stew first, rice last."
+      ],
+      "swaps": [
+        {
+          "for": "tofu (firm)",
+          "use": "prawns (chemmeen)",
+          "note": "120 g, added in the last 3 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional doenjang jjigae"
+    },
+    "korean.dinner.dubu-jorim": {
+      "id": "korean.dinner.dubu-jorim",
+      "name": "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Braise a couple of tofu slices in soy, garlic and spring onion only, before the gochugaru goes into the pan.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Dubu jorim, Korean pan-seared tofu braised in a soy, garlic and chilli-flake sauce, a staple banchan turned main.",
+      "family": "dubu-jorim",
+      "nutrition": {
+        "kcal": 505,
+        "carbs": 43.0,
+        "fibre": 9.0,
+        "protein": 33.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g dubu jorim (seared tofu braised in soy, garlic and gochugaru)",
+        "Bean sprout namul and stir-fried zucchini (hobak bokkeum)",
+        "2/3 bowl brown rice",
+        "Kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10.",
+        "Press the tofu dry and cut into 1 cm slabs; sear in the rice bran oil in a non-stick pan 3 minutes a side until golden.",
+        "Mix the soy sauce, gochugaru, crushed garlic, chopped spring onion and 60 ml water; pour over the tofu and simmer 5 minutes, spooning the sauce over, until it is glossy and nearly dry.",
+        "Blanch the bean sprouts 2 minutes, squeeze and dress with the sesame oil and a pinch of salt; stir-fry the half-moon zucchini slices in the tofu pan with a splash of water for 3 minutes.",
+        "Serve the tofu with the namul, zucchini, kimchi and the rice."
+      ],
+      "swaps": [
+        {
+          "for": "bean sprouts",
+          "use": "spinach",
+          "note": "0.5 bunch, blanch 30 seconds"
+        }
+      ],
+      "source": "Adapted from the traditional dubu jorim"
+    },
+    "korean.dinner.kimchi-guk": {
+      "id": "korean.dinner.kimchi-guk",
+      "name": "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "Rinse the child's share of kimchi and simmer it separately in the doenjang broth without gochugaru; the egg and tofu are mild.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "kimchi-guk",
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 49.0,
+        "fibre": 9.0,
+        "protein": 30.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl kimchi guk (kimchi, tofu, zucchini and bean sprouts in a light doenjang broth)",
+        "1 boiled egg",
+        "Small bowl brown rice"
+      ],
+      "ingredients": [
+        {
+          "item": "kimchi",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "tofu (firm)",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "doenjang",
+          "qty": 0.5,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10. Boil the egg 9 minutes, cool and halve.",
+        "Warm the sesame oil in a pot and stir the chopped kimchi with its juice, the crushed garlic and gochugaru for 3 minutes.",
+        "Add 400 ml water and the doenjang; simmer 10 minutes until the kimchi softens and the broth is light red.",
+        "Add the zucchini in chunks and simmer 4 minutes, then the tofu cubes and bean sprouts for 3 more; finish with spring onion.",
+        "Serve the soup with the egg halves and the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "tofu (firm)",
+          "use": "prawns (chemmeen)",
+          "note": "100 g, last 3 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional kimchi guk"
+    },
+    "korean.dinner.mushroom-tofu-jeongol": {
+      "id": "korean.dinner.mushroom-tofu-jeongol",
+      "name": "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "Simmer the child's tofu and vegetables in the plain doenjang broth; the gochugaru is added at the table for the adults.",
+      "packable": false,
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "jeongol",
+      "nutrition": {
+        "kcal": 490,
+        "carbs": 47.0,
+        "fibre": 11.0,
+        "protein": 32.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl beoseot dubu jeongol (tofu, shiitake, mushrooms, napa cabbage, zucchini and carrot simmered in a doenjang-soy broth)",
+        "2/3 bowl brown rice",
+        "Kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "mushrooms",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "napa cabbage (wombok)",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "doenjang",
+          "qty": 0.5,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10.",
+        "Make the broth: simmer the shiitake stems, crushed garlic, doenjang and soy sauce in 400 ml water for 10 minutes, then strain back into a shallow wide pot.",
+        "Arrange the tofu slabs, shiitake caps, mushrooms, napa cabbage, zucchini half-moons and carrot slices in neat sections in the pot and pour the hot broth over.",
+        "Bring to the table (or keep on the stove) and simmer 8-10 minutes until the vegetables are tender; scatter the spring onion in 5 cm lengths and the gochugaru over the adults' side.",
+        "Finish with the sesame oil and serve with kimchi and the rice, eating the vegetables and tofu from the pot first."
+      ],
+      "swaps": [
+        {
+          "for": "tofu (firm)",
+          "use": "firm white fish fillet",
+          "note": "120 g in chunks, added for the last 5 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional beoseot jeongol"
+    },
+    "korean.dinner.saengseon-gui": {
+      "id": "korean.dinner.saengseon-gui",
+      "name": "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+      "slot": [
+        "dinner"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "medium",
+      "kidNote": "The fish and namul carry no chilli; give the child plain grated daikon instead of the gochugaru salad and kimchi.",
+      "packable": false,
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Saengseon gui, Korean simply grilled fish seasoned with salt and served with rice and banchan.",
+      "family": "grilled-fish",
+      "nutrition": {
+        "kcal": 500,
+        "carbs": 46.0,
+        "fibre": 9.0,
+        "protein": 39.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g grilled white fish with lemon",
+        "Spinach namul and bean sprout namul",
+        "Daikon salad (musaengchae) with gochugaru and kimchi",
+        "Small bowl brown rice"
+      ],
+      "ingredients": [
+        {
+          "item": "firm white fish fillet",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10.",
+        "Salt the fish and leave 10 minutes; pat dry and grind over black pepper.",
+        "Blanch the spinach 30 seconds and the bean sprouts 2 minutes; squeeze and dress with crushed garlic, soy sauce, sesame oil and sesame seeds.",
+        "Cut the daikon into fine matchsticks, salt lightly, squeeze after 5 minutes and toss with rice vinegar and gochugaru.",
+        "Brush the fish with the rice bran oil and grill or pan-grill over medium-high heat 4 minutes a side until the edges crisp; squeeze the lemon over.",
+        "Plate the kimchi, daikon salad and namul first, then the fish and the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "firm white fish fillet",
+          "use": "mackerel (ayala)",
+          "note": "1 fish, 6 minutes a side"
+        }
+      ],
+      "source": "Adapted from the traditional saengseon gui"
+    },
+    "korean.lunch.bulgogi": {
+      "id": "korean.lunch.bulgogi",
+      "name": "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "beef",
+      "lean": true,
+      "tags": [
+        "packable"
+      ],
+      "spice": "medium",
+      "kidNote": "The bulgogi itself is not hot; serve the child's plate with a little plain cucumber instead of kimchi.",
+      "packable": true,
+      "prepMinutes": 20,
+      "cookMinutes": 20,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Bulgogi, Korea's thin-sliced marinated beef grilled hot and fast, usually eaten wrapped in lettuce leaves.",
+      "family": "bulgogi",
+      "nutrition": {
+        "kcal": 520,
+        "carbs": 61.0,
+        "fibre": 10.0,
+        "protein": 34.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 120 g bulgogi (lean beef strips in nashi pear, soy, garlic and sesame marinade) with onion and mushrooms",
+        "Cos lettuce leaves and carrot sticks for wrapping",
+        "1 small bowl brown rice",
+        "Kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "lean beef strips",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "nashi pear",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "black pepper",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mushrooms",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        }
+      ],
+      "steps": [
+        "Grate the nashi pear, garlic and ginger; mix with the soy sauce, sesame oil and black pepper and marinate the beef strips at least 30 minutes (the pear tenderises and sweetens without sugar).",
+        "Cook the brown rice: rinse, add 1.5 times its volume of water, cover and simmer 35 minutes, then rest.",
+        "Slice the onion and mushrooms; cut the carrot into sticks and wash and separate the lettuce leaves.",
+        "Heat a heavy pan or grill plate very hot; sear the beef with the onion and mushrooms in a single layer for 3-4 minutes, tossing once, so it chars rather than stews.",
+        "Finish with the sliced spring onion and serve with the lettuce leaves, carrot, kimchi and 1 small bowl of rice; wrap a little beef and rice in each leaf."
+      ],
+      "swaps": [
+        {
+          "for": "lean beef strips",
+          "use": "chicken thigh (boneless)",
+          "note": "same marinade, cook 6-8 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional bulgogi"
+    },
+    "korean.lunch.dak-galbi": {
+      "id": "korean.lunch.dak-galbi",
+      "name": "Dak Galbi with Cabbage & Sweet Potato",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "chicken",
+      "lean": false,
+      "tags": [
+        "packable"
+      ],
+      "spice": "medium",
+      "kidNote": "Pan-fry a share of the chicken, cabbage and sweet potato in soy and garlic before adding the gochujang-gochugaru paste to the rest.",
+      "packable": true,
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Dak galbi, the spicy stir-fried chicken with cabbage and sweet potato from Chuncheon, cooked on a big hot plate.",
+      "family": "dak-galbi",
+      "nutrition": {
+        "kcal": 550,
+        "carbs": 59.0,
+        "fibre": 10.0,
+        "protein": 37.0,
+        "satFat": 4.0,
+        "sugar": 1.0
+      },
+      "components": [
+        "Primary: 150 g dak galbi (chicken thigh in gochujang-gochugaru paste) with cabbage, onion and half a sweet potato",
+        "2/3 bowl brown rice",
+        "Spring onion and sesame to finish"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken thigh (boneless)",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "meat",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "cabbage",
+          "qty": 100.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "sweet potato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "gochujang",
+          "qty": 0.33,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "brown rice",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice (rinse, 1.5 times water, covered 35 minutes); it is a smaller bowl today because the sweet potato carries part of the carbohydrate.",
+        "Mix the gochujang, gochugaru, soy sauce, crushed garlic and ginger into a paste; cut the chicken thigh into bite-size pieces and coat them.",
+        "Cut the sweet potato into 1 cm slices, the cabbage into wide ribbons and the onion into wedges.",
+        "Heat the rice bran oil in a wide pan; lay in the sweet potato and chicken and cook 5 minutes without moving, then turn.",
+        "Add the cabbage and onion with a splash of water, cover 5 minutes, then uncover and stir-fry until the chicken is cooked through and the paste clings to everything.",
+        "Scatter the spring onion and sesame seeds; serve with the rice. Packs well; reheat gently."
+      ],
+      "swaps": [
+        {
+          "for": "chicken thigh (boneless)",
+          "use": "chicken breast",
+          "note": "cut thicker and cook 2 minutes less"
+        }
+      ],
+      "source": "Adapted from the traditional dak galbi"
+    },
+    "korean.lunch.godeungeo-gui": {
+      "id": "korean.lunch.godeungeo-gui",
+      "name": "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [],
+      "spice": "medium",
+      "kidNote": "The fish and namul are not hot; give the child plain grated carrot instead of kimchi.",
+      "packable": false,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Godeungeo gui, Korean salt-grilled mackerel, a staple of home meals and market canteens.",
+      "family": "grilled-mackerel",
+      "nutrition": {
+        "kcal": 540,
+        "carbs": 55.0,
+        "fibre": 9.0,
+        "protein": 35.0,
+        "satFat": 4.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 grilled mackerel with lemon",
+        "Spinach namul and bean sprout namul",
+        "1 small bowl brown rice",
+        "Kimchi and grated carrot"
+      ],
+      "ingredients": [
+        {
+          "item": "mackerel (ayala)",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "fish",
+          "staple": false
+        },
+        {
+          "item": "salt",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "lemon",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spinach",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "kimchi",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10.",
+        "Butterfly or fillet the mackerel, score the skin, salt it and leave 10 minutes; pat dry.",
+        "Blanch the spinach 30 seconds and the bean sprouts 2 minutes; squeeze dry and dress each with crushed garlic, a few drops of sesame oil, soy sauce and sesame seeds.",
+        "Grill or pan-grill the mackerel skin-side down over medium-high heat for 5-6 minutes, turn and give it 3 more; squeeze the lemon over.",
+        "Plate the kimchi and grated carrot, the two namul, the mackerel and the small bowl of rice; eat vegetables first, rice last."
+      ],
+      "swaps": [
+        {
+          "for": "mackerel (ayala)",
+          "use": "salmon fillet",
+          "note": "100 g, grill 4 minutes a side"
+        }
+      ],
+      "source": "Adapted from the traditional godeungeo gui"
+    },
+    "korean.lunch.haemul-pajeon": {
+      "id": "korean.lunch.haemul-pajeon",
+      "name": "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "packable"
+      ],
+      "spice": "medium",
+      "kidNote": "Serve the child's dipping sauce without gochugaru and give them cucumber instead of kimchi.",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "pajeon",
+      "nutrition": {
+        "kcal": 535,
+        "carbs": 55.0,
+        "fibre": 13.0,
+        "protein": 34.0,
+        "satFat": 3.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 whole-wheat haemul pajeon (40 g atta, egg, prawns, spring onion, zucchini) pan-fried in 1 tsp oil",
+        "Soy, vinegar and gochugaru dipping sauce",
+        "Half a roasted sweet potato",
+        "Cos lettuce, cucumber and carrot salad with sesame; kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "whole-wheat atta",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "prawns (chemmeen)",
+          "qty": 120.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.5,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "sweet potato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cos lettuce",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Roast the sweet potato half in its skin at 200 C for 30 minutes (or microwave 5 minutes then crisp in a pan).",
+        "Whisk the atta with the egg, a pinch of salt and about 60 ml cold water to a thin batter; fold in the spring onion cut into 5 cm lengths, coarsely grated zucchini and the chopped prawns.",
+        "Heat the rice bran oil in a non-stick pan; pour in the batter as one large thin pancake and cook 4-5 minutes until the base is golden and set, flip and cook 3 more.",
+        "Mix the soy sauce, rice vinegar and gochugaru for dipping. Toss the torn lettuce, sliced cucumber and carrot sticks with the sesame seeds.",
+        "Cut the pancake into wedges and serve with the sauce, sweet potato, salad and kimchi; it is good cold from a lunchbox."
+      ],
+      "swaps": [
+        {
+          "for": "prawns (chemmeen)",
+          "use": "squid",
+          "note": "finely chopped"
+        }
+      ],
+      "source": "Adapted from the traditional haemul pajeon"
+    },
+    "korean.lunch.kongbap-doenjang-jjigae": {
+      "id": "korean.lunch.kongbap-doenjang-jjigae",
+      "name": "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "packable"
+      ],
+      "spice": "medium",
+      "kidNote": "Leave the gochugaru out of the child's ladle of stew; doenjang itself is mild and savoury.",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 40,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "kongbap",
+      "nutrition": {
+        "kcal": 545,
+        "carbs": 63.0,
+        "fibre": 13.0,
+        "protein": 30.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 bowl doenjang jjigae (soybean-paste stew with tofu, zucchini, mushrooms and onion)",
+        "1 small bowl kongbap: brown rice cooked with pearl barley and edamame",
+        "Cucumber in rice vinegar and sesame oil",
+        "Kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "brown rice",
+          "qty": 45.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "pearl barley",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "tofu (firm)",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "doenjang",
+          "qty": 1.0,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "mushrooms",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        }
+      ],
+      "steps": [
+        "Soak the pearl barley 30 minutes if you can; rinse with the brown rice, add the edamame and 1.6 times the volume of water, cover and simmer 35-40 minutes, then rest.",
+        "Dissolve the doenjang in 350 ml water in a pot with the crushed garlic; add the diced onion and simmer 5 minutes.",
+        "Add the diced zucchini and sliced mushrooms, simmer 5 minutes, then the tofu in cubes and the gochugaru for 3 more; finish with spring onion.",
+        "Slice the cucumber thinly and toss with rice vinegar, a few drops of the sesame oil and a pinch of salt.",
+        "Serve the kongbap with the stew, cucumber and kimchi; drizzle the remaining sesame oil over the rice."
+      ],
+      "swaps": [
+        {
+          "for": "pearl barley",
+          "use": "brown rice",
+          "note": "use 60 g rice in total"
+        }
+      ],
+      "source": "Adapted from the traditional kongbap and doenjang jjigae"
+    },
+    "korean.lunch.ojingeo-bokkeum": {
+      "id": "korean.lunch.ojingeo-bokkeum",
+      "name": "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "quick",
+        "packable"
+      ],
+      "spice": "medium",
+      "kidNote": "Stir-fry a few squid rings and vegetables with soy and garlic only before the gochujang and gochugaru go into the pan.",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "squid",
+      "nutrition": {
+        "kcal": 530,
+        "carbs": 64.0,
+        "fibre": 9.0,
+        "protein": 32.0,
+        "satFat": 2.0,
+        "sugar": 1.0
+      },
+      "components": [
+        "Primary: 150 g spicy squid stir-fry with onion, carrot and cabbage",
+        "1 small bowl brown rice",
+        "Kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "squid",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "onion",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cabbage",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "gochujang",
+          "qty": 0.33,
+          "unit": "tbsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10.",
+        "Score the squid body in a diamond pattern and cut into bite-size pieces; pat very dry. Mix the gochujang, gochugaru, soy sauce, crushed garlic and ginger into a paste.",
+        "Heat the rice bran oil in a wide pan until smoking; stir-fry the onion, carrot and cabbage 3 minutes.",
+        "Add the squid and the paste and toss over the highest heat for 2-3 minutes only, until the squid curls and turns opaque.",
+        "Finish with spring onion and the sesame oil; serve with kimchi and the small bowl of rice."
+      ],
+      "swaps": [
+        {
+          "for": "squid",
+          "use": "prawns (chemmeen)",
+          "note": "same timing"
+        }
+      ],
+      "source": "Adapted from the traditional ojingeo bokkeum"
+    },
+    "korean.lunch.saengseon-jjim": {
+      "id": "korean.lunch.saengseon-jjim",
+      "name": "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+      "slot": [
+        "lunch"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "fish",
+      "lean": false,
+      "tags": [
+        "packable"
+      ],
+      "spice": "medium",
+      "kidNote": "Hold back the gochugaru from the steaming sauce and serve the child's kimchi as a tiny taste only.",
+      "packable": true,
+      "prepMinutes": 15,
+      "cookMinutes": 25,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Saengseon jjim, Korean steamed fish finished with soy, ginger, spring onion and a little chilli.",
+      "family": "steamed-fish",
+      "nutrition": {
+        "kcal": 520,
+        "carbs": 60.0,
+        "fibre": 11.0,
+        "protein": 38.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 150 g steamed white fish with soy, ginger, shiitake and spring onion",
+        "Bean sprout and zucchini namul with carrot",
+        "1 small bowl brown rice",
+        "Kimchi"
+      ],
+      "ingredients": [
+        {
+          "item": "firm white fish fillet",
+          "qty": 150.0,
+          "unit": "g",
+          "aisle": "fish",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "ginger",
+          "qty": 3.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 25.0
+        },
+        {
+          "item": "garlic",
+          "qty": 4.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.25,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "shiitake mushrooms",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame oil",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "bean sprouts",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "zucchini",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "kimchi",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "brown rice",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        }
+      ],
+      "steps": [
+        "Cook the brown rice: rinse, 1.5 times water, covered 35 minutes, rest 10.",
+        "Lay the fish on a heatproof plate with the sliced shiitake, julienned ginger and half the spring onion; spoon over the soy sauce mixed with rice vinegar, garlic and gochugaru.",
+        "Steam the plate over boiling water, covered, for 10-12 minutes until the fish flakes.",
+        "Meanwhile blanch the bean sprouts 2 minutes; cut the zucchini and carrot into matchsticks and soften them in a dry pan 3 minutes; dress all with the sesame oil, sesame seeds and a pinch of salt.",
+        "Finish the fish with the rest of the spring onion and serve with the namul, kimchi and the small bowl of rice. Packs well cold."
+      ],
+      "swaps": [
+        {
+          "for": "firm white fish fillet",
+          "use": "salmon fillet",
+          "note": "100 g, steam 8 minutes"
+        }
+      ],
+      "source": "Adapted from the traditional saengseon jjim"
+    },
+    "korean.snack.gim-and-edamame": {
+      "id": "korean.snack.gim-and-edamame",
+      "name": "Gim (roasted nori) with Edamame & Barley Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Gim, Korean roasted and lightly salted seaweed sheets, the everyday nibble eaten on their own or wrapped around rice.",
+      "family": "gim",
+      "nutrition": {
+        "kcal": 119,
+        "carbs": 6.0,
+        "fibre": 5.0,
+        "protein": 10.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 2 sheets gim, brushed with sesame oil, salted and toasted, torn into squares",
+        "Edamame (60 g) with sesame seeds and cucumber sticks",
+        "Roasted barley tea (boricha), hot or iced"
+      ],
+      "ingredients": [
+        {
+          "item": "nori sheets",
+          "qty": 2.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "edamame (frozen)",
+          "qty": 60.0,
+          "unit": "g",
+          "aisle": "frozen",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the edamame 4 minutes in lightly salted water, drain and toss with the sesame seeds.",
+        "Brush the nori sheets with the sesame oil, sprinkle a few grains of salt and toast 20 seconds a side in a dry pan until crisp; snip into squares.",
+        "Cut the cucumber into sticks and steep the barley tea bag in hot water (or pour over ice).",
+        "Serve the gim, edamame and cucumber together with the tea."
+      ],
+      "swaps": [
+        {
+          "for": "edamame (frozen)",
+          "use": "tofu (firm)",
+          "note": "80 g cubes with a dab of soy"
+        }
+      ],
+      "source": "Adapted from the Korean gim and edamame nibble"
+    },
+    "korean.snack.gun-goguma": {
+      "id": "korean.snack.gun-goguma",
+      "name": "Gun Goguma (roasted sweet potato) with Kimchi, Almonds & Barley Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "none",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "kidNote": "Rinse the child's kimchi, or serve the sweet potato with the almonds only.",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "sweet-potato",
+      "nutrition": {
+        "kcal": 152,
+        "carbs": 20.0,
+        "fibre": 5.0,
+        "protein": 4.0,
+        "satFat": 0.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: half a small roasted sweet potato (gun goguma, about 100 g), eaten from the skin",
+        "Kimchi (40 g) and almonds (10 g)",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "sweet potato",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "kimchi",
+          "qty": 40.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "almonds",
+          "qty": 10.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Scrub and halve a small sweet potato; prick the skin.",
+        "Roast in an air fryer or hot oven (220 C) for about 15 minutes until the flesh is soft and the cut side caramelised (or microwave 4 minutes, then crisp 5 minutes in the oven).",
+        "Steep the barley tea bag in hot water.",
+        "Serve the sweet potato in its skin, Korean street-stall style, with a spoon of kimchi and the almonds alongside."
+      ],
+      "swaps": [
+        {
+          "for": "almonds",
+          "use": "walnuts",
+          "note": "same weight"
+        }
+      ],
+      "source": "Adapted from the Korean winter street snack gun goguma"
+    },
+    "korean.snack.gyeran-with-sesame-salt": {
+      "id": "korean.snack.gyeran-with-sesame-salt",
+      "name": "Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Gyeran, the boiled egg sold warm at every Korean bathhouse and train station, eaten with a dip of sesame salt.",
+      "family": "eggs",
+      "nutrition": {
+        "kcal": 123,
+        "carbs": 6.0,
+        "fibre": 3.0,
+        "protein": 9.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: 1 boiled egg with a dip of toasted sesame salt",
+        "Carrot and cucumber sticks with a sheet of gim",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "carrot",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "nori sheets",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": false
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Boil the egg 9-10 minutes, cool under the tap and peel.",
+        "Toast the sesame seeds in a dry pan 1 minute, then crush with the salt to make sesame salt.",
+        "Cut the carrot and cucumber into sticks; toast the nori sheet briefly and cut into strips.",
+        "Steep the barley tea bag in hot water and serve everything together."
+      ],
+      "swaps": [
+        {
+          "for": "carrot",
+          "use": "daikon radish",
+          "note": "0.25 pc in sticks"
+        }
+      ],
+      "source": "Adapted from the Korean boiled-egg snack (gyeran)"
+    },
+    "korean.snack.kimchi-and-tofu": {
+      "id": "korean.snack.kimchi-and-tofu",
+      "name": "Kimchi with Warm Tofu Cubes & Green Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "kidNote": "Rinse the child's kimchi under the tap, or give them the tofu with cucumber and a dab of soy instead.",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 5,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": true,
+      "basedOn": "Dubu kimchi in its simplest form, warm tofu with kimchi, a Korean anju and after-school plate.",
+      "family": "kimchi-tofu",
+      "nutrition": {
+        "kcal": 119,
+        "carbs": 6.0,
+        "fibre": 3.0,
+        "protein": 10.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: warm tofu cubes (80 g) with sesame oil, soy and spring onion",
+        "Kimchi (80 g) and cucumber slices",
+        "Green tea, unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "tofu (firm)",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "kimchi",
+          "qty": 80.0,
+          "unit": "g",
+          "aisle": "pantry",
+          "staple": false,
+          "packSize": 200.0
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "sesame oil",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "soy sauce (low-sodium)",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 1.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "spring onion",
+          "qty": 0.1,
+          "unit": "bunch",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cut the tofu into cubes and warm 2-3 minutes in simmering water (or 1 minute in the microwave); drain.",
+        "Drizzle the tofu with the sesame oil and soy sauce, scatter the sesame seeds and sliced spring onion.",
+        "Chop the kimchi, slice the cucumber and arrange beside the tofu.",
+        "Brew the green tea for 2 minutes and serve alongside."
+      ],
+      "swaps": [
+        {
+          "for": "kimchi",
+          "use": "cucumber",
+          "note": "0.5 pc dressed with rice vinegar and sesame for a mild version"
+        }
+      ],
+      "source": "Adapted from the traditional dubu kimchi"
+    },
+    "korean.snack.quick-pickle-and-egg": {
+      "id": "korean.snack.quick-pickle-and-egg",
+      "name": "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "egg",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 10,
+      "cookMinutes": 10,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "pickle",
+      "nutrition": {
+        "kcal": 111,
+        "carbs": 6.0,
+        "fibre": 3.0,
+        "protein": 7.0,
+        "satFat": 2.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: quick pickle (jangajji-style) of cucumber, daikon and carrot in rice vinegar, garlic and salt",
+        "1 boiled egg with sesame seeds",
+        "Green tea, unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "cucumber",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "daikon radish",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "carrot",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "rice vinegar",
+          "qty": 2.0,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "garlic",
+          "qty": 2.0,
+          "unit": "g",
+          "aisle": "produce",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "salt",
+          "qty": 0.15,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "eggs",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 12.0
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Cut the cucumber, daikon and carrot into thin batons; toss with the rice vinegar, sliced garlic, salt and 2 tablespoons water, and leave to pickle 15 minutes.",
+        "Meanwhile boil the egg 9-10 minutes, cool under the tap, peel and halve; sprinkle with the sesame seeds.",
+        "Brew the green tea for 2 minutes.",
+        "Drain the pickle and serve with the egg and the tea."
+      ],
+      "swaps": [
+        {
+          "for": "daikon radish",
+          "use": "napa cabbage (wombok)",
+          "note": "50 g shredded"
+        }
+      ],
+      "source": "Adapted from Korean quick pickles (jangajji)"
+    },
+    "korean.snack.roasted-chickpeas-gochugaru": {
+      "id": "korean.snack.roasted-chickpeas-gochugaru",
+      "name": "Gochugaru Roasted Chickpeas with Green Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "legume",
+      "lean": false,
+      "tags": [],
+      "spice": "mild",
+      "kidNote": "Roast the child's share plain with salt and sesame, no gochugaru.",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "chickpeas",
+      "nutrition": {
+        "kcal": 138,
+        "carbs": 16.0,
+        "fibre": 5.0,
+        "protein": 6.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: crunchy roasted chickpeas (30 g dry weight) with gochugaru, sesame and salt",
+        "Cucumber slices",
+        "Green tea, unsweetened"
+      ],
+      "ingredients": [
+        {
+          "item": "white chickpeas (chana)",
+          "qty": 30.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "rice bran oil",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "gochugaru (korean chilli flakes)",
+          "qty": 0.25,
+          "unit": "tsp",
+          "aisle": "spices",
+          "staple": true
+        },
+        {
+          "item": "sesame seeds",
+          "qty": 0.5,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "salt",
+          "qty": 0.1,
+          "unit": "tsp",
+          "aisle": "pantry",
+          "staple": true
+        },
+        {
+          "item": "cucumber",
+          "qty": 0.25,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "green tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Use chickpeas soaked and boiled in a batch earlier in the week (30 g dry per person, about 75 g cooked); pat them completely dry.",
+        "Toss with the rice bran oil, gochugaru and salt; spread on a tray.",
+        "Roast in an air fryer or hot oven (220 C) for 12-15 minutes, shaking once, until crisp; scatter the sesame seeds for the last minute.",
+        "Brew the green tea and serve the chickpeas warm with cucumber slices."
+      ],
+      "swaps": [
+        {
+          "for": "white chickpeas (chana)",
+          "use": "edamame (frozen)",
+          "note": "60 g, roast 10 minutes"
+        }
+      ],
+      "source": "Household roasted-chickpea snack with Korean seasoning"
+    },
+    "korean.snack.walnuts-and-nashi-pear": {
+      "id": "korean.snack.walnuts-and-nashi-pear",
+      "name": "Walnuts with Nashi Pear, Yoghurt & Barley Tea",
+      "slot": [
+        "snack"
+      ],
+      "role": "main",
+      "cuisine": "korean",
+      "protein": "dairy",
+      "lean": false,
+      "tags": [
+        "quick"
+      ],
+      "spice": "mild",
+      "packable": true,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "effort": "weekday",
+      "treat": false,
+      "refinedCarb": false,
+      "signature": false,
+      "family": "walnuts",
+      "nutrition": {
+        "kcal": 178,
+        "carbs": 15.0,
+        "fibre": 5.0,
+        "protein": 5.0,
+        "satFat": 1.0,
+        "sugar": 0.0
+      },
+      "components": [
+        "Primary: half a nashi pear (bae), sliced, with walnuts (15 g)",
+        "Low-fat yoghurt (50 g) for dipping",
+        "Roasted barley tea (boricha)"
+      ],
+      "ingredients": [
+        {
+          "item": "nashi pear",
+          "qty": 0.5,
+          "unit": "pc",
+          "aisle": "produce",
+          "staple": false
+        },
+        {
+          "item": "walnuts",
+          "qty": 15.0,
+          "unit": "g",
+          "aisle": "grains",
+          "staple": false,
+          "packSize": 50.0
+        },
+        {
+          "item": "low-fat yoghurt (curd)",
+          "qty": 50.0,
+          "unit": "g",
+          "aisle": "dairy",
+          "staple": false,
+          "packSize": 100.0
+        },
+        {
+          "item": "roasted barley tea bags",
+          "qty": 1.0,
+          "unit": "pc",
+          "aisle": "pantry",
+          "staple": true
+        }
+      ],
+      "steps": [
+        "Core and slice half a nashi pear; squeeze a little lemon or water over if it will sit a while.",
+        "Toast the walnuts 2 minutes in a dry pan for extra crunch, or serve raw.",
+        "Steep the barley tea bag in hot water (or pour over ice).",
+        "Serve the pear and walnuts with the yoghurt as a dip and the tea."
+      ],
+      "swaps": [
+        {
+          "for": "walnuts",
+          "use": "almonds",
+          "note": "same weight"
+        }
+      ],
+      "source": "Korean nashi pear (bae) and walnut after-meal plate"
+    }
+  }
+}

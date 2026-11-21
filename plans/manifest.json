@@ -1,7 +1,7 @@
 {
-  "version": "f943012afa97",
+  "version": "2d8716a958be",
   "current": "2026-W47",
-  "next": null,
+  "next": "2026-W48",
   "weeks": [
     {
       "week": "2026-W43",
@@ -42,6 +42,14 @@
         "middle-eastern"
       ],
       "file": "2026-W47.json"
+    },
+    {
+      "week": "2026-W48",
+      "startDate": "2026-11-23",
+      "cuisines": [
+        "korean"
+      ],
+      "file": "2026-W48.json"
     }
   ]
 }

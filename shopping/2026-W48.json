@@ -1,0 +1,861 @@
+{
+  "week": "2026-W48",
+  "servings": 4.59,
+  "buy": [
+    {
+      "item": "bean sprouts",
+      "qty": 3100.0,
+      "exact": 3029.4,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice"
+      ]
+    },
+    {
+      "item": "cabbage",
+      "qty": 1200.0,
+      "exact": 1101.6,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Dak Galbi with Cabbage & Sweet Potato"
+      ]
+    },
+    {
+      "item": "carrot",
+      "qty": 19.0,
+      "exact": 18.36,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "cos lettuce",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato"
+      ]
+    },
+    {
+      "item": "cucumber",
+      "qty": 15.0,
+      "exact": 14.92,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Gim (roasted nori) with Edamame & Barley Tea",
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Kimchi with Warm Tofu Cubes & Green Tea",
+        "Gochugaru Roasted Chickpeas with Green Tea",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea"
+      ]
+    },
+    {
+      "item": "daikon radish",
+      "qty": 4.0,
+      "exact": 3.44,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber"
+      ]
+    },
+    {
+      "item": "garlic",
+      "qty": 350.0,
+      "exact": 321.3,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "ginger",
+      "qty": 100.0,
+      "exact": 82.62,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice"
+      ]
+    },
+    {
+      "item": "lemon",
+      "qty": 3.0,
+      "exact": 2.29,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice"
+      ]
+    },
+    {
+      "item": "mushrooms",
+      "qty": 1700.0,
+      "exact": 1698.3,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "napa cabbage (wombok)",
+      "qty": 1200.0,
+      "exact": 1055.7,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "nashi pear",
+      "qty": 6.0,
+      "exact": 5.74,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg",
+        "Walnuts with Nashi Pear, Yoghurt & Barley Tea"
+      ]
+    },
+    {
+      "item": "onion",
+      "qty": 12.0,
+      "exact": 11.47,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms"
+      ]
+    },
+    {
+      "item": "shiitake mushrooms",
+      "qty": 750.0,
+      "exact": 734.4,
+      "unit": "g",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "spinach",
+      "qty": 10.0,
+      "exact": 9.18,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice"
+      ]
+    },
+    {
+      "item": "spring onion",
+      "qty": 20.0,
+      "exact": 19.51,
+      "unit": "bunch",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Kimchi with Warm Tofu Cubes & Green Tea",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "sweet potato",
+      "qty": 7.0,
+      "exact": 6.88,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Gun Goguma (roasted sweet potato) with Kimchi, Almonds & Barley Tea",
+        "Dak Galbi with Cabbage & Sweet Potato"
+      ]
+    },
+    {
+      "item": "zucchini",
+      "qty": 21.0,
+      "exact": 20.66,
+      "unit": "pc",
+      "aisle": "produce",
+      "staple": false,
+      "recipes": [
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "firm white fish fillet",
+      "qty": 1400.0,
+      "exact": 1377.0,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice"
+      ]
+    },
+    {
+      "item": "mackerel (ayala)",
+      "qty": 5.0,
+      "exact": 4.59,
+      "unit": "pc",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice"
+      ]
+    },
+    {
+      "item": "prawns (chemmeen)",
+      "qty": 600.0,
+      "exact": 550.8,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato"
+      ]
+    },
+    {
+      "item": "squid",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "fish",
+      "staple": false,
+      "recipes": [
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice"
+      ]
+    },
+    {
+      "item": "chicken breast",
+      "qty": 750.0,
+      "exact": 734.4,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice"
+      ]
+    },
+    {
+      "item": "chicken thigh (boneless)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Dak Galbi with Cabbage & Sweet Potato"
+      ]
+    },
+    {
+      "item": "lean beef strips",
+      "qty": 600.0,
+      "exact": 550.8,
+      "unit": "g",
+      "aisle": "meat",
+      "staple": false,
+      "recipes": [
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi"
+      ]
+    },
+    {
+      "item": "eggs",
+      "qty": 72.0,
+      "exact": 64.26,
+      "unit": "pc",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea",
+        "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg"
+      ]
+    },
+    {
+      "item": "low-fat yoghurt (curd)",
+      "qty": 700.0,
+      "exact": 688.5,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg",
+        "Walnuts with Nashi Pear, Yoghurt & Barley Tea"
+      ]
+    },
+    {
+      "item": "tofu (firm)",
+      "qty": 4100.0,
+      "exact": 4039.2,
+      "unit": "g",
+      "aisle": "dairy",
+      "staple": false,
+      "recipes": [
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Kimchi with Warm Tofu Cubes & Green Tea",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "almonds",
+      "qty": 50.0,
+      "exact": 45.9,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Gun Goguma (roasted sweet potato) with Kimchi, Almonds & Barley Tea"
+      ]
+    },
+    {
+      "item": "brown rice",
+      "qty": 4000.0,
+      "exact": 3901.5,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "pearl barley",
+      "qty": 200.0,
+      "exact": 137.7,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae"
+      ]
+    },
+    {
+      "item": "rolled oats",
+      "qty": 200.0,
+      "exact": 160.65,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg"
+      ]
+    },
+    {
+      "item": "soba noodles",
+      "qty": 300.0,
+      "exact": 229.5,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber"
+      ]
+    },
+    {
+      "item": "walnuts",
+      "qty": 150.0,
+      "exact": 114.75,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg",
+        "Walnuts with Nashi Pear, Yoghurt & Barley Tea"
+      ]
+    },
+    {
+      "item": "white chickpeas (chana)",
+      "qty": 200.0,
+      "exact": 137.7,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Gochugaru Roasted Chickpeas with Green Tea"
+      ]
+    },
+    {
+      "item": "whole-wheat atta",
+      "qty": 200.0,
+      "exact": 183.6,
+      "unit": "g",
+      "aisle": "grains",
+      "staple": false,
+      "recipes": [
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato"
+      ]
+    },
+    {
+      "item": "kimchi",
+      "qty": 5800.0,
+      "exact": 5645.7,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Kimchi with Warm Tofu Cubes & Green Tea",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Gun Goguma (roasted sweet potato) with Kimchi, Almonds & Barley Tea",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "nori sheets",
+      "qty": 26.0,
+      "exact": 25.25,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Gim (roasted nori) with Edamame & Barley Tea",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea"
+      ]
+    },
+    {
+      "item": "tuna (canned in springwater)",
+      "qty": 190.0,
+      "exact": 160.65,
+      "unit": "g",
+      "aisle": "pantry",
+      "staple": false,
+      "recipes": [
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber"
+      ]
+    },
+    {
+      "item": "edamame (frozen)",
+      "qty": 500.0,
+      "exact": 459.0,
+      "unit": "g",
+      "aisle": "frozen",
+      "staple": false,
+      "recipes": [
+        "Gim (roasted nori) with Edamame & Barley Tea",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae"
+      ]
+    }
+  ],
+  "pantry": [
+    {
+      "item": "doenjang",
+      "qty": 15.5,
+      "exact": 15.28,
+      "unit": "tbsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "gochujang",
+      "qty": 5.0,
+      "exact": 4.54,
+      "unit": "tbsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Dak Galbi with Cabbage & Sweet Potato"
+      ]
+    },
+    {
+      "item": "green tea bags",
+      "qty": 14.0,
+      "exact": 13.77,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Kimchi with Warm Tofu Cubes & Green Tea",
+        "Gochugaru Roasted Chickpeas with Green Tea"
+      ]
+    },
+    {
+      "item": "rice bran oil",
+      "qty": 32.5,
+      "exact": 32.13,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Gochugaru Roasted Chickpeas with Green Tea"
+      ]
+    },
+    {
+      "item": "rice vinegar",
+      "qty": 37.0,
+      "exact": 36.72,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae"
+      ]
+    },
+    {
+      "item": "roasted barley tea bags",
+      "qty": 51.0,
+      "exact": 50.49,
+      "unit": "pc",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Gim (roasted nori) with Edamame & Barley Tea",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Gun Goguma (roasted sweet potato) with Kimchi, Almonds & Barley Tea",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea",
+        "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg",
+        "Walnuts with Nashi Pear, Yoghurt & Barley Tea"
+      ]
+    },
+    {
+      "item": "salt",
+      "qty": 14.0,
+      "exact": 14.0,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Gim (roasted nori) with Edamame & Barley Tea",
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Gochugaru Roasted Chickpeas with Green Tea",
+        "Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea",
+        "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice"
+      ]
+    },
+    {
+      "item": "sesame oil",
+      "qty": 60.0,
+      "exact": 59.67,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Gim (roasted nori) with Edamame & Barley Tea",
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Kimchi with Warm Tofu Cubes & Green Tea",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "sesame seeds",
+      "qty": 53.0,
+      "exact": 52.79,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Gim (roasted nori) with Edamame & Barley Tea",
+        "Dubu Kimchi (tofu & stir-fried kimchi) with Brown Rice",
+        "Cucumber & Daikon Quick Pickle with a Boiled Egg & Green Tea",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Kimchi with Warm Tofu Cubes & Green Tea",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Gochugaru Roasted Chickpeas with Green Tea",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Gyeran (boiled egg) with Sesame Salt, Veg Sticks & Barley Tea",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice"
+      ]
+    },
+    {
+      "item": "soy sauce (low-sodium)",
+      "qty": 62.0,
+      "exact": 61.97,
+      "unit": "tsp",
+      "aisle": "pantry",
+      "staple": true,
+      "recipes": [
+        "Gyeran Jjim & Brown Rice with Kimchi",
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Kimchi with Warm Tofu Cubes & Green Tea",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Gyeran Mari (rolled omelette) with Brown Rice & Kongnamul",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Godeungeo Gui (Grilled Mackerel) with Spinach Namul & Brown Rice",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    },
+    {
+      "item": "black pepper",
+      "qty": 4.0,
+      "exact": 3.9,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Bulgogi Lettuce Wraps with Brown Rice & Kimchi",
+        "Dak Juk (chicken & brown rice porridge) with Kimchi",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice"
+      ]
+    },
+    {
+      "item": "cinnamon stick",
+      "qty": 2.0,
+      "exact": 1.15,
+      "unit": "pc",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Cinnamon Oats with Nashi Pear, Walnuts & Yoghurt, plus a Boiled Egg"
+      ]
+    },
+    {
+      "item": "gochugaru (korean chilli flakes)",
+      "qty": 42.5,
+      "exact": 42.46,
+      "unit": "tsp",
+      "aisle": "spices",
+      "staple": true,
+      "recipes": [
+        "Dubu Jorim (Braised Tofu) with Bean Sprout Namul & Brown Rice",
+        "Ojingeo Bokkeum (Spicy Squid Stir-fry) with Brown Rice",
+        "Bibim Guksu (Spicy Cold Soba) with Egg, Tofu & Cucumber",
+        "Haemul Pajeon (Prawn & Spring Onion Pancake) with Salad & Roast Sweet Potato",
+        "Kimchi Guk with Tofu, Boiled Egg & Brown Rice",
+        "Small Doenjang Jjigae (tofu & zucchini) with Brown Rice & Egg",
+        "Saengseon Jjim (Soy-Ginger Steamed Fish) with Namul & Brown Rice",
+        "Saengseon Gui (Grilled Fish) with Kimchi, Namul & Brown Rice",
+        "Dak Galbi with Cabbage & Sweet Potato",
+        "Gochugaru Roasted Chickpeas with Green Tea",
+        "Dak Gaejang (Spicy Shredded Chicken Soup) with Bean Sprouts & Brown Rice",
+        "Chamchi Deopbap-lite (tuna & egg on brown rice) with Cucumber",
+        "Kongbap (Barley & Edamame Rice) with Doenjang Jjigae",
+        "Doenjang Jjigae with Tofu, Zucchini & Mushrooms",
+        "Mushroom & Tofu Jeongol (Hot Pot) with Brown Rice"
+      ]
+    }
+  ]
+}
