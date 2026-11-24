@@ -59,8 +59,9 @@ lunch recipe. Signature dishes of a cuisine carry a badge and a one-line note.
 
 Two jobs, no secrets in GitHub (ADR 0004):
 
-- **GitHub Actions** (`.github/workflows/weekly.yml`): Saturday 06:00 Melbourne, runs
-  `mealplan weekly --week next`, validates, and commits `plans/`, `shopping/` and `index.html`.
+- **GitHub Actions** (`.github/workflows/weekly.yml`): from Saturday 06:00 Melbourne through
+  Monday morning, every run does `mealplan weekly` for the week in progress and the week after
+  (planning only what is missing), validates, and commits `plans/`, `shopping/` and `index.html`.
   Pages serves the commit, and the kitchen tablet reloads itself within 15 minutes.
   Run it by hand from the repo's **Actions** tab ("Run workflow", with week/cuisine/salt/force) or
   with `gh workflow run weekly.yml -f cuisine=thai -f salt=1 -f force=true`.

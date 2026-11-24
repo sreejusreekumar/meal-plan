@@ -1,14 +1,13 @@
 name: Weekly plan
 
-# Plans next week on Saturday morning, Australia/Melbourne, and keeps the page fresh after that.
+# Keeps the week in progress AND the week after it planned and published, and the page fresh.
 # GitHub cron is UTC, has no DST, and scheduled runs start hours late or get dropped, so nothing
-# here depends on a run starting at a particular time. Every run is idempotent: it plans the
-# target week only if that plan is missing, rebuilds index.html, and commits only if something
-# changed. The target week comes from the Melbourne date when the run actually starts:
-#   Sat/Sun  -> the week starting the coming Monday (the normal Saturday plan, plus catch-ups)
-#   Mon-Fri  -> the week in progress (rebuilds the page after the Monday rollover, which changes
-#               the manifest's current/next; also plans the week if the whole weekend was missed)
-# The manual button (workflow_dispatch) uses its own inputs instead.
+# here depends on a run starting at a particular time. Every scheduled run is idempotent: for
+# both weeks it plans the week only if that plan is missing, rewrites the shopping list, rebuilds
+# index.html, and commits only if something changed. Both weeks come from the Melbourne date
+# when the run actually starts, so the first run after the Monday rollover plans the new "next"
+# week and flips the manifest's current/next.
+# The manual button (workflow_dispatch) plans the single week given in its inputs instead.
 on:
   schedule:
     - cron: "0 19 * * 5"   # Sat 06:00 AEDT
@@ -45,7 +44,7 @@ jobs:
   plan:
     runs-on: ubuntu-latest
     steps:
-      - name: Pick the target week from the Melbourne date (scheduled runs)
+      - name: Pick this week and next week from the Melbourne date (scheduled runs)
         id: target
         if: github.event_name == 'schedule'
         run: |
@@ -54,10 +53,12 @@ jobs:
           from zoneinfo import ZoneInfo
 
           today = datetime.now(ZoneInfo("Australia/Melbourne")).date()
-          ahead = {6: 2, 7: 1}.get(today.isoweekday(), 0)   # Sat/Sun -> the coming Monday
-          year, week, _ = (today + timedelta(days=ahead)).isocalendar()
+          weeks = []
+          for ahead in (0, 7):   # the week in progress first: it is history for the next one
+              year, week, _ = (today + timedelta(days=ahead)).isocalendar()
+              weeks.append(f"{year}-W{week:02d}")
           print(f"melbourne={today:%F}")
-          print(f"week={year}-W{week:02d}")
+          print(f"weeks={' '.join(weeks)}")
           PY
 
       - uses: actions/checkout@v4
@@ -71,15 +72,17 @@ jobs:
 
       - name: Plan, shop, build
         env:
-          WEEK: ${{ steps.target.outputs.week || github.event.inputs.week || 'next' }}
+          WEEKS: ${{ steps.target.outputs.weeks || github.event.inputs.week || 'next' }}
           CUISINE: ${{ github.event.inputs.cuisine }}
           SALT: ${{ github.event.inputs.salt || '0' }}
           FORCE: ${{ github.event.inputs.force }}
         run: |
-          args=(--week "$WEEK" --salt "$SALT")
-          [ -n "$CUISINE" ] && args+=(--cuisine "$CUISINE")
-          [ "$FORCE" = "true" ] && args+=(--force)
-          uv run mealplan weekly "${args[@]}"
+          for week in $WEEKS; do
+            args=(--week "$week" --salt "$SALT")
+            [ -n "$CUISINE" ] && args+=(--cuisine "$CUISINE")
+            [ "$FORCE" = "true" ] && args+=(--force)
+            uv run mealplan weekly "${args[@]}"
+          done
           uv run mealplan validate
           uv run mealplan build --check
 
